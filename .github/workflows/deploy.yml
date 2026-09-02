@@ -31,6 +31,7 @@ jobs:
           repository: bobzap66/inner-sea-region-vault
           path: content
           fetch-depth: 0
+          token: ${{ secrets.VAULT_TOKEN }}
 
       - name: Setup Node
         uses: actions/setup-node@v4
@@ -67,3 +68,4 @@ jobs:
       - name: Deploy to GitHub Pages
         id: deployment
         uses: actions/deploy-pages@v4
+
