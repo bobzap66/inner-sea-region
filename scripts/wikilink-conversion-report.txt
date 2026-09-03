@@ -1,10 +1,7 @@
 Wikilink conversion report
 ==========================
-Markdown files changed: 16
-Wikilinks converted: 16
-Wikilinks left unchanged: 4
+Markdown files changed: 0
+Wikilinks converted: 0
+Wikilinks left unchanged: 0
 
-AMBIGUOUS: content/Groups/Aldori Swordlords.md :: [[Inner Sea Region]]
-AMBIGUOUS: content/Campaigns/Kingmaker/NPCs/Jubilost Narthropple.md :: [[Inner Sea Region]]
-UNRESOLVED: content/Campaigns/Kingmaker/Vignettes - Kingmaker/Moments/The Night the Light Fought Back.md :: [[Candlemere]]
-UNRESOLVED: content/Campaigns/Kingmaker/Vignettes - Kingmaker/Intelligence Reports/Wild Hunt Council Briefing.md :: [[Candlemere]]
+No ambiguous, unresolved, or unsupported wikilinks remain in processed Markdown bodies.
