@@ -14,6 +14,39 @@
   background: color-mix(in srgb, var(--light) 94%, black 6%);
 }
 
+.golarion-calendar-filterbar {
+  display: flex;
+  gap: 0.6rem;
+  align-items: center;
+  padding: 0.7rem 0.85rem;
+  border-bottom: 1px solid var(--isr-rule, var(--lightgray));
+  background: color-mix(in srgb, var(--light) 88%, var(--lightgray) 12%);
+}
+
+.golarion-calendar-filterbar label {
+  color: var(--gray);
+  font-size: 0.72rem;
+  font-weight: 700;
+  letter-spacing: 0.08em;
+  text-transform: uppercase;
+}
+
+.golarion-calendar-filterbar select {
+  min-height: 2.2rem;
+  padding: 0.3rem 2rem 0.3rem 0.55rem;
+  border: 1px solid var(--isr-rule, var(--lightgray));
+  border-radius: 0.35rem;
+  background: var(--light);
+  color: var(--dark);
+  font: inherit;
+}
+
+.golarion-calendar-filter-note {
+  margin-left: auto;
+  color: var(--gray);
+  font-size: 0.76rem;
+}
+
 .golarion-calendar-toolbar {
   display: grid;
   grid-template-columns: auto auto 1fr auto auto auto;
@@ -35,9 +68,14 @@
   cursor: pointer;
 }
 
-.golarion-calendar-toolbar button:hover {
+.golarion-calendar-toolbar button:hover:not(:disabled) {
   border-color: var(--tertiary);
   color: var(--tertiary);
+}
+
+.golarion-calendar-toolbar button:disabled {
+  opacity: 0.5;
+  cursor: default;
 }
 
 .golarion-calendar-heading {
@@ -144,6 +182,10 @@
   text-align: center;
 }
 
+.golarion-calendar-day.has-holiday .golarion-calendar-event-count {
+  background: var(--secondary);
+}
+
 .golarion-calendar-day-events {
   display: grid;
   gap: 0.25rem;
@@ -159,6 +201,11 @@
   font-size: 0.72rem;
   line-height: 1.25;
   text-overflow: ellipsis;
+}
+
+.golarion-calendar-day-events span.is-holiday {
+  border-left-color: var(--secondary);
+  background: color-mix(in srgb, var(--secondary) 10%, var(--light) 90%);
 }
 
 .golarion-calendar-details {
@@ -181,13 +228,24 @@
 }
 
 .golarion-calendar-details li + li {
-  margin-top: 0.4rem;
+  margin-top: 0.6rem;
 }
 
 .golarion-calendar-details li span {
   display: block;
   color: var(--gray);
   font-size: 0.78rem;
+}
+
+.golarion-calendar-details li p {
+  margin-top: 0.2rem;
+  color: var(--darkgray);
+  font-size: 0.85rem;
+  line-height: 1.45;
+}
+
+.golarion-calendar-details li.is-holiday > strong {
+  color: var(--secondary);
 }
 
 .golarion-calendar-error {
@@ -197,6 +255,15 @@
 }
 
 @media (max-width: 760px) {
+  .golarion-calendar-filterbar {
+    align-items: stretch;
+    flex-direction: column;
+  }
+
+  .golarion-calendar-filter-note {
+    margin-left: 0;
+  }
+
   .golarion-calendar-toolbar {
     grid-template-columns: auto auto 1fr auto auto;
   }
