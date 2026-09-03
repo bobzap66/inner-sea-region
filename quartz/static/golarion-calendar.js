@@ -174,13 +174,13 @@
           .join("")
         const focusLabel =
           filter === "all"
-            ? "Today on Golarion"
+            ? "Today"
             : campaignForFilter()?.currentDate
               ? "Current campaign date"
               : "No current date set"
 
         root.innerHTML = `
-          <section class="golarion-calendar-shell" aria-label="Calendar of Golarion">
+          <section class="golarion-calendar-shell" aria-label="Golarion Calendar">
             <div class="golarion-calendar-filterbar">
               <label for="golarion-campaign-filter">Campaign</label>
               <select id="golarion-campaign-filter">
@@ -329,9 +329,9 @@
         : '<p class="golarion-today-empty">No anniversaries are recorded today.</p>'
 
       root.innerHTML = `
-        <section class="golarion-today-shell" aria-label="Today on Golarion">
+        <section class="golarion-today-shell" aria-label="On This Date in History">
           <header class="golarion-today-heading">
-            <span>Today on Golarion</span>
+            <span>On This Date in History</span>
             <h2>${escapeHtml(data.months[today.month])} ${today.day}, ${today.year} AR</h2>
           </header>
           <div class="golarion-today-section">
@@ -345,7 +345,7 @@
         </section>
       `
     } catch (error) {
-      console.error("Failed to load Today on Golarion", error)
+      console.error("Failed to load On This Date in History", error)
       root.innerHTML =
         '<p class="golarion-calendar-error">Today\'s Golarion events could not be loaded.</p>'
     }

@@ -3,7 +3,7 @@ import { readFile } from "node:fs/promises"
 import test from "node:test"
 import vm from "node:vm"
 
-test("Today on Golarion renders holidays and deduplicated anniversaries", async () => {
+test("On This Date in History renders holidays and deduplicated anniversaries", async () => {
   const root = { dataset: {}, innerHTML: "" }
   const source = await readFile(
     new URL("../quartz/static/golarion-calendar.js", import.meta.url),
@@ -66,7 +66,7 @@ test("Today on Golarion renders holidays and deduplicated anniversaries", async 
   const context = {
     console,
     Date: FixedDate,
-    location: { pathname: "/inner-sea-region/today-on-golarion" },
+    location: { pathname: "/inner-sea-region/on-this-date-in-history" },
     fetch: async () => ({ ok: true, json: async () => data }),
     document: {
       readyState: "complete",
@@ -81,6 +81,7 @@ test("Today on Golarion renders holidays and deduplicated anniversaries", async 
   await new Promise((resolve) => setImmediate(resolve))
 
   assert.match(root.innerHTML, /Rova 3, 4726 AR/)
+  assert.match(root.innerHTML, /On This Date in History/)
   assert.match(root.innerHTML, /Test Feast/)
   assert.match(root.innerHTML, /A Historic Event/)
   assert.match(root.innerHTML, /5 years ago/)
