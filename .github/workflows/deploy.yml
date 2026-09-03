@@ -1,6 +1,9 @@
 name: Deploy Quartz site to GitHub Pages
 
 on:
+  repository_dispatch:
+    types:
+      - vault-updated
   push:
     branches:
       - main
