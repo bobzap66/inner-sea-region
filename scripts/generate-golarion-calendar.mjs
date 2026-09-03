@@ -1,5 +1,6 @@
 import { promises as fs } from "node:fs"
 import path from "node:path"
+import { simplifySlug, slugifyFilePath } from "@quartz-community/utils"
 import YAML from "yaml"
 
 const CONTENT_ROOT = path.resolve("content")
@@ -8,23 +9,24 @@ const PUBLIC_OUTPUT = path.resolve("public/static/golarion-events.json")
 const CALENDARIUM_DATA = path.resolve("content/.obsidian/plugins/calendarium/data.json")
 const CALENDAR_NAME = "Calendar of Golarion"
 const MONTHS = [
-  "Abadius", "Calistril", "Pharast", "Gozran", "Desnus", "Sarenith",
-  "Erastus", "Arodus", "Rova", "Lamashan", "Neth", "Kuthona",
+  "Abadius",
+  "Calistril",
+  "Pharast",
+  "Gozran",
+  "Desnus",
+  "Sarenith",
+  "Erastus",
+  "Arodus",
+  "Rova",
+  "Lamashan",
+  "Neth",
+  "Kuthona",
 ]
 const WEEKDAYS = ["Moonday", "Toilday", "Wealday", "Oathday", "Fireday", "Starday", "Sunday"]
 
-function slugifySegment(segment) {
-  return segment
-    .normalize("NFKD")
-    .replace(/[’']/g, "")
-    .replace(/[^\p{L}\p{N}]+/gu, "-")
-    .replace(/^-+|-+$/g, "")
-    .toLowerCase()
-}
-
 function sourceSlug(file) {
   const rel = path.relative(CONTENT_ROOT, file).replace(/\\/g, "/").replace(/\.md$/i, "")
-  return rel.split("/").map(slugifySegment).filter(Boolean).join("/")
+  return simplifySlug(slugifyFilePath(`${rel}.md`))
 }
 
 async function walk(dir) {
@@ -100,7 +102,12 @@ async function readHolidays() {
     const calendar = raw.calendars?.find((item) => item.name === CALENDAR_NAME)
     if (!calendar) return []
     return (calendar.events ?? [])
-      .filter((event) => event.type === "Recurring" && Number.isInteger(event.date?.month) && Number.isInteger(event.date?.day))
+      .filter(
+        (event) =>
+          event.type === "Recurring" &&
+          Number.isInteger(event.date?.month) &&
+          Number.isInteger(event.date?.day),
+      )
       .map((event) => ({
         name: event.name,
         description: event.description || "",
@@ -141,8 +148,8 @@ for (const file of files) {
   }
 }
 
-events.sort((a, b) =>
-  a.year - b.year || a.month - b.month || a.day - b.day || a.name.localeCompare(b.name),
+events.sort(
+  (a, b) => a.year - b.year || a.month - b.month || a.day - b.day || a.name.localeCompare(b.name),
 )
 
 const payload = {
@@ -161,4 +168,6 @@ for (const target of [STATIC_OUTPUT, PUBLIC_OUTPUT]) {
   await fs.mkdir(path.dirname(target), { recursive: true })
   await fs.writeFile(target, output, "utf8")
 }
-console.log(`Generated ${events.length} campaign events, ${payload.holidays.length} holidays, and ${payload.campaigns.length} campaigns`)
+console.log(
+  `Generated ${events.length} campaign events, ${payload.holidays.length} holidays, and ${payload.campaigns.length} campaigns`,
+)

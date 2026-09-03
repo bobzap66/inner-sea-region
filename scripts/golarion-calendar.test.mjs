@@ -2,6 +2,14 @@ import assert from "node:assert/strict"
 import { readFile } from "node:fs/promises"
 import test from "node:test"
 import vm from "node:vm"
+import { simplifySlug, slugifyFilePath } from "@quartz-community/utils"
+
+test("Quartz source slugs preserve separate filename separators", () => {
+  const slug = simplifySlug(
+    slugifyFilePath("Campaigns/Kingmaker/Session Reports 21-40/Session 29- Aftermath.md"),
+  )
+  assert.equal(slug, "campaigns/kingmaker/session-reports-21-40/session-29--aftermath")
+})
 
 test("On This Date in History renders holidays and deduplicated anniversaries", async () => {
   const root = { dataset: {}, innerHTML: "" }
