@@ -1,0 +1,62 @@
+[
+  {
+    "settlement": "Thumpington",
+    "old_path": "Settlements/Thumpington.md",
+    "new_path": "Settlements/Thumping Waters/Thumpington.md"
+  },
+  {
+    "settlement": "Varnhold",
+    "old_path": "Settlements/Varnhold.md",
+    "new_path": "Settlements/Thumping Waters/Varnhold.md"
+  },
+  {
+    "settlement": "Fort Serenko",
+    "old_path": "Settlements/Fort Serenko.md",
+    "new_path": "Settlements/Thumping Waters/Fort Serenko.md"
+  },
+  {
+    "settlement": "Fort Tuskwater",
+    "old_path": "Settlements/Fort Tuskwater.md",
+    "new_path": "Settlements/Thumping Waters/Fort Tuskwater.md"
+  },
+  {
+    "settlement": "Greengripe",
+    "old_path": "Settlements/Greengripe.md",
+    "new_path": "Settlements/Thumping Waters/Greengripe.md"
+  },
+  {
+    "settlement": "Longtail Island",
+    "old_path": "Settlements/Longtail Island.md",
+    "new_path": "Settlements/Thumping Waters/Longtail Island.md"
+  },
+  {
+    "settlement": "Olegton",
+    "old_path": "Settlements/Olegton.md",
+    "new_path": "Settlements/Thumping Waters/Olegton.md"
+  },
+  {
+    "settlement": "Sootscale Valley",
+    "old_path": "Settlements/Sootscale Valley.md",
+    "new_path": "Settlements/Thumping Waters/Sootscale Valley.md"
+  },
+  {
+    "settlement": "Tatzlford",
+    "old_path": "Settlements/Tatzlford.md",
+    "new_path": "Settlements/Thumping Waters/Tatzlford.md"
+  },
+  {
+    "settlement": "Tok-Nikrat",
+    "old_path": "Settlements/Tok-Nikrat.md",
+    "new_path": "Settlements/Thumping Waters/Tok-Nikrat.md"
+  },
+  {
+    "settlement": "Willowfen",
+    "old_path": "Settlements/Willowfen.md",
+    "new_path": "Settlements/Thumping Waters/Willowfen.md"
+  },
+  {
+    "settlement": "Embeth Hall",
+    "old_path": "Settlements/Embeth Hall.md",
+    "new_path": "Settlements/Thumping Waters/Embeth Hall.md"
+  }
+]

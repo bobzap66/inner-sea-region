@@ -1,4 +1,4 @@
-﻿import { i18n } from "../i18n"
+import { i18n } from "../i18n"
 import { FullSlug, getFileExtension, joinSegments, pathToRoot } from "../util/path"
 import { CSSResourceToStyleElement, JSResourceToScriptElement } from "../util/resources"
 import { googleFontHref, googleFontSubsetHref } from "../util/theme"
@@ -26,6 +26,7 @@ export default (() => {
     const path = url.pathname as FullSlug
     const baseDir = fileData.slug === "404" ? path : pathToRoot(fileData.slug!)
     const iconPath = joinSegments(baseDir, "static/icon.png")
+    const coverPath = joinSegments(baseDir, "static/shared-cover-b546a0d5ac5e.png")
 
     // Url of current page
     const socialUrl =
@@ -266,6 +267,52 @@ export default (() => {
         />
         {/* END INNER SEA REGION TRUE SIDEBAR BRIDGE */}
 
+        {/* INNER SEA REGION GLOBAL PAGE COVER */}
+        <script
+          dangerouslySetInnerHTML={{
+            __html: `
+(() => {
+  const coverPath =
+    location.hostname === "localhost" || location.hostname === "127.0.0.1"
+      ? "/static/shared-cover-b546a0d5ac5e.png"
+      : "/inner-sea-region/static/shared-cover-b546a0d5ac5e.png"
+
+  const installGlobalCover = () => {
+    const center = document.querySelector(".center")
+    if (!center) return
+
+    let cover = center.querySelector(":scope > .global-page-cover")
+    if (cover) {
+      const existingImage = cover.querySelector("img")
+      if (existingImage) existingImage.src = coverPath
+      return
+    }
+
+    cover = document.createElement("div")
+    cover.className = "global-page-cover"
+    cover.setAttribute("data-no-lightbox", "true")
+
+    const image = document.createElement("img")
+    image.src = coverPath
+    image.alt = ""
+    image.setAttribute("aria-hidden", "true")
+
+    cover.appendChild(image)
+    center.prepend(cover)
+  }
+
+  document.addEventListener("nav", installGlobalCover)
+
+  if (document.readyState === "loading") {
+    document.addEventListener("DOMContentLoaded", installGlobalCover, { once: true })
+  } else {
+    installGlobalCover()
+  }
+})()
+`,
+          }}
+        />
+        {/* END INNER SEA REGION GLOBAL PAGE COVER */}
         {css.map((resource) => CSSResourceToStyleElement(resource, true))}
         {js
           .filter((resource) => resource.loadTime === "beforeDOMReady")

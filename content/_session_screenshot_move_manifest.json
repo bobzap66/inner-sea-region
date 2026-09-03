@@ -1,0 +1,686 @@
+[
+  {
+    "session": 0,
+    "folder": "Session 00 - Party Time Image",
+    "old_path": "assets/world-anvil/session-0-party-time-image-01.png",
+    "new_path": "assets/world-anvil/screenshots/Session 00 - Party Time Image/session-0-party-time-image-01.png"
+  },
+  {
+    "session": 1,
+    "folder": "Session 01 - A Time to Kill Image",
+    "old_path": "assets/world-anvil/session-01-a-time-to-kill-image-01.png",
+    "new_path": "assets/world-anvil/screenshots/Session 01 - A Time to Kill Image/session-01-a-time-to-kill-image-01.png"
+  },
+  {
+    "session": 2,
+    "folder": "Session 02 - Go West Young Heroes Image",
+    "old_path": "assets/world-anvil/session-02-go-west-young-heroes-image-01.png",
+    "new_path": "assets/world-anvil/screenshots/Session 02 - Go West Young Heroes Image/session-02-go-west-young-heroes-image-01.png"
+  },
+  {
+    "session": 2,
+    "folder": "Session 02 - Go West Young Heroes Image",
+    "old_path": "assets/world-anvil/session-02-go-west-young-heroes-image-02.png",
+    "new_path": "assets/world-anvil/screenshots/Session 02 - Go West Young Heroes Image/session-02-go-west-young-heroes-image-02.png"
+  },
+  {
+    "session": 3,
+    "folder": "Session 03 - Big Trouble at Little Oleg S Image",
+    "old_path": "assets/world-anvil/session-03-big-trouble-at-little-oleg-s-image-01.png",
+    "new_path": "assets/world-anvil/screenshots/Session 03 - Big Trouble at Little Oleg S Image/session-03-big-trouble-at-little-oleg-s-image-01.png"
+  },
+  {
+    "session": 4,
+    "folder": "Session 04 - Noknok Arrives Image",
+    "old_path": "assets/world-anvil/session-04-noknok-arrives-image-01.png",
+    "new_path": "assets/world-anvil/screenshots/Session 04 - Noknok Arrives Image/session-04-noknok-arrives-image-01.png"
+  },
+  {
+    "session": 5,
+    "folder": "Session 05 - Finishing the Old Sycamore Image",
+    "old_path": "assets/world-anvil/session-05-finishing-the-old-sycamore-image-01.png",
+    "new_path": "assets/world-anvil/screenshots/Session 05 - Finishing the Old Sycamore Image/session-05-finishing-the-old-sycamore-image-01.png"
+  },
+  {
+    "session": 7,
+    "folder": "Session 07",
+    "old_path": "assets/world-anvil/session-7-13.png",
+    "new_path": "assets/world-anvil/screenshots/Session 07/session-7-13.png"
+  },
+  {
+    "session": 8,
+    "folder": "Session 08",
+    "old_path": "assets/world-anvil/session-8-17.png",
+    "new_path": "assets/world-anvil/screenshots/Session 08/session-8-17.png"
+  },
+  {
+    "session": 9,
+    "folder": "Session 09",
+    "old_path": "assets/world-anvil/session-9-10.png",
+    "new_path": "assets/world-anvil/screenshots/Session 09/session-9-10.png"
+  },
+  {
+    "session": 10,
+    "folder": "Session 10 - Founding Day 3 a Good Day to Found Hard",
+    "old_path": "assets/world-anvil/session-10-founding-day-3-a-good-day-to-found-hard-08.png",
+    "new_path": "assets/world-anvil/screenshots/Session 10 - Founding Day 3 a Good Day to Found Hard/session-10-founding-day-3-a-good-day-to-found-hard-08.png"
+  },
+  {
+    "session": 11,
+    "folder": "Session 11 - Explore Report Rule",
+    "old_path": "assets/world-anvil/session-11-explore-report-rule-01.png",
+    "new_path": "assets/world-anvil/screenshots/Session 11 - Explore Report Rule/session-11-explore-report-rule-01.png"
+  },
+  {
+    "session": 12,
+    "folder": "Session 12 - Kingdom Mysteries",
+    "old_path": "assets/world-anvil/session-12-kingdom-mysteries-01.png",
+    "new_path": "assets/world-anvil/screenshots/Session 12 - Kingdom Mysteries/session-12-kingdom-mysteries-01.png"
+  },
+  {
+    "session": 13,
+    "folder": "Session 13 - The Depths of Candlemere Island",
+    "old_path": "assets/world-anvil/session-13-the-depths-of-candlemere-island-23.png",
+    "new_path": "assets/world-anvil/screenshots/Session 13 - The Depths of Candlemere Island/session-13-the-depths-of-candlemere-island-23.png"
+  },
+  {
+    "session": 14,
+    "folder": "Session 14 - Love Hurts",
+    "old_path": "assets/world-anvil/session-14-love-hurts-10.png",
+    "new_path": "assets/world-anvil/screenshots/Session 14 - Love Hurts/session-14-love-hurts-10.png"
+  },
+  {
+    "session": 15,
+    "folder": "Session 15 - Anatomically Correct Barghest",
+    "old_path": "assets/world-anvil/session-15-anatomically-correct-barghest-10.png",
+    "new_path": "assets/world-anvil/screenshots/Session 15 - Anatomically Correct Barghest/session-15-anatomically-correct-barghest-10.png"
+  },
+  {
+    "session": 16,
+    "folder": "Session 16 - Death to All Who Oppose Us",
+    "old_path": "assets/world-anvil/session-16-death-to-all-who-oppose-us-10.png",
+    "new_path": "assets/world-anvil/screenshots/Session 16 - Death to All Who Oppose Us/session-16-death-to-all-who-oppose-us-10.png"
+  },
+  {
+    "session": 17,
+    "folder": "Session 17 - Corruption in the Capitol",
+    "old_path": "assets/world-anvil/session-17-corruption-in-the-capitol-06.png",
+    "new_path": "assets/world-anvil/screenshots/Session 17 - Corruption in the Capitol/session-17-corruption-in-the-capitol-06.png"
+  },
+  {
+    "session": 18,
+    "folder": "Session 18 - I M Sailing Away",
+    "old_path": "assets/world-anvil/session-18-i-m-sailing-away-10.png",
+    "new_path": "assets/world-anvil/screenshots/Session 18 - I M Sailing Away/session-18-i-m-sailing-away-10.png"
+  },
+  {
+    "session": 19,
+    "folder": "Session 19 - The Kobolds the Iruxi and the Trolls",
+    "old_path": "assets/world-anvil/session-19-the-kobolds-the-iruxi-and-the-trolls-17.png",
+    "new_path": "assets/world-anvil/screenshots/Session 19 - The Kobolds the Iruxi and the Trolls/session-19-the-kobolds-the-iruxi-and-the-trolls-17.png"
+  },
+  {
+    "session": 20,
+    "folder": "Session 20 - The Beast",
+    "old_path": "assets/world-anvil/session-20-the-beast-18.png",
+    "new_path": "assets/world-anvil/screenshots/Session 20 - The Beast/session-20-the-beast-18.png"
+  },
+  {
+    "session": 21,
+    "folder": "Session 21 - Rebuilding",
+    "old_path": "assets/world-anvil/session-21-rebuilding-10.png",
+    "new_path": "assets/world-anvil/screenshots/Session 21 - Rebuilding/session-21-rebuilding-10.png"
+  },
+  {
+    "session": 22,
+    "folder": "Session 22 - The Mystery of the Missing Money",
+    "old_path": "assets/world-anvil/session-22-the-mystery-of-the-missing-money-14.png",
+    "new_path": "assets/world-anvil/screenshots/Session 22 - The Mystery of the Missing Money/session-22-the-mystery-of-the-missing-money-14.png"
+  },
+  {
+    "session": 23,
+    "folder": "Session 23 - Growth",
+    "old_path": "assets/world-anvil/session-23-growth-11.png",
+    "new_path": "assets/world-anvil/screenshots/Session 23 - Growth/session-23-growth-11.png"
+  },
+  {
+    "session": 24,
+    "folder": "Session 24 - Visit to Varnhold",
+    "old_path": "assets/world-anvil/session-24-visit-to-varnhold-03.png",
+    "new_path": "assets/world-anvil/screenshots/Session 24 - Visit to Varnhold/session-24-visit-to-varnhold-03.png"
+  },
+  {
+    "session": 25,
+    "folder": "Session 25 - The Hunt Begins",
+    "old_path": "assets/world-anvil/session-25-the-hunt-begins-10.png",
+    "new_path": "assets/world-anvil/screenshots/Session 25 - The Hunt Begins/session-25-the-hunt-begins-10.png"
+  },
+  {
+    "session": 26,
+    "folder": "Session 26 - The Bloom",
+    "old_path": "assets/world-anvil/session-26-the-bloom-07.png",
+    "new_path": "assets/world-anvil/screenshots/Session 26 - The Bloom/session-26-the-bloom-07.png"
+  },
+  {
+    "session": 27,
+    "folder": "Session 27 - The Inconsequent Debates",
+    "old_path": "assets/world-anvil/session-27-the-inconsequent-debates-15.png",
+    "new_path": "assets/world-anvil/screenshots/Session 27 - The Inconsequent Debates/session-27-the-inconsequent-debates-15.png"
+  },
+  {
+    "session": 28,
+    "folder": "Session 28 - Source of the Bloom",
+    "old_path": "assets/world-anvil/session-28-source-of-the-bloom-20.png",
+    "new_path": "assets/world-anvil/screenshots/Session 28 - Source of the Bloom/session-28-source-of-the-bloom-20.png"
+  },
+  {
+    "session": 29,
+    "folder": "Session 29 - Aftermath",
+    "old_path": "assets/world-anvil/session-29-aftermath-11.png",
+    "new_path": "assets/world-anvil/screenshots/Session 29 - Aftermath/session-29-aftermath-11.png"
+  },
+  {
+    "session": 30,
+    "folder": "Session 30 - Valerie S Victory",
+    "old_path": "assets/world-anvil/session-30-valerie-s-victory-11.png",
+    "new_path": "assets/world-anvil/screenshots/Session 30 - Valerie S Victory/session-30-valerie-s-victory-11.png"
+  },
+  {
+    "session": 31,
+    "folder": "Session 31 - Varnhold Vanishing",
+    "old_path": "assets/world-anvil/session-31-varnhold-vanishing-11.png",
+    "new_path": "assets/world-anvil/screenshots/Session 31 - Varnhold Vanishing/session-31-varnhold-vanishing-11.png"
+  },
+  {
+    "session": 32,
+    "folder": "Session 32 - Blockhouse Assault",
+    "old_path": "assets/world-anvil/session-32-blockhouse-assault-29.png",
+    "new_path": "assets/world-anvil/screenshots/Session 32 - Blockhouse Assault/session-32-blockhouse-assault-29.png"
+  },
+  {
+    "session": 33,
+    "folder": "Session 33 - Blockhouse Assault Cracking the Fortress",
+    "old_path": "assets/world-anvil/session-33-blockhouse-assault-cracking-the-fortress-15.png",
+    "new_path": "assets/world-anvil/screenshots/Session 33 - Blockhouse Assault Cracking the Fortress/session-33-blockhouse-assault-cracking-the-fortress-15.png"
+  },
+  {
+    "session": 34,
+    "folder": "Session 34 - Into the Valley of Death",
+    "old_path": "assets/world-anvil/session-34-into-the-valley-of-death-11.png",
+    "new_path": "assets/world-anvil/screenshots/Session 34 - Into the Valley of Death/session-34-into-the-valley-of-death-11.png"
+  },
+  {
+    "session": 35,
+    "folder": "Session 35 - Into Vordakai S Tomb",
+    "old_path": "assets/world-anvil/session-35-into-vordakai-s-tomb-17.png",
+    "new_path": "assets/world-anvil/screenshots/Session 35 - Into Vordakai S Tomb/session-35-into-vordakai-s-tomb-17.png"
+  },
+  {
+    "session": 36,
+    "folder": "Session 36 - Vordakai S End",
+    "old_path": "assets/world-anvil/session-36-vordakai-s-end-16.png",
+    "new_path": "assets/world-anvil/screenshots/Session 36 - Vordakai S End/session-36-vordakai-s-end-16.png"
+  },
+  {
+    "session": 36,
+    "folder": "Session 36 - Vordakai S End",
+    "old_path": "assets/world-anvil/session-36-vordakai-s-end-17.png",
+    "new_path": "assets/world-anvil/screenshots/Session 36 - Vordakai S End/session-36-vordakai-s-end-17.png"
+  },
+  {
+    "session": 37,
+    "folder": "Session 37 - A Year of Peace",
+    "old_path": "assets/world-anvil/session-37-a-year-of-peace-13.png",
+    "new_path": "assets/world-anvil/screenshots/Session 37 - A Year of Peace/session-37-a-year-of-peace-13.png"
+  },
+  {
+    "session": 38,
+    "folder": "Session 38 - The Fall of M Botuu",
+    "old_path": "assets/world-anvil/session-38-the-fall-of-m-botuu-29.png",
+    "new_path": "assets/world-anvil/screenshots/Session 38 - The Fall of M Botuu/session-38-the-fall-of-m-botuu-29.png"
+  },
+  {
+    "session": 39,
+    "folder": "Session 39 - The Fall of Talon Peak",
+    "old_path": "assets/world-anvil/session-39-the-fall-of-talon-peak-37.png",
+    "new_path": "assets/world-anvil/screenshots/Session 39 - The Fall of Talon Peak/session-39-the-fall-of-talon-peak-37.png"
+  },
+  {
+    "session": 40,
+    "folder": "Session 40 - Back into the Slough",
+    "old_path": "assets/world-anvil/session-40-back-into-the-slough-24.png",
+    "new_path": "assets/world-anvil/screenshots/Session 40 - Back into the Slough/session-40-back-into-the-slough-24.png"
+  },
+  {
+    "session": 41,
+    "folder": "Session 41 - The Seige of Tatzlford",
+    "old_path": "assets/world-anvil/session-41-the-seige-of-tatzlford-11.png",
+    "new_path": "assets/world-anvil/screenshots/Session 41 - The Seige of Tatzlford/session-41-the-seige-of-tatzlford-11.png"
+  },
+  {
+    "session": 42,
+    "folder": "Session 42 - The Fire Beneath Drelev",
+    "old_path": "assets/world-anvil/session-42-the-fire-beneath-drelev-34.png",
+    "new_path": "assets/world-anvil/screenshots/Session 42 - The Fire Beneath Drelev/session-42-the-fire-beneath-drelev-34.png"
+  },
+  {
+    "session": 43,
+    "folder": "Session 43 - The Fall of Fort Drelev",
+    "old_path": "assets/world-anvil/session-43-the-fall-of-fort-drelev-49.png",
+    "new_path": "assets/world-anvil/screenshots/Session 43 - The Fall of Fort Drelev/session-43-the-fall-of-fort-drelev-49.png"
+  },
+  {
+    "session": 44,
+    "folder": "Session 44 - Blood Oaths and Broken Chains",
+    "old_path": "assets/world-anvil/session-44-blood-oaths-and-broken-chains-31.png",
+    "new_path": "assets/world-anvil/screenshots/Session 44 - Blood Oaths and Broken Chains/session-44-blood-oaths-and-broken-chains-31.png"
+  },
+  {
+    "session": 45,
+    "folder": "Session 45 - Armag S Tomb Raiders",
+    "old_path": "assets/world-anvil/session-45-armag-s-tomb-raiders-57.png",
+    "new_path": "assets/world-anvil/screenshots/Session 45 - Armag S Tomb Raiders/session-45-armag-s-tomb-raiders-57.png"
+  },
+  {
+    "session": 46,
+    "folder": "Session 46 - The Cleansing Lie",
+    "old_path": "assets/world-anvil/session-46-the-cleansing-lie-32.png",
+    "new_path": "assets/world-anvil/screenshots/Session 46 - The Cleansing Lie/session-46-the-cleansing-lie-32.png"
+  },
+  {
+    "session": 47,
+    "folder": "Session 47 - Faithful S End and Expansion",
+    "old_path": "assets/world-anvil/session-47-faithful-s-end-and-expansion-27.png",
+    "new_path": "assets/world-anvil/screenshots/Session 47 - Faithful S End and Expansion/session-47-faithful-s-end-and-expansion-27.png"
+  },
+  {
+    "session": 48,
+    "folder": "Session 48 - Finishing the Job for Hannis",
+    "old_path": "assets/world-anvil/session-48-finishing-the-job-for-hannis-43.png",
+    "new_path": "assets/world-anvil/screenshots/Session 48 - Finishing the Job for Hannis/session-48-finishing-the-job-for-hannis-43.png"
+  },
+  {
+    "session": 48,
+    "folder": "Session 48 - Finishing the Job for Hannis",
+    "old_path": "assets/world-anvil/session-48-finishing-the-job-for-hannis-44.png",
+    "new_path": "assets/world-anvil/screenshots/Session 48 - Finishing the Job for Hannis/session-48-finishing-the-job-for-hannis-44.png"
+  },
+  {
+    "session": 48,
+    "folder": "Session 48 - Finishing the Job for Hannis",
+    "old_path": "assets/world-anvil/session-48-finishing-the-job-for-hannis-45.png",
+    "new_path": "assets/world-anvil/screenshots/Session 48 - Finishing the Job for Hannis/session-48-finishing-the-job-for-hannis-45.png"
+  },
+  {
+    "session": 48,
+    "folder": "Session 48 - Finishing the Job for Hannis",
+    "old_path": "assets/world-anvil/session-48-finishing-the-job-for-hannis-46.png",
+    "new_path": "assets/world-anvil/screenshots/Session 48 - Finishing the Job for Hannis/session-48-finishing-the-job-for-hannis-46.png"
+  },
+  {
+    "session": 48,
+    "folder": "Session 48 - Finishing the Job for Hannis",
+    "old_path": "assets/world-anvil/session-48-finishing-the-job-for-hannis-47.png",
+    "new_path": "assets/world-anvil/screenshots/Session 48 - Finishing the Job for Hannis/session-48-finishing-the-job-for-hannis-47.png"
+  },
+  {
+    "session": 49,
+    "folder": "Session 49 - The Rushlight Begins Image",
+    "old_path": "assets/world-anvil/session-49-the-rushlight-begins-image-01.png",
+    "new_path": "assets/world-anvil/screenshots/Session 49 - The Rushlight Begins Image/session-49-the-rushlight-begins-image-01.png"
+  },
+  {
+    "session": 49,
+    "folder": "Session 49 - The Rushlight Begins Image",
+    "old_path": "assets/world-anvil/session-49-the-rushlight-begins-image-02.png",
+    "new_path": "assets/world-anvil/screenshots/Session 49 - The Rushlight Begins Image/session-49-the-rushlight-begins-image-02.png"
+  },
+  {
+    "session": 49,
+    "folder": "Session 49 - The Rushlight Begins Image",
+    "old_path": "assets/world-anvil/session-49-the-rushlight-begins-image-03.png",
+    "new_path": "assets/world-anvil/screenshots/Session 49 - The Rushlight Begins Image/session-49-the-rushlight-begins-image-03.png"
+  },
+  {
+    "session": 49,
+    "folder": "Session 49 - The Rushlight Begins",
+    "old_path": "assets/world-anvil/session-49-the-rushlight-begins-23.png",
+    "new_path": "assets/world-anvil/screenshots/Session 49 - The Rushlight Begins/session-49-the-rushlight-begins-23.png"
+  },
+  {
+    "session": 50,
+    "folder": "Session 50 - Silver Overall Steel at the Border Image",
+    "old_path": "assets/world-anvil/session-50-silver-overall-steel-at-the-border-image-01.png",
+    "new_path": "assets/world-anvil/screenshots/Session 50 - Silver Overall Steel at the Border Image/session-50-silver-overall-steel-at-the-border-image-01.png"
+  },
+  {
+    "session": 50,
+    "folder": "Session 50 - Silver Overall Steel at the Border",
+    "old_path": "assets/world-anvil/session-50-silver-overall-steel-at-the-border-13.png",
+    "new_path": "assets/world-anvil/screenshots/Session 50 - Silver Overall Steel at the Border/session-50-silver-overall-steel-at-the-border-13.png"
+  },
+  {
+    "session": 51,
+    "folder": "Session 51 - Storms on the Western Horizon",
+    "old_path": "assets/world-anvil/session-51-storms-on-the-western-horizon-19.png",
+    "new_path": "assets/world-anvil/screenshots/Session 51 - Storms on the Western Horizon/session-51-storms-on-the-western-horizon-19.png"
+  },
+  {
+    "session": 51,
+    "folder": "Session 51 - Storms on the Western Horizon",
+    "old_path": "assets/world-anvil/session-51-storms-on-the-western-horizon-20.png",
+    "new_path": "assets/world-anvil/screenshots/Session 51 - Storms on the Western Horizon/session-51-storms-on-the-western-horizon-20.png"
+  },
+  {
+    "session": 51,
+    "folder": "Session 51 - Storms on the Western Horizon",
+    "old_path": "assets/world-anvil/session-51-storms-on-the-western-horizon-21.png",
+    "new_path": "assets/world-anvil/screenshots/Session 51 - Storms on the Western Horizon/session-51-storms-on-the-western-horizon-21.png"
+  },
+  {
+    "session": 51,
+    "folder": "Session 51 - Storms on the Western Horizon",
+    "old_path": "assets/world-anvil/session-51-storms-on-the-western-horizon-22.png",
+    "new_path": "assets/world-anvil/screenshots/Session 51 - Storms on the Western Horizon/session-51-storms-on-the-western-horizon-22.png"
+  },
+  {
+    "session": 51,
+    "folder": "Session 51 - Storms on the Western Horizon",
+    "old_path": "assets/world-anvil/session-51-storms-on-the-western-horizon-24.png",
+    "new_path": "assets/world-anvil/screenshots/Session 51 - Storms on the Western Horizon/session-51-storms-on-the-western-horizon-24.png"
+  },
+  {
+    "session": 52,
+    "folder": "Session 52 - The Abbey of Broken Bells",
+    "old_path": "assets/world-anvil/session-52-the-abbey-of-broken-bells-40.png",
+    "new_path": "assets/world-anvil/screenshots/Session 52 - The Abbey of Broken Bells/session-52-the-abbey-of-broken-bells-40.png"
+  },
+  {
+    "session": 52,
+    "folder": "Session 52 - The Abbey of Broken Bells",
+    "old_path": "assets/world-anvil/session-52-the-abbey-of-broken-bells-41.png",
+    "new_path": "assets/world-anvil/screenshots/Session 52 - The Abbey of Broken Bells/session-52-the-abbey-of-broken-bells-41.png"
+  },
+  {
+    "session": 52,
+    "folder": "Session 52 - The Abbey of Broken Bells",
+    "old_path": "assets/world-anvil/session-52-the-abbey-of-broken-bells-42.png",
+    "new_path": "assets/world-anvil/screenshots/Session 52 - The Abbey of Broken Bells/session-52-the-abbey-of-broken-bells-42.png"
+  },
+  {
+    "session": 52,
+    "folder": "Session 52 - The Abbey of Broken Bells",
+    "old_path": "assets/world-anvil/session-52-the-abbey-of-broken-bells-44.png",
+    "new_path": "assets/world-anvil/screenshots/Session 52 - The Abbey of Broken Bells/session-52-the-abbey-of-broken-bells-44.png"
+  },
+  {
+    "session": 52,
+    "folder": "Session 52 - The Abbey of Broken Bells",
+    "old_path": "assets/world-anvil/session-52-the-abbey-of-broken-bells-45.png",
+    "new_path": "assets/world-anvil/screenshots/Session 52 - The Abbey of Broken Bells/session-52-the-abbey-of-broken-bells-45.png"
+  },
+  {
+    "session": 53,
+    "folder": "Session 53 - Of Blessed Waters and Buried Devils",
+    "old_path": "assets/world-anvil/session-53-of-blessed-waters-and-buried-devils-25.png",
+    "new_path": "assets/world-anvil/screenshots/Session 53 - Of Blessed Waters and Buried Devils/session-53-of-blessed-waters-and-buried-devils-25.png"
+  },
+  {
+    "session": 53,
+    "folder": "Session 53 - Of Blessed Waters and Buried Devils",
+    "old_path": "assets/world-anvil/session-53-of-blessed-waters-and-buried-devils-26.png",
+    "new_path": "assets/world-anvil/screenshots/Session 53 - Of Blessed Waters and Buried Devils/session-53-of-blessed-waters-and-buried-devils-26.png"
+  },
+  {
+    "session": 53,
+    "folder": "Session 53 - Of Blessed Waters and Buried Devils",
+    "old_path": "assets/world-anvil/session-53-of-blessed-waters-and-buried-devils-27.png",
+    "new_path": "assets/world-anvil/screenshots/Session 53 - Of Blessed Waters and Buried Devils/session-53-of-blessed-waters-and-buried-devils-27.png"
+  },
+  {
+    "session": 53,
+    "folder": "Session 53 - Of Blessed Waters and Buried Devils",
+    "old_path": "assets/world-anvil/session-53-of-blessed-waters-and-buried-devils-28.png",
+    "new_path": "assets/world-anvil/screenshots/Session 53 - Of Blessed Waters and Buried Devils/session-53-of-blessed-waters-and-buried-devils-28.png"
+  },
+  {
+    "session": 53,
+    "folder": "Session 53 - Of Blessed Waters and Buried Devils",
+    "old_path": "assets/world-anvil/session-53-of-blessed-waters-and-buried-devils-29.png",
+    "new_path": "assets/world-anvil/screenshots/Session 53 - Of Blessed Waters and Buried Devils/session-53-of-blessed-waters-and-buried-devils-29.png"
+  },
+  {
+    "session": 54,
+    "folder": "Session 54 - The War Heats up",
+    "old_path": "assets/world-anvil/session-54-the-war-heats-up-18.png",
+    "new_path": "assets/world-anvil/screenshots/Session 54 - The War Heats up/session-54-the-war-heats-up-18.png"
+  },
+  {
+    "session": 54,
+    "folder": "Session 54 - The War Heats up",
+    "old_path": "assets/world-anvil/session-54-the-war-heats-up-20.png",
+    "new_path": "assets/world-anvil/screenshots/Session 54 - The War Heats up/session-54-the-war-heats-up-20.png"
+  },
+  {
+    "session": 54,
+    "folder": "Session 54 - The War Heats up",
+    "old_path": "assets/world-anvil/session-54-the-war-heats-up-21.png",
+    "new_path": "assets/world-anvil/screenshots/Session 54 - The War Heats up/session-54-the-war-heats-up-21.png"
+  },
+  {
+    "session": 54,
+    "folder": "Session 54 - The War Heats up",
+    "old_path": "assets/world-anvil/session-54-the-war-heats-up-22.png",
+    "new_path": "assets/world-anvil/screenshots/Session 54 - The War Heats up/session-54-the-war-heats-up-22.png"
+  },
+  {
+    "session": 54,
+    "folder": "Session 54 - The War Heats up",
+    "old_path": "assets/world-anvil/session-54-the-war-heats-up-23.png",
+    "new_path": "assets/world-anvil/screenshots/Session 54 - The War Heats up/session-54-the-war-heats-up-23.png"
+  },
+  {
+    "session": 55,
+    "folder": "Session 55 - Endeavor to Persevere",
+    "old_path": "assets/world-anvil/session-55-endeavor-to-persevere-27.png",
+    "new_path": "assets/world-anvil/screenshots/Session 55 - Endeavor to Persevere/session-55-endeavor-to-persevere-27.png"
+  },
+  {
+    "session": 55,
+    "folder": "Session 55 - Endeavor to Persevere",
+    "old_path": "assets/world-anvil/session-55-endeavor-to-persevere-28.png",
+    "new_path": "assets/world-anvil/screenshots/Session 55 - Endeavor to Persevere/session-55-endeavor-to-persevere-28.png"
+  },
+  {
+    "session": 55,
+    "folder": "Session 55 - Endeavor to Persevere",
+    "old_path": "assets/world-anvil/session-55-endeavor-to-persevere-29.png",
+    "new_path": "assets/world-anvil/screenshots/Session 55 - Endeavor to Persevere/session-55-endeavor-to-persevere-29.png"
+  },
+  {
+    "session": 55,
+    "folder": "Session 55 - Endeavor to Persevere",
+    "old_path": "assets/world-anvil/session-55-endeavor-to-persevere-30.png",
+    "new_path": "assets/world-anvil/screenshots/Session 55 - Endeavor to Persevere/session-55-endeavor-to-persevere-30.png"
+  },
+  {
+    "session": 55,
+    "folder": "Session 55 - Endeavor to Persevere",
+    "old_path": "assets/world-anvil/session-55-endeavor-to-persevere-31.png",
+    "new_path": "assets/world-anvil/screenshots/Session 55 - Endeavor to Persevere/session-55-endeavor-to-persevere-31.png"
+  },
+  {
+    "session": 56,
+    "folder": "Session 56 - Pitax Awakens",
+    "old_path": "assets/world-anvil/session-56-pitax-awakens-09.png",
+    "new_path": "assets/world-anvil/screenshots/Session 56 - Pitax Awakens/session-56-pitax-awakens-09.png"
+  },
+  {
+    "session": 56,
+    "folder": "Session 56 - Pitax Awakens",
+    "old_path": "assets/world-anvil/session-56-pitax-awakens-10.png",
+    "new_path": "assets/world-anvil/screenshots/Session 56 - Pitax Awakens/session-56-pitax-awakens-10.png"
+  },
+  {
+    "session": 56,
+    "folder": "Session 56 - Pitax Awakens",
+    "old_path": "assets/world-anvil/session-56-pitax-awakens-11.png",
+    "new_path": "assets/world-anvil/screenshots/Session 56 - Pitax Awakens/session-56-pitax-awakens-11.png"
+  },
+  {
+    "session": 56,
+    "folder": "Session 56 - Pitax Awakens",
+    "old_path": "assets/world-anvil/session-56-pitax-awakens-12.png",
+    "new_path": "assets/world-anvil/screenshots/Session 56 - Pitax Awakens/session-56-pitax-awakens-12.png"
+  },
+  {
+    "session": 56,
+    "folder": "Session 56 - Pitax Awakens",
+    "old_path": "assets/world-anvil/session-56-pitax-awakens-13.png",
+    "new_path": "assets/world-anvil/screenshots/Session 56 - Pitax Awakens/session-56-pitax-awakens-13.png"
+  },
+  {
+    "session": 57,
+    "folder": "Session 57 - Every Door Leads to the King",
+    "old_path": "assets/world-anvil/session-57-every-door-leads-to-the-king-33.png",
+    "new_path": "assets/world-anvil/screenshots/Session 57 - Every Door Leads to the King/session-57-every-door-leads-to-the-king-33.png"
+  },
+  {
+    "session": 57,
+    "folder": "Session 57 - Every Door Leads to the King",
+    "old_path": "assets/world-anvil/session-57-every-door-leads-to-the-king-34.png",
+    "new_path": "assets/world-anvil/screenshots/Session 57 - Every Door Leads to the King/session-57-every-door-leads-to-the-king-34.png"
+  },
+  {
+    "session": 57,
+    "folder": "Session 57 - Every Door Leads to the King",
+    "old_path": "assets/world-anvil/session-57-every-door-leads-to-the-king-35.png",
+    "new_path": "assets/world-anvil/screenshots/Session 57 - Every Door Leads to the King/session-57-every-door-leads-to-the-king-35.png"
+  },
+  {
+    "session": 57,
+    "folder": "Session 57 - Every Door Leads to the King",
+    "old_path": "assets/world-anvil/session-57-every-door-leads-to-the-king-36.png",
+    "new_path": "assets/world-anvil/screenshots/Session 57 - Every Door Leads to the King/session-57-every-door-leads-to-the-king-36.png"
+  },
+  {
+    "session": 57,
+    "folder": "Session 57 - Every Door Leads to the King",
+    "old_path": "assets/world-anvil/session-57-every-door-leads-to-the-king-37.png",
+    "new_path": "assets/world-anvil/screenshots/Session 57 - Every Door Leads to the King/session-57-every-door-leads-to-the-king-37.png"
+  },
+  {
+    "session": 58,
+    "folder": "Session 58 - Tyrant S Last Refuge",
+    "old_path": "assets/world-anvil/session-58-tyrant-s-last-refuge-15.png",
+    "new_path": "assets/world-anvil/screenshots/Session 58 - Tyrant S Last Refuge/session-58-tyrant-s-last-refuge-15.png"
+  },
+  {
+    "session": 58,
+    "folder": "Session 58 - Tyrant S Last Refuge",
+    "old_path": "assets/world-anvil/session-58-tyrant-s-last-refuge-16.png",
+    "new_path": "assets/world-anvil/screenshots/Session 58 - Tyrant S Last Refuge/session-58-tyrant-s-last-refuge-16.png"
+  },
+  {
+    "session": 58,
+    "folder": "Session 58 - Tyrant S Last Refuge",
+    "old_path": "assets/world-anvil/session-58-tyrant-s-last-refuge-17.png",
+    "new_path": "assets/world-anvil/screenshots/Session 58 - Tyrant S Last Refuge/session-58-tyrant-s-last-refuge-17.png"
+  },
+  {
+    "session": 58,
+    "folder": "Session 58 - Tyrant S Last Refuge",
+    "old_path": "assets/world-anvil/session-58-tyrant-s-last-refuge-18.png",
+    "new_path": "assets/world-anvil/screenshots/Session 58 - Tyrant S Last Refuge/session-58-tyrant-s-last-refuge-18.png"
+  },
+  {
+    "session": 58,
+    "folder": "Session 58 - Tyrant S Last Refuge",
+    "old_path": "assets/world-anvil/session-58-tyrant-s-last-refuge-19.png",
+    "new_path": "assets/world-anvil/screenshots/Session 58 - Tyrant S Last Refuge/session-58-tyrant-s-last-refuge-19.png"
+  },
+  {
+    "session": 59,
+    "folder": "Session 59 - There Is No Reyoknar",
+    "old_path": "assets/world-anvil/session-59-there-is-no-reyoknar-35.png",
+    "new_path": "assets/world-anvil/screenshots/Session 59 - There Is No Reyoknar/session-59-there-is-no-reyoknar-35.png"
+  },
+  {
+    "session": 59,
+    "folder": "Session 59 - There Is No Reyoknar",
+    "old_path": "assets/world-anvil/session-59-there-is-no-reyoknar-36.png",
+    "new_path": "assets/world-anvil/screenshots/Session 59 - There Is No Reyoknar/session-59-there-is-no-reyoknar-36.png"
+  },
+  {
+    "session": 59,
+    "folder": "Session 59 - There Is No Reyoknar",
+    "old_path": "assets/world-anvil/session-59-there-is-no-reyoknar-37.png",
+    "new_path": "assets/world-anvil/screenshots/Session 59 - There Is No Reyoknar/session-59-there-is-no-reyoknar-37.png"
+  },
+  {
+    "session": 59,
+    "folder": "Session 59 - There Is No Reyoknar",
+    "old_path": "assets/world-anvil/session-59-there-is-no-reyoknar-38.png",
+    "new_path": "assets/world-anvil/screenshots/Session 59 - There Is No Reyoknar/session-59-there-is-no-reyoknar-38.png"
+  },
+  {
+    "session": 59,
+    "folder": "Session 59 - There Is No Reyoknar",
+    "old_path": "assets/world-anvil/session-59-there-is-no-reyoknar-39.png",
+    "new_path": "assets/world-anvil/screenshots/Session 59 - There Is No Reyoknar/session-59-there-is-no-reyoknar-39.png"
+  },
+  {
+    "session": 60,
+    "folder": "Session 60 - The Years Between",
+    "old_path": "assets/world-anvil/session-60-the-years-between-16.png",
+    "new_path": "assets/world-anvil/screenshots/Session 60 - The Years Between/session-60-the-years-between-16.png"
+  },
+  {
+    "session": 60,
+    "folder": "Session 60 - The Years Between",
+    "old_path": "assets/world-anvil/session-60-the-years-between-17.png",
+    "new_path": "assets/world-anvil/screenshots/Session 60 - The Years Between/session-60-the-years-between-17.png"
+  },
+  {
+    "session": 60,
+    "folder": "Session 60 - The Years Between",
+    "old_path": "assets/world-anvil/session-60-the-years-between-18.png",
+    "new_path": "assets/world-anvil/screenshots/Session 60 - The Years Between/session-60-the-years-between-18.png"
+  },
+  {
+    "session": 60,
+    "folder": "Session 60 - The Years Between",
+    "old_path": "assets/world-anvil/session-60-the-years-between-19.png",
+    "new_path": "assets/world-anvil/screenshots/Session 60 - The Years Between/session-60-the-years-between-19.png"
+  },
+  {
+    "session": 61,
+    "folder": "Session 61 - Breaking the Seal",
+    "old_path": "assets/world-anvil/session-61-breaking-the-seal-13.png",
+    "new_path": "assets/world-anvil/screenshots/Session 61 - Breaking the Seal/session-61-breaking-the-seal-13.png"
+  },
+  {
+    "session": 61,
+    "folder": "Session 61 - Breaking the Seal",
+    "old_path": "assets/world-anvil/session-61-breaking-the-seal-14.png",
+    "new_path": "assets/world-anvil/screenshots/Session 61 - Breaking the Seal/session-61-breaking-the-seal-14.png"
+  },
+  {
+    "session": 61,
+    "folder": "Session 61 - Breaking the Seal",
+    "old_path": "assets/world-anvil/session-61-breaking-the-seal-15.png",
+    "new_path": "assets/world-anvil/screenshots/Session 61 - Breaking the Seal/session-61-breaking-the-seal-15.png"
+  },
+  {
+    "session": 61,
+    "folder": "Session 61 - Breaking the Seal",
+    "old_path": "assets/world-anvil/session-61-breaking-the-seal-16.png",
+    "new_path": "assets/world-anvil/screenshots/Session 61 - Breaking the Seal/session-61-breaking-the-seal-16.png"
+  },
+  {
+    "session": 61,
+    "folder": "Session 61 - Breaking the Seal",
+    "old_path": "assets/world-anvil/session-61-breaking-the-seal-17.png",
+    "new_path": "assets/world-anvil/screenshots/Session 61 - Breaking the Seal/session-61-breaking-the-seal-17.png"
+  }
+]

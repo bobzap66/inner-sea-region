@@ -1,0 +1,664 @@
+﻿@use "./variables.scss" as *;
+
+@use "./kingmaker-timeline.scss";
+
+
+/* Inner Sea Region — restrained fantasy gazetteer theme */
+
+:root {
+  --isr-gold: #9a6d2f;
+  --isr-gold-soft: rgba(154, 109, 47, 0.18);
+  --isr-navy: #28485d;
+  --isr-burgundy: #713f3c;
+  --isr-paper: #f5efe0;
+  --isr-ink: #28251f;
+  --isr-rule: rgba(99, 75, 43, 0.28);
+  --isr-shadow: 0 12px 32px rgba(67, 49, 27, 0.08);
+}
+
+[saved-theme="dark"] {
+  --isr-gold: #d0a55c;
+  --isr-gold-soft: rgba(208, 165, 92, 0.15);
+  --isr-navy: #8bb4ca;
+  --isr-burgundy: #c28780;
+  --isr-paper: #1d1e1d;
+  --isr-ink: #f1ead8;
+  --isr-rule: rgba(216, 208, 189, 0.2);
+  --isr-shadow: 0 12px 32px rgba(0, 0, 0, 0.22);
+}
+
+html {
+  background-color: var(--light);
+  background-image:
+    radial-gradient(circle at 18% 8%, var(--highlight) 0, transparent 28rem),
+    linear-gradient(90deg, transparent 0, rgba(120, 92, 51, 0.025) 50%, transparent 100%);
+}
+
+body {
+  letter-spacing: 0.006em;
+}
+
+/* Give the reading column the presence of a printed folio. */
+.page > #quartz-body .center {
+  position: relative;
+}
+
+.page > #quartz-body .center::before {
+  content: "";
+  position: absolute;
+  inset: 1rem -2rem 0;
+  z-index: -1;
+  border: 1px solid var(--isr-rule);
+  border-radius: 0.45rem;
+  background: color-mix(in srgb, var(--light) 94%, white 6%);
+  box-shadow: var(--isr-shadow);
+}
+
+[saved-theme="dark"] .page > #quartz-body .center::before {
+  background: color-mix(in srgb, var(--light) 94%, black 6%);
+}
+
+.center > .page-header,
+.center > article,
+.center > .page-footer {
+  padding-inline: 0.25rem;
+}
+
+/* Masthead */
+.page-title {
+  margin-bottom: 0.4rem;
+  font-size: 1.7rem;
+  letter-spacing: 0.035em;
+  line-height: 1.05;
+}
+
+.page-title a {
+  color: var(--dark);
+  text-decoration: none;
+}
+
+.page-title::after {
+  content: "A GAZETTEER OF GOLARION";
+  display: block;
+  margin-top: 0.55rem;
+  color: var(--tertiary);
+  font-family: var(--bodyFont);
+  font-size: 0.62rem;
+  font-weight: 700;
+  letter-spacing: 0.18em;
+}
+
+.article-title {
+  margin-bottom: 0.25rem;
+  color: var(--dark);
+  font-size: clamp(2.35rem, 5vw, 3.7rem);
+  font-weight: 600;
+  letter-spacing: -0.025em;
+  line-height: 0.98;
+  text-wrap: balance;
+}
+
+.article-title::after {
+  content: "";
+  display: block;
+  width: min(11rem, 38%);
+  height: 3px;
+  margin-top: 1rem;
+  background: linear-gradient(90deg, var(--tertiary), transparent);
+}
+
+.content-meta {
+  color: var(--gray);
+  font-size: 0.82rem;
+  letter-spacing: 0.045em;
+  text-transform: uppercase;
+}
+
+/* Typography */
+article {
+  font-size: 1.06rem;
+  line-height: 1.75;
+}
+
+article h1,
+article h2,
+article h3,
+article h4 {
+  color: var(--dark);
+  font-weight: 600;
+  letter-spacing: -0.01em;
+  text-wrap: balance;
+}
+
+article h2 {
+  margin-top: 2.6rem;
+  padding-bottom: 0.32rem;
+  border-bottom: 1px solid var(--isr-rule);
+  font-size: 1.85rem;
+}
+
+article h3 {
+  color: var(--secondary);
+  font-size: 1.42rem;
+}
+
+article > p:first-of-type::first-letter {
+  float: left;
+  margin: 0.08em 0.08em 0 0;
+  color: var(--tertiary);
+  font-family: var(--headerFont);
+  font-size: 3.25em;
+  font-weight: 600;
+  line-height: 0.78;
+}
+
+a.internal,
+article a {
+  text-decoration-color: color-mix(in srgb, var(--secondary) 45%, transparent);
+  text-decoration-thickness: 1px;
+  text-underline-offset: 0.15em;
+}
+
+article a:hover {
+  color: var(--tertiary);
+  text-decoration-color: var(--tertiary);
+}
+
+strong {
+  color: color-mix(in srgb, var(--dark) 88%, var(--tertiary) 12%);
+}
+
+hr {
+  height: 1px;
+  margin: 2.5rem auto;
+  border: 0;
+  background: linear-gradient(90deg, transparent, var(--tertiary), transparent);
+}
+
+blockquote {
+  margin-inline: 0;
+  padding: 0.75rem 1.2rem 0.75rem 1.35rem;
+  border-left: 3px solid var(--tertiary);
+  border-radius: 0 0.35rem 0.35rem 0;
+  background: var(--isr-gold-soft);
+  color: var(--darkgray);
+  font-style: italic;
+}
+
+/* Illustrated material */
+article img {
+  border: 1px solid var(--isr-rule);
+  border-radius: 0.3rem;
+  box-shadow: 0 8px 24px rgba(54, 40, 24, 0.14);
+}
+
+article figure,
+article p:has(> img:only-child) {
+  margin-block: 2rem;
+}
+
+/* Session reports collect their screenshot folder into one compact contact sheet. */
+article h2#session-gallery + p {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(min(100%, 10.5rem), 1fr));
+  gap: 0.8rem;
+  margin: 1.25rem 0 2.5rem;
+  padding: 0.8rem;
+  border: 1px solid var(--isr-rule);
+  border-radius: 0.45rem;
+  background: color-mix(in srgb, var(--light) 82%, var(--lightgray) 18%);
+  box-shadow: inset 0 0 0 3px color-mix(in srgb, var(--light) 75%, transparent);
+}
+
+article h2#session-gallery + p > img {
+  display: block;
+  width: 100%;
+  height: 10.5rem;
+  margin: 0;
+  border-radius: 0.28rem;
+  object-fit: cover;
+  transition: transform 160ms ease, box-shadow 160ms ease;
+}
+
+article h2#session-gallery + p > img:hover {
+  z-index: 1;
+  box-shadow: 0 10px 24px rgba(35, 29, 21, 0.24);
+  transform: translateY(-2px) scale(1.015);
+}
+
+/* Tables as reference-book inserts. */
+article table {
+  overflow: hidden;
+  border: 1px solid var(--isr-rule);
+  border-radius: 0.3rem;
+  box-shadow: 0 5px 14px rgba(67, 49, 27, 0.06);
+}
+
+article th {
+  background: var(--secondary);
+  color: var(--light);
+  font-family: var(--headerFont);
+  font-size: 1.02rem;
+  letter-spacing: 0.025em;
+}
+
+article tr:nth-child(even) {
+  background: var(--highlight);
+}
+
+/* Callouts retain their semantic color but share one visual language. */
+.callout {
+  border-width: 1px 1px 1px 4px;
+  border-radius: 0.4rem;
+  box-shadow: 0 5px 16px rgba(67, 49, 27, 0.06);
+}
+
+.callout-title {
+  font-family: var(--headerFont);
+  font-size: 1.08rem;
+  letter-spacing: 0.02em;
+}
+
+/* Navigation */
+.sidebar {
+  font-size: 0.91rem;
+}
+
+.sidebar h2,
+.sidebar h3 {
+  color: var(--dark);
+  letter-spacing: 0.02em;
+}
+
+.search-button,
+.darkmode,
+.readermode {
+  border: 1px solid transparent;
+  border-radius: 0.35rem;
+  transition: background 150ms ease, border-color 150ms ease, transform 150ms ease;
+}
+
+.search-button:hover,
+.darkmode:hover,
+.readermode:hover {
+  border-color: var(--isr-rule);
+  background: var(--highlight);
+  transform: translateY(-1px);
+}
+
+.explorer .title-button h2,
+.backlinks h3,
+.graph h3,
+.toc-header h3 {
+  font-size: 1rem;
+  text-transform: uppercase;
+  letter-spacing: 0.09em;
+}
+
+.explorer-content a,
+.toc-content a,
+.backlinks a {
+  border-radius: 0.22rem;
+}
+
+.explorer-content a:hover,
+.toc-content a:hover,
+.backlinks a:hover {
+  color: var(--tertiary);
+}
+
+/* Static media is published, but it is not a useful browsing destination. */
+.explorer-content li:has(a[href="/assets/"]),
+.explorer-content li:has(a[href="./assets/"]) {
+  display: none;
+}
+
+.breadcrumbs {
+  color: var(--gray);
+  font-size: 0.78rem;
+  letter-spacing: 0.045em;
+  text-transform: uppercase;
+}
+
+/* Footer */
+footer {
+  border-top: 1px solid var(--isr-rule);
+  color: var(--gray);
+  font-size: 0.82rem;
+}
+
+footer a {
+  color: var(--secondary);
+}
+
+@media (max-width: 800px) {
+  .page > #quartz-body .center::before {
+    display: none;
+  }
+
+  .article-title {
+    font-size: 2.45rem;
+  }
+
+  article {
+    font-size: 1rem;
+    line-height: 1.68;
+  }
+
+  article h2 {
+    font-size: 1.62rem;
+  }
+
+  article h2#session-gallery + p {
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+    gap: 0.55rem;
+    padding: 0.55rem;
+  }
+
+  article h2#session-gallery + p > img {
+    height: clamp(7rem, 32vw, 10rem);
+  }
+}
+
+@media (max-width: 430px) {
+  article h2#session-gallery + p {
+    grid-template-columns: 1fr;
+  }
+
+  article h2#session-gallery + p > img {
+    height: auto;
+    aspect-ratio: 4 / 3;
+  }
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .search-button,
+  .darkmode,
+  .readermode {
+    transition: none;
+  }
+
+  article h2#session-gallery + p > img {
+    transition: none;
+  }
+}
+
+/* BEGIN WORLD ANVIL SIDE CONTENT */
+/*
+ * [!side] blocks are authored inside Markdown so Obsidian can still display them,
+ * then client-side JS moves them into Quartz's real right sidebar.
+ */
+article .callout[data-callout="side"] {
+  margin: 1rem 0;
+}
+
+/* Once moved, make the supplemental material behave like a normal right-sidebar component. */
+.right.sidebar > .callout[data-callout="side"],
+.right.sidebar > .world-anvil-side-content {
+  float: none;
+  clear: none;
+  width: 100%;
+  max-width: none;
+  margin: 1.25rem 0 0;
+  padding: 0.85rem 0 0;
+  border: 0;
+  border-top: 1px solid var(--isr-rule);
+  border-radius: 0;
+  background: transparent;
+  box-shadow: none;
+  font-size: 0.88rem;
+  line-height: 1.5;
+}
+
+.right.sidebar > .callout[data-callout="side"] > .callout-title,
+.right.sidebar > .world-anvil-side-content > .callout-title {
+  display: none;
+}
+
+.right.sidebar > .callout[data-callout="side"] > .callout-content,
+.right.sidebar > .world-anvil-side-content > .callout-content {
+  padding: 0;
+}
+
+.right.sidebar > .world-anvil-side-content h2,
+.right.sidebar > .world-anvil-side-content h3,
+.right.sidebar > .world-anvil-side-content h4 {
+  margin-top: 1.15rem;
+  margin-bottom: 0.45rem;
+  border-bottom: 0;
+  font-size: 1rem;
+  line-height: 1.2;
+}
+
+.right.sidebar > .world-anvil-side-content p {
+  margin-block: 0.65rem;
+}
+
+.right.sidebar > .world-anvil-side-content img {
+  display: block;
+  width: 100%;
+  height: auto;
+  margin: 0.5rem 0 0.8rem;
+  border: 1px solid var(--isr-rule);
+  border-radius: 0.25rem;
+  box-shadow: none;
+}
+
+.right.sidebar > .world-anvil-side-content ol,
+.right.sidebar > .world-anvil-side-content ul {
+  padding-left: 1.25rem;
+}
+
+@media (max-width: 1200px) {
+  /*
+   * On layouts where Quartz collapses the right sidebar, do not force
+   * the supplemental block into the article with float behavior.
+   * Quartz's sidebar rules remain authoritative.
+   */
+  .right.sidebar > .world-anvil-side-content {
+    width: 100%;
+  }
+}
+/* END WORLD ANVIL SIDE CONTENT */
+
+/* INNER SEA REGION RIGHT SIDEBAR DOCUMENT FLOW */
+/*
+ * The stock Quartz right sidebar is sticky and only 100vh tall.
+ * That works for TOC/backlinks, but not for long World Anvil side material.
+ * Let the right column participate in normal document flow so the page itself
+ * grows tall enough to contain all migrated sidebar content.
+ */
+@media (min-width: 1201px) {
+  .page > #quartz-body .sidebar.right {
+    position: static;
+    top: auto;
+    height: auto;
+    max-height: none;
+    overflow: visible;
+    align-self: start;
+  }
+
+  .page > #quartz-body .sidebar.right > * {
+    max-height: none;
+  }
+
+  .page > #quartz-body .sidebar.right > .world-anvil-side-content {
+    overflow: visible;
+  }
+}
+
+/* INNER SEA REGION MOBILE RIGHT SIDEBAR */
+/*
+ * Quartz changes the right sidebar into a horizontal flex row below desktop
+ * width and caps each child at 24rem. That is fine for compact widgets, but it
+ * breaks long migrated World Anvil side material.
+ *
+ * Stack the right-sidebar components vertically on tablet/mobile and let the
+ * migrated side content use its full natural height.
+ */
+@media (max-width: 1200px) {
+  .page > #quartz-body .sidebar.right {
+    display: flex;
+    flex-direction: column;
+    align-items: stretch;
+    gap: 1.25rem;
+    width: 100%;
+    height: auto;
+    max-height: none;
+    overflow: visible;
+    padding: 1rem 0 0;
+  }
+
+  .page > #quartz-body .sidebar.right > * {
+    flex: none;
+    width: 100%;
+    max-width: 100%;
+    max-height: none;
+  }
+
+  .page > #quartz-body .sidebar.right > .world-anvil-side-content,
+  .page > #quartz-body .sidebar.right > .callout[data-callout="side"] {
+    display: block;
+    width: 100%;
+    max-width: 100%;
+    height: auto;
+    max-height: none;
+    margin: 0;
+    padding-top: 1rem;
+    overflow: visible;
+  }
+
+  .page > #quartz-body .sidebar.right > .world-anvil-side-content img,
+  .page > #quartz-body .sidebar.right > .callout[data-callout="side"] img {
+    width: 100%;
+    height: auto;
+  }
+}
+
+/* On phone-sized screens, keep the supplemental material readable. */
+@media (max-width: 800px) {
+  .page > #quartz-body .sidebar.right {
+    padding-top: 0.75rem;
+  }
+
+  .page > #quartz-body .sidebar.right > .world-anvil-side-content,
+  .page > #quartz-body .sidebar.right > .callout[data-callout="side"] {
+    font-size: 0.95rem;
+    line-height: 1.55;
+  }
+}
+
+/* INNER SEA REGION IMAGE LIGHTBOX */
+.isr-zoomable-image {
+  cursor: zoom-in;
+}
+
+.isr-zoomable-image:focus-visible {
+  outline: 2px solid var(--tertiary);
+  outline-offset: 3px;
+}
+
+html.isr-lightbox-open,
+html.isr-lightbox-open body {
+  overflow: hidden;
+}
+
+#isr-image-lightbox {
+  position: fixed;
+  inset: 0;
+  z-index: 10000;
+  display: none;
+  padding: clamp(1rem, 3vw, 2.5rem);
+  box-sizing: border-box;
+  background: rgba(15, 14, 12, 0.92);
+  overflow: auto;
+  overscroll-behavior: contain;
+}
+
+#isr-image-lightbox.is-open {
+  display: block;
+}
+
+#isr-image-lightbox .isr-lightbox-stage {
+  min-width: 100%;
+  min-height: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+#isr-image-lightbox .isr-lightbox-image {
+  display: block;
+  max-width: calc(100vw - clamp(2rem, 6vw, 5rem));
+  max-height: calc(100vh - clamp(4rem, 10vw, 8rem));
+  width: auto;
+  height: auto;
+  margin: auto;
+  object-fit: contain;
+  cursor: zoom-in;
+  user-select: none;
+  -webkit-user-drag: none;
+  box-shadow: 0 0.8rem 2.5rem rgba(0, 0, 0, 0.5);
+}
+
+#isr-image-lightbox.is-natural-size .isr-lightbox-stage {
+  align-items: flex-start;
+  justify-content: flex-start;
+  width: max-content;
+  min-width: 100%;
+  min-height: 100%;
+}
+
+#isr-image-lightbox.is-natural-size .isr-lightbox-image {
+  max-width: none;
+  max-height: none;
+  margin: 2rem auto;
+  cursor: zoom-out;
+}
+
+#isr-image-lightbox .isr-lightbox-caption {
+  max-width: min(70rem, 90vw);
+  margin: 0.8rem auto 0;
+  color: #f3eee2;
+  font-family: var(--bodyFont);
+  font-size: 0.95rem;
+  line-height: 1.4;
+  text-align: center;
+}
+
+#isr-image-lightbox .isr-lightbox-close {
+  position: fixed;
+  top: max(0.75rem, env(safe-area-inset-top));
+  right: max(0.9rem, env(safe-area-inset-right));
+  z-index: 10001;
+  width: 2.5rem;
+  height: 2.5rem;
+  border: 1px solid rgba(255, 255, 255, 0.45);
+  border-radius: 999px;
+  background: rgba(20, 18, 15, 0.72);
+  color: #fff;
+  font: 400 1.8rem/1 system-ui, sans-serif;
+  cursor: pointer;
+}
+
+#isr-image-lightbox .isr-lightbox-close:hover,
+#isr-image-lightbox .isr-lightbox-close:focus-visible {
+  background: rgba(255, 255, 255, 0.16);
+  outline: none;
+}
+
+@media (max-width: 800px) {
+  #isr-image-lightbox {
+    padding: 0.75rem;
+  }
+
+  #isr-image-lightbox .isr-lightbox-image {
+    max-width: calc(100vw - 1.5rem);
+    max-height: calc(100vh - 4rem);
+  }
+
+  #isr-image-lightbox.is-natural-size .isr-lightbox-image {
+    margin-top: 3rem;
+  }
+}

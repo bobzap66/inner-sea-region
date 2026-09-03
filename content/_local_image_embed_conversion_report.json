@@ -1,0 +1,660 @@
+[
+  {
+    "note": "Artifacts and Relics/Amiri's Sword.md",
+    "old": "![](assets/world-anvil/amiri-s-sword-image-01.png \"a4025c83-4919-4987-9bad-2bd129489770.png\")",
+    "new": "![[assets/world-anvil/amiri-s-sword-image-01.png]]",
+    "path": "assets/world-anvil/amiri-s-sword-image-01.png",
+    "title": "a4025c83-4919-4987-9bad-2bd129489770.png"
+  },
+  {
+    "note": "Artifacts and Relics/Oculus of Abaddon.md",
+    "old": "![](assets/world-anvil/oculus-of-abaddon.png \"Oculus of Abaddon.png\")",
+    "new": "![[assets/world-anvil/oculus-of-abaddon.png]]",
+    "path": "assets/world-anvil/oculus-of-abaddon.png",
+    "title": "Oculus of Abaddon.png"
+  },
+  {
+    "note": "Artifacts and Relics/Ovinrbaane.md",
+    "old": "![](assets/world-anvil/ovinrbaane.png \"Ovinrbaane.png\")",
+    "new": "![[assets/world-anvil/ovinrbaane.png]]",
+    "path": "assets/world-anvil/ovinrbaane.png",
+    "title": "Ovinrbaane.png"
+  },
+  {
+    "note": "Artifacts and Relics/Skybolt.md",
+    "old": "![](assets/world-anvil/skybolt.png \"Skybolt.png\")",
+    "new": "![[assets/world-anvil/skybolt.png]]",
+    "path": "assets/world-anvil/skybolt.png",
+    "title": "Skybolt.png"
+  },
+  {
+    "note": "Deities/Abadar.md",
+    "old": "![](assets/world-anvil/abadar-religious-symbol.webp \"200px-Abadar_religious_symbol.webp\")",
+    "new": "![[assets/world-anvil/abadar-religious-symbol.webp]]",
+    "path": "assets/world-anvil/abadar-religious-symbol.webp",
+    "title": "200px-Abadar_religious_symbol.webp"
+  },
+  {
+    "note": "Deities/Cayden Cailean.md",
+    "old": "![](assets/world-anvil/cayden-cailean-holy-symbol-jpg.webp \"250px-Cayden_Cailean_holy_symbol.jpg.webp\")",
+    "new": "![[assets/world-anvil/cayden-cailean-holy-symbol-jpg.webp]]",
+    "path": "assets/world-anvil/cayden-cailean-holy-symbol-jpg.webp",
+    "title": "250px-Cayden_Cailean_holy_symbol.jpg.webp"
+  },
+  {
+    "note": "Deities/Desna.md",
+    "old": "![](assets/world-anvil/desna-holy-symbol-2-jpg.webp \"250px-Desna_holy_symbol_2.jpg.webp\")",
+    "new": "![[assets/world-anvil/desna-holy-symbol-2-jpg.webp]]",
+    "path": "assets/world-anvil/desna-holy-symbol-2-jpg.webp",
+    "title": "250px-Desna_holy_symbol_2.jpg.webp"
+  },
+  {
+    "note": "Deities/Erastil.md",
+    "old": "![](assets/world-anvil/erastil-holy-symbol-jpg.webp \"250px-Erastil_holy_symbol.jpg.webp\")",
+    "new": "![[assets/world-anvil/erastil-holy-symbol-jpg.webp]]",
+    "path": "assets/world-anvil/erastil-holy-symbol-jpg.webp",
+    "title": "250px-Erastil_holy_symbol.jpg.webp"
+  },
+  {
+    "note": "Deities/Gorum.md",
+    "old": "![](assets/world-anvil/gorum-symbol-png.webp \"250px-Gorum_symbol.png.webp\")",
+    "new": "![[assets/world-anvil/gorum-symbol-png.webp]]",
+    "path": "assets/world-anvil/gorum-symbol-png.webp",
+    "title": "250px-Gorum_symbol.png.webp"
+  },
+  {
+    "note": "Deities/Gozreh.md",
+    "old": "![](assets/world-anvil/gozreh-holy-symbol-jpg.webp \"208px-Gozreh_holy_symbol.jpg.webp\")",
+    "new": "![[assets/world-anvil/gozreh-holy-symbol-jpg.webp]]",
+    "path": "assets/world-anvil/gozreh-holy-symbol-jpg.webp",
+    "title": "208px-Gozreh_holy_symbol.jpg.webp"
+  },
+  {
+    "note": "Deities/Groetus.md",
+    "old": "![](assets/world-anvil/groetus-holy-symbol-jpg.webp \"250px-Groetus_holy_symbol.jpg.webp\")",
+    "new": "![[assets/world-anvil/groetus-holy-symbol-jpg.webp]]",
+    "path": "assets/world-anvil/groetus-holy-symbol-jpg.webp",
+    "title": "250px-Groetus_holy_symbol.jpg.webp"
+  },
+  {
+    "note": "Deities/Irori.md",
+    "old": "![](assets/world-anvil/irori-portrait.webp \"250px-Irori.jpg.webp\")",
+    "new": "![[assets/world-anvil/irori-portrait.webp]]",
+    "path": "assets/world-anvil/irori-portrait.webp",
+    "title": "250px-Irori.jpg.webp"
+  },
+  {
+    "note": "Deities/Pharasma.md",
+    "old": "![](assets/world-anvil/pharasma-religious-symbol.webp \"250px-Pharasma_religious_symbol.webp\")",
+    "new": "![[assets/world-anvil/pharasma-religious-symbol.webp]]",
+    "path": "assets/world-anvil/pharasma-religious-symbol.webp",
+    "title": "250px-Pharasma_religious_symbol.webp"
+  },
+  {
+    "note": "Deities/Shelyn.md",
+    "old": "![](assets/world-anvil/shelyn-holy-symbol.webp \"Shelyn_holy_symbol.webp\")",
+    "new": "![[assets/world-anvil/shelyn-holy-symbol.webp]]",
+    "path": "assets/world-anvil/shelyn-holy-symbol.webp",
+    "title": "Shelyn_holy_symbol.webp"
+  },
+  {
+    "note": "Deities/Torag.md",
+    "old": "![](assets/world-anvil/torag-holy-symbol-jpg.webp \"250px-Torag_holy_symbol.jpg.webp\")",
+    "new": "![[assets/world-anvil/torag-holy-symbol-jpg.webp]]",
+    "path": "assets/world-anvil/torag-holy-symbol-jpg.webp",
+    "title": "250px-Torag_holy_symbol.jpg.webp"
+  },
+  {
+    "note": "Groups/Sootscale Kobolds.md",
+    "old": "![](assets/world-anvil/sootscale-kobolds-tartuk.webp \"Tartuk\")",
+    "new": "![[assets/world-anvil/sootscale-kobolds-tartuk.webp]]",
+    "path": "assets/world-anvil/sootscale-kobolds-tartuk.webp",
+    "title": "Tartuk"
+  },
+  {
+    "note": "Intelligence Reports/The -Charleton- File.md",
+    "old": "![](assets/world-anvil/the-charleton-file-charleton-file.png \"Charleton File.png\")",
+    "new": "![[assets/world-anvil/the-charleton-file-charleton-file.png]]",
+    "path": "assets/world-anvil/the-charleton-file-charleton-file.png",
+    "title": "Charleton File.png"
+  },
+  {
+    "note": "Moments/Grigori's Fate.md",
+    "old": "![](assets/world-anvil/grigori-s-fate-image-01.png \"71e27f6f-6c12-4303-b959-62646523f174.png\")",
+    "new": "![[assets/world-anvil/grigori-s-fate-image-01.png]]",
+    "path": "assets/world-anvil/grigori-s-fate-image-01.png",
+    "title": "71e27f6f-6c12-4303-b959-62646523f174.png"
+  },
+  {
+    "note": "Moments/Hanspur's Chosen.md",
+    "old": "![](assets/world-anvil/hanspur-s-chosen-image-01.png \"db9b00c6-b5e1-4964-95f7-7aa2f4331c71.png\")",
+    "new": "![[assets/world-anvil/hanspur-s-chosen-image-01.png]]",
+    "path": "assets/world-anvil/hanspur-s-chosen-image-01.png",
+    "title": "db9b00c6-b5e1-4964-95f7-7aa2f4331c71.png"
+  },
+  {
+    "note": "Moments/Older than Last Year.md",
+    "old": "![](assets/world-anvil/older-than-last-year-image-01.png \"1000007539.png\")",
+    "new": "![[assets/world-anvil/older-than-last-year-image-01.png]]",
+    "path": "assets/world-anvil/older-than-last-year-image-01.png",
+    "title": "1000007539.png"
+  },
+  {
+    "note": "Moments/The Day She Stood Still.md",
+    "old": "![](assets/world-anvil/the-day-she-stood-still-image-01.png \"292e478e-b424-4ea6-a8a6-f040ee724fc1.png\")",
+    "new": "![[assets/world-anvil/the-day-she-stood-still-image-01.png]]",
+    "path": "assets/world-anvil/the-day-she-stood-still-image-01.png",
+    "title": "292e478e-b424-4ea6-a8a6-f040ee724fc1.png"
+  },
+  {
+    "note": "Moments/The Flickering Flame.md",
+    "old": "![](assets/world-anvil/the-flickering-flame-image-01.png \"1000006983.png\")",
+    "new": "![[assets/world-anvil/the-flickering-flame-image-01.png]]",
+    "path": "assets/world-anvil/the-flickering-flame-image-01.png",
+    "title": "1000006983.png"
+  },
+  {
+    "note": "Moments/The Quiet After Battle.md",
+    "old": "![](assets/world-anvil/the-quiet-after-battle-image-01.png \"a0611b3b-259e-4cb1-ad58-45bfb2d45c19.png\")",
+    "new": "![[assets/world-anvil/the-quiet-after-battle-image-01.png]]",
+    "path": "assets/world-anvil/the-quiet-after-battle-image-01.png",
+    "title": "a0611b3b-259e-4cb1-ad58-45bfb2d45c19.png"
+  },
+  {
+    "note": "Moments/The Stillness Beneath Whiterose.md",
+    "old": "![](assets/world-anvil/the-stillness-beneath-whiterose-evindra.png \"Evindra.png\")",
+    "new": "![[assets/world-anvil/the-stillness-beneath-whiterose-evindra.png]]",
+    "path": "assets/world-anvil/the-stillness-beneath-whiterose-evindra.png",
+    "title": "Evindra.png"
+  },
+  {
+    "note": "Moments/The Stone Rat.md",
+    "old": "![](assets/world-anvil/the-stone-rat-stone-rat.png \"Stone Rat\")",
+    "new": "![[assets/world-anvil/the-stone-rat-stone-rat.png]]",
+    "path": "assets/world-anvil/the-stone-rat-stone-rat.png",
+    "title": "Stone Rat"
+  },
+  {
+    "note": "Moments/The Town Irovetti Fed to Monsters.md",
+    "old": "![](assets/world-anvil/the-town-irovetti-fed-to-monsters-littletown-4.png \"Littletown 4.png\")",
+    "new": "![[assets/world-anvil/the-town-irovetti-fed-to-monsters-littletown-4.png]]",
+    "path": "assets/world-anvil/the-town-irovetti-fed-to-monsters-littletown-4.png",
+    "title": "Littletown 4.png"
+  },
+  {
+    "note": "Moments/Where Law Cannot Follow.md",
+    "old": "![](assets/world-anvil/where-law-cannot-follow-image-01.png \"698c644f-7b7b-4d49-9ada-acfa668dfb7b.png\")",
+    "new": "![[assets/world-anvil/where-law-cannot-follow-image-01.png]]",
+    "path": "assets/world-anvil/where-law-cannot-follow-image-01.png",
+    "title": "698c644f-7b7b-4d49-9ada-acfa668dfb7b.png"
+  },
+  {
+    "note": "Morlibint's Dossier/Morlibeint's Dossier- On Sources and Reliability.md",
+    "old": "![](assets/world-anvil/morlibeint-s-dossier-on-sources-and-reliability-image-01.jpeg \"1b628238-832f-4c01-905d-6feb6934e511-md.jpg\")",
+    "new": "![[assets/world-anvil/morlibeint-s-dossier-on-sources-and-reliability-image-01.jpeg]]",
+    "path": "assets/world-anvil/morlibeint-s-dossier-on-sources-and-reliability-image-01.jpeg",
+    "title": "1b628238-832f-4c01-905d-6feb6934e511-md.jpg"
+  },
+  {
+    "note": "Morlibint's Dossier/Morlibint's Dossier- Closing Remarks.md",
+    "old": "![](assets/world-anvil/morlibint-s-dossier-closing-remarks-image-01.png \"28a685ac-b94c-49e5-bf0b-57c4177125ba.png\")",
+    "new": "![[assets/world-anvil/morlibint-s-dossier-closing-remarks-image-01.png]]",
+    "path": "assets/world-anvil/morlibint-s-dossier-closing-remarks-image-01.png",
+    "title": "28a685ac-b94c-49e5-bf0b-57c4177125ba.png"
+  },
+  {
+    "note": "Morlibint's Dossier/Morlibint's Dossier- The Children of Belcorra.md",
+    "old": "![](assets/world-anvil/morlibint-s-dossier-the-children-of-belcorra-image-01.png \"684db475-06fd-430c-94d8-467335c346cd.png\")",
+    "new": "![[assets/world-anvil/morlibint-s-dossier-the-children-of-belcorra-image-01.png]]",
+    "path": "assets/world-anvil/morlibint-s-dossier-the-children-of-belcorra-image-01.png",
+    "title": "684db475-06fd-430c-94d8-467335c346cd.png"
+  },
+  {
+    "note": "Morlibint's Dossier/Morlibint's Dossier- The Cult of Urthagul.md",
+    "old": "![](assets/world-anvil/morlibint-s-dossier-the-cult-of-urthagul-image-01.jpeg \"0302a647-c2b4-42f5-8191-cda59b1700cb-md.jpg\")",
+    "new": "![[assets/world-anvil/morlibint-s-dossier-the-cult-of-urthagul-image-01.jpeg]]",
+    "path": "assets/world-anvil/morlibint-s-dossier-the-cult-of-urthagul-image-01.jpeg",
+    "title": "0302a647-c2b4-42f5-8191-cda59b1700cb-md.jpg"
+  },
+  {
+    "note": "Morlibint's Dossier/Morlibint's Dossier- The Drow in the Farm.md",
+    "old": "![](assets/world-anvil/morlibint-s-dossier-the-drow-in-the-farm-image-01.png \"61087f5c-68d2-4ba1-bc1a-ed513091aded.png\")",
+    "new": "![[assets/world-anvil/morlibint-s-dossier-the-drow-in-the-farm-image-01.png]]",
+    "path": "assets/world-anvil/morlibint-s-dossier-the-drow-in-the-farm-image-01.png",
+    "title": "61087f5c-68d2-4ba1-bc1a-ed513091aded.png"
+  },
+  {
+    "note": "Morlibint's Dossier/Morlibint's Dossier- The Farm Redux.md",
+    "old": "![](assets/world-anvil/morlibint-s-dossier-the-farm-redux-image-01.png \"4dd23113-26c0-4cc2-8500-a13b3616bbbd.png\")",
+    "new": "![[assets/world-anvil/morlibint-s-dossier-the-farm-redux-image-01.png]]",
+    "path": "assets/world-anvil/morlibint-s-dossier-the-farm-redux-image-01.png",
+    "title": "4dd23113-26c0-4cc2-8500-a13b3616bbbd.png"
+  },
+  {
+    "note": "Morlibint's Dossier/Morlibint's Dossier- The Farm.md",
+    "old": "![](assets/world-anvil/morlibint-s-dossier-the-farm-image-01.png \"76d7d995-b974-4c74-887a-0d5ffbfa3393.png\")",
+    "new": "![[assets/world-anvil/morlibint-s-dossier-the-farm-image-01.png]]",
+    "path": "assets/world-anvil/morlibint-s-dossier-the-farm-image-01.png",
+    "title": "76d7d995-b974-4c74-887a-0d5ffbfa3393.png"
+  },
+  {
+    "note": "Morlibint's Dossier/Morlibint's Dossier- The Whispering Caverns.md",
+    "old": "![](assets/world-anvil/morlibint-s-dossier-the-whispering-caverns-image-01.jpeg \"e3bbc16e-bb91-48d7-ad68-3564891be68c-md.jpg\")",
+    "new": "![[assets/world-anvil/morlibint-s-dossier-the-whispering-caverns-image-01.jpeg]]",
+    "path": "assets/world-anvil/morlibint-s-dossier-the-whispering-caverns-image-01.jpeg",
+    "title": "e3bbc16e-bb91-48d7-ad68-3564891be68c-md.jpg"
+  },
+  {
+    "note": "Morlibint's Dossier/Morlibint's Dossier- The Whispering Reeds.md",
+    "old": "![](assets/world-anvil/morlibint-s-dossier-the-whispering-reeds-image-01.png \"86f85887-61a4-4860-a7da-7708ec365911.png\")",
+    "new": "![[assets/world-anvil/morlibint-s-dossier-the-whispering-reeds-image-01.png]]",
+    "path": "assets/world-anvil/morlibint-s-dossier-the-whispering-reeds-image-01.png",
+    "title": "86f85887-61a4-4860-a7da-7708ec365911.png"
+  },
+  {
+    "note": "Morlibint's Dossier/MorlibintΓÇÖs Dossier- Corrective Annotation.md",
+    "old": "![](assets/world-anvil/morlibints-dossier-corrective-annotation-image-01.jpeg \"0156b9c9-d8f0-4284-b443-d2b878841a90-md.jpg\")",
+    "new": "![[assets/world-anvil/morlibints-dossier-corrective-annotation-image-01.jpeg]]",
+    "path": "assets/world-anvil/morlibints-dossier-corrective-annotation-image-01.jpeg",
+    "title": "0156b9c9-d8f0-4284-b443-d2b878841a90-md.jpg"
+  },
+  {
+    "note": "Morlibint's Dossier/MorlibintΓÇÖs Dossier- Final Assessment.md",
+    "old": "![](assets/world-anvil/morlibints-dossier-final-assessment-image-01.jpeg \"1603be76-616f-4e0b-9eac-ff94a37c98af-md.jpg\")",
+    "new": "![[assets/world-anvil/morlibints-dossier-final-assessment-image-01.jpeg]]",
+    "path": "assets/world-anvil/morlibints-dossier-final-assessment-image-01.jpeg",
+    "title": "1603be76-616f-4e0b-9eac-ff94a37c98af-md.jpg"
+  },
+  {
+    "note": "Morlibint's Dossier/MorlibintΓÇÖs Dossier- Gauntlight and the Abomination Vaults.md",
+    "old": "![](assets/world-anvil/morlibints-dossier-gauntlight-and-the-abomination-vaults-image-01.jpeg \"c8ef0d18-60c8-4601-8e8c-8482f3783f4c-md.jpg\")",
+    "new": "![[assets/world-anvil/morlibints-dossier-gauntlight-and-the-abomination-vaults-image-01.jpeg]]",
+    "path": "assets/world-anvil/morlibints-dossier-gauntlight-and-the-abomination-vaults-image-01.jpeg",
+    "title": "c8ef0d18-60c8-4601-8e8c-8482f3783f4c-md.jpg"
+  },
+  {
+    "note": "Morlibint's Dossier/MorlibintΓÇÖs Dossier- Nhimbaloth, the Empty Death.md",
+    "old": "![](assets/world-anvil/morlibints-dossier-nhimbaloth-the-empty-death-image-01.png \"e841e74d-27a4-464c-bd2a-73e7d3f4c899.png\")",
+    "new": "![[assets/world-anvil/morlibints-dossier-nhimbaloth-the-empty-death-image-01.png]]",
+    "path": "assets/world-anvil/morlibints-dossier-nhimbaloth-the-empty-death-image-01.png",
+    "title": "e841e74d-27a4-464c-bd2a-73e7d3f4c899.png"
+  },
+  {
+    "note": "Morlibint's Dossier/MorlibintΓÇÖs Dossier- On the Fleshwarping Laboratories.md",
+    "old": "![](assets/world-anvil/morlibints-dossier-on-the-fleshwarping-laboratories-image-01.jpeg \"1e92cbe2-26ee-4a1e-89f9-4e5e787a378c-md.jpg\")",
+    "new": "![[assets/world-anvil/morlibints-dossier-on-the-fleshwarping-laboratories-image-01.jpeg]]",
+    "path": "assets/world-anvil/morlibints-dossier-on-the-fleshwarping-laboratories-image-01.jpeg",
+    "title": "1e92cbe2-26ee-4a1e-89f9-4e5e787a378c-md.jpg"
+  },
+  {
+    "note": "Morlibint's Dossier/MorlibintΓÇÖs Dossier- On the Prison Level and Infernal Presence.md",
+    "old": "![](assets/world-anvil/morlibints-dossier-on-the-prison-level-and-infernal-presence-image-01.jpeg \"33c33a5f-99cd-47c5-8db4-a7010888d45d-md.jpg\")",
+    "new": "![[assets/world-anvil/morlibints-dossier-on-the-prison-level-and-infernal-presence-image-01.jpeg]]",
+    "path": "assets/world-anvil/morlibints-dossier-on-the-prison-level-and-infernal-presence-image-01.jpeg",
+    "title": "33c33a5f-99cd-47c5-8db4-a7010888d45d-md.jpg"
+  },
+  {
+    "note": "Morlibint's Dossier/MorlibintΓÇÖs Dossier- On the So-Called Cult of the Canker.md",
+    "old": "![](assets/world-anvil/morlibints-dossier-on-the-so-called-cult-of-the-canker-image-01.jpeg \"6bb01d31-150f-438c-974c-3fa81ba15ccd-md.jpg\")",
+    "new": "![[assets/world-anvil/morlibints-dossier-on-the-so-called-cult-of-the-canker-image-01.jpeg]]",
+    "path": "assets/world-anvil/morlibints-dossier-on-the-so-called-cult-of-the-canker-image-01.jpeg",
+    "title": "6bb01d31-150f-438c-974c-3fa81ba15ccd-md.jpg"
+  },
+  {
+    "note": "Morlibint's Dossier/MorlibintΓÇÖs Dossier- On the Training Grounds.md",
+    "old": "![](assets/world-anvil/morlibints-dossier-on-the-training-grounds-image-01.jpeg \"0b4ee4a5-bea7-4afd-ae21-b3b65e55560d-md.jpg\")",
+    "new": "![[assets/world-anvil/morlibints-dossier-on-the-training-grounds-image-01.jpeg]]",
+    "path": "assets/world-anvil/morlibints-dossier-on-the-training-grounds-image-01.jpeg",
+    "title": "0b4ee4a5-bea7-4afd-ae21-b3b65e55560d-md.jpg"
+  },
+  {
+    "note": "Morlibint's Dossier/MorlibintΓÇÖs Dossier- On Wrin Sivinxi and the Question of Lenses.md",
+    "old": "![](assets/world-anvil/morlibints-dossier-on-wrin-sivinxi-and-the-question-of-lenses-image-01.jpeg \"4967e748-d63b-4587-8d13-92f5530c25d0-md.jpg\")",
+    "new": "![[assets/world-anvil/morlibints-dossier-on-wrin-sivinxi-and-the-question-of-lenses-image-01.jpeg]]",
+    "path": "assets/world-anvil/morlibints-dossier-on-wrin-sivinxi-and-the-question-of-lenses-image-01.jpeg",
+    "title": "4967e748-d63b-4587-8d13-92f5530c25d0-md.jpg"
+  },
+  {
+    "note": "Morlibint's Dossier/MorlibintΓÇÖs Dossier- Otari Folklore.md",
+    "old": "![](assets/world-anvil/morlibints-dossier-otari-folklore-image-01.jpeg \"158ee9c0-15c0-4c15-920e-f06161033f8f-md.jpg\")",
+    "new": "![[assets/world-anvil/morlibints-dossier-otari-folklore-image-01.jpeg]]",
+    "path": "assets/world-anvil/morlibints-dossier-otari-folklore-image-01.jpeg",
+    "title": "158ee9c0-15c0-4c15-920e-f06161033f8f-md.jpg"
+  },
+  {
+    "note": "Morlibint's Dossier/MorlibintΓÇÖs Dossier- Servants and Survivors.md",
+    "old": "![](assets/world-anvil/morlibints-dossier-servants-and-survivors-image-01.jpeg \"a3b10c2b-2f21-4904-bd30-4e4368440421-md.jpg\")",
+    "new": "![[assets/world-anvil/morlibints-dossier-servants-and-survivors-image-01.jpeg]]",
+    "path": "assets/world-anvil/morlibints-dossier-servants-and-survivors-image-01.jpeg",
+    "title": "a3b10c2b-2f21-4904-bd30-4e4368440421-md.jpg"
+  },
+  {
+    "note": "Morlibint's Dossier/MorlibintΓÇÖs Dossier- The Haruvex Lineage.md",
+    "old": "![](assets/world-anvil/morlibints-dossier-the-haruvex-lineage-image-01.jpeg \"d15839c0-ce75-4a1c-937d-9160d5336491-md.jpg\")",
+    "new": "![[assets/world-anvil/morlibints-dossier-the-haruvex-lineage-image-01.jpeg]]",
+    "path": "assets/world-anvil/morlibints-dossier-the-haruvex-lineage-image-01.jpeg",
+    "title": "d15839c0-ce75-4a1c-937d-9160d5336491-md.jpg"
+  },
+  {
+    "note": "Morlibint's Dossier/MorlibintΓÇÖs Dossier- The Roseguard.md",
+    "old": "![](assets/world-anvil/morlibints-dossier-the-roseguard-image-01.jpeg \"61c5adda-ae86-4a83-b5f9-477488627627-md.jpg\")",
+    "new": "![[assets/world-anvil/morlibints-dossier-the-roseguard-image-01.jpeg]]",
+    "path": "assets/world-anvil/morlibints-dossier-the-roseguard-image-01.jpeg",
+    "title": "61c5adda-ae86-4a83-b5f9-477488627627-md.jpg"
+  },
+  {
+    "note": "Morlibint's Dossier/MorlibintΓÇÖs Dossier- Wisps, Fog, and Dreams.md",
+    "old": "![](assets/world-anvil/morlibints-dossier-wisps-fog-and-dreams-image-01.jpeg \"041e702a-b811-4cae-a848-40e5f04d5e1e-md.jpg\")",
+    "new": "![[assets/world-anvil/morlibints-dossier-wisps-fog-and-dreams-image-01.jpeg]]",
+    "path": "assets/world-anvil/morlibints-dossier-wisps-fog-and-dreams-image-01.jpeg",
+    "title": "041e702a-b811-4cae-a848-40e5f04d5e1e-md.jpg"
+  },
+  {
+    "note": "Pitax Gazette/Corruption at the Rushlight!.md",
+    "old": "![](assets/world-anvil/corruption-at-the-rushlight-image-01.png \"cd784db4-58b9-4414-b25d-f7b8b776635a.png\")",
+    "new": "![[assets/world-anvil/corruption-at-the-rushlight-image-01.png]]",
+    "path": "assets/world-anvil/corruption-at-the-rushlight-image-01.png",
+    "title": "cd784db4-58b9-4414-b25d-f7b8b776635a.png"
+  },
+  {
+    "note": "Pitax Gazette/Pitax Hordes Betrayed by Foreign Agitators.md",
+    "old": "![](assets/world-anvil/pitax-hordes-betrayed-by-foreign-agitators-image-01.png \"bd62f6d5-fc3a-4a22-9517-e6dab3413793.png\")",
+    "new": "![[assets/world-anvil/pitax-hordes-betrayed-by-foreign-agitators-image-01.png]]",
+    "path": "assets/world-anvil/pitax-hordes-betrayed-by-foreign-agitators-image-01.png",
+    "title": "bd62f6d5-fc3a-4a22-9517-e6dab3413793.png"
+  },
+  {
+    "note": "Pitax Gazette/Pitaxian Allies Crush Republican Advance.md",
+    "old": "![](assets/world-anvil/pitaxian-allies-crush-republican-advance-image-01.png \"89401f82-9d88-4f62-a257-701eaf352eec.png\")",
+    "new": "![[assets/world-anvil/pitaxian-allies-crush-republican-advance-image-01.png]]",
+    "path": "assets/world-anvil/pitaxian-allies-crush-republican-advance-image-01.png",
+    "title": "89401f82-9d88-4f62-a257-701eaf352eec.png"
+  },
+  {
+    "note": "Rules/Basic Guide to Attacks of Opportunity and Provoking.md",
+    "old": "![](assets/world-anvil/basic-guide-to-attacks-of-opportunity-and-provoking-threaten.jpeg \"threaten.jpg\")",
+    "new": "![[assets/world-anvil/basic-guide-to-attacks-of-opportunity-and-provoking-threaten.jpeg]]",
+    "path": "assets/world-anvil/basic-guide-to-attacks-of-opportunity-and-provoking-threaten.jpeg",
+    "title": "threaten.jpg"
+  },
+  {
+    "note": "Rules/Basic Guide to Attacks of Opportunity and Provoking.md",
+    "old": "![](assets/world-anvil/basic-guide-to-attacks-of-opportunity-and-provoking-reach.jpeg \"reach.jpg\")",
+    "new": "![[assets/world-anvil/basic-guide-to-attacks-of-opportunity-and-provoking-reach.jpeg]]",
+    "path": "assets/world-anvil/basic-guide-to-attacks-of-opportunity-and-provoking-reach.jpeg",
+    "title": "reach.jpg"
+  },
+  {
+    "note": "Rules/Basic Guide to Attacks of Opportunity and Provoking.md",
+    "old": "![](assets/world-anvil/basic-guide-to-attacks-of-opportunity-and-provoking-threaten.jpeg \"threaten.jpg\")",
+    "new": "![[assets/world-anvil/basic-guide-to-attacks-of-opportunity-and-provoking-threaten.jpeg]]",
+    "path": "assets/world-anvil/basic-guide-to-attacks-of-opportunity-and-provoking-threaten.jpeg",
+    "title": "threaten.jpg"
+  },
+  {
+    "note": "Session Reports 0-20/Session 06- Introduction to World Anvil.md",
+    "old": "![](assets/world-anvil/session-6-seamus-leaps-onto-tuskgutter-sketch.png \"Session 6 - Seamus Leaps onto Tuskgutter Sketch.png\")",
+    "new": "![[assets/world-anvil/session-6-seamus-leaps-onto-tuskgutter-sketch.png]]",
+    "path": "assets/world-anvil/session-6-seamus-leaps-onto-tuskgutter-sketch.png",
+    "title": "Session 6 - Seamus Leaps onto Tuskgutter Sketch.png"
+  },
+  {
+    "note": "Session Reports 0-20/Session 10- Founding Day 3 - A Good Day to Found Hard.md",
+    "old": "![](assets/world-anvil/session-10-founding-day-3-a-good-day-to-found-hard-thumping-waters-flag.webp \"Thumping Waters Flag\")",
+    "new": "![[assets/world-anvil/session-10-founding-day-3-a-good-day-to-found-hard-thumping-waters-flag.webp]]",
+    "path": "assets/world-anvil/session-10-founding-day-3-a-good-day-to-found-hard-thumping-waters-flag.webp",
+    "title": "Thumping Waters Flag"
+  },
+  {
+    "note": "Session Reports 41-60/Session 49- The Rushlight Begins.md",
+    "old": "![](assets/world-anvil/shared-session-49-24.png \"Session 49-24.png\")",
+    "new": "![[assets/world-anvil/shared-session-49-24.png]]",
+    "path": "assets/world-anvil/shared-session-49-24.png",
+    "title": "Session 49-24.png"
+  },
+  {
+    "note": "Session Reports 41-60/Session 50- Silver Overall, Steel at the Border.md",
+    "old": "![](assets/world-anvil/shared-session-49-24.png \"Session 49-24.png\")",
+    "new": "![[assets/world-anvil/shared-session-49-24.png]]",
+    "path": "assets/world-anvil/shared-session-49-24.png",
+    "title": "Session 49-24.png"
+  },
+  {
+    "note": "Session Reports 41-60/Session 60- The Years Between.md",
+    "old": "![](assets/world-anvil/session-60-the-years-between-crazy-akbar.png \"Crazy Akbar.png\")",
+    "new": "![[assets/world-anvil/session-60-the-years-between-crazy-akbar.png]]",
+    "path": "assets/world-anvil/session-60-the-years-between-crazy-akbar.png",
+    "title": "Crazy Akbar.png"
+  },
+  {
+    "note": "Spells/Printing Spell Cards.md",
+    "old": "![](assets/world-anvil/printing-spell-cards-spellbook-1.png \"spellbook 1.png\")",
+    "new": "![[assets/world-anvil/printing-spell-cards-spellbook-1.png]]",
+    "path": "assets/world-anvil/printing-spell-cards-spellbook-1.png",
+    "title": "spellbook 1.png"
+  },
+  {
+    "note": "Spells/Printing Spell Cards.md",
+    "old": "![](assets/world-anvil/printing-spell-cards-spellbook-2.png \"spellbook 2.png\")",
+    "new": "![[assets/world-anvil/printing-spell-cards-spellbook-2.png]]",
+    "path": "assets/world-anvil/printing-spell-cards-spellbook-2.png",
+    "title": "spellbook 2.png"
+  },
+  {
+    "note": "Spells/Printing Spell Cards.md",
+    "old": "![](assets/world-anvil/printing-spell-cards-screenshot-2024-04-02-183148.png \"Screenshot 2024-04-02 183148.png\")",
+    "new": "![[assets/world-anvil/printing-spell-cards-screenshot-2024-04-02-183148.png]]",
+    "path": "assets/world-anvil/printing-spell-cards-screenshot-2024-04-02-183148.png",
+    "title": "Screenshot 2024-04-02 183148.png"
+  },
+  {
+    "note": "The Lantern and Ledger/Nok-Nok, Hero of the Mite Warrens and Governor of Greengripe, Falls in Battle.md",
+    "old": "![](assets/world-anvil/nok-nok-hero-of-the-mite-warrens-and-governor-of-greengripe-falls-in-battle-image-01.png \"8e43a4b0-c67b-40c7-8472-b3429e362461.png\")",
+    "new": "![[assets/world-anvil/nok-nok-hero-of-the-mite-warrens-and-governor-of-greengripe-falls-in-battle-image-01.png]]",
+    "path": "assets/world-anvil/nok-nok-hero-of-the-mite-warrens-and-governor-of-greengripe-falls-in-battle-image-01.png",
+    "title": "8e43a4b0-c67b-40c7-8472-b3429e362461.png"
+  },
+  {
+    "note": "The Lantern and Ledger/The King Comes to Thumpington.md",
+    "old": "![](assets/world-anvil/the-king-comes-to-thumpington-image-01.jpeg \"bfd73c36-843e-420b-bfd1-b5dbeaeace9f-md.jpg\")",
+    "new": "![[assets/world-anvil/the-king-comes-to-thumpington-image-01.jpeg]]",
+    "path": "assets/world-anvil/the-king-comes-to-thumpington-image-01.jpeg",
+    "title": "bfd73c36-843e-420b-bfd1-b5dbeaeace9f-md.jpg"
+  },
+  {
+    "note": "The Lantern and Ledger/The Lantern and Ledger.md",
+    "old": "![](assets/world-anvil/the-lantern-and-ledger-printing-press.png \"Printing Press.png\")",
+    "new": "![[assets/world-anvil/the-lantern-and-ledger-printing-press.png]]",
+    "path": "assets/world-anvil/the-lantern-and-ledger-printing-press.png",
+    "title": "Printing Press.png"
+  },
+  {
+    "note": "The Lantern and Ledger/The Water Owed Him One.md",
+    "old": "![](assets/world-anvil/the-water-owed-him-one-arven-to-candlemere-wide-woodcut.png \"Arven to Candlemere - Wide Woodcut.png\")",
+    "new": "![[assets/world-anvil/the-water-owed-him-one-arven-to-candlemere-wide-woodcut.png]]",
+    "path": "assets/world-anvil/the-water-owed-him-one-arven-to-candlemere-wide-woodcut.png",
+    "title": "Arven to Candlemere - Wide Woodcut.png"
+  },
+  {
+    "note": "The Lantern and Ledger/The Water Owed Him One.md",
+    "old": "![](assets/world-anvil/the-water-owed-him-one-old-crackjaw-square-woodcut.png \"Old Crackjaw - Square Woodcut.png\")",
+    "new": "![[assets/world-anvil/the-water-owed-him-one-old-crackjaw-square-woodcut.png]]",
+    "path": "assets/world-anvil/the-water-owed-him-one-old-crackjaw-square-woodcut.png",
+    "title": "Old Crackjaw - Square Woodcut.png"
+  },
+  {
+    "note": "The Lantern and Ledger/The Waters Stand.md",
+    "old": "![](assets/world-anvil/the-waters-stand-image-01.png \"08c78993-b43b-4b99-9796-81ad15789c1b.png\")",
+    "new": "![[assets/world-anvil/the-waters-stand-image-01.png]]",
+    "path": "assets/world-anvil/the-waters-stand-image-01.png",
+    "title": "08c78993-b43b-4b99-9796-81ad15789c1b.png"
+  },
+  {
+    "note": "Uncategorized Articles/Brevoy.md",
+    "old": "![](assets/world-anvil/brevoy-map-of-brevoy-and-its-neighbors-jpg.webp \"350px-Map_of_Brevoy_and_its_neighbors.jpg.webp\")",
+    "new": "![[assets/world-anvil/brevoy-map-of-brevoy-and-its-neighbors-jpg.webp]]",
+    "path": "assets/world-anvil/brevoy-map-of-brevoy-and-its-neighbors-jpg.webp",
+    "title": "350px-Map_of_Brevoy_and_its_neighbors.jpg.webp"
+  },
+  {
+    "note": "Vignettes - Abomination Vaults/9th Life.md",
+    "old": "![](assets/world-anvil/9th-life-fleshwarp-talia-final.png \"fleshwarp talia final.png\")",
+    "new": "![[assets/world-anvil/9th-life-fleshwarp-talia-final.png]]",
+    "path": "assets/world-anvil/9th-life-fleshwarp-talia-final.png",
+    "title": "fleshwarp talia final.png"
+  },
+  {
+    "note": "Vignettes - Abomination Vaults/A Brief Lesson in Indoor Voices.md",
+    "old": "![](assets/world-anvil/a-brief-lesson-in-indoor-voices-content.webp \"content.webp\")",
+    "new": "![[assets/world-anvil/a-brief-lesson-in-indoor-voices-content.webp]]",
+    "path": "assets/world-anvil/a-brief-lesson-in-indoor-voices-content.webp",
+    "title": "content.webp"
+  },
+  {
+    "note": "Vignettes - Abomination Vaults/ChafkhemΓÇÖs Warning.md",
+    "old": "![](assets/world-anvil/chafkhems-warning-image-01.png \"1000007235.png\")",
+    "new": "![[assets/world-anvil/chafkhems-warning-image-01.png]]",
+    "path": "assets/world-anvil/chafkhems-warning-image-01.png",
+    "title": "1000007235.png"
+  },
+  {
+    "note": "Vignettes - Abomination Vaults/Field Notes from the Lower Vaults ┬╖ Unscheduled Activity ┬╖ Chasm Watch, Third Rotation.md",
+    "old": "![](assets/world-anvil/field-notes-from-the-lower-vaults-unscheduled-activity-chasm-watch-third-image-01.jpeg \"667543d5-3f9b-41b6-871f-399f8e1ed95f-md.jpg\")",
+    "new": "![[assets/world-anvil/field-notes-from-the-lower-vaults-unscheduled-activity-chasm-watch-third-image-01.jpeg]]",
+    "path": "assets/world-anvil/field-notes-from-the-lower-vaults-unscheduled-activity-chasm-watch-third-image-01.jpeg",
+    "title": "667543d5-3f9b-41b6-871f-399f8e1ed95f-md.jpg"
+  },
+  {
+    "note": "Vignettes - Abomination Vaults/Gauntlight.md",
+    "old": "![](assets/world-anvil/gauntlight.png \"Gauntlight.png\")",
+    "new": "![[assets/world-anvil/gauntlight.png]]",
+    "path": "assets/world-anvil/gauntlight.png",
+    "title": "Gauntlight.png"
+  },
+  {
+    "note": "Vignettes - Abomination Vaults/Let's See What Happens.md",
+    "old": "![](assets/world-anvil/let-s-see-what-happens-image-01.webp \"raw.webp\")",
+    "new": "![[assets/world-anvil/let-s-see-what-happens-image-01.webp]]",
+    "path": "assets/world-anvil/let-s-see-what-happens-image-01.webp",
+    "title": "raw.webp"
+  },
+  {
+    "note": "Vignettes - Abomination Vaults/Let's See What Happens.md",
+    "old": "![](assets/world-anvil/let-s-see-what-happens-image-02.webp \"raw.webp\")",
+    "new": "![[assets/world-anvil/let-s-see-what-happens-image-02.webp]]",
+    "path": "assets/world-anvil/let-s-see-what-happens-image-02.webp",
+    "title": "raw.webp"
+  },
+  {
+    "note": "Vignettes - Abomination Vaults/Let's See What Happens.md",
+    "old": "![](assets/world-anvil/let-s-see-what-happens-image-03.webp \"raw.webp\")",
+    "new": "![[assets/world-anvil/let-s-see-what-happens-image-03.webp]]",
+    "path": "assets/world-anvil/let-s-see-what-happens-image-03.webp",
+    "title": "raw.webp"
+  },
+  {
+    "note": "Vignettes - Abomination Vaults/Madness Approaches.md",
+    "old": "![](assets/world-anvil/madness-approaches-image-01.png \"3d2c44c1-894d-4df0-a526-2c9feb4db300.png\")",
+    "new": "![[assets/world-anvil/madness-approaches-image-01.png]]",
+    "path": "assets/world-anvil/madness-approaches-image-01.png",
+    "title": "3d2c44c1-894d-4df0-a526-2c9feb4db300.png"
+  },
+  {
+    "note": "Vignettes - Abomination Vaults/Malaroth's Judgement.md",
+    "old": "![](assets/world-anvil/malaroth-s-judgement-image0.webp \"image0.webp\")",
+    "new": "![[assets/world-anvil/malaroth-s-judgement-image0.webp]]",
+    "path": "assets/world-anvil/malaroth-s-judgement-image0.webp",
+    "title": "image0.webp"
+  },
+  {
+    "note": "Vignettes - Abomination Vaults/Nightmares in the Mayor's Manor.md",
+    "old": "![](assets/world-anvil/nightmares-in-the-mayor-s-manor-image-01.png \"1000007236.png\")",
+    "new": "![[assets/world-anvil/nightmares-in-the-mayor-s-manor-image-01.png]]",
+    "path": "assets/world-anvil/nightmares-in-the-mayor-s-manor-image-01.png",
+    "title": "1000007236.png"
+  },
+  {
+    "note": "Vignettes - Abomination Vaults/No Way to Get Ahead.md",
+    "old": "![](assets/world-anvil/no-way-to-get-ahead-scared-theron-2.png \"Scared Theron 2.png\")",
+    "new": "![[assets/world-anvil/no-way-to-get-ahead-scared-theron-2.png]]",
+    "path": "assets/world-anvil/no-way-to-get-ahead-scared-theron-2.png",
+    "title": "Scared Theron 2.png"
+  },
+  {
+    "note": "Vignettes - Abomination Vaults/No Way to Get Ahead.md",
+    "old": "![](assets/world-anvil/no-way-to-get-ahead-theron-head-6.webp \"Theron_Head_6.webp\")",
+    "new": "![[assets/world-anvil/no-way-to-get-ahead-theron-head-6.webp]]",
+    "path": "assets/world-anvil/no-way-to-get-ahead-theron-head-6.webp",
+    "title": "Theron_Head_6.webp"
+  },
+  {
+    "note": "Vignettes - Abomination Vaults/Otari Sleeps Uneasily.md",
+    "old": "![](assets/world-anvil/otari-sleeps-uneasily-image-01.png \"68c80688-7c98-49ae-9c2a-9eb49a8eae95.png\")",
+    "new": "![[assets/world-anvil/otari-sleeps-uneasily-image-01.png]]",
+    "path": "assets/world-anvil/otari-sleeps-uneasily-image-01.png",
+    "title": "68c80688-7c98-49ae-9c2a-9eb49a8eae95.png"
+  },
+  {
+    "note": "Vignettes - Abomination Vaults/Second Chances, Served Warm.md",
+    "old": "![](assets/world-anvil/second-chances-served-warm-image-01.jpeg \"b83056c5-c0c9-4bd6-862f-5f78caf19180-md.jpg\")",
+    "new": "![[assets/world-anvil/second-chances-served-warm-image-01.jpeg]]",
+    "path": "assets/world-anvil/second-chances-served-warm-image-01.jpeg",
+    "title": "b83056c5-c0c9-4bd6-862f-5f78caf19180-md.jpg"
+  },
+  {
+    "note": "Vignettes - Abomination Vaults/Surprise Party.md",
+    "old": "![](assets/world-anvil/surprise-party-image-01.webp \"raw.webp\")",
+    "new": "![[assets/world-anvil/surprise-party-image-01.webp]]",
+    "path": "assets/world-anvil/surprise-party-image-01.webp",
+    "title": "raw.webp"
+  },
+  {
+    "note": "Vignettes - Abomination Vaults/The Only One Listening.md",
+    "old": "![](assets/world-anvil/the-only-one-listening-image-01.png \"d80f9e09-ae89-477f-90fb-dcbcf01ac886.png\")",
+    "new": "![[assets/world-anvil/the-only-one-listening-image-01.png]]",
+    "path": "assets/world-anvil/the-only-one-listening-image-01.png",
+    "title": "d80f9e09-ae89-477f-90fb-dcbcf01ac886.png"
+  },
+  {
+    "note": "Vignettes - Abomination Vaults/The Whispering Reeds.md",
+    "old": "![](assets/world-anvil/the-whispering-reeds-image-01.png \"1001bfa0-d18b-45ec-99f6-d2f3a30933be.png\")",
+    "new": "![[assets/world-anvil/the-whispering-reeds-image-01.png]]",
+    "path": "assets/world-anvil/the-whispering-reeds-image-01.png",
+    "title": "1001bfa0-d18b-45ec-99f6-d2f3a30933be.png"
+  },
+  {
+    "note": "Vignettes - Abomination Vaults/To Live or Die.md",
+    "old": "![](assets/world-anvil/to-live-or-die-image-01.webp \"raw.webp\")",
+    "new": "![[assets/world-anvil/to-live-or-die-image-01.webp]]",
+    "path": "assets/world-anvil/to-live-or-die-image-01.webp",
+    "title": "raw.webp"
+  },
+  {
+    "note": "Vignettes - Abomination Vaults/To Live or Die.md",
+    "old": "![](assets/world-anvil/to-live-or-die-image-02.webp \"raw.webp\")",
+    "new": "![[assets/world-anvil/to-live-or-die-image-02.webp]]",
+    "path": "assets/world-anvil/to-live-or-die-image-02.webp",
+    "title": "raw.webp"
+  },
+  {
+    "note": "Vignettes - Abomination Vaults/When the Shadows Breathe Out.md",
+    "old": "![](assets/world-anvil/when-the-shadows-breathe-out-dorianna.png \"Dorianna\")",
+    "new": "![[assets/world-anvil/when-the-shadows-breathe-out-dorianna.png]]",
+    "path": "assets/world-anvil/when-the-shadows-breathe-out-dorianna.png",
+    "title": "Dorianna"
+  },
+  {
+    "note": "Vignettes - Kingmaker/The Last Guardian.md",
+    "old": "![](assets/world-anvil/the-last-guardian-korog-before-the-seal-wide.png \"Korog Before the Seal - Wide.png\")",
+    "new": "![[assets/world-anvil/the-last-guardian-korog-before-the-seal-wide.png]]",
+    "path": "assets/world-anvil/the-last-guardian-korog-before-the-seal-wide.png",
+    "title": "Korog Before the Seal - Wide.png"
+  },
+  {
+    "note": "Vignettes - Kingmaker/The Last Guardian.md",
+    "old": "![](assets/world-anvil/the-last-guardian-tall-v2.png \"The Last Guardian - Tall v2.png\")",
+    "new": "![[assets/world-anvil/the-last-guardian-tall-v2.png]]",
+    "path": "assets/world-anvil/the-last-guardian-tall-v2.png",
+    "title": "The Last Guardian - Tall v2.png"
+  }
+]

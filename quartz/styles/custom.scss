@@ -1,4 +1,4 @@
-﻿@use "./variables.scss" as *;
+@use "./variables.scss" as *;
 
 @use "./kingmaker-timeline.scss";
 
@@ -662,3 +662,31 @@ html.isr-lightbox-open body {
     margin-top: 3rem;
   }
 }
+
+/* ===== INNER SEA REGION GLOBAL PAGE COVER ===== */
+.global-page-cover {
+  width: 100%;
+  margin: 0 0 1.35rem 0;
+  line-height: 0;
+}
+
+.global-page-cover img {
+  display: block;
+  width: 100%;
+  height: auto;
+  max-height: none;
+  object-fit: contain;
+  border-radius: 6px;
+  cursor: default;
+}
+
+@media (max-width: 800px) {
+  .global-page-cover {
+    margin-bottom: 1rem;
+  }
+
+  .global-page-cover img {
+    border-radius: 4px;
+  }
+}
+/* ===== END INNER SEA REGION GLOBAL PAGE COVER ===== */

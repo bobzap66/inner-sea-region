@@ -1,0 +1,36 @@
+---
+title: 'Morlibint’s Dossier: Corrective Annotation'
+type: myth
+category_path:
+- Morlibint's Dossier
+cover: "assets/world-anvil/shared-cover-32ff100f6011.png"
+---
+
+# Morlibint’s Dossier: Corrective Annotation
+
+![[shared-cover-32ff100f6011.png]]
+
+> [!side]
+> :   ![[morlibints-dossier-corrective-annotation-image-01.jpeg]]
+>
+>     by ChatGPT
+
+### Later Findings
+
+**This belief is false.**
+
+Two years ago, on the five-hundredth anniversary of her family’s exile, Belcorra Haruvex awoke as a ghost deep beneath Gauntlight Keep.
+
+The Abomination Vaults were never empty. Generations of creatures lived, fought, and adapted there in her absence.
+
+Belcorra did not rebuild.
+
+**She reasserted control.**
+
+Gauntlight is active once more.
+
+*Stories persist because they are useful. Systems persist because they work.*
+  
+
+[[Morlibint's Dossier/Morlibint’s Dossier- The Roseguard|Morlibint’s Dossier: The Roseguard]]
+

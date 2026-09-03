@@ -1,0 +1,345 @@
+[
+  {
+    "title": "Brevoy",
+    "old_path": "Uncategorized Articles/Brevoy.md",
+    "new_path": "Locations/Inner Sea Region/Brevoy.md",
+    "parent": "[[Locations/Inner Sea Region]]",
+    "confidence": "high"
+  },
+  {
+    "title": "Briny Wake",
+    "old_path": "Uncategorized Articles/Briny Wake.md",
+    "new_path": "Settlements/Thumping Waters/Fort Tuskwater/Briny Wake.md",
+    "parent": "[[Settlements/Thumping Waters/Fort Tuskwater]]",
+    "confidence": "high"
+  },
+  {
+    "title": "Delver's Brewery",
+    "old_path": "Uncategorized Articles/Delver's Brewery.md",
+    "new_path": "Settlements/Thumping Waters/Varnhold/Delver's Brewery.md",
+    "parent": "[[Settlements/Thumping Waters/Varnhold]]",
+    "confidence": "high"
+  },
+  {
+    "title": "Dunsward",
+    "old_path": "Uncategorized Articles/Dunsward.md",
+    "new_path": "Locations/Inner Sea Region/River Kingdoms/Stolen Lands/Nomen Heights/Dunsward.md",
+    "parent": "[[Locations/Inner Sea Region/River Kingdoms/Stolen Lands/Nomen Heights]]",
+    "confidence": "medium"
+  },
+  {
+    "title": "Fizzlesticks & Co",
+    "old_path": "Uncategorized Articles/Fizzlesticks & Co.md",
+    "new_path": "Settlements/Thumping Waters/Greengripe/Fizzlesticks & Co.md",
+    "parent": "[[Settlements/Thumping Waters/Greengripe]]",
+    "confidence": "high"
+  },
+  {
+    "title": "Fort Drelev",
+    "old_path": "Uncategorized Articles/Fort Drelev.md",
+    "new_path": "Settlements/Fort Drelev.md",
+    "parent": "[[Locations/Inner Sea Region/River Kingdoms/Stolen Lands/Hooktongue Slough]]",
+    "confidence": "medium"
+  },
+  {
+    "title": "Fort Serenko Lumberworks",
+    "old_path": "Uncategorized Articles/Fort Serenko Lumberworks.md",
+    "new_path": "Settlements/Thumping Waters/Fort Serenko/Fort Serenko Lumberworks.md",
+    "parent": "[[Settlements/Thumping Waters/Fort Serenko]]",
+    "confidence": "high"
+  },
+  {
+    "title": "Free University of Thumping Waters",
+    "old_path": "Uncategorized Articles/Free University of Thumping Waters.md",
+    "new_path": "Settlements/Thumping Waters/Thumpington/Free University of Thumping Waters.md",
+    "parent": "[[Settlements/Thumping Waters/Thumpington]]",
+    "confidence": "high"
+  },
+  {
+    "title": "Glenebon",
+    "old_path": "Uncategorized Articles/Glenebon.md",
+    "new_path": "Locations/Inner Sea Region/River Kingdoms/Stolen Lands/Glenebon.md",
+    "parent": "[[Locations/Inner Sea Region/River Kingdoms/Stolen Lands]]",
+    "confidence": "high"
+  },
+  {
+    "title": "Government Printing Office",
+    "old_path": "Uncategorized Articles/Government Printing Office.md",
+    "new_path": "Settlements/Thumping Waters/Thumpington/Government Printing Office.md",
+    "parent": "[[Settlements/Thumping Waters/Thumpington]]",
+    "confidence": "high"
+  },
+  {
+    "title": "Greenbelt",
+    "old_path": "Uncategorized Articles/Greenbelt.md",
+    "new_path": "Locations/Inner Sea Region/River Kingdoms/Stolen Lands/Greenbelt.md",
+    "parent": "[[Locations/Inner Sea Region/River Kingdoms/Stolen Lands]]",
+    "confidence": "high"
+  },
+  {
+    "title": "Guildhall of the Joined Hands",
+    "old_path": "Uncategorized Articles/Guildhall of the Joined Hands.md",
+    "new_path": "Settlements/Thumping Waters/Tatzlford/Guildhall of the Joined Hands.md",
+    "parent": "[[Settlements/Thumping Waters/Tatzlford]]",
+    "confidence": "high"
+  },
+  {
+    "title": "Hooktongue Slough",
+    "old_path": "Uncategorized Articles/Hooktongue Slough.md",
+    "new_path": "Locations/Inner Sea Region/River Kingdoms/Stolen Lands/Hooktongue Slough.md",
+    "parent": "[[Locations/Inner Sea Region/River Kingdoms/Stolen Lands]]",
+    "confidence": "high"
+  },
+  {
+    "title": "Hooktongue",
+    "old_path": "Uncategorized Articles/Hooktongue.md",
+    "new_path": "NPCs/Hooktongue.md",
+    "parent": "[[Locations/Inner Sea Region/River Kingdoms/Stolen Lands/Hooktongue Slough/Lake Hooktongue]]",
+    "confidence": "high"
+  },
+  {
+    "title": "House of Measured Paths",
+    "old_path": "Uncategorized Articles/House of Measured Paths.md",
+    "new_path": "Settlements/Thumping Waters/Tok-Nikrat/House of Measured Paths.md",
+    "parent": "[[Settlements/Thumping Waters/Tok-Nikrat]]",
+    "confidence": "high"
+  },
+  {
+    "title": "Kamelands",
+    "old_path": "Uncategorized Articles/Kamelands.md",
+    "new_path": "Locations/Inner Sea Region/River Kingdoms/Stolen Lands/Greenbelt/Kamelands.md",
+    "parent": "[[Locations/Inner Sea Region/River Kingdoms/Stolen Lands/Greenbelt]]",
+    "confidence": "high"
+  },
+  {
+    "title": "Lake Candlemere",
+    "old_path": "Uncategorized Articles/Lake Candlemere.md",
+    "new_path": "Locations/Inner Sea Region/River Kingdoms/Stolen Lands/Greenbelt/Kamelands/Lake Candlemere.md",
+    "parent": "[[Locations/Inner Sea Region/River Kingdoms/Stolen Lands/Greenbelt/Kamelands]]",
+    "confidence": "high"
+  },
+  {
+    "title": "Lake Hooktongue",
+    "old_path": "Uncategorized Articles/Lake Hooktongue.md",
+    "new_path": "Locations/Inner Sea Region/River Kingdoms/Stolen Lands/Hooktongue Slough/Lake Hooktongue.md",
+    "parent": "[[Locations/Inner Sea Region/River Kingdoms/Stolen Lands/Hooktongue Slough]]",
+    "confidence": "high"
+  },
+  {
+    "title": "Lake Silverstep",
+    "old_path": "Uncategorized Articles/Lake Silverstep.md",
+    "new_path": "Locations/Inner Sea Region/River Kingdoms/Stolen Lands/Nomen Heights/Lake Silverstep.md",
+    "parent": "[[Locations/Inner Sea Region/River Kingdoms/Stolen Lands/Nomen Heights]]",
+    "confidence": "high"
+  },
+  {
+    "title": "Levet's Mill",
+    "old_path": "Uncategorized Articles/Levet's Mill.md",
+    "new_path": "Settlements/Thumping Waters/Olegton/Levet's Mill.md",
+    "parent": "[[Settlements/Thumping Waters/Olegton]]",
+    "confidence": "high"
+  },
+  {
+    "title": "Mivon",
+    "old_path": "Uncategorized Articles/Mivon.md",
+    "new_path": "Settlements/Mivon.md",
+    "parent": "[[Locations/Inner Sea Region/River Kingdoms]]",
+    "confidence": "high"
+  },
+  {
+    "title": "Narlmarches",
+    "old_path": "Uncategorized Articles/Narlmarches.md",
+    "new_path": "Locations/Inner Sea Region/River Kingdoms/Stolen Lands/Greenbelt/Narlmarches.md",
+    "parent": "[[Locations/Inner Sea Region/River Kingdoms/Stolen Lands/Greenbelt]]",
+    "confidence": "high"
+  },
+  {
+    "title": "Nivaka's Crossing",
+    "old_path": "Uncategorized Articles/Nivaka's Crossing.md",
+    "new_path": "Settlements/Nivaka's Crossing.md",
+    "parent": "[[Locations/Inner Sea Region/Brevoy/Rostland Hinterlands]]",
+    "confidence": "high"
+  },
+  {
+    "title": "Nomen Centaurs",
+    "old_path": "Uncategorized Articles/Nomen Centaurs.md",
+    "new_path": "Groups/Nomen Centaurs.md",
+    "parent": "[[Locations/Inner Sea Region/River Kingdoms/Stolen Lands/Nomen Heights/Dunsward]]",
+    "confidence": "high"
+  },
+  {
+    "title": "Nomen Heights",
+    "old_path": "Uncategorized Articles/Nomen Heights.md",
+    "new_path": "Locations/Inner Sea Region/River Kingdoms/Stolen Lands/Nomen Heights.md",
+    "parent": "[[Locations/Inner Sea Region/River Kingdoms/Stolen Lands]]",
+    "confidence": "high"
+  },
+  {
+    "title": "Otari",
+    "old_path": "Uncategorized Articles/Otari.md",
+    "new_path": "Settlements/Otari.md",
+    "parent": "[[Locations/Inner Sea Region]]",
+    "confidence": "high"
+  },
+  {
+    "title": "Pathfinder Society Chronicle- Steadfast - Appendix A",
+    "old_path": "Uncategorized Articles/Pathfinder Society Chronicle- Steadfast - Appendix A.md",
+    "new_path": "Vignettes - Abomination Vaults/Pathfinder Society Chronicle - Steadfast/Appendix A.md",
+    "parent": "[[Vignettes - Abomination Vaults/Pathfinder Society Chronicle - Steadfast]]",
+    "confidence": "high"
+  },
+  {
+    "title": "Pitax",
+    "old_path": "Uncategorized Articles/Pitax.md",
+    "new_path": "Settlements/Pitax.md",
+    "parent": "[[Locations/Inner Sea Region/River Kingdoms]]",
+    "confidence": "high"
+  },
+  {
+    "title": "Restov",
+    "old_path": "Uncategorized Articles/Restov.md",
+    "new_path": "Settlements/Restov.md",
+    "parent": "[[Locations/Inner Sea Region/Brevoy/Rostland Hinterlands]]",
+    "confidence": "high"
+  },
+  {
+    "title": "River Kingdoms",
+    "old_path": "Uncategorized Articles/River Kingdoms.md",
+    "new_path": "Locations/Inner Sea Region/River Kingdoms.md",
+    "parent": "[[Locations/Inner Sea Region]]",
+    "confidence": "high"
+  },
+  {
+    "title": "Riverside Shrine",
+    "old_path": "Uncategorized Articles/Riverside Shrine.md",
+    "new_path": "Settlements/Thumping Waters/Sootscale Valley/Riverside Shrine.md",
+    "parent": "[[Settlements/Thumping Waters/Sootscale Valley]]",
+    "confidence": "high"
+  },
+  {
+    "title": "Roc's Omelette",
+    "old_path": "Uncategorized Articles/Roc's Omelette.md",
+    "new_path": "Settlements/Thumping Waters/Thumpington/Roc's Omelette.md",
+    "parent": "[[Settlements/Thumping Waters/Thumpington]]",
+    "confidence": "high"
+  },
+  {
+    "title": "Rostland Hinterlands",
+    "old_path": "Uncategorized Articles/Rostland Hinterlands.md",
+    "new_path": "Locations/Inner Sea Region/Brevoy/Rostland Hinterlands.md",
+    "parent": "[[Locations/Inner Sea Region/Brevoy]]",
+    "confidence": "high"
+  },
+  {
+    "title": "Silver Reed",
+    "old_path": "Uncategorized Articles/Silver Reed.md",
+    "new_path": "Settlements/Thumping Waters/Willowfen/Silver Reed.md",
+    "parent": "[[Settlements/Thumping Waters/Willowfen]]",
+    "confidence": "high"
+  },
+  {
+    "title": "Stag Lord's Fort",
+    "old_path": "Uncategorized Articles/Stag Lord's Fort.md",
+    "new_path": "Locations/Inner Sea Region/River Kingdoms/Stolen Lands/Greenbelt/Kamelands/Tuskwater/Stag Lord's Fort.md",
+    "parent": "[[Locations/Inner Sea Region/River Kingdoms/Stolen Lands/Greenbelt/Kamelands/Tuskwater]]",
+    "confidence": "high"
+  },
+  {
+    "title": "Stolen Lands",
+    "old_path": "Uncategorized Articles/Stolen Lands.md",
+    "new_path": "Locations/Inner Sea Region/River Kingdoms/Stolen Lands.md",
+    "parent": "[[Locations/Inner Sea Region/River Kingdoms]]",
+    "confidence": "high"
+  },
+  {
+    "title": "Tailforge Atelier",
+    "old_path": "Uncategorized Articles/Tailforge Atelier.md",
+    "new_path": "Settlements/Thumping Waters/Longtail Island/Tailforge Atelier.md",
+    "parent": "[[Settlements/Thumping Waters/Longtail Island]]",
+    "confidence": "high"
+  },
+  {
+    "title": "Tartuk",
+    "old_path": "Uncategorized Articles/Tartuk.md",
+    "new_path": "NPCs/Tartuk.md",
+    "parent": "[[Groups/Sootscale Kobolds]]",
+    "confidence": "high"
+  },
+  {
+    "title": "Temple of the First Light",
+    "old_path": "Uncategorized Articles/Temple of the First Light.md",
+    "new_path": "Settlements/Thumping Waters/Thumpington/Temple of the First Light.md",
+    "parent": "[[Settlements/Thumping Waters/Thumpington]]",
+    "confidence": "high"
+  },
+  {
+    "title": "The Old Sycamore",
+    "old_path": "Uncategorized Articles/The Old Sycamore.md",
+    "new_path": "Locations/Inner Sea Region/River Kingdoms/Stolen Lands/Greenbelt/Kamelands/The Old Sycamore.md",
+    "parent": "[[Locations/Inner Sea Region/River Kingdoms/Stolen Lands/Greenbelt/Kamelands]]",
+    "confidence": "high"
+  },
+  {
+    "title": "The Thousand Voices",
+    "old_path": "Uncategorized Articles/The Thousand Voices.md",
+    "new_path": "Locations/Inner Sea Region/River Kingdoms/Stolen Lands/The Thousand Voices.md",
+    "parent": "[[Locations/Inner Sea Region/River Kingdoms/Stolen Lands]]",
+    "confidence": "high"
+  },
+  {
+    "title": "Tors of Levenies",
+    "old_path": "Uncategorized Articles/Tors of Levenies.md",
+    "new_path": "Locations/Inner Sea Region/River Kingdoms/Stolen Lands/Nomen Heights/Tors of Levenies.md",
+    "parent": "[[Locations/Inner Sea Region/River Kingdoms/Stolen Lands/Nomen Heights]]",
+    "confidence": "high"
+  },
+  {
+    "title": "Tristian's Dawn",
+    "old_path": "Uncategorized Articles/Tristian's Dawn.md",
+    "new_path": "Settlements/Thumping Waters/Thumpington/Tristian's Dawn.md",
+    "parent": "[[Settlements/Thumping Waters/Thumpington]]",
+    "confidence": "high"
+  },
+  {
+    "title": "Tuskwater",
+    "old_path": "Uncategorized Articles/Tuskwater.md",
+    "new_path": "Locations/Inner Sea Region/River Kingdoms/Stolen Lands/Greenbelt/Kamelands/Tuskwater.md",
+    "parent": "[[Locations/Inner Sea Region/River Kingdoms/Stolen Lands/Greenbelt/Kamelands]]",
+    "confidence": "high"
+  },
+  {
+    "title": "Uringen",
+    "old_path": "Uncategorized Articles/Uringen.md",
+    "new_path": "Settlements/Uringen.md",
+    "parent": "[[Locations/Inner Sea Region/River Kingdoms]]",
+    "confidence": "high"
+  },
+  {
+    "title": "Velka of the Sootscale ΓÇô Travels and Connections",
+    "old_path": "Uncategorized Articles/Velka of the Sootscale ΓÇô Travels and Connections.md",
+    "new_path": "Characters/Velka/Travels and Connections.md",
+    "parent": "[[Characters/Velka]]",
+    "confidence": "high"
+  },
+  {
+    "title": "Whispering Step",
+    "old_path": "Uncategorized Articles/Whispering Step.md",
+    "new_path": "Settlements/Thumping Waters/Tok-Nikrat/Whispering Step.md",
+    "parent": "[[Settlements/Thumping Waters/Tok-Nikrat]]",
+    "confidence": "high"
+  },
+  {
+    "title": "White Lantern",
+    "old_path": "Uncategorized Articles/White Lantern.md",
+    "new_path": "Settlements/Thumping Waters/Embeth Hall/White Lantern.md",
+    "parent": "[[Settlements/Thumping Waters/Embeth Hall]]",
+    "confidence": "high"
+  },
+  {
+    "title": "Willowfen General",
+    "old_path": "Uncategorized Articles/Willowfen General.md",
+    "new_path": "Settlements/Thumping Waters/Willowfen/Willowfen General.md",
+    "parent": "[[Settlements/Thumping Waters/Willowfen]]",
+    "confidence": "high"
+  }
+]
