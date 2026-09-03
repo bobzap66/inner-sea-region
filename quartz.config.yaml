@@ -94,6 +94,7 @@ plugins:
     enabled: true
     options:
       markdownLinkResolution: shortest
+      prettyLinks: true
     order: 60
   - source: "@quartz-community/description"
     enabled: true
@@ -120,11 +121,11 @@ plugins:
     options:
       useThemeFonts: false
       fontOrigin: googleFonts
-      title: '"Cormorant Garamond", Georgia, serif'
-      header: '"Cormorant Garamond", Georgia, serif'
-      body: '"Source Serif 4", Georgia, serif'
-      interface: '"Source Sans 3", system-ui, sans-serif'
-      code: '"IBM Plex Mono", monospace'
+      title: '\"Cormorant Garamond\", Georgia, serif'
+      header: '\"Cormorant Garamond\", Georgia, serif'
+      body: '\"Source Serif 4\", Georgia, serif'
+      interface: '\"Source Sans 3\", system-ui, sans-serif'
+      code: '\"IBM Plex Mono\", monospace'
   - source: "@quartz-themes/core"
     # The stock theme rewrites configuration.theme at build time. Keep it off
     # so the Inner Sea Region palette and typography above remain authoritative.
