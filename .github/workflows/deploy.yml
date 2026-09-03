@@ -46,7 +46,7 @@ jobs:
         run: npm ci
 
       - name: Install Quartz plugins
-        run: npx quartz plugin install --from-config
+        run: npx quartz plugin install --from-config --clean
 
       - name: Build Quartz
         run: npx quartz build
@@ -71,4 +71,3 @@ jobs:
       - name: Deploy to GitHub Pages
         id: deployment
         uses: actions/deploy-pages@v4
-
