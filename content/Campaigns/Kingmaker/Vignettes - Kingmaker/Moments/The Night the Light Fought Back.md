@@ -13,7 +13,7 @@ local_source: "Locations\\Candlemere\\Lake Candlemere Sidebar - Linzi's Journal.
 
 #### The Night the Light Fought Back
 
-You have never heard silence until you have heard [[Candlemere]]’s. It hums in your bones, as though the world is holding its breath to see what you will do next.
+You have never heard silence until you have heard [Candlemere](../../../../Locations/Inner%20Sea%20Region/River%20Kingdoms/Stolen%20Lands/Greenbelt/Kamelands/Lake%20Candlemere.md)’s. It hums in your bones, as though the world is holding its breath to see what you will do next.
 
 The Tubthumpers crossed the lake on two makeshift rafts, their lanterns reduced to pinpricks. I remained on the mainland shore. Someone had to keep notes, watch the horses, and prepare a sufficiently stern expression for anyone who returned without the others.
 
