@@ -23,7 +23,7 @@ cover: "assets/world-anvil/shared-cover-ee82cf8c9a07.png"
 
 ### Summary Judgment
 
-Wild Hunt scouts have crossed into the [Stolen Lands](../../../../Locations/Inner%20Sea%20Region/River%20Kingdoms/Stolen%20Lands/Stolen%20Lands.md) on at least two confirmed occasions. Their statements indicate preparation for a larger Hunt, but we possess no confirmed date, leader, route, or target. A warning delivered by the leshy calling himself Lurk claims that the Hunt is imminent and that the seal beneath [[Candlemere]] is failing. Neither claim has been independently confirmed.
+Wild Hunt scouts have crossed into the [Stolen Lands](../../../../Locations/Inner%20Sea%20Region/River%20Kingdoms/Stolen%20Lands/Stolen%20Lands.md) on at least two confirmed occasions. Their statements indicate preparation for a larger Hunt, but we possess no confirmed date, leader, route, or target. A warning delivered by the leshy calling himself Lurk claims that the Hunt is imminent and that the seal beneath [Candlemere](../../../../Locations/Inner%20Sea%20Region/River%20Kingdoms/Stolen%20Lands/Greenbelt/Kamelands/Lake%20Candlemere.md) is failing. Neither claim has been independently confirmed.
 
 The more immediate danger may be political rather than military. Since the western uplands incident, fey throughout the Republic appear to be withdrawing the informal warnings, aid, and tolerance upon which many frontier communities have unknowingly relied.
 
