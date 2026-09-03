@@ -2,7 +2,10 @@ import { promises as fs } from "node:fs"
 import path from "node:path"
 
 const CONTENT_ROOT = path.resolve("content")
-const OUTPUT_FILE = path.resolve("quartz/static/golarion-events.json")
+const OUTPUT_FILES = [
+  path.resolve("quartz/static/golarion-events.json"),
+  path.resolve("public/static/golarion-events.json"),
+]
 const CALENDAR_NAME = "Calendar of Golarion"
 const MONTHS = [
   "Abadius",
@@ -99,6 +102,9 @@ const payload = {
   events,
 }
 
-await fs.mkdir(path.dirname(OUTPUT_FILE), { recursive: true })
-await fs.writeFile(OUTPUT_FILE, JSON.stringify(payload, null, 2) + "\n", "utf8")
-console.log(`Generated ${events.length} Golarion events at ${OUTPUT_FILE}`)
+const json = JSON.stringify(payload, null, 2) + "\n"
+for (const outputFile of OUTPUT_FILES) {
+  await fs.mkdir(path.dirname(outputFile), { recursive: true })
+  await fs.writeFile(outputFile, json, "utf8")
+  console.log(`Generated ${events.length} Golarion events at ${outputFile}`)
+}
