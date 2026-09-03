@@ -8,7 +8,7 @@ category_path:
 # Aldori Swordlords
 
 
-The Aldori swordlords, sometimes written Aldori Swordlords, arose when famed swordsman Baron Sirian Aldori agreed to train a select group of pupils in his dueling techniques. They ruled Rostland for generations, each as prickly and impulsive as the order's founder. They are known for their mastery of the Aldori dueling sword. Though they are considered some of the finest swordfighters in the [[Inner Sea Region]], they are also obsessed with personal standing and honor.
+The Aldori swordlords, sometimes written Aldori Swordlords, arose when famed swordsman Baron Sirian Aldori agreed to train a select group of pupils in his dueling techniques. They ruled Rostland for generations, each as prickly and impulsive as the order's founder. They are known for their mastery of the Aldori dueling sword. Though they are considered some of the finest swordfighters in the [Inner Sea Region](../Locations/Inner%20Sea%20Region/Inner%20Sea%20Region.md), they are also obsessed with personal standing and honor.
 
 #### Members
 
