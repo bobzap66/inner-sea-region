@@ -110,10 +110,27 @@ export default (() => {
       ".center article .callout[data-callout='side']",
     )
 
+    const sidebarHeadingIds = new Set()
+
     sideBlocks.forEach((block) => {
+      block.querySelectorAll("h1[id], h2[id], h3[id], h4[id], h5[id], h6[id]").forEach((heading) => {
+        sidebarHeadingIds.add(heading.id)
+      })
+
       block.classList.add("world-anvil-side-content")
       rightSidebar.appendChild(block)
     })
+
+    if (sidebarHeadingIds.size > 0) {
+      document.querySelectorAll(".toc a[href^='#']").forEach((link) => {
+        const id = decodeURIComponent(link.getAttribute("href").slice(1))
+        if (sidebarHeadingIds.has(id)) {
+          const item = link.closest("li")
+          if (item) item.remove()
+          else link.remove()
+        }
+      })
+    }
   }
 
   document.addEventListener("nav", moveWorldAnvilSideContent)

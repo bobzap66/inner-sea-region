@@ -457,3 +457,17 @@ article .callout[data-callout="side"] {
   }
 }
 /* END WORLD ANVIL SIDE CONTENT */
+
+/* INNER SEA REGION RIGHT SIDEBAR SCROLL */
+@media (min-width: 1201px) {
+  .page > #quartz-body .sidebar.right {
+    overflow-y: auto;
+    overflow-x: hidden;
+    overscroll-behavior: contain;
+    scrollbar-width: thin;
+  }
+
+  .page > #quartz-body .sidebar.right::-webkit-scrollbar {
+    width: 6px;
+  }
+}
