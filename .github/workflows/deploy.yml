@@ -48,11 +48,11 @@ jobs:
       - name: Install Quartz plugins
         run: npx quartz plugin install --from-config --clean
 
-      - name: Generate Golarion calendar data
-        run: node scripts/generate-golarion-calendar.mjs
-
       - name: Build Quartz
         run: npx quartz build
+
+      - name: Generate Golarion calendar data
+        run: node scripts/generate-golarion-calendar.mjs
 
       - name: Setup Pages
         uses: actions/configure-pages@v6
