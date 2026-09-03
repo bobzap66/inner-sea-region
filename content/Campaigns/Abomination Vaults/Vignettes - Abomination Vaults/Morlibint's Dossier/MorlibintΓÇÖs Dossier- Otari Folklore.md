@@ -45,5 +45,5 @@ For nearly five centuries, Belcorra existed only in stories.
 
   
 
-[[Morlibint's Dossier/Morlibint’s Dossier- Corrective Annotation|Morlibint’s Dossier: Corrective Annotation]]
+[Morlibint’s Dossier: Corrective Annotation](Morlibint%CE%93%C3%87%C3%96s%20Dossier-%20Corrective%20Annotation.md)
 

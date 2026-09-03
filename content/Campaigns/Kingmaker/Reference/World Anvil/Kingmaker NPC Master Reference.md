@@ -10,7 +10,7 @@ category_path:
 > [!note] Campaign reference
 > This searchable index was generated from the campaign maintenance workbook. The original workbook is linked below for archival use.
 
-[[kingmaker-npc-master-reference.xlsx|Download the original workbook]]
+[Download the original workbook](../../../../assets/images/reference/kingmaker-npc-master-reference.xlsx)
 
 ## KINGMAKER NPC MASTER REFERENCE
 

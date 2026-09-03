@@ -71,5 +71,5 @@ If she is right, then at last we understand why Belcorra has proven so difficult
 
 —and what, precisely, it might take to make her visible to something that does not forgive being noticed.
 
-[[Morlibint's Dossier/Morlibint’s Dossier- Nhimbaloth, the Empty Death|Morlibint’s Dossier: Nhimbaloth, the Empty Death]]
+[Morlibint’s Dossier: Nhimbaloth, the Empty Death](Morlibint%CE%93%C3%87%C3%96s%20Dossier-%20Nhimbaloth%2C%20the%20Empty%20Death.md)
 

@@ -96,5 +96,5 @@ Belcorra built a place where devotion could outlive its object.
 *— Morlibint*
   
 
-[[Morlibint's Dossier/Morlibint’s Dossier- On the Training Grounds|Morlibint’s Dossier: On the Training Grounds]]
+[Morlibint’s Dossier: On the Training Grounds](Morlibint%CE%93%C3%87%C3%96s%20Dossier-%20On%20the%20Training%20Grounds.md)
 

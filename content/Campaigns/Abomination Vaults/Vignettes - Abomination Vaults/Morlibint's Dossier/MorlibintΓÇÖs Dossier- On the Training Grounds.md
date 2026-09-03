@@ -62,5 +62,5 @@ Creation occurred elsewhere.
 *— Morlibint*
   
 
-[[Morlibint's Dossier/Morlibint’s Dossier- On the Fleshwarping Laboratories|Morlibint’s Dossier: On the Fleshwarping Laboratories]]
+[Morlibint’s Dossier: On the Fleshwarping Laboratories](Morlibint%CE%93%C3%87%C3%96s%20Dossier-%20On%20the%20Fleshwarping%20Laboratories.md)
 

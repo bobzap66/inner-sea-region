@@ -32,5 +32,5 @@ Belcorra enforced order within the Vaults using will-o’-wisps, bound devils, a
 *Architectural notes recovered from the Vaults are precise, iterative, and disturbingly patient.*
   
 
-[[Morlibint's Dossier/Morlibint’s Dossier- On the So-Called Cult of the Canker|Morlibint’s Dossier: On the So-Called Cult of the Canker]]
+[Morlibint’s Dossier: On the So-Called Cult of the Canker](Morlibint%CE%93%C3%87%C3%96s%20Dossier-%20On%20the%20So-Called%20Cult%20of%20the%20Canker.md)
 

@@ -36,5 +36,5 @@ Most exiled Haruvexes died in poverty.
 *This section is drawn from Absalom civic records and confiscated genealogical materials, and is the least tainted portion of this dossier.*
   
 
-[[Morlibint's Dossier/Morlibint’s Dossier- Gauntlight and the Abomination Vaults|Morlibint’s Dossier: Gauntlight and the Abomination Vaults]]
+[Morlibint’s Dossier: Gauntlight and the Abomination Vaults](Morlibint%CE%93%C3%87%C3%96s%20Dossier-%20Gauntlight%20and%20the%20Abomination%20Vaults.md)
 

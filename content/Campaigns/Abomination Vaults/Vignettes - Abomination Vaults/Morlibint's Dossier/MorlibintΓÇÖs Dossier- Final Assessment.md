@@ -32,5 +32,5 @@ If this dossier serves any purpose, let it be this:
 **She is unfinished history.**
 
 *— Morlibint*
-[[Morlibint's Dossier/Morlibint’s Dossier- On Wrin Sivinxi and the Question of Lenses|Morlibint’s Dossier: On Wrin Sivinxi and the Question of Lenses]]
+[Morlibint’s Dossier: On Wrin Sivinxi and the Question of Lenses](Morlibint%CE%93%C3%87%C3%96s%20Dossier-%20On%20Wrin%20Sivinxi%20and%20the%20Question%20of%20Lenses.md)
 

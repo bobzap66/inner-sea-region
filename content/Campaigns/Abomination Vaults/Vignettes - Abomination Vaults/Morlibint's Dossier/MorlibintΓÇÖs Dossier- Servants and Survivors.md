@@ -33,5 +33,5 @@ None of these figures were loyal.
 
   
 
-[[Morlibint's Dossier/Morlibint’s Dossier- Wisps, Fog, and Dreams|Morlibint’s Dossier: Wisps, Fog, and Dreams]]
+[Morlibint’s Dossier: Wisps, Fog, and Dreams](Morlibint%CE%93%C3%87%C3%96s%20Dossier-%20Wisps%2C%20Fog%2C%20and%20Dreams.md)
 

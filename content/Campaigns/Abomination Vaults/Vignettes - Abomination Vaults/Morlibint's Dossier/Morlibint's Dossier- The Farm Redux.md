@@ -38,5 +38,5 @@ A conquered system collapses when its conqueror falls. A persistent system survi
 
 *— Morlibint*
 
-[[Morlibint's Dossier/Morlibint’s Dossier- Final Assessment|Morlibint’s Dossier: Final Assessment]]
+[Morlibint’s Dossier: Final Assessment](Morlibint%CE%93%C3%87%C3%96s%20Dossier-%20Final%20Assessment.md)
 

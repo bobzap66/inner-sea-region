@@ -32,5 +32,5 @@ This omission defines everything that followed.
 *Roseguard memorials and early Otari town records agree on this point with remarkable consistency.*
   
 
-[[Morlibint's Dossier/Morlibint’s Dossier- The Haruvex Lineage|Morlibint’s Dossier: The Haruvex Lineage]]
+[Morlibint’s Dossier: The Haruvex Lineage](Morlibint%CE%93%C3%87%C3%96s%20Dossier-%20The%20Haruvex%20Lineage.md)
 

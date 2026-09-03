@@ -32,5 +32,5 @@ Gauntlight is active once more.
 *Stories persist because they are useful. Systems persist because they work.*
   
 
-[[Morlibint's Dossier/Morlibint’s Dossier- The Roseguard|Morlibint’s Dossier: The Roseguard]]
+[Morlibint’s Dossier: The Roseguard](Morlibint%CE%93%C3%87%C3%96s%20Dossier-%20The%20Roseguard.md)
 

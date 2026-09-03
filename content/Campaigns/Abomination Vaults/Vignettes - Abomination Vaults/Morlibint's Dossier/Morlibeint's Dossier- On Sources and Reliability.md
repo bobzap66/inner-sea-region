@@ -33,5 +33,5 @@ Where these external records corroborate one another, I have treated the informa
 *— Morlibint*
   
 
-[[Morlibint's Dossier/Morlibint’s Dossier- Otari Folklore|Morlibint’s Dossier: Otari Folklore]]
+[Morlibint’s Dossier: Otari Folklore](Morlibint%CE%93%C3%87%C3%96s%20Dossier-%20Otari%20Folklore.md)
 

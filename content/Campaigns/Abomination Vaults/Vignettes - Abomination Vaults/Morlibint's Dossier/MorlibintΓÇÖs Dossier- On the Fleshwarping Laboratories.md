@@ -98,5 +98,5 @@ That the system persisted after her death may be the most damning evidence that 
 *— Morlibint*
   
 
-[[Morlibint's Dossier/Morlibint’s Dossier- On the Prison Level and Infernal Presence|Morlibint’s Dossier: On the Prison Level and Infernal Presence]]
+[Morlibint’s Dossier: On the Prison Level and Infernal Presence](Morlibint%CE%93%C3%87%C3%96s%20Dossier-%20On%20the%20Prison%20Level%20and%20Infernal%20Presence.md)
 
