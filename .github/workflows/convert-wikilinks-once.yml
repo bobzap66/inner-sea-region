@@ -35,4 +35,4 @@ jobs:
           git commit -m "Convert remaining Obsidian wikilinks to Markdown links"
           git push
 
-# Resolver normalization pass 2
+# Final validation pass
