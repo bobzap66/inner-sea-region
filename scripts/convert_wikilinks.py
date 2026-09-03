@@ -23,7 +23,6 @@ REPORT = ROOT / "scripts" / "wikilink-conversion-report.txt"
 WIKILINK_RE = re.compile(r"(!?)\[\[([^\[\]\n]+?)\]\]")
 FENCE_RE = re.compile(r"^\s*(```|~~~)")
 IMAGE_EXTS = {".png", ".jpg", ".jpeg", ".gif", ".webp", ".svg", ".avif", ".bmp"}
-FILE_EXTS = IMAGE_EXTS | {".pdf", ".mp3", ".wav", ".ogg", ".mp4", ".webm", ".mov"}
 
 
 def split_frontmatter(text: str) -> tuple[str, str]:
@@ -69,6 +68,16 @@ def parse_frontmatter_names(frontmatter: str) -> list[str]:
     return names
 
 
+def normalize_key(value: str) -> str:
+    """Normalize names for matching legacy World Anvil/Obsidian migration artifacts."""
+    value = unicodedata.normalize("NFKC", value)
+    for bad in ("ΓÇÖ", "â€™", "â€˜", "’", "‘", "`", "´"):
+        value = value.replace(bad, "'")
+    value = value.replace("–", "-").replace("—", "-")
+    value = re.sub(r"\s+", " ", value).strip()
+    return value.casefold()
+
+
 def anchor_slug(value: str) -> str:
     value = unicodedata.normalize("NFKD", value).strip().lower()
     value = "".join(ch for ch in value if not unicodedata.combining(ch))
@@ -102,20 +111,22 @@ def build_indexes():
     asset_index: dict[str, list[Path]] = defaultdict(list)
 
     for path in md_files:
-        note_index[path.stem.casefold()].append(path)
-        note_index[path.name.casefold()].append(path)
+        note_index[normalize_key(path.stem)].append(path)
+        note_index[normalize_key(path.name)].append(path)
         try:
             text = path.read_text(encoding="utf-8")
         except UnicodeDecodeError:
             continue
         frontmatter, _ = split_frontmatter(text)
         for name in parse_frontmatter_names(frontmatter):
-            note_index[name.casefold()].append(path)
+            note_index[normalize_key(name)].append(path)
 
+    # Index every non-Markdown file, not only images/media. The migrated vault also
+    # links to spreadsheets and other reference attachments.
     for path in all_files:
-        if path.suffix.lower() in FILE_EXTS:
-            asset_index[path.name.casefold()].append(path)
-            asset_index[path.stem.casefold()].append(path)
+        if path.suffix.lower() != ".md":
+            asset_index[normalize_key(path.name)].append(path)
+            asset_index[normalize_key(path.stem)].append(path)
 
     return md_files, note_index, asset_index
 
@@ -152,13 +163,16 @@ def resolve_target(source: Path, raw_target: str, note_index, asset_index) -> tu
     if len(possible) == 1:
         return possible[0], "explicit"
 
-    key = Path(target).name.casefold()
+    basename = Path(target).name
+    key = normalize_key(basename)
     if key.endswith(".md"):
-        keys = [key, Path(key).stem]
+        keys = [key, normalize_key(Path(basename).stem)]
     else:
         keys = [key]
 
-    index = asset_index if suffix in FILE_EXTS else note_index
+    # A filename extension other than .md indicates an attachment. Otherwise this
+    # is a note target. This allows .xlsx/.docx/etc. without maintaining an allowlist.
+    index = asset_index if suffix and suffix != ".md" else note_index
     candidates: list[Path] = []
     for k in keys:
         candidates.extend(index.get(k, []))
@@ -167,9 +181,9 @@ def resolve_target(source: Path, raw_target: str, note_index, asset_index) -> tu
     if len(candidates) == 1:
         return candidates[0], "unique"
     if len(candidates) > 1:
-        ranked = sorted((distance(source, p), p) for p in candidates)
+        ranked = sorted((distance(source, p), str(p), p) for p in candidates)
         best_distance = ranked[0][0]
-        best = [p for d, p in ranked if d == best_distance]
+        best = [p for d, _, p in ranked if d == best_distance]
         if len(best) == 1:
             return best[0], "closest"
         return None, "ambiguous"
@@ -185,7 +199,6 @@ def convert_body(source: Path, body: str, note_index, asset_index, issues: list[
         embed = bool(match.group(1))
         inner = match.group(2).strip()
 
-        # Obsidian aliases use [[target|label]]. Image embeds can use |300 for sizing.
         if "|" in inner:
             destination, label = inner.split("|", 1)
             destination = destination.strip()
@@ -220,12 +233,10 @@ def convert_body(source: Path, body: str, note_index, asset_index, issues: list[
         href = relative_href(source, target, fragment)
 
         if embed and target.suffix.lower() in IMAGE_EXTS:
-            # Obsidian's |300 sizing has no portable Markdown equivalent; don't use it as alt text.
             alt = "" if label.isdigit() else label
             stats["converted"] += 1
             return f"![{alt}]({href})"
 
-        # Standard Markdown has no note transclusion. Convert note/file embeds to ordinary links.
         stats["converted"] += 1
         return f"[{display}]({href})"
 
