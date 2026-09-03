@@ -7,7 +7,7 @@ cover: "assets/world-anvil/shared-cover-5d0935703bb5.png"
 
 # Corruption at the Rushlight!
 
-![[shared-cover-5d0935703bb5.png]]
+![](../../../../assets/images/shared-cover-5d0935703bb5.png)
 
 ### The Pitaxian Gazette
 
@@ -42,7 +42,7 @@ Some have since wondered whether the prompt exposure of one offender may have ha
 
 The final point of comment came not from the lists, but among the dispersing crowds. Before the second day’s festivities had fully concluded, *Velka of the Tubthumpers* was observed engaging extensively with local children near the grounds, distributing coin and small handcrafted toys.
 
-![[corruption-at-the-rushlight-image-01.png]]
+![](../../../../assets/images/corruption-at-the-rushlight-image-01.png)
 
 Several witnesses noted the conspicuous nature of the display, including the unusually heavy purse from which the coins were drawn, its mouth left untied as currency visibly spilled from it during the exchange. No impropriety is alleged, and no rule was broken.
 

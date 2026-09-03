@@ -8,7 +8,7 @@ parent: "[[River Kingdoms]]"
 ---
 # Pitax
 
-![[shared-cover-110a4fd3e759.png]]
+![](../../../../../../../assets/images/shared-cover-110a4fd3e759.png)
 
 *A contemporary civic account compiled by Sella Copperclaw, Trade and Civic Affairs Correspondent, with archival assistance from Roald Celinnas*
 

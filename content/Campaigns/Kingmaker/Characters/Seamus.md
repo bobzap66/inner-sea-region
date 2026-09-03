@@ -8,7 +8,7 @@ portrait: "assets/world-anvil/seamus-portrait.png"
 
 # Seamus
 
-![[seamus-portrait.png]]
+![](../../../assets/images/seamus-portrait.png)
 
 ### From the Journal of Linzi
 

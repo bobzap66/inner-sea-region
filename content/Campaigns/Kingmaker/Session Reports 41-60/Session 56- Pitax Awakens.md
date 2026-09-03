@@ -8,10 +8,10 @@ cover: "assets/world-anvil/shared-cover-110a4fd3e759.png"
 
 # Session 56: Pitax Awakens
 
-![[shared-cover-110a4fd3e759.png]]
+![](../../../assets/images/shared-cover-110a4fd3e759.png)
 
 > [!side]
-> :   ![[session-56-pitax-awakens-12.webp]]
+> :   ![](../../../assets/images/screenshots/Session%2056%20-%20Pitax%20Awakens/session-56-pitax-awakens-12.webp)
 >
 > ---
 >
@@ -79,7 +79,7 @@ cover: "assets/world-anvil/shared-cover-110a4fd3e759.png"
 >
 > ---
 >
-> ![[session-56-pitax-awakens-13.webp]]
+> ![](../../../assets/images/screenshots/Session%2056%20-%20Pitax%20Awakens/session-56-pitax-awakens-13.webp)
 >
 > *Advertisement. The Lantern and Ledger makes no warranty concerning the political neutrality of any performance, the spontaneity of its applause, or the continued availability of performers summoned for royal command appearances.*
 >
@@ -93,11 +93,11 @@ cover: "assets/world-anvil/shared-cover-110a4fd3e759.png"
 
 *News, Notices, and the Public Record of Thumping Waters*
 
-Lamashan 25, 4714 AR • Published in [[Thumpington]] • [[Linzi]], Editor • Mara Venn, Managing Editor • Price 1 cp
+Lamashan 25, 4714 AR • Published in [Thumpington](../../../Locations/Inner%20Sea%20Region/River%20Kingdoms/Stolen%20Lands/Thumping%20Waters/Settlements/Thumpington/Thumpington.md) • [Linzi](../NPCs/Linzi.md), Editor • Mara Venn, Managing Editor • Price 1 cp
 
 ---
 
-## [[Pitax]] AWAKENS
+## [Pitax](../../../Locations/Inner%20Sea%20Region/River%20Kingdoms/Stolen%20Lands/Thumping%20Waters/Settlements/Pitax/Pitax.md) AWAKENS
 
 *Merchants, artists, priests, and old families turn against Irovetti as the Tubthumpers carry the war through the gates of his own palace.*
 
@@ -107,7 +107,7 @@ Lamashan 25, 4714 AR • Published in [[Thumpington]] • [[Linzi]], Editor • 
 
 The road from Littletown leads east.
 
-Only days after finding that settlement burned and emptied, the Tubthumpers entered [[Pitax]] without banners, heralds, or an army at their backs. They went disguised as ordinary travelers and spent ten days listening to the people King Castruccio Irovetti claims to rule.
+Only days after finding that settlement burned and emptied, the Tubthumpers entered [Pitax](../../../Locations/Inner%20Sea%20Region/River%20Kingdoms/Stolen%20Lands/Thumping%20Waters/Settlements/Pitax/Pitax.md) without banners, heralds, or an army at their backs. They went disguised as ordinary travelers and spent ten days listening to the people King Castruccio Irovetti claims to rule.
 
 They found no city of villains. They found merchants protecting livelihoods, artists trying to preserve their craft, priests sheltering the forgotten, and families learning to endure the ambitions of a king who has mistaken fear for loyalty.
 
@@ -117,7 +117,7 @@ Then the Tubthumpers entered the House of a Hundred Doors.
 
 The first entrance was trapped. The first room contained a troll. Neither prevented them from crossing Irovetti’s threshold.
 
-![[session-56-pitax-awakens-09.webp]]
+![](../../../assets/images/screenshots/Session%2056%20-%20Pitax%20Awakens/session-56-pitax-awakens-09.webp)
 
 *Critical broadsheets and painted mockery spread through Pitax as fear begins to loosen its hold upon the city.*
 
@@ -161,7 +161,7 @@ A troll discovers that roaring is not the same thing as stopping the Tubthumpers
 
 *By Darya Holt, Traveling Correspondent*
 
-Before entering Pitax, the Tubthumpers consulted [[Eobald]], the theatrical director who escaped the city years ago. They found him rehearsing a drama based upon the Rushlight Tournament, complete with Pitaxian villains. His advice was less theatrical than his present occupation might suggest: learn which institutions still commanded trust, do not mistake royal patronage for affection, and remain unnoticed until the moment came to act.
+Before entering Pitax, the Tubthumpers consulted [Eobald](../NPCs/Eobald.md), the theatrical director who escaped the city years ago. They found him rehearsing a drama based upon the Rushlight Tournament, complete with Pitaxian villains. His advice was less theatrical than his present occupation might suggest: learn which institutions still commanded trust, do not mistake royal patronage for affection, and remain unnoticed until the moment came to act.
 
 The party acquired stronger disguises and entered the city at night through its southern rubble district. For the next ten days, they moved quietly among those whom Irovetti’s proclamations rarely describe except as an audience, a workforce, or a source of taxes.
 
@@ -169,11 +169,11 @@ The city’s artists spoke of royal money that arrives tied to royal approval. M
 
 No single conversation made a rebellion. Taken together, they revealed that the rebellion had already begun in private.
 
-![[session-56-pitax-awakens-10.webp]]
+![](../../../assets/images/screenshots/Session%2056%20-%20Pitax%20Awakens/session-56-pitax-awakens-10.webp)
 
 *A performance at the Red Crescent Theatre becomes part audition, part introduction, and part declaration of purpose.*
 
-[[Seamus]] made particularly effective use of Pitax’s oldest political instrument: a room full of people listening to a song. His performance before members of the Red Crescent Theatre earned more than applause. It demonstrated that the visitors from Thumping Waters understood the difference between conquering a city and asking its people what future they wanted.
+[Seamus](../Characters/Seamus.md) made particularly effective use of Pitax’s oldest political instrument: a room full of people listening to a song. His performance before members of the Red Crescent Theatre earned more than applause. It demonstrated that the visitors from Thumping Waters understood the difference between conquering a city and asking its people what future they wanted.
 
 Elsewhere, the Tubthumpers found merchants willing to resist royal interference, houses prepared to shelter those in danger, artisans able to move information unseen, and religious communities already practiced at helping people whom the wardens preferred to overlook.
 
@@ -189,9 +189,9 @@ Annamede Belavara, remembered in Thumping Waters for defeating Seamus in the Rus
 
 During the Tubthumpers’ ten days in Pitax, Miss Belavara served as an unusually sharp measure of the city’s changing mood. Graffiti critical of the king spread across walls. Satirical performances drew larger crowds. Hostile broadsheets passed from hand to hand in taverns and markets. Jokes once told behind closed doors acquired audiences.
 
-By the end of the effort, Miss Belavara judged that the city was ready to move when the signal came. She also offered assessments of several Tubthumpers. Ally was brilliant but occasionally surprised by her own success. [[Ant]] proved that the gods sometimes create heroes as a joke. Seamus could charm anyone except reality.
+By the end of the effort, Miss Belavara judged that the city was ready to move when the signal came. She also offered assessments of several Tubthumpers. Ally was brilliant but occasionally surprised by her own success. [Ant](../Characters/Ant.md) proved that the gods sometimes create heroes as a joke. Seamus could charm anyone except reality.
 
-> I have nothing to say about [[Fitzroy]].
+> I have nothing to say about [Fitzroy](../Characters/Fitzroy.md).
 >
 > — Annamede Belavara
 
@@ -227,7 +227,7 @@ One Pitaxian cheesemaker, having endured both royal wardens and a grief no paren
 
 The Lantern and Ledger does not encourage food waste. We acknowledge, however, that some cheeses appear to have found the rulers they deserve.
 
-![[session-56-pitax-awakens-11.webp]]
+![](../../../assets/images/screenshots/Session%2056%20-%20Pitax%20Awakens/session-56-pitax-awakens-11.webp)
 
 *A wheel judged unfit for ordinary customers is carefully prepared for delivery to the royal palace.*
 
@@ -277,10 +277,10 @@ The Lantern and Ledger • Lamashan 25 Edition • Printed in Thumpington
 
 ## Session Gallery
 
-![[Session 56-01.webp]] ![[Session 56-02.webp]] ![[Session 56-03.webp]] ![[Session 56-04.webp]] ![[Session 56-05.webp]] ![[Session 56-06.webp]] ![[Session 56-07.webp]] ![[Session 56-08.webp]] ![[session-56-pitax-awakens-09.webp]] ![[session-56-pitax-awakens-10.webp]] ![[session-56-pitax-awakens-11.webp]] ![[session-56-pitax-awakens-12.webp]] ![[session-56-pitax-awakens-13.webp]]
+![](../../../assets/images/screenshots/Session%2056%20-%20Pitax%20Awakens/Session%2056-01.webp) ![](../../../assets/images/screenshots/Session%2056%20-%20Pitax%20Awakens/Session%2056-02.webp) ![](../../../assets/images/screenshots/Session%2056%20-%20Pitax%20Awakens/Session%2056-03.webp) ![](../../../assets/images/screenshots/Session%2056%20-%20Pitax%20Awakens/Session%2056-04.webp) ![](../../../assets/images/screenshots/Session%2056%20-%20Pitax%20Awakens/Session%2056-05.webp) ![](../../../assets/images/screenshots/Session%2056%20-%20Pitax%20Awakens/Session%2056-06.webp) ![](../../../assets/images/screenshots/Session%2056%20-%20Pitax%20Awakens/Session%2056-07.webp) ![](../../../assets/images/screenshots/Session%2056%20-%20Pitax%20Awakens/Session%2056-08.webp) ![](../../../assets/images/screenshots/Session%2056%20-%20Pitax%20Awakens/session-56-pitax-awakens-09.webp) ![](../../../assets/images/screenshots/Session%2056%20-%20Pitax%20Awakens/session-56-pitax-awakens-10.webp) ![](../../../assets/images/screenshots/Session%2056%20-%20Pitax%20Awakens/session-56-pitax-awakens-11.webp) ![](../../../assets/images/screenshots/Session%2056%20-%20Pitax%20Awakens/session-56-pitax-awakens-12.webp) ![](../../../assets/images/screenshots/Session%2056%20-%20Pitax%20Awakens/session-56-pitax-awakens-13.webp)
 <!-- session-gallery:end -->
 
 ## Article navigation
 
-**Previous:** [[Session 55- Endeavor to Persevere]]  
-**Next:** [[Session 57- Every Door Leads to the King]]
+**Previous:** [Session 55- Endeavor to Persevere](Session%2055-%20Endeavor%20to%20Persevere.md)  
+**Next:** [Session 57- Every Door Leads to the King](Session%2057-%20Every%20Door%20Leads%20to%20the%20King.md)

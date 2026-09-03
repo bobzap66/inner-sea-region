@@ -8,7 +8,7 @@ portrait: "assets/world-anvil/talia-nightclaw-portrait.png"
 
 # Talia Nightclaw
 
-![[talia-nightclaw-portrait.png]]
+![](../../../assets/images/talia-nightclaw-portrait.png)
 
 Talia Nightclaw is a catfolk investigator whose instinct is to understand a danger before deciding how to survive it. Raised in Valash Raj, she learned early that powerful and dangerous forces do not need to be worshipped to deserve careful study. That habit served her well in the Abomination Vaults, where lore, ritual practice, medicine, and occult research often mattered as much as a weapon.
 

@@ -10,7 +10,7 @@ category_path:
 
 ### Varnhold
 
-Tucked against the foothills of the [[Locations/Inner Sea Region/River Kingdoms/Stolen Lands/Nomen Heights/Tors of Levenies|Tors of Levenies]] where the [[Locations/Inner Sea Region/River Kingdoms/Stolen Lands/Nomen Heights/Dunsward|Dunsward]] meets the grasslands, **Varnhold** stands as both a memorial and a triumph. Once the proud colony of Lord [[Maegar Varn]] and his Varnling Host, it fell silent for only a handful of weeks during the mysterious calamity known as the *Varnhold Vanishing*. Though brief, the event left scars that have never fully faded. Today, the town thrives again under the banner of the Republic of Thumping Waters—rebuilt not from ruin, but from remembrance.
+Tucked against the foothills of the [Tors of Levenies](../../../Nomen%20Heights/Tors%20of%20Levenies.md) where the [Dunsward](../../../Nomen%20Heights/Dunsward.md) meets the grasslands, **Varnhold** stands as both a memorial and a triumph. Once the proud colony of Lord [Maegar Varn](../../../../../../../Campaigns/Kingmaker/NPCs/Maegar%20Varn.md) and his Varnling Host, it fell silent for only a handful of weeks during the mysterious calamity known as the *Varnhold Vanishing*. Though brief, the event left scars that have never fully faded. Today, the town thrives again under the banner of the Republic of Thumping Waters—rebuilt not from ruin, but from remembrance.
 
 #### Overview
 
@@ -20,7 +20,7 @@ The town is orderly but not cold: children run beneath banners, traders call out
 
 #### History
 
-Varnhold was founded by **Lord Maegar Varn** and his mercenary company, the Varnling Host, as [[Brevoy]]’s easternmost colony. For a time, it flourished, its people known for discipline, curiosity, and pride. But in the autumn of 4715 AR, all of that stopped. The town fell eerily silent—no signs of battle, no tracks, only open doors and abandoned meals. Within a month and a half, the Tubthumpers arrived to investigate. What they found beneath the Tors of Levenies would become legend: the cyclops lich **Vordakai**, awakened from his tomb, had drained the souls of the townsfolk to restore his unholy life.
+Varnhold was founded by **Lord Maegar Varn** and his mercenary company, the Varnling Host, as [Brevoy](../../../../../Brevoy/Brevoy.md)’s easternmost colony. For a time, it flourished, its people known for discipline, curiosity, and pride. But in the autumn of 4715 AR, all of that stopped. The town fell eerily silent—no signs of battle, no tracks, only open doors and abandoned meals. Within a month and a half, the Tubthumpers arrived to investigate. What they found beneath the Tors of Levenies would become legend: the cyclops lich **Vordakai**, awakened from his tomb, had drained the souls of the townsfolk to restore his unholy life.
 
 The heroes destroyed the lich and freed the captured spirits, returning Varnhold’s people to the world of the living. Some remembered only darkness; others remembered nothing at all. But they were alive—and determined that their survival should mean something. The Tubthumpers helped them rebuild, strengthening the walls and sanctifying the streets. By the end of the year, Varnhold was once again a living town, its lights burning through the Dunsward night.
 
@@ -28,7 +28,7 @@ The heroes destroyed the lich and freed the captured spirits, returning Varnhold
 
 **Governor Serana Lethro** now leads Varnhold—a scholar, diplomat, and one of Maegar Varn’s former scribes. She survived the Vanishing by sheer chance, having been west on a supply mission when it occurred. Returning to find the town lifeless, she took up the work of restoration and, after the lich’s defeat, was formally appointed governor by the republic. Serana rules with the patience of a historian and the resolve of a survivor. She listens first, acts second, and keeps detailed records of every decision—a habit born, she says, from living through a month when there were no voices left to record anything at all.
 
-She works closely with **Xamanthe Silverfire**, emissary of the [[Groups/Nomen Centaurs|Nomen Centaurs]], maintaining a fragile but enduring alliance between Varnhold and the tribes of the plains. Under their shared stewardship, the old borderlands between human and centaur have become meeting grounds instead of battlegrounds, their trade roads marked by both hoofprints and wagon tracks.
+She works closely with **Xamanthe Silverfire**, emissary of the [Nomen Centaurs](../../../../../../../Groups/Nomen%20Centaurs.md), maintaining a fragile but enduring alliance between Varnhold and the tribes of the plains. Under their shared stewardship, the old borderlands between human and centaur have become meeting grounds instead of battlegrounds, their trade roads marked by both hoofprints and wagon tracks.
 
 #### Economy and Life
 
@@ -38,7 +38,7 @@ Life here moves with gentle precision. Farmers rise with the dawn; artisans sing
 
 #### Faith and Culture
 
-The **shrine** at the heart of Varnhold honors [[Sarenrae]], [[Erastil]], and [[Desna]]—gods of mercy, family, and safe journeys. Services are simple: song, prayer, and gratitude. Many of the priests are [[Survivors]] of the Vanishing, their faith tempered by what they endured. Art has become the town’s quiet obsession—murals of sunrise and open hands adorn its walls, and the **park’s** central fountain depicts a human and a centaur raising a shared torch. Varnhold’s people are not quick to laughter, but when they laugh, it sounds like something rediscovered rather than newly made.
+The **shrine** at the heart of Varnhold honors [Sarenrae](../../../../../../../Rules/Deities/Sarenrae.md), [Erastil](../../../../../../../Rules/Deities/Erastil.md), and [Desna](../../../../../../../Rules/Deities/Desna.md)—gods of mercy, family, and safe journeys. Services are simple: song, prayer, and gratitude. Many of the priests are [Survivors](../../../../../../../Campaigns/Abomination%20Vaults/Vignettes%20-%20Abomination%20Vaults/Survivors.md) of the Vanishing, their faith tempered by what they endured. Art has become the town’s quiet obsession—murals of sunrise and open hands adorn its walls, and the **park’s** central fountain depicts a human and a centaur raising a shared torch. Varnhold’s people are not quick to laughter, but when they laugh, it sounds like something rediscovered rather than newly made.
 
 #### Modern Role
 

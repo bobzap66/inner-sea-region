@@ -7,8 +7,8 @@ category_path:
 # To Live or Die
 
 
-![[to-live-or-die-image-01.webp]]
+![](../../../assets/images/to-live-or-die-image-01.webp)
 
   
 
-![[to-live-or-die-image-02.webp]]
+![](../../../assets/images/to-live-or-die-image-02.webp)

@@ -15,7 +15,7 @@ What sets them apart from your everyday raiders is their symbolism. They revere 
 
   
 
-The modern Tiger Lords travel widely, far beyond the borders of their homelands. They’ve served as mercenaries in places like [[Pitax]] and along the edges of [[Brevoy]], earning more coin and equipment than most Kellid nomads ever see. Imagine a caravan, but everyone is flexing and no one is selling spices. Their wanderings have left them more worldly than their reputation suggests, though still firmly committed to the idea that strength should be demonstrated loudly and often.
+The modern Tiger Lords travel widely, far beyond the borders of their homelands. They’ve served as mercenaries in places like [Pitax](../Locations/Inner%20Sea%20Region/River%20Kingdoms/Stolen%20Lands/Thumping%20Waters/Settlements/Pitax/Pitax.md) and along the edges of [Brevoy](../Locations/Inner%20Sea%20Region/Brevoy/Brevoy.md), earning more coin and equipment than most Kellid nomads ever see. Imagine a caravan, but everyone is flexing and no one is selling spices. Their wanderings have left them more worldly than their reputation suggests, though still firmly committed to the idea that strength should be demonstrated loudly and often.
 
   
 
@@ -23,7 +23,7 @@ Their leadership is… straightforward. They are ruled by a chieftain chosen thr
 
   
 
-Under [[Armag the Twice-Born]], the Tiger Lords have become more aggressive—“more” being relative to a baseline that already included raiding, pillaging, and bellowing challenges at people minding their own business. Armag drove them west, south, then straight into conflict with Baron Drelev. Some say they were pushed to it by “the Sisters,” a group of Gyronna-worshipers with rather pointed opinions about vengeance. The Tiger Lords listen to them, which is rarely a sign of anyone’s improving judgment.
+Under [Armag the Twice-Born](../Campaigns/Kingmaker/NPCs/Armag%20the%20Twice-Born.md), the Tiger Lords have become more aggressive—“more” being relative to a baseline that already included raiding, pillaging, and bellowing challenges at people minding their own business. Armag drove them west, south, then straight into conflict with Baron Drelev. Some say they were pushed to it by “the Sisters,” a group of Gyronna-worshipers with rather pointed opinions about vengeance. The Tiger Lords listen to them, which is rarely a sign of anyone’s improving judgment.
 
   
 

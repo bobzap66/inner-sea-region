@@ -10,7 +10,7 @@ Fiction, in-world documents, field notes, and character moments from the Abomina
 
 ## Collections
 
-- [[Campaigns/Abomination Vaults/Vignettes - Abomination Vaults/Morlibint's Dossier/Morlibint's Dossier|Morlibint's Dossier]]
-- [[Campaigns/Abomination Vaults/Vignettes - Abomination Vaults/Pathfinder Society Chronicle - Steadfast/Pathfinder Society Chronicle - Steadfast|Pathfinder Society Chronicle — Steadfast]]
+- [Morlibint's Dossier](Morlibint%27s%20Dossier/Morlibint%27s%20Dossier.md)
+- [Pathfinder Society Chronicle — Steadfast](Pathfinder%20Society%20Chronicle%20-%20Steadfast/Pathfinder%20Society%20Chronicle%20-%20Steadfast.md)
 
 Individual vignettes remain available in this folder.

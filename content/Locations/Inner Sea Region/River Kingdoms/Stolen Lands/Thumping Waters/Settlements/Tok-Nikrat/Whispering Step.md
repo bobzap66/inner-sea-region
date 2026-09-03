@@ -9,7 +9,7 @@ parent: "[[Tok-Nikrat]]"
 ---
 # Whispering Step
 
-![[whispering-step-portrait.png]]
+![](../../../../../../../assets/images/whispering-step-portrait.png)
 
 *A Lantern and Ledger guide to Tok-Nikrat's principal guesthouse, compiled from the recollections of travelers, the records of the House of Measured Paths, and conversations with Tak-Sel and the residents of the Step*
 

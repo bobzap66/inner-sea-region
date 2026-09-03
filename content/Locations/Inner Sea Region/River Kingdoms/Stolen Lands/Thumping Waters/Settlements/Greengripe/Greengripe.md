@@ -8,15 +8,15 @@ cover: "assets/world-anvil/shared-cover-2c2d28b87bde.png"
 
 # Greengripe
 
-![[shared-cover-2c2d28b87bde.png]]
+![](../../../../../../../assets/images/shared-cover-2c2d28b87bde.png)
 
-*Compiled by the College of Letters and Public Record, [[Free University of Thumping Waters]], with field assistance from [[Nok-Nok]] College of Practical Arts and Civic Service and the Citizen Council of Greengripe*
+*Compiled by the College of Letters and Public Record, [Free University of Thumping Waters](../Thumpington/Free%20University%20of%20Thumping%20Waters.md), with field assistance from [Nok-Nok](../../../../../../../Campaigns/Kingmaker/NPCs/Nok-Nok.md) College of Practical Arts and Civic Service and the Citizen Council of Greengripe*
 
 > Greengripe does not laugh because nothing frightens it. Greengripe laughs because fear has never deserved the final word.
 >
 > — Linzi
 
-Greengripe is a predominantly goblin town along the western trade road of the Republic of Thumping Waters. Once a ramshackle hilltop settlement mistrusted by its neighbors and manipulated by a hidden cult, it grew under Governor Nok-Nok into one of the Republic's most prosperous and distinctive communities. Its breweries, alchemical laboratories, workshops, markets, and demolition yards make it a center of goblin industry whose products travel far beyond the [[Locations/Inner Sea Region/River Kingdoms/Stolen Lands/Greenbelt|Greenbelt]].
+Greengripe is a predominantly goblin town along the western trade road of the Republic of Thumping Waters. Once a ramshackle hilltop settlement mistrusted by its neighbors and manipulated by a hidden cult, it grew under Governor Nok-Nok into one of the Republic's most prosperous and distinctive communities. Its breweries, alchemical laboratories, workshops, markets, and demolition yards make it a center of goblin industry whose products travel far beyond the [Greenbelt](../../../Greenbelt/Greenbelt.md).
 
 The town is equal parts workshop, brewery, civic experiment, and festival. Its streets smell of hops, forge smoke, forest rain, and alchemical reagents whose exact composition may be protected by trade secrecy or public safety law. Greengripe's appearance suggests joyful disorder. Its continued prosperity demonstrates how carefully much of that disorder is maintained.
 
@@ -62,9 +62,9 @@ Greengripe's first sustained contact with the Tubthumpers came during an investi
 
 The settlement was then led by a figure calling himself Chief Muglund. When the visitors requested an audience, Muglund attacked and used the resulting confusion to turn the settlement against them. The Tubthumpers suspected that the people around them might be victims or pawns rather than willing participants in the cult. They fought their way out without attempting to slaughter the town and carried the chief away for questioning.
 
-Their restraint did not prevent tragedy. During the confusion, Wapati, [[Fitzroy]]'s elk companion, trampled and killed a goblin civilian. The death was accidental. It was also real, and good intentions did not remove the responsibility it created between Greengripe and the outsiders who had entered it.
+Their restraint did not prevent tragedy. During the confusion, Wapati, [Fitzroy](../../../../../../../Campaigns/Kingmaker/Characters/Fitzroy.md)'s elk companion, trampled and killed a goblin civilian. The death was accidental. It was also real, and good intentions did not remove the responsibility it created between Greengripe and the outsiders who had entered it.
 
-Muglund was soon exposed as Virthad, a doppelganger priest of [[Lamashtu]] who had murdered Greengripe's true spiritual leader and taken his place. Virthad intended to make goblins appear responsible for the Bloom while the cult's real work continued elsewhere. The discovery proved that Greengripe had been manipulated. It did not require the settlement to forget the civilian killed during the investigation.
+Muglund was soon exposed as Virthad, a doppelganger priest of [Lamashtu](../../../../../../../Rules/Deities/Lamashtu.md) who had murdered Greengripe's true spiritual leader and taken his place. Virthad intended to make goblins appear responsible for the Bloom while the cult's real work continued elsewhere. The discovery proved that Greengripe had been manipulated. It did not require the settlement to forget the civilian killed during the investigation.
 
 A later diplomatic mission acknowledged the harm, repaired relations, and negotiated Greengripe's entry into the Republic. The town pledged fealty while retaining its own community and customs. Barracks, roads, public works, and national trade followed. Greengripe's incorporation became an early test of whether Thumping Waters could distinguish membership from cultural surrender.
 
@@ -72,7 +72,7 @@ A later diplomatic mission acknowledged the harm, repaired relations, and negoti
 
 ### The Governorship of Nok-Nok
 
-Nok-Nok transformed Greengripe. The goblin adventurer had called himself the Hero of the Mite Warrens since helping rescue Mikmek and recover the Sootscales' stolen statue beneath [[Locations/Inner Sea Region/River Kingdoms/Stolen Lands/Greenbelt/Kamelands/The Old Sycamore|The Old Sycamore]]. As governor, he turned the same defiant confidence toward administration.
+Nok-Nok transformed Greengripe. The goblin adventurer had called himself the Hero of the Mite Warrens since helping rescue Mikmek and recover the Sootscales' stolen statue beneath [The Old Sycamore](../../../Greenbelt/Kamelands/The%20Old%20Sycamore.md). As governor, he turned the same defiant confidence toward administration.
 
 He governed loudly, theatrically, and with considerably more attention than his public antics suggested. Nok-Nok visited workshops, knew citizens by name, encouraged inventors, listened to brewers and smiths, and took delight in the projects of local children. His speeches mixed civic information with comedy, boasts, demonstrations, and events later classified as unrelated accidents.
 
@@ -118,11 +118,11 @@ Greengripe's economic reputation has changed since its founding. Merchants once 
 
 The tavern is known for strong drink, louder music, elaborate toasts, and seating positioned to provide a view of the public square. Its owners maintain that every scorch mark has historical value. Insurance assessors use a narrower definition of history.
 
-Military celebrations once filled the tavern when the Irregulars returned from drill or campaign. Since the war, the establishment has also become a place where [[Survivors]], families, and former workers from the bombardier companies gather without requiring their meetings to become formal memorials.
+Military celebrations once filled the tavern when the Irregulars returned from drill or campaign. Since the war, the establishment has also become a place where [Survivors](../../../../../../../Campaigns/Abomination%20Vaults/Vignettes%20-%20Abomination%20Vaults/Survivors.md), families, and former workers from the bombardier companies gather without requiring their meetings to become formal memorials.
 
   
 
-### Faith and the Shrine of [[Cayden Cailean]]
+### Faith and the Shrine of [Cayden Cailean](../../../../../../../Rules/Deities/Cayden%20Cailean.md)
 
 A shrine to Cayden Cailean provides one of Greengripe's quieter public spaces. It is tended by Briska Aleheart, a cheerful priest who teaches that bravery, good humor, freedom, and shared drink can all become forms of prayer when practiced with responsibility toward others.
 
@@ -150,9 +150,9 @@ Greengripe's most famous military formation was Nok-Nok's Irregulars, also known
 
 The Irregulars wore bright red sashes and iron helmets shaped like beer mugs. They marched to drums made from repurposed kegs and summarized their battle doctrine as *dazzle, disorient, detonate*. Their weapons included firebombs, smoke preparations, and alchemical surprises whose inconvenience was occasionally more important than their destructive power.
 
-The formation earned national respect during the defense of Willowfen. Its bombardments helped break a Pitaxian invasion force containing mercenaries, mammoth cavalry, and wyverns before the enemy could secure the settlement. High Marshal [[Valerie]] and other officers who had questioned the unit's methods acknowledged its discipline and battlefield value.
+The formation earned national respect during the defense of Willowfen. Its bombardments helped break a Pitaxian invasion force containing mercenaries, mammoth cavalry, and wyverns before the enemy could secure the settlement. High Marshal [Valerie](../../../../../../../Campaigns/Kingmaker/NPCs/Valerie.md) and other officers who had questioned the unit's methods acknowledged its discipline and battlefield value.
 
-Later in the war, the Irregulars joined four other Republican armies against Kob Moleg's mammoth cavalry east of [[Fort Drelev]]. The engagement became the Republic's greatest military defeat. Four armies were destroyed as effective formations. Nok-Nok refused to abandon the Irregulars when their position collapsed and died buying time for soldiers who could still escape.
+Later in the war, the Irregulars joined four other Republican armies against Kob Moleg's mammoth cavalry east of [Fort Drelev](../Fort%20Drelev/Fort%20Drelev.md). The engagement became the Republic's greatest military defeat. Four armies were destroyed as effective formations. Nok-Nok refused to abandon the Irregulars when their position collapsed and died buying time for soldiers who could still escape.
 
 A small number of survivors returned. The company has not been reconstituted. Greengripe continues to possess alchemical experts, militia, veterans, and the knowledge required to create another bombardier force, but the Citizen Council has rejected the assumption that replacing a destroyed army is as simple as issuing its old equipment to new people.
 
@@ -170,7 +170,7 @@ Nok-Nok's standing order remains upon the town hall door. His title of Chief of 
 
 ### The Greengripe Amphitheatre
 
-The Greengripe Amphitheatre stands in Riverbend Park in [[Thumpington]] rather than within the settlement whose name it bears. Dedicated during the Victory Festival of 6 Gozran, 4715 AR, it honors Nok-Nok and the fallen Irregulars.
+The Greengripe Amphitheatre stands in Riverbend Park in [Thumpington](../Thumpington/Thumpington.md) rather than within the settlement whose name it bears. Dedicated during the Victory Festival of 6 Gozran, 4715 AR, it honors Nok-Nok and the fallen Irregulars.
 
 The decision to build a performance space rather than a silent monument reflects Greengripe's influence. Music, comedy, civic gatherings, university ceremonies, and festivals keep the memorial among the living. Delegations from Greengripe regularly participate in its events and maintain a vigorous interest in the quality, height, and timing of its fireworks.
 
@@ -204,7 +204,7 @@ When the smoke clears, Greengripe still stands.
 
   
 
-### From [[Linzi]]: Boom, Brew, and Bravery
+### From [Linzi](../../../../../../../Campaigns/Kingmaker/NPCs/Linzi.md): Boom, Brew, and Bravery
 
 If you enter Greengripe, hold onto your hat and do not ask why the air smells like hops and brimstone unless you have time for the answer. Greengripe is not merely a town. It is an experience: loud, confident, industrious, and occasionally combustible.
 
@@ -218,9 +218,9 @@ When I left, Nok-Nok gave me a small firework and told me to light it whenever I
 
 I still do.
 
-—[[Linzi]]
+—[Linzi](../../../../../../../Campaigns/Kingmaker/NPCs/Linzi.md)
 
-*Editor's note: The [[Ministry of Defense]] once described Nok-Nok's Irregulars as a disciplined and entirely safe formation. The definition of **safe** was doing a heroic amount of work in that sentence.*
+*Editor's note: The [Ministry of Defense](../../Ruling%20Council/Ministry%20of%20Defense.md) once described Nok-Nok's Irregulars as a disciplined and entirely safe formation. The definition of **safe** was doing a heroic amount of work in that sentence.*
 
 ## General Details
 

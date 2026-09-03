@@ -8,21 +8,21 @@ cover: "assets/world-anvil/shared-cover-8a1bfbff37cb.png"
 
 # Session 32: Blockhouse Assault
 
-![[shared-cover-8a1bfbff37cb.png]]
+![](../../../assets/images/shared-cover-8a1bfbff37cb.png)
 
 > [!side]
-> :   ![[session-32-blockhouse-assault-29.webp]]
+> :   ![](../../../assets/images/screenshots/Session%2032%20-%20Blockhouse%20Assault/session-32-blockhouse-assault-29.webp)
 >
 >
 > ---
 >
 > <!-- session-gallery:start -->
 
-### From [[Linzi]]’s Journal
+### From [Linzi](../NPCs/Linzi.md)’s Journal
 
 *An account of events on Kuthona 14, 4711 AR, reconstructed from the testimony of those present*
 
-[[Varnhold]] had not burned. No army had battered down its gates, no plague carts stood in its streets, and no field of graves explained what had happened. The village simply waited—doors open, possessions abandoned, and meals left where their owners had expected to return to them.
+[Varnhold](../../../Locations/Inner%20Sea%20Region/River%20Kingdoms/Stolen%20Lands/Thumping%20Waters/Settlements/Varnhold/Varnhold.md) had not burned. No army had battered down its gates, no plague carts stood in its streets, and no field of graves explained what had happened. The village simply waited—doors open, possessions abandoned, and meals left where their owners had expected to return to them.
 
 The Tubthumpers entered on Kuthona 14. They found houses abandoned in the midst of ordinary life and animals left behind without anyone to feed or tend them. The emptiness was not peaceful. Every open doorway looked as though someone had just passed through it, and every silent room seemed to be holding its breath.
 
@@ -32,11 +32,11 @@ Inside lay the body of a spriggan, its chest and face shattered by magical force
 
 The papers belonged to Maestro Ervil Pendrod of Oppara’s Kitharodian Academy. His research table held copies of *Iobarian Prehistory*, *Centaurs of Central Casmaron*, *The Untold Cost of the Taldan Armies of Exploration*, and *Secrets of the Rashalka Mounds*. Scattered among them were charcoal drawings of a massive jade bracelet marked with unfamiliar symbols.
 
-A letter from [[Maegar Varn]] explained that the explorer Willas Gundarson had found the object on the bank of a “river of local provenance.” Varn had sent for Maestro Pendrod in the hope that his knowledge of ancient Iobaria might identify it. Pendrod’s notes suggested a connection to the [[Groups/Nomen Centaurs|Nomen Centaurs]]—the same name he had scratched upon the Waterhorse’s door before vanishing.
+A letter from [Maegar Varn](../NPCs/Maegar%20Varn.md) explained that the explorer Willas Gundarson had found the object on the bank of a “river of local provenance.” Varn had sent for Maestro Pendrod in the hope that his knowledge of ancient Iobaria might identify it. Pendrod’s notes suggested a connection to the [Nomen Centaurs](../../../Groups/Nomen%20Centaurs.md)—the same name he had scratched upon the Waterhorse’s door before vanishing.
 
 Another of Pendrod’s books, a centuries-old account by Carmyn e’Brothasa, described an island whose guardian had slain every hero foolish enough to test it. The place was called Vordakai’s Island, and the guardian’s name was said to be Vordakai. Pendrod had written in the margin that the name sounded familiar. The Tubthumpers could place it only imperfectly: an ancient Iobarian necromancer, perhaps old enough that history and legend had become thoroughly entangled.
 
-The rest of Varnhold offered fragments rather than answers. At the church of [[Erastil]], the company found fourteen graves. The newest belonged to Andrisha the Potter, who had died only weeks earlier. A hidden compartment within the altar held healing and restorative scrolls reserved for emergencies. If an entire village disappearing does not qualify as an emergency, I should very much like to know what does.
+The rest of Varnhold offered fragments rather than answers. At the church of [Erastil](../../../Rules/Deities/Erastil.md), the company found fourteen graves. The newest belonged to Andrisha the Potter, who had died only weeks earlier. A hidden compartment within the altar held healing and restorative scrolls reserved for emergencies. If an entire village disappearing does not qualify as an emergency, I should very much like to know what does.
 
 A half-starved calico cat still hid inside the weaver’s home, apparently spared because it had been more interested in its supper than whatever called Varnhold’s people away. The grange proved less fortunate. Its stores had become infested with sportlebores, swarming vermin that resembled spoiled fruit until they began biting. The Tubthumpers destroyed three swarms of them.
 
@@ -48,7 +48,7 @@ Willas Gundarson’s house yielded the most troubling evidence. His journal reco
 
 By then, the clues formed an outline without a picture. The jade bracelet, the Nomen, Pendrod’s research, and the name Vordakai were plainly connected, but none explained where nearly one hundred and fifty people had gone. The only living occupants willing to offer answers were the spriggans who had claimed the fortified blockhouse overlooking the town.
 
-[[Matteo]] went ahead to scout. He returned bloodied and breathless, having confirmed that the blockhouse compound was occupied and guarded. The Tubthumpers waited until nightfall, hoping darkness might allow them to climb the stockade without raising an alarm.
+[Matteo](../Characters/Matteo.md) went ahead to scout. He returned bloodied and breathless, having confirmed that the blockhouse compound was occupied and guarded. The Tubthumpers waited until nightfall, hoping darkness might allow them to climb the stockade without raising an alarm.
 
 It did not.
 
@@ -64,10 +64,10 @@ Varnhold remained silent. Somewhere beyond its empty homes lay the meaning of No
 
 ## Session Gallery
 
-![[Session 32-01.webp]] ![[Session 32-02.webp]] ![[Session 32-03.webp]] ![[Session 32-04.webp]] ![[Session 32-05.webp]] ![[Session 32-06.webp]] ![[Session 32-07.webp]] ![[Session 32-08.webp]] ![[Session 32-09.webp]] ![[Session 32-10.webp]] ![[Session 32-11.webp]] ![[Session 32-12.webp]] ![[Session 32-13.webp]] ![[Session 32-14.webp]] ![[Session 32-15.webp]] ![[Session 32-16.webp]] ![[Session 32-17.webp]] ![[Session 32-18.webp]] ![[Session 32-19.webp]] ![[Session 32-20.webp]] ![[Session 32-21.webp]] ![[Session 32-22.webp]] ![[Session 32-23.webp]] ![[Session 32-24.webp]] ![[Session 32-25.webp]] ![[Session 32-26.webp]] ![[Session 32-27.webp]] ![[Session 32-28.webp]] ![[session-32-blockhouse-assault-29.webp]]
+![](../../../assets/images/screenshots/Session%2032%20-%20Blockhouse%20Assault/Session%2032-01.webp) ![](../../../assets/images/screenshots/Session%2032%20-%20Blockhouse%20Assault/Session%2032-02.webp) ![](../../../assets/images/screenshots/Session%2032%20-%20Blockhouse%20Assault/Session%2032-03.webp) ![](../../../assets/images/screenshots/Session%2032%20-%20Blockhouse%20Assault/Session%2032-04.webp) ![](../../../assets/images/screenshots/Session%2032%20-%20Blockhouse%20Assault/Session%2032-05.webp) ![](../../../assets/images/screenshots/Session%2032%20-%20Blockhouse%20Assault/Session%2032-06.webp) ![](../../../assets/images/screenshots/Session%2032%20-%20Blockhouse%20Assault/Session%2032-07.webp) ![](../../../assets/images/screenshots/Session%2032%20-%20Blockhouse%20Assault/Session%2032-08.webp) ![](../../../assets/images/screenshots/Session%2032%20-%20Blockhouse%20Assault/Session%2032-09.webp) ![](../../../assets/images/screenshots/Session%2032%20-%20Blockhouse%20Assault/Session%2032-10.webp) ![](../../../assets/images/screenshots/Session%2032%20-%20Blockhouse%20Assault/Session%2032-11.webp) ![](../../../assets/images/screenshots/Session%2032%20-%20Blockhouse%20Assault/Session%2032-12.webp) ![](../../../assets/images/screenshots/Session%2032%20-%20Blockhouse%20Assault/Session%2032-13.webp) ![](../../../assets/images/screenshots/Session%2032%20-%20Blockhouse%20Assault/Session%2032-14.webp) ![](../../../assets/images/screenshots/Session%2032%20-%20Blockhouse%20Assault/Session%2032-15.webp) ![](../../../assets/images/screenshots/Session%2032%20-%20Blockhouse%20Assault/Session%2032-16.webp) ![](../../../assets/images/screenshots/Session%2032%20-%20Blockhouse%20Assault/Session%2032-17.webp) ![](../../../assets/images/screenshots/Session%2032%20-%20Blockhouse%20Assault/Session%2032-18.webp) ![](../../../assets/images/screenshots/Session%2032%20-%20Blockhouse%20Assault/Session%2032-19.webp) ![](../../../assets/images/screenshots/Session%2032%20-%20Blockhouse%20Assault/Session%2032-20.webp) ![](../../../assets/images/screenshots/Session%2032%20-%20Blockhouse%20Assault/Session%2032-21.webp) ![](../../../assets/images/screenshots/Session%2032%20-%20Blockhouse%20Assault/Session%2032-22.webp) ![](../../../assets/images/screenshots/Session%2032%20-%20Blockhouse%20Assault/Session%2032-23.webp) ![](../../../assets/images/screenshots/Session%2032%20-%20Blockhouse%20Assault/Session%2032-24.webp) ![](../../../assets/images/screenshots/Session%2032%20-%20Blockhouse%20Assault/Session%2032-25.webp) ![](../../../assets/images/screenshots/Session%2032%20-%20Blockhouse%20Assault/Session%2032-26.webp) ![](../../../assets/images/screenshots/Session%2032%20-%20Blockhouse%20Assault/Session%2032-27.webp) ![](../../../assets/images/screenshots/Session%2032%20-%20Blockhouse%20Assault/Session%2032-28.webp) ![](../../../assets/images/screenshots/Session%2032%20-%20Blockhouse%20Assault/session-32-blockhouse-assault-29.webp)
 <!-- session-gallery:end -->
 
 ## Article navigation
 
-**Previous:** [[Session 31- Varnhold Vanishing]]  
-**Next:** [[Session 33- Blockhouse Assault - Cracking the Fortress]]
+**Previous:** [Session 31- Varnhold Vanishing](Session%2031-%20Varnhold%20Vanishing.md)  
+**Next:** [Session 33- Blockhouse Assault - Cracking the Fortress](Session%2033-%20Blockhouse%20Assault%20-%20Cracking%20the%20Fortress.md)

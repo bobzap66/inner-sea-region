@@ -7,7 +7,7 @@ cover: "assets/world-anvil/shared-cover-2c2d28b87bde.png"
 
 # The Last Guardian
 
-![[shared-cover-2c2d28b87bde.png]]
+![](../../../assets/images/shared-cover-2c2d28b87bde.png)
 
 ## THE LAST GUARDIAN
 
@@ -57,7 +57,7 @@ His brother had dug a kingdom into the earth beneath Candlemere. In its chambers
 
 Korog had never been patient with argument. He answered his brother with an army.
 
-![[the-last-guardian-korog-before-the-seal-wide.png]]
+![](../../../assets/images/the-last-guardian-korog-before-the-seal-wide.png)
 
 *Korog leads the Pharasmian assault beneath Candlemere while the Spiral Seal is prepared above.*
 
@@ -169,7 +169,7 @@ Korog named them blood foes and raised his maul. His command rolled through the 
 
 Korog fell beneath the sword of a man who had not been born when his vigil began, in service to a republic that had risen above his tomb without ever knowing he was there.
 
-![[the-last-guardian-tall-v2.png]]
+![](../../../assets/images/the-last-guardian-tall-v2.png)
 
 *Korog makes his final stand beneath the bloody spiral of the faith he abandoned but never ceased trying to serve.*
 

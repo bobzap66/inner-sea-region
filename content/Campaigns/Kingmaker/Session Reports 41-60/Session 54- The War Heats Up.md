@@ -8,10 +8,10 @@ cover: "assets/world-anvil/shared-cover-110a4fd3e759.png"
 
 # Session 54: The War Heats Up
 
-![[shared-cover-110a4fd3e759.png]]
+![](../../../assets/images/shared-cover-110a4fd3e759.png)
 
 > [!side]
-> :   ![[session-54-the-war-heats-up-23.webp]]
+> :   ![](../../../assets/images/screenshots/Session%2054%20-%20The%20War%20Heats%20up/session-54-the-war-heats-up-23.webp)
 >
 > ---
 >
@@ -53,7 +53,7 @@ cover: "assets/world-anvil/shared-cover-110a4fd3e759.png"
 >
 > ---
 >
-> ![[session-54-the-war-heats-up-22.webp]]
+> ![](../../../assets/images/screenshots/Session%2054%20-%20The%20War%20Heats%20up/session-54-the-war-heats-up-22.webp)
 >
 > #### THE VEILED LENS
 >
@@ -81,11 +81,11 @@ cover: "assets/world-anvil/shared-cover-110a4fd3e759.png"
 
 *News, Notices, and the Public Record of Thumping Waters*
 
-Lamashan 7, 4714 AR • Published in [[Thumpington]] • [[Linzi]], Editor • Mara Venn, Managing Editor • Price 1 cp
+Lamashan 7, 4714 AR • Published in [Thumpington](../../../Locations/Inner%20Sea%20Region/River%20Kingdoms/Stolen%20Lands/Thumping%20Waters/Settlements/Thumpington/Thumpington.md) • [Linzi](../NPCs/Linzi.md), Editor • Mara Venn, Managing Editor • Price 1 cp
 
 ---
 
-## FOUR ARMIES LOST; [[Nok-Nok]] FALLS EAST OF [[Fort Drelev]]
+## FOUR ARMIES LOST; [Nok-Nok](../NPCs/Nok-Nok.md) FALLS EAST OF [Fort Drelev](../../../Locations/Inner%20Sea%20Region/River%20Kingdoms/Stolen%20Lands/Thumping%20Waters/Settlements/Fort%20Drelev/Fort%20Drelev.md)
 
 *Mammoth cavalry drives the republic from the field before the Tubthumpers strike down hill-giant chieftain Kob Moleg.*
 
@@ -93,13 +93,13 @@ Lamashan 7, 4714 AR • Published in [[Thumpington]] • [[Linzi]], Editor • M
 
 ---
 
-The Republic of Thumping Waters has suffered its gravest military loss of the war. Five Republican armies engaged four formations of Pitaxian mammoth cavalry east of [[Fort Drelev]]. Every Republican formation was defeated, four were destroyed as effective fighting forces, and Governor [[Nok-Nok]] of [[Greengripe]] fell beside his Irregulars.
+The Republic of Thumping Waters has suffered its gravest military loss of the war. Five Republican armies engaged four formations of Pitaxian mammoth cavalry east of [Fort Drelev](../../../Locations/Inner%20Sea%20Region/River%20Kingdoms/Stolen%20Lands/Thumping%20Waters/Settlements/Fort%20Drelev/Fort%20Drelev.md). Every Republican formation was defeated, four were destroyed as effective fighting forces, and Governor [Nok-Nok](../NPCs/Nok-Nok.md) of [Greengripe](../../../Locations/Inner%20Sea%20Region/River%20Kingdoms/Stolen%20Lands/Thumping%20Waters/Settlements/Greengripe/Greengripe.md) fell beside his Irregulars.
 
-The Noman Scouts alone survived as an organized formation. The Thumpington Rangers, Lizardfolk Defenders, Safety Third Cavalry, and Nok-Nok’s Irregulars were shattered. Individual [[Survivors]] continue to return from the battlefield, and officials caution that a final accounting of the dead and missing will take time.
+The Noman Scouts alone survived as an organized formation. The Thumpington Rangers, Lizardfolk Defenders, Safety Third Cavalry, and Nok-Nok’s Irregulars were shattered. Individual [Survivors](../../Abomination%20Vaults/Vignettes%20-%20Abomination%20Vaults/Survivors.md) continue to return from the battlefield, and officials caution that a final accounting of the dead and missing will take time.
 
-The defeat did not end without an answer. As the surviving soldiers withdrew, the Tubthumpers charged the hill from which Kob Moleg commanded the Tusker Riders. After a brutal fight, [[Fitzroy]] struck down the giant chieftain with [[Artifacts and Relics/Ovinrbaane|Ovinrbaane]]. The company returned with Moleg’s head as proof that the architect of the mammoth host will command no further battles.
+The defeat did not end without an answer. As the surviving soldiers withdrew, the Tubthumpers charged the hill from which Kob Moleg commanded the Tusker Riders. After a brutal fight, [Fitzroy](../Characters/Fitzroy.md) struck down the giant chieftain with [Ovinrbaane](../../../Artifacts%20and%20Relics/Ovinrbaane.md). The company returned with Moleg’s head as proof that the architect of the mammoth host will command no further battles.
 
-![[session-54-the-war-heats-up-18.webp]]
+![](../../../assets/images/screenshots/Session%2054%20-%20The%20War%20Heats%20up/session-54-the-war-heats-up-18.webp)
 
 *Mammoth-mounted Tusker Riders break the Republican lines east of Fort Drelev in an artist’s reconstruction.*
 
@@ -151,9 +151,9 @@ They faced four enemy formations composed of seasoned giants mounted upon mammot
 
 One Republican army fell, then another. Officers attempted to preserve an orderly withdrawal, but the field became a confusion of wounded soldiers, riderless mounts, broken equipment, and mammoths driving through every opening.
 
-The Noman Scouts were defeated but escaped destruction and have begun regrouping. The other four formations no longer exist as effective armies. This does not mean that every soldier serving in them was killed. [[Survivors]] are still being located, treated, and returned to their homes. It does mean that the republic must rebuild much of the force it sent into battle.
+The Noman Scouts were defeated but escaped destruction and have begun regrouping. The other four formations no longer exist as effective armies. This does not mean that every soldier serving in them was killed. [Survivors](../../Abomination%20Vaults/Vignettes%20-%20Abomination%20Vaults/Survivors.md) are still being located, treated, and returned to their homes. It does mean that the republic must rebuild much of the force it sent into battle.
 
-The [[Ministry of Defense]] has begun compiling lists of the dead, wounded, and missing. Families awaiting news are asked to register with their local authorities so that information can be delivered as soon as it is confirmed.
+The [Ministry of Defense](../../../Locations/Inner%20Sea%20Region/River%20Kingdoms/Stolen%20Lands/Thumping%20Waters/Ruling%20Council/Ministry%20of%20Defense.md) has begun compiling lists of the dead, wounded, and missing. Families awaiting news are asked to register with their local authorities so that information can be delivered as soon as it is confirmed.
 
 ---
 
@@ -165,7 +165,7 @@ Nok-Nok’s Irregulars held among the most dangerous positions on the field. Whe
 
 Witnesses report that he remained behind, fighting to protect his people and buying time for any who could still escape. It would have surprised no one had Nok-Nok died attempting something reckless, spectacular, and unnecessarily explosive. Instead, he died defending his soldiers.
 
-![[session-54-the-war-heats-up-21.webp]]
+![](../../../assets/images/screenshots/Session%2054%20-%20The%20War%20Heats%20up/session-54-the-war-heats-up-21.webp)
 
 *Governor Nok-Nok stands with the remaining Irregulars as their position is overrun.*
 
@@ -173,7 +173,7 @@ The full account of Nok-Nok’s life appears in a separate memorial published wi
 
 > I questioned Governor Nok-Nok’s methods often. I never questioned his courage. He understood that soldiers do not fight for formations, regulations, or lines drawn upon a map. They fight for the people standing beside them and the homes waiting behind them. His Irregulars followed him because they knew he would never ask them to face a danger he would not face himself. In the end, he proved them right.
 >
-> — High Marshal [[Valerie]]
+> — High Marshal [Valerie](../NPCs/Valerie.md)
 
 Greengripe will honor its fallen governor with fireworks. For one night, no one is expected to enforce the rule against explosions before breakfast.
 
@@ -185,11 +185,11 @@ Greengripe will honor its fallen governor with fireworks. For one night, no one 
 
 Even as the Republican army withdrew, the Tubthumpers rode toward the hill where Kob Moleg directed the Tusker Riders. If the battle could not be won upon the field, they intended to take its commander from the enemy.
 
-[[Seamus]] opened the attack by placing destructive magic upon Antson Crazyfoot’s weapon. Ally took to the air and struck Moleg with a Chromatic Ray of extraordinary force. Elowyn Vask, newly joined to the company, followed on winged sandals and used her magic to keep Fitzroy standing through the giant’s retaliation.
+[Seamus](../Characters/Seamus.md) opened the attack by placing destructive magic upon Antson Crazyfoot’s weapon. Ally took to the air and struck Moleg with a Chromatic Ray of extraordinary force. Elowyn Vask, newly joined to the company, followed on winged sandals and used her magic to keep Fitzroy standing through the giant’s retaliation.
 
 That aid proved essential. Moleg struck Fitzroy twice with blows powerful enough to end most fights immediately. Fitzroy endured them, answered with Ovinrbaane, and finally brought the chieftain down with a Blessed Counterstrike.
 
-The Tubthumpers recovered Moleg’s head, armor, immense spiked club, and other arms from the hilltop. His head will serve as proof when the republic makes contact with the [[Pitax]] Horde, whose tribes may have less reason to remain loyal now that the giant chieftain is dead.
+The Tubthumpers recovered Moleg’s head, armor, immense spiked club, and other arms from the hilltop. His head will serve as proof when the republic makes contact with the [Pitax](../../../Locations/Inner%20Sea%20Region/River%20Kingdoms/Stolen%20Lands/Thumping%20Waters/Settlements/Pitax/Pitax.md) Horde, whose tribes may have less reason to remain loyal now that the giant chieftain is dead.
 
 Kob Moleg’s death does not restore the four armies lost below his hill. It does ensure that the man responsible will never lead his mammoths against Thumping Waters again.
 
@@ -199,9 +199,9 @@ Kob Moleg’s death does not restore the four armies lost below his hill. It doe
 
 *By Sella Copperclaw, Civic Reporter*
 
-Before the expedition departed, Thumpington received an unusual visitor. Vision Elowyn Vask, a priest of [[Razmir]], addressed a gathered crowd while wearing the silver mask and blue robes of her faith.
+Before the expedition departed, Thumpington received an unusual visitor. Vision Elowyn Vask, a priest of [Razmir](../../../Rules/Deities/Razmir.md), addressed a gathered crowd while wearing the silver mask and blue robes of her faith.
 
-![[session-54-the-war-heats-up-20.webp]]
+![](../../../assets/images/screenshots/Session%2054%20-%20The%20War%20Heats%20up/session-54-the-war-heats-up-20.webp)
 
 *Vision Elowyn Vask addresses citizens of Thumpington before departing with the Tubthumpers.*
 
@@ -211,7 +211,7 @@ Elowyn did not demand immediate belief. She urged her listeners to watch, questi
 >
 > — Vision Elowyn Vask
 
-Elowyn recently traveled through Pitax and offered knowledge of the kingdom’s preparations for war. More importantly, she demonstrated that her healing magic is genuine. With [[Velka]] remaining in [[Sootscale Valley]], Elowyn accepted an invitation to accompany the Tubthumpers.
+Elowyn recently traveled through Pitax and offered knowledge of the kingdom’s preparations for war. More importantly, she demonstrated that her healing magic is genuine. With [Velka](../Characters/Velka/Velka.md) remaining in [Sootscale Valley](../../../Locations/Inner%20Sea%20Region/River%20Kingdoms/Stolen%20Lands/Thumping%20Waters/Settlements/Sootscale%20Valley/Sootscale%20Valley.md), Elowyn accepted an invitation to accompany the Tubthumpers.
 
 Her first expedition ended with Fitzroy alive despite Kob Moleg’s best efforts. Citizens may decide for themselves whether this proves anything about Razmir. It proves something about Elowyn.
 
@@ -221,7 +221,7 @@ Her first expedition ended with Fitzroy alive despite Kob Moleg’s best efforts
 
 *By Mara Venn, Managing Editor*
 
-The council’s latest turn of government produced new roads and several public improvements. Murkwillow Hollow, a sacred grove, was established in [[Tok-Nikrat]]. Apple Boots Bar and Tavern opened in Sootscale Valley. Fort Drelev and [[Tatzlford]] received sewer systems, [[Willowfen]] gained a watchtower, and an orphanage was completed in Thumpington.
+The council’s latest turn of government produced new roads and several public improvements. Murkwillow Hollow, a sacred grove, was established in [Tok-Nikrat](../../../Locations/Inner%20Sea%20Region/River%20Kingdoms/Stolen%20Lands/Thumping%20Waters/Settlements/Tok-Nikrat/Tok-Nikrat.md). Apple Boots Bar and Tavern opened in Sootscale Valley. Fort Drelev and [Tatzlford](../../../Locations/Inner%20Sea%20Region/River%20Kingdoms/Stolen%20Lands/Thumping%20Waters/Settlements/Tatzlford/Tatzlford.md) received sewer systems, [Willowfen](../../../Locations/Inner%20Sea%20Region/River%20Kingdoms/Stolen%20Lands/Thumping%20Waters/Settlements/Willowfen/Willowfen.md) gained a watchtower, and an orphanage was completed in Thumpington.
 
 Food production proved considerably less successful. The government was forced to purchase or redirect supplies to cover the shortage. Officials remind citizens that roads, taverns, watchtowers, and civic enthusiasm are not edible, even when sufficiently seasoned.
 
@@ -259,10 +259,10 @@ The Lantern and Ledger • Lamashan 7 Edition • Printed in Thumpington
 
 ## Session Gallery
 
-![[Session 54-01.webp]] ![[Session 54-02.webp]] ![[Session 54-03.webp]] ![[Session 54-04.webp]] ![[Session 54-05.webp]] ![[Session 54-06.webp]] ![[Session 54-07.webp]] ![[Session 54-08.webp]] ![[Session 54-09.webp]] ![[Session 54-10.webp]] ![[Session 54-11.webp]] ![[Session 54-12.webp]] ![[Session 54-13.webp]] ![[Session 54-14.webp]] ![[Session 54-15.webp]] ![[Session 54-16.webp]] ![[Session 54-17.webp]] ![[session-54-the-war-heats-up-18.webp]] ![[Session 54-19.webp]] ![[session-54-the-war-heats-up-20.webp]] ![[session-54-the-war-heats-up-21.webp]] ![[session-54-the-war-heats-up-22.webp]] ![[session-54-the-war-heats-up-23.webp]]
+![](../../../assets/images/screenshots/Session%2054%20-%20The%20War%20Heats%20up/Session%2054-01.webp) ![](../../../assets/images/screenshots/Session%2054%20-%20The%20War%20Heats%20up/Session%2054-02.webp) ![](../../../assets/images/screenshots/Session%2054%20-%20The%20War%20Heats%20up/Session%2054-03.webp) ![](../../../assets/images/screenshots/Session%2054%20-%20The%20War%20Heats%20up/Session%2054-04.webp) ![](../../../assets/images/screenshots/Session%2054%20-%20The%20War%20Heats%20up/Session%2054-05.webp) ![](../../../assets/images/screenshots/Session%2054%20-%20The%20War%20Heats%20up/Session%2054-06.webp) ![](../../../assets/images/screenshots/Session%2054%20-%20The%20War%20Heats%20up/Session%2054-07.webp) ![](../../../assets/images/screenshots/Session%2054%20-%20The%20War%20Heats%20up/Session%2054-08.webp) ![](../../../assets/images/screenshots/Session%2054%20-%20The%20War%20Heats%20up/Session%2054-09.webp) ![](../../../assets/images/screenshots/Session%2054%20-%20The%20War%20Heats%20up/Session%2054-10.webp) ![](../../../assets/images/screenshots/Session%2054%20-%20The%20War%20Heats%20up/Session%2054-11.webp) ![](../../../assets/images/screenshots/Session%2054%20-%20The%20War%20Heats%20up/Session%2054-12.webp) ![](../../../assets/images/screenshots/Session%2054%20-%20The%20War%20Heats%20up/Session%2054-13.webp) ![](../../../assets/images/screenshots/Session%2054%20-%20The%20War%20Heats%20up/Session%2054-14.webp) ![](../../../assets/images/screenshots/Session%2054%20-%20The%20War%20Heats%20up/Session%2054-15.webp) ![](../../../assets/images/screenshots/Session%2054%20-%20The%20War%20Heats%20up/Session%2054-16.webp) ![](../../../assets/images/screenshots/Session%2054%20-%20The%20War%20Heats%20up/Session%2054-17.webp) ![](../../../assets/images/screenshots/Session%2054%20-%20The%20War%20Heats%20up/session-54-the-war-heats-up-18.webp) ![](../../../assets/images/screenshots/Session%2054%20-%20The%20War%20Heats%20up/Session%2054-19.webp) ![](../../../assets/images/screenshots/Session%2054%20-%20The%20War%20Heats%20up/session-54-the-war-heats-up-20.webp) ![](../../../assets/images/screenshots/Session%2054%20-%20The%20War%20Heats%20up/session-54-the-war-heats-up-21.webp) ![](../../../assets/images/screenshots/Session%2054%20-%20The%20War%20Heats%20up/session-54-the-war-heats-up-22.webp) ![](../../../assets/images/screenshots/Session%2054%20-%20The%20War%20Heats%20up/session-54-the-war-heats-up-23.webp)
 <!-- session-gallery:end -->
 
 ## Article navigation
 
-**Previous:** [[Session 53- Of Blessed Waters and Buried Devils]]  
-**Next:** [[Session 55- Endeavor to Persevere]]
+**Previous:** [Session 53- Of Blessed Waters and Buried Devils](Session%2053-%20Of%20Blessed%20Waters%20and%20Buried%20Devils.md)  
+**Next:** [Session 55- Endeavor to Persevere](Session%2055-%20Endeavor%20to%20Persevere.md)

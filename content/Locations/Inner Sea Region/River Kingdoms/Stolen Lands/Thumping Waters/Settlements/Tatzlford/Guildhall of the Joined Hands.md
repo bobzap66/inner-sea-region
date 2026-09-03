@@ -9,7 +9,7 @@ parent: "[[Tatzlford]]"
 ---
 # Guildhall of the Joined Hands
 
-![[guildhall-of-the-joined-hands-portrait.png]]
+![](../../../../../../../assets/images/guildhall-of-the-joined-hands-portrait.png)
 
 *Compiled by the College of Letters and Public Record, Free University of Thumping Waters, from Tatzlford's municipal gazetteer, guild records, and interviews with the members of the Joined Hands*
 

@@ -9,7 +9,7 @@ category_path:
 
 
 > [!side]
-> :   ![[skybolt.png]]
+> :   ![](../assets/images/skybolt.png)
 
 *As recorded by Linzi, Minister of Communication of Thumping Waters*
 

@@ -8,7 +8,7 @@ parent: "[[Thumpington]]"
 ---
 # Tristian's Dawn
 
-![[shared-cover-2c2d28b87bde.png]]
+![](../../../../../../../assets/images/shared-cover-2c2d28b87bde.png)
 
 *Compiled by the College of Letters and Public Record, Free University of Thumping Waters, with the cooperation of the Temple of First Light and the custodians of Tristian's Dawn*
 

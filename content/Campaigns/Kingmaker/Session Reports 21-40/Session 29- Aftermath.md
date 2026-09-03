@@ -8,17 +8,17 @@ cover: "assets/world-anvil/shared-cover-8a1bfbff37cb.png"
 
 # Session 29: Aftermath
 
-![[shared-cover-8a1bfbff37cb.png]]
+![](../../../assets/images/shared-cover-8a1bfbff37cb.png)
 
 > [!side]
-> :   ![[session-29-aftermath-11.webp]]
+> :   ![](../../../assets/images/screenshots/Session%2029%20-%20Aftermath/session-29-aftermath-11.webp)
 >
 >
 > ---
 >
 > <!-- session-gallery:start -->
 
-### From [[Linzi]]’s Journal
+### From [Linzi](../NPCs/Linzi.md)’s Journal
 
 *An account of events from Rova 3 through Rova 25, 4711 AR, reconstructed from the testimony of those present*
 
@@ -30,11 +30,11 @@ The battle nearly ended the Tubthumpers. Akuzhail tore through the undergrowth a
 
 They killed the chimera anyway.
 
-For one hopeful instant, the cavern erupted with raw life. Vegetation burst from Akuzhail’s carcass, flooding the chamber with primal vitality and closing wounds. Then the growth gathered itself into an enormous, fully formed Bloom of [[Lamashtu]] and attacked. Darivan’s final safeguard had healed the victims just enough to make them fight his creation all over again.
+For one hopeful instant, the cavern erupted with raw life. Vegetation burst from Akuzhail’s carcass, flooding the chamber with primal vitality and closing wounds. Then the growth gathered itself into an enormous, fully formed Bloom of [Lamashtu](../../../Rules/Deities/Lamashtu.md) and attacked. Darivan’s final safeguard had healed the victims just enough to make them fight his creation all over again.
 
 The second battle was no kinder than the first, but this time there was nowhere deeper for the curse to hide. The Tubthumpers destroyed the Bloom of Lamashtu. Across the kingdom, the power sustaining the monstrous curse collapsed, and the Abyssal corruption that had kept the breach scar open began at last to recede.
 
-That night they camped in the cavern, which was considerably more comfortable once nothing in it was exploding, chanting, or attempting to digest them. Jin Durwhimmer appeared to [[Fitzroy]] and fulfilled his promise. Before the old druid’s spirit passed on, he entrusted Fitzroy with the rites of primal call, commune with nature, and awaken animal.
+That night they camped in the cavern, which was considerably more comfortable once nothing in it was exploding, chanting, or attempting to digest them. Jin Durwhimmer appeared to [Fitzroy](../Characters/Fitzroy.md) and fulfilled his promise. Before the old druid’s spirit passed on, he entrusted Fitzroy with the rites of primal call, commune with nature, and awaken animal.
 
 On the morning of Rova 4, the company continued north and descended into a narrow river gully. The stream divided around a long, overgrown island whose reeds and blackberry thickets concealed six snapping flytraps. The plants reached across the narrow channels to seize anyone approaching either bank, but after Akuzhail and the Bloom, six hungry vegetables must have seemed almost reassuringly ordinary. The Tubthumpers destroyed them and recovered the valuables left among the bones of their previous victims.
 
@@ -42,19 +42,19 @@ The following day, they investigated the strange whispers they had heard while t
 
 Their survey also uncovered an abandoned ferry station where the Shrike River branches from the Little Sellen. Most of the wooden buildings had collapsed beyond saving, but several docks remained sound. A settlement raised there could restore the crossing and begin with a pier already in place.
 
-Not every discovery required steel or spellcraft. The company heard the singing of a hill giant long before they found its source. Munguk was drunk, miserable, and wandering the hills after being rejected by a band of trolls. By the account I find most convincing, [[Mairi]] answered his foul mood with a wrestling match. Whatever rules were agreed upon—and I suspect they became simpler with every swallow of moonshine—Mairi and Munguk grappled until honor, exhaustion, or dizziness satisfied them both. The giant parted from the company peacefully.
+Not every discovery required steel or spellcraft. The company heard the singing of a hill giant long before they found its source. Munguk was drunk, miserable, and wandering the hills after being rejected by a band of trolls. By the account I find most convincing, [Mairi](../Characters/Mairi.md) answered his foul mood with a wrestling match. Whatever rules were agreed upon—and I suspect they became simpler with every swallow of moonshine—Mairi and Munguk grappled until honor, exhaustion, or dizziness satisfied them both. The giant parted from the company peacefully.
 
-The Tubthumpers spent the following weeks surveying the hills and neighboring forests before returning to [[Thumpington]] on Rova 25. Their discoveries added gemstones, a possible river settlement, and a surprisingly amiable drunken giant to the kingdom’s growing knowledge of its eastern reaches.
+The Tubthumpers spent the following weeks surveying the hills and neighboring forests before returning to [Thumpington](../../../Locations/Inner%20Sea%20Region/River%20Kingdoms/Stolen%20Lands/Thumping%20Waters/Settlements/Thumpington/Thumpington.md) on Rova 25. Their discoveries added gemstones, a possible river settlement, and a surprisingly amiable drunken giant to the kingdom’s growing knowledge of its eastern reaches.
 
-The council then turned to the less glamorous labor of governing. A diplomatic envoy repaired relations with [[Greengripe]] after Virthad’s deception and the violence surrounding his capture. The goblins pledged fealty, and Greengripe was formally welcomed into the kingdom as its newest settlement. It was a better ending than the Cult of the Bloom had intended for them—and, after the civilian killed during the earlier confusion, an important beginning to making amends.
+The council then turned to the less glamorous labor of governing. A diplomatic envoy repaired relations with [Greengripe](../../../Locations/Inner%20Sea%20Region/River%20Kingdoms/Stolen%20Lands/Thumping%20Waters/Settlements/Greengripe/Greengripe.md) after Virthad’s deception and the violence surrounding his capture. The goblins pledged fealty, and Greengripe was formally welcomed into the kingdom as its newest settlement. It was a better ending than the Cult of the Bloom had intended for them—and, after the civilian killed during the earlier confusion, an important beginning to making amends.
 
-Elsewhere, farmland was established, a mansion was raised in Thumpington, rubble was cleared from the capital, and construction began on a town hall at [[Embeth Hall]]. The hall remained unfinished and somewhat more expensive than anyone had hoped, which is how one knows it was a proper government project.
+Elsewhere, farmland was established, a mansion was raised in Thumpington, rubble was cleared from the capital, and construction began on a town hall at [Embeth Hall](../../../Locations/Inner%20Sea%20Region/River%20Kingdoms/Stolen%20Lands/Thumping%20Waters/Settlements/Embeth%20Hall/Embeth%20Hall.md). The hall remained unfinished and somewhat more expensive than anyone had hoped, which is how one knows it was a proper government project.
 
-The month’s business brought one more visitor. Bertran Orland had recently competed in the Rushlight Tournament, a six-day festival of knightly contests held in [[Pitax]] during Sarenith. He had been defeated and was quite certain that someone had cheated. His attempts to explain this certainty loudly and repeatedly had earned him a ban from the tournament grounds, which he regarded as further evidence of conspiracy rather than a comment upon his manners.
+The month’s business brought one more visitor. Bertran Orland had recently competed in the Rushlight Tournament, a six-day festival of knightly contests held in [Pitax](../../../Locations/Inner%20Sea%20Region/River%20Kingdoms/Stolen%20Lands/Thumping%20Waters/Settlements/Pitax/Pitax.md) during Sarenith. He had been defeated and was quite certain that someone had cheated. His attempts to explain this certainty loudly and repeatedly had earned him a ban from the tournament grounds, which he regarded as further evidence of conspiracy rather than a comment upon his manners.
 
 Bertran expected the Tubthumpers to receive an invitation to a future tournament. He asked them to investigate when they did, prove that he was not merely a furious loser shouting accusations at respectable people, and identify the cheater. In return, he promised enchanted arrows. I have known investigations launched for worse reasons.
 
-Then came the news from [[Varnhold]].
+Then came the news from [Varnhold](../../../Locations/Inner%20Sea%20Region/River%20Kingdoms/Stolen%20Lands/Thumping%20Waters/Settlements/Varnhold/Varnhold.md).
 
 Traders reported that the settlement stood empty. Not raided, not burned, and not abandoned through any orderly migration. Its people had simply vanished, leaving an entire town behind without explanation. After a month spent ending one hidden catastrophe, the Tubthumpers learned that something new had already swallowed their neighbors.
 
@@ -62,10 +62,10 @@ Traders reported that the settlement stood empty. Not raided, not burned, and no
 
 ## Session Gallery
 
-![[Session 29-01.webp]] ![[Session 29-02.webp]] ![[Session 29-03.webp]] ![[Session 29-04.webp]] ![[Session 29-05.webp]] ![[Session 29-06.webp]] ![[Session 29-07.webp]] ![[Session 29-08.webp]] ![[Session 29-09.webp]] ![[Session 29-10.webp]] ![[session-29-aftermath-11.webp]]
+![](../../../assets/images/screenshots/Session%2029%20-%20Aftermath/Session%2029-01.webp) ![](../../../assets/images/screenshots/Session%2029%20-%20Aftermath/Session%2029-02.webp) ![](../../../assets/images/screenshots/Session%2029%20-%20Aftermath/Session%2029-03.webp) ![](../../../assets/images/screenshots/Session%2029%20-%20Aftermath/Session%2029-04.webp) ![](../../../assets/images/screenshots/Session%2029%20-%20Aftermath/Session%2029-05.webp) ![](../../../assets/images/screenshots/Session%2029%20-%20Aftermath/Session%2029-06.webp) ![](../../../assets/images/screenshots/Session%2029%20-%20Aftermath/Session%2029-07.webp) ![](../../../assets/images/screenshots/Session%2029%20-%20Aftermath/Session%2029-08.webp) ![](../../../assets/images/screenshots/Session%2029%20-%20Aftermath/Session%2029-09.webp) ![](../../../assets/images/screenshots/Session%2029%20-%20Aftermath/Session%2029-10.webp) ![](../../../assets/images/screenshots/Session%2029%20-%20Aftermath/session-29-aftermath-11.webp)
 <!-- session-gallery:end -->
 
 ## Article navigation
 
-**Previous:** [[Session 28- Source of the Bloom]]  
-**Next:** [[Session 30- Valerie's Victory]]
+**Previous:** [Session 28- Source of the Bloom](Session%2028-%20Source%20of%20the%20Bloom.md)  
+**Next:** [Session 30- Valerie's Victory](Session%2030-%20Valerie%27s%20Victory.md)

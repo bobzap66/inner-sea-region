@@ -10,7 +10,7 @@ parent: "[[Inner Sea Region]]"
 
 
 > [!side]
-> :   ![[brevoy-map-of-brevoy-and-its-neighbors-jpg.webp]]
+> :   ![](../../../assets/images/brevoy-map-of-brevoy-and-its-neighbors-jpg.webp)
 
 Brevoy (pronounced BRE-voy) is a nation in far northeastern Avistan on the verge of tearing itself apart. The political entity known as Brevoy was once two vastly different nations locked in a constant state of war before being conquered by a foreign despot: Choral the Conqueror. After centuries under the rule of Choral and his descendants, they suddenly all disappeared, and Brevoy must now decide its own destiny.
 
@@ -24,11 +24,11 @@ A legend concerning the arrival and conquest of Choral is told in Brevoy that en
 
 #### Actual history of conquest
 
-The truth is that Choral arrived in Brevoy via crossing the Lake of Mists and Veils from Iobaria. There he met with Lord Nikos Surtova of Issia, who immediately surrendered in the face of his large army. In exchange, he and the rest of House Surtova were allowed to retain their prestige and possessions and became vassals to House Rogarvia. Only then did Choral turn his attention to Rostland and the [[Groups/Aldori Swordlords|Aldori Swordlords]], who did fall in much the same way as the legends recount.
+The truth is that Choral arrived in Brevoy via crossing the Lake of Mists and Veils from Iobaria. There he met with Lord Nikos Surtova of Issia, who immediately surrendered in the face of his large army. In exchange, he and the rest of House Surtova were allowed to retain their prestige and possessions and became vassals to House Rogarvia. Only then did Choral turn his attention to Rostland and the [Aldori Swordlords](../../../Groups/Aldori%20Swordlords.md), who did fall in much the same way as the legends recount.
 
 ### Geography
 
-Brevoy is bordered to the west by wild Numeria, to the south by the unstable [[River Kingdoms]], and to the east by Iobaria and the continent of Casmaron. Its landscape differs markedly from north to south, and this change marks the old boundary between the kingdoms of old Issia and Rostland. The north is mostly rugged hills that are unsuitable for agriculture. South of the massive Gronzi Forest, the Rostland Plains are rolling fertile grassland that are the breadbasket of the entire nation, and contain the largest tracks of arable land in all of northeastern Avistan.
+Brevoy is bordered to the west by wild Numeria, to the south by the unstable [River Kingdoms](../River%20Kingdoms/River%20Kingdoms.md), and to the east by Iobaria and the continent of Casmaron. Its landscape differs markedly from north to south, and this change marks the old boundary between the kingdoms of old Issia and Rostland. The north is mostly rugged hills that are unsuitable for agriculture. South of the massive Gronzi Forest, the Rostland Plains are rolling fertile grassland that are the breadbasket of the entire nation, and contain the largest tracks of arable land in all of northeastern Avistan.
 
 It can take days to travel between small settlements and longer between larger population clusters. Most of the towns and cities are located at the bases of mountains, along the lakes, or beside the riverways.
 
@@ -40,11 +40,11 @@ The city of Eagle's Watch on the majestic Mount Veshka
 The melted Valley of Fire where Aldori rebels had their last stand against Choral the Conqueror
 Brevoy's Lake Reykal, where just over 200 years ago the capital of New Stetven was built on the ruins of the old Taldan settlement of Stetven
 The highly inaccessible Claw Point in the far north in Brevoy bordering Iobaria
-The city of [[Restov]] in the south on the Shrike River
+The city of [Restov](Restov.md) in the south on the Shrike River
 
 #### Rivers
 
-Major rivers in Brevoy include the Awzera River that flows east into Lake Reykal across the lands of House Garess and House Lebeda, the East Sellen River that flows south out of the Icerime Peaks through the Gronzi Forest, into Lake Reykal and then down south past New Stetven into the [[River Kingdoms]], and the Shrike River that flows west out of the Hills of Nomen, meets [[Restov]], then flows south through the [[Stolen Lands]], finally joining with the East Sellen River in the [[River Kingdoms]].
+Major rivers in Brevoy include the Awzera River that flows east into Lake Reykal across the lands of House Garess and House Lebeda, the East Sellen River that flows south out of the Icerime Peaks through the Gronzi Forest, into Lake Reykal and then down south past New Stetven into the [River Kingdoms](../River%20Kingdoms/River%20Kingdoms.md), and the Shrike River that flows west out of the Hills of Nomen, meets [Restov](Restov.md), then flows south through the [Stolen Lands](../River%20Kingdoms/Stolen%20Lands/Stolen%20Lands.md), finally joining with the East Sellen River in the [River Kingdoms](../River%20Kingdoms/River%20Kingdoms.md).
 
 #### Government
 
@@ -72,11 +72,11 @@ Brevoy's military is organised into several regiments, called Talon Armies, most
 
 #### Foreign relations
 
-Relations between governments (such as they are) in this part of northern Avistan are limited. Brevoy and Mendev maintain diplomatic ties with one another, but Brevoy only has basic, nominal dies with Numeria, Razmiran, or the fractured [[River Kingdoms]]. The Brevic government has ranged from being unwelcoming to openly hostile to Razmiran's attempts to spread its faith beyond its borders, as [[Razmir]]'s priests are known to foment civil unrest wherever they go.
+Relations between governments (such as they are) in this part of northern Avistan are limited. Brevoy and Mendev maintain diplomatic ties with one another, but Brevoy only has basic, nominal dies with Numeria, Razmiran, or the fractured [River Kingdoms](../River%20Kingdoms/River%20Kingdoms.md). The Brevic government has ranged from being unwelcoming to openly hostile to Razmiran's attempts to spread its faith beyond its borders, as [Razmir](../../../Rules/Deities/Razmir.md)'s priests are known to foment civil unrest wherever they go.
 
 ### Economy
 
-Being so far north, winters are long and harsh. The short spring and summer seasons require the populace to farm and fish just enough to keep food on the table. Brevoy's only extensive arable land lies in Rostov and is one of the major exporter of foodstuffs in the region. Issia's sailors control most trade and keep most of the profits for themselves. This has generated considerable resentment among the Rostlanders, who seek to have the wealth distributed more equally. The Issians counter that their ships and trade agreements generate most of the nation's wealth, and argue that those profits need to be "reinvested" in their fleets, lest they are overtaken by foreign competitors. Cloth, books, finished goods, and spices are Brevoy's main imports, while common exports include copper, fur, fish and shellfish, grain, iron, salt, and timber. Stone for building is uncommon, so most buildings are constructed from wood; the few notable exceptions include the Ruby Fortress and the Bulwark of [[Gorum]].
+Being so far north, winters are long and harsh. The short spring and summer seasons require the populace to farm and fish just enough to keep food on the table. Brevoy's only extensive arable land lies in Rostov and is one of the major exporter of foodstuffs in the region. Issia's sailors control most trade and keep most of the profits for themselves. This has generated considerable resentment among the Rostlanders, who seek to have the wealth distributed more equally. The Issians counter that their ships and trade agreements generate most of the nation's wealth, and argue that those profits need to be "reinvested" in their fleets, lest they are overtaken by foreign competitors. Cloth, books, finished goods, and spices are Brevoy's main imports, while common exports include copper, fur, fish and shellfish, grain, iron, salt, and timber. Stone for building is uncommon, so most buildings are constructed from wood; the few notable exceptions include the Ruby Fortress and the Bulwark of [Gorum](../../../Rules/Deities/Gorum.md).
 
 ### Inhabitants
 
@@ -90,11 +90,11 @@ Having received waves of migration from all over Avistan, the people of Brevoy s
 
 ### Religion
 
-[[Abadar]] is the most unifying religious force in Brevoy. Many respect him and all have interactions with his followers each time they travel to the markets. Merchants and tradespeople are [[Abadar]]'s most diligent worshipers in Brevoy, and his temples are places of trade and justice. Those who bear [[Abadar]]'s golden key are often given recognition as neutral arbiters or judges.
+[Abadar](../../../Rules/Deities/Abadar.md) is the most unifying religious force in Brevoy. Many respect him and all have interactions with his followers each time they travel to the markets. Merchants and tradespeople are [Abadar](../../../Rules/Deities/Abadar.md)'s most diligent worshipers in Brevoy, and his temples are places of trade and justice. Those who bear [Abadar](../../../Rules/Deities/Abadar.md)'s golden key are often given recognition as neutral arbiters or judges.
 
-[[Gorum]]'s household priests often serve Brevoy's nobility and often walk around dressed in gaudy dark red tabards.
+[Gorum](../../../Rules/Deities/Gorum.md)'s household priests often serve Brevoy's nobility and often walk around dressed in gaudy dark red tabards.
 
-[[Pharasma]] is most beloved by Brevoy's common people. Her clerics are the least pretentious and serve as midwives, healers, and mortician-monks.
+[Pharasma](../../../Rules/Deities/Pharasma.md) is most beloved by Brevoy's common people. Her clerics are the least pretentious and serve as midwives, healers, and mortician-monks.
 
-Although [[Abadar]], [[Gorum]], and [[Pharasma]] are the most commonly revered gods, [[Erastil]] is sometimes worshiped in more rural areas and scattered Lamashtan cults tenaciously endure crusades to exterminate them.
+Although [Abadar](../../../Rules/Deities/Abadar.md), [Gorum](../../../Rules/Deities/Gorum.md), and [Pharasma](../../../Rules/Deities/Pharasma.md) are the most commonly revered gods, [Erastil](../../../Rules/Deities/Erastil.md) is sometimes worshiped in more rural areas and scattered Lamashtan cults tenaciously endure crusades to exterminate them.
 

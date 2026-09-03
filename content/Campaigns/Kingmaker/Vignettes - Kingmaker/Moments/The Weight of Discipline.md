@@ -9,7 +9,7 @@ category_path:
 
 Chief Sootscale sat in his chamber, claws tapping a steady rhythm on the stone table. Orderly, measured, disciplined—unlike the thoughts rattling in his skull. Goblins. Always goblins.
 
-He remembered when chaos nearly destroyed his tribe: the lies of [[Tartuk]]—no, [[Tartuccio]]—corrupted their faith, chained their will to a false prophet. He remembered the darkness of Old Sharptooth, and the madness of worshipping a demon who promised nothing but fear. It had taken the Tubthumpers’ aid, the courage of Mikmek, and his own rage to tear down that idol and reclaim his tribe’s dignity.
+He remembered when chaos nearly destroyed his tribe: the lies of [Tartuk](../../NPCs/Tartuk.md)—no, [Tartuccio](../../NPCs/Tartuccio.md)—corrupted their faith, chained their will to a false prophet. He remembered the darkness of Old Sharptooth, and the madness of worshipping a demon who promised nothing but fear. It had taken the Tubthumpers’ aid, the courage of Mikmek, and his own rage to tear down that idol and reclaim his tribe’s dignity.
 
 And now… goblins.
 

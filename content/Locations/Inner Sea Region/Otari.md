@@ -12,7 +12,7 @@ parent: "[[Inner Sea Region]]"
 
 Otari is a thriving, diverse lumber town and trade port with a storied past and its fair share of sinister secrets. Founded by a group of adventurers over 400 years ago, the town has weathered attacks from kobolds and strange monsters, economic woes and windfalls, and cycles of prosperity and strife. Today, the town is a prosperous community and one of the largest settlements along the island’s southern coast.
 
-Otari is nestled in a coastal valley between two looming cliffs. The Osprey River flows into the sea through the middle of this valley, and the sturdy stone to either side of this river supports hundreds of buildings and a deep harbor. Otari rarely floods, but the numerous caves, warrens, and channels dug beneath the town do so regularly. Though day-to-day life in Otari resembles that in any small town, its skyline stands out due to the enormous waterwheel at its eastern edge, the ingenious and enormous flume that brings lumber down the cliffside for easy transportation, and a stunning domed temple to [[Sarenrae]] to the west. The town’s location near a major highway and its long history as a home to various adventuring parties draw many visitors. Lively trade passing through means unusual wares (and even magic items) aren’t too difficult to find. Just over 1,200 people live in Otari. While most of its residents are humans, some dwarves, elves, and other ancestries also live here. The majority of its residents work in the local fishing and lumber industries. For the most part, people in Otari are friendly and welcoming, though they prefer its small-town feel and make lighthearted fun of visitors from big cities. Coffee is a mainstay, a favorite drink among the hardworking and early-rising townsfolk.
+Otari is nestled in a coastal valley between two looming cliffs. The Osprey River flows into the sea through the middle of this valley, and the sturdy stone to either side of this river supports hundreds of buildings and a deep harbor. Otari rarely floods, but the numerous caves, warrens, and channels dug beneath the town do so regularly. Though day-to-day life in Otari resembles that in any small town, its skyline stands out due to the enormous waterwheel at its eastern edge, the ingenious and enormous flume that brings lumber down the cliffside for easy transportation, and a stunning domed temple to [Sarenrae](../../Rules/Deities/Sarenrae.md) to the west. The town’s location near a major highway and its long history as a home to various adventuring parties draw many visitors. Lively trade passing through means unusual wares (and even magic items) aren’t too difficult to find. Just over 1,200 people live in Otari. While most of its residents are humans, some dwarves, elves, and other ancestries also live here. The majority of its residents work in the local fishing and lumber industries. For the most part, people in Otari are friendly and welcoming, though they prefer its small-town feel and make lighthearted fun of visitors from big cities. Coffee is a mainstay, a favorite drink among the hardworking and early-rising townsfolk.
 
 Oseph Menhemes, a descendant of one of Otari’s founders, has served multiple terms as the town’s elected mayor thanks to his easygoing efficiency and the townspeople’s general deference to tradition. He also runs one of the town’s main lumber companies, making him wealthy as well as influential.
 
@@ -42,7 +42,7 @@ Gathering places are at the heart of every settlement, and Otari is no exception
 
 #### Crow’s Casks
 
-A sign over the door to this two-story stone building depicts a group of drunk crows perched on a leaky cask. Crow’s Casks is more than just a tavern—it’s a brewery and a shrine to [[Cayden Cailean]], the god of heroes, bravery, and ale. Its proprietor, Magiloy, is a retired pirate who enjoys experimenting with new drinks. She’s always looking for enthusiastic customers to taste her latest concoctions.
+A sign over the door to this two-story stone building depicts a group of drunk crows perched on a leaky cask. Crow’s Casks is more than just a tavern—it’s a brewery and a shrine to [Cayden Cailean](../../Rules/Deities/Cayden%20Cailean.md), the god of heroes, bravery, and ale. Its proprietor, Magiloy, is a retired pirate who enjoys experimenting with new drinks. She’s always looking for enthusiastic customers to taste her latest concoctions.
 
 #### Crook’s Nook
 
@@ -62,7 +62,7 @@ Whether approached by sea or by land, Otari has several distinctive landmarks th
 
 #### Dawnflower Library
 
-Otari’s largest temple is built at the town’s westernmost edge, atop an upraised shelf that’s nevertheless far below the clifftop. The library’s position allows it to catch the rays of the rising sun, which transform its central dome into a glowing testament to the sun goddess [[Sarenrae]]—at least when the sky is clear. While principally dedicated to [[Sarenrae]], the Dawnflower Library welcomes all non-evil faiths. The building’s two wings each contain shrines, and the center houses a wide range of books, including histories, satires, textbooks, and maps to innumerable exciting locales.
+Otari’s largest temple is built at the town’s westernmost edge, atop an upraised shelf that’s nevertheless far below the clifftop. The library’s position allows it to catch the rays of the rising sun, which transform its central dome into a glowing testament to the sun goddess [Sarenrae](../../Rules/Deities/Sarenrae.md)—at least when the sky is clear. While principally dedicated to [Sarenrae](../../Rules/Deities/Sarenrae.md), the Dawnflower Library welcomes all non-evil faiths. The building’s two wings each contain shrines, and the center houses a wide range of books, including histories, satires, textbooks, and maps to innumerable exciting locales.
 
 #### The Giant’s Wheel
 
@@ -74,7 +74,7 @@ This long flume sends water diverted from the Osprey River and timber from the G
 
 #### Stone Ring Pond
 
-A total of two dozen standing stones, each exactly 12 feet high, stand like sentries around the shores of a shallow pond. The site is usually occupied by polite but aloof pilgrims of [[Desna]] (patron of travelers) or of [[Gozreh]] (patron of nature). A kindly nature priest named Worliwynn permanently resides there, and she helps the loggers work harmoniously with nature.
+A total of two dozen standing stones, each exactly 12 feet high, stand like sentries around the shores of a shallow pond. The site is usually occupied by polite but aloof pilgrims of [Desna](../../Rules/Deities/Desna.md) (patron of travelers) or of [Gozreh](../../Rules/Deities/Gozreh.md) (patron of nature). A kindly nature priest named Worliwynn permanently resides there, and she helps the loggers work harmoniously with nature.
 
 ### GOODS AND SERVICES
 

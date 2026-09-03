@@ -9,7 +9,7 @@ category_path:
 
 
 > [!side]
-> :   ![[morlibint-s-dossier-the-children-of-belcorra-image-01.png]]
+> :   ![](../../../../assets/images/morlibint-s-dossier-the-children-of-belcorra-image-01.png)
 
 *Extract from the Morlibint Dossier*
 
@@ -47,5 +47,5 @@ They waited for Belcorra to return.
 
   
 
-[[Morlibint's Dossier- The Whispering Caverns|Morlibint's Dossier: The Whispering Caverns]]
+[Morlibint's Dossier: The Whispering Caverns](Morlibint%27s%20Dossier-%20The%20Whispering%20Caverns.md)
 

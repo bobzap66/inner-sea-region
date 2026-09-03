@@ -8,7 +8,7 @@ portrait: "assets/world-anvil/august-shepard-portrait.jpeg"
 
 # August Shepard
 
-![[august-shepard-portrait.jpeg]]
+![](../../../assets/images/august-shepard-portrait.jpeg)
 
 > [!side]
 > Firstname

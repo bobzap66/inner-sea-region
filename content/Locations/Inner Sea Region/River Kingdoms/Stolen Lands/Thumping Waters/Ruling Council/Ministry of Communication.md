@@ -9,16 +9,16 @@ flag_organization: "[[ministry-of-communication-flag.png]]"
 
 # Ministry of Communication
 
-![[shared-cover-48fb79abc6f1.png]]
+![](../../../../../../assets/images/shared-cover-48fb79abc6f1.png)
 
 *An institutional profile maintained by the Office of Public Record*
 
 The Ministry of Communication is the voice and memory of the Republic of Thumping Waters. It carries government notices across a wide and difficult territory, preserves the national record, maintains official correspondence, and helps citizens understand what their government has done, intends to do, and occasionally wishes it had explained sooner.
 
-The ministry is led by [[Linzi]], who has held the office since the Republic's founding. Its responsibilities have expanded from handwritten journals and courier routes into a national archive, a working government press, and the publication network supporting the *Lantern and Ledger*.
+The ministry is led by [Linzi](../../../../../../Campaigns/Kingmaker/NPCs/Linzi.md), who has held the office since the Republic's founding. Its responsibilities have expanded from handwritten journals and courier routes into a national archive, a working government press, and the publication network supporting the *Lantern and Ledger*.
 
 > [!profile] At a Glance
-> ![[assets/images/local-library/assets/portraits/ruling-council/Linzi - Minister of Communication.png|220]]
+> ![](../../../../../../assets/images/local-library/assets/portraits/ruling-council/Linzi%20-%20Minister%20of%20Communication.png)
 >
 > **Current Minister:** Linzi
 >
@@ -26,13 +26,13 @@ The ministry is led by [[Linzi]], who has held the office since the Republic's f
 >
 > **Charter Office:** Counselor
 >
-> **Headquarters:** [[Thumpington]]
+> **Headquarters:** [Thumpington](../Settlements/Thumpington/Thumpington.md)
 >
 > **Primary Responsibilities:** Public information, official records, government correspondence, printing, archives, heralds, and cultural preservation
 >
-> **Associated Publication:** [[The Lantern and Ledger|*The Lantern and Ledger*]]
+> **Associated Publication:** [*The Lantern and Ledger*](../../../../../../Campaigns/Kingmaker/Vignettes%20-%20Kingmaker/The%20Lantern%20and%20Ledger/The%20Lantern%20and%20Ledger.md)
 >
-> **Academic Partner:** College of Letters and Public Record, [[Free University of Thumping Waters]]
+> **Academic Partner:** College of Letters and Public Record, [Free University of Thumping Waters](../Settlements/Thumpington/Free%20University%20of%20Thumping%20Waters.md)
 
 ### Mandate
 
@@ -56,7 +56,7 @@ In distant communities, the same courier may carry military orders, tax forms, p
 
 #### Government Printing Office
 
-The Government Printing Office produces laws, forms, proclamations, instructional pamphlets, public broadsheets, and standardized copies of official documents. Its press components were recovered in Abadius 4711 AR after Linzi's unauthorized purchase led to the rescue of [[Eobald]] and the machinery from the Jaggedbriar Coven.
+The Government Printing Office produces laws, forms, proclamations, instructional pamphlets, public broadsheets, and standardized copies of official documents. Its press components were recovered in Abadius 4711 AR after Linzi's unauthorized purchase led to the rescue of [Eobald](../../../../../../Campaigns/Kingmaker/NPCs/Eobald.md) and the machinery from the Jaggedbriar Coven.
 
 It took nearly a year to repair and assemble the press. For its first years of operation, government work consumed most of its schedule. The *Lantern and Ledger* began regular publication on Sarenith 1, 4714 AR after Linzi established a permanent editorial staff and distribution system.
 
@@ -64,7 +64,7 @@ It took nearly a year to repair and assemble the press. For its first years of o
 
 The University Press uses the Republic's printing equipment and distribution network by agreement with the ministry. It publishes lectures, translations, maps, field reports, catalogues, scholarly papers, and practical manuals prepared through the Free University of Thumping Waters.
 
-Access to public machinery does not make the University Press a government publisher. The College of Letters and Public Record maintains its own editorial review, and university affiliations do not convert scholarly conclusions into official policy. The ministry may preserve, print, and distribute a work without endorsing its interpretation. This distinction is especially important for research concerning Candlemere, the [[Wild Hunt]], and other subjects upon which evidence remains incomplete.
+Access to public machinery does not make the University Press a government publisher. The College of Letters and Public Record maintains its own editorial review, and university affiliations do not convert scholarly conclusions into official policy. The ministry may preserve, print, and distribute a work without endorsing its interpretation. This distinction is especially important for research concerning Candlemere, the [Wild Hunt](../../../../../../Campaigns/Kingmaker/Vignettes%20-%20Kingmaker/Intelligence%20Reports/Wild%20Hunt.md), and other subjects upon which evidence remains incomplete.
 
 #### Office of Cultural Record
 

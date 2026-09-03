@@ -7,10 +7,10 @@ cover: "assets/world-anvil/shared-cover-110a4fd3e759.png"
 
 # The Day She Stood Still
 
-![[shared-cover-110a4fd3e759.png]]
+![](../../../../assets/images/shared-cover-110a4fd3e759.png)
 
 > [!side]
-> :   ![[the-day-she-stood-still-image-01.png]]
+> :   ![](../../../../assets/images/the-day-she-stood-still-image-01.png)
 
 ##### From the Chronicles of the Republic of Thumping Waters
 

@@ -14,4 +14,4 @@ Published Pathfinder spell rules are maintained externally rather than duplicate
 
 ## Campaign Resources
 
-- [[Rules/Spells/Printing Spell Cards|Printing Spell Cards]]
+- [Printing Spell Cards](Printing%20Spell%20Cards.md)

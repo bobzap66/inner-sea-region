@@ -8,10 +8,10 @@ category_path:
 # Sootscale Kobolds
 
 
-*"DEATH TO [[Tartuk]]!"*
+*"DEATH TO [Tartuk](../Campaigns/Kingmaker/NPCs/Tartuk.md)!"*
 -The rallying cry of many Sootscale Kobolds.
 
-The Sootscale Kobolds were a clan of Kobolds living in an abandoned tin mine in what would later become Sootscale Hill. Lead by their chieften, Chief Sootscale, the Sootscale Kobolds became involved in a feud with the Mites of Old Sycamore after the manipulation of [[Tartuk]].
+The Sootscale Kobolds were a clan of Kobolds living in an abandoned tin mine in what would later become Sootscale Hill. Lead by their chieften, Chief Sootscale, the Sootscale Kobolds became involved in a feud with the Mites of Old Sycamore after the manipulation of [Tartuk](../Campaigns/Kingmaker/NPCs/Tartuk.md).
 
 #### Description
 
@@ -19,9 +19,9 @@ Kobolds are small, reptilian humanoids who carry physical similarities to true d
 
 #### History
 
-The Sootscale Kobolds have been active in the [[Locations/Inner Sea Region/River Kingdoms/Stolen Lands/Greenbelt|Greenbelt]] for quite some time, and for the majority of this time they found themselves an insular and independent community, choosing to keep themselves to themselves rather than pick fights with travelers or monsters. However, this lifestyle was disrupted in 4710 AR by the arrival of an outsider-- the charlatan, [[Tartuk]].
+The Sootscale Kobolds have been active in the [Greenbelt](../Locations/Inner%20Sea%20Region/River%20Kingdoms/Stolen%20Lands/Greenbelt/Greenbelt.md) for quite some time, and for the majority of this time they found themselves an insular and independent community, choosing to keep themselves to themselves rather than pick fights with travelers or monsters. However, this lifestyle was disrupted in 4710 AR by the arrival of an outsider-- the charlatan, [Tartuk](../Campaigns/Kingmaker/NPCs/Tartuk.md).
 
-[[Tartuk]] was a Kobold who claimed their Religious Idol, Old Sharptooth, was giving him instructions from beyond the beyond. [[Tartuk]], actually the disguesed gnome [[Tartuccio]], intended to destroy the clan from the inside out by sending them to their dooms on the orders of Old Sharptooth. [[Tartuk]] told Chief Sootscale that only intelligent Kobolds could hear the voice of Sharptooth and, not wanting to look weak in front of his clan, Sootscale pretended he could indeed understand. Slowly [[Tartuk]] became de-facto leader of the clan. When [[Tartuk]] had the Sootscales engage in a war with the Mites of Old Sycamore (a fight they could not, in the long run, win), there was an incident whereupon the statuette was stolen by the Mites, and a group of Kobolds were sent to retrieve it. Only one of them (a young scout named Mikimek) returned... and with them, he brought the party. The party, who had befriended Mikimek and defeated the Mites, intervened, and gave Chief Sootscale the push needed to oust [[Tartuk]] and reclaim his role as leader of the clan.
+[Tartuk](../Campaigns/Kingmaker/NPCs/Tartuk.md) was a Kobold who claimed their Religious Idol, Old Sharptooth, was giving him instructions from beyond the beyond. [Tartuk](../Campaigns/Kingmaker/NPCs/Tartuk.md), actually the disguesed gnome [Tartuccio](../Campaigns/Kingmaker/NPCs/Tartuccio.md), intended to destroy the clan from the inside out by sending them to their dooms on the orders of Old Sharptooth. [Tartuk](../Campaigns/Kingmaker/NPCs/Tartuk.md) told Chief Sootscale that only intelligent Kobolds could hear the voice of Sharptooth and, not wanting to look weak in front of his clan, Sootscale pretended he could indeed understand. Slowly [Tartuk](../Campaigns/Kingmaker/NPCs/Tartuk.md) became de-facto leader of the clan. When [Tartuk](../Campaigns/Kingmaker/NPCs/Tartuk.md) had the Sootscales engage in a war with the Mites of Old Sycamore (a fight they could not, in the long run, win), there was an incident whereupon the statuette was stolen by the Mites, and a group of Kobolds were sent to retrieve it. Only one of them (a young scout named Mikimek) returned... and with them, he brought the party. The party, who had befriended Mikimek and defeated the Mites, intervened, and gave Chief Sootscale the push needed to oust [Tartuk](../Campaigns/Kingmaker/NPCs/Tartuk.md) and reclaim his role as leader of the clan.
 
 ## General Details
 
@@ -38,6 +38,6 @@ Tartuk, Old Sycamore Mites
 ---
 
 General Details
-:   ![[sootscale-kobolds-tartuk.webp]]
+:   ![](../assets/images/sootscale-kobolds-tartuk.webp)
 
     Chief Sootscale

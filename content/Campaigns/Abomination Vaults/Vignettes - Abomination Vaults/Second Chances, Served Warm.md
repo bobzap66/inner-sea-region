@@ -8,7 +8,7 @@ category_path:
 
 
 > [!side]
-> :   ![[second-chances-served-warm-image-01.jpeg]]
+> :   ![](../../../assets/images/second-chances-served-warm-image-01.jpeg)
 >
 >     by ChatGPT
 >

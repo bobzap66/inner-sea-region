@@ -8,9 +8,9 @@ category_path:
 
 
 > [!side]
-> :   ![[no-way-to-get-ahead-scared-theron-2.png]]
+> :   ![](../../../assets/images/no-way-to-get-ahead-scared-theron-2.png)
 >
->     ![[assets/world-anvil/no-way-to-get-ahead-theron-head-6.webp]]
+>     ![](../../../assets/images/no-way-to-get-ahead-theron-head-6.webp)
 
 The agony never dulled. If anything, it sharpened with each heartbeat he no longer had. His eyes—his only living parts—were forced to drink in every cruel detail. His body, stretched taut in its bindings, twitched at the pull of wires and veins of glass. His head, shackled to the slab, could not turn away.
 

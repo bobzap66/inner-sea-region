@@ -9,7 +9,7 @@ parent: "[[Olegton]]"
 ---
 # Levet's Mill
 
-![[levet-s-mill-portrait.png]]
+![](../../../../../../../assets/images/levet-s-mill-portrait.png)
 
 *Compiled by Tomas Vey, Lecturer in Agricultural Works, College of Roads and Rivers, Free University of Thumping Waters, from Olegton's construction records, mill ledgers, and interviews with Tavena Levet, local farmers, bakers, and teamsters*
 

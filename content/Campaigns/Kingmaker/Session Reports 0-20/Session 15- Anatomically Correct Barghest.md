@@ -8,21 +8,21 @@ cover: "assets/world-anvil/shared-cover-8a1bfbff37cb.png"
 
 # Session 15: Anatomically Correct Barghest
 
-![[shared-cover-8a1bfbff37cb.png]]
+![](../../../assets/images/shared-cover-8a1bfbff37cb.png)
 
 > [!side]
-> :   ![[session-15-anatomically-correct-barghest-10.webp]]
+> :   ![](../../../assets/images/screenshots/Session%2015%20-%20Anatomically%20Correct%20Barghest/session-15-anatomically-correct-barghest-10.webp)
 >
 >
 > ---
 >
 > <!-- session-gallery:start -->
 
-### From [[Linzi]]’s Journal
+### From [Linzi](../NPCs/Linzi.md)’s Journal
 
 *An account of events from 8 Arodus until approximately 30 Arodus, 4710 AR, reconstructed from the testimony of those present*
 
-[[Nok-Nok]]’s warning sent the Tubthumpers racing north toward [[Olegton]]. The Tanglethorn goblins had supposedly been destroyed years ago by a rampaging moose—an ignominious end even by goblin standards—but someone had revived the name and gathered a new tribe beneath it.
+[Nok-Nok](../NPCs/Nok-Nok.md)’s warning sent the Tubthumpers racing north toward [Olegton](../../../Locations/Inner%20Sea%20Region/River%20Kingdoms/Stolen%20Lands/Thumping%20Waters/Settlements/Olegton/Olegton.md). The Tanglethorn goblins had supposedly been destroyed years ago by a rampaging moose—an ignominious end even by goblin standards—but someone had revived the name and gathered a new tribe beneath it.
 
 The company reached Olegton at dusk on the ninth of Arodus. Outside the stockade, nearly a dozen goblins were arguing over whether they should storm the settlement or simply burn it down. Their leader, a druid calling himself Vengeful Lickweed the Violently Verdant, favored conquest. Several of his followers preferred fire, largely because fire required less planning.
 
@@ -30,19 +30,19 @@ Before the disagreement could be resolved, the Tubthumpers attacked.
 
 The goblins were accompanied by a pair of goblin dogs whose shoulders bore strange fleshy growths. Closer examination after the battle revealed that these were not tumors but the beginnings of batlike wings. Someone had been deliberately changing the creatures.
 
-During the fighting, the company encountered [[Matteo]] Auditore, a quiet, heavily armored stranger who joined the defense of Olegton with unnerving efficiency. Matteo does not boast, threaten, or waste motion. He simply studies a problem until he knows exactly where to put the blade. He is the sort of man one trusts because, by the time he tells you that he has a plan, he has probably already completed the dangerous part.
+During the fighting, the company encountered [Matteo](../Characters/Matteo.md) Auditore, a quiet, heavily armored stranger who joined the defense of Olegton with unnerving efficiency. Matteo does not boast, threaten, or waste motion. He simply studies a problem until he knows exactly where to put the blade. He is the sort of man one trusts because, by the time he tells you that he has a plan, he has probably already completed the dangerous part.
 
 Matteo scares me a little. I believe this is a reasonable response.
 
 With his assistance, the Tubthumpers destroyed Lickweed’s entire raiding force. Olegton survived its first attack as a proper settlement, although Oleg expressed strong opinions about leaving dead goblins near his gate. Svetlana expressed the same opinion more politely and with considerably more authority.
 
-The name invoked by the goblins was Nargloom of the Three Eyes. Nok-Nok recognized it immediately. Nargloom was a barghest that had once terrorized Nivakta’s Crossing before reportedly being killed by adventurers. Nok-Nok had assumed the creature had gone to join [[Lamashtu]]’s court. Instead, it had survived, grown stronger, and taken control of the new Tanglethorns.
+The name invoked by the goblins was Nargloom of the Three Eyes. Nok-Nok recognized it immediately. Nargloom was a barghest that had once terrorized Nivakta’s Crossing before reportedly being killed by adventurers. Nok-Nok had assumed the creature had gone to join [Lamashtu](../../../Rules/Deities/Lamashtu.md)’s court. Instead, it had survived, grown stronger, and taken control of the new Tanglethorns.
 
 This was splendid news, according to Nok-Nok.
 
 He explained that killing one of Lamashtu’s chosen creatures would surely prove that he deserved to become the fifth goblin hero-god. The Tubthumpers could accompany him, witness his glorious ascension, and perhaps become his first priests. Any suggestion that Lamashtu might not reward him was dismissed as an obvious failure to understand theology.
 
-[[Ant]] tracked the goblins to their lair, half a day from Olegton. The entrance opened beneath a cliff amid thorny vegetation, broken armor, and scattered bones. Beyond it lay an abandoned shrine to [[Gorum]], its ancient carvings defaced and altered by generations of goblin occupants.
+[Ant](../Characters/Ant.md) tracked the goblins to their lair, half a day from Olegton. The entrance opened beneath a cliff amid thorny vegetation, broken armor, and scattered bones. Beyond it lay an abandoned shrine to [Gorum](../../../Rules/Deities/Gorum.md), its ancient carvings defaced and altered by generations of goblin occupants.
 
 Two redcap brothers named Brub and Trob watched the approaches for Nargloom. They had decorated their cavern with obscene murals and constructed new people from mismatched collections of old bones. The Tubthumpers killed them both, thereby preventing any further artistic exhibitions.
 
@@ -74,7 +74,7 @@ Once the danger had passed, the company turned to several weeks of much-needed q
 
 Gershwin the blacksmith purchased the sixth coin. I suspect Lily would say this proves that even blacksmiths can occasionally display taste.
 
-Ally spent much of the remaining month learning new spells, [[Rules/Crafting|Crafting]] scrolls, and transferring runes among the company’s equipment. Other unwanted treasures were sold, useful supplies were purchased, and a heroic quantity of gold changed hands. By the end of Arodus, the Tubthumpers were better armed, better prepared, and considerably poorer.
+Ally spent much of the remaining month learning new spells, [Crafting](../../../Rules/Crafting.md) scrolls, and transferring runes among the company’s equipment. Other unwanted treasures were sold, useful supplies were purchased, and a heroic quantity of gold changed hands. By the end of Arodus, the Tubthumpers were better armed, better prepared, and considerably poorer.
 
 Olegton had survived. Nargloom was dead. Nok-Nok had not become a god, but he had taken his first real step toward becoming something better: a hero who did not require a demon goddess to tell him so.
 
@@ -82,10 +82,10 @@ Olegton had survived. Nargloom was dead. Nok-Nok had not become a god, but he ha
 
 ## Session Gallery
 
-![[Session 15-01.webp]] ![[Session 15-02.webp]] ![[Session 15-03.webp]] ![[Session 15-04.webp]] ![[Session 15-05.webp]] ![[Session 15-06.webp]] ![[Session 15-07.webp]] ![[Session 15-08.webp]] ![[Session 15-09.webp]] ![[session-15-anatomically-correct-barghest-10.webp]]
+![](../../../assets/images/screenshots/Session%2015%20-%20Anatomically%20Correct%20Barghest/Session%2015-01.webp) ![](../../../assets/images/screenshots/Session%2015%20-%20Anatomically%20Correct%20Barghest/Session%2015-02.webp) ![](../../../assets/images/screenshots/Session%2015%20-%20Anatomically%20Correct%20Barghest/Session%2015-03.webp) ![](../../../assets/images/screenshots/Session%2015%20-%20Anatomically%20Correct%20Barghest/Session%2015-04.webp) ![](../../../assets/images/screenshots/Session%2015%20-%20Anatomically%20Correct%20Barghest/Session%2015-05.webp) ![](../../../assets/images/screenshots/Session%2015%20-%20Anatomically%20Correct%20Barghest/Session%2015-06.webp) ![](../../../assets/images/screenshots/Session%2015%20-%20Anatomically%20Correct%20Barghest/Session%2015-07.webp) ![](../../../assets/images/screenshots/Session%2015%20-%20Anatomically%20Correct%20Barghest/Session%2015-08.webp) ![](../../../assets/images/screenshots/Session%2015%20-%20Anatomically%20Correct%20Barghest/Session%2015-09.webp) ![](../../../assets/images/screenshots/Session%2015%20-%20Anatomically%20Correct%20Barghest/session-15-anatomically-correct-barghest-10.webp)
 <!-- session-gallery:end -->
 
 ## Article navigation
 
-**Previous:** [[Session 14- Love Hurts]]  
-**Next:** [[Session 16- Death to All Who Oppose Us!]]
+**Previous:** [Session 14- Love Hurts](Session%2014-%20Love%20Hurts.md)  
+**Next:** [Session 16- Death to All Who Oppose Us!](Session%2016-%20Death%20to%20All%20Who%20Oppose%20Us%21.md)

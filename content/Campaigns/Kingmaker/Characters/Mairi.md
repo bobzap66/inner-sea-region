@@ -8,7 +8,7 @@ portrait: "assets/world-anvil/mairi-portrait.png"
 
 # Mairi
 
-![[mairi-portrait.png]]
+![](../../../assets/images/mairi-portrait.png)
 
 ### From the Journal of Linzi
 

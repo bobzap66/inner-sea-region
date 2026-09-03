@@ -7,10 +7,10 @@ cover: "assets/world-anvil/shared-cover-110a4fd3e759.png"
 
 # Nok-Nok, Hero of the Mite Warrens and Governor of Greengripe, Falls in Battle
 
-![[shared-cover-110a4fd3e759.png]]
+![](../../../../assets/images/shared-cover-110a4fd3e759.png)
 
 > [!side]
-> :   ![[nok-nok-hero-of-the-mite-warrens-and-governor-of-greengripe-falls-in-battle-image-01.png]]
+> :   ![](../../../../assets/images/nok-nok-hero-of-the-mite-warrens-and-governor-of-greengripe-falls-in-battle-image-01.png)
 
 ## Nok-Nok, Hero of the Mite Warrens and Governor of Greengripe, Falls in Battle
 

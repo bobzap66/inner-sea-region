@@ -8,7 +8,7 @@ parent: "[[Groups/Sootscale Kobolds|Sootscale Kobolds]]"
 ---
 # Tartuk
 
-![[tartuk-portrait.webp]]
+![](../../../assets/images/tartuk-portrait.webp)
 
 *Purple Scales · Bitter Spirit · Prophet of Doom*
 

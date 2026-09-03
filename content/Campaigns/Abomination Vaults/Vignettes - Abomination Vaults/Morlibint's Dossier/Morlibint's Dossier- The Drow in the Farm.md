@@ -8,10 +8,10 @@ cover: "assets/world-anvil/shared-cover-32ff100f6011.png"
 
 # Morlibint's Dossier: The Drow in the Farm
 
-![[shared-cover-32ff100f6011.png]]
+![](../../../../assets/images/shared-cover-32ff100f6011.png)
 
 > [!side]
-> :   ![[morlibint-s-dossier-the-drow-in-the-farm-image-01.png]]
+> :   ![](../../../../assets/images/morlibint-s-dossier-the-drow-in-the-farm-image-01.png)
 
 *Extract from the Morlibint Dossier*
 
@@ -39,5 +39,5 @@ The drow do not oppose Belcorra directly. They do not sabotage her systems. They
 
 *— Morlibint*
 
-[[Morlibint's Dossier- The Farm Redux|Morlibint's Dossier: The Farm Redux]]
+[Morlibint's Dossier: The Farm Redux](Morlibint%27s%20Dossier-%20The%20Farm%20Redux.md)
 

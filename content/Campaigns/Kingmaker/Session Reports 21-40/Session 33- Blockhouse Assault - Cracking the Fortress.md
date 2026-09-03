@@ -8,21 +8,21 @@ cover: "assets/world-anvil/shared-cover-8a1bfbff37cb.png"
 
 # Session 33: Blockhouse Assault - Cracking the Fortress
 
-![[shared-cover-8a1bfbff37cb.png]]
+![](../../../assets/images/shared-cover-8a1bfbff37cb.png)
 
 > [!side]
-> :   ![[session-33-blockhouse-assault-cracking-the-fortress-15.webp]]
+> :   ![](../../../assets/images/screenshots/Session%2033%20-%20Blockhouse%20Assault%20Cracking%20the%20Fortress/session-33-blockhouse-assault-cracking-the-fortress-15.webp)
 >
 >
 > ---
 >
 > <!-- session-gallery:start -->
 
-### From [[Linzi]]’s Journal
+### From [Linzi](../NPCs/Linzi.md)’s Journal
 
 *An account of events from Kuthona 15 through Kuthona 19, 4711 AR, reconstructed from the testimony of those present*
 
-The Tubthumpers returned to [[Varnhold]]’s blockhouse on Kuthona 15. The previous night’s battle had left the courtyard muddy, bloodied, and littered with the remains of spriggans and their enormous wolverines, but the timber fortress itself still stood sealed against them.
+The Tubthumpers returned to [Varnhold](../../../Locations/Inner%20Sea%20Region/River%20Kingdoms/Stolen%20Lands/Thumping%20Waters/Settlements/Varnhold/Varnhold.md)’s blockhouse on Kuthona 15. The previous night’s battle had left the courtyard muddy, bloodied, and littered with the remains of spriggans and their enormous wolverines, but the timber fortress itself still stood sealed against them.
 
 Having already discovered what happened when they crossed the courtyard at ground level, the company chose a subtler entrance. They climbed to the rooftop watch post and opened the hatch leading into the blockhouse from above. This was an excellent plan until the hatch opened.
 
@@ -38,9 +38,9 @@ The rooms told much the same story as the rest of Varnhold. The spriggans had fo
 
 Among the papers scattered through the former quarters of Cephal Lorentus, Varnhold’s master of dispatch, the party recovered five intact pages torn from his spellbook. They contained the spells *Translate*, *Floating Flame*, *Marvelous Mount*, *Peaceful Bubble*, and *Shrink Item*. Two more pages had been lost beyond recovery, which proves once again that barbarians never appreciate a good library until they need someone to identify the things they stole from it.
 
-Agai’s spacious pouch held a small treasury: six hundred gold pieces in assorted coin and jewelry, a payroll coffer containing five hundred silver pieces, and gemstones worth approximately another three hundred and fifty gold. It also contained [[Maegar Varn]]’s enchanted longsword, marked with the crest of House Varn; a magical messenger’s ring; a wand of *Ghostly Carrier*; and an exquisite magical longbow.
+Agai’s spacious pouch held a small treasury: six hundred gold pieces in assorted coin and jewelry, a payroll coffer containing five hundred silver pieces, and gemstones worth approximately another three hundred and fifty gold. It also contained [Maegar Varn](../NPCs/Maegar%20Varn.md)’s enchanted longsword, marked with the crest of House Varn; a magical messenger’s ring; a wand of *Ghostly Carrier*; and an exquisite magical longbow.
 
-The bow was named [[Artifacts and Relics/Skybolt|Skybolt]]. Its construction identified it as the work of Iobarian centaurs, and closer study revealed that it was not merely valuable but sacred—a lost ancestral weapon of the Nomen people. It was the first clue the Tubthumpers had found that offered not only another question, but a means of asking it without beginning a war.
+The bow was named [Skybolt](../../../Artifacts%20and%20Relics/Skybolt.md). Its construction identified it as the work of Iobarian centaurs, and closer study revealed that it was not merely valuable but sacred—a lost ancestral weapon of the Nomen people. It was the first clue the Tubthumpers had found that offered not only another question, but a means of asking it without beginning a war.
 
 A damaged map in Maegar Varn’s quarters showed enough of the surrounding country to guide the company toward the Nomen encampment. After resting from the assault, they carried Skybolt east into the grasslands.
 
@@ -76,10 +76,10 @@ The path to Vordakai lay ahead. By then, the Tubthumpers knew that whatever had 
 
 ## Session Gallery
 
-![[Session 33-01.webp]] ![[Session 33-02.webp]] ![[Session 33-03.webp]] ![[Session 33-04.webp]] ![[Session 33-05.webp]] ![[Session 33-06.webp]] ![[Session 33-07.webp]] ![[Session 33-08.webp]] ![[Session 33-09.webp]] ![[Session 33-10.webp]] ![[Session 33-12.webp]] ![[Session 33-13.webp]] ![[Session 33-14.webp]] ![[session-33-blockhouse-assault-cracking-the-fortress-15.webp]]
+![](../../../assets/images/screenshots/Session%2033%20-%20Blockhouse%20Assault%20Cracking%20the%20Fortress/Session%2033-01.webp) ![](../../../assets/images/screenshots/Session%2033%20-%20Blockhouse%20Assault%20Cracking%20the%20Fortress/Session%2033-02.webp) ![](../../../assets/images/screenshots/Session%2033%20-%20Blockhouse%20Assault%20Cracking%20the%20Fortress/Session%2033-03.webp) ![](../../../assets/images/screenshots/Session%2033%20-%20Blockhouse%20Assault%20Cracking%20the%20Fortress/Session%2033-04.webp) ![](../../../assets/images/screenshots/Session%2033%20-%20Blockhouse%20Assault%20Cracking%20the%20Fortress/Session%2033-05.webp) ![](../../../assets/images/screenshots/Session%2033%20-%20Blockhouse%20Assault%20Cracking%20the%20Fortress/Session%2033-06.webp) ![](../../../assets/images/screenshots/Session%2033%20-%20Blockhouse%20Assault%20Cracking%20the%20Fortress/Session%2033-07.webp) ![](../../../assets/images/screenshots/Session%2033%20-%20Blockhouse%20Assault%20Cracking%20the%20Fortress/Session%2033-08.webp) ![](../../../assets/images/screenshots/Session%2033%20-%20Blockhouse%20Assault%20Cracking%20the%20Fortress/Session%2033-09.webp) ![](../../../assets/images/screenshots/Session%2033%20-%20Blockhouse%20Assault%20Cracking%20the%20Fortress/Session%2033-10.webp) ![](../../../assets/images/screenshots/Session%2033%20-%20Blockhouse%20Assault%20Cracking%20the%20Fortress/Session%2033-12.webp) ![](../../../assets/images/screenshots/Session%2033%20-%20Blockhouse%20Assault%20Cracking%20the%20Fortress/Session%2033-13.webp) ![](../../../assets/images/screenshots/Session%2033%20-%20Blockhouse%20Assault%20Cracking%20the%20Fortress/Session%2033-14.webp) ![](../../../assets/images/screenshots/Session%2033%20-%20Blockhouse%20Assault%20Cracking%20the%20Fortress/session-33-blockhouse-assault-cracking-the-fortress-15.webp)
 <!-- session-gallery:end -->
 
 ## Article navigation
 
-**Previous:** [[Session 32- Blockhouse Assault]]  
-**Next:** [[Session 34- Into the Valley of Death]]
+**Previous:** [Session 32- Blockhouse Assault](Session%2032-%20Blockhouse%20Assault.md)  
+**Next:** [Session 34- Into the Valley of Death](Session%2034-%20Into%20the%20Valley%20of%20Death.md)

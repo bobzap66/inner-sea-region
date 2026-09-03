@@ -7,12 +7,12 @@ category_path:
 # Let's See What Happens
 
 
-![[let-s-see-what-happens-image-01.webp]]
+![](../../../assets/images/let-s-see-what-happens-image-01.webp)
 
   
 
-![[let-s-see-what-happens-image-02.webp]]
+![](../../../assets/images/let-s-see-what-happens-image-02.webp)
 
   
 
-![[let-s-see-what-happens-image-03.webp]]
+![](../../../assets/images/let-s-see-what-happens-image-03.webp)

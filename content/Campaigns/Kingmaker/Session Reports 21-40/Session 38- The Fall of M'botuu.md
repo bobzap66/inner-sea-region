@@ -8,10 +8,10 @@ cover: "assets/world-anvil/shared-cover-8a1bfbff37cb.png"
 
 # Session 38: The Fall of M'botuu
 
-![[shared-cover-8a1bfbff37cb.png]]
+![](../../../assets/images/shared-cover-8a1bfbff37cb.png)
 
 > [!side]
-> :   ![[session-38-the-fall-of-m-botuu-29.webp]]
+> :   ![](../../../assets/images/screenshots/Session%2038%20-%20The%20Fall%20of%20M%20Botuu/session-38-the-fall-of-m-botuu-29.webp)
 >
 >
 > ---
@@ -84,10 +84,10 @@ I have recorded his objection.
 
 ## Session Gallery
 
-![[Session 38-01.webp]] ![[Session 38-02.webp]] ![[Session 38-04.webp]] ![[Session 38-05.webp]] ![[Session 38-06.webp]] ![[Session 38-07.webp]] ![[Session 38-08.webp]] ![[Session 38-09.webp]] ![[Session 38-10.webp]] ![[Session 38-11.webp]] ![[Session 38-12.webp]] ![[Session 38-13.webp]] ![[Session 38-14.webp]] ![[Session 38-15.webp]] ![[Session 38-16.webp]] ![[Session 38-17.webp]] ![[Session 38-18.webp]] ![[Session 38-19.webp]] ![[Session 38-20.webp]] ![[Session 38-21.webp]] ![[Session 38-22.webp]] ![[Session 38-23.webp]] ![[Session 38-24.webp]] ![[Session 38-25.webp]] ![[Session 38-26.webp]] ![[Session 38-27.webp]] ![[Session 38-28.webp]] ![[session-38-the-fall-of-m-botuu-29.webp]]
+![](../../../assets/images/screenshots/Session%2038%20-%20The%20Fall%20of%20M%20Botuu/Session%2038-01.webp) ![](../../../assets/images/screenshots/Session%2038%20-%20The%20Fall%20of%20M%20Botuu/Session%2038-02.webp) ![](../../../assets/images/screenshots/Session%2038%20-%20The%20Fall%20of%20M%20Botuu/Session%2038-04.webp) ![](../../../assets/images/screenshots/Session%2038%20-%20The%20Fall%20of%20M%20Botuu/Session%2038-05.webp) ![](../../../assets/images/screenshots/Session%2038%20-%20The%20Fall%20of%20M%20Botuu/Session%2038-06.webp) ![](../../../assets/images/screenshots/Session%2038%20-%20The%20Fall%20of%20M%20Botuu/Session%2038-07.webp) ![](../../../assets/images/screenshots/Session%2038%20-%20The%20Fall%20of%20M%20Botuu/Session%2038-08.webp) ![](../../../assets/images/screenshots/Session%2038%20-%20The%20Fall%20of%20M%20Botuu/Session%2038-09.webp) ![](../../../assets/images/screenshots/Session%2038%20-%20The%20Fall%20of%20M%20Botuu/Session%2038-10.webp) ![](../../../assets/images/screenshots/Session%2038%20-%20The%20Fall%20of%20M%20Botuu/Session%2038-11.webp) ![](../../../assets/images/screenshots/Session%2038%20-%20The%20Fall%20of%20M%20Botuu/Session%2038-12.webp) ![](../../../assets/images/screenshots/Session%2038%20-%20The%20Fall%20of%20M%20Botuu/Session%2038-13.webp) ![](../../../assets/images/screenshots/Session%2038%20-%20The%20Fall%20of%20M%20Botuu/Session%2038-14.webp) ![](../../../assets/images/screenshots/Session%2038%20-%20The%20Fall%20of%20M%20Botuu/Session%2038-15.webp) ![](../../../assets/images/screenshots/Session%2038%20-%20The%20Fall%20of%20M%20Botuu/Session%2038-16.webp) ![](../../../assets/images/screenshots/Session%2038%20-%20The%20Fall%20of%20M%20Botuu/Session%2038-17.webp) ![](../../../assets/images/screenshots/Session%2038%20-%20The%20Fall%20of%20M%20Botuu/Session%2038-18.webp) ![](../../../assets/images/screenshots/Session%2038%20-%20The%20Fall%20of%20M%20Botuu/Session%2038-19.webp) ![](../../../assets/images/screenshots/Session%2038%20-%20The%20Fall%20of%20M%20Botuu/Session%2038-20.webp) ![](../../../assets/images/screenshots/Session%2038%20-%20The%20Fall%20of%20M%20Botuu/Session%2038-21.webp) ![](../../../assets/images/screenshots/Session%2038%20-%20The%20Fall%20of%20M%20Botuu/Session%2038-22.webp) ![](../../../assets/images/screenshots/Session%2038%20-%20The%20Fall%20of%20M%20Botuu/Session%2038-23.webp) ![](../../../assets/images/screenshots/Session%2038%20-%20The%20Fall%20of%20M%20Botuu/Session%2038-24.webp) ![](../../../assets/images/screenshots/Session%2038%20-%20The%20Fall%20of%20M%20Botuu/Session%2038-25.webp) ![](../../../assets/images/screenshots/Session%2038%20-%20The%20Fall%20of%20M%20Botuu/Session%2038-26.webp) ![](../../../assets/images/screenshots/Session%2038%20-%20The%20Fall%20of%20M%20Botuu/Session%2038-27.webp) ![](../../../assets/images/screenshots/Session%2038%20-%20The%20Fall%20of%20M%20Botuu/Session%2038-28.webp) ![](../../../assets/images/screenshots/Session%2038%20-%20The%20Fall%20of%20M%20Botuu/session-38-the-fall-of-m-botuu-29.webp)
 <!-- session-gallery:end -->
 
 ## Article navigation
 
-**Previous:** [[Session 37- A Year of Peace]]  
-**Next:** [[Session 39- The Fall of Talon Peak]]
+**Previous:** [Session 37- A Year of Peace](Session%2037-%20A%20Year%20of%20Peace.md)  
+**Next:** [Session 39- The Fall of Talon Peak](Session%2039-%20The%20Fall%20of%20Talon%20Peak.md)

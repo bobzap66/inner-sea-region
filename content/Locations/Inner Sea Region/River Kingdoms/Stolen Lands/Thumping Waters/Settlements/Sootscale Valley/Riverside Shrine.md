@@ -9,7 +9,7 @@ parent: "[[Sootscale Valley]]"
 ---
 # Riverside Shrine
 
-![[riverside-shrine-portrait.png]]
+![](../../../../../../../assets/images/riverside-shrine-portrait.png)
 
 *Compiled by the College of Letters and Public Record, Free University of Thumping Waters, from visits to Sootscale Valley and conversations with Velka, Chief Kereek, the retired Chief Sootscale, Mek-Mek the Copperhand, Kikki the Reedwhisper, and Old Mother Thruppa*
 

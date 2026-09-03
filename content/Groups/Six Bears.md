@@ -37,7 +37,7 @@ The Six Bears respect ancestral spirits, winter totems, and the strength of gian
 
 ### Recent History (Campaign)
 
-• Scattered & Hunted: In the wake of hard seasons and wandering far from their homeland, a remnant of the Six Bears—only seven young warriors and their shaman-chieftain [[Nilak]]—were discovered in Hooktongue Slough. Exhausted and wounded, they held a ring of ice against waves of undead.
+• Scattered & Hunted: In the wake of hard seasons and wandering far from their homeland, a remnant of the Six Bears—only seven young warriors and their shaman-chieftain [Nilak](../Campaigns/Kingmaker/NPCs/Nilak.md)—were discovered in Hooktongue Slough. Exhausted and wounded, they held a ring of ice against waves of undead.
 • The Ghost’s Claim: The dead pursued them at the behest of a vengeful First World spirit seeking the soul trapped within Amiri’s frost giant blade. The tribe believes yielding that spirit would doom them; fighting earns the ghost’s wrath.
 • Diplomacy Failed: A tense parley with envoys of Thumping Waters collapsed; harsh words were traded, and Nilak led her survivors away to seek safety on their own terms.
 • Status: Near-extinct remnant. Location intentionally obscured. The clan prioritizes survival, burial of the honored dead, and finding a way to placate or banish the hunting spirit.

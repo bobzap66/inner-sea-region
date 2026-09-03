@@ -8,10 +8,10 @@ cover: "assets/world-anvil/shared-cover-110a4fd3e759.png"
 
 # Session 51: Storms on the Western Horizon
 
-![[shared-cover-110a4fd3e759.png]]
+![](../../../assets/images/shared-cover-110a4fd3e759.png)
 
 > [!side]
-> :   ![[session-51-storms-on-the-western-horizon-24.webp]]
+> :   ![](../../../assets/images/screenshots/Session%2051%20-%20Storms%20on%20the%20Western%20Horizon/session-51-storms-on-the-western-horizon-24.webp)
 >
 > ---
 >
@@ -67,7 +67,7 @@ cover: "assets/world-anvil/shared-cover-110a4fd3e759.png"
 >
 > ---
 >
-> ![[session-51-storms-on-the-western-horizon-22.webp]]
+> ![](../../../assets/images/screenshots/Session%2051%20-%20Storms%20on%20the%20Western%20Horizon/session-51-storms-on-the-western-horizon-22.webp)
 >
 > *Paid advertisement. Coverage is subject to inspection, assessment, exclusions, deductibles, and the continued existence of both the insured property and the Thumpington Mutual Assurance Society.*
 >
@@ -97,7 +97,7 @@ A violent and apparently unnatural storm attacked the Tubthumpers during their r
 
 The tempest descended without ordinary warning. Witnesses report that its lightning struck with uncanny precision and that funnels of wind formed around the travelers as though directed by an unseen hand. The Tubthumpers survived and ultimately dispersed the storm, but its creator remains unidentified.
 
-![[session-51-storms-on-the-western-horizon-19.webp]]
+![](../../../assets/images/screenshots/Session%2051%20-%20Storms%20on%20the%20Western%20Horizon/session-51-storms-on-the-western-horizon-19.webp)
 
 *The Tubthumpers endure the unnatural tempest in an artist’s reconstruction of the attack.*
 
@@ -143,7 +143,7 @@ A noble benefactor offers to finance a new monument or public park.
 
 Following the destruction of the invading force near Willowfen, the Tubthumpers returned to the battlefield and began tracing the mammoths’ route westward.
 
-![[session-51-storms-on-the-western-horizon-20.webp]]
+![](../../../assets/images/screenshots/Session%2051%20-%20Storms%20on%20the%20Western%20Horizon/session-51-storms-on-the-western-horizon-20.webp)
 
 *Mammoth tracks cross the ancient stone bridge used by the invading army.*
 
@@ -195,7 +195,7 @@ The final form and location of the gift remain under consideration. Proposals sh
 
 *By Tobin Bramblefoot, Games and Society Correspondent*
 
-![[session-51-storms-on-the-western-horizon-21.webp]]
+![](../../../assets/images/screenshots/Session%2051%20-%20Storms%20on%20the%20Western%20Horizon/session-51-storms-on-the-western-horizon-21.webp)
 
 *Windchaser shares news gathered during his travels across the western country.*
 
@@ -241,10 +241,10 @@ The Lantern and Ledger • Erastus 14 Edition • Printed in Thumpington
 
 ## Session Gallery
 
-![[Session 51-01.webp]] ![[Session 51-02.webp]] ![[Session 51-03.webp]] ![[Session 51-04.webp]] ![[Session 51-05.webp]] ![[Session 51-06.webp]] ![[Session 51-07.webp]] ![[Session 51-08.webp]] ![[Session 51-09.webp]] ![[Session 51-10.webp]] ![[Session 51-11.webp]] ![[Session 51-12.webp]] ![[Session 51-13.webp]] ![[Session 51-14.webp]] ![[Session 51-15.webp]] ![[Session 51-16.webp]] ![[Session 51-17.webp]] ![[Session 51-18.webp]] ![[session-51-storms-on-the-western-horizon-19.webp]] ![[session-51-storms-on-the-western-horizon-20.webp]] ![[session-51-storms-on-the-western-horizon-21.webp]] ![[session-51-storms-on-the-western-horizon-22.webp]] ![[Session 51-23.webp]] ![[session-51-storms-on-the-western-horizon-24.webp]]
+![](../../../assets/images/screenshots/Session%2051%20-%20Storms%20on%20the%20Western%20Horizon/Session%2051-01.webp) ![](../../../assets/images/screenshots/Session%2051%20-%20Storms%20on%20the%20Western%20Horizon/Session%2051-02.webp) ![](../../../assets/images/screenshots/Session%2051%20-%20Storms%20on%20the%20Western%20Horizon/Session%2051-03.webp) ![](../../../assets/images/screenshots/Session%2051%20-%20Storms%20on%20the%20Western%20Horizon/Session%2051-04.webp) ![](../../../assets/images/screenshots/Session%2051%20-%20Storms%20on%20the%20Western%20Horizon/Session%2051-05.webp) ![](../../../assets/images/screenshots/Session%2051%20-%20Storms%20on%20the%20Western%20Horizon/Session%2051-06.webp) ![](../../../assets/images/screenshots/Session%2051%20-%20Storms%20on%20the%20Western%20Horizon/Session%2051-07.webp) ![](../../../assets/images/screenshots/Session%2051%20-%20Storms%20on%20the%20Western%20Horizon/Session%2051-08.webp) ![](../../../assets/images/screenshots/Session%2051%20-%20Storms%20on%20the%20Western%20Horizon/Session%2051-09.webp) ![](../../../assets/images/screenshots/Session%2051%20-%20Storms%20on%20the%20Western%20Horizon/Session%2051-10.webp) ![](../../../assets/images/screenshots/Session%2051%20-%20Storms%20on%20the%20Western%20Horizon/Session%2051-11.webp) ![](../../../assets/images/screenshots/Session%2051%20-%20Storms%20on%20the%20Western%20Horizon/Session%2051-12.webp) ![](../../../assets/images/screenshots/Session%2051%20-%20Storms%20on%20the%20Western%20Horizon/Session%2051-13.webp) ![](../../../assets/images/screenshots/Session%2051%20-%20Storms%20on%20the%20Western%20Horizon/Session%2051-14.webp) ![](../../../assets/images/screenshots/Session%2051%20-%20Storms%20on%20the%20Western%20Horizon/Session%2051-15.webp) ![](../../../assets/images/screenshots/Session%2051%20-%20Storms%20on%20the%20Western%20Horizon/Session%2051-16.webp) ![](../../../assets/images/screenshots/Session%2051%20-%20Storms%20on%20the%20Western%20Horizon/Session%2051-17.webp) ![](../../../assets/images/screenshots/Session%2051%20-%20Storms%20on%20the%20Western%20Horizon/Session%2051-18.webp) ![](../../../assets/images/screenshots/Session%2051%20-%20Storms%20on%20the%20Western%20Horizon/session-51-storms-on-the-western-horizon-19.webp) ![](../../../assets/images/screenshots/Session%2051%20-%20Storms%20on%20the%20Western%20Horizon/session-51-storms-on-the-western-horizon-20.webp) ![](../../../assets/images/screenshots/Session%2051%20-%20Storms%20on%20the%20Western%20Horizon/session-51-storms-on-the-western-horizon-21.webp) ![](../../../assets/images/screenshots/Session%2051%20-%20Storms%20on%20the%20Western%20Horizon/session-51-storms-on-the-western-horizon-22.webp) ![](../../../assets/images/screenshots/Session%2051%20-%20Storms%20on%20the%20Western%20Horizon/Session%2051-23.webp) ![](../../../assets/images/screenshots/Session%2051%20-%20Storms%20on%20the%20Western%20Horizon/session-51-storms-on-the-western-horizon-24.webp)
 <!-- session-gallery:end -->
 
 ## Article navigation
 
-**Previous:** [[Session 50- Silver Overall, Steel at the Border]]  
-**Next:** [[Session 52- The Abbey of Broken Bells]]
+**Previous:** [Session 50- Silver Overall, Steel at the Border](Session%2050-%20Silver%20Overall%2C%20Steel%20at%20the%20Border.md)  
+**Next:** [Session 52- The Abbey of Broken Bells](Session%2052-%20The%20Abbey%20of%20Broken%20Bells.md)

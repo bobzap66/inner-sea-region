@@ -9,16 +9,16 @@ flag_organization: "[[ministry-of-the-interior-flag.png]]"
 
 # Ministry of the Interior
 
-![[shared-cover-48fb79abc6f1.png]]
+![](../../../../../../assets/images/shared-cover-48fb79abc6f1.png)
 
 *An institutional profile maintained by the Office of Public Record*
 
-The Ministry of the Interior manages the physical growth and civil administration of the Republic of Thumping Waters. It coordinates settlement development, public works, roads, surveys, governors, frontier administration, and the practical relationship between the capital and communities spread across the [[Stolen Lands]].
+The Ministry of the Interior manages the physical growth and civil administration of the Republic of Thumping Waters. It coordinates settlement development, public works, roads, surveys, governors, frontier administration, and the practical relationship between the capital and communities spread across the [Stolen Lands](../../Stolen%20Lands.md).
 
-Antson “[[Ant]]” Crazyfoot currently leads the ministry. [[Seamus]] held the office on the founding council before the two ministers exchanged responsibilities as the Republic's needs and their duties changed.
+Antson “[Ant](../../../../../../Campaigns/Kingmaker/Characters/Ant.md)” Crazyfoot currently leads the ministry. [Seamus](../../../../../../Campaigns/Kingmaker/Characters/Seamus.md) held the office on the founding council before the two ministers exchanged responsibilities as the Republic's needs and their duties changed.
 
 > [!profile] At a Glance
-> ![[assets/images/local-library/assets/portraits/ruling-council/Antson Crazyfoot - Minister of the Interior v2.png|220]]
+> ![](../../../../../../assets/images/local-library/assets/portraits/ruling-council/Antson%20Crazyfoot%20-%20Minister%20of%20the%20Interior%20v2.png)
 >
 > **Current Minister:** Antson “Ant” Crazyfoot
 >
@@ -26,7 +26,7 @@ Antson “[[Ant]]” Crazyfoot currently leads the ministry. [[Seamus]] held the
 >
 > **Charter Office:** Viceroy
 >
-> **Headquarters:** [[Thumpington]]
+> **Headquarters:** [Thumpington](../Settlements/Thumpington/Thumpington.md)
 >
 > **Primary Responsibilities:** Settlements, governors, public works, roads, bridges, surveys, land administration, and frontier coordination
 
@@ -68,7 +68,7 @@ The ministry began when most of the Republic existed only as exploration notes a
 
 Antson Crazyfoot later moved from Intelligence to Interior while Seamus assumed responsibility for Intelligence. The exchange placed Ant's extensive field experience, scouting, and knowledge of the Republic's terrain at the center of settlement and infrastructure planning.
 
-The ministry's responsibilities expanded with every incorporated community. [[Sootscale Valley]], [[Greengripe]], [[Longtail Island]], [[Varnhold]], [[Fort Drelev]], [[Tok-Nikrat]], and the Nomen territories each required different arrangements. The resulting system is less uniform than a planner might prefer and considerably more durable than forcing every community into one model.
+The ministry's responsibilities expanded with every incorporated community. [Sootscale Valley](../Settlements/Sootscale%20Valley/Sootscale%20Valley.md), [Greengripe](../Settlements/Greengripe/Greengripe.md), [Longtail Island](../Settlements/Longtail%20Island/Longtail%20Island.md), [Varnhold](../Settlements/Varnhold/Varnhold.md), [Fort Drelev](../Settlements/Fort%20Drelev/Fort%20Drelev.md), [Tok-Nikrat](../Settlements/Tok-Nikrat/Tok-Nikrat.md), and the Nomen territories each required different arrangements. The resulting system is less uniform than a planner might prefer and considerably more durable than forcing every community into one model.
 
 ### The Minister
 

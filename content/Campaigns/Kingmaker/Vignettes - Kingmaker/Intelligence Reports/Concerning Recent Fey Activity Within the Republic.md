@@ -8,7 +8,7 @@ cover: "assets/world-anvil/shared-cover-ee82cf8c9a07.png"
 
 # Concerning Recent Fey Activity Within the Republic
 
-![[shared-cover-ee82cf8c9a07.png]]
+![](../../../../assets/images/shared-cover-ee82cf8c9a07.png)
 
 ### Supplemental Intelligence Report
 

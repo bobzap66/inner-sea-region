@@ -8,10 +8,10 @@ cover: "assets/world-anvil/shared-cover-32ff100f6011.png"
 
 # Morlibint’s Dossier: On the So-Called Cult of the Canker
 
-![[shared-cover-32ff100f6011.png]]
+![](../../../../assets/images/shared-cover-32ff100f6011.png)
 
 > [!side]
-> :   ![[morlibints-dossier-on-the-so-called-cult-of-the-canker-image-01.jpeg]]
+> :   ![](../../../../assets/images/morlibints-dossier-on-the-so-called-cult-of-the-canker-image-01.jpeg)
 >
 >     by ChatGPT
 

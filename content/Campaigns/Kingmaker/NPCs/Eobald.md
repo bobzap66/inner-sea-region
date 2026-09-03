@@ -9,15 +9,15 @@ portrait: "assets/world-anvil/eobald-portrait.png"
 
 # Eobald
 
-![[eobald-portrait.png]]
+![](../../../assets/images/eobald-portrait.png)
 
-*Compiled by the College of Letters and Public Record, [[Free University of Thumping Waters]], with archival assistance from the [[Ministry of Communication]] and interviews with Eobald and [[Linzi]]*
+*Compiled by the College of Letters and Public Record, [Free University of Thumping Waters](../../../Locations/Inner%20Sea%20Region/River%20Kingdoms/Stolen%20Lands/Thumping%20Waters/Settlements/Thumpington/Free%20University%20of%20Thumping%20Waters.md), with archival assistance from the [Ministry of Communication](../../../Locations/Inner%20Sea%20Region/River%20Kingdoms/Stolen%20Lands/Thumping%20Waters/Ruling%20Council/Ministry%20of%20Communication.md) and interviews with Eobald and [Linzi](Linzi.md)*
 
 > He had lost his spellbook and very nearly his life, yet before we reached home he was already discussing replacement type, corrected tolerances, and all the errors he expected to find in my designs. I have never been so relieved to be criticized by a teacher.
 >
 > — Linzi
 
-Eobald is a human wizard, educator, performer, and printing expert originally from [[Pitax]]. Once one of Linzi's teachers, he escaped King Castruccio Irovetti's increasingly restrictive city as part of the same secret caravan carrying the final components for [[Thumpington]]'s printing press. The journey nearly ended with his murder by the Jaggedbriar Coven. Instead, Eobald was rescued by the Tubthumpers and helped establish the machinery that would later print the *Lantern and Ledger*.
+Eobald is a human wizard, educator, performer, and printing expert originally from [Pitax](../../../Locations/Inner%20Sea%20Region/River%20Kingdoms/Stolen%20Lands/Thumping%20Waters/Settlements/Pitax/Pitax.md). Once one of Linzi's teachers, he escaped King Castruccio Irovetti's increasingly restrictive city as part of the same secret caravan carrying the final components for [Thumpington](../../../Locations/Inner%20Sea%20Region/River%20Kingdoms/Stolen%20Lands/Thumping%20Waters/Settlements/Thumpington/Thumpington.md)'s printing press. The journey nearly ended with his murder by the Jaggedbriar Coven. Instead, Eobald was rescued by the Tubthumpers and helped establish the machinery that would later print the *Lantern and Ledger*.
 
 In the years since, Eobald has worked as a theatrical director, adviser on Pitaxian affairs, teacher of rhetoric and performance, and founding lecturer at the Free University of Thumping Waters. His career joins several institutions that appear separate until someone must explain an idea to the public: the classroom, the stage, the archive, and the press.
 
@@ -69,7 +69,7 @@ Under King Irovetti, Pitax's artistic and educational institutions existed benea
 
 By the time Linzi began seeking the machinery and expertise required for a national printing press, she had heard that Eobald wanted to leave Pitax. She contacted him privately and hired him to accompany the press shipment. The caravan was routed through Pitax so he could be smuggled out with the final components.
 
-Eobald communicated with Linzi through *dream message* spells while the caravan combined river ferries and overland roads on its journey toward Thumpington. The messages allowed him to report progress without relying upon correspondence likely to attract attention. They stopped after the caravan entered the [[Locations/Inner Sea Region/River Kingdoms/Stolen Lands/Greenbelt/Narlmarches|Narlmarches]].
+Eobald communicated with Linzi through *dream message* spells while the caravan combined river ferries and overland roads on its journey toward Thumpington. The messages allowed him to report progress without relying upon correspondence likely to attract attention. They stopped after the caravan entered the [Narlmarches](../../../Locations/Inner%20Sea%20Region/River%20Kingdoms/Stolen%20Lands/Greenbelt/Narlmarches.md).
 
 At the time, Linzi had not told the rulers of Thumping Waters that she had diverted national funds to purchase the press. Eobald therefore became both the expert upon whom her plan depended and a missing person she could not ask the government to find without revealing what she had done.
 

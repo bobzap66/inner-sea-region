@@ -8,7 +8,7 @@ portrait: "assets/world-anvil/bokken-portrait.webp"
 
 # Bokken
 
-![[bokken-portrait.webp]]
+![](../../../assets/images/bokken-portrait.webp)
 
 *Eccentric Hermit · Alchemist of the Greenbelt · Reluctant Ally*
 

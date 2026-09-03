@@ -8,7 +8,7 @@ portrait: "assets/world-anvil/stas-portrait.jpeg"
 
 # Stas
 
-![[stas-portrait.jpeg]]
+![](../../../assets/images/stas-portrait.jpeg)
 
 *Simple Logger · Persistent Storyteller · Hodag (Almost) Slayer*
 

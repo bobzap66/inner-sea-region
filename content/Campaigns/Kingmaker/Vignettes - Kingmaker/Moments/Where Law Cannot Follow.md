@@ -8,7 +8,7 @@ category_path:
 
 
 > [!side]
-> :   ![[where-law-cannot-follow-image-01.png]]
+> :   ![](../../../../assets/images/where-law-cannot-follow-image-01.png)
 
 The fire was kept low, more habit than necessity. Amiri had learned long ago that a bright flame drew attention, and attention had a way of turning into trouble. She sat with her back to a weathered stone, watching embers settle and shift, her hands resting idle in her lap. The place beside her—where a blade should have been—remained empty, and her gaze drifted there more often than she cared to admit.
 

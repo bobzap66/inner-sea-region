@@ -8,10 +8,10 @@ cover: "assets/world-anvil/shared-cover-110a4fd3e759.png"
 
 # Session 53: Of Blessed Waters and Buried Devils
 
-![[shared-cover-110a4fd3e759.png]]
+![](../../../assets/images/shared-cover-110a4fd3e759.png)
 
 > [!side]
-> :   ![[session-53-of-blessed-waters-and-buried-devils-28.webp]]
+> :   ![](../../../assets/images/screenshots/Session%2053%20-%20Of%20Blessed%20Waters%20and%20Buried%20Devils/session-53-of-blessed-waters-and-buried-devils-28.webp)
 >
 > ---
 >
@@ -63,7 +63,7 @@ cover: "assets/world-anvil/shared-cover-110a4fd3e759.png"
 >
 > ---
 >
-> ![[session-53-of-blessed-waters-and-buried-devils-29.webp]]
+> ![](../../../assets/images/screenshots/Session%2053%20-%20Of%20Blessed%20Waters%20and%20Buried%20Devils/session-53-of-blessed-waters-and-buried-devils-29.webp)
 >
 > #### Oleg’s Trading Post
 >
@@ -87,19 +87,19 @@ cover: "assets/world-anvil/shared-cover-110a4fd3e759.png"
 
 *News, Notices, and the Public Record of Thumping Waters*
 
-Arodus 12, 4714 AR • Published in [[Thumpington]] • [[Linzi]], Editor • Mara Venn, Managing Editor • Price 1 cp
+Arodus 12, 4714 AR • Published in [Thumpington](../../../Locations/Inner%20Sea%20Region/River%20Kingdoms/Stolen%20Lands/Thumping%20Waters/Settlements/Thumpington/Thumpington.md) • [Linzi](../NPCs/Linzi.md), Editor • Mara Venn, Managing Editor • Price 1 cp
 
 ---
 
-## OLD SHARPTOOTH SLAIN BENEATH [[Sootscale Valley]]
+## OLD SHARPTOOTH SLAIN BENEATH [Sootscale Valley](../../../Locations/Inner%20Sea%20Region/River%20Kingdoms/Stolen%20Lands/Thumping%20Waters/Settlements/Sootscale%20Valley/Sootscale%20Valley.md)
 
-*A childhood terror proves terribly real—and finds [[Velka]] waiting for him.*
+*A childhood terror proves terribly real—and finds [Velka](../Characters/Velka/Velka.md) waiting for him.*
 
 *By Sella Copperclaw, Civic Reporter • Historical reporting by Linzi*
 
 ---
 
-The creature worshipped for generations as Old Sharptooth is dead. The Tubthumpers tracked the fiend into the sewers beneath [[Sootscale Valley]] and destroyed him after a battle that repeatedly brought several members of the company to the edge of death.
+The creature worshipped for generations as Old Sharptooth is dead. The Tubthumpers tracked the fiend into the sewers beneath [Sootscale Valley](../../../Locations/Inner%20Sea%20Region/River%20Kingdoms/Stolen%20Lands/Thumping%20Waters/Settlements/Sootscale%20Valley/Sootscale%20Valley.md) and destroyed him after a battle that repeatedly brought several members of the company to the edge of death.
 
 Old Sharptooth was no winged kobold ancestor, as many Sootscales were once taught. He was Zozraael, a horned devil who discovered that a cult had grown around his image and came to cultivate it for himself.
 
@@ -121,7 +121,7 @@ Three kobold warpriests who fought beside Zozraael survived the battle and are n
 
 **From False Idol to Living Devil**
 
-How [[Tartuccio]] turned an old Sootscale fear into an instrument of sacrifice and control.
+How [Tartuccio](../NPCs/Tartuccio.md) turned an old Sootscale fear into an instrument of sacrifice and control.
 
 **Victory at a Cost**
 
@@ -147,11 +147,11 @@ The republic has recruited four new formations as the War of the River Kings con
 
 Existing forces also received additional magical arms and armor. Military officials declined to publish a complete inventory, which is reassuring evidence that someone in government remembers King Irovetti can read.
 
-![[session-53-of-blessed-waters-and-buried-devils-25.webp]]
+![](../../../assets/images/screenshots/Session%2053%20-%20Of%20Blessed%20Waters%20and%20Buried%20Devils/session-53-of-blessed-waters-and-buried-devils-25.webp)
 
 *New formations muster beneath the banners of Thumping Waters before joining the republic’s defenses.*
 
-Three additional territories near [[Locations/Inner Sea Region/River Kingdoms/Stolen Lands/Hooktongue Slough/Lake Hooktongue|Lake Hooktongue]] were brought under the republic’s administration. Food gathering produced uneven results, but current stores remain sufficient.
+Three additional territories near [Lake Hooktongue](../../../Locations/Inner%20Sea%20Region/River%20Kingdoms/Stolen%20Lands/Hooktongue%20Slough/Lake%20Hooktongue.md) were brought under the republic’s administration. Food gathering produced uneven results, but current stores remain sufficient.
 
 In Thumpington, construction of a new hospital was completed with extraordinary efficiency and required only half the lumber originally set aside. The unused timber remains public property despite several convincing private theories regarding porches.
 
@@ -163,17 +163,17 @@ In Thumpington, construction of a new hospital was completed with extraordinary 
 
 The story of Old Sharptooth began long before Zozraael entered Sootscale Valley. Generations of kobolds revered a small ivory figure as a mighty winged kobold. They feared his curses, offered him worship, and preserved his image without knowing it depicted a horned devil.
 
-That fear became a weapon when the gnome Tartuccio entered the caverns disguised as a purple kobold called [[Tartuk]]. He did not create the old faith. He found it waiting for him.
+That fear became a weapon when the gnome Tartuccio entered the caverns disguised as a purple kobold called [Tartuk](../NPCs/Tartuk.md). He did not create the old faith. He found it waiting for him.
 
 Tartuk declared himself the tribe’s spiritual leader. Illusions, theatrical gestures, strange components, and a bubbling cauldron supplied the appearance of divine power. Kobolds who questioned him became “bad kobolds” and were sacrificed so that Old Sharptooth would not curse the tribe.
 
-When mitflits from [[Locations/Inner Sea Region/River Kingdoms/Stolen Lands/Greenbelt/Kamelands/The Old Sycamore|The Old Sycamore]] repeatedly stole the idol, Tartuk called the war a sacred test. He turned every loss into proof that the Sootscales needed him and every frightened objection into another reason to obey.
+When mitflits from [The Old Sycamore](../../../Locations/Inner%20Sea%20Region/River%20Kingdoms/Stolen%20Lands/Greenbelt/Kamelands/The%20Old%20Sycamore.md) repeatedly stole the idol, Tartuk called the war a sacred test. He turned every loss into proof that the Sootscales needed him and every frightened objection into another reason to obey.
 
-![[session-53-of-blessed-waters-and-buried-devils-26.webp]]
+![](../../../assets/images/screenshots/Session%2053%20-%20Of%20Blessed%20Waters%20and%20Buried%20Devils/session-53-of-blessed-waters-and-buried-devils-26.webp)
 
 *Tartuk uses illusion, ritual, and the image of Old Sharptooth to command the frightened Sootscales.*
 
-[[Chief Sootscale]] finally broke that power by breaking the idol itself. He shattered the statuette and led his people against Tartuk. When the false priest died, his body returned to that of Tartuccio, revealing that the purple kobold had never existed.
+[Chief Sootscale](../NPCs/Chief%20Sootscale.md) finally broke that power by breaking the idol itself. He shattered the statuette and led his people against Tartuk. When the false priest died, his body returned to that of Tartuccio, revealing that the purple kobold had never existed.
 
 The idol was broken and the deceiver exposed, but neither act could erase the fear he had cultivated. Nor could they erase every grievance born as Sootscale Valley changed from an isolated tribe into part of a larger republic.
 
@@ -185,9 +185,9 @@ Zozraael eventually learned that worshippers were invoking his image. He entered
 
 *By Darya Holt, Traveling Correspondent*
 
-[[Fitzroy]] and Antson Crazyfoot spent two days following signs of the cult through the sewers beneath Sootscale Valley. The trail ended in cramped tunnels where Zozraael had gathered three kobold warpriests and promised a return to the old ways.
+[Fitzroy](../Characters/Fitzroy.md) and Antson Crazyfoot spent two days following signs of the cult through the sewers beneath Sootscale Valley. The trail ended in cramped tunnels where Zozraael had gathered three kobold warpriests and promised a return to the old ways.
 
-The cultists fought with a fury sharpened by divine magic. Repeated waves of harmful energy tore through the Tubthumpers, bringing Ally and [[Seamus]] down more than once. Velka’s regenerative magic kept Seamus alive through injuries that should have ended the fight for him, while Ally cauterized terrible wounds and continued casting.
+The cultists fought with a fury sharpened by divine magic. Repeated waves of harmful energy tore through the Tubthumpers, bringing Ally and [Seamus](../Characters/Seamus.md) down more than once. Velka’s regenerative magic kept Seamus alive through injuries that should have ended the fight for him, while Ally cauterized terrible wounds and continued casting.
 
 Fitzroy held the company together behind shield and spell. Ally’s whirling saw of magical force cut into the cult’s defenses, and Seamus drove a devastating finisher through Zozraael when the opening finally came.
 
@@ -199,15 +199,15 @@ The command was not elaborate. After generations of elaborate lies, perhaps it d
 
 ---
 
-### [[Velka]] REMAINS IN SOOTSCALE VALLEY
+### [Velka](../Characters/Velka/Velka.md) REMAINS IN SOOTSCALE VALLEY
 
 *By Sella Copperclaw, Civic Reporter*
 
 After the prisoners were secured, Velka announced that she would remain in Sootscale Valley rather than continue traveling with the Tubthumpers.
 
-The cult had not grown in a foreign ruin or an enemy capital. It had grown among her own people, feeding upon old wounds that victory over Zozraael alone could not mend. Velka concluded that [[Hanspur]]’s work now called her home.
+The cult had not grown in a foreign ruin or an enemy capital. It had grown among her own people, feeding upon old wounds that victory over Zozraael alone could not mend. Velka concluded that [Hanspur](../../../Rules/Deities/Hanspur.md)’s work now called her home.
 
-![[session-53-of-blessed-waters-and-buried-devils-27.webp]]
+![](../../../assets/images/screenshots/Session%2053%20-%20Of%20Blessed%20Waters%20and%20Buried%20Devils/session-53-of-blessed-waters-and-buried-devils-27.webp)
 
 *Velka turns from the adventuring road toward the difficult work awaiting her in Sootscale Valley.*
 
@@ -237,10 +237,10 @@ The Lantern and Ledger • Arodus 12 Edition • Printed in Thumpington
 
 ## Session Gallery
 
-![[Session 53-01.webp]] ![[Session 53-02.webp]] ![[Session 53-03.webp]] ![[Session 53-04.webp]] ![[Session 53-05.webp]] ![[Session 53-06.webp]] ![[Session 53-07.webp]] ![[Session 53-08.webp]] ![[Session 53-09.webp]] ![[Session 53-10.webp]] ![[Session 53-11.webp]] ![[Session 53-12.webp]] ![[Session 53-13.webp]] ![[Session 53-14.webp]] ![[Session 53-15.webp]] ![[Session 53-16.webp]] ![[Session 53-17.webp]] ![[Session 53-18.webp]] ![[Session 53-19.webp]] ![[Session 53-20.webp]] ![[Session 53-21.webp]] ![[Session 53-22.webp]] ![[Session 53-23.webp]] ![[Session 53-24.webp]] ![[session-53-of-blessed-waters-and-buried-devils-25.webp]] ![[session-53-of-blessed-waters-and-buried-devils-26.webp]] ![[session-53-of-blessed-waters-and-buried-devils-27.webp]] ![[session-53-of-blessed-waters-and-buried-devils-28.webp]] ![[session-53-of-blessed-waters-and-buried-devils-29.webp]]
+![](../../../assets/images/screenshots/Session%2053%20-%20Of%20Blessed%20Waters%20and%20Buried%20Devils/Session%2053-01.webp) ![](../../../assets/images/screenshots/Session%2053%20-%20Of%20Blessed%20Waters%20and%20Buried%20Devils/Session%2053-02.webp) ![](../../../assets/images/screenshots/Session%2053%20-%20Of%20Blessed%20Waters%20and%20Buried%20Devils/Session%2053-03.webp) ![](../../../assets/images/screenshots/Session%2053%20-%20Of%20Blessed%20Waters%20and%20Buried%20Devils/Session%2053-04.webp) ![](../../../assets/images/screenshots/Session%2053%20-%20Of%20Blessed%20Waters%20and%20Buried%20Devils/Session%2053-05.webp) ![](../../../assets/images/screenshots/Session%2053%20-%20Of%20Blessed%20Waters%20and%20Buried%20Devils/Session%2053-06.webp) ![](../../../assets/images/screenshots/Session%2053%20-%20Of%20Blessed%20Waters%20and%20Buried%20Devils/Session%2053-07.webp) ![](../../../assets/images/screenshots/Session%2053%20-%20Of%20Blessed%20Waters%20and%20Buried%20Devils/Session%2053-08.webp) ![](../../../assets/images/screenshots/Session%2053%20-%20Of%20Blessed%20Waters%20and%20Buried%20Devils/Session%2053-09.webp) ![](../../../assets/images/screenshots/Session%2053%20-%20Of%20Blessed%20Waters%20and%20Buried%20Devils/Session%2053-10.webp) ![](../../../assets/images/screenshots/Session%2053%20-%20Of%20Blessed%20Waters%20and%20Buried%20Devils/Session%2053-11.webp) ![](../../../assets/images/screenshots/Session%2053%20-%20Of%20Blessed%20Waters%20and%20Buried%20Devils/Session%2053-12.webp) ![](../../../assets/images/screenshots/Session%2053%20-%20Of%20Blessed%20Waters%20and%20Buried%20Devils/Session%2053-13.webp) ![](../../../assets/images/screenshots/Session%2053%20-%20Of%20Blessed%20Waters%20and%20Buried%20Devils/Session%2053-14.webp) ![](../../../assets/images/screenshots/Session%2053%20-%20Of%20Blessed%20Waters%20and%20Buried%20Devils/Session%2053-15.webp) ![](../../../assets/images/screenshots/Session%2053%20-%20Of%20Blessed%20Waters%20and%20Buried%20Devils/Session%2053-16.webp) ![](../../../assets/images/screenshots/Session%2053%20-%20Of%20Blessed%20Waters%20and%20Buried%20Devils/Session%2053-17.webp) ![](../../../assets/images/screenshots/Session%2053%20-%20Of%20Blessed%20Waters%20and%20Buried%20Devils/Session%2053-18.webp) ![](../../../assets/images/screenshots/Session%2053%20-%20Of%20Blessed%20Waters%20and%20Buried%20Devils/Session%2053-19.webp) ![](../../../assets/images/screenshots/Session%2053%20-%20Of%20Blessed%20Waters%20and%20Buried%20Devils/Session%2053-20.webp) ![](../../../assets/images/screenshots/Session%2053%20-%20Of%20Blessed%20Waters%20and%20Buried%20Devils/Session%2053-21.webp) ![](../../../assets/images/screenshots/Session%2053%20-%20Of%20Blessed%20Waters%20and%20Buried%20Devils/Session%2053-22.webp) ![](../../../assets/images/screenshots/Session%2053%20-%20Of%20Blessed%20Waters%20and%20Buried%20Devils/Session%2053-23.webp) ![](../../../assets/images/screenshots/Session%2053%20-%20Of%20Blessed%20Waters%20and%20Buried%20Devils/Session%2053-24.webp) ![](../../../assets/images/screenshots/Session%2053%20-%20Of%20Blessed%20Waters%20and%20Buried%20Devils/session-53-of-blessed-waters-and-buried-devils-25.webp) ![](../../../assets/images/screenshots/Session%2053%20-%20Of%20Blessed%20Waters%20and%20Buried%20Devils/session-53-of-blessed-waters-and-buried-devils-26.webp) ![](../../../assets/images/screenshots/Session%2053%20-%20Of%20Blessed%20Waters%20and%20Buried%20Devils/session-53-of-blessed-waters-and-buried-devils-27.webp) ![](../../../assets/images/screenshots/Session%2053%20-%20Of%20Blessed%20Waters%20and%20Buried%20Devils/session-53-of-blessed-waters-and-buried-devils-28.webp) ![](../../../assets/images/screenshots/Session%2053%20-%20Of%20Blessed%20Waters%20and%20Buried%20Devils/session-53-of-blessed-waters-and-buried-devils-29.webp)
 <!-- session-gallery:end -->
 
 ## Article navigation
 
-**Previous:** [[Session 52- The Abbey of Broken Bells]]  
-**Next:** [[Session 54- The War Heats Up]]
+**Previous:** [Session 52- The Abbey of Broken Bells](Session%2052-%20The%20Abbey%20of%20Broken%20Bells.md)  
+**Next:** [Session 54- The War Heats Up](Session%2054-%20The%20War%20Heats%20Up.md)

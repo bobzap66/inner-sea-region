@@ -9,7 +9,7 @@ parent: "[[Varnhold]]"
 ---
 # Delver's Brewery
 
-![[delver-s-brewery-portrait.png]]
+![](../../../../../../../assets/images/delver-s-brewery-portrait.png)
 
 *Compiled by the College of Letters and Public Record, Free University of Thumping Waters, from Varnhold's municipal gazetteer, the Tubthumpers' expedition inventory, brewery ledgers, and interviews with Durnan Stoutbeard and Velka of the Sootscale*
 

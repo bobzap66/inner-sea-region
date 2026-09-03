@@ -8,10 +8,10 @@ cover: "assets/world-anvil/shared-cover-32ff100f6011.png"
 
 # Morlibint’s Dossier: Final Assessment
 
-![[shared-cover-32ff100f6011.png]]
+![](../../../../assets/images/shared-cover-32ff100f6011.png)
 
 > [!side]
-> :   ![[morlibints-dossier-final-assessment-image-01.jpeg]]
+> :   ![](../../../../assets/images/morlibints-dossier-final-assessment-image-01.jpeg)
 >
 >     by ChatGPT
 

@@ -8,7 +8,7 @@ portrait: "assets/world-anvil/kiri-steelpaws-portrait.jpeg"
 
 # Kiri Steelpaws
 
-![[kiri-steelpaws-portrait.jpeg]]
+![](../../../assets/images/kiri-steelpaws-portrait.jpeg)
 
 Kiri Steelpaws is a shoony thaumaturge whose curiosity carried her from a close-knit village in Isger into the depths beneath Otari. Cheerful, stubborn, and intensely observant, she approached the strange with an investigator's fascination even when common sense suggested leaving it alone. The Abomination Vaults rewarded that curiosity with scars, repeated brushes with death, and eventually a transformation into a dhampir, forcing Kiri to reconcile the warm, communal instincts of a shoony with a body increasingly associated with monsters.
 

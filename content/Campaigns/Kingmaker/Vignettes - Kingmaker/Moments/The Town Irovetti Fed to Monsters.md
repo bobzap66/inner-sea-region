@@ -7,11 +7,11 @@ cover: "assets/world-anvil/shared-cover-8a1bfbff37cb.png"
 
 # The Town Irovetti Fed to Monsters
 
-![[shared-cover-8a1bfbff37cb.png]]
+![](../../../../assets/images/shared-cover-8a1bfbff37cb.png)
 
 # THE TOWN IROVETTI FED TO MONSTERS
 
-![[the-town-irovetti-fed-to-monsters-littletown-4.png]]
+![](../../../../assets/images/the-town-irovetti-fed-to-monsters-littletown-4.png)
 
 There are no bodies in Littletown.
 

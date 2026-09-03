@@ -8,11 +8,11 @@ portrait: "assets/world-anvil/oleg-leveton-portrait.png"
 
 # Oleg Leveton
 
-![[oleg-leveton-portrait.png]]
+![](../../../assets/images/oleg-leveton-portrait.png)
 
 ### Oleg Leveton
 
-Founder of [[Olegton]], Master Craftsman, Influential Citizen of Thumping Waters
+Founder of [Olegton](../../../Locations/Inner%20Sea%20Region/River%20Kingdoms/Stolen%20Lands/Thumping%20Waters/Settlements/Olegton/Olegton.md), Master Craftsman, Influential Citizen of Thumping Waters
 
 #### Appearance
 
@@ -20,11 +20,11 @@ A broad-shouldered man with a thick red beard and a craftsman’s build, Oleg fa
 
 #### History
 
-The son of a carpenter, Oleg Leveton grew up in a small village before leaving for [[Restov]], determined to make his fortune. His pride and refusal to flatter the nobility doomed him to failure in the city, where gentry cheated him without consequence. Disillusioned and sullen, he feared he was wasting his life.
+The son of a carpenter, Oleg Leveton grew up in a small village before leaving for [Restov](../../../Locations/Inner%20Sea%20Region/Brevoy/Restov.md), determined to make his fortune. His pride and refusal to flatter the nobility doomed him to failure in the city, where gentry cheated him without consequence. Disillusioned and sullen, he feared he was wasting his life.
 
-Fate shifted when [[Svetlana Leveton]], the daughter of a merchant house, sought his craftsmanship to secure a trade deal. His work not only secured the bargain but also won her admiration and, eventually, her love. The two married, and together they sought a new life in the [[Stolen Lands]], where Oleg founded a trading post on the wild frontier.
+Fate shifted when [Svetlana Leveton](Svetlana%20Leveton.md), the daughter of a merchant house, sought his craftsmanship to secure a trade deal. His work not only secured the bargain but also won her admiration and, eventually, her love. The two married, and together they sought a new life in the [Stolen Lands](../../../Locations/Inner%20Sea%20Region/River%20Kingdoms/Stolen%20Lands/Stolen%20Lands.md), where Oleg founded a trading post on the wild frontier.
 
-Oleg’s Trading Post, however, became a target of the [[Stag Lord]]’s bandits. On the verge of abandoning his dream, Oleg was saved when the adventurers who would become the Tubthumpers arrived, breaking the extortion and eventually toppling the Stag Lord himself. With their victory, Oleg’s Trading Post became the seed of a new settlement—and, in time, the town of Olegton.
+Oleg’s Trading Post, however, became a target of the [Stag Lord](Stag%20Lord.md)’s bandits. On the verge of abandoning his dream, Oleg was saved when the adventurers who would become the Tubthumpers arrived, breaking the extortion and eventually toppling the Stag Lord himself. With their victory, Oleg’s Trading Post became the seed of a new settlement—and, in time, the town of Olegton.
 
 #### Personality
 
@@ -42,4 +42,4 @@ Respected elder citizen. Oleg’s pride sometimes makes him prickly in political
 
 ## Wife
 
-[[Svetlana Leveton]]
+[Svetlana Leveton](Svetlana%20Leveton.md)

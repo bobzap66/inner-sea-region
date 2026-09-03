@@ -9,7 +9,7 @@ parent: "[[Thumpington]]"
 ---
 # Free University of Thumping Waters
 
-![[shared-cover-2c2d28b87bde.png]]
+![](../../../../../../../assets/images/shared-cover-2c2d28b87bde.png)
 
 *An institutional profile maintained by the Office of Public Record, with additions supplied by the university's founding faculty*
 
@@ -17,7 +17,7 @@ parent: "[[Thumpington]]"
 >
 > — From the Charter of the Free University
 
-The Free University of Thumping Waters is a public institution of higher learning headquartered in [[Thumpington]]. Chartered in 4716 AR during the Republic's reconstruction after the War of the River Kings, it was founded to preserve knowledge gathered during the nation's turbulent first years, train people capable of serving its growing communities, and make advanced learning available beyond the wealthy families, temples, and private academies that have traditionally controlled it.
+The Free University of Thumping Waters is a public institution of higher learning headquartered in [Thumpington](Thumpington.md). Chartered in 4716 AR during the Republic's reconstruction after the War of the River Kings, it was founded to preserve knowledge gathered during the nation's turbulent first years, train people capable of serving its growing communities, and make advanced learning available beyond the wealthy families, temples, and private academies that have traditionally controlled it.
 
 The university is young enough that several of its halls are older than the institution occupying them, its faculty contains more experienced practitioners than conventional academics, and the precise difference between a laboratory and a securely reinforced cellar remains the subject of continuing inspection. Its ambitions are nevertheless national. The founders intend it to become a place where the Republic studies its past, prepares for dangers still poorly understood, and teaches knowledge useful to people who cannot abandon their homes for years of distant study.
 
@@ -47,11 +47,11 @@ The university is young enough that several of its halls are older than the inst
 
 Thumping Waters acquired knowledge long before it possessed an institution capable of caring for it. The Tubthumpers returned from expeditions with maps, tablets, magical formulae, witness accounts, foreign records, natural specimens, and books recovered from abandoned settlements, ruined fortresses, Vordakai's tomb-city, the House of a Hundred Doors, and other places where scholarship was rarely the most immediate danger.
 
-Responsibility for those materials fell across several institutions. The [[Ministry of Communication]] preserved the national record and operated the government press. The [[Ministry of Magic]] gathered reports concerning curses, Blooms, artifacts, and planar disturbances. The public library and museum whose collections are now housed in the Lantern Archive accumulated books, relics, and recovered collections. [[Jubilost Narthropple]], [[Roald Celinnas]], priests, explorers, craftspeople, and independent scholars maintained bodies of knowledge that depended heavily upon particular people remaining alive, available, and willing to answer questions.
+Responsibility for those materials fell across several institutions. The [Ministry of Communication](../../Ruling%20Council/Ministry%20of%20Communication.md) preserved the national record and operated the government press. The [Ministry of Magic](../../Ruling%20Council/Ministry%20of%20Magic.md) gathered reports concerning curses, Blooms, artifacts, and planar disturbances. The public library and museum whose collections are now housed in the Lantern Archive accumulated books, relics, and recovered collections. [Jubilost Narthropple](../../../../../../../Campaigns/Kingmaker/NPCs/Jubilost%20Narthropple.md), [Roald Celinnas](../../../../../../../Campaigns/Kingmaker/NPCs/Roald%20Celinnas.md), priests, explorers, craftspeople, and independent scholars maintained bodies of knowledge that depended heavily upon particular people remaining alive, available, and willing to answer questions.
 
-The war with [[Pitax]] exposed the weakness of that arrangement. Records were scattered, trained specialists were drawn into military service, and irreplaceable knowledge remained concentrated in cities and private collections vulnerable to fire, occupation, or political control. The war also demonstrated the strength of institutions that could outlast a ruler. Pitax's theaters, temples, Academy of the Arts, and even the crowded library of the Crow's Feather preserved communities of learning that Irovetti could patronize, intimidate, and exploit without fully possessing.
+The war with [Pitax](../Pitax/Pitax.md) exposed the weakness of that arrangement. Records were scattered, trained specialists were drawn into military service, and irreplaceable knowledge remained concentrated in cities and private collections vulnerable to fire, occupation, or political control. The war also demonstrated the strength of institutions that could outlast a ruler. Pitax's theaters, temples, Academy of the Arts, and even the crowded library of the Crow's Feather preserved communities of learning that Irovetti could patronize, intimidate, and exploit without fully possessing.
 
-After the war, educators, ministers, archivists, veterans, and settlement representatives proposed a national university. The Ruling Council granted its charter in 4716 AR. The word *Free* was included to describe both its public purpose and its promised freedom from control by any single ministry, temple, patron, ancestry, or school of magic. It has never meant that buildings, books, meals, ink, glassware, or alchemical fireproofing cost nothing, a distinction the [[Ministry of the Treasury]] requested be recorded prominently.
+After the war, educators, ministers, archivists, veterans, and settlement representatives proposed a national university. The Ruling Council granted its charter in 4716 AR. The word *Free* was included to describe both its public purpose and its promised freedom from control by any single ministry, temple, patron, ancestry, or school of magic. It has never meant that buildings, books, meals, ink, glassware, or alchemical fireproofing cost nothing, a distinction the [Ministry of the Treasury](../../Ruling%20Council/Ministry%20of%20the%20Treasury.md) requested be recorded prominently.
 
   
 
@@ -75,7 +75,7 @@ The Free University is organized into colleges that share the central library, p
 
 The College of Letters teaches history, languages, rhetoric, literature, diplomacy, journalism, archival practice, and the interpretation of law and public records. It works closely with the Ministry of Communication while remaining institutionally separate from it. Its students assist in preserving oral histories from communities whose traditions do not ordinarily enter written archives and in translating public works into the languages used throughout the Republic.
 
-[[Eobald]], one of [[Linzi]]'s former teachers in Pitax, helped establish the college's instruction in rhetoric, performance, printing, and public communication. His earlier work assembling Thumpington's first press made him particularly insistent that writers understand how texts are reproduced, altered, distributed, and occasionally set backward in type.
+[Eobald](../../../../../../../Campaigns/Kingmaker/NPCs/Eobald.md), one of [Linzi](../../../../../../../Campaigns/Kingmaker/NPCs/Linzi.md)'s former teachers in Pitax, helped establish the college's instruction in rhetoric, performance, printing, and public communication. His earlier work assembling Thumpington's first press made him particularly insistent that writers understand how texts are reproduced, altered, distributed, and occasionally set backward in type.
 
 The college is principally housed in Eobald Hall, named for the founding lecturer whose work joined the classroom, stage, archive, and press. Its lecture rooms are designed for both conventional instruction and public performances, while its printing rooms allow students to follow a text from composition through typesetting and distribution.
 
@@ -97,17 +97,17 @@ The College of the Four Traditions studies arcane, divine, occult, and primal ma
 
 Four Lamps Hall is the college's principal teaching building. Four lights burn above its main entrance, each maintained according to a different magical tradition. No official meaning is assigned to which lamp catches first during bad weather, though this has not prevented wagering among students.
 
-The college works closely with the Ministry of Magic but is not its training bureau. Research involving intelligent artifacts, involuntary subjects, active curses, planar breaches, powerful necromancy, or materials recovered from restricted sites requires formal review and suitable containment. Current interests include the First World, [[Wild Hunt]] traditions, ancient cyclops magic, and the Pharasmian and Thresholder remains beneath Candlemere.
+The college works closely with the Ministry of Magic but is not its training bureau. Research involving intelligent artifacts, involuntary subjects, active curses, planar breaches, powerful necromancy, or materials recovered from restricted sites requires formal review and suitable containment. Current interests include the First World, [Wild Hunt](../../../../../../../Campaigns/Kingmaker/Vignettes%20-%20Kingmaker/Intelligence%20Reports/Wild%20Hunt.md) traditions, ancient cyclops magic, and the Pharasmian and Thresholder remains beneath Candlemere.
 
   
 
-#### [[Nok-Nok]] College of Practical Arts and Civic Service
+#### [Nok-Nok](../../../../../../../Campaigns/Kingmaker/NPCs/Nok-Nok.md) College of Practical Arts and Civic Service
 
-Nok-Nok College teaches field medicine, alchemy, emergency response, wilderness survival, defensive construction, settlement administration, scouting, and other disciplines whose value becomes clearest when a plan has failed and people still require help. It is named for Nok-Nok, Hero of the Mite Warrens, governor of [[Greengripe]], commander of Nok-Nok's Irregulars, and one of the Republic's earliest friends.
+Nok-Nok College teaches field medicine, alchemy, emergency response, wilderness survival, defensive construction, settlement administration, scouting, and other disciplines whose value becomes clearest when a plan has failed and people still require help. It is named for Nok-Nok, Hero of the Mite Warrens, governor of [Greengripe](../Greengripe/Greengripe.md), commander of Nok-Nok's Irregulars, and one of the Republic's earliest friends.
 
 The Irregulars' Workshop serves as the college's principal practical hall. Its classrooms open directly into work yards, kitchens, treatment rooms, reinforced laboratories, and storage bays intended for exercises that cannot be taught responsibly from a lectern. The workshop's standing rule is that an unconventional method must still leave someone able to explain why it worked.
 
-Nok-Nok spent much of his life insisting that he was a hero. He died east of [[Fort Drelev]] after refusing to abandon the Irregulars as their position collapsed, remaining with his soldiers and buying time for others to escape. The college honors not only his courage but the people he led: goblins, bombardiers, scouts, [[Survivors]], and citizens who did not resemble a parade-ground army but stood between the enemy and their homes.
+Nok-Nok spent much of his life insisting that he was a hero. He died east of [Fort Drelev](../Fort%20Drelev/Fort%20Drelev.md) after refusing to abandon the Irregulars as their position collapsed, remaining with his soldiers and buying time for others to escape. The college honors not only his courage but the people he led: goblins, bombardiers, scouts, [Survivors](../../../../../../../Campaigns/Abomination%20Vaults/Vignettes%20-%20Abomination%20Vaults/Survivors.md), and citizens who did not resemble a parade-ground army but stood between the enemy and their homes.
 
 Its unofficial motto is *A Hero Stays*. The phrase is not taught as an instruction to seek a glorious death. Faculty instead use it to describe the obligations of leadership: preparation before danger, presence during it, and responsibility for those who must live afterward.
 

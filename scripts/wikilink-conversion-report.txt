@@ -1,0 +1,26 @@
+Wikilink conversion report
+==========================
+Markdown files changed: 294
+Wikilinks converted: 3049
+Wikilinks left unchanged: 20
+
+AMBIGUOUS: content/Groups/Aldori Swordlords.md :: [[Inner Sea Region]]
+UNRESOLVED: content/Campaigns/Abomination Vaults/Vignettes - Abomination Vaults/Morlibint's Dossier/MorlibintΓÇÖs Dossier- Otari Folklore.md :: [[Morlibint's Dossier/Morlibint’s Dossier- Corrective Annotation|Morlibint’s Dossier: Corrective Annotation]]
+UNRESOLVED: content/Campaigns/Abomination Vaults/Vignettes - Abomination Vaults/Morlibint's Dossier/MorlibintΓÇÖs Dossier- On the Prison Level and Infernal Presence.md :: [[Morlibint's Dossier/Morlibint’s Dossier- Servants and Survivors|Morlibint’s Dossier: Servants and Survivors]]
+UNRESOLVED: content/Campaigns/Abomination Vaults/Vignettes - Abomination Vaults/Morlibint's Dossier/Morlibint's Dossier- The Farm Redux.md :: [[Morlibint's Dossier/Morlibint’s Dossier- Final Assessment|Morlibint’s Dossier: Final Assessment]]
+UNRESOLVED: content/Campaigns/Abomination Vaults/Vignettes - Abomination Vaults/Morlibint's Dossier/Morlibeint's Dossier- On Sources and Reliability.md :: [[Morlibint's Dossier/Morlibint’s Dossier- Otari Folklore|Morlibint’s Dossier: Otari Folklore]]
+UNRESOLVED: content/Campaigns/Abomination Vaults/Vignettes - Abomination Vaults/Morlibint's Dossier/MorlibintΓÇÖs Dossier- The Haruvex Lineage.md :: [[Morlibint's Dossier/Morlibint’s Dossier- Gauntlight and the Abomination Vaults|Morlibint’s Dossier: Gauntlight and the Abomination Vaults]]
+UNRESOLVED: content/Campaigns/Abomination Vaults/Vignettes - Abomination Vaults/Morlibint's Dossier/MorlibintΓÇÖs Dossier- Corrective Annotation.md :: [[Morlibint's Dossier/Morlibint’s Dossier- The Roseguard|Morlibint’s Dossier: The Roseguard]]
+UNRESOLVED: content/Campaigns/Abomination Vaults/Vignettes - Abomination Vaults/Morlibint's Dossier/MorlibintΓÇÖs Dossier- Servants and Survivors.md :: [[Morlibint's Dossier/Morlibint’s Dossier- Wisps, Fog, and Dreams|Morlibint’s Dossier: Wisps, Fog, and Dreams]]
+UNRESOLVED: content/Campaigns/Abomination Vaults/Vignettes - Abomination Vaults/Morlibint's Dossier/MorlibintΓÇÖs Dossier- The Roseguard.md :: [[Morlibint's Dossier/Morlibint’s Dossier- The Haruvex Lineage|Morlibint’s Dossier: The Haruvex Lineage]]
+UNRESOLVED: content/Campaigns/Abomination Vaults/Vignettes - Abomination Vaults/Morlibint's Dossier/MorlibintΓÇÖs Dossier- Gauntlight and the Abomination Vaults.md :: [[Morlibint's Dossier/Morlibint’s Dossier- On the So-Called Cult of the Canker|Morlibint’s Dossier: On the So-Called Cult of the Canker]]
+UNRESOLVED: content/Campaigns/Abomination Vaults/Vignettes - Abomination Vaults/Morlibint's Dossier/MorlibintΓÇÖs Dossier- On the Training Grounds.md :: [[Morlibint's Dossier/Morlibint’s Dossier- On the Fleshwarping Laboratories|Morlibint’s Dossier: On the Fleshwarping Laboratories]]
+UNRESOLVED: content/Campaigns/Abomination Vaults/Vignettes - Abomination Vaults/Morlibint's Dossier/MorlibintΓÇÖs Dossier- On Wrin Sivinxi and the Question of Lenses.md :: [[Morlibint's Dossier/Morlibint’s Dossier- Nhimbaloth, the Empty Death|Morlibint’s Dossier: Nhimbaloth, the Empty Death]]
+UNRESOLVED: content/Campaigns/Abomination Vaults/Vignettes - Abomination Vaults/Morlibint's Dossier/MorlibintΓÇÖs Dossier- Final Assessment.md :: [[Morlibint's Dossier/Morlibint’s Dossier- On Wrin Sivinxi and the Question of Lenses|Morlibint’s Dossier: On Wrin Sivinxi and the Question of Lenses]]
+UNRESOLVED: content/Campaigns/Abomination Vaults/Vignettes - Abomination Vaults/Morlibint's Dossier/MorlibintΓÇÖs Dossier- On the So-Called Cult of the Canker.md :: [[Morlibint's Dossier/Morlibint’s Dossier- On the Training Grounds|Morlibint’s Dossier: On the Training Grounds]]
+UNRESOLVED: content/Campaigns/Abomination Vaults/Vignettes - Abomination Vaults/Morlibint's Dossier/MorlibintΓÇÖs Dossier- On the Fleshwarping Laboratories.md :: [[Morlibint's Dossier/Morlibint’s Dossier- On the Prison Level and Infernal Presence|Morlibint’s Dossier: On the Prison Level and Infernal Presence]]
+AMBIGUOUS: content/Campaigns/Kingmaker/NPCs/Jubilost Narthropple.md :: [[Inner Sea Region]]
+UNRESOLVED: content/Campaigns/Kingmaker/Vignettes - Kingmaker/Moments/The Night the Light Fought Back.md :: [[Candlemere]]
+UNRESOLVED: content/Campaigns/Kingmaker/Vignettes - Kingmaker/Intelligence Reports/Wild Hunt Council Briefing.md :: [[Candlemere]]
+UNRESOLVED: content/Campaigns/Kingmaker/Reference/World Anvil/Kingmaker Location Master Reference.md :: [[kingmaker-location-master-reference.xlsx|Download the original workbook]]
+UNRESOLVED: content/Campaigns/Kingmaker/Reference/World Anvil/Kingmaker NPC Master Reference.md :: [[kingmaker-npc-master-reference.xlsx|Download the original workbook]]

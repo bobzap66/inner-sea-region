@@ -8,7 +8,7 @@ category_path:
 
 
 > [!side]
-> :   ![[older-than-last-year-image-01.png]]
+> :   ![](../../../../assets/images/older-than-last-year-image-01.png)
 
 It starts at Maribel’s bread stall, because that’s where everything starts if you live near the south market.
 

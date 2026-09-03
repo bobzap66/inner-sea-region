@@ -7,11 +7,11 @@ parent: "[[Velka]]"
 # Velka of the Sootscale – Travels and Connections
 
 
-Though she calls the river home, **[[Velka]] of the Sootscale** has left her footprints across the Republic of Thumping Waters. From the markets of [[Thumpington]] to the youngest planks of [[Willowfen]], she moves like water—binding the kingdom not with law or coin, but with kindness, faith, and the shared rhythm of work and mercy.
+Though she calls the river home, **[Velka](Velka.md) of the Sootscale** has left her footprints across the Republic of Thumping Waters. From the markets of [Thumpington](../../../../Locations/Inner%20Sea%20Region/River%20Kingdoms/Stolen%20Lands/Thumping%20Waters/Settlements/Thumpington/Thumpington.md) to the youngest planks of [Willowfen](../../../../Locations/Inner%20Sea%20Region/River%20Kingdoms/Stolen%20Lands/Thumping%20Waters/Settlements/Willowfen/Willowfen.md), she moves like water—binding the kingdom not with law or coin, but with kindness, faith, and the shared rhythm of work and mercy.
 
 \_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_
 
-#### Velka in [[Embeth Hall]]
+#### Velka in [Embeth Hall](../../../../Locations/Inner%20Sea%20Region/River%20Kingdoms/Stolen%20Lands/Thumping%20Waters/Settlements/Embeth%20Hall/Embeth%20Hall.md)
 
 Nestled deep in the Embeth Forest, **Embeth Hall** is a strange blend of refinement and frontier—luxury built on the edge of the wild. The White Lantern tavern glows at its heart like a beacon through the mist, and for Velka, it’s a place that feels halfway between a shrine and a hearth.
 
@@ -25,9 +25,9 @@ Marna calls her “my favorite flood hazard,” and Velka calls Marna “a light
 
 \_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_
 
-#### Velka in [[Fort Serenko]]
+#### Velka in [Fort Serenko](../../../../Locations/Inner%20Sea%20Region/River%20Kingdoms/Stolen%20Lands/Thumping%20Waters/Settlements/Fort%20Serenko/Fort%20Serenko.md)
 
-High in the [[Locations/Inner Sea Region/Brevoy/Rostland Hinterlands|Rostland Hinterlands]], **Fort Serenko** stands as both bulwark and crossroads, its walls scented with pine and sawdust. The hum of saws from the lumberyard mixes with the sound of hammer on nail, the fort’s rhythm as constant as its river-fed millrace. Velka visits regularly, drawn by both friendship and the promise of honest labor.
+High in the [Rostland Hinterlands](../../../../Locations/Inner%20Sea%20Region/Brevoy/Rostland%20Hinterlands.md), **Fort Serenko** stands as both bulwark and crossroads, its walls scented with pine and sawdust. The hum of saws from the lumberyard mixes with the sound of hammer on nail, the fort’s rhythm as constant as its river-fed millrace. Velka visits regularly, drawn by both friendship and the promise of honest labor.
 
 ##### Harl Edvane – Master of the Serenko Lumberworks
 
@@ -39,7 +39,7 @@ When the river runs high and the logs threaten to jam, Velka walks the banks bar
 
 \_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_
 
-#### Velka in [[Fort Tuskwater]]
+#### Velka in [Fort Tuskwater](../../../../Locations/Inner%20Sea%20Region/River%20Kingdoms/Stolen%20Lands/Thumping%20Waters/Settlements/Fort%20Tuskwater/Fort%20Tuskwater.md)
 
 **Fort Tuskwater** sprawls along the lake’s edge, half fortress, half fish market, its air thick with brine and smoke. The waterfront is alive at all hours—fishermen shouting, gulls crying, and traders arguing over eels. Velka is a welcome sight there, her scales glinting with spray as she blesses nets and jokes with the dockhands.
 
@@ -53,7 +53,7 @@ On calm nights, the two share bread and lake wine on the dock, watching the wate
 
 \_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_
 
-#### Velka in [[Tatzlford]]
+#### Velka in [Tatzlford](../../../../Locations/Inner%20Sea%20Region/River%20Kingdoms/Stolen%20Lands/Thumping%20Waters/Settlements/Tatzlford/Tatzlford.md)
 
 **Tatzlford** hums with the rhythm of work—the clang of hammers, the rasp of saws, and the sharp tang of resin in the air. The Guildhall of the Joined Hands stands at the center of it all, a meeting place for carpenters, smiths, and tanners who turn forest and ore into civilization. Velka fits right in. To her, every forge and workshop is a kind of chapel—proof that creation is just another form of prayer.
 
@@ -73,7 +73,7 @@ To the people of Tatzlford, Velka is welcome friend. When she departs, the bell 
 
 \_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_
 
-#### Velka in [[Varnhold]]
+#### Velka in [Varnhold](../../../../Locations/Inner%20Sea%20Region/River%20Kingdoms/Stolen%20Lands/Thumping%20Waters/Settlements/Varnhold/Varnhold.md)
 
 **Varnhold** sits where the mountains meet the plains, its alehouses louder than its churches and its winters longer than patience itself. Yet even here, Velka finds a home. She claims the wind smells of “stone and second chances.” Her favorite haunt is **Delver’s Brewery**, where the air is thick with malt, laughter, and the faint hum of devotion disguised as fermentation.
 
@@ -87,7 +87,7 @@ When Velka leaves, Durnan raises a mug to the current and mutters, “To the riv
 
 \_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_
 
-#### Velka in [[Greengripe]]
+#### Velka in [Greengripe](../../../../Locations/Inner%20Sea%20Region/River%20Kingdoms/Stolen%20Lands/Thumping%20Waters/Settlements/Greengripe/Greengripe.md)
 
 There’s nowhere in the Republic quite like **Greengripe**: a riot of color, smoke, and explosive optimism. Goblins and alchemists work side by side—or sometimes against each other—in a constant attempt to improve on yesterday’s chaos. Velka calls it “Hanspur’s laughter made loud.” The locals call her *River Auntie*.
 
@@ -107,11 +107,11 @@ In Greengripe, Velka’s laughter is part of the town’s rhythm. Where others s
 
 \_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_
 
-#### Velka in [[Sootscale Valley]]
+#### Velka in [Sootscale Valley](../../../../Locations/Inner%20Sea%20Region/River%20Kingdoms/Stolen%20Lands/Thumping%20Waters/Settlements/Sootscale%20Valley/Sootscale%20Valley.md)
 
 **Sootscale Valley** is Velka’s heart. It’s where the river first whispered her name, where she learned faith not from books but from survival. To her tribe, she is both priestess and sister—proof that devotion and freedom can share the same breath. Her shrine sits near the waterline: a carved stone basin surrounded by reeds, where travelers leave shells, coins, and shiny trinkets in thanks to the River Lord.
 
-##### [[Chief Sootscale]] – Tribal Leader
+##### [Chief Sootscale](../../NPCs/Chief%20Sootscale.md) – Tribal Leader
 
 **Chief Sootscale** trusts Velka more than most priests. She advises him on questions of faith, diplomacy, and restraint, reminding him that “even the strongest stream needs its banks.” He may grumble, but he listens—and more than once, her counsel has kept peace between the tribe and its neighbors.
 
@@ -131,7 +131,7 @@ In Sootscale Valley, even the wind hums with her songs. The children race driftw
 
 \_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_
 
-#### Velka in [[Olegton]]
+#### Velka in [Olegton](../../../../Locations/Inner%20Sea%20Region/River%20Kingdoms/Stolen%20Lands/Thumping%20Waters/Settlements/Olegton/Olegton.md)
 
 **Olegton** hums with the steady rhythm of trade—the creak of wagons, the grind of the millstone, and the splash of the river that keeps it all alive. Velka visits often, calling it “a town that remembers to thank its own reflection.” She’s a familiar sight along the millrace, sleeves rolled and feet muddy, blessing sluices and chatting with workers about patience, current, and good grain.
 
@@ -167,7 +167,7 @@ Children follow her everywhere when she visits, racing her driftwood boats throu
 
 \_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_
 
-#### Velka in [[Longtail Island]]
+#### Velka in [Longtail Island](../../../../Locations/Inner%20Sea%20Region/River%20Kingdoms/Stolen%20Lands/Thumping%20Waters/Settlements/Longtail%20Island/Longtail%20Island.md)
 
 **Longtail Island** rings with the sound of forges and waves. Its artisans work close to the tide, shaping metal and coral in equal measure. To Velka, it’s a holy place—“where the hammer and the surf keep the same rhythm.” She’s drawn back here often, both by friendship and by the island’s understanding that faith and craft share the same current.
 
@@ -183,13 +183,13 @@ Since then, Velka has returned often. She blesses the forge with river water bef
 
 **Thumpington** is the Republic’s heart—a city where parchment, politics, and prayer all jostle for elbow room. To Velka, it’s less a capital than a confluence: a hundred smaller streams of people and ideas meeting in one great current. She visits often, tending shrines along the Thorne River and reminding ministers that “even a city of stone still depends on the water beneath it.”
 
-##### [[Linzi]] – Minister of Communication
+##### [Linzi](../../NPCs/Linzi.md) – Minister of Communication
 
-Velka and Linzi share a bond built on laughter, philosophy, and the shared belief that stories can heal a kingdom. The halfling bard delights in retelling Velka’s river parables—usually with added dramatic flair—and Velka pretends to scowl every time. Together they co-authored a pamphlet titled The River and the Road: Conversations on Freedom, blending Linzi’s keen commentary with Velka’s quiet [[Reflections]] on Hanspur’s balance. Linzi calls her “the Republic’s muddy philosopher.” Velka calls Linzi “a song that learned to walk.”
+Velka and Linzi share a bond built on laughter, philosophy, and the shared belief that stories can heal a kingdom. The halfling bard delights in retelling Velka’s river parables—usually with added dramatic flair—and Velka pretends to scowl every time. Together they co-authored a pamphlet titled The River and the Road: Conversations on Freedom, blending Linzi’s keen commentary with Velka’s quiet [Reflections](../../../Abomination%20Vaults/Vignettes%20-%20Abomination%20Vaults/Reflections.md) on Hanspur’s balance. Linzi calls her “the Republic’s muddy philosopher.” Velka calls Linzi “a song that learned to walk.”
 
 When Velka stays in the capital, she often lodges at the Ministry guesthouse, joining Linzi for tea and editing sessions late into the night. Between them, words and faith flow freely, keeping Thumpington’s conscience clear as its waters.
 
-##### [[Jubilost Narthropple]] – Minister of Trade
+##### [Jubilost Narthropple](../../NPCs/Jubilost%20Narthropple.md) – Minister of Trade
 
 Where Linzi and Velka share warmth, Jubilost and Velka share argument. Their debates—faith against finance, river versus ledger—are small spectacles around the docks. Yet beneath the sparring lies mutual respect. She once accompanied him down the Little Sellen to map safe trade routes, proving that Hanspur’s patience could rival even his precision. He grumbled about “divine inefficiency,” but later quoted her in a speech on adaptive trade policy.
 
@@ -197,7 +197,7 @@ Jubilost has quietly funded repairs to several riverside shrines she oversees, d
 
 ##### Brina Fairlight – Candlemaker of the South Quarter
 
-In a city of ministers and merchants, **Brina Fairlight**’s candlehouse glows like a quiet star. The air smells of honey, wax, and faintly of fur—thanks to her elderly white poodle, *Esmerelda*, who rules the shop’s doorway with benevolent disdain. Velka met Brina during a storm, when Esmerelda’s new litter whimpered through thunder and rain. Velka soothed them with a river hymn; one pup grew still under her touch—the same one later adopted by [[Ant]] and [[Ally Grainger|Ally]], sired by the great [[Connal]] himself.
+In a city of ministers and merchants, **Brina Fairlight**’s candlehouse glows like a quiet star. The air smells of honey, wax, and faintly of fur—thanks to her elderly white poodle, *Esmerelda*, who rules the shop’s doorway with benevolent disdain. Velka met Brina during a storm, when Esmerelda’s new litter whimpered through thunder and rain. Velka soothed them with a river hymn; one pup grew still under her touch—the same one later adopted by [Ant](../Ant.md) and [Ally](../Ally%20Grainger.md), sired by the great [Connal](../Animal%20Companions/Connal.md) himself.
 
 Since that night, Velka and Brina have been fast friends. Together they craft **Hanspur’s Lights**—blue-and-white floating candles made to drift on the river during prayer festivals. Brina handles the waxwork, while Velka blesses each with a drop of sanctified water. Their crafts—fire and water, patience and flow—mirror each other perfectly.
 

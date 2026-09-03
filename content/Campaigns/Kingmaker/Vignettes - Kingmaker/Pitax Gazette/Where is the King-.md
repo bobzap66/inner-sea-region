@@ -7,7 +7,7 @@ cover: "assets/world-anvil/shared-cover-5d0935703bb5.png"
 
 # Where is the King?
 
-![[shared-cover-5d0935703bb5.png]]
+![](../../../../assets/images/shared-cover-5d0935703bb5.png)
 
 # Pitax Gazette
 

@@ -8,7 +8,7 @@ portrait: "assets/world-anvil/matteo-portrait.png"
 
 # Matteo
 
-![[matteo-portrait.png]]
+![](../../../assets/images/matteo-portrait.png)
 
 ### From the Journal of Linzi
 

@@ -8,7 +8,7 @@ portrait: "assets/world-anvil/tiressia-portrait.jpeg"
 
 # Tiressia
 
-![[tiressia-portrait.jpeg]]
+![](../../../assets/images/tiressia-portrait.jpeg)
 
 *Forest Spirit · Graceful Guardian · Wary Ally of Mortals*
 

@@ -10,7 +10,7 @@ category_path:
 
 ### Fort Serenko
 
-Standing on the northern border of the Republic of Thumping Waters, **Fort Serenko** watches over the crossroads between the [[Stolen Lands]] and [[Brevoy]]. Once a crumbling outpost of the old Taldan expansion, its stones cracked and its banners long since rotted away, the ruin was reclaimed and rebuilt by the Tubthumpers as a bulwark of trade, travel, and peace. Today, its palisades ring with the sound of saws and laughter, not swords, and its bridges carry more merchants than soldiers. But beneath the bustle lies the memory of watchfires once lit against a darker age.
+Standing on the northern border of the Republic of Thumping Waters, **Fort Serenko** watches over the crossroads between the [Stolen Lands](../../../Stolen%20Lands.md) and [Brevoy](../../../../../Brevoy/Brevoy.md). Once a crumbling outpost of the old Taldan expansion, its stones cracked and its banners long since rotted away, the ruin was reclaimed and rebuilt by the Tubthumpers as a bulwark of trade, travel, and peace. Today, its palisades ring with the sound of saws and laughter, not swords, and its bridges carry more merchants than soldiers. But beneath the bustle lies the memory of watchfires once lit against a darker age.
 
 #### Overview
 
@@ -28,7 +28,7 @@ Today, the name “Fort Serenko” honors both the ruin’s old title and its ne
 
 Fort Serenko is governed by a **warden’s council** of merchants, guards, and guild leaders who report directly to the republic’s Minister of Trade. The garrison in the **barracks** is small but professional—trained soldiers and volunteer rangers who know the value of patience over aggression. The fort’s **stockyard** serves both Brevic caravans and Thumping Waters’ herders, its corrals alive with bleating goats, braying mules, and a chorus of negotiators arguing over whose livestock eats the better grass.
 
-Timber and grain drive the economy. The **lumberyard** supplies boards for [[Olegton]]’s traders and ships for [[Fort Tuskwater]]’s fleets, while the **mill** grinds wheat from the nearby plains. In return, Brevoy’s merchants bring fine cloth, steel, and the occasional cask of Rostland brandy—though never enough to keep up with local demand. The **marketplace** thrums with the energy of cooperation: Brevic merchants haggling with kobold traders, centaur emissaries trading arrow fletchings for honey. Fort Serenko’s strength lies not in its walls, but in its bridges—literal and diplomatic alike.
+Timber and grain drive the economy. The **lumberyard** supplies boards for [Olegton](../Olegton/Olegton.md)’s traders and ships for [Fort Tuskwater](../Fort%20Tuskwater/Fort%20Tuskwater.md)’s fleets, while the **mill** grinds wheat from the nearby plains. In return, Brevoy’s merchants bring fine cloth, steel, and the occasional cask of Rostland brandy—though never enough to keep up with local demand. The **marketplace** thrums with the energy of cooperation: Brevic merchants haggling with kobold traders, centaur emissaries trading arrow fletchings for honey. Fort Serenko’s strength lies not in its walls, but in its bridges—literal and diplomatic alike.
 
 #### Culture and Daily Life
 
@@ -38,7 +38,7 @@ Though small, the fort has a sense of purpose that feels larger than its size. E
 
 #### Modern Role
 
-Today, Fort Serenko stands as the northern gateway of Thumping Waters and a living symbol of its diplomacy. It guards not just the border, but the peace beyond it. Caravans and envoys from Brevoy rest here before continuing south; soldiers and settlers pause here to remember that walls can protect more than they divide. When the lamps along the bridge ignite at dusk and their [[Reflections]] shimmer on the river below, it’s easy to believe the town’s old stones have finally found what they were built for—not war, but welcome.
+Today, Fort Serenko stands as the northern gateway of Thumping Waters and a living symbol of its diplomacy. It guards not just the border, but the peace beyond it. Caravans and envoys from Brevoy rest here before continuing south; soldiers and settlers pause here to remember that walls can protect more than they divide. When the lamps along the bridge ignite at dusk and their [Reflections](../../../../../../../Campaigns/Abomination%20Vaults/Vignettes%20-%20Abomination%20Vaults/Reflections.md) shimmer on the river below, it’s easy to believe the town’s old stones have finally found what they were built for—not war, but welcome.
 
 ## General Details
 

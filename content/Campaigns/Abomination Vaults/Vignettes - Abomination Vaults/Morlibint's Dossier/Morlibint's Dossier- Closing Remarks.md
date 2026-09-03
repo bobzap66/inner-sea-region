@@ -8,10 +8,10 @@ cover: "assets/world-anvil/shared-cover-32ff100f6011.png"
 
 # Morlibint's Dossier: Closing Remarks
 
-![[shared-cover-32ff100f6011.png]]
+![](../../../../assets/images/shared-cover-32ff100f6011.png)
 
 > [!side]
-> :   ![[morlibint-s-dossier-closing-remarks-image-01.png]]
+> :   ![](../../../../assets/images/morlibint-s-dossier-closing-remarks-image-01.png)
 
 *A final note regarding the events surrounding the Gauntlight and the heroes who brought them to an end.*
 

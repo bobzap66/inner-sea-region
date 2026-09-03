@@ -8,19 +8,19 @@ cover: "assets/world-anvil/shared-cover-8a1bfbff37cb.png"
 
 # Session 0: Party Time!
 
-![[shared-cover-8a1bfbff37cb.png]]
+![](../../../assets/images/shared-cover-8a1bfbff37cb.png)
 
-### From [[Linzi]]’s Journal
+### From [Linzi](../NPCs/Linzi.md)’s Journal
 
 *Calistril 23, 4710 AR*
 
 I have decided that this is where the story begins. I cannot prove it yet, and perhaps tomorrow I will discover that I have mistaken a grand dinner for the opening chapter of something important. Still, as I looked around Lady Jamandi’s hall tonight, I could not escape the feeling that some of the people gathered there will one day have songs written about them. If that happens, I intend to be the person who remembers how they looked before anyone knew their names.
 
-Lady [[Jamandi Aldori]] issued a call for heroes, and somehow that call reached every sellsword, wanderer, warrior, treasure hunter, and future legend within traveling distance of [[Restov]]. We gathered at her manor beneath a darkening sky, waiting between two rows of ancient oaks while servants admitted us group by group. The first drops of rain began to fall just as the last of us were led inside. It was exactly the sort of entrance a proper heroic chronicle deserves, although I may feel differently about dramatic weather once I have spent more time sleeping outdoors.
+Lady [Jamandi Aldori](../NPCs/Jamandi%20Aldori.md) issued a call for heroes, and somehow that call reached every sellsword, wanderer, warrior, treasure hunter, and future legend within traveling distance of [Restov](../../../Locations/Inner%20Sea%20Region/Brevoy/Restov.md). We gathered at her manor beneath a darkening sky, waiting between two rows of ancient oaks while servants admitted us group by group. The first drops of rain began to fall just as the last of us were led inside. It was exactly the sort of entrance a proper heroic chronicle deserves, although I may feel differently about dramatic weather once I have spent more time sleeping outdoors.
 
 The manor stands on a hill outside Restov, surrounded by gardens, cottages, barracks, and enough armed guards to make it clear that Lady Jamandi takes both hospitality and security very seriously. We were brought into a great hall prepared for a feast. Crystal chandeliers hung overhead, cinnamon-scented lamps burned along the walls, and painted nymphs, satyrs, and winged creatures watched us from woodland murals. Nine long tables had been arranged beneath them, already crowded with goblets and pitchers. The room smelled of roasted meat, fresh bread, and rain blowing in whenever someone opened a door.
 
-I was seated with four adventurers who immediately seemed more interesting than most of the people trying very hard to appear interesting. Their names are [[Seamus]], [[Mairi]], [[Ant]], and Ally. I have written their names carefully because I suspect I will be writing them again.
+I was seated with four adventurers who immediately seemed more interesting than most of the people trying very hard to appear interesting. Their names are [Seamus](../Characters/Seamus.md), [Mairi](../Characters/Mairi.md), [Ant](../Characters/Ant.md), and Ally. I have written their names carefully because I suspect I will be writing them again.
 
 Ally arrived with Misty, a cat who behaved as though the invitation had been addressed to her personally. She looked less imposing than some of the warriors filling the hall, but there was nothing uncertain about the way she carried herself—or about the number of belts she had somehow found a reason to wear. Mairi watched the room like someone already considering how she would defend it, while Ant spoke little but gave me the uncomfortable impression that he noticed everything. None of them behaved like people performing heroism for an audience. That may be what made me notice them.
 
@@ -28,11 +28,11 @@ Seamus was more difficult not to notice. He carried himself with a swordsman’s
 
 I learned before the evening was out that these four shared considerably more history than their arrival at the same feast might suggest. Mairi was Seamus’s aunt; Ant and Ally were married; and Ant and Seamus had served together in the Brevoy Foreign Legion. They had not met at Lady Jamandi’s table. They had arrived with family, loyalty, and old battles already binding them together. Whatever future awaited them in the Stolen Lands, its foundations had been laid long before tonight.
 
-Several other would-be heroes shared our table. [[Amiri]] was a towering warrior with a sword almost too large to be sensible and absolutely too large to ignore. [[Harrim]], a bald dwarf with a long gray-streaked beard, managed to introduce the end of the world into ordinary dinner conversation with surprising ease. [[Jaethal]] was pale, quiet, and far more interested in observing the table than joining it. [[Valerie]] was a disciplined warrior whose manners were as carefully maintained as her equipment. [[Maegar Varn]] spoke eagerly about the opportunities waiting in the [[Stolen Lands]], while [[Tartuccio]] wore enough fine silk for three gnomes and appeared convinced that everyone present had assembled specifically to recognize his importance.
+Several other would-be heroes shared our table. [Amiri](../NPCs/Amiri.md) was a towering warrior with a sword almost too large to be sensible and absolutely too large to ignore. [Harrim](../NPCs/Harrim.md), a bald dwarf with a long gray-streaked beard, managed to introduce the end of the world into ordinary dinner conversation with surprising ease. [Jaethal](../NPCs/Jaethal.md) was pale, quiet, and far more interested in observing the table than joining it. [Valerie](../NPCs/Valerie.md) was a disciplined warrior whose manners were as carefully maintained as her equipment. [Maegar Varn](../NPCs/Maegar%20Varn.md) spoke eagerly about the opportunities waiting in the [Stolen Lands](../../../Locations/Inner%20Sea%20Region/River%20Kingdoms/Stolen%20Lands/Stolen%20Lands.md), while [Tartuccio](../NPCs/Tartuccio.md) wore enough fine silk for three gnomes and appeared convinced that everyone present had assembled specifically to recognize his importance.
 
 Then a bell rang, and Lady Jamandi entered beside Ioseph Sellemius, the lord mayor of Restov. Mayor Sellemius welcomed us, but it was Lady Jamandi who held the room. She wore a fine leather coat over glittering mail and carried an Aldori dueling sword with a silver pommel. She did not look like a noblewoman playing at war. She looked like someone who had survived enough battles to know exactly what she was asking of us.
 
-Lady Jamandi spoke of the Stolen Lands south of [[Brevoy]]: a vast territory claimed many times but never held, where bandits and monsters have destroyed every serious attempt at settlement. Restov intends to change that. Those with the courage to explore the region, defeat its dangers, and claim territory may establish holdings of their own. Restov will recognize the new rulers, support them as a trade partner, and stand beside them as an ally.
+Lady Jamandi spoke of the Stolen Lands south of [Brevoy](../../../Locations/Inner%20Sea%20Region/Brevoy/Brevoy.md): a vast territory claimed many times but never held, where bandits and monsters have destroyed every serious attempt at settlement. Restov intends to change that. Those with the courage to explore the region, defeat its dangers, and claim territory may establish holdings of their own. Restov will recognize the new rulers, support them as a trade partner, and stand beside them as an ally.
 
 She promised that our individual missions and charters would be explained in the morning. For the evening, she asked us to eat, drink, and become acquainted with the people who might soon be our allies, rivals, or neighbors. I am recording that phrasing because it seems important. Also because Tartuccio looked as though he had already decided which of those categories everyone belonged in.
 
@@ -57,16 +57,16 @@ Many of the names and identities used in these accounts were established through
 ---
 
 General Details
-:   ![[session-0-party-time-image-01.webp]]
+:   ![](../../../assets/images/screenshots/Session%2000%20-%20Party%20Time/session-0-party-time-image-01.webp)
 
 ---
 
 <!-- session-gallery:start -->
 ## Session Gallery
 
-![[session-0-party-time-image-01.webp]]
+![](../../../assets/images/screenshots/Session%2000%20-%20Party%20Time/session-0-party-time-image-01.webp)
 <!-- session-gallery:end -->
 
 ## Article navigation
 
-**Next:** [[Session 01- A Time to Kill]]
+**Next:** [Session 01- A Time to Kill](Session%2001-%20A%20Time%20to%20Kill.md)

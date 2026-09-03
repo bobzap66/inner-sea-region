@@ -8,16 +8,16 @@ cover: "assets/world-anvil/shared-cover-8a1bfbff37cb.png"
 
 # Session 45: Armag's Tomb Raiders
 
-![[shared-cover-8a1bfbff37cb.png]]
+![](../../../assets/images/shared-cover-8a1bfbff37cb.png)
 
 > [!side]
-> :   ![[session-45-armag-s-tomb-raiders-57.webp]]
+> :   ![](../../../assets/images/screenshots/Session%2045%20-%20Armag%20S%20Tomb%20Raiders/session-45-armag-s-tomb-raiders-57.webp)
 >
 > ---
 >
 > <!-- session-gallery:start -->
 
-### From [[Linzi]]’s Journal
+### From [Linzi](../NPCs/Linzi.md)’s Journal
 
 *An account of events in late Calistril, 4714 AR, reconstructed from the testimony of those present*
 
@@ -29,7 +29,7 @@ What follows is the most reliable account I could assemble from overlapping test
 
 Armag’s Tomb was not built for reverence. It was built for judgment. Every corridor and chamber seemed designed to ask the same question: Do you deserve to be here? The tomb, I should note, preferred hearing the answer screamed.
 
-The Tubthumpers first made their way past corridors carved with lethal runes and entered a domed chamber dominated by a colossal iron statue of [[Gorum]]. The statue animated and attempted to murder them, which everyone agreed was very much in keeping with the place.
+The Tubthumpers first made their way past corridors carved with lethal runes and entered a domed chamber dominated by a colossal iron statue of [Gorum](../../../Rules/Deities/Gorum.md). The statue animated and attempted to murder them, which everyone agreed was very much in keeping with the place.
 
 The sentinel was monstrously resilient. Blades glanced from its iron body, and fire only strengthened it. That discovery produced an admirably concise revision to the battle plan: fire bad; electricity good. Lightning split its plating, persistent blows broke through its defenses, and at last the great construct collapsed in a heap of ruined iron and offended divinity.
 
@@ -37,9 +37,9 @@ The tomb responded to this success by becoming less reasonable.
 
 #### The High Ground
 
-In a vast cavern, skeletal [[Groups/Tiger Lords|Tiger Lords]] waited in ambush atop sheer cliffs and loosed arrows upon the company below. They possessed all the confidence of warriors who had already died once and therefore believed the matter settled.
+In a vast cavern, skeletal [Tiger Lords](../../../Groups/Tiger%20Lords.md) waited in ambush atop sheer cliffs and loosed arrows upon the company below. They possessed all the confidence of warriors who had already died once and therefore believed the matter settled.
 
-[[Matteo]] handed [[Fitzroy]] a potion of flight, allowing him to rise alone and engage the dead on their own ledges. [[Seamus]] and Matteo climbed the cliff by less dignified means. [[Velka]] took to the air. Ally conjured a glowing staircase and walked upward as though stairs appearing over a chasm were perfectly ordinary. Antson remained below and calmly shot the skeletal archers until they ceased to be archers—or, for that matter, particularly recognizable skeletons.
+[Matteo](../Characters/Matteo.md) handed [Fitzroy](../Characters/Fitzroy.md) a potion of flight, allowing him to rise alone and engage the dead on their own ledges. [Seamus](../Characters/Seamus.md) and Matteo climbed the cliff by less dignified means. [Velka](../Characters/Velka/Velka.md) took to the air. Ally conjured a glowing staircase and walked upward as though stairs appearing over a chasm were perfectly ordinary. Antson remained below and calmly shot the skeletal archers until they ceased to be archers—or, for that matter, particularly recognizable skeletons.
 
 Beyond them waited Zorek, the tomb’s ancient guardian. He regarded the Tubthumpers with the weary disdain of someone who had watched generations of intruders repeat the same mistakes. Through Ally, who translated his ancient tongue, Zorek informed them that they were linguistically uncivilized, spiritually unqualified, and had completed only two of the tomb’s required trials.
 
@@ -63,11 +63,11 @@ The Tubthumpers recovered, prepared themselves, and returned. Zorek barred their
 
 He did not rely upon ritual or flowery speech. He named Armag for what he was: a desecrator who had come to carve his own legend into sacred stone. The others supported him, but Seamus carried the argument with conviction rather than ceremony.
 
-Zorek listened. At last he opened the way, but offered a final warning: many might enter the inner sanctum, yet only one would prove worthy to carry [[Artifacts and Relics/Ovinrbaane|Ovinrbaane]] out of the tomb.
+Zorek listened. At last he opened the way, but offered a final warning: many might enter the inner sanctum, yet only one would prove worthy to carry [Ovinrbaane](../../../Artifacts%20and%20Relics/Ovinrbaane.md) out of the tomb.
 
 This warning would soon acquire an uncomfortable significance.
 
-#### [[Armag the Twice-Born]]
+#### [Armag the Twice-Born](../NPCs/Armag%20the%20Twice-Born.md)
 
 Armag awaited them in the inner sanctum, towering over the corpses of his own companions. Whatever divine frenzy had seized him after he claimed Ovinrbaane, it had driven him to slaughter the very warriors who had followed him into the tomb. Blood ran from the warlord’s eyes and wept from the blade in his hands.
 
@@ -85,7 +85,7 @@ By any reasonable measure, the Tubthumpers had won.
 
 Reason had very little to do with what followed.
 
-Seamus looked upon the dead warlord, the murdered companions surrounding him, and the ruin Armag had inflicted upon [[Fort Drelev]] and everyone handed over to the Tiger Lords. Whatever restraint remained in him broke. He descended upon Armag’s corpse in a fury and hacked at the dead man long after there was any enemy left to punish.
+Seamus looked upon the dead warlord, the murdered companions surrounding him, and the ruin Armag had inflicted upon [Fort Drelev](../../../Locations/Inner%20Sea%20Region/River%20Kingdoms/Stolen%20Lands/Thumping%20Waters/Settlements/Fort%20Drelev/Fort%20Drelev.md) and everyone handed over to the Tiger Lords. Whatever restraint remained in him broke. He descended upon Armag’s corpse in a fury and hacked at the dead man long after there was any enemy left to punish.
 
 There was no spell in it, nor possession, nor ancient curse speaking through his mouth. Seamus was simply, terribly angry.
 
@@ -99,10 +99,10 @@ History loves heroes. It also loves costs. I suspect Armag’s Tomb has not yet 
 
 ## Session Gallery
 
-![[Session 45-01.webp]] ![[Session 45-02.webp]] ![[Session 45-03.webp]] ![[Session 45-04.webp]] ![[Session 45-06.webp]] ![[Session 45-07.webp]] ![[Session 45-08.webp]] ![[Session 45-09.webp]] ![[Session 45-10.webp]] ![[Session 45-13.webp]] ![[Session 45-14.webp]] ![[Session 45-15.webp]] ![[Session 45-16.webp]] ![[Session 45-17.webp]] ![[Session 45-18.webp]] ![[Session 45-19.webp]] ![[Session 45-20.webp]] ![[Session 45-21.webp]] ![[Session 45-22.webp]] ![[Session 45-23.webp]] ![[Session 45-24.webp]] ![[Session 45-25.webp]] ![[Session 45-26.webp]] ![[Session 45-27.webp]] ![[Session 45-28.webp]] ![[Session 45-29.webp]] ![[Session 45-30.webp]] ![[Session 45-31.webp]] ![[Session 45-32.webp]] ![[Session 45-33.webp]] ![[Session 45-34.webp]] ![[Session 45-35.webp]] ![[Session 45-36.webp]] ![[Session 45-37.webp]] ![[Session 45-38.webp]] ![[Session 45-39.webp]] ![[Session 45-40.webp]] ![[Session 45-41.webp]] ![[Session 45-42.webp]] ![[Session 45-43.webp]] ![[Session 45-44.webp]] ![[Session 45-45.webp]] ![[Session 45-46.webp]] ![[Session 45-47.webp]] ![[Session 45-48.webp]] ![[Session 45-49.webp]] ![[Session 45-50.webp]] ![[Session 45-51.webp]] ![[Session 45-52.webp]] ![[Session 45-53.webp]] ![[Session 45-54.webp]] ![[Session 45-55.webp]] ![[Session 45-56.webp]] ![[session-45-armag-s-tomb-raiders-57.webp]]
+![](../../../assets/images/screenshots/Session%2045%20-%20Armag%20S%20Tomb%20Raiders/Session%2045-01.webp) ![](../../../assets/images/screenshots/Session%2045%20-%20Armag%20S%20Tomb%20Raiders/Session%2045-02.webp) ![](../../../assets/images/screenshots/Session%2045%20-%20Armag%20S%20Tomb%20Raiders/Session%2045-03.webp) ![](../../../assets/images/screenshots/Session%2045%20-%20Armag%20S%20Tomb%20Raiders/Session%2045-04.webp) ![](../../../assets/images/screenshots/Session%2045%20-%20Armag%20S%20Tomb%20Raiders/Session%2045-06.webp) ![](../../../assets/images/screenshots/Session%2045%20-%20Armag%20S%20Tomb%20Raiders/Session%2045-07.webp) ![](../../../assets/images/screenshots/Session%2045%20-%20Armag%20S%20Tomb%20Raiders/Session%2045-08.webp) ![](../../../assets/images/screenshots/Session%2045%20-%20Armag%20S%20Tomb%20Raiders/Session%2045-09.webp) ![](../../../assets/images/screenshots/Session%2045%20-%20Armag%20S%20Tomb%20Raiders/Session%2045-10.webp) ![](../../../assets/images/screenshots/Session%2045%20-%20Armag%20S%20Tomb%20Raiders/Session%2045-13.webp) ![](../../../assets/images/screenshots/Session%2045%20-%20Armag%20S%20Tomb%20Raiders/Session%2045-14.webp) ![](../../../assets/images/screenshots/Session%2045%20-%20Armag%20S%20Tomb%20Raiders/Session%2045-15.webp) ![](../../../assets/images/screenshots/Session%2045%20-%20Armag%20S%20Tomb%20Raiders/Session%2045-16.webp) ![](../../../assets/images/screenshots/Session%2045%20-%20Armag%20S%20Tomb%20Raiders/Session%2045-17.webp) ![](../../../assets/images/screenshots/Session%2045%20-%20Armag%20S%20Tomb%20Raiders/Session%2045-18.webp) ![](../../../assets/images/screenshots/Session%2045%20-%20Armag%20S%20Tomb%20Raiders/Session%2045-19.webp) ![](../../../assets/images/screenshots/Session%2045%20-%20Armag%20S%20Tomb%20Raiders/Session%2045-20.webp) ![](../../../assets/images/screenshots/Session%2045%20-%20Armag%20S%20Tomb%20Raiders/Session%2045-21.webp) ![](../../../assets/images/screenshots/Session%2045%20-%20Armag%20S%20Tomb%20Raiders/Session%2045-22.webp) ![](../../../assets/images/screenshots/Session%2045%20-%20Armag%20S%20Tomb%20Raiders/Session%2045-23.webp) ![](../../../assets/images/screenshots/Session%2045%20-%20Armag%20S%20Tomb%20Raiders/Session%2045-24.webp) ![](../../../assets/images/screenshots/Session%2045%20-%20Armag%20S%20Tomb%20Raiders/Session%2045-25.webp) ![](../../../assets/images/screenshots/Session%2045%20-%20Armag%20S%20Tomb%20Raiders/Session%2045-26.webp) ![](../../../assets/images/screenshots/Session%2045%20-%20Armag%20S%20Tomb%20Raiders/Session%2045-27.webp) ![](../../../assets/images/screenshots/Session%2045%20-%20Armag%20S%20Tomb%20Raiders/Session%2045-28.webp) ![](../../../assets/images/screenshots/Session%2045%20-%20Armag%20S%20Tomb%20Raiders/Session%2045-29.webp) ![](../../../assets/images/screenshots/Session%2045%20-%20Armag%20S%20Tomb%20Raiders/Session%2045-30.webp) ![](../../../assets/images/screenshots/Session%2045%20-%20Armag%20S%20Tomb%20Raiders/Session%2045-31.webp) ![](../../../assets/images/screenshots/Session%2045%20-%20Armag%20S%20Tomb%20Raiders/Session%2045-32.webp) ![](../../../assets/images/screenshots/Session%2045%20-%20Armag%20S%20Tomb%20Raiders/Session%2045-33.webp) ![](../../../assets/images/screenshots/Session%2045%20-%20Armag%20S%20Tomb%20Raiders/Session%2045-34.webp) ![](../../../assets/images/screenshots/Session%2045%20-%20Armag%20S%20Tomb%20Raiders/Session%2045-35.webp) ![](../../../assets/images/screenshots/Session%2045%20-%20Armag%20S%20Tomb%20Raiders/Session%2045-36.webp) ![](../../../assets/images/screenshots/Session%2045%20-%20Armag%20S%20Tomb%20Raiders/Session%2045-37.webp) ![](../../../assets/images/screenshots/Session%2045%20-%20Armag%20S%20Tomb%20Raiders/Session%2045-38.webp) ![](../../../assets/images/screenshots/Session%2045%20-%20Armag%20S%20Tomb%20Raiders/Session%2045-39.webp) ![](../../../assets/images/screenshots/Session%2045%20-%20Armag%20S%20Tomb%20Raiders/Session%2045-40.webp) ![](../../../assets/images/screenshots/Session%2045%20-%20Armag%20S%20Tomb%20Raiders/Session%2045-41.webp) ![](../../../assets/images/screenshots/Session%2045%20-%20Armag%20S%20Tomb%20Raiders/Session%2045-42.webp) ![](../../../assets/images/screenshots/Session%2045%20-%20Armag%20S%20Tomb%20Raiders/Session%2045-43.webp) ![](../../../assets/images/screenshots/Session%2045%20-%20Armag%20S%20Tomb%20Raiders/Session%2045-44.webp) ![](../../../assets/images/screenshots/Session%2045%20-%20Armag%20S%20Tomb%20Raiders/Session%2045-45.webp) ![](../../../assets/images/screenshots/Session%2045%20-%20Armag%20S%20Tomb%20Raiders/Session%2045-46.webp) ![](../../../assets/images/screenshots/Session%2045%20-%20Armag%20S%20Tomb%20Raiders/Session%2045-47.webp) ![](../../../assets/images/screenshots/Session%2045%20-%20Armag%20S%20Tomb%20Raiders/Session%2045-48.webp) ![](../../../assets/images/screenshots/Session%2045%20-%20Armag%20S%20Tomb%20Raiders/Session%2045-49.webp) ![](../../../assets/images/screenshots/Session%2045%20-%20Armag%20S%20Tomb%20Raiders/Session%2045-50.webp) ![](../../../assets/images/screenshots/Session%2045%20-%20Armag%20S%20Tomb%20Raiders/Session%2045-51.webp) ![](../../../assets/images/screenshots/Session%2045%20-%20Armag%20S%20Tomb%20Raiders/Session%2045-52.webp) ![](../../../assets/images/screenshots/Session%2045%20-%20Armag%20S%20Tomb%20Raiders/Session%2045-53.webp) ![](../../../assets/images/screenshots/Session%2045%20-%20Armag%20S%20Tomb%20Raiders/Session%2045-54.webp) ![](../../../assets/images/screenshots/Session%2045%20-%20Armag%20S%20Tomb%20Raiders/Session%2045-55.webp) ![](../../../assets/images/screenshots/Session%2045%20-%20Armag%20S%20Tomb%20Raiders/Session%2045-56.webp) ![](../../../assets/images/screenshots/Session%2045%20-%20Armag%20S%20Tomb%20Raiders/session-45-armag-s-tomb-raiders-57.webp)
 <!-- session-gallery:end -->
 
 ## Article navigation
 
-**Previous:** [[Session 44- Blood Oaths and Broken Chains]]  
-**Next:** [[Session 46- The Cleansing Lie]]
+**Previous:** [Session 44- Blood Oaths and Broken Chains](Session%2044-%20Blood%20Oaths%20and%20Broken%20Chains.md)  
+**Next:** [Session 46- The Cleansing Lie](Session%2046-%20The%20Cleansing%20Lie.md)

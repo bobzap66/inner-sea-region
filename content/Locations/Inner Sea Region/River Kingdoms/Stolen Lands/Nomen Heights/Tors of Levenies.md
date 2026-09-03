@@ -10,7 +10,7 @@ parent: "[[Locations/Inner Sea Region/River Kingdoms/Stolen Lands/Nomen Heights|
 
 ### The Tors of Levenies
 
-Rising from the northern [[Locations/Inner Sea Region/River Kingdoms/Stolen Lands/Greenbelt/Kamelands|Kamelands]] like the shattered bones of the world, the Tors of Levenies dominate the horizon—a jagged wall of stone thrust skyward by forgotten cataclysm. From afar they gleam pale and silent in the sun; up close, they are a realm of cliffs, mist, and echoes, where the wind moans like an ancient voice remembering its grief. Few who venture into the Tors return unchanged.
+Rising from the northern [Kamelands](../Greenbelt/Kamelands/Kamelands.md) like the shattered bones of the world, the Tors of Levenies dominate the horizon—a jagged wall of stone thrust skyward by forgotten cataclysm. From afar they gleam pale and silent in the sun; up close, they are a realm of cliffs, mist, and echoes, where the wind moans like an ancient voice remembering its grief. Few who venture into the Tors return unchanged.
 
 #### Geography
 
@@ -22,11 +22,11 @@ The tallest and most famous of the Tors is **Talon Peak**, a needle of black sto
 
 #### The Valley of the Dead
 
-Southeast of Talon Peak lies the **Valley of the Dead**, a bleak gorge steeped in fog and silence. The valley floor is carpeted with bones—some human, some centaur, and some belonging to creatures long extinct. The cliffs that hem it in are carved with the faint outlines of gigantic faces, their eyes hollow and weeping streaks of mineral-stained water. The air tastes of iron and old curses. No animal will enter, and travelers report hearing whispers that echo their own heartbeats. The [[Groups/Nomen Centaurs|Nomen Centaurs]] say the valley is cursed ground, the place where an ancient war ended and the dead were swallowed whole by the earth.
+Southeast of Talon Peak lies the **Valley of the Dead**, a bleak gorge steeped in fog and silence. The valley floor is carpeted with bones—some human, some centaur, and some belonging to creatures long extinct. The cliffs that hem it in are carved with the faint outlines of gigantic faces, their eyes hollow and weeping streaks of mineral-stained water. The air tastes of iron and old curses. No animal will enter, and travelers report hearing whispers that echo their own heartbeats. The [Nomen Centaurs](../../../../../Groups/Nomen%20Centaurs.md) say the valley is cursed ground, the place where an ancient war ended and the dead were swallowed whole by the earth.
 
 #### Vordakai’s Tomb
 
-Directly west of the Valley of the Dead rises one of the most haunting sights in all the [[Stolen Lands]]: a solitary island at the center of a dark lake, crowned by a **six-hundred-foot column of stone**. This monolithic spire, called **Vordakai’s Spire**, is no natural formation. Its entire height has been hollowed and carved into a single cyclopean tomb—the final resting place of the lich-lord **Vordakai**, last remnant of the ancient cyclops empire that once ruled these lands.
+Directly west of the Valley of the Dead rises one of the most haunting sights in all the [Stolen Lands](../Stolen%20Lands.md): a solitary island at the center of a dark lake, crowned by a **six-hundred-foot column of stone**. This monolithic spire, called **Vordakai’s Spire**, is no natural formation. Its entire height has been hollowed and carved into a single cyclopean tomb—the final resting place of the lich-lord **Vordakai**, last remnant of the ancient cyclops empire that once ruled these lands.
 
 Within those towering walls, the Tubthumpers uncovered a labyrinth of petrified bodies, undead sentinels, and chambers fit for giants. Here they learned the grim fate of Varnhold, whose souls the lich had stolen to rebuild his kingdom. Deep within the column’s heart, the heroes of Thumping Waters confronted Vordakai himself and ended his centuries-long slumber in a battle that shook the mountain. Their victory freed the people of Varnhold and sealed the lich’s power beneath stone once more.
 

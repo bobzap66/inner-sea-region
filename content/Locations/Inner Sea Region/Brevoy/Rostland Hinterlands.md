@@ -10,7 +10,7 @@ parent: "[[Brevoy]]"
 
 ### The Rostland Hinterlands
 
-Stretching south from the heartlands of [[Brevoy]], the Rostland Hinterlands are a sea of windswept grass and scattered copses—a frontier too wild for the plow but too tame for legend. This rolling expanse marks the northernmost reaches of the [[Stolen Lands]], where civilization fades into rumor and the open sky swallows the horizon. Though the land technically lies beyond Brevoy’s borders, its fate has always been tied to that of the kingdom above it.
+Stretching south from the heartlands of [Brevoy](Brevoy.md), the Rostland Hinterlands are a sea of windswept grass and scattered copses—a frontier too wild for the plow but too tame for legend. This rolling expanse marks the northernmost reaches of the [Stolen Lands](../River%20Kingdoms/Stolen%20Lands/Stolen%20Lands.md), where civilization fades into rumor and the open sky swallows the horizon. Though the land technically lies beyond Brevoy’s borders, its fate has always been tied to that of the kingdom above it.
 
 #### Geography and Character
 
@@ -22,7 +22,7 @@ To the west, the South Rostland Road cuts a meandering scar across the landscape
 
 For centuries, Brevoy’s nobles spoke of “taming” the southern frontier, but few had the courage—or the coin—to do it. The Hinterlands became a buffer zone: too close to tax, too far to govern. Scattered farming communities sprang up along the road, hardy folk who owed no fealty but to survival. Banditry was never rampant here; the land simply offered too little wealth to be worth stealing. Instead, travelers feared the storms, the wolves, and the silence.
 
-That changed with the arrival of the charters. When the Swordlords of [[Restov]] commissioned explorers to settle the Stolen Lands, the Rostland Hinterlands became the launch point for those expeditions. From these plains rode the Tubthumpers, who would go on to found the Republic of Thumping Waters and forever alter the balance of power in the [[River Kingdoms]]. Their first camps, their first roads, and their first battles all began amid these quiet hills.
+That changed with the arrival of the charters. When the Swordlords of [Restov](Restov.md) commissioned explorers to settle the Stolen Lands, the Rostland Hinterlands became the launch point for those expeditions. From these plains rode the Tubthumpers, who would go on to found the Republic of Thumping Waters and forever alter the balance of power in the [River Kingdoms](../River%20Kingdoms/River%20Kingdoms.md). Their first camps, their first roads, and their first battles all began amid these quiet hills.
 
 #### The South Rostland Road
 
@@ -32,7 +32,7 @@ Patrols from both Brevoy and Thumping Waters now share responsibility for the ro
 
 #### Modern Role
 
-Today, the Rostland Hinterlands serve as the northern gateway to the Republic of Thumping Waters and the first taste of freedom for travelers leaving Brevoy’s rule. Fortified waystations and small trade posts dot the old road, offering shelter and news to those bound for the [[Locations/Inner Sea Region/River Kingdoms/Stolen Lands/Greenbelt|Greenbelt]] and beyond. For most citizens of the republic, the name “Hinterlands” carries a certain reverence—it was the last frontier before the frontier, the place where civilization ended and the dream of Thumping Waters began.
+Today, the Rostland Hinterlands serve as the northern gateway to the Republic of Thumping Waters and the first taste of freedom for travelers leaving Brevoy’s rule. Fortified waystations and small trade posts dot the old road, offering shelter and news to those bound for the [Greenbelt](../River%20Kingdoms/Stolen%20Lands/Greenbelt/Greenbelt.md) and beyond. For most citizens of the republic, the name “Hinterlands” carries a certain reverence—it was the last frontier before the frontier, the place where civilization ended and the dream of Thumping Waters began.
 
 The wind still blows the same way it always has across the grasslands, but the banners along the road have changed. Once, it was the red sword of Restov; now, it is the blue star of the Republic, rising over the hills that once marked the edge of the world.
 
@@ -42,6 +42,6 @@ The wind still blows the same way it always has across the grasslands, but the b
   
 Oleg's Trading Post
   
-[[Bokken]]
+[Bokken](../../../Campaigns/Kingmaker/NPCs/Bokken.md)
 
 ---

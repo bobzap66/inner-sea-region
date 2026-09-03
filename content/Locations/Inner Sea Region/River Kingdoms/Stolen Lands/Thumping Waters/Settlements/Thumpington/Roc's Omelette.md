@@ -9,7 +9,7 @@ parent: "[[Thumpington]]"
 ---
 # Roc's Omelette
 
-![[roc-s-omelette-portrait.png]]
+![](../../../../../../../assets/images/roc-s-omelette-portrait.png)
 
 *Compiled by Sella Copperclaw, Trade and Civic Affairs Correspondent, with records supplied by the Ministry of Communication and interviews with Jamery Gerbasken*
 

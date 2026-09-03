@@ -7,4 +7,4 @@ category_path:
 # Surprise Party
 
 
-![[surprise-party-image-01.webp]]
+![](../../../assets/images/surprise-party-image-01.webp)

@@ -11,7 +11,7 @@ category_path:
 
   
 
-The shrine sat where the marsh surrendered its grip for a moment, a scrap of high ground the river hadn’t bullied under. The stone had been there long before the settlement took root—a rounded block of river rock, streaked with silt and old patience. Someone, a few years ago or maybe a lifetime, had scratched the outline of a rat into one side. The carving wasn’t skilled, but it was honest, and that was usually enough for [[Hanspur]].
+The shrine sat where the marsh surrendered its grip for a moment, a scrap of high ground the river hadn’t bullied under. The stone had been there long before the settlement took root—a rounded block of river rock, streaked with silt and old patience. Someone, a few years ago or maybe a lifetime, had scratched the outline of a rat into one side. The carving wasn’t skilled, but it was honest, and that was usually enough for [Hanspur](../../../../Rules/Deities/Hanspur.md).
 
   
 
@@ -79,7 +79,7 @@ The river had spoken once. Asking again felt like presuming on a god’s patienc
 
   
 
-![[the-stone-rat-stone-rat.png]]
+![](../../../../assets/images/the-stone-rat-stone-rat.png)
 
 ## General Details
 

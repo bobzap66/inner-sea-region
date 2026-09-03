@@ -8,10 +8,10 @@ cover: "assets/world-anvil/shared-cover-32ff100f6011.png"
 
 # Morlibint’s Dossier: Wisps, Fog, and Dreams
 
-![[shared-cover-32ff100f6011.png]]
+![](../../../../assets/images/shared-cover-32ff100f6011.png)
 
 > [!side]
-> :   ![[morlibints-dossier-wisps-fog-and-dreams-image-01.jpeg]]
+> :   ![](../../../../assets/images/morlibints-dossier-wisps-fog-and-dreams-image-01.jpeg)
 >
 >     by ChatGPT
 
@@ -31,5 +31,5 @@ There is proof she made the environment such entities find appealing.
 
   
 
-[[Morlibint's Dossier- The Farm|Morlibint's Dossier: The Farm]]
+[Morlibint's Dossier: The Farm](Morlibint%27s%20Dossier-%20The%20Farm.md)
 

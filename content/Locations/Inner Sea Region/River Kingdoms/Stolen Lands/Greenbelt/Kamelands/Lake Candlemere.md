@@ -8,17 +8,17 @@ parent: "[[Locations/Inner Sea Region/River Kingdoms/Stolen Lands/Greenbelt/Kame
 ---
 # Lake Candlemere
 
-![[shared-cover-8a1bfbff37cb.png]]
+![](../../../../../../assets/images/shared-cover-8a1bfbff37cb.png)
 
-Lake Candlemere is one of the most haunting landmarks in the [[Stolen Lands]]. Its cold waters surround a mist-shrouded island crowned by the remains of an ancient stone tower. Pale lights drift above the lake after dark, giving the impression of candles moving across black glass and lending the place its modern name.
+Lake Candlemere is one of the most haunting landmarks in the [Stolen Lands](../../Stolen%20Lands.md). Its cold waters surround a mist-shrouded island crowned by the remains of an ancient stone tower. Pale lights drift above the lake after dark, giving the impression of candles moving across black glass and lending the place its modern name.
 
 The beauty is genuine. So is the danger.
 
 #### Geography
 
-Candlemere lies along the western edge of the [[Locations/Inner Sea Region/River Kingdoms/Stolen Lands/Greenbelt/Kamelands/Kamelands|Kamelands]], between the [[Locations/Inner Sea Region/River Kingdoms/Stolen Lands/Greenbelt/Narlmarches|Narlmarches]] and the [[Locations/Inner Sea Region/River Kingdoms/Stolen Lands/Greenbelt/Kamelands/Tuskwater/Tuskwater|Tuskwater]] basin. The Murque River passes nearby to the west, while waterways connect the lake with the broader river system that eventually feeds the Shrike and the Sellen.
+Candlemere lies along the western edge of the [Kamelands](Kamelands.md), between the [Narlmarches](../Narlmarches.md) and the [Tuskwater](Tuskwater/Tuskwater.md) basin. The Murque River passes nearby to the west, while waterways connect the lake with the broader river system that eventually feeds the Shrike and the Sellen.
 
-Willow, alder, reeds, and thick grasses crowd much of the shoreline. In warmer months, the lake reflects the surrounding green and gold beneath the trees. Autumn turns those [[Reflections]] crimson and amber. During the coldest winters, portions of the surface freeze dark and smooth beneath the stars.
+Willow, alder, reeds, and thick grasses crowd much of the shoreline. In warmer months, the lake reflects the surrounding green and gold beneath the trees. Autumn turns those [Reflections](../../../../../../Campaigns/Abomination%20Vaults/Vignettes%20-%20Abomination%20Vaults/Reflections.md) crimson and amber. During the coldest winters, portions of the surface freeze dark and smooth beneath the stars.
 
 Fishermen have long claimed that Candlemere has no bottom. Soundings contradict that story, but not always consistently, and those who have descended into its deeper reaches describe water that becomes unnaturally cold and disorienting. Shapes seen beneath the surface are usually dismissed as fish, submerged branches, or reflections distorted by the current. Usually.
 
@@ -44,7 +44,7 @@ The Thresholders built an extensive underground complex beneath the tower. The t
 
 > We are those who stand at the threshold.
 
-The cult’s kidnappings and sacrifices eventually drew the attention of ancient worshippers of [[Pharasma]]. The Pharasmins assaulted the complex and drove the Thresholders into its lower chambers. Realizing that the cult was more numerous and deeply entrenched than expected, they sealed the passage with an immense magical ward bearing Pharasma’s spiral comet.
+The cult’s kidnappings and sacrifices eventually drew the attention of ancient worshippers of [Pharasma](../../../../../../Rules/Deities/Pharasma.md). The Pharasmins assaulted the complex and drove the Thresholders into its lower chambers. Realizing that the cult was more numerous and deeply entrenched than expected, they sealed the passage with an immense magical ward bearing Pharasma’s spiral comet.
 
 Some records identify a Pharasma-aligned figure named Korog in connection with the assault. Foras and Korog are occasionally described as brothers, although the surviving accounts are fragmentary and do not agree on every detail.
 
@@ -52,11 +52,11 @@ The Pharasmins understood that completing the seal would trap some of their own 
 
 #### The Tubthumpers’ First Expedition
 
-The Tubthumpers first crossed Candlemere on makeshift rafts on 15 Erastus, 4710 AR. A shambler attacked them near the island’s unfinished pier and nearly killed [[Mairi]]. After resting, the company climbed to the tower and encountered a will-o’-wisp amid the ruins. Ally and [[Seamus]] ultimately destroyed it, despite the creature’s invisibility and resistance to magic.
+The Tubthumpers first crossed Candlemere on makeshift rafts on 15 Erastus, 4710 AR. A shambler attacked them near the island’s unfinished pier and nearly killed [Mairi](../../../../../../Campaigns/Kingmaker/Characters/Mairi.md). After resting, the company climbed to the tower and encountered a will-o’-wisp amid the ruins. Ally and [Seamus](../../../../../../Campaigns/Kingmaker/Characters/Seamus.md) ultimately destroyed it, despite the creature’s invisibility and resistance to magic.
 
 The company then descended beneath the tower. There they found silver coins from the Age of Destiny, the Thresholders’ Aklo inscription, and scorch marks left by enormously powerful magic during the ancient battle. Deeper exploration revealed a statue of Yog-Sothoth built from hollow stone spheres, several of which burned like braziers when the construct animated to attack.
 
-The surviving halls also contained restless shadows and two gibbering mouthers. One of the mouthers engulfed [[Connal]] and nearly killed him before the company destroyed the creatures.
+The surviving halls also contained restless shadows and two gibbering mouthers. One of the mouthers engulfed [Connal](../../../../../../Campaigns/Kingmaker/Characters/Animal%20Companions/Connal.md) and nearly killed him before the company destroyed the creatures.
 
 Beyond them lay the Spiral Seal of Pharasma. The ward prevented further exploration, resisted damage, and repaired itself when disturbed. The Tubthumpers recovered a ring bearing Pharasma’s symbol and withdrew with the understanding that whatever waited below would have to remain a problem for considerably more experienced heroes.
 
@@ -68,15 +68,15 @@ Later research confirmed that the Spiral Seal blocks both physical and dimension
 
 Documents taken from King Irovetti reveal that he also studied Candlemere. He believed that a powerful potential ally was imprisoned beneath the island. Whether he understood the nature of that prisoner is unclear, but his interest is sufficient reason for caution.
 
-The leshy called Lurk has since warned the Council of Thumping Waters that the seal is failing and must be repaired before the arrival of the [[Wild Hunt]]. No independent examination has confirmed that the seal is deteriorating. For the moment, its failure remains a serious possibility based upon Lurk’s warning rather than an established fact.
+The leshy called Lurk has since warned the Council of Thumping Waters that the seal is failing and must be repaired before the arrival of the [Wild Hunt](../../../../../../Campaigns/Kingmaker/Vignettes%20-%20Kingmaker/Intelligence%20Reports/Wild%20Hunt.md). No independent examination has confirmed that the seal is deteriorating. For the moment, its failure remains a serious possibility based upon Lurk’s warning rather than an established fact.
 
 Whether the Wild Hunt has any connection to the seal or the Thresholders also remains unknown.
 
 #### Candlemere Studies
 
-The [[Free University of Thumping Waters]] has established Candlemere Studies as a continuing project of the College of Letters and Public Record, with magical and religious review supplied by the College of the Four Traditions. The project compares expedition reports, inscriptions, Pharasmian doctrine, government records, and material recovered from the accessible ruins while clearly distinguishing observation from reconstruction.
+The [Free University of Thumping Waters](../../Thumping%20Waters/Settlements/Thumpington/Free%20University%20of%20Thumping%20Waters.md) has established Candlemere Studies as a continuing project of the College of Letters and Public Record, with magical and religious review supplied by the College of the Four Traditions. The project compares expedition reports, inscriptions, Pharasmian doctrine, government records, and material recovered from the accessible ruins while clearly distinguishing observation from reconstruction.
 
-Its first public paper, *[[The Last Guardian]]*, was prepared by [[Roald Celinnas]] as a narrative reconstruction of Korog's possible role in the ancient assault and the creation of the Spiral Seal. The paper does not claim to preserve Korog's private words or thoughts. Its dialogue and characterization are conjectural, while its treatment of known events, graveknight armor, psychopomps, and deliberate undeath is presented with separate scholarly notes and review.
+Its first public paper, *[The Last Guardian](../../../../../../Campaigns/Kingmaker/Vignettes%20-%20Kingmaker/The%20Last%20Guardian.md)*, was prepared by [Roald Celinnas](../../../../../../Campaigns/Kingmaker/NPCs/Roald%20Celinnas.md) as a narrative reconstruction of Korog's possible role in the ancient assault and the creation of the Spiral Seal. The paper does not claim to preserve Korog's private words or thoughts. Its dialogue and characterization are conjectural, while its treatment of known events, graveknight armor, psychopomps, and deliberate undeath is presented with separate scholarly notes and review.
 
 #### Modern Candlemere
 
@@ -88,4 +88,4 @@ Fishing and ordinary travel continue around much of the lake, although sensible 
 
 Stories along the lakeshore claim that Candlemere’s waters change with the seasons: lucky in spring, clarifying in summer, prophetic in autumn, and maddening in winter. No controlled study has verified these qualities. This has not prevented bold, desperate, or intoxicated visitors from testing them.
 
-Other traditions advise travelers never to count the lights aloud, never to answer a voice coming from beneath the boat, and never to follow a candle that casts no reflection. The [[Ministry of Magic]] has issued no official opinion on the first two customs. It strongly endorses the third.
+Other traditions advise travelers never to count the lights aloud, never to answer a voice coming from beneath the boat, and never to follow a candle that casts no reflection. The [Ministry of Magic](../../Thumping%20Waters/Ruling%20Council/Ministry%20of%20Magic.md) has issued no official opinion on the first two customs. It strongly endorses the third.

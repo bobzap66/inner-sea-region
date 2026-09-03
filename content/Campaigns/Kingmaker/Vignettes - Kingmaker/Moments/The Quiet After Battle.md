@@ -8,7 +8,7 @@ category_path:
 
 
 > [!side]
-> :   ![[the-quiet-after-battle-image-01.png]]
+> :   ![](../../../../assets/images/the-quiet-after-battle-image-01.png)
 
 The smoke had thinned by the time High Marshal Valerie rode across the fields outside Willowfen.
 

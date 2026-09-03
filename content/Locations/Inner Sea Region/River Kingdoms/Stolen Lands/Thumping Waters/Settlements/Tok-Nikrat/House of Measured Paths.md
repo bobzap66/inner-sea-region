@@ -9,7 +9,7 @@ parent: "[[Tok-Nikrat]]"
 ---
 # House of Measured Paths
 
-![[house-of-measured-paths-portrait.png]]
+![](../../../../../../../assets/images/house-of-measured-paths-portrait.png)
 
 *Compiled by Ilyana Reeds, Lecturer in Navigation and Applied Cartography, College of Roads and Rivers, Free University of Thumping Waters, with the cooperation of Tok-Tekt, Ka-Kekt, the pathkeepers of Tok-Nikrat, and residents of the Whispering Step*
 

@@ -9,7 +9,7 @@ parent: "[[Thumpington]]"
 ---
 # Temple of the First Light
 
-![[temple-of-the-first-light-portrait.png]]
+![](../../../../../../../assets/images/temple-of-the-first-light-portrait.png)
 
 *Compiled by the College of Letters and Public Record, Free University of Thumping Waters, with the cooperation of the clergy of First Light*
 

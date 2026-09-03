@@ -21,12 +21,12 @@ parent: "[[River Kingdoms]]"
 > Government
 > :   Autocratic diarchy with static Uringen
 
-An enigma among the settlements of the [[River Kingdoms]], Uringen lies in the eastern regions of the country near the Embeth Forest. The settlement seems to exist in two realms, part of it "static" in reality, the other "unstuck"—disappearing and reappearing with the mists its inhabitants speaking Skald, a language not spoken in the [[River Kingdoms]] for ages.  
+An enigma among the settlements of the [River Kingdoms](River%20Kingdoms.md), Uringen lies in the eastern regions of the country near the Embeth Forest. The settlement seems to exist in two realms, part of it "static" in reality, the other "unstuck"—disappearing and reappearing with the mists its inhabitants speaking Skald, a language not spoken in the [River Kingdoms](River%20Kingdoms.md) for ages.  
 Most outside the town theorize that the town is under some sort of foul magic or evil spell, but the true source of its strange behavior is a malfunctioning time-altering magical clocktower at the town's center that warped a third of the town to a pocket dimension between the Universe and the First World. The frequency of this phasing seems to be increasing, leading many in town to worry that it is moving closer to the First World.
 
 ### Economy
 
-While the swampy lands around the town makes for poor farming, and despite its relative isolation from the world, Uringen's reputation still makes it a wealthy trading hub for products of the [[River Kingdoms]], such as Cordelon oil. It also has a thriving alchemical market due to its proximity to rare marshland flora in the Embeth Forest, particularly for impressive concoctions made from local nightmoss that aid healing and sometimes even strengthen their imbiber. The town is also one of Daggermark's suppliers of poison ingredients.  
+While the swampy lands around the town makes for poor farming, and despite its relative isolation from the world, Uringen's reputation still makes it a wealthy trading hub for products of the [River Kingdoms](River%20Kingdoms.md), such as Cordelon oil. It also has a thriving alchemical market due to its proximity to rare marshland flora in the Embeth Forest, particularly for impressive concoctions made from local nightmoss that aid healing and sometimes even strengthen their imbiber. The town is also one of Daggermark's suppliers of poison ingredients.  
 The town's lack of arable land forces it to import and preserve hearty vegetables and grain, goods it easily can pay for thanks to its famed alchemical production. The forests and swamps also provide plenty of fresh game.
 
 ### Government
@@ -35,7 +35,7 @@ With the town often split in two, it has two mayors: Lady Aurelia Ogden represen
 
 ### Geography
 
-Surrounded by the dense, fey-infested Embeth Forest, Uringen sits in a low marsh crossed by creeks and Sellen River tributaries. While politically surrounded by [[Mivon]], Gralton, [[Pitax]], Numeria, and Galt, its geographic isolation has shielded it from raids and conquest; indeed, even most friendly travelers avoid passing through. The forest's woodsmen can guide prospective traders to the town but refuse to enter it.  
+Surrounded by the dense, fey-infested Embeth Forest, Uringen sits in a low marsh crossed by creeks and Sellen River tributaries. While politically surrounded by [Mivon](Mivon.md), Gralton, [Pitax](Stolen%20Lands/Thumping%20Waters/Settlements/Pitax/Pitax.md), Numeria, and Galt, its geographic isolation has shielded it from raids and conquest; indeed, even most friendly travelers avoid passing through. The forest's woodsmen can guide prospective traders to the town but refuse to enter it.  
 The town itself is built on an ancient fey circle, with roads leading out in four cardinal directions from a clock tower in a large central public square.4 When the central, unstuck third of the town vanishes, it leaves behind a seemingly empty field that the town's static residents have roped off to prevent accidents should it suddenly reappear. Residents trapped in the unstuck part of town can attempt to leave but find that all roads seemingly lead in a circle back to town.
 
 #### Locations

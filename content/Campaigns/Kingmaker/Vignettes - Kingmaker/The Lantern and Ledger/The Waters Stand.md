@@ -7,10 +7,10 @@ cover: "assets/world-anvil/shared-cover-110a4fd3e759.png"
 
 # The Waters Stand
 
-![[shared-cover-110a4fd3e759.png]]
+![](../../../../assets/images/shared-cover-110a4fd3e759.png)
 
 > [!side]
-> :   ![[the-waters-stand-image-01.png]]
+> :   ![](../../../../assets/images/the-waters-stand-image-01.png)
 >
 > ---
 >

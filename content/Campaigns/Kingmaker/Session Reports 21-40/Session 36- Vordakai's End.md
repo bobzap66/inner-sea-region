@@ -8,12 +8,12 @@ cover: "assets/world-anvil/shared-cover-8a1bfbff37cb.png"
 
 # Session 36: Vordakai's End
 
-![[shared-cover-8a1bfbff37cb.png]]
+![](../../../assets/images/shared-cover-8a1bfbff37cb.png)
 
 > [!side]
-> :   ![[session-36-vordakai-s-end-16.webp]]
+> :   ![](../../../assets/images/screenshots/Session%2036%20-%20Vordakai%20S%20End/session-36-vordakai-s-end-16.webp)
 >
->     ![[assets/world-anvil/screenshots/Session 36 - Vordakai S End/session-36-vordakai-s-end-17.webp]]
+>     ![](../../../assets/images/screenshots/Session%2036%20-%20Vordakai%20S%20End/session-36-vordakai-s-end-17.webp)
 >
 >
 > ---
@@ -100,10 +100,10 @@ That seems the better use of memory.
 
 ## Session Gallery
 
-![[Session 36-01.webp]] ![[Session 36-02.webp]] ![[Session 36-03.webp]] ![[Session 36-04.webp]] ![[Session 36-05.webp]] ![[Session 36-06.webp]] ![[Session 36-07.webp]] ![[Session 36-08.webp]] ![[Session 36-09.webp]] ![[Session 36-10.webp]] ![[Session 36-11.webp]] ![[Session 36-12.webp]] ![[Session 36-13.webp]] ![[Session 36-14.webp]] ![[Session 36-15.webp]] ![[session-36-vordakai-s-end-16.webp]] ![[session-36-vordakai-s-end-17.webp]] ![[Ant and the Eye.webp]] ![[Dragonflies.webp]]
+![](../../../assets/images/screenshots/Session%2036%20-%20Vordakai%20S%20End/Session%2036-01.webp) ![](../../../assets/images/screenshots/Session%2036%20-%20Vordakai%20S%20End/Session%2036-02.webp) ![](../../../assets/images/screenshots/Session%2036%20-%20Vordakai%20S%20End/Session%2036-03.webp) ![](../../../assets/images/screenshots/Session%2036%20-%20Vordakai%20S%20End/Session%2036-04.webp) ![](../../../assets/images/screenshots/Session%2036%20-%20Vordakai%20S%20End/Session%2036-05.webp) ![](../../../assets/images/screenshots/Session%2036%20-%20Vordakai%20S%20End/Session%2036-06.webp) ![](../../../assets/images/screenshots/Session%2036%20-%20Vordakai%20S%20End/Session%2036-07.webp) ![](../../../assets/images/screenshots/Session%2036%20-%20Vordakai%20S%20End/Session%2036-08.webp) ![](../../../assets/images/screenshots/Session%2036%20-%20Vordakai%20S%20End/Session%2036-09.webp) ![](../../../assets/images/screenshots/Session%2036%20-%20Vordakai%20S%20End/Session%2036-10.webp) ![](../../../assets/images/screenshots/Session%2036%20-%20Vordakai%20S%20End/Session%2036-11.webp) ![](../../../assets/images/screenshots/Session%2036%20-%20Vordakai%20S%20End/Session%2036-12.webp) ![](../../../assets/images/screenshots/Session%2036%20-%20Vordakai%20S%20End/Session%2036-13.webp) ![](../../../assets/images/screenshots/Session%2036%20-%20Vordakai%20S%20End/Session%2036-14.webp) ![](../../../assets/images/screenshots/Session%2036%20-%20Vordakai%20S%20End/Session%2036-15.webp) ![](../../../assets/images/screenshots/Session%2036%20-%20Vordakai%20S%20End/session-36-vordakai-s-end-16.webp) ![](../../../assets/images/screenshots/Session%2036%20-%20Vordakai%20S%20End/session-36-vordakai-s-end-17.webp) ![](../../../assets/images/screenshots/Session%2036%20-%20Vordakai%20S%20End/Ant%20and%20the%20Eye.webp) ![](../../../assets/images/screenshots/Session%2036%20-%20Vordakai%20S%20End/Dragonflies.webp)
 <!-- session-gallery:end -->
 
 ## Article navigation
 
-**Previous:** [[Session 35- Into Vordakai's Tomb]]  
-**Next:** [[Session 37- A Year of Peace]]
+**Previous:** [Session 35- Into Vordakai's Tomb](Session%2035-%20Into%20Vordakai%27s%20Tomb.md)  
+**Next:** [Session 37- A Year of Peace](Session%2037-%20A%20Year%20of%20Peace.md)

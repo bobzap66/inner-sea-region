@@ -8,7 +8,7 @@ category_path:
 
 
 > [!side]
-> :   ![[the-stillness-beneath-whiterose-evindra.png]]
+> :   ![](../../../../assets/images/the-stillness-beneath-whiterose-evindra.png)
 
 Evindra did not speak at first. Even freed, she lingered close to the water—touching it, shaping it, as if testing that it would not close around her again. When she finally began, her voice was low and steady, but not calm. “It was a good place,” she said, with quiet certainty. “The priests were not perfect—few mortals are—but they were kind. They knew enough to respect what they did not understand. They came to me only when they must, once each year when their brewing began. We shared knowledge, nothing more. It was… balanced. I chose to reveal myself to them. That was my decision.”
 

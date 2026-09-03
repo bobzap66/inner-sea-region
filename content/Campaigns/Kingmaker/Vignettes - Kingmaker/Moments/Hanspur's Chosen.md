@@ -8,7 +8,7 @@ category_path:
 
 
 > [!side]
-> :   ![[hanspur-s-chosen-image-01.png]]
+> :   ![](../../../../assets/images/hanspur-s-chosen-image-01.png)
 
 As Boris Petrinski stands upon the wooden docks of Longtail Island, he quickly realizes that most of his audience is not human. The Iruxi, the island’s lizardfolk inhabitants, watch him with cold, unblinking eyes, their scaled forms gleaming in the humid air. Some crouch in the shallows, their tails flicking idly in the brackish water, while others perch atop wooden walkways and stilted huts, listening in silence.
 

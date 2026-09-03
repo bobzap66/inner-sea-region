@@ -8,13 +8,13 @@ category_path:
 
 
 > [!side]
-> :   ![[otari-sleeps-uneasily-image-01.png]]
+> :   ![](../../../assets/images/otari-sleeps-uneasily-image-01.png)
 
-### [[Otari]]
+### [Otari](../../../Locations/Inner%20Sea%20Region/Otari.md)
 
   
 
-The tide rolled in black and slow, as if the sea itself were reluctant to touch [[Otari]]’s shore. Lanterns burned later than usual along the docks—thin flames trembling in the salt-wet wind. The fishermen couldn’t explain why they lingered, only that the water felt… wrong. Not dangerous—just wrong in that quiet, familiar way that sets a person’s teeth on edge.
+The tide rolled in black and slow, as if the sea itself were reluctant to touch [Otari](../../../Locations/Inner%20Sea%20Region/Otari.md)’s shore. Lanterns burned later than usual along the docks—thin flames trembling in the salt-wet wind. The fishermen couldn’t explain why they lingered, only that the water felt… wrong. Not dangerous—just wrong in that quiet, familiar way that sets a person’s teeth on edge.
 
   
 

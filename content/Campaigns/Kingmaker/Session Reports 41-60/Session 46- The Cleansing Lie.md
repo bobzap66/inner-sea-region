@@ -8,26 +8,26 @@ cover: "assets/world-anvil/shared-cover-8a1bfbff37cb.png"
 
 # Session 46: The Cleansing Lie
 
-![[shared-cover-8a1bfbff37cb.png]]
+![](../../../assets/images/shared-cover-8a1bfbff37cb.png)
 
 > [!side]
-> :   ![[session-46-the-cleansing-lie-32.webp]]
+> :   ![](../../../assets/images/screenshots/Session%2046%20-%20The%20Cleansing%20Lie/session-46-the-cleansing-lie-32.webp)
 >
 > ---
 >
 > <!-- session-gallery:start -->
 
-### From [[Linzi]]’s Journal
+### From [Linzi](../NPCs/Linzi.md)’s Journal
 
 *An account of events in late Calistril, 4714 AR, reconstructed from the testimony of those present*
 
-[[Armag the Twice-Born]] is dead. History will argue about the meaning of that for generations, but the practical result is simple enough: he has stopped killing people, and the land is quieter for it. Those who faced him describe the victory as difficult, ugly, and exhausting—none of which will survive the first bard who becomes careless with adjectives.
+[Armag the Twice-Born](../NPCs/Armag%20the%20Twice-Born.md) is dead. History will argue about the meaning of that for generations, but the practical result is simple enough: he has stopped killing people, and the land is quieter for it. Those who faced him describe the victory as difficult, ugly, and exhausting—none of which will survive the first bard who becomes careless with adjectives.
 
 The difficulty with ending a legend is that one must then decide what to do with everything it leaves behind.
 
 #### The Sword That Offers Solutions
 
-Armag’s Tomb yielded wealth, relics, and the sword [[Artifacts and Relics/Ovinrbaane|Ovinrbaane]]. [[Velka]] claimed the blade and accepted responsibility for carrying it from the tomb. No one present seems to believe this will prove a temporary arrangement.
+Armag’s Tomb yielded wealth, relics, and the sword [Ovinrbaane](../../../Artifacts%20and%20Relics/Ovinrbaane.md). [Velka](../Characters/Velka/Velka.md) claimed the blade and accepted responsibility for carrying it from the tomb. No one present seems to believe this will prove a temporary arrangement.
 
 Ovinrbaane does not rant or howl. It offers solutions. This detail appears in every account without embellishment, which makes it considerably more unsettling.
 
@@ -41,21 +41,21 @@ Having delivered this exceptionally inconvenient information, Zorek crumbled int
 
 #### Eight Legs Apiece
 
-The Tubthumpers left the tomb with [[Tamary Numesti]] and the other rescued nobles. The road back toward civilization offered them very little opportunity to enjoy their victory.
+The Tubthumpers left the tomb with [Tamary Numesti](../NPCs/Tamary%20Numesti.md) and the other rescued nobles. The road back toward civilization offered them very little opportunity to enjoy their victory.
 
 A pack of aurumvoraxes ambushed the company: low, gold-furred predators with eight powerful legs, terrible jaws, and an impressive unwillingness to die. Their persistence is mentioned in every retelling with something approaching personal resentment.
 
 Velka raised a Blessed Sanctuary around the rescued nobles, surrounding them with holy protection while the others fought. One aurumvorax forced its way through regardless. The sanctuary punished the creature for violating its protection, but pain did not deter it. It crossed the barrier, reached one of the noblewomen, and killed her inside the place meant to keep her safe.
 
-Velka answered death before it could finish claiming the woman, calling her back with a Breath of Life. The battle remained perilously close. Both Velka and [[Seamus]] were nearly killed before the final aurumvorax fell. One noblewoman had died and returned within the space of a few heartbeats; the others survived within the sanctuary. The company endured through equal parts skill, stubbornness, and refusal to entertain the alternative.
+Velka answered death before it could finish claiming the woman, calling her back with a Breath of Life. The battle remained perilously close. Both Velka and [Seamus](../Characters/Seamus.md) were nearly killed before the final aurumvorax fell. One noblewoman had died and returned within the space of a few heartbeats; the others survived within the sanctuary. The company endured through equal parts skill, stubbornness, and refusal to entertain the alternative.
 
-Afterward, Ally decided that ordinary travel had become needlessly hazardous. She carried the entire company partly through the Netherworld by means of an Umbral Journey. They delivered Tamary and the others safely to [[Fort Drelev]], then returned to [[Thumpington]] with alarming speed.
+Afterward, Ally decided that ordinary travel had become needlessly hazardous. She carried the entire company partly through the Netherworld by means of an Umbral Journey. They delivered Tamary and the others safely to [Fort Drelev](../../../Locations/Inner%20Sea%20Region/River%20Kingdoms/Stolen%20Lands/Thumping%20Waters/Settlements/Fort%20Drelev/Fort%20Drelev.md), then returned to [Thumpington](../../../Locations/Inner%20Sea%20Region/River%20Kingdoms/Stolen%20Lands/Thumping%20Waters/Settlements/Thumpington/Thumpington.md) with alarming speed.
 
 That speed proved necessary.
 
 #### The Cleansing Lie
 
-[[Tristian]] met them with news of a new terror spreading through the kingdom. Rumor claimed that the rulers of Thumping Waters carried a curse, and that loyalty to the republic brought unnatural aging, wasting, and death.
+[Tristian](../NPCs/Tristian.md) met them with news of a new terror spreading through the kingdom. Rumor claimed that the rulers of Thumping Waters carried a curse, and that loyalty to the republic brought unnatural aging, wasting, and death.
 
 The claims were being spread by a movement calling itself the Kingdom of the Cleansed. Its teachers preached that government was spiritual bondage, loyalty was corruption, and freedom could be achieved only by severing oneself from all authority. Conveniently, the sole protection against the curse they described was obedience to them.
 
@@ -87,10 +87,10 @@ Thumping Waters has survived monsters, tyrants, and the dead. Now it must surviv
 
 ## Session Gallery
 
-![[Session 46-01.webp]] ![[Session 46-02.webp]] ![[Session 46-03.webp]] ![[Session 46-04.webp]] ![[Session 46-05.webp]] ![[Session 46-06.webp]] ![[Session 46-07.webp]] ![[Session 46-08.webp]] ![[Session 46-09.webp]] ![[Session 46-10.webp]] ![[Session 46-11.webp]] ![[Session 46-12.webp]] ![[Session 46-13.webp]] ![[Session 46-14.webp]] ![[Session 46-15.webp]] ![[Session 46-16.webp]] ![[Session 46-17.webp]] ![[Session 46-18.webp]] ![[Session 46-19.webp]] ![[Session 46-20.webp]] ![[Session 46-21.webp]] ![[Session 46-22.webp]] ![[Session 46-23.webp]] ![[Session 46-24.webp]] ![[Session 46-25.webp]] ![[Session 46-26.webp]] ![[Session 46-27.webp]] ![[Session 46-28.webp]] ![[Session 46-29.webp]] ![[Session 46-30.webp]] ![[Session 46-31.webp]] ![[session-46-the-cleansing-lie-32.webp]]
+![](../../../assets/images/screenshots/Session%2046%20-%20The%20Cleansing%20Lie/Session%2046-01.webp) ![](../../../assets/images/screenshots/Session%2046%20-%20The%20Cleansing%20Lie/Session%2046-02.webp) ![](../../../assets/images/screenshots/Session%2046%20-%20The%20Cleansing%20Lie/Session%2046-03.webp) ![](../../../assets/images/screenshots/Session%2046%20-%20The%20Cleansing%20Lie/Session%2046-04.webp) ![](../../../assets/images/screenshots/Session%2046%20-%20The%20Cleansing%20Lie/Session%2046-05.webp) ![](../../../assets/images/screenshots/Session%2046%20-%20The%20Cleansing%20Lie/Session%2046-06.webp) ![](../../../assets/images/screenshots/Session%2046%20-%20The%20Cleansing%20Lie/Session%2046-07.webp) ![](../../../assets/images/screenshots/Session%2046%20-%20The%20Cleansing%20Lie/Session%2046-08.webp) ![](../../../assets/images/screenshots/Session%2046%20-%20The%20Cleansing%20Lie/Session%2046-09.webp) ![](../../../assets/images/screenshots/Session%2046%20-%20The%20Cleansing%20Lie/Session%2046-10.webp) ![](../../../assets/images/screenshots/Session%2046%20-%20The%20Cleansing%20Lie/Session%2046-11.webp) ![](../../../assets/images/screenshots/Session%2046%20-%20The%20Cleansing%20Lie/Session%2046-12.webp) ![](../../../assets/images/screenshots/Session%2046%20-%20The%20Cleansing%20Lie/Session%2046-13.webp) ![](../../../assets/images/screenshots/Session%2046%20-%20The%20Cleansing%20Lie/Session%2046-14.webp) ![](../../../assets/images/screenshots/Session%2046%20-%20The%20Cleansing%20Lie/Session%2046-15.webp) ![](../../../assets/images/screenshots/Session%2046%20-%20The%20Cleansing%20Lie/Session%2046-16.webp) ![](../../../assets/images/screenshots/Session%2046%20-%20The%20Cleansing%20Lie/Session%2046-17.webp) ![](../../../assets/images/screenshots/Session%2046%20-%20The%20Cleansing%20Lie/Session%2046-18.webp) ![](../../../assets/images/screenshots/Session%2046%20-%20The%20Cleansing%20Lie/Session%2046-19.webp) ![](../../../assets/images/screenshots/Session%2046%20-%20The%20Cleansing%20Lie/Session%2046-20.webp) ![](../../../assets/images/screenshots/Session%2046%20-%20The%20Cleansing%20Lie/Session%2046-21.webp) ![](../../../assets/images/screenshots/Session%2046%20-%20The%20Cleansing%20Lie/Session%2046-22.webp) ![](../../../assets/images/screenshots/Session%2046%20-%20The%20Cleansing%20Lie/Session%2046-23.webp) ![](../../../assets/images/screenshots/Session%2046%20-%20The%20Cleansing%20Lie/Session%2046-24.webp) ![](../../../assets/images/screenshots/Session%2046%20-%20The%20Cleansing%20Lie/Session%2046-25.webp) ![](../../../assets/images/screenshots/Session%2046%20-%20The%20Cleansing%20Lie/Session%2046-26.webp) ![](../../../assets/images/screenshots/Session%2046%20-%20The%20Cleansing%20Lie/Session%2046-27.webp) ![](../../../assets/images/screenshots/Session%2046%20-%20The%20Cleansing%20Lie/Session%2046-28.webp) ![](../../../assets/images/screenshots/Session%2046%20-%20The%20Cleansing%20Lie/Session%2046-29.webp) ![](../../../assets/images/screenshots/Session%2046%20-%20The%20Cleansing%20Lie/Session%2046-30.webp) ![](../../../assets/images/screenshots/Session%2046%20-%20The%20Cleansing%20Lie/Session%2046-31.webp) ![](../../../assets/images/screenshots/Session%2046%20-%20The%20Cleansing%20Lie/session-46-the-cleansing-lie-32.webp)
 <!-- session-gallery:end -->
 
 ## Article navigation
 
-**Previous:** [[Session 45- Armag's Tomb Raiders]]  
-**Next:** [[Session 47- Faithful's End and Expansion]]
+**Previous:** [Session 45- Armag's Tomb Raiders](Session%2045-%20Armag%27s%20Tomb%20Raiders.md)  
+**Next:** [Session 47- Faithful's End and Expansion](Session%2047-%20Faithful%27s%20End%20and%20Expansion.md)

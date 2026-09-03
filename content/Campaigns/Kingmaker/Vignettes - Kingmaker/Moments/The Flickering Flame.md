@@ -8,7 +8,7 @@ category_path:
 
 
 > [!side]
-> :   ![[the-flickering-flame-image-01.png]]
+> :   ![](../../../../assets/images/the-flickering-flame-image-01.png)
 
 One night in her tower, Ally sat at her desk with parchment spread before her, shaping a lesson plan for her small circle of students. Her pink hair caught the glow of the candle at her side, its light shimmering faintly in the quiet of the study. Misty, her orange-furred companion, perched on the desk nearby, watching with unblinking curiosity.
 

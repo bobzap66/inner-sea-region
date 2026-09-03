@@ -8,7 +8,7 @@ category_path:
 
 
 > [!side]
-> :   ![[the-only-one-listening-image-01.png]]
+> :   ![](../../../assets/images/the-only-one-listening-image-01.png)
 
 Urthagul sat in the hush beneath the stone, the cavern breathing around him in slow, patient sighs. The whispers curled through the air like warm smoke, threading themselves into his thoughts, promising vastness, promising union, promising that the long waiting meant something. He did not resist them. They were the only voices that did not fade.
 

@@ -8,29 +8,29 @@ cover: "assets/world-anvil/shared-cover-8a1bfbff37cb.png"
 
 # Session 39: The Fall of Talon Peak
 
-![[shared-cover-8a1bfbff37cb.png]]
+![](../../../assets/images/shared-cover-8a1bfbff37cb.png)
 
 > [!side]
-> :   ![[session-39-the-fall-of-talon-peak-37.webp]]
+> :   ![](../../../assets/images/screenshots/Session%2039%20-%20The%20Fall%20of%20Talon%20Peak/session-39-the-fall-of-talon-peak-37.webp)
 >
 >
 > ---
 >
 > <!-- session-gallery:start -->
 
-### From [[Linzi]]’s Journal
+### From [Linzi](../NPCs/Linzi.md)’s Journal
 
 *An account of events surrounding the Talon Peak expedition, from 17 Abadius until approximately 31 Abadius, 4714 AR, reconstructed from the testimony of those present*
 
-The road home from M’botuu offered one final reminder that [[Locations/Inner Sea Region/River Kingdoms/Stolen Lands/Hooktongue Slough|Hooktongue Slough]] does not surrender its dead merely because the living have finished with them. Three bog mummies clawed their way from the mire and lurched toward the Tubthumpers, streaming black water and carrying the swamp’s accumulated perfume with them.
+The road home from M’botuu offered one final reminder that [Hooktongue Slough](../../../Locations/Inner%20Sea%20Region/River%20Kingdoms/Stolen%20Lands/Hooktongue%20Slough/Hooktongue%20Slough.md) does not surrender its dead merely because the living have finished with them. Three bog mummies clawed their way from the mire and lurched toward the Tubthumpers, streaming black water and carrying the swamp’s accumulated perfume with them.
 
 The creatures brought with them a drowning curse capable of filling a living person’s lungs with water. Fortunately, they were more alarming than difficult. The party cut them down, and the bodies returned to the mud with considerably less ceremony than they had used in leaving it.
 
 After weeks of boggards, nagas, restless dead, and disagreements with the local wildlife, the Tubthumpers returned to the work for which no sword is sufficiently sharp: governing.
 
-The following months were busy ones. Roads pushed farther through the republic, shops and inns opened their doors, and new houses rose where maps had once shown only wilderness. [[Tok-Nikrat]] was drawn more securely into the realm, its people connected to their neighbors without being asked to surrender what made their home their own. Trade reached toward distant Kyonin and Artume, and the republic’s settlements grew wealthier and more confident.
+The following months were busy ones. Roads pushed farther through the republic, shops and inns opened their doors, and new houses rose where maps had once shown only wilderness. [Tok-Nikrat](../../../Locations/Inner%20Sea%20Region/River%20Kingdoms/Stolen%20Lands/Thumping%20Waters/Settlements/Tok-Nikrat/Tok-Nikrat.md) was drawn more securely into the realm, its people connected to their neighbors without being asked to surrender what made their home their own. Trade reached toward distant Kyonin and Artume, and the republic’s settlements grew wealthier and more confident.
 
-Not every difficulty could be solved with stone and lumber. [[Mairi]] and [[Seamus]] worked to ease quarrels between the goblins and their new neighbors. That peace required patience, listening, and the occasional firm reminder that citizenship carries obligations in both directions. By all accounts, Mairi supplied the firmness and Seamus supplied enough words for both of them.
+Not every difficulty could be solved with stone and lumber. [Mairi](../Characters/Mairi.md) and [Seamus](../Characters/Seamus.md) worked to ease quarrels between the goblins and their new neighbors. That peace required patience, listening, and the occasional firm reminder that citizenship carries obligations in both directions. By all accounts, Mairi supplied the firmness and Seamus supplied enough words for both of them.
 
 I spent much of that time pursuing a project of my own. A proper printing press remained just beyond reach, but each craftsman consulted, each mechanism examined, and each coin set aside brought it nearer. Someday these accounts will not need to be copied one page at a time. I find the thought almost indecently exciting.
 
@@ -42,7 +42,7 @@ They reached the peak on the twenty-first. Wind tore across the summit, and the 
 
 A roc is not merely a large bird. It is a storm with feathers, talons large enough to close around a person, and the disconcerting habit of treating armed adventurers as portable meals.
 
-It struck before the Tubthumpers could secure the nest. [[Matteo]] and [[Ant]] were snatched up and carried into the sky. I am told that the sight of Ant dangling from those talons was especially alarming, though his size may have made him somewhat easier for the roc to manage.
+It struck before the Tubthumpers could secure the nest. [Matteo](../Characters/Matteo.md) and [Ant](../Characters/Ant.md) were snatched up and carried into the sky. I am told that the sight of Ant dangling from those talons was especially alarming, though his size may have made him somewhat easier for the roc to manage.
 
 Ally and Mairi took to the air after it while Seamus fought from the broken tower below. The battle scattered itself across open sky, crumbling stone, and the narrow summit. Spells flashed through the clouds. Steel struck feather and flesh. The roc climbed, wheeled, and tore at anyone reckless enough to come within reach.
 
@@ -64,7 +64,7 @@ The egg reached the republic intact and became the centerpiece of an omelet comp
 
 It may be the first time in our history that knocking something out of the sky directly improved the hospitality industry.
 
-Further administration followed. A mansion rose in [[Thumpington]], roads continued to spread, and new agreements bound the republic to friends beyond its borders. Then, with the government temporarily less likely to collapse in their absence, the Tubthumpers returned to Hooktongue Slough.
+Further administration followed. A mansion rose in [Thumpington](../../../Locations/Inner%20Sea%20Region/River%20Kingdoms/Stolen%20Lands/Thumping%20Waters/Settlements/Thumpington/Thumpington.md), roads continued to spread, and new agreements bound the republic to friends beyond its borders. Then, with the government temporarily less likely to collapse in their absence, the Tubthumpers returned to Hooktongue Slough.
 
 They first examined a region known as the Sinking Bog. The place proved to be a treacherous expanse of quicksand and slime, entirely unsuitable for construction. The surveyors’ recommendation can be summarized as follows: do not build there.
 
@@ -88,10 +88,10 @@ Those historians have never met the Tubthumpers.
 
 ## Session Gallery
 
-![[Session 39-01.webp]] ![[Session 39-02.webp]] ![[Session 39-03.webp]] ![[Session 39-04.webp]] ![[Session 39-05.webp]] ![[Session 39-06.webp]] ![[Session 39-07.webp]] ![[Session 39-08.webp]] ![[Session 39-09.webp]] ![[Session 39-10.webp]] ![[Session 39-11.webp]] ![[Session 39-12.webp]] ![[Session 39-13.webp]] ![[Session 39-14.webp]] ![[Session 39-15.webp]] ![[Session 39-16.webp]] ![[Session 39-17.webp]] ![[Session 39-18.webp]] ![[Session 39-19.webp]] ![[Session 39-20.webp]] ![[Session 39-21.webp]] ![[Session 39-22.webp]] ![[Session 39-23.webp]] ![[Session 39-24.webp]] ![[Session 39-25.webp]] ![[Session 39-26.webp]] ![[Session 39-27.webp]] ![[Session 39-28.webp]] ![[Session 39-29.webp]] ![[Session 39-30.webp]] ![[Session 39-31.webp]] ![[Session 39-32.webp]] ![[Session 39-33.webp]] ![[Session 39-34.webp]] ![[Session 39-35.webp]] ![[Session 39-36.webp]] ![[session-39-the-fall-of-talon-peak-37.webp]]
+![](../../../assets/images/screenshots/Session%2039%20-%20The%20Fall%20of%20Talon%20Peak/Session%2039-01.webp) ![](../../../assets/images/screenshots/Session%2039%20-%20The%20Fall%20of%20Talon%20Peak/Session%2039-02.webp) ![](../../../assets/images/screenshots/Session%2039%20-%20The%20Fall%20of%20Talon%20Peak/Session%2039-03.webp) ![](../../../assets/images/screenshots/Session%2039%20-%20The%20Fall%20of%20Talon%20Peak/Session%2039-04.webp) ![](../../../assets/images/screenshots/Session%2039%20-%20The%20Fall%20of%20Talon%20Peak/Session%2039-05.webp) ![](../../../assets/images/screenshots/Session%2039%20-%20The%20Fall%20of%20Talon%20Peak/Session%2039-06.webp) ![](../../../assets/images/screenshots/Session%2039%20-%20The%20Fall%20of%20Talon%20Peak/Session%2039-07.webp) ![](../../../assets/images/screenshots/Session%2039%20-%20The%20Fall%20of%20Talon%20Peak/Session%2039-08.webp) ![](../../../assets/images/screenshots/Session%2039%20-%20The%20Fall%20of%20Talon%20Peak/Session%2039-09.webp) ![](../../../assets/images/screenshots/Session%2039%20-%20The%20Fall%20of%20Talon%20Peak/Session%2039-10.webp) ![](../../../assets/images/screenshots/Session%2039%20-%20The%20Fall%20of%20Talon%20Peak/Session%2039-11.webp) ![](../../../assets/images/screenshots/Session%2039%20-%20The%20Fall%20of%20Talon%20Peak/Session%2039-12.webp) ![](../../../assets/images/screenshots/Session%2039%20-%20The%20Fall%20of%20Talon%20Peak/Session%2039-13.webp) ![](../../../assets/images/screenshots/Session%2039%20-%20The%20Fall%20of%20Talon%20Peak/Session%2039-14.webp) ![](../../../assets/images/screenshots/Session%2039%20-%20The%20Fall%20of%20Talon%20Peak/Session%2039-15.webp) ![](../../../assets/images/screenshots/Session%2039%20-%20The%20Fall%20of%20Talon%20Peak/Session%2039-16.webp) ![](../../../assets/images/screenshots/Session%2039%20-%20The%20Fall%20of%20Talon%20Peak/Session%2039-17.webp) ![](../../../assets/images/screenshots/Session%2039%20-%20The%20Fall%20of%20Talon%20Peak/Session%2039-18.webp) ![](../../../assets/images/screenshots/Session%2039%20-%20The%20Fall%20of%20Talon%20Peak/Session%2039-19.webp) ![](../../../assets/images/screenshots/Session%2039%20-%20The%20Fall%20of%20Talon%20Peak/Session%2039-20.webp) ![](../../../assets/images/screenshots/Session%2039%20-%20The%20Fall%20of%20Talon%20Peak/Session%2039-21.webp) ![](../../../assets/images/screenshots/Session%2039%20-%20The%20Fall%20of%20Talon%20Peak/Session%2039-22.webp) ![](../../../assets/images/screenshots/Session%2039%20-%20The%20Fall%20of%20Talon%20Peak/Session%2039-23.webp) ![](../../../assets/images/screenshots/Session%2039%20-%20The%20Fall%20of%20Talon%20Peak/Session%2039-24.webp) ![](../../../assets/images/screenshots/Session%2039%20-%20The%20Fall%20of%20Talon%20Peak/Session%2039-25.webp) ![](../../../assets/images/screenshots/Session%2039%20-%20The%20Fall%20of%20Talon%20Peak/Session%2039-26.webp) ![](../../../assets/images/screenshots/Session%2039%20-%20The%20Fall%20of%20Talon%20Peak/Session%2039-27.webp) ![](../../../assets/images/screenshots/Session%2039%20-%20The%20Fall%20of%20Talon%20Peak/Session%2039-28.webp) ![](../../../assets/images/screenshots/Session%2039%20-%20The%20Fall%20of%20Talon%20Peak/Session%2039-29.webp) ![](../../../assets/images/screenshots/Session%2039%20-%20The%20Fall%20of%20Talon%20Peak/Session%2039-30.webp) ![](../../../assets/images/screenshots/Session%2039%20-%20The%20Fall%20of%20Talon%20Peak/Session%2039-31.webp) ![](../../../assets/images/screenshots/Session%2039%20-%20The%20Fall%20of%20Talon%20Peak/Session%2039-32.webp) ![](../../../assets/images/screenshots/Session%2039%20-%20The%20Fall%20of%20Talon%20Peak/Session%2039-33.webp) ![](../../../assets/images/screenshots/Session%2039%20-%20The%20Fall%20of%20Talon%20Peak/Session%2039-34.webp) ![](../../../assets/images/screenshots/Session%2039%20-%20The%20Fall%20of%20Talon%20Peak/Session%2039-35.webp) ![](../../../assets/images/screenshots/Session%2039%20-%20The%20Fall%20of%20Talon%20Peak/Session%2039-36.webp) ![](../../../assets/images/screenshots/Session%2039%20-%20The%20Fall%20of%20Talon%20Peak/session-39-the-fall-of-talon-peak-37.webp)
 <!-- session-gallery:end -->
 
 ## Article navigation
 
-**Previous:** [[Session 38- The Fall of M'botuu]]  
-**Next:** [[Session 40- Back into the Slough]]
+**Previous:** [Session 38- The Fall of M'botuu](Session%2038-%20The%20Fall%20of%20M%27botuu.md)  
+**Next:** [Session 40- Back into the Slough](Session%2040-%20Back%20into%20the%20Slough.md)

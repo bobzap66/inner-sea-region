@@ -8,10 +8,10 @@ cover: "assets/world-anvil/shared-cover-32ff100f6011.png"
 
 # Morlibint's Dossier: The Farm Redux
 
-![[shared-cover-32ff100f6011.png]]
+![](../../../../assets/images/shared-cover-32ff100f6011.png)
 
 > [!side]
-> :   ![[morlibint-s-dossier-the-farm-redux-image-01.png]]
+> :   ![](../../../../assets/images/morlibint-s-dossier-the-farm-redux-image-01.png)
 
 *Extract from the Morlibint Dossier*
 

@@ -65,7 +65,7 @@ Alchemy Laboratory, General Store, Housing, Mill, Brewery, Inn, Granary, Smithy,
 
 ## History
 
-Originally just a frontier outpost, Oleg's Trading Post was the first settlement founded after [[Thumpington]].
+Originally just a frontier outpost, Oleg's Trading Post was the first settlement founded after [Thumpington](../Thumpington/Thumpington.md).
 
 ---
 

@@ -7,10 +7,10 @@ cover: "assets/world-anvil/shared-cover-5d0935703bb5.png"
 
 # Pitaxian Allies Crush Republican Advance
 
-![[shared-cover-5d0935703bb5.png]]
+![](../../../../assets/images/shared-cover-5d0935703bb5.png)
 
 > [!side]
-> :   ![[pitaxian-allies-crush-republican-advance-image-01.png]]
+> :   ![](../../../../assets/images/pitaxian-allies-crush-republican-advance-image-01.png)
 
 # The Pitax Gazette
 

@@ -8,10 +8,10 @@ cover: "assets/world-anvil/shared-cover-110a4fd3e759.png"
 
 # Session 60: The Years Between
 
-![[shared-cover-110a4fd3e759.png]]
+![](../../../assets/images/shared-cover-110a4fd3e759.png)
 
 > [!side]
-> :   ![[session-60-the-years-between-16.webp]]
+> :   ![](../../../assets/images/screenshots/Session%2060%20-%20The%20Years%20Between/session-60-the-years-between-16.webp)
 >
 > ---
 >
@@ -77,7 +77,7 @@ cover: "assets/world-anvil/shared-cover-110a4fd3e759.png"
 >
 > Reports collected in the weeks following this encounter indicate that fey throughout the Republic have begun withdrawing customary warnings, guidance, shelter, and other informal assistance from mortal travelers. No coordinated campaign has been identified, but several deaths may already have resulted from this change in behavior.
 >
-> **[[Concerning Recent Fey Activity Within the Republic|Read the Supplemental Intelligence Report: Recent Fey Activity Within the Republic]]**
+> **[Read the Supplemental Intelligence Report: Recent Fey Activity Within the Republic](../Vignettes%20-%20Kingmaker/Intelligence%20Reports/Concerning%20Recent%20Fey%20Activity%20Within%20the%20Republic.md)**
 >
 > #### Fitzroy, Ovinrbaane, and Brevoy
 >
@@ -135,7 +135,7 @@ cover: "assets/world-anvil/shared-cover-110a4fd3e759.png"
 >
 > ---
 >
-> ![[session-60-the-years-between-crazy-akbar.png]]
+> ![](../../../assets/images/session-60-the-years-between-crazy-akbar.png)
 >
 > *Paid advertisement. Discounts offered by Crazy Akbar’s Adventurer’s Supply may change during the conversation. Readers are advised to confirm the final price before surrendering any coin.*
 >
@@ -225,7 +225,7 @@ Velka officiated the wedding according to the river imagery of Hanspur. She spok
 
 Ally delivered a toast on behalf of the government and the friends who had watched the couple’s story unfold. Seamus, in turn, used part of the celebration to recognize Linzi not only as his bride, but as the chronicler whose work has preserved the Republic’s history from its beginning.
 
-![[session-60-the-years-between-17.webp]]
+![](../../../assets/images/screenshots/Session%2060%20-%20The%20Years%20Between/session-60-the-years-between-17.webp)
 
 *Seamus and Linzi exchange vows before Velka, priestess of Hanspur.*
 
@@ -279,7 +279,7 @@ The sword had been pursued by a malevolent ghost and burdened by a spirit that c
 
 Afterward, Mairi searched for Amiri, the surviving Six Bears, and the Tiger Lords, but found no certain trace of them. She brought the cleansed sword back to Thumpington and placed it above the mantle in her home.
 
-![[session-60-the-years-between-18.webp]]
+![](../../../assets/images/screenshots/Session%2060%20-%20The%20Years%20Between/session-60-the-years-between-18.webp)
 
 *Mairi lays Amiri’s sword to rest following her return from Sevenarches.*
 
@@ -331,7 +331,7 @@ Fitzroy served the Republic through war, expansion, and some of the most dangero
 
 At Fitzroy’s recommendation, Ekundayo has assumed the office of Minister of Defense.
 
-![[session-60-the-years-between-19.webp]]
+![](../../../assets/images/screenshots/Session%2060%20-%20The%20Years%20Between/session-60-the-years-between-19.webp)
 
 *Ekundayo assumes the duties of Minister of Defense following Fitzroy Fulgrim III’s resignation.*
 
@@ -383,10 +383,10 @@ The Lantern and Ledger • Abadius 4 Edition • Printed in Thumpington
 
 ## Session Gallery
 
-![[8d342ff5-a743-4a11-9c8a-62c19bdb37f0.webp]] ![[Session 60-01.webp]] ![[Session 60-02.webp]] ![[Session 60-03.webp]] ![[Session 60-04.webp]] ![[Session 60-05.webp]] ![[Session 60-06.webp]] ![[Session 60-07.webp]] ![[Session 60-08.webp]] ![[Session 60-09.webp]] ![[Session 60-10.webp]] ![[Session 60-11.webp]] ![[Session 60-12.webp]] ![[Session 60-13.webp]] ![[Session 60-14.webp]] ![[Session 60-15.webp]] ![[session-60-the-years-between-16.webp]] ![[Session 60-17.webp]] ![[session-60-the-years-between-17.webp]] ![[session-60-the-years-between-18.webp]] ![[session-60-the-years-between-19.webp]] ![[3712c670-e581-44b8-9531-3f8f58a52f9d.webp]] ![[assets/images/screenshots/Session 60 - The Years Between/Ally.webp]] ![[assets/images/screenshots/Session 60 - The Years Between/Ant.webp]] ![[Elowyn - original blue vestments.webp]] ![[assets/images/screenshots/Session 60 - The Years Between/Elowyn.webp]] ![[Fitz.webp]] ![[Matteo.webp]] ![[assets/images/screenshots/Session 60 - The Years Between/Seamus.webp]]
+![](../../../assets/images/screenshots/Session%2060%20-%20The%20Years%20Between/8d342ff5-a743-4a11-9c8a-62c19bdb37f0.webp) ![](../../../assets/images/screenshots/Session%2060%20-%20The%20Years%20Between/Session%2060-01.webp) ![](../../../assets/images/screenshots/Session%2060%20-%20The%20Years%20Between/Session%2060-02.webp) ![](../../../assets/images/screenshots/Session%2060%20-%20The%20Years%20Between/Session%2060-03.webp) ![](../../../assets/images/screenshots/Session%2060%20-%20The%20Years%20Between/Session%2060-04.webp) ![](../../../assets/images/screenshots/Session%2060%20-%20The%20Years%20Between/Session%2060-05.webp) ![](../../../assets/images/screenshots/Session%2060%20-%20The%20Years%20Between/Session%2060-06.webp) ![](../../../assets/images/screenshots/Session%2060%20-%20The%20Years%20Between/Session%2060-07.webp) ![](../../../assets/images/screenshots/Session%2060%20-%20The%20Years%20Between/Session%2060-08.webp) ![](../../../assets/images/screenshots/Session%2060%20-%20The%20Years%20Between/Session%2060-09.webp) ![](../../../assets/images/screenshots/Session%2060%20-%20The%20Years%20Between/Session%2060-10.webp) ![](../../../assets/images/screenshots/Session%2060%20-%20The%20Years%20Between/Session%2060-11.webp) ![](../../../assets/images/screenshots/Session%2060%20-%20The%20Years%20Between/Session%2060-12.webp) ![](../../../assets/images/screenshots/Session%2060%20-%20The%20Years%20Between/Session%2060-13.webp) ![](../../../assets/images/screenshots/Session%2060%20-%20The%20Years%20Between/Session%2060-14.webp) ![](../../../assets/images/screenshots/Session%2060%20-%20The%20Years%20Between/Session%2060-15.webp) ![](../../../assets/images/screenshots/Session%2060%20-%20The%20Years%20Between/session-60-the-years-between-16.webp) ![](../../../assets/images/screenshots/Session%2060%20-%20The%20Years%20Between/Session%2060-17.webp) ![](../../../assets/images/screenshots/Session%2060%20-%20The%20Years%20Between/session-60-the-years-between-17.webp) ![](../../../assets/images/screenshots/Session%2060%20-%20The%20Years%20Between/session-60-the-years-between-18.webp) ![](../../../assets/images/screenshots/Session%2060%20-%20The%20Years%20Between/session-60-the-years-between-19.webp) ![](../../../assets/images/screenshots/Session%2060%20-%20The%20Years%20Between/3712c670-e581-44b8-9531-3f8f58a52f9d.webp) ![](../../../assets/images/screenshots/Session%2060%20-%20The%20Years%20Between/Ally.webp) ![](../../../assets/images/screenshots/Session%2060%20-%20The%20Years%20Between/Ant.webp) ![](../../../assets/images/screenshots/Session%2060%20-%20The%20Years%20Between/Elowyn%20-%20original%20blue%20vestments.webp) ![](../../../assets/images/screenshots/Session%2060%20-%20The%20Years%20Between/Elowyn.webp) ![](../../../assets/images/screenshots/Session%2060%20-%20The%20Years%20Between/Fitz.webp) ![](../../../assets/images/screenshots/Session%2060%20-%20The%20Years%20Between/Matteo.webp) ![](../../../assets/images/screenshots/Session%2060%20-%20The%20Years%20Between/Seamus.webp)
 <!-- session-gallery:end -->
 
 ## Article navigation
 
-**Previous:** [[Session 59- There Is No Reyoknar]]  
-**Next:** [[Session 61- Breaking the Seal]]
+**Previous:** [Session 59- There Is No Reyoknar](Session%2059-%20There%20Is%20No%20Reyoknar.md)  
+**Next:** [Session 61- Breaking the Seal](../Session%20Reports%2061-80/Session%2061-%20Breaking%20the%20Seal.md)

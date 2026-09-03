@@ -9,7 +9,7 @@ category_path:
 
 
 > [!side]
-> :   ![[oculus-of-abaddon.png]]
+> :   ![](../assets/images/oculus-of-abaddon.png)
 >
 >     by ChatGPT
 

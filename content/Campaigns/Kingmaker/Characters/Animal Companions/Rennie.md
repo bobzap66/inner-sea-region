@@ -8,6 +8,6 @@ portrait: "assets/world-anvil/rennie-portrait.png"
 
 # Rennie
 
-![[rennie-portrait.png]]
+![](../../../../assets/images/rennie-portrait.png)
 
 Connell's puppy

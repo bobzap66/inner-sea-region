@@ -9,27 +9,27 @@ cover: "assets/world-anvil/shared-cover-ee82cf8c9a07.png"
 
 # Wild Hunt Council Briefing
 
-![[shared-cover-ee82cf8c9a07.png]]
+![](../../../../assets/images/shared-cover-ee82cf8c9a07.png)
 
 ## Council Intelligence Briefing
 
-**Subject:** [[Wild Hunt]] Activity and Deteriorating Fey Relations
+**Subject:** [Wild Hunt](Wild%20Hunt.md) Activity and Deteriorating Fey Relations
 
-**Prepared by:** [[Linzi]], Minister of Communication
+**Prepared by:** [Linzi](../../NPCs/Linzi.md), Minister of Communication
 
-**Distribution:** Prime Minister and Council of [[Thumping Waters]]
+**Distribution:** Prime Minister and Council of [Thumping Waters](../../../../Locations/Inner%20Sea%20Region/River%20Kingdoms/Stolen%20Lands/Thumping%20Waters/Thumping%20Waters.md)
 
 **Classification:** Council Eyes Only
 
 ### Summary Judgment
 
-Wild Hunt scouts have crossed into the [[Stolen Lands]] on at least two confirmed occasions. Their statements indicate preparation for a larger Hunt, but we possess no confirmed date, leader, route, or target. A warning delivered by the leshy calling himself Lurk claims that the Hunt is imminent and that the seal beneath [[Candlemere]] is failing. Neither claim has been independently confirmed.
+Wild Hunt scouts have crossed into the [Stolen Lands](../../../../Locations/Inner%20Sea%20Region/River%20Kingdoms/Stolen%20Lands/Stolen%20Lands.md) on at least two confirmed occasions. Their statements indicate preparation for a larger Hunt, but we possess no confirmed date, leader, route, or target. A warning delivered by the leshy calling himself Lurk claims that the Hunt is imminent and that the seal beneath [[Candlemere]] is failing. Neither claim has been independently confirmed.
 
 The more immediate danger may be political rather than military. Since the western uplands incident, fey throughout the Republic appear to be withdrawing the informal warnings, aid, and tolerance upon which many frontier communities have unknowingly relied.
 
 ### Earlier Confirmed Contact
 
-Near [[Pitax]], the Tubthumpers encountered a Wild Hunt archer identifying herself as Jeffrie and one accompanying hound. The pair said they had crossed from the First World to practice for a Hunt and described mortals as its intended quarry. They did not identify its leader or date.
+Near [Pitax](../../../../Locations/Inner%20Sea%20Region/River%20Kingdoms/Stolen%20Lands/Thumping%20Waters/Settlements/Pitax/Pitax.md), the Tubthumpers encountered a Wild Hunt archer identifying herself as Jeffrie and one accompanying hound. The pair said they had crossed from the First World to practice for a Hunt and described mortals as its intended quarry. They did not identify its leader or date.
 
 After a serious battle, the fey requested parley, assessed the party as worthy future prey, and withdrew. This encounter demonstrates that individual Hunt members may negotiate and that they distinguish between immediate opponents and quarry reserved for a later chase.
 
@@ -37,9 +37,9 @@ After a serious battle, the fey requested parley, assessed the party as worthy f
 
 During the winter survey, the ministers entered an unnaturally warm and flowering glade occupied by a second fey hunter and two supernatural hounds. The hunter stated that they were preparing the land for the Wild Hunt and described the ministers as prospective prey.
 
-[[Seamus]] challenged her to prove that the ministers were less formidable than she believed. Combat followed. Both hounds yielded. The hunter subsequently offered her own surrender after suffering further injuries.
+[Seamus](../../Characters/Seamus.md) challenged her to prove that the ministers were less formidable than she believed. Combat followed. Both hounds yielded. The hunter subsequently offered her own surrender after suffering further injuries.
 
-Prime Minister [[Ally Grainger]], badly wounded and believing the surrender might be a deception, attacked after it was offered. The hunter and both hounds escaped. Before departing, they promised to tell other fey that the rulers of Thumping Waters do not honor surrender and declared that no fey would offer the ministers mercy again.
+Prime Minister [Ally Grainger](../../Characters/Ally%20Grainger.md), badly wounded and believing the surrender might be a deception, attacked after it was offered. The hunter and both hounds escaped. Before departing, they promised to tell other fey that the rulers of Thumping Waters do not honor surrender and declared that no fey would offer the ministers mercy again.
 
 The threat was not idle. Reports collected since the encounter indicate a broad change in fey behavior. The pattern is not one of organized attack, but of withheld assistance, rejected restitution, and indifference toward mortals in danger.
 
@@ -67,7 +67,7 @@ The relationship between the Wild Hunt and the structure beneath Candlemere rema
 
 - Seek consultation with Melianse, Evindra, and other fey or First World experts willing to speak with the Republic.
 
-- Ask [[Jubilost Narthropple]] and [[Roald Celinnas]] to compare regional Hunt traditions for repeated rules, weaknesses, and warning signs.
+- Ask [Jubilost Narthropple](../../NPCs/Jubilost%20Narthropple.md) and [Roald Celinnas](../../NPCs/Roald%20Celinnas.md) to compare regional Hunt traditions for repeated rules, weaknesses, and warning signs.
 
 - Equip frontier watch posts with cold iron and establish a rapid signal for reports of horns, unnatural fog, spectral hounds, or unseasonable growth.
 

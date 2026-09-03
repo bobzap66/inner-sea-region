@@ -8,4 +8,4 @@ portrait: "assets/world-anvil/elowyn-vask-portrait.png"
 
 # Elowyn Vask
 
-![[elowyn-vask-portrait.png]]
+![](../../../assets/images/elowyn-vask-portrait.png)

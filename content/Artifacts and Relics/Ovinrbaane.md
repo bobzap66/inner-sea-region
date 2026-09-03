@@ -8,10 +8,10 @@ cover: "assets/world-anvil/shared-cover-8a1bfbff37cb.png"
 
 # Ovinrbaane
 
-![[shared-cover-8a1bfbff37cb.png]]
+![](../assets/images/shared-cover-8a1bfbff37cb.png)
 
 > [!side]
-> :   ![[ovinrbaane.png]]
+> :   ![](../assets/images/ovinrbaane.png)
 >
 >     by ChatGPT
 

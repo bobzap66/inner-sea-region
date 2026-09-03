@@ -7,7 +7,7 @@ cover: "assets/world-anvil/shared-cover-8a1bfbff37cb.png"
 
 # Kingmaker: The Story So Far
 
-![[shared-cover-8a1bfbff37cb.png]]
+![](../../assets/images/shared-cover-8a1bfbff37cb.png)
 
 ### The Story So Far
 
@@ -73,7 +73,7 @@ The Tubthumpers remain beneath Candlemere under Morrigna protection, preparing t
 
 **Current Date:** 20 Abadius 4716 AR
 
-**Current Report:** [[Session 61- Breaking the Seal|Session 61 — Breaking the Seal]]
+**Current Report:** [Session 61 — Breaking the Seal](Session%20Reports%2061-80/Session%2061-%20Breaking%20the%20Seal.md)
 
   
 

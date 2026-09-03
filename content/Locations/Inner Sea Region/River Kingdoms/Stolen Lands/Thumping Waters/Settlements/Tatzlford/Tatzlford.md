@@ -10,7 +10,7 @@ category_path:
 
 ### Tatzlford
 
-Nestled amid the whispering pines of the [[Locations/Inner Sea Region/River Kingdoms/Stolen Lands/Greenbelt/Narlmarches|Narlmarches]], **Tatzlford** is a riverside town built on faith, hard work, and the kind of optimism that can only survive on the frontier. It sits astride a wide **ford on the Skunk River**, where the water runs shallow and silver over smooth stones—a place once haunted by monsters, now alive with the sound of hammers, laughter, and song. Founded by **Mayor [[Loy Rezbin]]** and his wife **Latricia**, priestess of [[Erastil]], Tatzlford has grown from a brave experiment into one of the republic’s most peaceful and prosperous river towns.
+Nestled amid the whispering pines of the [Narlmarches](../../../Greenbelt/Narlmarches.md), **Tatzlford** is a riverside town built on faith, hard work, and the kind of optimism that can only survive on the frontier. It sits astride a wide **ford on the Skunk River**, where the water runs shallow and silver over smooth stones—a place once haunted by monsters, now alive with the sound of hammers, laughter, and song. Founded by **Mayor [Loy Rezbin](../../../../../../../Campaigns/Kingmaker/NPCs/Loy%20Rezbin.md)** and his wife **Latricia**, priestess of [Erastil](../../../../../../../Rules/Deities/Erastil.md), Tatzlford has grown from a brave experiment into one of the republic’s most peaceful and prosperous river towns.
 
 #### Overview
 
@@ -20,13 +20,13 @@ The town’s centerpiece is its **monument to the founding of Tatzlford**, a bea
 
 #### Leadership
 
-**Mayor Loy Rezbin** remains the town’s leader, equal parts diplomat, merchant, and idealist. His easy charm and tireless energy make him a favorite among the citizens. Beside him, **[[Latricia Rezbin]]** tends the town’s spiritual needs from her modest shrine to Erastil, guiding both farmers and families with patience and humor. Together, they embody the Erastilian virtues of community, self-reliance, and neighborly good sense. Where other towns are ruled by bureaucrats or generals, Tatzlford is ruled by consensus, kindness, and the occasional well-aimed sermon.
+**Mayor Loy Rezbin** remains the town’s leader, equal parts diplomat, merchant, and idealist. His easy charm and tireless energy make him a favorite among the citizens. Beside him, **[Latricia Rezbin](../../../../../../../Campaigns/Kingmaker/NPCs/Latricia%20Rezbin.md)** tends the town’s spiritual needs from her modest shrine to Erastil, guiding both farmers and families with patience and humor. Together, they embody the Erastilian virtues of community, self-reliance, and neighborly good sense. Where other towns are ruled by bureaucrats or generals, Tatzlford is ruled by consensus, kindness, and the occasional well-aimed sermon.
 
 Loy’s office in the **guildhall** is open to all, and the mayor himself is known to settle disputes personally—often with a handshake, a mug of beer, and a promise to help mend whatever was broken. Latricia’s influence extends through the surrounding farms and lumber camps, where her teachings on balance and stewardship have helped maintain peace between settlers and the forest’s more ancient denizens.
 
 #### Trade and Industry
 
-The people of Tatzlford earn their living from the land and river both. The nearby forests feed a thriving **lumberyard** and **mill**, whose output supplies much of the region’s construction timber. The **brewery** produces the town’s famous honey-brown ale, *River’s Blessing*, which is exported as far as [[Olegton]]. Fishermen ply the Skunk River for trout and perch, while the **stockyard** and **trade shop** bustle with caravans carrying furs, lumber, and grain. Even the **dump** has become an unlikely symbol of efficiency—carefully managed by local volunteers to keep the town spotless and the wildlife safe.
+The people of Tatzlford earn their living from the land and river both. The nearby forests feed a thriving **lumberyard** and **mill**, whose output supplies much of the region’s construction timber. The **brewery** produces the town’s famous honey-brown ale, *River’s Blessing*, which is exported as far as [Olegton](../Olegton/Olegton.md). Fishermen ply the Skunk River for trout and perch, while the **stockyard** and **trade shop** bustle with caravans carrying furs, lumber, and grain. Even the **dump** has become an unlikely symbol of efficiency—carefully managed by local volunteers to keep the town spotless and the wildlife safe.
 
 The **guildhall** houses the town’s growing community of craftsmen: millwrights, brewers, coopers, and stonemasons. Though small, the guild system has helped maintain Tatzlford’s reputation for honest trade and fine workmanship. The **jail**, located just behind the town hall, is rarely used; serious crime here is almost unheard of, and most disputes are settled long before tempers reach that point.
 
@@ -38,7 +38,7 @@ Visitors often remark that Tatzlford feels like something out of a storybook—t
 
 #### Modern Role
 
-Today, Tatzlford serves as the main river port for western Thumping Waters, linking the Narlmarches to the Shrike and beyond. Barges carry goods downstream to Fort [[Locations/Inner Sea Region/River Kingdoms/Stolen Lands/Greenbelt/Kamelands/Tuskwater|Tuskwater]] and Olegton, while merchants from the south bring luxuries and news in return. The town’s steady economy and tranquil atmosphere make it a popular stop for travelers, pilgrims, and retirees looking for peace by the water. The republic’s Ministry of Commerce even cites Tatzlford as “a model of sustainable frontier development”—a fancy way of saying they’re doing everything right.
+Today, Tatzlford serves as the main river port for western Thumping Waters, linking the Narlmarches to the Shrike and beyond. Barges carry goods downstream to Fort [Tuskwater](../../../Greenbelt/Kamelands/Tuskwater/Tuskwater.md) and Olegton, while merchants from the south bring luxuries and news in return. The town’s steady economy and tranquil atmosphere make it a popular stop for travelers, pilgrims, and retirees looking for peace by the water. The republic’s Ministry of Commerce even cites Tatzlford as “a model of sustainable frontier development”—a fancy way of saying they’re doing everything right.
 
 At sunset, when the golden light hits the bridge and the Skunk River shines like glass, the townsfolk gather in the park to share food, drink, and laughter. Loy always says the same thing to new arrivals: “This is what we built when the world told us it couldn’t be done.” And every night, as the river hums and the lamps flicker, it’s clear that Tatzlford still believes him.
 

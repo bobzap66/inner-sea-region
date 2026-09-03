@@ -8,6 +8,6 @@ portrait: "assets/world-anvil/connal-portrait.jpeg"
 
 # Connal
 
-![[connal-portrait.jpeg]]
+![](../../../../assets/images/connal-portrait.jpeg)
 
-[[Mairi|Mairi Blackwood]]'s faithful Wolfhound companion and a very good boy. He's about 4 years old and roughly the size of a horse.
+[Mairi Blackwood](../Mairi.md)'s faithful Wolfhound companion and a very good boy. He's about 4 years old and roughly the size of a horse.

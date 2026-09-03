@@ -8,7 +8,7 @@ portrait: "assets/world-anvil/fitzroy-portrait.jpeg"
 
 # Fitzroy
 
-![[fitzroy-portrait.jpeg]]
+![](../../../assets/images/fitzroy-portrait.jpeg)
 
 > [!side]
 > Firstname

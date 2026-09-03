@@ -7,7 +7,7 @@ portrait: "assets/world-anvil/velka-portrait.png"
 
 # Velka
 
-![[velka-portrait.png]]
+![](../../../../assets/images/velka-portrait.png)
 
 ### From the Journal of Linzi
 

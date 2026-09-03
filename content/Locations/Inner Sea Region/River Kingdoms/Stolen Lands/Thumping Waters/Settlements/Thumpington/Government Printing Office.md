@@ -9,7 +9,7 @@ parent: "[[Thumpington]]"
 ---
 # Government Printing Office
 
-![[government-printing-office-portrait.png]]
+![](../../../../../../../assets/images/government-printing-office-portrait.png)
 
 *A guide to the presses, people, and public work behind the printed word in Thumpington, prepared from Ministry of Communication records and interviews with the printers*
 

@@ -23,7 +23,7 @@ Whoever set me up is long gone by now, he thought darkly. They’re probably lau
 
 I should’ve seen it coming.
 
-![[grigori-s-fate-image-01.png]]
+![](../../../../assets/images/grigori-s-fate-image-01.png)
 
 The guards moved toward him, rough hands grabbing his arms, dragging him back toward his cell to await the inevitable. He kept his face calm, even though inside, his stomach churned with fear. He wasn’t ready to die. Not like this.
   

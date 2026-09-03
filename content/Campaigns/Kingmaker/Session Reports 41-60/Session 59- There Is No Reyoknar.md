@@ -8,10 +8,10 @@ cover: "assets/world-anvil/shared-cover-110a4fd3e759.png"
 
 # Session 59: There Is No Reyoknar
 
-![[shared-cover-110a4fd3e759.png]]
+![](../../../assets/images/shared-cover-110a4fd3e759.png)
 
 > [!side]
-> :   ![[session-59-there-is-no-reyoknar-38.webp]]
+> :   ![](../../../assets/images/screenshots/Session%2059%20-%20There%20Is%20No%20Reyoknar/session-59-there-is-no-reyoknar-38.webp)
 >
 > ---
 >
@@ -101,7 +101,7 @@ cover: "assets/world-anvil/shared-cover-110a4fd3e759.png"
 >
 > ---
 >
-> ![[session-59-there-is-no-reyoknar-39.webp]]
+> ![](../../../assets/images/screenshots/Session%2059%20-%20There%20Is%20No%20Reyoknar/session-59-there-is-no-reyoknar-39.webp)
 >
 > *Paid advertisement. Hanspur’s Lights are intended for ceremonial use. Brina Fairlight’s Candlehouse accepts no responsibility for candles carried beyond sight by unusually determined currents.*
 >
@@ -115,13 +115,13 @@ cover: "assets/world-anvil/shared-cover-110a4fd3e759.png"
 
 *News, Notices, and the Public Record of Thumping Waters*
 
-Gozran 11, 4715 AR • Published in [[Thumpington]] • [[Linzi]], Editor • Mara Venn, Managing Editor • Price 1 cp
+Gozran 11, 4715 AR • Published in [Thumpington](../../../Locations/Inner%20Sea%20Region/River%20Kingdoms/Stolen%20Lands/Thumping%20Waters/Settlements/Thumpington/Thumpington.md) • [Linzi](../NPCs/Linzi.md), Editor • Mara Venn, Managing Editor • Price 1 cp
 
 ---
 
 ## VICTORY, VOWS, AND A FATHER RETURNED
 
-*The Republic celebrates peace, [[Seamus]] and Linzi announce their engagement, and a journey through fire brings Mikhail home after years in captivity.*
+*The Republic celebrates peace, [Seamus](../Characters/Seamus.md) and Linzi announce their engagement, and a journey through fire brings Mikhail home after years in captivity.*
 
 *By Mara Venn, Managing Editor • Additional reporting by Darya Holt and Sella Copperclaw*
 
@@ -129,7 +129,7 @@ Gozran 11, 4715 AR • Published in [[Thumpington]] • [[Linzi]], Editor • Ma
 
 The Victory Festival was intended to mark an ending.
 
-[[Pitax]] had been defeated. The armies were home. For the first time in months, the streets of Thumpington filled with music instead of casualty reports, and the only companies marching through the capital carried instruments.
+[Pitax](../../../Locations/Inner%20Sea%20Region/River%20Kingdoms/Stolen%20Lands/Thumping%20Waters/Settlements/Pitax/Pitax.md) had been defeated. The armies were home. For the first time in months, the streets of Thumpington filled with music instead of casualty reports, and the only companies marching through the capital carried instruments.
 
 Before the festival ended, Seamus had asked Linzi to marry him. She said yes.
 
@@ -141,13 +141,13 @@ The festival marked an ending after all—only not the one anyone expected.
 
 **THIS EDITION AT A GLANCE**
 
-**Western frontier:** Two Ozthooms and their shadow doubles destroyed near [[Locations/Inner Sea Region/River Kingdoms/Stolen Lands/The Thousand Voices|The Thousand Voices]]
+**Western frontier:** Two Ozthooms and their shadow doubles destroyed near [The Thousand Voices](../../../Locations/Inner%20Sea%20Region/River%20Kingdoms/Stolen%20Lands/The%20Thousand%20Voices.md)
 
 **Victory Festival:** Held in Thumpington on 6 Gozran
 
-**[[Leroy]]:** Returned to the stage for a celebrated performance
+**[Leroy](../NPCs/Leroy.md):** Returned to the stage for a celebrated performance
 
-**[[Greengripe]] Amphitheatre:** Dedicated to [[Nok-Nok]] and the fallen Irregulars
+**[Greengripe](../../../Locations/Inner%20Sea%20Region/River%20Kingdoms/Stolen%20Lands/Thumping%20Waters/Settlements/Greengripe/Greengripe.md) Amphitheatre:** Dedicated to [Nok-Nok](../NPCs/Nok-Nok.md) and the fallen Irregulars
 
 **Seamus and Linzi:** Engaged
 
@@ -187,7 +187,7 @@ The forest was once called the Branthlend, although few now use that name. Trave
 
 The Tubthumpers had spent more than two weeks surveying this unsettled frontier when two winged creatures descended from the darkening sky. They resembled dragons stripped down to bone, claw, and shadow. Fire burned within their hollow chests and spilled through their teeth, but they approached without challenge, cry, or warning.
 
-The creatures produced shadow doubles as they attacked, rapidly turning two enemies into a crowded aerial assault. [[Fitzroy]] Fulgrim III recognized that the imitations depended upon the originals, while Antson Crazyfoot identified the creatures’ vulnerability to cold iron.
+The creatures produced shadow doubles as they attacked, rapidly turning two enemies into a crowded aerial assault. [Fitzroy](../Characters/Fitzroy.md) Fulgrim III recognized that the imitations depended upon the originals, while Antson Crazyfoot identified the creatures’ vulnerability to cold iron.
 
 Once the deception was understood, the ministers concentrated their attacks upon the true creatures. Seamus destroyed one. Antson’s cold-iron arrow brought down the other. Their shadow doubles vanished with them.
 
@@ -197,7 +197,7 @@ The creatures have been identified as Ozthooms, predatory fey associated with pl
 >
 > — Darya Holt
 
-![[session-59-there-is-no-reyoknar-36.webp]]
+![](../../../assets/images/screenshots/Session%2059%20-%20There%20Is%20No%20Reyoknar/session-59-there-is-no-reyoknar-36.webp)
 
 *Two Ozthooms descend upon the western survey while shadow doubles gather around the ministers below.*
 
@@ -217,7 +217,7 @@ Asmeranda Ilata joined the visiting performers and dignitaries. Riverbend Park o
 
 The amphitheatre is named in honor of Nok-Nok, Governor of Greengripe, and the members of Nok-Nok’s Irregulars who fell during the war with Pitax.
 
-The Irregulars were not parade-ground soldiers. They were goblins, bombardiers, scouts, [[Survivors]], and citizens who stood between the enemy and their homes. Their names will now be preserved in a place made for music, laughter, and public gathering.
+The Irregulars were not parade-ground soldiers. They were goblins, bombardiers, scouts, [Survivors](../../Abomination%20Vaults/Vignettes%20-%20Abomination%20Vaults/Survivors.md), and citizens who stood between the enemy and their homes. Their names will now be preserved in a place made for music, laughter, and public gathering.
 
 > May every cheer raised within the Greengripe Amphitheatre remind us that the freedom to celebrate was purchased by those willing to stand in its defense.
 >
@@ -237,7 +237,7 @@ His music carried the joy that has always followed him, tempered by the understa
 
 They will.
 
-![[session-59-there-is-no-reyoknar-35.webp]]
+![](../../../assets/images/screenshots/Session%2059%20-%20There%20Is%20No%20Reyoknar/session-59-there-is-no-reyoknar-35.webp)
 
 *Leroy returns to the stage during the Victory Festival in Thumpington.*
 
@@ -255,11 +255,11 @@ The Lantern and Ledger has confirmed that its editor remains capable of performi
 
 ---
 
-### NEW DOORS OPEN IN [[Willowfen]]
+### NEW DOORS OPEN IN [Willowfen](../../../Locations/Inner%20Sea%20Region/River%20Kingdoms/Stolen%20Lands/Thumping%20Waters/Settlements/Willowfen/Willowfen.md)
 
 *By Sella Copperclaw, Trade and Civic Affairs Correspondent*
 
-The festival was not the Republic’s only sign of recovery. [[Willowfen]] has completed a marketplace and welcomed several new establishments: the Empty Purse tavern, Meemaw’s Medicinal Tonics, and the memorably named [[Melianse]]’s Revenge lumberyard.
+The festival was not the Republic’s only sign of recovery. [Willowfen](../../../Locations/Inner%20Sea%20Region/River%20Kingdoms/Stolen%20Lands/Thumping%20Waters/Settlements/Willowfen/Willowfen.md) has completed a marketplace and welcomed several new establishments: the Empty Purse tavern, Meemaw’s Medicinal Tonics, and the memorably named [Melianse](../NPCs/Melianse.md)’s Revenge lumberyard.
 
 The Empty Purse’s proprietor insists that the name describes the condition in which satisfied customers leave competing taverns. The Ledger has not independently verified this explanation.
 
@@ -269,7 +269,7 @@ The Republic is building places for trade, medicine, drink, music, and idleness 
 
 ---
 
-### THE PAST REACHES FOR [[Seamus]]
+### THE PAST REACHES FOR [Seamus](../Characters/Seamus.md)
 
 *By Mara Venn, Managing Editor • Details withheld where publication could endanger an active investigation*
 
@@ -299,7 +299,7 @@ Seamus entered the building, opened the captive’s restraints, and carried him 
 
 Fitzroy recovered the iron-bound chest. Ally Grainger used a dancing fountain of magical water to extinguish the burning cart and preserve records the agents had intended to erase. Not every enemy was captured, but enough evidence survived to lead the ministers onward.
 
-![[session-59-there-is-no-reyoknar-37.webp]]
+![](../../../assets/images/screenshots/Session%2059%20-%20There%20Is%20No%20Reyoknar/session-59-there-is-no-reyoknar-37.webp)
 
 *Seamus rescues Marek Tane while Fitzroy and Ally Grainger recover evidence from the burning safehouse.*
 
@@ -365,10 +365,10 @@ The Lantern and Ledger • Gozran 11 Edition • Printed in Thumpington
 
 ## Session Gallery
 
-![[Session 59-01.webp]] ![[Session 59-02.webp]] ![[Session 59-03.webp]] ![[Session 59-04.webp]] ![[Session 59-05.webp]] ![[Session 59-06.webp]] ![[Session 59-07.webp]] ![[Session 59-08.webp]] ![[Session 59-09.webp]] ![[Session 59-10.webp]] ![[Session 59-11.webp]] ![[Session 59-12.webp]] ![[Session 59-13.webp]] ![[Session 59-14.webp]] ![[Session 59-15.webp]] ![[Session 59-16.webp]] ![[Session 59-17.webp]] ![[Session 59-18.webp]] ![[Session 59-19.webp]] ![[Session 59-20.webp]] ![[Session 59-21.webp]] ![[Session 59-22.webp]] ![[Session 59-23.webp]] ![[Session 59-24.webp]] ![[Session 59-25.webp]] ![[Session 59-26.webp]] ![[Session 59-27.webp]] ![[Session 59-28.webp]] ![[Session 59-29.webp]] ![[Session 59-30.webp]] ![[Session 59-31.webp]] ![[Session 59-32.webp]] ![[Session 59-33.webp]] ![[Session 59-34.webp]] ![[session-59-there-is-no-reyoknar-35.webp]] ![[session-59-there-is-no-reyoknar-36.webp]] ![[session-59-there-is-no-reyoknar-37.webp]] ![[session-59-there-is-no-reyoknar-38.webp]] ![[session-59-there-is-no-reyoknar-39.webp]]
+![](../../../assets/images/screenshots/Session%2059%20-%20There%20Is%20No%20Reyoknar/Session%2059-01.webp) ![](../../../assets/images/screenshots/Session%2059%20-%20There%20Is%20No%20Reyoknar/Session%2059-02.webp) ![](../../../assets/images/screenshots/Session%2059%20-%20There%20Is%20No%20Reyoknar/Session%2059-03.webp) ![](../../../assets/images/screenshots/Session%2059%20-%20There%20Is%20No%20Reyoknar/Session%2059-04.webp) ![](../../../assets/images/screenshots/Session%2059%20-%20There%20Is%20No%20Reyoknar/Session%2059-05.webp) ![](../../../assets/images/screenshots/Session%2059%20-%20There%20Is%20No%20Reyoknar/Session%2059-06.webp) ![](../../../assets/images/screenshots/Session%2059%20-%20There%20Is%20No%20Reyoknar/Session%2059-07.webp) ![](../../../assets/images/screenshots/Session%2059%20-%20There%20Is%20No%20Reyoknar/Session%2059-08.webp) ![](../../../assets/images/screenshots/Session%2059%20-%20There%20Is%20No%20Reyoknar/Session%2059-09.webp) ![](../../../assets/images/screenshots/Session%2059%20-%20There%20Is%20No%20Reyoknar/Session%2059-10.webp) ![](../../../assets/images/screenshots/Session%2059%20-%20There%20Is%20No%20Reyoknar/Session%2059-11.webp) ![](../../../assets/images/screenshots/Session%2059%20-%20There%20Is%20No%20Reyoknar/Session%2059-12.webp) ![](../../../assets/images/screenshots/Session%2059%20-%20There%20Is%20No%20Reyoknar/Session%2059-13.webp) ![](../../../assets/images/screenshots/Session%2059%20-%20There%20Is%20No%20Reyoknar/Session%2059-14.webp) ![](../../../assets/images/screenshots/Session%2059%20-%20There%20Is%20No%20Reyoknar/Session%2059-15.webp) ![](../../../assets/images/screenshots/Session%2059%20-%20There%20Is%20No%20Reyoknar/Session%2059-16.webp) ![](../../../assets/images/screenshots/Session%2059%20-%20There%20Is%20No%20Reyoknar/Session%2059-17.webp) ![](../../../assets/images/screenshots/Session%2059%20-%20There%20Is%20No%20Reyoknar/Session%2059-18.webp) ![](../../../assets/images/screenshots/Session%2059%20-%20There%20Is%20No%20Reyoknar/Session%2059-19.webp) ![](../../../assets/images/screenshots/Session%2059%20-%20There%20Is%20No%20Reyoknar/Session%2059-20.webp) ![](../../../assets/images/screenshots/Session%2059%20-%20There%20Is%20No%20Reyoknar/Session%2059-21.webp) ![](../../../assets/images/screenshots/Session%2059%20-%20There%20Is%20No%20Reyoknar/Session%2059-22.webp) ![](../../../assets/images/screenshots/Session%2059%20-%20There%20Is%20No%20Reyoknar/Session%2059-23.webp) ![](../../../assets/images/screenshots/Session%2059%20-%20There%20Is%20No%20Reyoknar/Session%2059-24.webp) ![](../../../assets/images/screenshots/Session%2059%20-%20There%20Is%20No%20Reyoknar/Session%2059-25.webp) ![](../../../assets/images/screenshots/Session%2059%20-%20There%20Is%20No%20Reyoknar/Session%2059-26.webp) ![](../../../assets/images/screenshots/Session%2059%20-%20There%20Is%20No%20Reyoknar/Session%2059-27.webp) ![](../../../assets/images/screenshots/Session%2059%20-%20There%20Is%20No%20Reyoknar/Session%2059-28.webp) ![](../../../assets/images/screenshots/Session%2059%20-%20There%20Is%20No%20Reyoknar/Session%2059-29.webp) ![](../../../assets/images/screenshots/Session%2059%20-%20There%20Is%20No%20Reyoknar/Session%2059-30.webp) ![](../../../assets/images/screenshots/Session%2059%20-%20There%20Is%20No%20Reyoknar/Session%2059-31.webp) ![](../../../assets/images/screenshots/Session%2059%20-%20There%20Is%20No%20Reyoknar/Session%2059-32.webp) ![](../../../assets/images/screenshots/Session%2059%20-%20There%20Is%20No%20Reyoknar/Session%2059-33.webp) ![](../../../assets/images/screenshots/Session%2059%20-%20There%20Is%20No%20Reyoknar/Session%2059-34.webp) ![](../../../assets/images/screenshots/Session%2059%20-%20There%20Is%20No%20Reyoknar/session-59-there-is-no-reyoknar-35.webp) ![](../../../assets/images/screenshots/Session%2059%20-%20There%20Is%20No%20Reyoknar/session-59-there-is-no-reyoknar-36.webp) ![](../../../assets/images/screenshots/Session%2059%20-%20There%20Is%20No%20Reyoknar/session-59-there-is-no-reyoknar-37.webp) ![](../../../assets/images/screenshots/Session%2059%20-%20There%20Is%20No%20Reyoknar/session-59-there-is-no-reyoknar-38.webp) ![](../../../assets/images/screenshots/Session%2059%20-%20There%20Is%20No%20Reyoknar/session-59-there-is-no-reyoknar-39.webp)
 <!-- session-gallery:end -->
 
 ## Article navigation
 
-**Previous:** [[Session 58- Tyrant's Last Refuge]]  
-**Next:** [[Session 60- The Years Between]]
+**Previous:** [Session 58- Tyrant's Last Refuge](Session%2058-%20Tyrant%27s%20Last%20Refuge.md)  
+**Next:** [Session 60- The Years Between](Session%2060-%20The%20Years%20Between.md)

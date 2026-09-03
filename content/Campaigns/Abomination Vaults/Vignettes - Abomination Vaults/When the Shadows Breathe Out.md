@@ -8,7 +8,7 @@ category_path:
 
 
 > [!side]
-> :   ![[when-the-shadows-breathe-out-dorianna.png]]
+> :   ![](../../../assets/images/when-the-shadows-breathe-out-dorianna.png)
 
 The gaslight guttered, throwing long, frantic shadows across Doriana's delicate face. Oseph sat beside her, heart sinking like a stone, the air thick with fear and stale dreams. Her breath came shallow and uneven, broken by soft whimpers that cut straight through him. He reached out, fingers trembling, tracing the faint, twisted lines on her withered hand—the cruel mark the Motley Man had left on his little girl. All he could do was sit in this waking nightmare and pray, desperate for any god to hear him.
 

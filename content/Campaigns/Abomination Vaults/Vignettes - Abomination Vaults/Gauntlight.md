@@ -9,7 +9,7 @@ category_path:
 
 
 > [!side]
-> :   ![[gauntlight.png]]
+> :   ![](../../../assets/images/gauntlight.png)
 
 ### From the Notes of Wrin Sivinxi, Proprietor of Wrin’s Wonders
 

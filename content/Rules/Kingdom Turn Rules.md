@@ -29,4 +29,4 @@ The navigation on the Archives of Nethys kingdom-rules pages links directly betw
 
 Use this page as the reminder for **order of operations**, not as the authoritative source for individual kingdom activities, DCs, structures, or event rules. When a rules question matters, use the current Archives of Nethys entry.
 
-Campaign-specific settlements, ministries, political developments, and kingdom history are documented under [[Thumping Waters]].
+Campaign-specific settlements, ministries, political developments, and kingdom history are documented under [Thumping Waters](../Locations/Inner%20Sea%20Region/River%20Kingdoms/Stolen%20Lands/Thumping%20Waters/Thumping%20Waters.md).

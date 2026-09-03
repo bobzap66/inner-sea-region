@@ -9,7 +9,7 @@ portrait: "assets/world-anvil/roald-celinnas-portrait.png"
 
 # Roald Celinnas
 
-![[roald-celinnas-portrait.png]]
+![](../../../assets/images/roald-celinnas-portrait.png)
 
 Roald Celinnas is the proprietor of the Crow's Feather, a crowded Pitax inn that also serves as the city's informal library. He is a bookkeeper in both senses of the word: a man who maintains an establishment of uncertain profitability and who guards one of the strangest private collections in the River Kingdoms.
 

@@ -8,10 +8,10 @@ cover: "assets/world-anvil/shared-cover-32ff100f6011.png"
 
 # Morlibint's Dossier: The Cult of Urthagul
 
-![[shared-cover-32ff100f6011.png]]
+![](../../../../assets/images/shared-cover-32ff100f6011.png)
 
 > [!side]
-> :   ![[morlibint-s-dossier-the-cult-of-urthagul-image-01.jpeg]]
+> :   ![](../../../../assets/images/morlibint-s-dossier-the-cult-of-urthagul-image-01.jpeg)
 
 *Extract from the Morlibint Dossier*
 
@@ -44,5 +44,5 @@ I do not believe the Cult of Urthagul serves Belcorra, nor do I believe it meani
 
 *— Morlibint*
 
-[[Morlibint's Dossier- The Drow in the Farm|Morlibint's Dossier: The Drow in the Farm]]
+[Morlibint's Dossier: The Drow in the Farm](Morlibint%27s%20Dossier-%20The%20Drow%20in%20the%20Farm.md)
 

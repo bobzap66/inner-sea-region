@@ -10,7 +10,7 @@ portrait: "assets/world-anvil/leif-darkwood-portrait.jpeg"
 
 *Former adventurer in Otari and one of the early explorers of the Abomination Vaults*
 
-![[leif-darkwood-portrait.jpeg]]
+![](../../../assets/images/leif-darkwood-portrait.jpeg)
 
 Leif Darkwood was a spellcaster and adventurer who joined the effort to investigate the dangers beneath Gauntlight. Though perhaps best remembered by his companions for his enthusiastic reliance on *electric arc*, Leif's involvement in Otari's troubles extended beyond the ruins themselves. He had taken on a personal obligation to Keeleno Lathenar, the owner of the Otari Market, and promised to uncover the fate of the werewolf Jaul Mezmin.
 

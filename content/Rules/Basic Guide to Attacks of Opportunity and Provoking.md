@@ -25,7 +25,7 @@ Leaving a square within a creature's reach can trigger a reaction. If a move act
 
 The **Step** action is specifically designed to avoid reactions triggered by movement.
 
-![[basic-guide-to-attacks-of-opportunity-and-provoking-threaten.jpeg]]
+![](../assets/images/basic-guide-to-attacks-of-opportunity-and-provoking-threaten.jpeg)
 
 The important tactical question is not simply whether you enter an enemy's reach, but whether the movement or action you use satisfies that creature's reaction trigger.
 
@@ -33,7 +33,7 @@ The important tactical question is not simply whether you enter an enemy's reach
 
 Reach can make the threatened area much larger than the squares immediately adjacent to a creature.
 
-![[basic-guide-to-attacks-of-opportunity-and-provoking-reach.jpeg]]
+![](../assets/images/basic-guide-to-attacks-of-opportunity-and-provoking-reach.jpeg)
 
 A creature can also have different reach values for different attacks, so knowing that an enemy has reach does not always tell you exactly which squares are dangerous for every reaction or Strike.
 

@@ -8,10 +8,10 @@ cover: "assets/world-anvil/shared-cover-8a1bfbff37cb.png"
 
 # Session 37: A Year of Peace
 
-![[shared-cover-8a1bfbff37cb.png]]
+![](../../../assets/images/shared-cover-8a1bfbff37cb.png)
 
 > [!side]
-> :   ![[session-37-a-year-of-peace-13.webp]]
+> :   ![](../../../assets/images/screenshots/Session%2037%20-%20A%20Year%20of%20Peace/session-37-a-year-of-peace-13.webp)
 >
 >
 > ---
@@ -86,10 +86,10 @@ So much for easing back into adventuring.
 
 ## Session Gallery
 
-![[Session 37-01.webp]] ![[Session 37-02.webp]] ![[Session 37-03.webp]] ![[Session 37-04.webp]] ![[Session 37-05.webp]] ![[Session 37-06.webp]] ![[Session 37-07.webp]] ![[Session 37-08.webp]] ![[Session 37-09.webp]] ![[Session 37-10.webp]] ![[Session 37-11.webp]] ![[Session 37-12.webp]] ![[session-37-a-year-of-peace-13.webp]]
+![](../../../assets/images/screenshots/Session%2037%20-%20A%20Year%20of%20Peace/Session%2037-01.webp) ![](../../../assets/images/screenshots/Session%2037%20-%20A%20Year%20of%20Peace/Session%2037-02.webp) ![](../../../assets/images/screenshots/Session%2037%20-%20A%20Year%20of%20Peace/Session%2037-03.webp) ![](../../../assets/images/screenshots/Session%2037%20-%20A%20Year%20of%20Peace/Session%2037-04.webp) ![](../../../assets/images/screenshots/Session%2037%20-%20A%20Year%20of%20Peace/Session%2037-05.webp) ![](../../../assets/images/screenshots/Session%2037%20-%20A%20Year%20of%20Peace/Session%2037-06.webp) ![](../../../assets/images/screenshots/Session%2037%20-%20A%20Year%20of%20Peace/Session%2037-07.webp) ![](../../../assets/images/screenshots/Session%2037%20-%20A%20Year%20of%20Peace/Session%2037-08.webp) ![](../../../assets/images/screenshots/Session%2037%20-%20A%20Year%20of%20Peace/Session%2037-09.webp) ![](../../../assets/images/screenshots/Session%2037%20-%20A%20Year%20of%20Peace/Session%2037-10.webp) ![](../../../assets/images/screenshots/Session%2037%20-%20A%20Year%20of%20Peace/Session%2037-11.webp) ![](../../../assets/images/screenshots/Session%2037%20-%20A%20Year%20of%20Peace/Session%2037-12.webp) ![](../../../assets/images/screenshots/Session%2037%20-%20A%20Year%20of%20Peace/session-37-a-year-of-peace-13.webp)
 <!-- session-gallery:end -->
 
 ## Article navigation
 
-**Previous:** [[Session 36- Vordakai's End]]  
-**Next:** [[Session 38- The Fall of M'botuu]]
+**Previous:** [Session 36- Vordakai's End](Session%2036-%20Vordakai%27s%20End.md)  
+**Next:** [Session 38- The Fall of M'botuu](Session%2038-%20The%20Fall%20of%20M%27botuu.md)

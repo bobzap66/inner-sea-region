@@ -16,7 +16,7 @@ There are a couple of useful sites for making printable PF2e spell cards.
 
 The two versions work the same way.
 
-![[printing-spell-cards-spellbook-1.png]]
+![](../../assets/images/printing-spell-cards-spellbook-1.png)
 
 The blue **How To** button opens a detailed guide and links to a video demonstrating the site.
 
@@ -24,7 +24,7 @@ Create your spellbook, then click **Print**. This opens a new tab containing you
 
 Open your browser's developer tools with `Ctrl+Shift+I`, select **Console**, and paste the JavaScript below. Your browser may warn you about pasting code into the console and require you to type a confirmation before it allows input. Follow the browser's prompt before continuing.
 
-![[printing-spell-cards-spellbook-2.png]]
+![](../../assets/images/printing-spell-cards-spellbook-2.png)
 
 ```javascript
 var script_one_time = document.createElement('script');
@@ -32,7 +32,7 @@ script_one_time.src = "https://cdn.jsdelivr.net/gh/arthurvanpassel/pf2easy-spell
 document.querySelector('head').appendChild(script_one_time);
 ```
 
-![[printing-spell-cards-screenshot-2024-04-02-183148.png]]
+![](../../assets/images/printing-spell-cards-screenshot-2024-04-02-183148.png)
 
 The same script is also available on [Pastebin](https://pastebin.com/GBZ4gr6A).
 
@@ -59,4 +59,4 @@ The site has historically behaved inconsistently when storing more than three ca
 
 ## Related
 
-- [[Rules/Spells/Spells|Spells]]
+- [Spells](Spells.md)

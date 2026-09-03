@@ -8,10 +8,10 @@ cover: "assets/world-anvil/shared-cover-110a4fd3e759.png"
 
 # Session 61: Breaking the Seal
 
-![[shared-cover-110a4fd3e759.png]]
+![](../../../assets/images/shared-cover-110a4fd3e759.png)
 
 > [!side]
-> :   ![[session-61-breaking-the-seal-16.webp]]
+> :   ![](../../../assets/images/screenshots/Session%2061%20-%20Breaking%20the%20Seal/session-61-breaking-the-seal-16.webp)
 >
 > ---
 >
@@ -101,7 +101,7 @@ cover: "assets/world-anvil/shared-cover-110a4fd3e759.png"
 >
 > **PAID ADVERTISEMENT**
 >
-> ![[session-61-breaking-the-seal-17.webp]]
+> ![](../../../assets/images/screenshots/Session%2061%20-%20Breaking%20the%20Seal/session-61-breaking-the-seal-17.webp)
 >
 > *The Lantern and Ledger accepts no responsibility for claims made by advertisers, the consequences of unlabeled drinks, or patrons attracting unwanted attention.*
 >
@@ -161,7 +161,7 @@ Upon reaching the island, the company entered the ruined tower and descended to 
 
 Elowyn performed the rite required to unmake the seal, with Ally assisting in the identification and control of its ancient magic. The stone spiral vanished without the destructive backlash officials had feared, revealing a shaft approximately one hundred feet deep.
 
-![[session-61-breaking-the-seal-13.webp]]
+![](../../../assets/images/screenshots/Session%2061%20-%20Breaking%20the%20Seal/session-61-breaking-the-seal-13.webp)
 
 *Elowyn and Ally unmake the ancient spiral seal beneath Candlemere Tower.*
 
@@ -197,7 +197,7 @@ Deeper within the complex, the expedition discovered an opening into what witnes
 
 The remaining suits of Grave Knight armor were consigned to this void after the battles. They did not burn, shatter, or disappear. They drifted away intact, turning slowly against the distant light until they became too small to distinguish.
 
-![[session-61-breaking-the-seal-14.webp]]
+![](../../../assets/images/screenshots/Session%2061%20-%20Breaking%20the%20Seal/session-61-breaking-the-seal-14.webp)
 
 *Cursed armor drifts intact into the star-filled void beneath Candlemere.*
 
@@ -229,7 +229,7 @@ Elowyn prevented a third battle.
 
 She persuaded the Morrignas to pause long enough to hear that the supposed Pharasmian guardians had become Grave Knights. When the psychopomps learned how much time had passed and what Korog’s followers had made of themselves, they accepted that the expedition was not allied with the enemy they had entered the complex to oppose.
 
-![[session-61-breaking-the-seal-15.webp]]
+![](../../../assets/images/screenshots/Session%2061%20-%20Breaking%20the%20Seal/session-61-breaking-the-seal-15.webp)
 
 *Three ancient Morrignas confront the expedition before Elowyn secures a truce.*
 
@@ -277,9 +277,9 @@ The Lantern and Ledger • Abadius 20 Edition • Printed in Thumpington
 
 ## Session Gallery
 
-![[Session 61-01.webp]] ![[Session 61-02.webp]] ![[Session 61-03.webp]] ![[Session 61-04.webp]] ![[Session 61-05.webp]] ![[Session 61-06.webp]] ![[Session 61-07.webp]] ![[Session 61-08.webp]] ![[Session 61-09.webp]] ![[Session 61-10.webp]] ![[Session 61-11.webp]] ![[Session 61-12.webp]] ![[session-61-breaking-the-seal-13.webp]] ![[session-61-breaking-the-seal-14.webp]] ![[session-61-breaking-the-seal-15.webp]] ![[session-61-breaking-the-seal-16.webp]] ![[session-61-breaking-the-seal-17.webp]] ![[assets/images/screenshots/Session 61 - Breaking the Seal/Ally.webp]] ![[assets/images/screenshots/Session 61 - Breaking the Seal/Ant.webp]] ![[assets/images/screenshots/Session 61 - Breaking the Seal/Elowyn.webp]] ![[Lurk.webp]] ![[Party Portrait.webp]] ![[assets/images/screenshots/Session 61 - Breaking the Seal/Seamus.webp]]
+![](../../../assets/images/screenshots/Session%2061%20-%20Breaking%20the%20Seal/Session%2061-01.webp) ![](../../../assets/images/screenshots/Session%2061%20-%20Breaking%20the%20Seal/Session%2061-02.webp) ![](../../../assets/images/screenshots/Session%2061%20-%20Breaking%20the%20Seal/Session%2061-03.webp) ![](../../../assets/images/screenshots/Session%2061%20-%20Breaking%20the%20Seal/Session%2061-04.webp) ![](../../../assets/images/screenshots/Session%2061%20-%20Breaking%20the%20Seal/Session%2061-05.webp) ![](../../../assets/images/screenshots/Session%2061%20-%20Breaking%20the%20Seal/Session%2061-06.webp) ![](../../../assets/images/screenshots/Session%2061%20-%20Breaking%20the%20Seal/Session%2061-07.webp) ![](../../../assets/images/screenshots/Session%2061%20-%20Breaking%20the%20Seal/Session%2061-08.webp) ![](../../../assets/images/screenshots/Session%2061%20-%20Breaking%20the%20Seal/Session%2061-09.webp) ![](../../../assets/images/screenshots/Session%2061%20-%20Breaking%20the%20Seal/Session%2061-10.webp) ![](../../../assets/images/screenshots/Session%2061%20-%20Breaking%20the%20Seal/Session%2061-11.webp) ![](../../../assets/images/screenshots/Session%2061%20-%20Breaking%20the%20Seal/Session%2061-12.webp) ![](../../../assets/images/screenshots/Session%2061%20-%20Breaking%20the%20Seal/session-61-breaking-the-seal-13.webp) ![](../../../assets/images/screenshots/Session%2061%20-%20Breaking%20the%20Seal/session-61-breaking-the-seal-14.webp) ![](../../../assets/images/screenshots/Session%2061%20-%20Breaking%20the%20Seal/session-61-breaking-the-seal-15.webp) ![](../../../assets/images/screenshots/Session%2061%20-%20Breaking%20the%20Seal/session-61-breaking-the-seal-16.webp) ![](../../../assets/images/screenshots/Session%2061%20-%20Breaking%20the%20Seal/session-61-breaking-the-seal-17.webp) ![](../../../assets/images/screenshots/Session%2061%20-%20Breaking%20the%20Seal/Ally.webp) ![](../../../assets/images/screenshots/Session%2061%20-%20Breaking%20the%20Seal/Ant.webp) ![](../../../assets/images/screenshots/Session%2061%20-%20Breaking%20the%20Seal/Elowyn.webp) ![](../../../assets/images/screenshots/Session%2061%20-%20Breaking%20the%20Seal/Lurk.webp) ![](../../../assets/images/screenshots/Session%2061%20-%20Breaking%20the%20Seal/Party%20Portrait.webp) ![](../../../assets/images/screenshots/Session%2061%20-%20Breaking%20the%20Seal/Seamus.webp)
 <!-- session-gallery:end -->
 
 ## Article navigation
 
-**Previous:** [[Session 60- The Years Between]]
+**Previous:** [Session 60- The Years Between](../Session%20Reports%2041-60/Session%2060-%20The%20Years%20Between.md)

@@ -24,7 +24,7 @@ Weather in Garund tends to move from west to east as well, with the heaviest rai
 
 ### Trade
 
-Trade is a vital component of any society, and for the nations of the Inner Sea region it is no different. Thousands of ships set sail from ports every week to make a short jaunt to a neighboring town, or sail halfway around the world. The busiest trade routes of the region include the North Tack, which generally follows the northern shores of the Inner Sea, and its companion, the South Tack, which runs from Katapesh along the sea's southern coast to Rahadoum. On the western coasts of Avistan and Garund, you'll find the Varisian Run, stretching all the way from Varisia in the north to the city of Eleder in Sargava. The major inland river route, the Sellen Passage, runs from the Taldan port of Cassomir up the Sellen River, connecting the nations of [[Brevoy]], Galt, Kyonin, Mendev, Numeria, the [[River Kingdoms]], and Ustalav to the riches of the Inner Sea.
+Trade is a vital component of any society, and for the nations of the Inner Sea region it is no different. Thousands of ships set sail from ports every week to make a short jaunt to a neighboring town, or sail halfway around the world. The busiest trade routes of the region include the North Tack, which generally follows the northern shores of the Inner Sea, and its companion, the South Tack, which runs from Katapesh along the sea's southern coast to Rahadoum. On the western coasts of Avistan and Garund, you'll find the Varisian Run, stretching all the way from Varisia in the north to the city of Eleder in Sargava. The major inland river route, the Sellen Passage, runs from the Taldan port of Cassomir up the Sellen River, connecting the nations of [Brevoy](Brevoy/Brevoy.md), Galt, Kyonin, Mendev, Numeria, the [River Kingdoms](River%20Kingdoms/River%20Kingdoms.md), and Ustalav to the riches of the Inner Sea.
 
 ### Culture
 
@@ -34,7 +34,7 @@ Although there are dozens, if not hundreds of intelligent races dwelling in the 
 
 #### City vs. rural living
 
-Most civilized people in the Inner Sea region live in urban centers, but rely on their rural neighbor for food and other commodities. Conversely, those living close to the wilderness often depend on their urban neighbors for protection from wild creatures or other warlike civilization. A certain amount of tension exists between urban and rural dwellers even though both are dependent upon the other. This dichotomy is epitomized in the faiths of [[Abadar]] and [[Erastil]]. While both see civilization as humanity's greatest achievement, they approach it from two very different directions.
+Most civilized people in the Inner Sea region live in urban centers, but rely on their rural neighbor for food and other commodities. Conversely, those living close to the wilderness often depend on their urban neighbors for protection from wild creatures or other warlike civilization. A certain amount of tension exists between urban and rural dwellers even though both are dependent upon the other. This dichotomy is epitomized in the faiths of [Abadar](../../Rules/Deities/Abadar.md) and [Erastil](../../Rules/Deities/Erastil.md). While both see civilization as humanity's greatest achievement, they approach it from two very different directions.
 
 #### Magic
 
@@ -42,7 +42,7 @@ Magic is relatively well-known among the civilized races of the Inner Sea region
 
 #### Religion
 
-Worship in the Inner Sea region is as diverse as its people. Deities most commonly worshiped in the region include [[Abadar]], Asmodeus, Calistria, [[Cayden Cailean]], [[Desna]], [[Erastil]], [[Gorum]], [[Gozreh]], Iomedae, [[Irori]], [[Lamashtu]], Nethys, Norgorber, [[Pharasma]], Rovagug, [[Sarenrae]], [[Shelyn]], [[Torag]], Urgathoa, and Zon-Kuthon.
+Worship in the Inner Sea region is as diverse as its people. Deities most commonly worshiped in the region include [Abadar](../../Rules/Deities/Abadar.md), Asmodeus, Calistria, [Cayden Cailean](../../Rules/Deities/Cayden%20Cailean.md), [Desna](../../Rules/Deities/Desna.md), [Erastil](../../Rules/Deities/Erastil.md), [Gorum](../../Rules/Deities/Gorum.md), [Gozreh](../../Rules/Deities/Gozreh.md), Iomedae, [Irori](../../Rules/Deities/Irori.md), [Lamashtu](../../Rules/Deities/Lamashtu.md), Nethys, Norgorber, [Pharasma](../../Rules/Deities/Pharasma.md), Rovagug, [Sarenrae](../../Rules/Deities/Sarenrae.md), [Shelyn](../../Rules/Deities/Shelyn.md), [Torag](../../Rules/Deities/Torag.md), Urgathoa, and Zon-Kuthon.
 
 ### Undersea realms
 

@@ -8,10 +8,10 @@ cover: "assets/world-anvil/shared-cover-110a4fd3e759.png"
 
 # Session 48: Finishing the Job for Hannis
 
-![[shared-cover-110a4fd3e759.png]]
+![](../../../assets/images/shared-cover-110a4fd3e759.png)
 
 > [!side]
-> :   ![[session-48-finishing-the-job-for-hannis-43.webp]]
+> :   ![](../../../assets/images/screenshots/Session%2048%20-%20Finishing%20the%20Job%20for%20Hannis/session-48-finishing-the-job-for-hannis-43.webp)
 >
 > ---
 >
@@ -65,7 +65,7 @@ cover: "assets/world-anvil/shared-cover-110a4fd3e759.png"
 >
 > ---
 >
-> ![[session-48-finishing-the-job-for-hannis-47.webp]]
+> ![](../../../assets/images/screenshots/Session%2048%20-%20Finishing%20the%20Job%20for%20Hannis/session-48-finishing-the-job-for-hannis-47.webp)
 >
 > *Paid advertisement. The Lantern and Ledger accepts no responsibility for the condition of specimens delivered to Harrick Fenlock, nor for injuries sustained while attempting to ensure they are already dead.*
 >
@@ -99,7 +99,7 @@ The hunt formed part of a wider expedition through the Hooktongue country during
 
 The last result requires slightly more explanation than the others.
 
-![[session-48-finishing-the-job-for-hannis-44.webp]]
+![](../../../assets/images/screenshots/Session%2048%20-%20Finishing%20the%20Job%20for%20Hannis/session-48-finishing-the-job-for-hannis-44.webp)
 
 *Speartooth clears the hunters’ traps in an artist’s reconstruction of the celebrated hunt.*
 
@@ -143,7 +143,7 @@ Aurumvorax burrows yield silver, enchanted objects, and several compelling reaso
 
 *By Mara Venn, Managing Editor*
 
-![[session-48-finishing-the-job-for-hannis-45.webp]]
+![](../../../assets/images/screenshots/Session%2048%20-%20Finishing%20the%20Job%20for%20Hannis/session-48-finishing-the-job-for-hannis-45.webp)
 
 *Linzi examines the first edition as press workers begin the inaugural printing of The Lantern and Ledger.*
 
@@ -217,7 +217,7 @@ Several magical objects were recovered from the lair and returned to Thumping Wa
 
 *By Sella Copperclaw, Civic Reporter*
 
-![[session-48-finishing-the-job-for-hannis-46.webp]]
+![](../../../assets/images/screenshots/Session%2048%20-%20Finishing%20the%20Job%20for%20Hannis/session-48-finishing-the-job-for-hannis-46.webp)
 
 *“Jeffrey,” provisionally employed in the defense of the republic’s cloudberries.*
 
@@ -265,10 +265,10 @@ The Lantern and Ledger • Sarenith 1 Edition • Printed in Thumpington
 
 ## Session Gallery
 
-![[Session 48-01.webp]] ![[Session 48-02.webp]] ![[Session 48-03.webp]] ![[Session 48-04.webp]] ![[Session 48-05.webp]] ![[Session 48-06.webp]] ![[Session 48-07.webp]] ![[Session 48-08.webp]] ![[Session 48-09.webp]] ![[Session 48-10.webp]] ![[Session 48-11.webp]] ![[Session 48-12.webp]] ![[Session 48-13.webp]] ![[Session 48-14.webp]] ![[Session 48-15.webp]] ![[Session 48-16.webp]] ![[Session 48-17.webp]] ![[Session 48-18.webp]] ![[Session 48-19.webp]] ![[Session 48-20.webp]] ![[Session 48-21.webp]] ![[Session 48-22.webp]] ![[Session 48-23.webp]] ![[Session 48-24.webp]] ![[Session 48-25.webp]] ![[Session 48-26.webp]] ![[Session 48-27.webp]] ![[Session 48-28.webp]] ![[Session 48-29.webp]] ![[Session 48-30.webp]] ![[Session 48-31.webp]] ![[Session 48-32.webp]] ![[Session 48-33.webp]] ![[Session 48-34.webp]] ![[Session 48-35.webp]] ![[Session 48-36.webp]] ![[Session 48-37.webp]] ![[Session 48-38.webp]] ![[Session 48-39.webp]] ![[Session 48-40.webp]] ![[Session 48-41.webp]] ![[Session 48-42.webp]] ![[session-48-finishing-the-job-for-hannis-43.webp]] ![[session-48-finishing-the-job-for-hannis-44.webp]] ![[session-48-finishing-the-job-for-hannis-45.webp]] ![[session-48-finishing-the-job-for-hannis-46.webp]] ![[session-48-finishing-the-job-for-hannis-47.webp]]
+![](../../../assets/images/screenshots/Session%2048%20-%20Finishing%20the%20Job%20for%20Hannis/Session%2048-01.webp) ![](../../../assets/images/screenshots/Session%2048%20-%20Finishing%20the%20Job%20for%20Hannis/Session%2048-02.webp) ![](../../../assets/images/screenshots/Session%2048%20-%20Finishing%20the%20Job%20for%20Hannis/Session%2048-03.webp) ![](../../../assets/images/screenshots/Session%2048%20-%20Finishing%20the%20Job%20for%20Hannis/Session%2048-04.webp) ![](../../../assets/images/screenshots/Session%2048%20-%20Finishing%20the%20Job%20for%20Hannis/Session%2048-05.webp) ![](../../../assets/images/screenshots/Session%2048%20-%20Finishing%20the%20Job%20for%20Hannis/Session%2048-06.webp) ![](../../../assets/images/screenshots/Session%2048%20-%20Finishing%20the%20Job%20for%20Hannis/Session%2048-07.webp) ![](../../../assets/images/screenshots/Session%2048%20-%20Finishing%20the%20Job%20for%20Hannis/Session%2048-08.webp) ![](../../../assets/images/screenshots/Session%2048%20-%20Finishing%20the%20Job%20for%20Hannis/Session%2048-09.webp) ![](../../../assets/images/screenshots/Session%2048%20-%20Finishing%20the%20Job%20for%20Hannis/Session%2048-10.webp) ![](../../../assets/images/screenshots/Session%2048%20-%20Finishing%20the%20Job%20for%20Hannis/Session%2048-11.webp) ![](../../../assets/images/screenshots/Session%2048%20-%20Finishing%20the%20Job%20for%20Hannis/Session%2048-12.webp) ![](../../../assets/images/screenshots/Session%2048%20-%20Finishing%20the%20Job%20for%20Hannis/Session%2048-13.webp) ![](../../../assets/images/screenshots/Session%2048%20-%20Finishing%20the%20Job%20for%20Hannis/Session%2048-14.webp) ![](../../../assets/images/screenshots/Session%2048%20-%20Finishing%20the%20Job%20for%20Hannis/Session%2048-15.webp) ![](../../../assets/images/screenshots/Session%2048%20-%20Finishing%20the%20Job%20for%20Hannis/Session%2048-16.webp) ![](../../../assets/images/screenshots/Session%2048%20-%20Finishing%20the%20Job%20for%20Hannis/Session%2048-17.webp) ![](../../../assets/images/screenshots/Session%2048%20-%20Finishing%20the%20Job%20for%20Hannis/Session%2048-18.webp) ![](../../../assets/images/screenshots/Session%2048%20-%20Finishing%20the%20Job%20for%20Hannis/Session%2048-19.webp) ![](../../../assets/images/screenshots/Session%2048%20-%20Finishing%20the%20Job%20for%20Hannis/Session%2048-20.webp) ![](../../../assets/images/screenshots/Session%2048%20-%20Finishing%20the%20Job%20for%20Hannis/Session%2048-21.webp) ![](../../../assets/images/screenshots/Session%2048%20-%20Finishing%20the%20Job%20for%20Hannis/Session%2048-22.webp) ![](../../../assets/images/screenshots/Session%2048%20-%20Finishing%20the%20Job%20for%20Hannis/Session%2048-23.webp) ![](../../../assets/images/screenshots/Session%2048%20-%20Finishing%20the%20Job%20for%20Hannis/Session%2048-24.webp) ![](../../../assets/images/screenshots/Session%2048%20-%20Finishing%20the%20Job%20for%20Hannis/Session%2048-25.webp) ![](../../../assets/images/screenshots/Session%2048%20-%20Finishing%20the%20Job%20for%20Hannis/Session%2048-26.webp) ![](../../../assets/images/screenshots/Session%2048%20-%20Finishing%20the%20Job%20for%20Hannis/Session%2048-27.webp) ![](../../../assets/images/screenshots/Session%2048%20-%20Finishing%20the%20Job%20for%20Hannis/Session%2048-28.webp) ![](../../../assets/images/screenshots/Session%2048%20-%20Finishing%20the%20Job%20for%20Hannis/Session%2048-29.webp) ![](../../../assets/images/screenshots/Session%2048%20-%20Finishing%20the%20Job%20for%20Hannis/Session%2048-30.webp) ![](../../../assets/images/screenshots/Session%2048%20-%20Finishing%20the%20Job%20for%20Hannis/Session%2048-31.webp) ![](../../../assets/images/screenshots/Session%2048%20-%20Finishing%20the%20Job%20for%20Hannis/Session%2048-32.webp) ![](../../../assets/images/screenshots/Session%2048%20-%20Finishing%20the%20Job%20for%20Hannis/Session%2048-33.webp) ![](../../../assets/images/screenshots/Session%2048%20-%20Finishing%20the%20Job%20for%20Hannis/Session%2048-34.webp) ![](../../../assets/images/screenshots/Session%2048%20-%20Finishing%20the%20Job%20for%20Hannis/Session%2048-35.webp) ![](../../../assets/images/screenshots/Session%2048%20-%20Finishing%20the%20Job%20for%20Hannis/Session%2048-36.webp) ![](../../../assets/images/screenshots/Session%2048%20-%20Finishing%20the%20Job%20for%20Hannis/Session%2048-37.webp) ![](../../../assets/images/screenshots/Session%2048%20-%20Finishing%20the%20Job%20for%20Hannis/Session%2048-38.webp) ![](../../../assets/images/screenshots/Session%2048%20-%20Finishing%20the%20Job%20for%20Hannis/Session%2048-39.webp) ![](../../../assets/images/screenshots/Session%2048%20-%20Finishing%20the%20Job%20for%20Hannis/Session%2048-40.webp) ![](../../../assets/images/screenshots/Session%2048%20-%20Finishing%20the%20Job%20for%20Hannis/Session%2048-41.webp) ![](../../../assets/images/screenshots/Session%2048%20-%20Finishing%20the%20Job%20for%20Hannis/Session%2048-42.webp) ![](../../../assets/images/screenshots/Session%2048%20-%20Finishing%20the%20Job%20for%20Hannis/session-48-finishing-the-job-for-hannis-43.webp) ![](../../../assets/images/screenshots/Session%2048%20-%20Finishing%20the%20Job%20for%20Hannis/session-48-finishing-the-job-for-hannis-44.webp) ![](../../../assets/images/screenshots/Session%2048%20-%20Finishing%20the%20Job%20for%20Hannis/session-48-finishing-the-job-for-hannis-45.webp) ![](../../../assets/images/screenshots/Session%2048%20-%20Finishing%20the%20Job%20for%20Hannis/session-48-finishing-the-job-for-hannis-46.webp) ![](../../../assets/images/screenshots/Session%2048%20-%20Finishing%20the%20Job%20for%20Hannis/session-48-finishing-the-job-for-hannis-47.webp)
 <!-- session-gallery:end -->
 
 ## Article navigation
 
-**Previous:** [[Session 47- Faithful's End and Expansion]]  
-**Next:** [[Session 49- The Rushlight Begins]]
+**Previous:** [Session 47- Faithful's End and Expansion](Session%2047-%20Faithful%27s%20End%20and%20Expansion.md)  
+**Next:** [Session 49- The Rushlight Begins](Session%2049-%20The%20Rushlight%20Begins.md)

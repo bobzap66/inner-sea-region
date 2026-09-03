@@ -23,4 +23,4 @@ The dark swallowed her breath, and every drip of water from the ceiling sounded 
 
 She was not alone. Not with the broken things in the cages. Not with the whispering just beyond hearing. And worst of all—not with herself.
 
-![[9th-life-fleshwarp-talia-final.png]]
+![](../../../assets/images/9th-life-fleshwarp-talia-final.png)

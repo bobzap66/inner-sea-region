@@ -17,7 +17,7 @@ Use the current spell entry on Archives of Nethys for the exact duration, immuni
 
 ## Courageous Anthem
 
-[[Rules/Spells/Inspire Courage (Courageous Anthem)|Courageous Anthem]] grants a status bonus to attacks, damage, and saves against fear. It does not improve unrelated saving throws or skill checks.
+[Courageous Anthem](Spells/Inspire%20Courage%20%28Courageous%20Anthem%29.md) grants a status bonus to attacks, damage, and saves against fear. It does not improve unrelated saving throws or skill checks.
 
 Because Guidance and Courageous Anthem both grant **status bonuses**, only the higher applicable status bonus affects a given roll.
 

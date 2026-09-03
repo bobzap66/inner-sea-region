@@ -10,17 +10,17 @@ parent: "[[Locations/Inner Sea Region/River Kingdoms/Stolen Lands/Hooktongue Slo
 
 ### Fort Drelev
 
-At the northwestern rim of the [[Locations/Inner Sea Region/River Kingdoms/Stolen Lands/Hooktongue Slough|Hooktongue Slough]] stands Fort Drelev—a fortress whose walls gleam with ambition but whose foundations are sunk deep in cowardice. Founded as [[Brevoy]]’s bold claim on the western frontier, it has become a monument to vanity and decay, a reminder that tyranny requires no monsters to thrive.
+At the northwestern rim of the [Hooktongue Slough](../../../Hooktongue%20Slough/Hooktongue%20Slough.md) stands Fort Drelev—a fortress whose walls gleam with ambition but whose foundations are sunk deep in cowardice. Founded as [Brevoy](../../../../../Brevoy/Brevoy.md)’s bold claim on the western frontier, it has become a monument to vanity and decay, a reminder that tyranny requires no monsters to thrive.
 
   
 
 #### Founding
 
-When Brevoy’s Swordlords began their great project to civilize the [[Stolen Lands]], Baron Hannis Drelev was among the first to petition for a charter. A younger son of a Brevic noble house, Drelev was determined to carve his own destiny, to prove he could rule as well as any Aldori or Lebeda. His wife, Pavetta Stroon-Drelev, secured financial and political backing from her wealthy Brevic family, and her brother, the wizard Imeckus Stroon, lent his arcane expertise and sharp ambition to the venture.
+When Brevoy’s Swordlords began their great project to civilize the [Stolen Lands](../../../Stolen%20Lands.md), Baron Hannis Drelev was among the first to petition for a charter. A younger son of a Brevic noble house, Drelev was determined to carve his own destiny, to prove he could rule as well as any Aldori or Lebeda. His wife, Pavetta Stroon-Drelev, secured financial and political backing from her wealthy Brevic family, and her brother, the wizard Imeckus Stroon, lent his arcane expertise and sharp ambition to the venture.
 
   
 
-The chosen site—a hill overlooking the northern waters of the Hooktongue Slough—was defensible but isolated. Drelev proclaimed it a gateway to prosperity: a fortress between the wild [[Locations/Inner Sea Region/River Kingdoms/Stolen Lands/Greenbelt/Narlmarches|Narlmarches]] and the [[River Kingdoms]] beyond. Yet his first act upon arriving was not to build a port or farm, but to construct a keep. His second was to issue taxes to fund its decoration. Even before its walls rose, Fort Drelev was already rotting from the top down.
+The chosen site—a hill overlooking the northern waters of the Hooktongue Slough—was defensible but isolated. Drelev proclaimed it a gateway to prosperity: a fortress between the wild [Narlmarches](../../../Greenbelt/Narlmarches.md) and the [River Kingdoms](../../../../River%20Kingdoms.md) beyond. Yet his first act upon arriving was not to build a port or farm, but to construct a keep. His second was to issue taxes to fund its decoration. Even before its walls rose, Fort Drelev was already rotting from the top down.
 
   
 
@@ -56,7 +56,7 @@ Trade caravans from Brevoy have grown rare. The swamps are treacherous, and few 
 
 #### Relations with Thumping Waters
 
-To the east lies Thumping Waters, a republic that has risen where Drelev expected only failure. The contrast cuts deep. [[Mairi|Mairi Blackwood]]’s government stands for merit and freedom, while Drelev’s court reeks of hereditary privilege and fear. The baron speaks of Thumping Waters with contempt, calling it a “bandit state,” but his sleepless nights tell another story. His spies report the Tubthumpers’ growing power, and the more he hears of their victories, the more he drowns his anxieties in wine and bluster.
+To the east lies Thumping Waters, a republic that has risen where Drelev expected only failure. The contrast cuts deep. [Mairi Blackwood](../../../../../../../Campaigns/Kingmaker/Characters/Mairi.md)’s government stands for merit and freedom, while Drelev’s court reeks of hereditary privilege and fear. The baron speaks of Thumping Waters with contempt, calling it a “bandit state,” but his sleepless nights tell another story. His spies report the Tubthumpers’ growing power, and the more he hears of their victories, the more he drowns his anxieties in wine and bluster.
 
   
 
@@ -66,7 +66,7 @@ Drelev’s envoys have been scarce and stiffly formal. He has yet to acknowledge
 
 #### Notable Locations
 
-**Drelev Keep:** The heart of the barony. Marble halls, gilt fixtures, and a constant damp that seeps up from the stone foundations. The dungeons below are rumored to connect to older tunnels leading into the Slough.**The Commons:** A wretched sprawl of hovels, fishmongers, and sunken streets. The poorest live on raised walkways to escape the mud, and the local militia extorts them for “maintenance fees.”**Satinder’s Playhouse:** Half theater, half tavern, and all intrigue. A sanctuary for merchants, mercenaries, and those who prefer to whisper their rebellion through art.**Temple of [[Abadar]] (Defunct):** Once the spiritual and financial heart of the fort, now shuttered after its high priest disappeared. Some say he fled east to Thumping Waters; others say he was buried beneath the keep for speaking of fairness.  
+**Drelev Keep:** The heart of the barony. Marble halls, gilt fixtures, and a constant damp that seeps up from the stone foundations. The dungeons below are rumored to connect to older tunnels leading into the Slough.**The Commons:** A wretched sprawl of hovels, fishmongers, and sunken streets. The poorest live on raised walkways to escape the mud, and the local militia extorts them for “maintenance fees.”**Satinder’s Playhouse:** Half theater, half tavern, and all intrigue. A sanctuary for merchants, mercenaries, and those who prefer to whisper their rebellion through art.**Temple of [Abadar](../../../../../../../Rules/Deities/Abadar.md) (Defunct):** Once the spiritual and financial heart of the fort, now shuttered after its high priest disappeared. Some say he fled east to Thumping Waters; others say he was buried beneath the keep for speaking of fairness.  
 
 #### The Shape of Things to Come
 

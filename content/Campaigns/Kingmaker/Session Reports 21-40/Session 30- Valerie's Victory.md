@@ -8,29 +8,29 @@ cover: "assets/world-anvil/shared-cover-8a1bfbff37cb.png"
 
 # Session 30: Valerie's Victory
 
-![[shared-cover-8a1bfbff37cb.png]]
+![](../../../assets/images/shared-cover-8a1bfbff37cb.png)
 
 > [!side]
-> :   ![[session-30-valerie-s-victory-11.webp]]
+> :   ![](../../../assets/images/screenshots/Session%2030%20-%20Valerie%20S%20Victory/session-30-valerie-s-victory-11.webp)
 >
 >
 > ---
 >
 > <!-- session-gallery:start -->
 
-### From [[Linzi]]’s Journal
+### From [Linzi](../NPCs/Linzi.md)’s Journal
 
 *An account of events from Lamashan through Neth 12, 4711 AR, reconstructed from the testimony of those present*
 
-Autumn brought a season of building to [[Thumpington]]. [[Greengripe]] and the surrounding countryside were formally welcomed into the kingdom, a quarry was opened, and barracks were raised to protect our newest settlement. Thumpington gained paved streets, a library, and a bridge; [[Tatzlford]] gained stout wooden walls and a bridge of its own; Sootscale gained a foundry; and a road began stretching from Embeth Lodge toward the capital. Even a failed harvest at Sootscale was contained before it could become a true disaster. There are months in which a kingdom’s victories are won with swords. These were won with stone, lumber, ledgers, and a truly heroic number of meetings.
+Autumn brought a season of building to [Thumpington](../../../Locations/Inner%20Sea%20Region/River%20Kingdoms/Stolen%20Lands/Thumping%20Waters/Settlements/Thumpington/Thumpington.md). [Greengripe](../../../Locations/Inner%20Sea%20Region/River%20Kingdoms/Stolen%20Lands/Thumping%20Waters/Settlements/Greengripe/Greengripe.md) and the surrounding countryside were formally welcomed into the kingdom, a quarry was opened, and barracks were raised to protect our newest settlement. Thumpington gained paved streets, a library, and a bridge; [Tatzlford](../../../Locations/Inner%20Sea%20Region/River%20Kingdoms/Stolen%20Lands/Thumping%20Waters/Settlements/Tatzlford/Tatzlford.md) gained stout wooden walls and a bridge of its own; Sootscale gained a foundry; and a road began stretching from Embeth Lodge toward the capital. Even a failed harvest at Sootscale was contained before it could become a true disaster. There are months in which a kingdom’s victories are won with swords. These were won with stone, lumber, ledgers, and a truly heroic number of meetings.
 
 The goblin troubles continued to smolder despite the council’s efforts, but the realm grew around them. An envoy departed for Daggermark, new farms and worksites were established, and for three precious weeks the Tubthumpers were allowed something resembling peace.
 
-That peace ended on the morning of Neth 9, when [[Valerie]] came to them with a letter and an unusual request. Sir Fredero Sinnet, the knight who had trained her for service as a champion of [[Shelyn]], had found her again. He had never forgiven Valerie for abandoning the church—or perhaps had never forgiven himself for failing to make her remain—and now he had challenged her to a formal duel.
+That peace ended on the morning of Neth 9, when [Valerie](../NPCs/Valerie.md) came to them with a letter and an unusual request. Sir Fredero Sinnet, the knight who had trained her for service as a champion of [Shelyn](../../../Rules/Deities/Shelyn.md), had found her again. He had never forgiven Valerie for abandoning the church—or perhaps had never forgiven himself for failing to make her remain—and now he had challenged her to a formal duel.
 
 Valerie did not ask the Tubthumpers to fight for her. She asked them to come and bear witness. For someone who prides herself on needing very little from anyone, that was rather a great deal to ask.
 
-Sir Fredero had chosen the Shrine of the Golden Grove as the site of their meeting. The shrine had been raised generations ago in a remote and beautiful corner of the [[Stolen Lands]], where a band of Shelyn’s faithful hoped art and devotion might tame the wilderness. Monsters killed every one of them within months. The church abandoned the place, but Sir Fredero claimed that he and several priestesses had begun restoring it.
+Sir Fredero had chosen the Shrine of the Golden Grove as the site of their meeting. The shrine had been raised generations ago in a remote and beautiful corner of the [Stolen Lands](../../../Locations/Inner%20Sea%20Region/River%20Kingdoms/Stolen%20Lands/Stolen%20Lands.md), where a band of Shelyn’s faithful hoped art and devotion might tame the wilderness. Monsters killed every one of them within months. The church abandoned the place, but Sir Fredero claimed that he and several priestesses had begun restoring it.
 
 On Neth 11, the company found a unicorn lying dead along their road. Powerful primal magic had stopped its heart, and someone had cut away its horn only afterward. No scavenger had touched the body. Even the insects avoided it, as though the death carried a wrongness that belonged to somewhere beyond our world. The Tubthumpers could not undo what had been done, so they buried the unicorn and continued onward with considerably less confidence in the quiet woods around them.
 
@@ -50,10 +50,10 @@ When the struggle ended, Tulvak, her false priestesses, and the two drainberry b
 
 ## Session Gallery
 
-![[Session 30-01.webp]] ![[Session 30-02.webp]] ![[Session 30-03.webp]] ![[Session 30-04.webp]] ![[Session 30-05.webp]] ![[Session 30-06.webp]] ![[Session 30-07.webp]] ![[Session 30-08.webp]] ![[Session 30-09.webp]] ![[Session 30-10.webp]] ![[session-30-valerie-s-victory-11.webp]]
+![](../../../assets/images/screenshots/Session%2030%20-%20Valerie%20S%20Victory/Session%2030-01.webp) ![](../../../assets/images/screenshots/Session%2030%20-%20Valerie%20S%20Victory/Session%2030-02.webp) ![](../../../assets/images/screenshots/Session%2030%20-%20Valerie%20S%20Victory/Session%2030-03.webp) ![](../../../assets/images/screenshots/Session%2030%20-%20Valerie%20S%20Victory/Session%2030-04.webp) ![](../../../assets/images/screenshots/Session%2030%20-%20Valerie%20S%20Victory/Session%2030-05.webp) ![](../../../assets/images/screenshots/Session%2030%20-%20Valerie%20S%20Victory/Session%2030-06.webp) ![](../../../assets/images/screenshots/Session%2030%20-%20Valerie%20S%20Victory/Session%2030-07.webp) ![](../../../assets/images/screenshots/Session%2030%20-%20Valerie%20S%20Victory/Session%2030-08.webp) ![](../../../assets/images/screenshots/Session%2030%20-%20Valerie%20S%20Victory/Session%2030-09.webp) ![](../../../assets/images/screenshots/Session%2030%20-%20Valerie%20S%20Victory/Session%2030-10.webp) ![](../../../assets/images/screenshots/Session%2030%20-%20Valerie%20S%20Victory/session-30-valerie-s-victory-11.webp)
 <!-- session-gallery:end -->
 
 ## Article navigation
 
-**Previous:** [[Session 29- Aftermath]]  
-**Next:** [[Session 31- Varnhold Vanishing]]
+**Previous:** [Session 29- Aftermath](Session%2029-%20Aftermath.md)  
+**Next:** [Session 31- Varnhold Vanishing](Session%2031-%20Varnhold%20Vanishing.md)

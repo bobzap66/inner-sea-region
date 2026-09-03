@@ -10,7 +10,7 @@ parent: "[[Locations/Inner Sea Region/Brevoy/Rostland Hinterlands|Rostland Hinte
 
 Nivakta’s Crossing is the southernmost village in Rostland and an alert assembly of traders, hunters, fishers, and trappers. The village itself is surrounded by a wooden palisade and is set on the northeastern bank of the Shrike River. A low bridge allows access over the river to the wilderness to the south—the southwestern side of the bridge being fortified by well-defended guard towers.
 The people of Nivakta’s Crossing are sturdy, down to earth, and possess stunted senses of humor. Serious to a fault, they are slightly more suspicious of visitors from what they call “the South” than they are of those from “the North,” but they’re willing to take the PCs’ coin for trade nonetheless.
-Nivakta’s Crossing is where [[Maegar Varn]] and his mercenaries cross the Shrike to head into [[Locations/Inner Sea Region/River Kingdoms/Stolen Lands/Nomen Heights|Nomen Heights]] when they set out to establish Varnhold; the passage of the small army through town is novel enough that it’s all that the locals seem to chat (and complain) about for weeks afterward.
+Nivakta’s Crossing is where [Maegar Varn](../../../Campaigns/Kingmaker/NPCs/Maegar%20Varn.md) and his mercenaries cross the Shrike to head into [Nomen Heights](../River%20Kingdoms/Stolen%20Lands/Nomen%20Heights/Nomen%20Heights.md) when they set out to establish Varnhold; the passage of the small army through town is novel enough that it’s all that the locals seem to chat (and complain) about for weeks afterward.
 
 ## General Details
 

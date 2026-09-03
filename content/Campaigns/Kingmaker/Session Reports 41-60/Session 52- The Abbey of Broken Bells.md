@@ -8,10 +8,10 @@ cover: "assets/world-anvil/shared-cover-110a4fd3e759.png"
 
 # Session 52: The Abbey of Broken Bells
 
-![[shared-cover-110a4fd3e759.png]]
+![](../../../assets/images/shared-cover-110a4fd3e759.png)
 
 > [!side]
-> :   ![[session-52-the-abbey-of-broken-bells-44.webp]]
+> :   ![](../../../assets/images/screenshots/Session%2052%20-%20The%20Abbey%20of%20Broken%20Bells/session-52-the-abbey-of-broken-bells-44.webp)
 >
 > ---
 >
@@ -71,7 +71,7 @@ cover: "assets/world-anvil/shared-cover-110a4fd3e759.png"
 >
 > ---
 >
-> ![[session-52-the-abbey-of-broken-bells-45.webp]]
+> ![](../../../assets/images/screenshots/Session%2052%20-%20The%20Abbey%20of%20Broken%20Bells/session-52-the-abbey-of-broken-bells-45.webp)
 >
 > *Paid advertisement. The Lantern and Ledger accepts no responsibility for burns, stains, unexpected frogs, unwanted transformations, reversed transformations, or remedies becoming more interesting after purchase.*
 >
@@ -85,7 +85,7 @@ cover: "assets/world-anvil/shared-cover-110a4fd3e759.png"
 
 *News, Notices, and the Public Record of Thumping Waters*
 
-Erastus 28, 4714 AR • Published in [[Thumpington]] • [[Linzi]], Editor • Mara Venn, Managing Editor • Price 1 cp
+Erastus 28, 4714 AR • Published in [Thumpington](../../../Locations/Inner%20Sea%20Region/River%20Kingdoms/Stolen%20Lands/Thumping%20Waters/Settlements/Thumpington/Thumpington.md) • [Linzi](../NPCs/Linzi.md), Editor • Mara Venn, Managing Editor • Price 1 cp
 
 ---
 
@@ -103,9 +103,9 @@ The company uncovered staged tracks and a false alchemical laboratory before six
 
 The abbey itself proved far more dangerous than Irovetti’s counterfeit threat. Haunts lingered in its bloodstained rooms, and a flooded cavern beneath the ruins held ancient wisps, a murderous ghost, and a water spirit imprisoned within a clock.
 
-![[session-52-the-abbey-of-broken-bells-40.webp]]
+![](../../../assets/images/screenshots/Session%2052%20-%20The%20Abbey%20of%20Broken%20Bells/session-52-the-abbey-of-broken-bells-40.webp)
 
-*The staged alchemical laboratory prepared to support [[Pitax]]’s false poison story.*
+*The staged alchemical laboratory prepared to support [Pitax](../../../Locations/Inner%20Sea%20Region/River%20Kingdoms/Stolen%20Lands/Thumping%20Waters/Settlements/Pitax/Pitax.md)’s false poison story.*
 
 **WHITE ROSE ABBEY BULLETIN**
 
@@ -149,11 +149,11 @@ The Tubthumpers fight through water, darkness, and hostile spirits beneath the a
 
 Before reaching White Rose Abbey, the Tubthumpers were awakened in camp by a spectral hound and a mysterious archer whose first volley nearly killed Antson Crazyfoot.
 
-The hound surrounded the camp with ghostly fog and savaged Wapiti, [[Fitzroy]]’s elk companion, robbing the animal of its sight. The company answered with spells, arrows, and cold iron until the archer called for a truce.
+The hound surrounded the camp with ghostly fog and savaged Wapiti, [Fitzroy](../Characters/Fitzroy.md)’s elk companion, robbing the animal of its sight. The company answered with spells, arrows, and cold iron until the archer called for a truce.
 
 She named herself Jeffrie of the First World. Her purpose and allegiance remain uncertain, but she left the Tubthumpers with a warning of dangerous forces moving through the region before departing with her hound.
 
-Wapiti survived. [[Velka]] later restored the elk’s vision with magic, and he has resumed the demanding work of carrying Fitzroy toward things no sensible elk would approach voluntarily.
+Wapiti survived. [Velka](../Characters/Velka/Velka.md) later restored the elk’s vision with magic, and he has resumed the demanding work of carrying Fitzroy toward things no sensible elk would approach voluntarily.
 
 ---
 
@@ -165,7 +165,7 @@ White Rose Abbey stands atop a vine-choked hill, abandoned long enough for its s
 
 The tracks approaching its entrance had been placed too carefully. Inside, the supposed laboratory lacked the convincing disorder of actual alchemical work. It was scenery arranged to support a rumor, not a place where a weapon had been built.
 
-Six armored Pitaxian Wardens and Gaetane attacked once the Tubthumpers entered the trap. Gaetane filled much of the battlefield with poisonous vapor, which Velka cleared before it could decide the fight. Ally’s fire broke the enemy formation, and [[Seamus]] struck down the first Warden.
+Six armored Pitaxian Wardens and Gaetane attacked once the Tubthumpers entered the trap. Gaetane filled much of the battlefield with poisonous vapor, which Velka cleared before it could decide the fight. Ally’s fire broke the enemy formation, and [Seamus](../Characters/Seamus.md) struck down the first Warden.
 
 The remaining Wardens were defeated and Gaetane taken alive. No mass-poisoning weapon was found because none had ever existed.
 
@@ -179,7 +179,7 @@ In the monks’ old dormitory, the memory of slaughter rose around the explorers
 
 In the abbot’s study, another manifestation formed as a spectral sickle. Velka recognized the spirit’s anguish and calmed it before the haunting could claim another victim.
 
-![[session-52-the-abbey-of-broken-bells-41.webp]]
+![](../../../assets/images/screenshots/Session%2052%20-%20The%20Abbey%20of%20Broken%20Bells/session-52-the-abbey-of-broken-bells-41.webp)
 
 *A spectral sickle manifests in the ruined abbot’s study before Velka quiets the troubled spirit.*
 
@@ -195,7 +195,7 @@ A descent through the abbey well opened into a vast flooded cavern. Clear water 
 
 Six ancient wisps and a ghostly figure known as the Gardener attacked the explorers almost immediately. The wisps resisted nearly every spell directed against them, while the Gardener struck across the flooded battlefield with mental and spiritual force.
 
-The fight became a struggle through water and air. Antson was brought down twice. Ally fell unconscious into the pool and nearly drowned before Fitzroy pulled her to the surface. [[Matteo]]’s ghost-charge bombs weakened the Gardener, and Velka’s moonlight finally dispersed its manifested form.
+The fight became a struggle through water and air. Antson was brought down twice. Ally fell unconscious into the pool and nearly drowned before Fitzroy pulled her to the surface. [Matteo](../Characters/Matteo.md)’s ghost-charge bombs weakened the Gardener, and Velka’s moonlight finally dispersed its manifested form.
 
 The victory secured the cavern, though officials caution that places haunted for centuries rarely become safe after a single afternoon’s work.
 
@@ -209,7 +209,7 @@ After the battle, Velka consulted the spirits of the cavern and discovered a wat
 
 The Tubthumpers opened the clock and released its captive. The spirit had endured within the mechanism while the abbey above decayed and generations passed beyond the cavern walls.
 
-![[session-52-the-abbey-of-broken-bells-42.webp]]
+![](../../../assets/images/screenshots/Session%2052%20-%20The%20Abbey%20of%20Broken%20Bells/session-52-the-abbey-of-broken-bells-42.webp)
 
 *The imprisoned water spirit rises from the opened clock beneath White Rose Abbey.*
 
@@ -237,10 +237,10 @@ The Lantern and Ledger • Erastus 28 Edition • Printed in Thumpington
 
 ## Session Gallery
 
-![[Session 52-02.webp]] ![[Session 52-03.webp]] ![[Session 52-04.webp]] ![[Session 52-05.webp]] ![[Session 52-06.webp]] ![[Session 52-07.webp]] ![[Session 52-08.webp]] ![[Session 52-09.webp]] ![[Session 52-10.webp]] ![[Session 52-11.webp]] ![[Session 52-12.webp]] ![[Session 52-13.webp]] ![[Session 52-14.webp]] ![[Session 52-15.webp]] ![[Session 52-16.webp]] ![[Session 52-17.webp]] ![[Session 52-18.webp]] ![[Session 52-19.webp]] ![[Session 52-20.webp]] ![[Session 52-21.webp]] ![[Session 52-22.webp]] ![[Session 52-23.webp]] ![[Session 52-24.webp]] ![[Session 52-25.webp]] ![[Session 52-26.webp]] ![[Session 52-27.webp]] ![[Session 52-28.webp]] ![[Session 52-29.webp]] ![[Session 52-30.webp]] ![[Session 52-31.webp]] ![[Session 52-32.webp]] ![[Session 52-33.webp]] ![[Session 52-34.webp]] ![[Session 52-35.webp]] ![[Session 52-36.webp]] ![[Session 52-37.webp]] ![[Session 52-38.webp]] ![[Session 52-39.webp]] ![[session-52-the-abbey-of-broken-bells-40.webp]] ![[session-52-the-abbey-of-broken-bells-41.webp]] ![[session-52-the-abbey-of-broken-bells-42.webp]] ![[Session 52-43.webp]] ![[session-52-the-abbey-of-broken-bells-44.webp]] ![[session-52-the-abbey-of-broken-bells-45.webp]]
+![](../../../assets/images/screenshots/Session%2052%20-%20The%20Abbey%20of%20Broken%20Bells/Session%2052-02.webp) ![](../../../assets/images/screenshots/Session%2052%20-%20The%20Abbey%20of%20Broken%20Bells/Session%2052-03.webp) ![](../../../assets/images/screenshots/Session%2052%20-%20The%20Abbey%20of%20Broken%20Bells/Session%2052-04.webp) ![](../../../assets/images/screenshots/Session%2052%20-%20The%20Abbey%20of%20Broken%20Bells/Session%2052-05.webp) ![](../../../assets/images/screenshots/Session%2052%20-%20The%20Abbey%20of%20Broken%20Bells/Session%2052-06.webp) ![](../../../assets/images/screenshots/Session%2052%20-%20The%20Abbey%20of%20Broken%20Bells/Session%2052-07.webp) ![](../../../assets/images/screenshots/Session%2052%20-%20The%20Abbey%20of%20Broken%20Bells/Session%2052-08.webp) ![](../../../assets/images/screenshots/Session%2052%20-%20The%20Abbey%20of%20Broken%20Bells/Session%2052-09.webp) ![](../../../assets/images/screenshots/Session%2052%20-%20The%20Abbey%20of%20Broken%20Bells/Session%2052-10.webp) ![](../../../assets/images/screenshots/Session%2052%20-%20The%20Abbey%20of%20Broken%20Bells/Session%2052-11.webp) ![](../../../assets/images/screenshots/Session%2052%20-%20The%20Abbey%20of%20Broken%20Bells/Session%2052-12.webp) ![](../../../assets/images/screenshots/Session%2052%20-%20The%20Abbey%20of%20Broken%20Bells/Session%2052-13.webp) ![](../../../assets/images/screenshots/Session%2052%20-%20The%20Abbey%20of%20Broken%20Bells/Session%2052-14.webp) ![](../../../assets/images/screenshots/Session%2052%20-%20The%20Abbey%20of%20Broken%20Bells/Session%2052-15.webp) ![](../../../assets/images/screenshots/Session%2052%20-%20The%20Abbey%20of%20Broken%20Bells/Session%2052-16.webp) ![](../../../assets/images/screenshots/Session%2052%20-%20The%20Abbey%20of%20Broken%20Bells/Session%2052-17.webp) ![](../../../assets/images/screenshots/Session%2052%20-%20The%20Abbey%20of%20Broken%20Bells/Session%2052-18.webp) ![](../../../assets/images/screenshots/Session%2052%20-%20The%20Abbey%20of%20Broken%20Bells/Session%2052-19.webp) ![](../../../assets/images/screenshots/Session%2052%20-%20The%20Abbey%20of%20Broken%20Bells/Session%2052-20.webp) ![](../../../assets/images/screenshots/Session%2052%20-%20The%20Abbey%20of%20Broken%20Bells/Session%2052-21.webp) ![](../../../assets/images/screenshots/Session%2052%20-%20The%20Abbey%20of%20Broken%20Bells/Session%2052-22.webp) ![](../../../assets/images/screenshots/Session%2052%20-%20The%20Abbey%20of%20Broken%20Bells/Session%2052-23.webp) ![](../../../assets/images/screenshots/Session%2052%20-%20The%20Abbey%20of%20Broken%20Bells/Session%2052-24.webp) ![](../../../assets/images/screenshots/Session%2052%20-%20The%20Abbey%20of%20Broken%20Bells/Session%2052-25.webp) ![](../../../assets/images/screenshots/Session%2052%20-%20The%20Abbey%20of%20Broken%20Bells/Session%2052-26.webp) ![](../../../assets/images/screenshots/Session%2052%20-%20The%20Abbey%20of%20Broken%20Bells/Session%2052-27.webp) ![](../../../assets/images/screenshots/Session%2052%20-%20The%20Abbey%20of%20Broken%20Bells/Session%2052-28.webp) ![](../../../assets/images/screenshots/Session%2052%20-%20The%20Abbey%20of%20Broken%20Bells/Session%2052-29.webp) ![](../../../assets/images/screenshots/Session%2052%20-%20The%20Abbey%20of%20Broken%20Bells/Session%2052-30.webp) ![](../../../assets/images/screenshots/Session%2052%20-%20The%20Abbey%20of%20Broken%20Bells/Session%2052-31.webp) ![](../../../assets/images/screenshots/Session%2052%20-%20The%20Abbey%20of%20Broken%20Bells/Session%2052-32.webp) ![](../../../assets/images/screenshots/Session%2052%20-%20The%20Abbey%20of%20Broken%20Bells/Session%2052-33.webp) ![](../../../assets/images/screenshots/Session%2052%20-%20The%20Abbey%20of%20Broken%20Bells/Session%2052-34.webp) ![](../../../assets/images/screenshots/Session%2052%20-%20The%20Abbey%20of%20Broken%20Bells/Session%2052-35.webp) ![](../../../assets/images/screenshots/Session%2052%20-%20The%20Abbey%20of%20Broken%20Bells/Session%2052-36.webp) ![](../../../assets/images/screenshots/Session%2052%20-%20The%20Abbey%20of%20Broken%20Bells/Session%2052-37.webp) ![](../../../assets/images/screenshots/Session%2052%20-%20The%20Abbey%20of%20Broken%20Bells/Session%2052-38.webp) ![](../../../assets/images/screenshots/Session%2052%20-%20The%20Abbey%20of%20Broken%20Bells/Session%2052-39.webp) ![](../../../assets/images/screenshots/Session%2052%20-%20The%20Abbey%20of%20Broken%20Bells/session-52-the-abbey-of-broken-bells-40.webp) ![](../../../assets/images/screenshots/Session%2052%20-%20The%20Abbey%20of%20Broken%20Bells/session-52-the-abbey-of-broken-bells-41.webp) ![](../../../assets/images/screenshots/Session%2052%20-%20The%20Abbey%20of%20Broken%20Bells/session-52-the-abbey-of-broken-bells-42.webp) ![](../../../assets/images/screenshots/Session%2052%20-%20The%20Abbey%20of%20Broken%20Bells/Session%2052-43.webp) ![](../../../assets/images/screenshots/Session%2052%20-%20The%20Abbey%20of%20Broken%20Bells/session-52-the-abbey-of-broken-bells-44.webp) ![](../../../assets/images/screenshots/Session%2052%20-%20The%20Abbey%20of%20Broken%20Bells/session-52-the-abbey-of-broken-bells-45.webp)
 <!-- session-gallery:end -->
 
 ## Article navigation
 
-**Previous:** [[Session 51- Storms on the Western Horizon]]  
-**Next:** [[Session 53- Of Blessed Waters and Buried Devils]]
+**Previous:** [Session 51- Storms on the Western Horizon](Session%2051-%20Storms%20on%20the%20Western%20Horizon.md)  
+**Next:** [Session 53- Of Blessed Waters and Buried Devils](Session%2053-%20Of%20Blessed%20Waters%20and%20Buried%20Devils.md)

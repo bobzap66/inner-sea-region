@@ -8,7 +8,7 @@ portrait: "assets/world-anvil/prazil-portrait.png"
 
 # Prazil
 
-![[prazil-portrait.png]]
+![](../../../assets/images/prazil-portrait.png)
 
 *Big Club · Small Thoughts · Loyal Heart*
 

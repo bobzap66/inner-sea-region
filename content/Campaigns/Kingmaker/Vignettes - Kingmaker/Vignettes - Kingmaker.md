@@ -10,7 +10,7 @@ Fiction, in-world documents, reports, newspaper pieces, and character moments fr
 
 ## Collections
 
-- [[Campaigns/Kingmaker/Vignettes - Kingmaker/Intelligence Reports/Intelligence Reports|Intelligence Reports]]
-- [[Campaigns/Kingmaker/Vignettes - Kingmaker/Moments/Moments|Moments]]
-- [[Campaigns/Kingmaker/Vignettes - Kingmaker/Pitax Gazette/Pitax Gazette|Pitax Gazette]]
-- [[Campaigns/Kingmaker/Vignettes - Kingmaker/The Lantern and Ledger/The Lantern and Ledger|The Lantern and Ledger]]
+- [Intelligence Reports](Intelligence%20Reports/Intelligence%20Reports.md)
+- [Moments](Moments/Moments.md)
+- [Pitax Gazette](Pitax%20Gazette/Pitax%20Gazette.md)
+- [The Lantern and Ledger](The%20Lantern%20and%20Ledger/The%20Lantern%20and%20Ledger.md)

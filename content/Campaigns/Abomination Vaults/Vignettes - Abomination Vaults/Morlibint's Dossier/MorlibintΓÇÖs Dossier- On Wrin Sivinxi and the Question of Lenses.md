@@ -8,10 +8,10 @@ cover: "assets/world-anvil/shared-cover-32ff100f6011.png"
 
 # Morlibint’s Dossier: On Wrin Sivinxi and the Question of Lenses
 
-![[shared-cover-32ff100f6011.png]]
+![](../../../../assets/images/shared-cover-32ff100f6011.png)
 
 > [!side]
-> :   ![[morlibints-dossier-on-wrin-sivinxi-and-the-question-of-lenses-image-01.jpeg]]
+> :   ![](../../../../assets/images/morlibints-dossier-on-wrin-sivinxi-and-the-question-of-lenses-image-01.jpeg)
 >
 >     by ChatGPT
 

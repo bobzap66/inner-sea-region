@@ -8,7 +8,7 @@ portrait: "assets/world-anvil/leroy-portrait.jpeg"
 
 # Leroy
 
-![[leroy-portrait.jpeg]]
+![](../../../assets/images/leroy-portrait.jpeg)
 
 ### Leroy, Called “The King”
 
@@ -27,7 +27,7 @@ Born an ordinary rooster on the outskirts of Almas, Leroy was awakened under cir
 
 Over the past two years, Leroy’s reputation has grown rapidly throughout Andoran. His performances draw large crowds, his songs circulate widely, and his most famous piece, \*Sun Do Shine\*, has taken on near-hymnal status among listeners with Sarenrite leanings. Despite his fame, Leroy has resisted patronage, formal religious affiliation, or political endorsement, preferring short tours and limited engagements to permanent residence or institutional backing.
 
-In Desnus of 4714 AR, Leroy visited [[Thumpington]] for a brief, sold-out series of performances, marking his first appearance in the [[Stolen Lands]]. The visit was widely regarded as a cultural milestone for the young kingdom.
+In Desnus of 4714 AR, Leroy visited [Thumpington](../../../Locations/Inner%20Sea%20Region/River%20Kingdoms/Stolen%20Lands/Thumping%20Waters/Settlements/Thumpington/Thumpington.md) for a brief, sold-out series of performances, marking his first appearance in the [Stolen Lands](../../../Locations/Inner%20Sea%20Region/River%20Kingdoms/Stolen%20Lands/Stolen%20Lands.md). The visit was widely regarded as a cultural milestone for the young kingdom.
 
 #### Personality
 
@@ -45,7 +45,7 @@ While aware of his species’ short natural lifespan, Leroy does not dwell on mo
 
 #### Notable Associations
 
-During his Thumpington visit, Leroy performed an impromptu collaboration with [[Seamus]], Minister of Intelligence, whose fife accompaniment was widely praised. The performance has since become a favored anecdote in local retellings of the concert.
+During his Thumpington visit, Leroy performed an impromptu collaboration with [Seamus](../Characters/Seamus.md), Minister of Intelligence, whose fife accompaniment was widely praised. The performance has since become a favored anecdote in local retellings of the concert.
   
 
 #### Current Role

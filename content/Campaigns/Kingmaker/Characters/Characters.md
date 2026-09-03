@@ -8,15 +8,15 @@ parent: "[[Campaigns/Kingmaker/Kingmaker|Kingmaker]]"
 
 Player characters from the Kingmaker campaign.
 
-- [[Ally Grainger]]
-- [[Ant]]
-- [[Elowyn Vask]]
-- [[Fitzroy]]
-- [[Mairi]]
-- [[Matteo]]
-- [[Seamus]]
-- [[Campaigns/Kingmaker/Characters/Velka/Velka|Velka]]
+- [Ally Grainger](Ally%20Grainger.md)
+- [Ant](Ant.md)
+- [Elowyn Vask](Elowyn%20Vask.md)
+- [Fitzroy](Fitzroy.md)
+- [Mairi](Mairi.md)
+- [Matteo](Matteo.md)
+- [Seamus](Seamus.md)
+- [Velka](Velka/Velka.md)
 
 ## Animal Companions
 
-- [[Campaigns/Kingmaker/Characters/Animal Companions/Animal Companions|Animal Companions]]
+- [Animal Companions](Animal%20Companions/Animal%20Companions.md)

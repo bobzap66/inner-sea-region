@@ -8,7 +8,7 @@ portrait: "assets/world-anvil/stag-lord-portrait.webp"
 
 # Stag Lord
 
-![[stag-lord-portrait.webp]]
+![](../../../assets/images/stag-lord-portrait.webp)
 
 *Mad Tyrant · Masked Marauder · Broken Son of a Broken Land*
 

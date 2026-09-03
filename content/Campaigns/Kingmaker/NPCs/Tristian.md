@@ -9,17 +9,17 @@ portrait: "assets/world-anvil/shared-image-8ec3e0278927.png"
 
 # Tristian
 
-![[shared-image-8ec3e0278927.png]]
+![](../../../assets/images/shared-image-8ec3e0278927.png)
 
-*Compiled by the College of Letters and Public Record, [[Free University of Thumping Waters]], with archival assistance from the Temple of [[Sarenrae]], the [[Ministry of Magic]], and [[Linzi]]*
+*Compiled by the College of Letters and Public Record, [Free University of Thumping Waters](../../../Locations/Inner%20Sea%20Region/River%20Kingdoms/Stolen%20Lands/Thumping%20Waters/Settlements/Thumpington/Free%20University%20of%20Thumping%20Waters.md), with archival assistance from the Temple of [Sarenrae](../../../Rules/Deities/Sarenrae.md), the [Ministry of Magic](../../../Locations/Inner%20Sea%20Region/River%20Kingdoms/Stolen%20Lands/Thumping%20Waters/Ruling%20Council/Ministry%20of%20Magic.md), and [Linzi](Linzi.md)*
 
 > Power is safest in the hands of someone who keeps asking whom it might hurt.
 >
 > — Linzi
 
-Tristian is a priest of Sarenrae, healer, counselor, and the present Minister of Magic of the Republic of Thumping Waters. He first came to the [[Stolen Lands]] under the guidance of troubling dreams and briefly traveled with the adventurers later known as the Tubthumpers during their campaign against the [[Stag Lord]]. Although he soon departed to pursue a calling of his own, he returned to become one of [[Thumpington]]'s most trusted religious and civic leaders.
+Tristian is a priest of Sarenrae, healer, counselor, and the present Minister of Magic of the Republic of Thumping Waters. He first came to the [Stolen Lands](../../../Locations/Inner%20Sea%20Region/River%20Kingdoms/Stolen%20Lands/Stolen%20Lands.md) under the guidance of troubling dreams and briefly traveled with the adventurers later known as the Tubthumpers during their campaign against the [Stag Lord](Stag%20Lord.md). Although he soon departed to pursue a calling of his own, he returned to become one of [Thumpington](../../../Locations/Inner%20Sea%20Region/River%20Kingdoms/Stolen%20Lands/Thumping%20Waters/Settlements/Thumpington/Thumpington.md)'s most trusted religious and civic leaders.
 
-His public life has been defined by a gentle manner, a reluctance to exercise authority for its own sake, and an enduring belief that mercy is an obligation rather than an ornament. Recent events have also revealed that the signs surrounding Tristian since childhood were more than metaphor. During the resurrection of [[Velka]], brilliant golden wings manifested from his back. Tristian now believes himself angelic in nature, though the meaning and limits of that revelation remain subjects of religious inquiry.
+His public life has been defined by a gentle manner, a reluctance to exercise authority for its own sake, and an enduring belief that mercy is an obligation rather than an ornament. Recent events have also revealed that the signs surrounding Tristian since childhood were more than metaphor. During the resurrection of [Velka](../Characters/Velka/Velka.md), brilliant golden wings manifested from his back. Tristian now believes himself angelic in nature, though the meaning and limits of that revelation remain subjects of religious inquiry.
 
   
 
@@ -53,7 +53,7 @@ He grew into a soft-spoken and deeply conscientious priest. His faith emphasized
 
 ### The Road to the Stolen Lands
 
-Dreams and distant omens drew Tristian westward. He spoke of an old wrong beneath the soil and of a wounded land calling for healing. In the [[Locations/Inner Sea Region/River Kingdoms/Stolen Lands/Greenbelt|Greenbelt]] he joined the Tubthumpers during the campaign against the Stag Lord, providing healing, divine magic, and moral counsel during the dangerous final stages of their charter.
+Dreams and distant omens drew Tristian westward. He spoke of an old wrong beneath the soil and of a wounded land calling for healing. In the [Greenbelt](../../../Locations/Inner%20Sea%20Region/River%20Kingdoms/Stolen%20Lands/Greenbelt/Greenbelt.md) he joined the Tubthumpers during the campaign against the Stag Lord, providing healing, divine magic, and moral counsel during the dangerous final stages of their charter.
 
 After the Stag Lord's defeat, Tristian left the company. He explained only that Sarenrae's work for him lay elsewhere. His departure was not a rejection of his companions. He remained connected to the nation they founded and eventually made his home in its capital.
 
@@ -69,7 +69,7 @@ He was especially active during periods of recovery. After the Beast's attack de
 
 ### Minister of Magic
 
-When [[Mairi]] Blackwood left the prime ministership, [[Ally Grainger]] assumed leadership of the government and relinquished the Ministry of Magic. Tristian succeeded her as minister.
+When [Mairi](../Characters/Mairi.md) Blackwood left the prime ministership, [Ally Grainger](../Characters/Ally%20Grainger.md) assumed leadership of the government and relinquished the Ministry of Magic. Tristian succeeded her as minister.
 
 The appointment placed a man notably uncomfortable with power in charge of the Republic's magical policy. Tristian oversees magical research, advises the Ruling Council during supernatural emergencies, supervises projects whose risks extend beyond their practitioners, and mediates between arcane institutions, divine communities, and civil law.
 

@@ -8,21 +8,21 @@ cover: "assets/world-anvil/shared-cover-8a1bfbff37cb.png"
 
 # Session 40: Back into the Slough
 
-![[shared-cover-8a1bfbff37cb.png]]
+![](../../../assets/images/shared-cover-8a1bfbff37cb.png)
 
 > [!side]
-> :   ![[session-40-back-into-the-slough-24.webp]]
+> :   ![](../../../assets/images/screenshots/Session%2040%20-%20Back%20into%20the%20Slough/session-40-back-into-the-slough-24.webp)
 >
 >
 > ---
 >
 > <!-- session-gallery:start -->
 
-### From [[Linzi]]’s Journal
+### From [Linzi](../NPCs/Linzi.md)’s Journal
 
 *An account of events in early Calistril, 4714 AR, reconstructed from the testimony of those present*
 
-The Tubthumpers returned to [[Locations/Inner Sea Region/River Kingdoms/Stolen Lands/Hooktongue Slough|Hooktongue Slough]] with [[Amiri]] beside them. This was not another survey or bounty. Somewhere in or beyond the marshes were the last [[Survivors]] of the [[Groups/Six Bears|Six Bears]], the people among whom Amiri had grown up and from whom she had fled.
+The Tubthumpers returned to [Hooktongue Slough](../../../Locations/Inner%20Sea%20Region/River%20Kingdoms/Stolen%20Lands/Hooktongue%20Slough/Hooktongue%20Slough.md) with [Amiri](../NPCs/Amiri.md) beside them. This was not another survey or bounty. Somewhere in or beyond the marshes were the last [Survivors](../../Abomination%20Vaults/Vignettes%20-%20Abomination%20Vaults/Survivors.md) of the [Six Bears](../../../Groups/Six%20Bears.md), the people among whom Amiri had grown up and from whom she had fled.
 
 Amiri once summarized the difficulty plainly: “I like to stab and slash and kill things. And that’s not really a feminine pursuit. So I never really got along with them real well.”
 
@@ -32,7 +32,7 @@ What followed drove her into exile and had been following her ever since.
 
 The Slough presented a more immediate problem first. A twelve-headed hydra erupted from a stagnant pond and attacked with enough jaws to make counting them seem an irresponsible use of time.
 
-Every head struck independently. [[Fitzroy]] caught the opening assault upon his shield, which came perilously close to shattering under the barrage. Amiri and [[Seamus]] met the creature in the water while the others attacked from whatever footing the swamp permitted.
+Every head struck independently. [Fitzroy](../Characters/Fitzroy.md) caught the opening assault upon his shield, which came perilously close to shattering under the barrage. Amiri and [Seamus](../Characters/Seamus.md) met the creature in the water while the others attacked from whatever footing the swamp permitted.
 
 At first, the Tubthumpers concentrated upon the heads. This proved discouraging. Wounds closed, severed flesh regenerated, and the hydra responded to every success by remaining distressingly full of teeth.
 
@@ -42,15 +42,15 @@ Beneath the water lay one of its previous victims, an elven adventurer whose equ
 
 The journey also gave the party cause to examine Amiri’s oversized sword more carefully. Its unnatural ability to repair itself was not merely an unusual enchantment. The blade was a prison, and a living soul remained trapped within it. A freedom ritual might release that soul, but such magic lay far beyond anything the Tubthumpers could then perform. Amiri, for all her attachment to the weapon, was willing to see its prisoner freed.
 
-Farther into the Slough, the party encountered a desperate band of Pitaxian clerics, merchants, and performers. They were hungry, limping, and frightened, and their account of flight from [[Pitax]] appeared sincere. The Tubthumpers escorted them through the marshes and directed them toward safety in Thumping Waters.
+Farther into the Slough, the party encountered a desperate band of Pitaxian clerics, merchants, and performers. They were hungry, limping, and frightened, and their account of flight from [Pitax](../../../Locations/Inner%20Sea%20Region/River%20Kingdoms/Stolen%20Lands/Thumping%20Waters/Settlements/Pitax/Pitax.md) appeared sincere. The Tubthumpers escorted them through the marshes and directed them toward safety in Thumping Waters.
 
 Their arrival did more than save lives. A republic that accepts people fleeing danger reminds its own citizens what their nation is supposed to be. Some of the unrest troubling the realm eased as word of the rescue spread.
 
 Then came a smaller act of cruelty with consequences no less real.
 
-[[Ant]] used divination to search for [[Nilak]], Amiri’s closest childhood friend. The spell succeeded. He saw that Nilak was alive.
+[Ant](../Characters/Ant.md) used divination to search for [Nilak](../NPCs/Nilak.md), Amiri’s closest childhood friend. The spell succeeded. He saw that Nilak was alive.
 
-The [[Artifacts and Relics/Oculus of Abaddon|Oculus of Abaddon]] had begun asserting its own will through him. It compelled Ant to look Amiri in the eyes and say that Nilak was dead and that the scrying had failed.
+The [Oculus of Abaddon](../../../Artifacts%20and%20Relics/Oculus%20of%20Abaddon.md) had begun asserting its own will through him. It compelled Ant to look Amiri in the eyes and say that Nilak was dead and that the scrying had failed.
 
 There was no advantage in the lie. It did not protect Ant, mislead an enemy, or advance any plan. Its only purpose was to wound Amiri. That pointlessness may be the most frightening thing about it.
 
@@ -68,7 +68,7 @@ That should have been the beginning of a reconciliation.
 
 Instead, Fitzroy accused the survivors of trespassing within the republic and hunting one of its citizens. Nilak denied that they had come for Amiri. The Six Bears had been fleeing south from a powerful ghost that followed them wherever they went, sending undead every few weeks and demanding the return of the blade Amiri had stolen.
 
-Fitzroy continued to question their right to cross the border in pursuit of a “murderer.” Nilak’s exhaustion hardened into fury. She accused him of cowardice, rejected his claims of honor, and told him, “You dishonor the symbol of [[Erastil]] you wear on your breast.”
+Fitzroy continued to question their right to cross the border in pursuit of a “murderer.” Nilak’s exhaustion hardened into fury. She accused him of cowardice, rejected his claims of honor, and told him, “You dishonor the symbol of [Erastil](../../../Rules/Deities/Erastil.md) you wear on your breast.”
 
 The bridge burned quickly after that. Nilak refused the party’s offer of aid and declared that the Six Bears would leave. Amiri had found her friend alive only to watch any hope of reunion collapse beneath accusations that should never have followed a rescue.
 
@@ -98,10 +98,10 @@ The last kind may be the hardest to cauterize.
 
 ## Session Gallery
 
-![[Session 40-01.webp]] ![[Session 40-02.webp]] ![[Session 40-03.webp]] ![[Session 40-04.webp]] ![[Session 40-05.webp]] ![[Session 40-06.webp]] ![[Session 40-07.webp]] ![[Session 40-08.webp]] ![[Session 40-09.webp]] ![[Session 40-10.webp]] ![[Session 40-11.webp]] ![[Session 40-12.webp]] ![[Session 40-13.webp]] ![[Session 40-14.webp]] ![[Session 40-15.webp]] ![[Session 40-16.webp]] ![[Session 40-17.webp]] ![[Session 40-18.webp]] ![[Session 40-19.webp]] ![[Session 40-20.webp]] ![[Session 40-21.webp]] ![[Session 40-22.webp]] ![[Session 40-23.webp]] ![[session-40-back-into-the-slough-24.webp]]
+![](../../../assets/images/screenshots/Session%2040%20-%20Back%20into%20the%20Slough/Session%2040-01.webp) ![](../../../assets/images/screenshots/Session%2040%20-%20Back%20into%20the%20Slough/Session%2040-02.webp) ![](../../../assets/images/screenshots/Session%2040%20-%20Back%20into%20the%20Slough/Session%2040-03.webp) ![](../../../assets/images/screenshots/Session%2040%20-%20Back%20into%20the%20Slough/Session%2040-04.webp) ![](../../../assets/images/screenshots/Session%2040%20-%20Back%20into%20the%20Slough/Session%2040-05.webp) ![](../../../assets/images/screenshots/Session%2040%20-%20Back%20into%20the%20Slough/Session%2040-06.webp) ![](../../../assets/images/screenshots/Session%2040%20-%20Back%20into%20the%20Slough/Session%2040-07.webp) ![](../../../assets/images/screenshots/Session%2040%20-%20Back%20into%20the%20Slough/Session%2040-08.webp) ![](../../../assets/images/screenshots/Session%2040%20-%20Back%20into%20the%20Slough/Session%2040-09.webp) ![](../../../assets/images/screenshots/Session%2040%20-%20Back%20into%20the%20Slough/Session%2040-10.webp) ![](../../../assets/images/screenshots/Session%2040%20-%20Back%20into%20the%20Slough/Session%2040-11.webp) ![](../../../assets/images/screenshots/Session%2040%20-%20Back%20into%20the%20Slough/Session%2040-12.webp) ![](../../../assets/images/screenshots/Session%2040%20-%20Back%20into%20the%20Slough/Session%2040-13.webp) ![](../../../assets/images/screenshots/Session%2040%20-%20Back%20into%20the%20Slough/Session%2040-14.webp) ![](../../../assets/images/screenshots/Session%2040%20-%20Back%20into%20the%20Slough/Session%2040-15.webp) ![](../../../assets/images/screenshots/Session%2040%20-%20Back%20into%20the%20Slough/Session%2040-16.webp) ![](../../../assets/images/screenshots/Session%2040%20-%20Back%20into%20the%20Slough/Session%2040-17.webp) ![](../../../assets/images/screenshots/Session%2040%20-%20Back%20into%20the%20Slough/Session%2040-18.webp) ![](../../../assets/images/screenshots/Session%2040%20-%20Back%20into%20the%20Slough/Session%2040-19.webp) ![](../../../assets/images/screenshots/Session%2040%20-%20Back%20into%20the%20Slough/Session%2040-20.webp) ![](../../../assets/images/screenshots/Session%2040%20-%20Back%20into%20the%20Slough/Session%2040-21.webp) ![](../../../assets/images/screenshots/Session%2040%20-%20Back%20into%20the%20Slough/Session%2040-22.webp) ![](../../../assets/images/screenshots/Session%2040%20-%20Back%20into%20the%20Slough/Session%2040-23.webp) ![](../../../assets/images/screenshots/Session%2040%20-%20Back%20into%20the%20Slough/session-40-back-into-the-slough-24.webp)
 <!-- session-gallery:end -->
 
 ## Article navigation
 
-**Previous:** [[Session 39- The Fall of Talon Peak]]  
-**Next:** [[Session 41- The Seige of Tatzlford]]
+**Previous:** [Session 39- The Fall of Talon Peak](Session%2039-%20The%20Fall%20of%20Talon%20Peak.md)  
+**Next:** [Session 41- The Seige of Tatzlford](../Session%20Reports%2041-60/Session%2041-%20The%20Seige%20of%20Tatzlford.md)

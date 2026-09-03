@@ -28,7 +28,7 @@ A chronological record of the major events of the Kingmaker campaign, reconstruc
 >
 > **4710 AR** · 1 Desnus
 >
-> [[Campaigns/Kingmaker/Session Reports 0-20/Session 08- Founding Day!|Session 8 — Founding Day!]]
+> [Session 8 — Founding Day!](Session%20Reports%200-20/Session%2008-%20Founding%20Day%21.md)
 
 > [!timeline-minor-left] Founding of Olegton
 > *Minor/Regional · Founding*
@@ -50,7 +50,7 @@ A chronological record of the major events of the Kingmaker campaign, reconstruc
 >
 > **4710 AR** · 30 Lamashan
 >
-> [[Campaigns/Kingmaker/Session Reports 0-20/Session 20- The Beast|Session 20 — The Beast]]
+> [Session 20 — The Beast](Session%20Reports%200-20/Session%2020-%20The%20Beast.md)
 
 > [!timeline-minor-left] Annexing of Tatzleford
 > *Minor/Regional · Diplomatic Action*
@@ -72,7 +72,7 @@ A chronological record of the major events of the Kingmaker campaign, reconstruc
 >
 > **4711 AR** · Arodus–Rova
 >
-> [[Campaigns/Kingmaker/Session Reports 21-40/Session 26- The Bloom|Session 26 — The Bloom]] · [[Campaigns/Kingmaker/Session Reports 21-40/Session 28- Source of the Bloom|Session 28 — Source of the Bloom]]
+> [Session 26 — The Bloom](Session%20Reports%2021-40/Session%2026-%20The%20Bloom.md) · [Session 28 — Source of the Bloom](Session%20Reports%2021-40/Session%2028-%20Source%20of%20the%20Bloom.md)
 
 > [!timeline-minor-left] Annexing of Greengripe
 > *Minor/Regional · Diplomatic Action*
@@ -89,14 +89,14 @@ A chronological record of the major events of the Kingmaker campaign, reconstruc
 >
 > **4711 AR** · 3 Kuthona
 >
-> [[Campaigns/Kingmaker/Session Reports 21-40/Session 31- Varnhold Vanishing|Session 31 — Varnhold Vanishing]]
+> [Session 31 — Varnhold Vanishing](Session%20Reports%2021-40/Session%2031-%20Varnhold%20Vanishing.md)
 
 > [!timeline-major-right] Vordakai Defeated
 > *Important/National · Military / Supernatural Victory*
 >
 > **4712 AR**
 >
-> [[Campaigns/Kingmaker/Session Reports 21-40/Session 36- Vordakai's End|Session 36 — Vordakai's End]]
+> [Session 36 — Vordakai's End](Session%20Reports%2021-40/Session%2036-%20Vordakai%27s%20End.md)
 
 > [!timeline-major-left] Annexing of Varnhold
 > *Important/National · Diplomatic Action*
@@ -118,35 +118,35 @@ A chronological record of the major events of the Kingmaker campaign, reconstruc
 >
 > **4713 AR**
 >
-> [[Campaigns/Kingmaker/Session Reports 21-40/Session 38- The Fall of M'botuu|Session 38 — The Fall of M'botuu]]
+> [Session 38 — The Fall of M'botuu](Session%20Reports%2021-40/Session%2038-%20The%20Fall%20of%20M%27botuu.md)
 
 > [!timeline-major-left] Battle of Tatzleford
 > *Important/National · Military Battle*
 >
 > **4714 AR**
 >
-> [[Campaigns/Kingmaker/Session Reports 41-60/Session 41- The Seige of Tatzlford|Session 41 — The Siege of Tatzleford]]
+> [Session 41 — The Siege of Tatzleford](Session%20Reports%2041-60/Session%2041-%20The%20Seige%20of%20Tatzlford.md)
 
 > [!timeline-major-right] Liberation of Fort Drelev
 > *Important/National · Political / Military Event*
 >
 > **4714 AR**
 >
-> [[Campaigns/Kingmaker/Session Reports 41-60/Session 43- The Fall of Fort Drelev|Session 43 — The Fall of Fort Drelev]]
+> [Session 43 — The Fall of Fort Drelev](Session%20Reports%2041-60/Session%2043-%20The%20Fall%20of%20Fort%20Drelev.md)
 
 > [!timeline-minor-left] Death of Armag the Twice-Born
 > *Minor/Regional · Death*
 >
 > **4714 AR**
 >
-> [[Campaigns/Kingmaker/Session Reports 41-60/Session 45- Armag's Tomb Raiders|Session 45 — Armag's Tomb Raiders]]
+> [Session 45 — Armag's Tomb Raiders](Session%20Reports%2041-60/Session%2045-%20Armag%27s%20Tomb%20Raiders.md)
 
 > [!timeline-major-right] The Rushlight Tournament
 > *Important/National · Cultural Event*
 >
 > **4714 AR**
 >
-> [[Campaigns/Kingmaker/Session Reports 41-60/Session 49- The Rushlight Begins|Session 49 — The Rushlight Begins]]
+> [Session 49 — The Rushlight Begins](Session%20Reports%2041-60/Session%2049-%20The%20Rushlight%20Begins.md)
 
 > [!timeline-major-left] Battle of Willowfen
 > *Important/National · Military Battle*
@@ -165,14 +165,14 @@ A chronological record of the major events of the Kingmaker campaign, reconstruc
 >
 > Mairi returned alive after willingly dying by Amiri's sword so the spirit trapped within it could finally be freed.
 >
-> [[Campaigns/Kingmaker/Session Reports 41-60/Session 60- The Years Between|Session 60 — The Years Between]]
+> [Session 60 — The Years Between](Session%20Reports%2041-60/Session%2060-%20The%20Years%20Between.md)
 
 > [!timeline-minor-right] Seamus and Linzi Marry
 > *Minor/Regional · Life Event*
 >
 > **4715 AR** · 21 Rova
 >
-> [[Campaigns/Kingmaker/Session Reports 41-60/Session 60- The Years Between|Session 60 — The Years Between]]
+> [Session 60 — The Years Between](Session%20Reports%2041-60/Session%2060-%20The%20Years%20Between.md)
 
 > [!timeline-minor-left] Fitzroy Resigns as Minister of Defense
 > *Minor/Regional · Political Event*
@@ -181,7 +181,7 @@ A chronological record of the major events of the Kingmaker campaign, reconstruc
 >
 > Fitzroy returned to Brevoy, and Ekundayo succeeded him as Minister of Defense.
 >
-> [[Campaigns/Kingmaker/Session Reports 41-60/Session 60- The Years Between|Session 60 — The Years Between]]
+> [Session 60 — The Years Between](Session%20Reports%2041-60/Session%2060-%20The%20Years%20Between.md)
 
 > [!timeline-major-right] Warning of the Wild Hunt
 > *Important/National · Fey / Supernatural Event*
@@ -190,7 +190,7 @@ A chronological record of the major events of the Kingmaker campaign, reconstruc
 >
 > Lurk arrived in Thumpington warning that the Wild Hunt was approaching and that the spiral seal beneath Candlemere was failing.
 >
-> [[Campaigns/Kingmaker/Session Reports 41-60/Session 60- The Years Between|Session 60 — The Years Between]]
+> [Session 60 — The Years Between](Session%20Reports%2041-60/Session%2060-%20The%20Years%20Between.md)
 
 > [!timeline-major-left] Breaking the Candlemere Seal
 > *Important/National · Metaphysical / Paranormal Event*
@@ -199,7 +199,7 @@ A chronological record of the major events of the Kingmaker campaign, reconstruc
 >
 > Elowyn, assisted by Ally, deliberately performed the rite that unmade the ancient Pharasmian spiral seal beneath Candlemere.
 >
-> [[Campaigns/Kingmaker/Session Reports 61-80/Session 61- Breaking the Seal|Session 61 — Breaking the Seal]]
+> [Session 61 — Breaking the Seal](Session%20Reports%2061-80/Session%2061-%20Breaking%20the%20Seal.md)
 
 > [!timeline-major-right] The Expedition Beneath Candlemere
 > *Important/National · Exploration / Supernatural Event*
@@ -208,8 +208,8 @@ A chronological record of the major events of the Kingmaker campaign, reconstruc
 >
 > After destroying seven Grave Knights, the Tubthumpers reached three ancient Morrigna psychopomps who confirmed that Foras and the Thresholders remain deeper within the complex. The party now rests under Morrigna protection before continuing toward the Hall of the Reliquaries.
 >
-> [[Campaigns/Kingmaker/Session Reports 61-80/Session 61- Breaking the Seal|Session 61 — Breaking the Seal]]
+> [Session 61 — Breaking the Seal](Session%20Reports%2061-80/Session%2061-%20Breaking%20the%20Seal.md)
 
 ---
 
-[[Campaigns/Kingmaker/Kingmaker- The Story So Far|Kingmaker: The Story So Far]]
+[Kingmaker: The Story So Far](Kingmaker-%20The%20Story%20So%20Far.md)

@@ -8,10 +8,10 @@ cover: "assets/world-anvil/shared-cover-32ff100f6011.png"
 
 # Morlibint's Dossier: The Whispering Reeds
 
-![[shared-cover-32ff100f6011.png]]
+![](../../../../assets/images/shared-cover-32ff100f6011.png)
 
 > [!side]
-> :   ![[morlibint-s-dossier-the-whispering-reeds-image-01.png]]
+> :   ![](../../../../assets/images/morlibint-s-dossier-the-whispering-reeds-image-01.png)
 
 *A dangerous text, best catalogued and left unread. Inclusion in this archive is for completeness, not recommendation.*
 
@@ -87,5 +87,5 @@ It is that some knowledge is not passive.
 
 It notices when it is being read.
 
-[[Morlibint's Dossier- Closing Remarks|Morlibint's Dossier: Closing Remarks]]
+[Morlibint's Dossier: Closing Remarks](Morlibint%27s%20Dossier-%20Closing%20Remarks.md)
 

@@ -8,9 +8,9 @@ parent: "[[Campaigns/Abomination Vaults/Abomination Vaults|Abomination Vaults]]"
 
 Player characters associated with the Abomination Vaults campaign.
 
-- [[August Shepard]]
-- [[Comet]]
-- [[Kiri Steelpaws]]
-- [[Leif Darkwood]]
-- [[Talia Nightclaw]]
-- [[Theron]]
+- [August Shepard](August%20Shepard.md)
+- [Comet](Comet.md)
+- [Kiri Steelpaws](Kiri%20Steelpaws.md)
+- [Leif Darkwood](Leif%20Darkwood.md)
+- [Talia Nightclaw](Talia%20Nightclaw.md)
+- [Theron](Theron.md)

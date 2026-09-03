@@ -8,15 +8,15 @@ cover: "assets/world-anvil/shared-cover-2c2d28b87bde.png"
 
 # Thumpington
 
-![[shared-cover-2c2d28b87bde.png]]
+![](../../../../../../../assets/images/shared-cover-2c2d28b87bde.png)
 
-*Compiled by the College of Letters and Public Record, [[Free University of Thumping Waters]], with archival assistance from the [[Ministry of Communication]] and selections from the journals of [[Linzi]]*
+*Compiled by the College of Letters and Public Record, [Free University of Thumping Waters](Free%20University%20of%20Thumping%20Waters.md), with archival assistance from the [Ministry of Communication](../../Ruling%20Council/Ministry%20of%20Communication.md) and selections from the journals of [Linzi](../../../../../../../Campaigns/Kingmaker/NPCs/Linzi.md)*
 
 > Thumpington was not built because this was an easy place to live. It was built because enough people decided difficulty was a poor reason to leave.
 >
 > — Linzi
 
-Thumpington is the capital of the Republic of Thumping Waters and the largest settlement upon the Shrike River. It began as a rough camp of prospectors, laborers, merchants, and hopeful settlers drawn to the Crack Rock gold strike. In six turbulent years it has become the seat of a national government, a center of trade and learning, and the civic heart of a republic stretching across much of the [[Stolen Lands]].
+Thumpington is the capital of the Republic of Thumping Waters and the largest settlement upon the Shrike River. It began as a rough camp of prospectors, laborers, merchants, and hopeful settlers drawn to the Crack Rock gold strike. In six turbulent years it has become the seat of a national government, a center of trade and learning, and the civic heart of a republic stretching across much of the [Stolen Lands](../../../Stolen%20Lands.md).
 
 The city's confidence is recent and hard-earned. Thumpington has survived wilderness isolation, political unrest, the attack of the enormous owlbear remembered as the Beast of Thumpington, repeated supernatural crises, and the War of the River Kings. Its people have rebuilt homes, bridges, roads, and public trust often enough that construction has become nearly as important to the capital's identity as the structures themselves.
 
@@ -36,9 +36,9 @@ The city's confidence is recent and hard-earned. Thumpington has survived wilder
 
 **Government:** Seat of the Ruling Council and national ministries
 
-**Founders:** [[Ally Grainger]], [[Ant]] Crazyfoot, [[Mairi]] Blackwood, and [[Seamus]]
+**Founders:** [Ally Grainger](../../../../../../../Campaigns/Kingmaker/Characters/Ally%20Grainger.md), [Ant](../../../../../../../Campaigns/Kingmaker/Characters/Ant.md) Crazyfoot, [Mairi](../../../../../../../Campaigns/Kingmaker/Characters/Mairi.md) Blackwood, and [Seamus](../../../../../../../Campaigns/Kingmaker/Characters/Seamus.md)
 
-**Current Era:** Postwar reconstruction and preparation for the [[Wild Hunt]], 4716 AR
+**Current Era:** Postwar reconstruction and preparation for the [Wild Hunt](../../../../../../../Campaigns/Kingmaker/Vignettes%20-%20Kingmaker/Intelligence%20Reports/Wild%20Hunt.md), 4716 AR
 
   
 
@@ -66,15 +66,15 @@ Castle Thumpington and Charter Hall eventually established a permanent civic cen
 
 ### The Beast of Thumpington
 
-In late 4711 AR, while the Tubthumpers were away from the capital, an enormous maddened owlbear attacked Thumpington. The creature tore through streets and buildings, destroyed the wooden bridge, flattened the shrine of [[Sarenrae]], and killed more than thirty people before disappearing into the western woods. Gershwin the smith was among the dead. Fires and structural collapse left much of the settlement damaged, while the absence of its famous protectors caused fear to harden into anger.
+In late 4711 AR, while the Tubthumpers were away from the capital, an enormous maddened owlbear attacked Thumpington. The creature tore through streets and buildings, destroyed the wooden bridge, flattened the shrine of [Sarenrae](../../../../../../../Rules/Deities/Sarenrae.md), and killed more than thirty people before disappearing into the western woods. Gershwin the smith was among the dead. Fires and structural collapse left much of the settlement damaged, while the absence of its famous protectors caused fear to harden into anger.
 
-The Tubthumpers returned to smoke visible long before they reached the city. They first assisted with relief, spoke to [[Survivors]], and helped stabilize public order. On Neth 10 they departed to hunt the Beast, tracking it through the [[Locations/Inner Sea Region/River Kingdoms/Stolen Lands/Greenbelt/Narlmarches|Narlmarches]] to a lair filled with enormous fungi, spiders, and other predators. They killed the owlbear on Neth 12.
+The Tubthumpers returned to smoke visible long before they reached the city. They first assisted with relief, spoke to [Survivors](../../../../../../../Campaigns/Abomination%20Vaults/Vignettes%20-%20Abomination%20Vaults/Survivors.md), and helped stabilize public order. On Neth 10 they departed to hunt the Beast, tracking it through the [Narlmarches](../../../Greenbelt/Narlmarches.md) to a lair filled with enormous fungi, spiders, and other predators. They killed the owlbear on Neth 12.
 
-Within the den they found a starving owlbear cub. Mairi refused to kill it for the destruction caused by its mother. She fed it, brought it home, and named it [[Lorcan]], meaning *little fierce one*. Lorcan later grew into a familiar guardian around the capital's training grounds. Citizens are advised that his history of good behavior does not convert him into a suitable animal for unsupervised petting.
+Within the den they found a starving owlbear cub. Mairi refused to kill it for the destruction caused by its mother. She fed it, brought it home, and named it [Lorcan](../../../../../../../Campaigns/Kingmaker/Characters/Animal%20Companions/Lorcan.md), meaning *little fierce one*. Lorcan later grew into a familiar guardian around the capital's training grounds. Citizens are advised that his history of good behavior does not convert him into a suitable animal for unsupervised petting.
 
-Rebuilding continued well after the Beast's death. Endurance Bridge was raised in stone. Roads and homes were repaired. A sewer system and broader paved avenues improved the reconstructed quarters. The [[Temple of the First Light]] expanded its relief work, and [[Tristian]]'s Dawn, founded after the attack with Tristian's financial support, became both a home and a school for children who had lost families or security.
+Rebuilding continued well after the Beast's death. Endurance Bridge was raised in stone. Roads and homes were repaired. A sewer system and broader paved avenues improved the reconstructed quarters. The [Temple of the First Light](Temple%20of%20the%20First%20Light.md) expanded its relief work, and [Tristian](../../../../../../../Campaigns/Kingmaker/NPCs/Tristian.md)'s Dawn, founded after the attack with Tristian's financial support, became both a home and a school for children who had lost families or security.
 
-Every Fireday, candles are lit at the memorial bearing the names of those killed. Their [[Reflections]] upon the Shrike remain one of the city's quietest public observances.
+Every Fireday, candles are lit at the memorial bearing the names of those killed. Their [Reflections](../../../../../../../Campaigns/Abomination%20Vaults/Vignettes%20-%20Abomination%20Vaults/Reflections.md) upon the Shrike remain one of the city's quietest public observances.
 
   
 
@@ -92,9 +92,9 @@ Second Dawn Hospital was completed during the War of the River Kings. It provide
 
 The Lantern Archive, Thumpington's combined public library and museum, preserves books, maps, relics, public records, and objects gathered during the Republic's early expeditions. Its collections include ordinary civic materials alongside works recovered from abandoned settlements, ancient ruins, enemy strongholds, and private holdings whose previous owners displayed greater enthusiasm for acquisition than cataloguing. The institution's name refers both to the city's famous streetlamps and to the conviction that knowledge should illuminate public life.
 
-The Compass Tower and the city's magical shops made Thumpington a center of supernatural study before it possessed a formal university. The tower's name reflects its original purpose: not merely to accumulate magical power, but to help the Republic find a safe direction through unfamiliar phenomena. The [[Ministry of Magic]] added government records concerning curses, Blooms, artifacts, planar disturbances, and unusual creatures. These collections proved essential when the Republic confronted dangers whose principal weakness could not be discovered by striking them repeatedly, although striking remained an important part of several investigations.
+The Compass Tower and the city's magical shops made Thumpington a center of supernatural study before it possessed a formal university. The tower's name reflects its original purpose: not merely to accumulate magical power, but to help the Republic find a safe direction through unfamiliar phenomena. The [Ministry of Magic](../../Ruling%20Council/Ministry%20of%20Magic.md) added government records concerning curses, Blooms, artifacts, planar disturbances, and unusual creatures. These collections proved essential when the Republic confronted dangers whose principal weakness could not be discovered by striking them repeatedly, although striking remained an important part of several investigations.
 
-The Government Printing Office grew from press components secretly purchased by Linzi and recovered from the Jaggedbriar Coven in 4711 AR. With [[Eobald]]'s assistance, the press became operational after nearly a year of repair and assembly. It first produced laws, forms, proclamations, and public notices. On 1 Sarenith, 4714 AR, it printed the first issue of the *Lantern and Ledger*, now the national newspaper of Thumping Waters.
+The Government Printing Office grew from press components secretly purchased by Linzi and recovered from the Jaggedbriar Coven in 4711 AR. With [Eobald](../../../../../../../Campaigns/Kingmaker/NPCs/Eobald.md)'s assistance, the press became operational after nearly a year of repair and assembly. It first produced laws, forms, proclamations, and public notices. On 1 Sarenith, 4714 AR, it printed the first issue of the *Lantern and Ledger*, now the national newspaper of Thumping Waters.
 
 The paper changed the capital's public life. Council decisions, settlement news, casualty reports, advertisements, corrections, obituaries, and arguments could circulate in consistent form rather than depending entirely upon handwritten copies and tavern retellings. The government press remains a public institution, while the newspaper maintains its own masthead and editorial practices under Linzi and Managing Editor Mara Venn.
 
@@ -104,9 +104,9 @@ The paper changed the capital's public life. Council decisions, settlement news,
 
 The Free University of Thumping Waters was chartered in 4716 AR as a public institution independent of any single ministry, temple, patron, ancestry, or magical tradition. Its principal campus occupies a growing collection of halls within Thumpington and shares access to the city's archives, printing network, workshops, and public institutions. Its principal reading room and research collection, the Open Treasury, is housed within the Lantern Archive and is open to townspeople as well as enrolled scholars.
 
-Eobald Hall houses the College of Letters and Public Record and is named for the human lecturer, printer, and theatrical director whose work helped establish both the government press and the university's tradition of public scholarship. The Surveyors' Court serves the College of Roads and Rivers. Four Lamps Hall brings arcane, divine, occult, and primal scholars together within the College of the Four Traditions. The Irregulars' Workshop provides the practical teaching hall of [[Nok-Nok]] College, where unconventional experience is treated as a qualification rather than an embarrassment.
+Eobald Hall houses the College of Letters and Public Record and is named for the human lecturer, printer, and theatrical director whose work helped establish both the government press and the university's tradition of public scholarship. The Surveyors' Court serves the College of Roads and Rivers. Four Lamps Hall brings arcane, divine, occult, and primal scholars together within the College of the Four Traditions. The Irregulars' Workshop provides the practical teaching hall of [Nok-Nok](../../../../../../../Campaigns/Kingmaker/NPCs/Nok-Nok.md) College, where unconventional experience is treated as a qualification rather than an embarrassment.
 
-Nok-Nok College and the Nok-Nok Irregulars Fellowship honor the late governor of [[Greengripe]] by extending advanced education to students whose ability would not be recognized by conventional academies.
+Nok-Nok College and the Nok-Nok Irregulars Fellowship honor the late governor of [Greengripe](../Greengripe/Greengripe.md) by extending advanced education to students whose ability would not be recognized by conventional academies.
 
 The arrival of students and teachers has already changed neighborhoods around the university halls. Rooms once rented to visiting merchants now house scholars. Taverns advertise debates with the same confidence previously reserved for musicians. Booksellers have discovered that required reading is more profitable when instructors disagree about which edition is required.
 
@@ -114,7 +114,7 @@ The arrival of students and teachers has already changed neighborhoods around th
 
 ### Faith, Healing, and the Dawnflower
 
-The faith of Sarenrae occupies a prominent place in Thumpington without serving as the Republic's official religion. Tristian, priest of the Dawnflower and current Minister of Magic, helped make compassion, healing, and redemption visible parts of the capital's recovery. The [[Temple of the First Light]] provides worship, counsel, teaching, food, and care to people who require assistance regardless of whether they arrive with an appropriate theological explanation.
+The faith of Sarenrae occupies a prominent place in Thumpington without serving as the Republic's official religion. Tristian, priest of the Dawnflower and current Minister of Magic, helped make compassion, healing, and redemption visible parts of the capital's recovery. The [Temple of the First Light](Temple%20of%20the%20First%20Light.md) provides worship, counsel, teaching, food, and care to people who require assistance regardless of whether they arrive with an appropriate theological explanation.
 
 The temple's braziers burn with enduring flame, and its windows cast gold across the street at dawn. Tristian's Dawn was established after the Beast's attack with funds provided by Tristian and grew under the temple's protection into a school and home. Its name honors both its benefactor and the Sarenite promise that hardship need not determine the shape of a child's future. Locals often shorten the name to *the Dawn*. Tristian remains a familiar visitor, carrying books, bread, and the conviction that care offered quietly is no less sacred than a public miracle.
 
@@ -126,7 +126,7 @@ Other faiths maintain shrines, priests, congregations, and visiting representati
 
 ### Trade and Industry
 
-Goldbank Market receives grain from [[Olegton]], iron and metalwork from [[Sootscale Valley]], timber from [[Embeth Hall]], goods carried through [[Varnhold]] and the western marches, and foreign wares arriving through [[Brevoy]] and the river trade. Locals call it the Goldbank, a name inherited from the market's beginnings beside the prospectors' weighing tables. Gold first established the settlement, but government, crafts, brewing, milling, construction, printing, education, hospitality, and commerce now support far more of its people.
+Goldbank Market receives grain from [Olegton](../Olegton/Olegton.md), iron and metalwork from [Sootscale Valley](../Sootscale%20Valley/Sootscale%20Valley.md), timber from [Embeth Hall](../Embeth%20Hall/Embeth%20Hall.md), goods carried through [Varnhold](../Varnhold/Varnhold.md) and the western marches, and foreign wares arriving through [Brevoy](../../../../../Brevoy/Brevoy.md) and the river trade. Locals call it the Goldbank, a name inherited from the market's beginnings beside the prospectors' weighing tables. Gold first established the settlement, but government, crafts, brewing, milling, construction, printing, education, hospitality, and commerce now support far more of its people.
 
 Shrike Landing remains crowded with cargo, passengers, messengers, and boatmen familiar with the river and its connected waters. Warehouses and workshops stand close to its piers, while specialized shops occupy the busier streets climbing toward the civic center. Smithies, mills, breweries, artisan ateliers, magical suppliers, and general traders ensure that a visitor can purchase nearly anything commonly available in the Republic and receive confident directions toward someone who claims to sell the rest.
 
@@ -152,7 +152,7 @@ Thumpington's culture balances memorial and celebration. Bells and candles comme
 
 Riverbend Park opened during the Victory Festival of 6 Gozran, 4715 AR. Built after the War of the River Kings, it gave the capital a public place intended for rest rather than defense, supply, or emergency shelter. Paths, lawns, river views, and open gathering spaces now draw families, veterans, students, performers, and workers escaping offices during favorable weather.
 
-The Greengripe Amphitheatre stands within the park and honors Nok-Nok, Governor of Greengripe, and the members of Nok-Nok's Irregulars who died in the war. The Irregulars were goblins, bombardiers, scouts, survivors, and citizens who stood between [[Pitax]]'s forces and their homes. Their memorial was deliberately made as a place for music, laughter, argument, and public gathering rather than a silent monument separated from daily life.
+The Greengripe Amphitheatre stands within the park and honors Nok-Nok, Governor of Greengripe, and the members of Nok-Nok's Irregulars who died in the war. The Irregulars were goblins, bombardiers, scouts, survivors, and citizens who stood between [Pitax](../Pitax/Pitax.md)'s forces and their homes. Their memorial was deliberately made as a place for music, laughter, argument, and public gathering rather than a silent monument separated from daily life.
 
 > May every cheer raised within the Greengripe Amphitheatre remind us that the freedom to celebrate was purchased by those willing to stand in its defense.
 >
@@ -190,7 +190,7 @@ University ceremonies, visiting performers, civic addresses, and festivals now u
 
 Thumpington entered 4716 AR victorious, grieving, and busy. The War of the River Kings no longer threatens its streets, but veteran care, reconstruction, diplomatic work, and support for damaged settlements continue. Pitax's future relationship with the Republic remains under negotiation. The western war has ended without making the western frontier safe.
 
-The capital is also preparing for dangers that armies and stone walls may not answer. Reports of the Wild Hunt, increased unease among the fey, and discoveries beneath Candlemere have drawn attention from the Ministry of Magic, the [[Ministry of Intelligence]], temples, archives, and the new university. Thumpington's scholars study warnings recovered from ancient sites while its builders continue work upon hospitals, halls, roads, parks, and the cathedral.
+The capital is also preparing for dangers that armies and stone walls may not answer. Reports of the Wild Hunt, increased unease among the fey, and discoveries beneath Candlemere have drawn attention from the Ministry of Magic, the [Ministry of Intelligence](../../Ruling%20Council/Ministry%20of%20Intelligence.md), temples, archives, and the new university. Thumpington's scholars study warnings recovered from ancient sites while its builders continue work upon hospitals, halls, roads, parks, and the cathedral.
 
 That combination defines the modern city. Thumpington is proud without believing itself finished, prosperous without forgetting ruin, and increasingly learned without losing the practical suspicion that every theory should eventually survive contact with weather, budgets, and actual monsters.
 
@@ -198,7 +198,7 @@ At sunset, the Shrike catches the last light beneath Endurance Bridge. The Cathe
 
   
 
-### From [[Linzi's Journal]]: The Beast and the Broken Bridge
+### From [Linzi's Journal](../../../../../../../Campaigns/Kingmaker/Vignettes%20-%20Kingmaker/Moments/Linzi%27s%20Journal.md): The Beast and the Broken Bridge
 
 *The worst thing about heroes is that the monsters never seem to wait for them to come home.*
 

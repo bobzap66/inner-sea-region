@@ -8,7 +8,7 @@ portrait: "assets/world-anvil/auchs-portrait.jpeg"
 
 # Auchs
 
-![[auchs-portrait.jpeg]]
+![](../../../assets/images/auchs-portrait.jpeg)
 
 A lumbering lummox of a man, Auchs is simpleminded in everything but cruelty. He delights in the sounds of sobbing and screaming—so long as they're not coming from him—and gleefully crushes or pummels bandits and prisoners alike at the command of his fellow lieutenants or the Stag Lord himself.
 

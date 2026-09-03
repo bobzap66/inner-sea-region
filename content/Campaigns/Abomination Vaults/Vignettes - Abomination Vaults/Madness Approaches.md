@@ -8,7 +8,7 @@ category_path:
 
 
 > [!side]
-> :   ![[madness-approaches-image-01.png]]
+> :   ![](../../../assets/images/madness-approaches-image-01.png)
 
 …stone. Breathing with me.
 Walls sweat. Drip-drip like blood.

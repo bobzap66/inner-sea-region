@@ -8,10 +8,10 @@ cover: "assets/world-anvil/shared-cover-32ff100f6011.png"
 
 # Morlibint's Dossier: The Farm
 
-![[shared-cover-32ff100f6011.png]]
+![](../../../../assets/images/shared-cover-32ff100f6011.png)
 
 > [!side]
-> :   ![[morlibint-s-dossier-the-farm-image-01.png]]
+> :   ![](../../../../assets/images/morlibint-s-dossier-the-farm-image-01.png)
 
 *Extract from the Morlibint Dossier*
 
@@ -47,5 +47,5 @@ To understand the Farm, one must abandon the assumption that every space exists 
 
   
 
-[[Morlibint's Dossier- The Children of Belcorra|Morlibint's Dossier: The Children of Belcorra]]
+[Morlibint's Dossier: The Children of Belcorra](Morlibint%27s%20Dossier-%20The%20Children%20of%20Belcorra.md)
 

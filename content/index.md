@@ -12,8 +12,8 @@ type: index
 ### Campaigns
 
 - **[Kingmaker](./campaigns/kingmaker/)**
-  - [[Campaigns/Kingmaker/Kingmaker- The Story So Far|The Story So Far]]
-  - [[Campaigns/Kingmaker/Kingmaker Timeline|Campaign Timeline]]
+  - [The Story So Far](Campaigns/Kingmaker/Kingmaker-%20The%20Story%20So%20Far.md)
+  - [Campaign Timeline](Campaigns/Kingmaker/Kingmaker%20Timeline.md)
   - [Characters](./campaigns/kingmaker/characters/)
   - [NPCs](./campaigns/kingmaker/npcs/)
   - [Session Reports 0–20](./campaigns/kingmaker/session-reports-0-20/)

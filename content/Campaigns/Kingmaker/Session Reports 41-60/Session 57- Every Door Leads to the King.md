@@ -8,10 +8,10 @@ cover: "assets/world-anvil/shared-cover-110a4fd3e759.png"
 
 # Session 57: Every Door Leads to the King
 
-![[shared-cover-110a4fd3e759.png]]
+![](../../../assets/images/shared-cover-110a4fd3e759.png)
 
 > [!side]
-> :   ![[session-57-every-door-leads-to-the-king-36.webp]]
+> :   ![](../../../assets/images/screenshots/Session%2057%20-%20Every%20Door%20Leads%20to%20the%20King/session-57-every-door-leads-to-the-king-36.webp)
 >
 > ---
 >
@@ -65,7 +65,7 @@ cover: "assets/world-anvil/shared-cover-110a4fd3e759.png"
 >
 > ---
 >
-> ![[session-57-every-door-leads-to-the-king-37.webp]]
+> ![](../../../assets/images/screenshots/Session%2057%20-%20Every%20Door%20Leads%20to%20the%20King/session-57-every-door-leads-to-the-king-37.webp)
 >
 > *Paid advertisement. The Lantern and Ledger accepts no responsibility for the quality, aroma, political intent, or ultimate destination of any cheese advertised herein.*
 >
@@ -79,7 +79,7 @@ cover: "assets/world-anvil/shared-cover-110a4fd3e759.png"
 
 *News, Notices, and the Public Record of Thumping Waters*
 
-Lamashan 27, 4714 AR • Published in [[Thumpington]] • [[Linzi]], Editor • Mara Venn, Managing Editor • Price 1 cp
+Lamashan 27, 4714 AR • Published in [Thumpington](../../../Locations/Inner%20Sea%20Region/River%20Kingdoms/Stolen%20Lands/Thumping%20Waters/Settlements/Thumpington/Thumpington.md) • [Linzi](../NPCs/Linzi.md), Editor • Mara Venn, Managing Editor • Price 1 cp
 
 ---
 
@@ -91,7 +91,7 @@ Lamashan 27, 4714 AR • Published in [[Thumpington]] • [[Linzi]], Editor • 
 
 ---
 
-There are many ways to measure the strength of a ruler. Some count soldiers. Others count gold. In the [[River Kingdoms]], where both have a habit of changing hands with alarming frequency, there may be a simpler measure: count the people willing to stand beside a ruler when things begin to go wrong.
+There are many ways to measure the strength of a ruler. Some count soldiers. Others count gold. In the [River Kingdoms](../../../Locations/Inner%20Sea%20Region/River%20Kingdoms/River%20Kingdoms.md), where both have a habit of changing hands with alarming frequency, there may be a simpler measure: count the people willing to stand beside a ruler when things begin to go wrong.
 
 By that measure, King Castruccio Irovetti’s reign is contracting rapidly.
 
@@ -101,7 +101,7 @@ The search finally uncovered a hidden staircase leading to a private bedchamber.
 
 His circle has narrowed to one room.
 
-![[session-57-every-door-leads-to-the-king-33.webp]]
+![](../../../assets/images/screenshots/Session%2057%20-%20Every%20Door%20Leads%20to%20the%20King/session-57-every-door-leads-to-the-king-33.webp)
 
 *Asmeranda Ilata leaves the palace after two weeks of compulsory performances for King Irovetti.</i]*
 
@@ -179,15 +179,15 @@ Several secret passages were found near the royal rooms. This may explain why th
 
 *By Darya Holt, Traveling Correspondent*
 
-The Tubthumpers eventually entered the throne room and found Irovetti waiting beside General Avinash Jurrg, Villamor Koth, and two [[Pitax]] Wardens.
+The Tubthumpers eventually entered the throne room and found Irovetti waiting beside General Avinash Jurrg, Villamor Koth, and two [Pitax](../../../Locations/Inner%20Sea%20Region/River%20Kingdoms/Stolen%20Lands/Thumping%20Waters/Settlements/Pitax/Pitax.md) Wardens.
 
 Irovetti announced an honorable single combat. He then immediately used magic to strengthen his allies and allowed them to attack as a group. The king’s understanding of honor appears to be as flexible as his understanding of borders.
 
-The fight was severe. Jurrg repeatedly used mental magic against [[Matteo]]. Irovetti banished [[Fitzroy]] into an extradimensional maze, leaving the remainder of the company to fight without one of its strongest defenders. Ally answered with Chain Lightning, killing one warden and tearing through the assembled opposition. [[Seamus]] moved through the enemy line with sword and song, while Elowyn brought the full force of her new office against the king’s defenders.
+The fight was severe. Jurrg repeatedly used mental magic against [Matteo](../Characters/Matteo.md). Irovetti banished [Fitzroy](../Characters/Fitzroy.md) into an extradimensional maze, leaving the remainder of the company to fight without one of its strongest defenders. Ally answered with Chain Lightning, killing one warden and tearing through the assembled opposition. [Seamus](../Characters/Seamus.md) moved through the enemy line with sword and song, while Elowyn brought the full force of her new office against the king’s defenders.
 
 General Jurrg fell. Villamor Koth, champion of the Rushlight Tournament, succumbed to his wounds and lingering flame.
 
-![[session-57-every-door-leads-to-the-king-34.webp]]
+![](../../../assets/images/screenshots/Session%2057%20-%20Every%20Door%20Leads%20to%20the%20King/session-57-every-door-leads-to-the-king-34.webp)
 
 *King Irovetti vanishes from the throne room, leaving General Jurrg, Villamor Koth, and his wardens to continue the battle.</i]*
 
@@ -225,9 +225,9 @@ The palace’s lower chambers also contained a gargoyle torturer and an enormous
 
 The creature possessed too many legs for comfort, several mouths, and eyes scattered across its body. Its attacks opened wounds that resisted treatment, and Matteo was brought down after suffering severe blood loss.
 
-Ally accelerated the entire company with powerful magic while Fitzroy and [[Ant]] maintained pressure upon the creature. Elowyn sustained the wounded through the worst of the fight and ultimately struck the killing blow.
+Ally accelerated the entire company with powerful magic while Fitzroy and [Ant](../Characters/Ant.md) maintained pressure upon the creature. Elowyn sustained the wounded through the worst of the fight and ultimately struck the killing blow.
 
-![[session-57-every-door-leads-to-the-king-35.webp]]
+![](../../../assets/images/screenshots/Session%2057%20-%20Every%20Door%20Leads%20to%20the%20King/session-57-every-door-leads-to-the-king-35.webp)
 
 *The palace creature called Fluffy attacks amid the instruments of Irovetti’s torture chamber.</i]*
 
@@ -299,10 +299,10 @@ The Lantern and Ledger • Lamashan 27 Edition • Printed in Thumpington***
 
 ## Session Gallery
 
-![[Session 57-01.webp]] ![[Session 57-02.webp]] ![[Session 57-03.webp]] ![[Session 57-04.webp]] ![[Session 57-05.webp]] ![[Session 57-06.webp]] ![[Session 57-07.webp]] ![[Session 57-08.webp]] ![[Session 57-09.webp]] ![[Session 57-10.webp]] ![[Session 57-11.webp]] ![[Session 57-12.webp]] ![[Session 57-13.webp]] ![[Session 57-14.webp]] ![[Session 57-15.webp]] ![[Session 57-16.webp]] ![[Session 57-17.webp]] ![[Session 57-18.webp]] ![[Session 57-19.webp]] ![[Session 57-20.webp]] ![[Session 57-21.webp]] ![[Session 57-22.webp]] ![[Session 57-23.webp]] ![[Session 57-24.webp]] ![[Session 57-25.webp]] ![[Session 57-26.webp]] ![[Session 57-27.webp]] ![[Session 57-28.webp]] ![[Session 57-29.webp]] ![[Session 57-30.webp]] ![[Session 57-31.webp]] ![[Session 57-32.webp]] ![[session-57-every-door-leads-to-the-king-33.webp]] ![[session-57-every-door-leads-to-the-king-34.webp]] ![[session-57-every-door-leads-to-the-king-35.webp]] ![[session-57-every-door-leads-to-the-king-36.webp]] ![[session-57-every-door-leads-to-the-king-37.webp]]
+![](../../../assets/images/screenshots/Session%2057%20-%20Every%20Door%20Leads%20to%20the%20King/Session%2057-01.webp) ![](../../../assets/images/screenshots/Session%2057%20-%20Every%20Door%20Leads%20to%20the%20King/Session%2057-02.webp) ![](../../../assets/images/screenshots/Session%2057%20-%20Every%20Door%20Leads%20to%20the%20King/Session%2057-03.webp) ![](../../../assets/images/screenshots/Session%2057%20-%20Every%20Door%20Leads%20to%20the%20King/Session%2057-04.webp) ![](../../../assets/images/screenshots/Session%2057%20-%20Every%20Door%20Leads%20to%20the%20King/Session%2057-05.webp) ![](../../../assets/images/screenshots/Session%2057%20-%20Every%20Door%20Leads%20to%20the%20King/Session%2057-06.webp) ![](../../../assets/images/screenshots/Session%2057%20-%20Every%20Door%20Leads%20to%20the%20King/Session%2057-07.webp) ![](../../../assets/images/screenshots/Session%2057%20-%20Every%20Door%20Leads%20to%20the%20King/Session%2057-08.webp) ![](../../../assets/images/screenshots/Session%2057%20-%20Every%20Door%20Leads%20to%20the%20King/Session%2057-09.webp) ![](../../../assets/images/screenshots/Session%2057%20-%20Every%20Door%20Leads%20to%20the%20King/Session%2057-10.webp) ![](../../../assets/images/screenshots/Session%2057%20-%20Every%20Door%20Leads%20to%20the%20King/Session%2057-11.webp) ![](../../../assets/images/screenshots/Session%2057%20-%20Every%20Door%20Leads%20to%20the%20King/Session%2057-12.webp) ![](../../../assets/images/screenshots/Session%2057%20-%20Every%20Door%20Leads%20to%20the%20King/Session%2057-13.webp) ![](../../../assets/images/screenshots/Session%2057%20-%20Every%20Door%20Leads%20to%20the%20King/Session%2057-14.webp) ![](../../../assets/images/screenshots/Session%2057%20-%20Every%20Door%20Leads%20to%20the%20King/Session%2057-15.webp) ![](../../../assets/images/screenshots/Session%2057%20-%20Every%20Door%20Leads%20to%20the%20King/Session%2057-16.webp) ![](../../../assets/images/screenshots/Session%2057%20-%20Every%20Door%20Leads%20to%20the%20King/Session%2057-17.webp) ![](../../../assets/images/screenshots/Session%2057%20-%20Every%20Door%20Leads%20to%20the%20King/Session%2057-18.webp) ![](../../../assets/images/screenshots/Session%2057%20-%20Every%20Door%20Leads%20to%20the%20King/Session%2057-19.webp) ![](../../../assets/images/screenshots/Session%2057%20-%20Every%20Door%20Leads%20to%20the%20King/Session%2057-20.webp) ![](../../../assets/images/screenshots/Session%2057%20-%20Every%20Door%20Leads%20to%20the%20King/Session%2057-21.webp) ![](../../../assets/images/screenshots/Session%2057%20-%20Every%20Door%20Leads%20to%20the%20King/Session%2057-22.webp) ![](../../../assets/images/screenshots/Session%2057%20-%20Every%20Door%20Leads%20to%20the%20King/Session%2057-23.webp) ![](../../../assets/images/screenshots/Session%2057%20-%20Every%20Door%20Leads%20to%20the%20King/Session%2057-24.webp) ![](../../../assets/images/screenshots/Session%2057%20-%20Every%20Door%20Leads%20to%20the%20King/Session%2057-25.webp) ![](../../../assets/images/screenshots/Session%2057%20-%20Every%20Door%20Leads%20to%20the%20King/Session%2057-26.webp) ![](../../../assets/images/screenshots/Session%2057%20-%20Every%20Door%20Leads%20to%20the%20King/Session%2057-27.webp) ![](../../../assets/images/screenshots/Session%2057%20-%20Every%20Door%20Leads%20to%20the%20King/Session%2057-28.webp) ![](../../../assets/images/screenshots/Session%2057%20-%20Every%20Door%20Leads%20to%20the%20King/Session%2057-29.webp) ![](../../../assets/images/screenshots/Session%2057%20-%20Every%20Door%20Leads%20to%20the%20King/Session%2057-30.webp) ![](../../../assets/images/screenshots/Session%2057%20-%20Every%20Door%20Leads%20to%20the%20King/Session%2057-31.webp) ![](../../../assets/images/screenshots/Session%2057%20-%20Every%20Door%20Leads%20to%20the%20King/Session%2057-32.webp) ![](../../../assets/images/screenshots/Session%2057%20-%20Every%20Door%20Leads%20to%20the%20King/session-57-every-door-leads-to-the-king-33.webp) ![](../../../assets/images/screenshots/Session%2057%20-%20Every%20Door%20Leads%20to%20the%20King/session-57-every-door-leads-to-the-king-34.webp) ![](../../../assets/images/screenshots/Session%2057%20-%20Every%20Door%20Leads%20to%20the%20King/session-57-every-door-leads-to-the-king-35.webp) ![](../../../assets/images/screenshots/Session%2057%20-%20Every%20Door%20Leads%20to%20the%20King/session-57-every-door-leads-to-the-king-36.webp) ![](../../../assets/images/screenshots/Session%2057%20-%20Every%20Door%20Leads%20to%20the%20King/session-57-every-door-leads-to-the-king-37.webp)
 <!-- session-gallery:end -->
 
 ## Article navigation
 
-**Previous:** [[Session 56- Pitax Awakens]]  
-**Next:** [[Session 58- Tyrant's Last Refuge]]
+**Previous:** [Session 56- Pitax Awakens](Session%2056-%20Pitax%20Awakens.md)  
+**Next:** [Session 58- Tyrant's Last Refuge](Session%2058-%20Tyrant%27s%20Last%20Refuge.md)

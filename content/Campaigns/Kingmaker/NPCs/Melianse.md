@@ -8,11 +8,11 @@ portrait: "assets/world-anvil/melianse-portrait.jpeg"
 
 # Melianse
 
-![[melianse-portrait.jpeg]]
+![](../../../assets/images/melianse-portrait.jpeg)
 
 *River Nymph · Fey Protector · Beauty with a Bite*
 
-Melianse is a graceful, enigmatic nymph who dwells in the shimmering waters of the Overgrown Pool, her skin shimmering like dew-kissed leaves and her hair flowing like river moss in current. She embodies the wild and ancient spirit of the [[Locations/Inner Sea Region/River Kingdoms/Stolen Lands/Greenbelt|Greenbelt]]—beautiful, beguiling, and fiercely protective of her domain.
+Melianse is a graceful, enigmatic nymph who dwells in the shimmering waters of the Overgrown Pool, her skin shimmering like dew-kissed leaves and her hair flowing like river moss in current. She embodies the wild and ancient spirit of the [Greenbelt](../../../Locations/Inner%20Sea%20Region/River%20Kingdoms/Stolen%20Lands/Greenbelt/Greenbelt.md)—beautiful, beguiling, and fiercely protective of her domain.
 
 When the Tubthumpers first encountered her, Melianse was in the middle of a tense standoff with a group of loggers led by the brash foreman Corax. The lumbermen had cut down one of her ancient trees—an offense she would not forgive lightly. In retaliation, she had ensorcelled two of Corax’s crew, charming them into standing beside her as guardians and hostages alike.
 

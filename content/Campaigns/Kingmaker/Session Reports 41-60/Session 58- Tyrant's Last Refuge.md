@@ -8,10 +8,10 @@ cover: "assets/world-anvil/shared-cover-110a4fd3e759.png"
 
 # Session 58: Tyrant's Last Refuge
 
-![[shared-cover-110a4fd3e759.png]]
+![](../../../assets/images/shared-cover-110a4fd3e759.png)
 
 > [!side]
-> :   ![[session-58-tyrant-s-last-refuge-18.webp]]
+> :   ![](../../../assets/images/screenshots/Session%2058%20-%20Tyrant%20S%20Last%20Refuge/session-58-tyrant-s-last-refuge-18.webp)
 >
 > ---
 >
@@ -93,7 +93,7 @@ cover: "assets/world-anvil/shared-cover-110a4fd3e759.png"
 >
 > ---
 >
-> ![[session-58-tyrant-s-last-refuge-19.webp]]
+> ![](../../../assets/images/screenshots/Session%2058%20-%20Tyrant%20S%20Last%20Refuge/session-58-tyrant-s-last-refuge-19.webp)
 >
 > *Paid advertisement. The Lantern and Ledger accepts no responsibility for commercial claims, construction delays, or unexpected changes of government.*
 >
@@ -107,13 +107,13 @@ cover: "assets/world-anvil/shared-cover-110a4fd3e759.png"
 
 *News, Notices, and the Public Record of Thumping Waters*
 
-Calistril 12, 4715 AR • Published in [[Thumpington]] • [[Linzi]], Editor • Mara Venn, Managing Editor • Price 1 cp
+Calistril 12, 4715 AR • Published in [Thumpington](../../../Locations/Inner%20Sea%20Region/River%20Kingdoms/Stolen%20Lands/Thumping%20Waters/Settlements/Thumpington/Thumpington.md) • [Linzi](../NPCs/Linzi.md), Editor • Mara Venn, Managing Editor • Price 1 cp
 
 ---
 
 ## THREE MONTHS AFTER THE CROWN FELL
 
-*[[Pitax]] rebuilds, Irovetti’s final hours enter the public record, and the dead remind both nations that victory does not bury a war.*
+*[Pitax](../../../Locations/Inner%20Sea%20Region/River%20Kingdoms/Stolen%20Lands/Thumping%20Waters/Settlements/Pitax/Pitax.md) rebuilds, Irovetti’s final hours enter the public record, and the dead remind both nations that victory does not bury a war.*
 
 *By Mara Venn, Managing Editor • Additional reporting by Darya Holt and Sella Copperclaw*
 
@@ -131,7 +131,7 @@ Both Pitax and the Republic of Thumping Waters are still recovering. Yet roads h
 
 The crown has fallen. The work left beneath it continues.
 
-![[session-58-tyrant-s-last-refuge-15.webp]]
+![](../../../assets/images/screenshots/Session%2058%20-%20Tyrant%20S%20Last%20Refuge/session-58-tyrant-s-last-refuge-15.webp)
 
 *Pitaxian citizens dismantle one of Irovetti’s monuments while repairs continue in the surrounding streets.*
 
@@ -177,15 +177,15 @@ An expedition west encounters the conjoined dead of Irovetti’s army.
 
 The final battle began in the hidden bedchamber where the previous edition of this newspaper left King Irovetti cornered beside his consort, Engelidis.
 
-The chamber concealed a broad lagoon and still more of the king’s accumulated magic. Engelidis proved the more dangerous of the pair. She hurled lightning, cold, terror, and enchantments through the room. [[Fitzroy]] was cast into an extradimensional maze. Ally Grainger was turned to stone. Other members of the company were stunned or assaulted by visions designed to turn conviction into doubt.
+The chamber concealed a broad lagoon and still more of the king’s accumulated magic. Engelidis proved the more dangerous of the pair. She hurled lightning, cold, terror, and enchantments through the room. [Fitzroy](../Characters/Fitzroy.md) was cast into an extradimensional maze. Ally Grainger was turned to stone. Other members of the company were stunned or assaulted by visions designed to turn conviction into doubt.
 
-Elowyn, confronted by an illusion denying the very existence of [[Razmir]], refused it.
+Elowyn, confronted by an illusion denying the very existence of [Razmir](../../../Rules/Deities/Razmir.md), refused it.
 
 > You cannot shake my faith.
 >
 > — Elowyn
 
-[[Matteo]] moved invisibly through the bedchamber and repeatedly struck at Irovetti while Antson Crazyfoot, Ally, and [[Seamus]] pressed the attack whenever Engelidis’s magic allowed them to act. Fitzroy eventually found his way out of the maze and returned to the fight.
+[Matteo](../Characters/Matteo.md) moved invisibly through the bedchamber and repeatedly struck at Irovetti while Antson Crazyfoot, Ally, and [Seamus](../Characters/Seamus.md) pressed the attack whenever Engelidis’s magic allowed them to act. Fitzroy eventually found his way out of the maze and returned to the fight.
 
 At last, Irovetti dropped his weapons and surrendered.
 
@@ -241,7 +241,7 @@ Those present describe a difficult negotiation before the spell was cast. The ex
 
 Minister Grainger emerged from the stone apparently unaware of how much time had passed during her affliction. She has since resumed her duties.
 
-![[session-58-tyrant-s-last-refuge-16.webp]]
+![](../../../assets/images/screenshots/Session%2058%20-%20Tyrant%20S%20Last%20Refuge/session-58-tyrant-s-last-refuge-16.webp)
 
 *Annamede Belavara restores Ally Grainger after the Minister of Magic was petrified beneath Irovetti’s palace.*
 
@@ -279,7 +279,7 @@ Elowyn surrounded the living with a cloak of radiance that restored her companio
 
 The last of the amalgamated dead collapsed beneath decisive blows from Seamus and Fitzroy. No treasure was found—only bones, ruined armor, and the remains of soldiers whose king had led them to an unnecessary war.
 
-![[session-58-tyrant-s-last-refuge-17.webp]]
+![](../../../assets/images/screenshots/Session%2058%20-%20Tyrant%20S%20Last%20Refuge/session-58-tyrant-s-last-refuge-17.webp)
 
 *The unburied dead of Irovetti’s army rise together upon a battlefield west of Pitax.*
 
@@ -317,10 +317,10 @@ The Lantern and Ledger • Calistril 12 Edition • Printed in Thumpington
 
 ## Session Gallery
 
-![[Session 58-01.webp]] ![[Session 58-02.webp]] ![[Session 58-03.webp]] ![[Session 58-04.webp]] ![[Session 58-05.webp]] ![[Session 58-06.webp]] ![[Session 58-07.webp]] ![[Session 58-08.webp]] ![[Session 58-09.webp]] ![[Session 58-10.webp]] ![[Session 58-11.webp]] ![[Session 58-12.webp]] ![[Session 58-13.webp]] ![[Session 58-14.webp]] ![[session-58-tyrant-s-last-refuge-15.webp]] ![[session-58-tyrant-s-last-refuge-16.webp]] ![[session-58-tyrant-s-last-refuge-17.webp]] ![[session-58-tyrant-s-last-refuge-18.webp]] ![[session-58-tyrant-s-last-refuge-19.webp]]
+![](../../../assets/images/screenshots/Session%2058%20-%20Tyrant%20S%20Last%20Refuge/Session%2058-01.webp) ![](../../../assets/images/screenshots/Session%2058%20-%20Tyrant%20S%20Last%20Refuge/Session%2058-02.webp) ![](../../../assets/images/screenshots/Session%2058%20-%20Tyrant%20S%20Last%20Refuge/Session%2058-03.webp) ![](../../../assets/images/screenshots/Session%2058%20-%20Tyrant%20S%20Last%20Refuge/Session%2058-04.webp) ![](../../../assets/images/screenshots/Session%2058%20-%20Tyrant%20S%20Last%20Refuge/Session%2058-05.webp) ![](../../../assets/images/screenshots/Session%2058%20-%20Tyrant%20S%20Last%20Refuge/Session%2058-06.webp) ![](../../../assets/images/screenshots/Session%2058%20-%20Tyrant%20S%20Last%20Refuge/Session%2058-07.webp) ![](../../../assets/images/screenshots/Session%2058%20-%20Tyrant%20S%20Last%20Refuge/Session%2058-08.webp) ![](../../../assets/images/screenshots/Session%2058%20-%20Tyrant%20S%20Last%20Refuge/Session%2058-09.webp) ![](../../../assets/images/screenshots/Session%2058%20-%20Tyrant%20S%20Last%20Refuge/Session%2058-10.webp) ![](../../../assets/images/screenshots/Session%2058%20-%20Tyrant%20S%20Last%20Refuge/Session%2058-11.webp) ![](../../../assets/images/screenshots/Session%2058%20-%20Tyrant%20S%20Last%20Refuge/Session%2058-12.webp) ![](../../../assets/images/screenshots/Session%2058%20-%20Tyrant%20S%20Last%20Refuge/Session%2058-13.webp) ![](../../../assets/images/screenshots/Session%2058%20-%20Tyrant%20S%20Last%20Refuge/Session%2058-14.webp) ![](../../../assets/images/screenshots/Session%2058%20-%20Tyrant%20S%20Last%20Refuge/session-58-tyrant-s-last-refuge-15.webp) ![](../../../assets/images/screenshots/Session%2058%20-%20Tyrant%20S%20Last%20Refuge/session-58-tyrant-s-last-refuge-16.webp) ![](../../../assets/images/screenshots/Session%2058%20-%20Tyrant%20S%20Last%20Refuge/session-58-tyrant-s-last-refuge-17.webp) ![](../../../assets/images/screenshots/Session%2058%20-%20Tyrant%20S%20Last%20Refuge/session-58-tyrant-s-last-refuge-18.webp) ![](../../../assets/images/screenshots/Session%2058%20-%20Tyrant%20S%20Last%20Refuge/session-58-tyrant-s-last-refuge-19.webp)
 <!-- session-gallery:end -->
 
 ## Article navigation
 
-**Previous:** [[Session 57- Every Door Leads to the King]]  
-**Next:** [[Session 59- There Is No Reyoknar]]
+**Previous:** [Session 57- Every Door Leads to the King](Session%2057-%20Every%20Door%20Leads%20to%20the%20King.md)  
+**Next:** [Session 59- There Is No Reyoknar](Session%2059-%20There%20Is%20No%20Reyoknar.md)

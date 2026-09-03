@@ -8,7 +8,7 @@ portrait: "assets/world-anvil/king-vesket-portrait.png"
 
 # King Vesket
 
-![[king-vesket-portrait.png]]
+![](../../../assets/images/king-vesket-portrait.png)
 
 *Old Scales · Wary Eyes · Chieftain Turned Mayor*
 

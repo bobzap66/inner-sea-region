@@ -9,18 +9,18 @@ portrait: "assets/world-anvil/nok-nok-portrait.png"
 
 # Nok-Nok
 
-![[nok-nok-portrait.png]]
+![](../../../assets/images/nok-nok-portrait.png)
 
 > [!side]
 > :   Influence Level: 8
 
-*Compiled by the College of Letters and Public Record, [[Free University of Thumping Waters]], with archival assistance from [[Greengripe]], the [[Ministry of Communication]], the [[Ministry of Defense]], and surviving members of the Republican armies*
+*Compiled by the College of Letters and Public Record, [Free University of Thumping Waters](../../../Locations/Inner%20Sea%20Region/River%20Kingdoms/Stolen%20Lands/Thumping%20Waters/Settlements/Thumpington/Free%20University%20of%20Thumping%20Waters.md), with archival assistance from [Greengripe](../../../Locations/Inner%20Sea%20Region/River%20Kingdoms/Stolen%20Lands/Thumping%20Waters/Settlements/Greengripe/Greengripe.md), the [Ministry of Communication](../../../Locations/Inner%20Sea%20Region/River%20Kingdoms/Stolen%20Lands/Thumping%20Waters/Ruling%20Council/Ministry%20of%20Communication.md), the [Ministry of Defense](../../../Locations/Inner%20Sea%20Region/River%20Kingdoms/Stolen%20Lands/Thumping%20Waters/Ruling%20Council/Ministry%20of%20Defense.md), and surviving members of the Republican armies*
 
 > No explosions before breakfast.
 >
 > — Standing order of Governor Nok-Nok
 
-Nok-Nok was a goblin adventurer, governor, military commander, and one of the earliest friends of the Republic of Thumping Waters. He first introduced himself beneath [[Locations/Inner Sea Region/River Kingdoms/Stolen Lands/Greenbelt/Kamelands/The Old Sycamore|The Old Sycamore]] as a hero before his companions possessed much evidence that the title was deserved. Over the years that followed, he helped rescue Mikmek, fought beside the founders, transformed Greengripe into a prosperous goblin settlement, organized Nok-Nok's Irregulars, and died protecting his soldiers during the War of the River Kings.
+Nok-Nok was a goblin adventurer, governor, military commander, and one of the earliest friends of the Republic of Thumping Waters. He first introduced himself beneath [The Old Sycamore](../../../Locations/Inner%20Sea%20Region/River%20Kingdoms/Stolen%20Lands/Greenbelt/Kamelands/The%20Old%20Sycamore.md) as a hero before his companions possessed much evidence that the title was deserved. Over the years that followed, he helped rescue Mikmek, fought beside the founders, transformed Greengripe into a prosperous goblin settlement, organized Nok-Nok's Irregulars, and died protecting his soldiers during the War of the River Kings.
 
 Nok-Nok spent much of his life insisting that he was destined to become a great goblin hero. His accounts of particular adventures were not always constrained by chronology, proportion, or the presence of other witnesses. His final claim requires no qualification. Nok-Nok was a hero.
 
@@ -30,11 +30,11 @@ Nok-Nok spent much of his life insisting that he was destined to become a great 
 
 **Ancestry:** Goblin
 
-**Homeland:** The [[Locations/Inner Sea Region/River Kingdoms/Stolen Lands/Greenbelt|Greenbelt]]
+**Homeland:** The [Greenbelt](../../../Locations/Inner%20Sea%20Region/River%20Kingdoms/Stolen%20Lands/Greenbelt/Greenbelt.md)
 
 **Later Residence:** Greengripe
 
-**Status:** Deceased; killed in action east of [[Fort Drelev]]
+**Status:** Deceased; killed in action east of [Fort Drelev](../../../Locations/Inner%20Sea%20Region/River%20Kingdoms/Stolen%20Lands/Thumping%20Waters/Settlements/Fort%20Drelev/Fort%20Drelev.md)
 
 **Titles:** Hero of the Mite Warrens; Governor of Greengripe; Commander of Nok-Nok's Irregulars
 
@@ -50,7 +50,7 @@ Nok-Nok spent much of his life insisting that he was destined to become a great 
 
 Nok-Nok was a wiry goblin with scarred green skin, quick hands, and a grin broad enough to suggest either delight or an event requiring immediate supervision. He dressed in a patchwork of leather armor, trophies, useful equipment, and objects selected principally because he believed they made him look heroic. The overall effect was chaotic, but his stance possessed the practiced balance of an experienced knife-fighter.
 
-He fought with paired kukris. One was a magical cold-iron weapon given to him by [[Seamus]]. Nok-Nok valued the blade as more than an effective weapon. To him it was visible proof that the founders of Thumping Waters regarded him as a companion and trusted him to stand beside them against dangers that required cold iron.
+He fought with paired kukris. One was a magical cold-iron weapon given to him by [Seamus](../Characters/Seamus.md). Nok-Nok valued the blade as more than an effective weapon. To him it was visible proof that the founders of Thumping Waters regarded him as a companion and trusted him to stand beside them against dangers that required cold iron.
 
 Later public depictions frequently show Nok-Nok in the bright red sash and beer-mug-shaped iron helmet worn by his Irregulars. These images accurately represent his military command but should not be mistaken for his ordinary dress during the Republic's earliest years.
 
@@ -62,7 +62,7 @@ Nok-Nok first entered the Republic's history before the Republic existed. The ad
 
 He declared himself a hero immediately. He then supplied evidence.
 
-Nok-Nok helped the adventurers fight through the mite warrens, rescue the kobold Mikmek, recover the Sootscales' stolen sacred statue, and expose the deception surrounding the false kobold leader [[Tartuk]]. Those actions contributed to the end of the mite conflict and to the founders' first lasting alliance with the people who would establish [[Sootscale Valley]].
+Nok-Nok helped the adventurers fight through the mite warrens, rescue the kobold Mikmek, recover the Sootscales' stolen sacred statue, and expose the deception surrounding the false kobold leader [Tartuk](Tartuk.md). Those actions contributed to the end of the mite conflict and to the founders' first lasting alliance with the people who would establish [Sootscale Valley](../../../Locations/Inner%20Sea%20Region/River%20Kingdoms/Stolen%20Lands/Thumping%20Waters/Settlements/Sootscale%20Valley/Sootscale%20Valley.md).
 
 Nok-Nok thereafter styled himself the Hero of the Mite Warrens. He repeated the title frequently, especially in circumstances where introductions might otherwise have been shorter. The name began as self-promotion and became an accepted description of his part in events beneath the sycamore.
 
@@ -74,7 +74,7 @@ Nok-Nok continued to appear throughout the Republic's early history wherever dan
 
 His retellings generally increased the number of enemies and the centrality of his own decisions. Attempts to correct him were often incorporated into later versions as dialogue spoken by an unnamed and less perceptive companion. Yet witnesses who disputed the scale of Nok-Nok's achievements rarely disputed his willingness to place himself in danger for his friends.
 
-Nok-Nok had once worshipped [[Lamashtu]], the Mother of Monsters. He also spoke openly of becoming a goblin hero-god like the legendary figures raised above ordinary goblinkind. His later life moved away from the role his old faith and the wider world expected him to occupy. Whether he abandoned every element of his earlier devotion is a private religious question the surviving record cannot answer. What is clear is that he increasingly measured heroism through loyalty, protection, laughter, and the flourishing of his people.
+Nok-Nok had once worshipped [Lamashtu](../../../Rules/Deities/Lamashtu.md), the Mother of Monsters. He also spoke openly of becoming a goblin hero-god like the legendary figures raised above ordinary goblinkind. His later life moved away from the role his old faith and the wider world expected him to occupy. Whether he abandoned every element of his earlier devotion is a private religious question the surviving record cannot answer. What is clear is that he increasingly measured heroism through loyalty, protection, laughter, and the flourishing of his people.
 
   
 
@@ -110,9 +110,9 @@ Nok-Nok's confidence frequently bordered upon absurdity, but its effect upon oth
 
 ### Greengripe and Sootscale Valley
 
-Relations between Greengripe and Sootscale Valley were not always peaceful. Greengripe's habit of treating pranks as diplomacy tested the patience of [[Chief Sootscale]], particularly when damaged property, frightened livestock, or alchemical residue accompanied the joke.
+Relations between Greengripe and Sootscale Valley were not always peaceful. Greengripe's habit of treating pranks as diplomacy tested the patience of [Chief Sootscale](Chief%20Sootscale.md), particularly when damaged property, frightened livestock, or alchemical residue accompanied the joke.
 
-Relations improved after [[Kereek]] assumed leadership of Sootscale Valley. Kereek did not share Nok-Nok's enthusiasm for chaos, but the two leaders developed a working respect founded upon their responsibility to their communities. Ordinary disputes continued without threatening the political friendship between the settlements.
+Relations improved after [Kereek](Kereek.md) assumed leadership of Sootscale Valley. Kereek did not share Nok-Nok's enthusiasm for chaos, but the two leaders developed a working respect founded upon their responsibility to their communities. Ordinary disputes continued without threatening the political friendship between the settlements.
 
 The relationship became one example of the Republic's larger challenge: neighboring peoples did not need identical customs to share laws, roads, security, and citizenship. They did need reliable ways to repair harm and determine when an alleged prank had ceased to be funny.
 
@@ -124,15 +124,15 @@ During the War of the River Kings, Nok-Nok organized Greengripe's alchemists, br
 
 The Irregulars wore bright red sashes and iron helmets shaped like beer mugs. They marched to drums made from repurposed kegs and followed a doctrine summarized as *dazzle, disorient, detonate*. Their methods relied upon alchemical bombardment, noise, confusion, mobility, and an intimate professional understanding of which objects were likely to explode.
 
-When [[Pitax]] attempted to invade while the Republic's rulers were returning from the Rushlight Tournament, the Irregulars fought in the defense of Willowfen. Their bombardments helped break an invading force containing mercenaries, mammoth-riding giants, and wyverns before it could establish a lasting foothold.
+When [Pitax](../../../Locations/Inner%20Sea%20Region/River%20Kingdoms/Stolen%20Lands/Thumping%20Waters/Settlements/Pitax/Pitax.md) attempted to invade while the Republic's rulers were returning from the Rushlight Tournament, the Irregulars fought in the defense of Willowfen. Their bombardments helped break an invading force containing mercenaries, mammoth-riding giants, and wyverns before it could establish a lasting foothold.
 
-The victory earned the Irregulars the respect of commanders who had questioned their discipline, including High Marshal [[Valerie]]. Nok-Nok took fierce pride in his soldiers. He joined their drills, inspected their munitions, learned their strengths, and insisted that no one under his command face a danger he would refuse himself.
+The victory earned the Irregulars the respect of commanders who had questioned their discipline, including High Marshal [Valerie](Valerie.md). Nok-Nok took fierce pride in his soldiers. He joined their drills, inspected their munitions, learned their strengths, and insisted that no one under his command face a danger he would refuse himself.
 
   
 
 ### The Battle East of Fort Drelev
 
-Nok-Nok died during the Republic's campaign against Kob Moleg and the Tusker Riders. Five Republican armies engaged four formations of mammoth cavalry east of Fort Drelev. The battle became the Republic's gravest military defeat of the war. The [[Thumpington]] Rangers, Lizardfolk Defenders, Safety Third Cavalry, and Nok-Nok's Irregulars were destroyed as effective formations. The Nomen Scouts alone escaped intact.
+Nok-Nok died during the Republic's campaign against Kob Moleg and the Tusker Riders. Five Republican armies engaged four formations of mammoth cavalry east of Fort Drelev. The battle became the Republic's gravest military defeat of the war. The [Thumpington](../../../Locations/Inner%20Sea%20Region/River%20Kingdoms/Stolen%20Lands/Thumping%20Waters/Settlements/Thumpington/Thumpington.md) Rangers, Lizardfolk Defenders, Safety Third Cavalry, and Nok-Nok's Irregulars were destroyed as effective formations. The Nomen Scouts alone escaped intact.
 
 The Irregulars held one of the most dangerous positions upon the field. When their formation collapsed beneath the enemy advance, Nok-Nok could have attempted to escape. He refused to abandon the soldiers who had followed him from Greengripe.
 

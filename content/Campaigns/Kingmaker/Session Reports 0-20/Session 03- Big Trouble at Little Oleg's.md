@@ -8,22 +8,22 @@ cover: "assets/world-anvil/shared-cover-8a1bfbff37cb.png"
 
 # Session 03: Big Trouble at Little Oleg's
 
-![[shared-cover-8a1bfbff37cb.png]]
+![](../../../assets/images/shared-cover-8a1bfbff37cb.png)
 
 > [!side]
-> :   ![[session-03-big-trouble-at-little-oleg-s-image-01.webp]]
+> :   ![](../../../assets/images/screenshots/Session%2003%20-%20Big%20Trouble%20at%20Little%20Oleg%20S/session-03-big-trouble-at-little-oleg-s-image-01.webp)
 >
 > ---
 >
 > <!-- session-gallery:start -->
 
-### From [[Linzi]]’s Journal
+### From [Linzi](../NPCs/Linzi.md)’s Journal
 
 *An account set down later, concerning events from approximately 3 through 7 Pharast, 4710 AR*
 
-I was not present for what follows. By the time I heard the tale, it had already passed through several tellings, interruptions, corrections, and at least one argument over who had done what. I have reconstructed the events from the accounts of [[Seamus]], [[Mairi]], [[Ant]], Ally, and the surviving witnesses at Oleg’s Trading Post. Where their recollections agreed, I have treated the matter as fact. Where they did not, I have exercised the sacred duty of the chronicler and chosen the version that made the most sense.
+I was not present for what follows. By the time I heard the tale, it had already passed through several tellings, interruptions, corrections, and at least one argument over who had done what. I have reconstructed the events from the accounts of [Seamus](../Characters/Seamus.md), [Mairi](../Characters/Mairi.md), [Ant](../Characters/Ant.md), Ally, and the surviving witnesses at Oleg’s Trading Post. Where their recollections agreed, I have treated the matter as fact. Where they did not, I have exercised the sacred duty of the chronicler and chosen the version that made the most sense.
 
-The party arrived at Oleg’s Trading Post on or about 3 Pharast, a little more than a week after receiving their charter. Oleg and his wife, Svetlana, had built their home and livelihood at the edge of the wilderness only to find themselves subjected to regular threats and extortion by the bandits who claimed the surrounding lands. Seamus, Mairi, Ant, and Ally assured them that they had come not merely to explore the [[Locations/Inner Sea Region/River Kingdoms/Stolen Lands/Greenbelt|Greenbelt]], but to defend the trading post and begin rooting out the banditry named in their charter.
+The party arrived at Oleg’s Trading Post on or about 3 Pharast, a little more than a week after receiving their charter. Oleg and his wife, Svetlana, had built their home and livelihood at the edge of the wilderness only to find themselves subjected to regular threats and extortion by the bandits who claimed the surrounding lands. Seamus, Mairi, Ant, and Ally assured them that they had come not merely to explore the [Greenbelt](../../../Locations/Inner%20Sea%20Region/River%20Kingdoms/Stolen%20Lands/Greenbelt/Greenbelt.md), but to defend the trading post and begin rooting out the banditry named in their charter.
 
 “They rode in and started promising to solve our problems before they’d even finished unpacking,” Oleg told me later. “I thought they were damned fools. Turned out fools were exactly what we needed.” Svetlana smiled at him before adding, “He was grateful much sooner than he admits. It simply took him a little longer to find a sufficiently disagreeable way of saying so.” Oleg crossed his arms and declined to dispute this, which I have chosen to record as confirmation.
 
@@ -39,10 +39,10 @@ Lady Jamandi’s charter had sent them west to explore. Happs gave them their fi
 
 ## Session Gallery
 
-![[session-03-big-trouble-at-little-oleg-s-image-01.webp]]
+![](../../../assets/images/screenshots/Session%2003%20-%20Big%20Trouble%20at%20Little%20Oleg%20S/session-03-big-trouble-at-little-oleg-s-image-01.webp)
 <!-- session-gallery:end -->
 
 ## Article navigation
 
-**Previous:** [[Session 02- Go West, Young Heroes!]]  
-**Next:** [[Session 04- NokNok Arrives]]
+**Previous:** [Session 02- Go West, Young Heroes!](Session%2002-%20Go%20West%2C%20Young%20Heroes%21.md)  
+**Next:** [Session 04- NokNok Arrives](Session%2004-%20NokNok%20Arrives.md)

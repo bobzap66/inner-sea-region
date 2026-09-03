@@ -8,10 +8,10 @@ cover: "assets/world-anvil/shared-cover-110a4fd3e759.png"
 
 # Session 49: The Rushlight Begins
 
-![[shared-cover-110a4fd3e759.png]]
+![](../../../assets/images/shared-cover-110a4fd3e759.png)
 
 > [!side]
-> :   ![[session-49-the-rushlight-begins-23.webp]]
+> :   ![](../../../assets/images/screenshots/Session%2049%20-%20The%20Rushlight%20Begins/session-49-the-rushlight-begins-23.webp)
 >
 > ---
 >
@@ -43,7 +43,7 @@ cover: "assets/world-anvil/shared-cover-110a4fd3e759.png"
 >
 > ---
 >
-> ![[shared-session-49-24.png]]
+> ![](../../../assets/images/shared-session-49-24.png)
 >
 > *Advertisement paid for by Bixen Libixyten. The Lantern and Ledger makes no guarantee regarding courage, balance, or competitive success.*
 >
@@ -169,15 +169,15 @@ The nearest blue target stood fifty feet away and offered a single point. A rein
 
 #### FROM THE FIRING LINE
 
-![[session-49-the-rushlight-begins-image-01.webp]]
+![](../../../assets/images/screenshots/Session%2049%20-%20The%20Rushlight%20Begins/session-49-the-rushlight-begins-image-01.webp)
 
 *Villamor Koth of Pitax endured a disastrous opening event and failed to place.*
 
-![[session-49-the-rushlight-begins-image-02.webp]]
+![](../../../assets/images/screenshots/Session%2049%20-%20The%20Rushlight%20Begins/session-49-the-rushlight-begins-image-02.webp)
 
 *Navarathna of Mivon combined speed and precision to take second place.*
 
-![[session-49-the-rushlight-begins-image-03.webp]]
+![](../../../assets/images/screenshots/Session%2049%20-%20The%20Rushlight%20Begins/session-49-the-rushlight-begins-image-03.webp)
 
 *Antson Crazyfoot, Minister of the Interior, takes aim during his championship performance.*
 
@@ -219,10 +219,10 @@ The Lantern and Ledger • Sarenith 8 Edition • Printed in Thumpington
 
 ## Session Gallery
 
-![[Session 49-01.webp]] ![[session-49-the-rushlight-begins-image-01.webp]] ![[Session 49-02.webp]] ![[session-49-the-rushlight-begins-image-02.webp]] ![[Session 49-03.webp]] ![[session-49-the-rushlight-begins-image-03.webp]] ![[Session 49-04.webp]] ![[Session 49-05.webp]] ![[Session 49-06.webp]] ![[Session 49-07.webp]] ![[Session 49-08.webp]] ![[Session 49-09.webp]] ![[Session 49-10.webp]] ![[Session 49-11.webp]] ![[Session 49-12.webp]] ![[Session 49-13.webp]] ![[Session 49-14.webp]] ![[Session 49-15.webp]] ![[Session 49-16.webp]] ![[Session 49-17.webp]] ![[Session 49-18.webp]] ![[Session 49-19.webp]] ![[Session 49-20.webp]] ![[Session 49-21.webp]] ![[Session 49-22.webp]] ![[session-49-the-rushlight-begins-23.webp]]
+![](../../../assets/images/screenshots/Session%2049%20-%20The%20Rushlight%20Begins/Session%2049-01.webp) ![](../../../assets/images/screenshots/Session%2049%20-%20The%20Rushlight%20Begins/session-49-the-rushlight-begins-image-01.webp) ![](../../../assets/images/screenshots/Session%2049%20-%20The%20Rushlight%20Begins/Session%2049-02.webp) ![](../../../assets/images/screenshots/Session%2049%20-%20The%20Rushlight%20Begins/session-49-the-rushlight-begins-image-02.webp) ![](../../../assets/images/screenshots/Session%2049%20-%20The%20Rushlight%20Begins/Session%2049-03.webp) ![](../../../assets/images/screenshots/Session%2049%20-%20The%20Rushlight%20Begins/session-49-the-rushlight-begins-image-03.webp) ![](../../../assets/images/screenshots/Session%2049%20-%20The%20Rushlight%20Begins/Session%2049-04.webp) ![](../../../assets/images/screenshots/Session%2049%20-%20The%20Rushlight%20Begins/Session%2049-05.webp) ![](../../../assets/images/screenshots/Session%2049%20-%20The%20Rushlight%20Begins/Session%2049-06.webp) ![](../../../assets/images/screenshots/Session%2049%20-%20The%20Rushlight%20Begins/Session%2049-07.webp) ![](../../../assets/images/screenshots/Session%2049%20-%20The%20Rushlight%20Begins/Session%2049-08.webp) ![](../../../assets/images/screenshots/Session%2049%20-%20The%20Rushlight%20Begins/Session%2049-09.webp) ![](../../../assets/images/screenshots/Session%2049%20-%20The%20Rushlight%20Begins/Session%2049-10.webp) ![](../../../assets/images/screenshots/Session%2049%20-%20The%20Rushlight%20Begins/Session%2049-11.webp) ![](../../../assets/images/screenshots/Session%2049%20-%20The%20Rushlight%20Begins/Session%2049-12.webp) ![](../../../assets/images/screenshots/Session%2049%20-%20The%20Rushlight%20Begins/Session%2049-13.webp) ![](../../../assets/images/screenshots/Session%2049%20-%20The%20Rushlight%20Begins/Session%2049-14.webp) ![](../../../assets/images/screenshots/Session%2049%20-%20The%20Rushlight%20Begins/Session%2049-15.webp) ![](../../../assets/images/screenshots/Session%2049%20-%20The%20Rushlight%20Begins/Session%2049-16.webp) ![](../../../assets/images/screenshots/Session%2049%20-%20The%20Rushlight%20Begins/Session%2049-17.webp) ![](../../../assets/images/screenshots/Session%2049%20-%20The%20Rushlight%20Begins/Session%2049-18.webp) ![](../../../assets/images/screenshots/Session%2049%20-%20The%20Rushlight%20Begins/Session%2049-19.webp) ![](../../../assets/images/screenshots/Session%2049%20-%20The%20Rushlight%20Begins/Session%2049-20.webp) ![](../../../assets/images/screenshots/Session%2049%20-%20The%20Rushlight%20Begins/Session%2049-21.webp) ![](../../../assets/images/screenshots/Session%2049%20-%20The%20Rushlight%20Begins/Session%2049-22.webp) ![](../../../assets/images/screenshots/Session%2049%20-%20The%20Rushlight%20Begins/session-49-the-rushlight-begins-23.webp)
 <!-- session-gallery:end -->
 
 ## Article navigation
 
-**Previous:** [[Session 48- Finishing the Job for Hannis]]  
-**Next:** [[Session 50- Silver Overall, Steel at the Border]]
+**Previous:** [Session 48- Finishing the Job for Hannis](Session%2048-%20Finishing%20the%20Job%20for%20Hannis.md)  
+**Next:** [Session 50- Silver Overall, Steel at the Border](Session%2050-%20Silver%20Overall%2C%20Steel%20at%20the%20Border.md)

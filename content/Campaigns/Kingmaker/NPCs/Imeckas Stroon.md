@@ -7,9 +7,9 @@ portrait: "assets/world-anvil/imeckas-stroon-portrait.webp"
 
 # Imeckas Stroon
 
-![[imeckas-stroon-portrait.webp]]
+![](../../../assets/images/imeckas-stroon-portrait.webp)
 
-**Imeckas Stroon** is the court wizard of [[Fort Drelev]] and brother to [[Pavetta Stroon-Drelev]]. Originally from Galt, he cultivated his magical talents among minor noble circles where arcane ability was as much a status symbol as a discipline. Imeckas possesses keen intellect, extensive training, and the temperament of a man who considers himself the cleverest person in any room—usually to his detriment.
+**Imeckas Stroon** is the court wizard of [Fort Drelev](../../../Locations/Inner%20Sea%20Region/River%20Kingdoms/Stolen%20Lands/Thumping%20Waters/Settlements/Fort%20Drelev/Fort%20Drelev.md) and brother to [Pavetta Stroon-Drelev](Pavetta%20Stroon-Drelev.md). Originally from Galt, he cultivated his magical talents among minor noble circles where arcane ability was as much a status symbol as a discipline. Imeckas possesses keen intellect, extensive training, and the temperament of a man who considers himself the cleverest person in any room—usually to his detriment.
 
   
 

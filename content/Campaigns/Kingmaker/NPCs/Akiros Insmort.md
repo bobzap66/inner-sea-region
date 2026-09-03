@@ -8,7 +8,7 @@ portrait: "assets/world-anvil/akiros-insmort-portrait.jpeg"
 
 # Akiros Insmort
 
-![[akiros-insmort-portrait.jpeg]]
+![](../../../assets/images/akiros-insmort-portrait.jpeg)
 
 Fallen Paladin. Silent Blade. Man of Contradictions.
 

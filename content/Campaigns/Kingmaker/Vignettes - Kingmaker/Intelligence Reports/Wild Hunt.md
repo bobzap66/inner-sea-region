@@ -8,7 +8,7 @@ cover: "assets/world-anvil/shared-cover-ee82cf8c9a07.png"
 
 # Wild Hunt
 
-![[shared-cover-ee82cf8c9a07.png]]
+![](../../../../assets/images/shared-cover-ee82cf8c9a07.png)
 
 *Compiled by Roald Celinnas, Pitax Correspondent and Contributing Archivist, with annotations by Jubilost Narthropple*
 
@@ -125,7 +125,7 @@ Prime Minister Ally Grainger, badly wounded and believing the surrender might be
 
 The threat was not idle. Reports collected since the encounter indicate a broad change in fey behavior. The pattern is not one of organized attack, but of withheld assistance, rejected restitution, and indifference toward mortals in danger.
 
-*See supplemental report: [[Concerning Recent Fey Activity Within the Republic]]*
+*See supplemental report: [Concerning Recent Fey Activity Within the Republic](Concerning%20Recent%20Fey%20Activity%20Within%20the%20Republic.md)*
 
 #### Lurk's Warning
 

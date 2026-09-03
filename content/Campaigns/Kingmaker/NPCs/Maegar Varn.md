@@ -8,13 +8,13 @@ portrait: "assets/world-anvil/maegar-varn-portrait.jpg"
 
 # Maegar Varn
 
-![[maegar-varn-portrait.jpg]]
+![](../../../assets/images/maegar-varn-portrait.jpg)
 
 *Charming Noble · Restless Visionary · Lost Too Soon*
 
-Maegar Varn bore the confidence of a man born to lead. With his sharp eyes, salt-and-pepper hair tied in a practical knot, and the Varn family blade at his side, he cut a dashing figure among the [[River Kingdoms]]' lesser nobility. A scion of House Varn and a chartered explorer of the [[Locations/Inner Sea Region/River Kingdoms/Stolen Lands/Nomen Heights|Nomen Heights]], Maegar was never content with idleness. At the Feast of Heroes, he spoke often—and proudly—of his plans for a new settlement called Varnhold, already charted and sketched out in detail back home.
+Maegar Varn bore the confidence of a man born to lead. With his sharp eyes, salt-and-pepper hair tied in a practical knot, and the Varn family blade at his side, he cut a dashing figure among the [River Kingdoms](../../../Locations/Inner%20Sea%20Region/River%20Kingdoms/River%20Kingdoms.md)' lesser nobility. A scion of House Varn and a chartered explorer of the [Nomen Heights](../../../Locations/Inner%20Sea%20Region/River%20Kingdoms/Stolen%20Lands/Nomen%20Heights/Nomen%20Heights.md), Maegar was never content with idleness. At the Feast of Heroes, he spoke often—and proudly—of his plans for a new settlement called Varnhold, already charted and sketched out in detail back home.
 
-He had no shortage of ambition, but it was tempered by a disarming charm. Maegar was quick to toast a rival’s success and quicker still to offer advice or aid. For all his noble bearing, he treated most folk with warmth and an easy grin. He dreamed of a thriving community nestled at the base of the [[Locations/Inner Sea Region/River Kingdoms/Stolen Lands/Nomen Heights/Dunsward|Dunsward]], a beacon of order and prosperity in the untamed wilds.
+He had no shortage of ambition, but it was tempered by a disarming charm. Maegar was quick to toast a rival’s success and quicker still to offer advice or aid. For all his noble bearing, he treated most folk with warmth and an easy grin. He dreamed of a thriving community nestled at the base of the [Dunsward](../../../Locations/Inner%20Sea%20Region/River%20Kingdoms/Stolen%20Lands/Nomen%20Heights/Dunsward.md), a beacon of order and prosperity in the untamed wilds.
 
 That dream ended in silence.
 

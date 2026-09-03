@@ -21,7 +21,7 @@ At the urging of Pathfinder Claudiette Dralston of the Radiant Oath, Society age
 
 #### 1) The Living–Undead Compact
 
-Steadfast’s labor and defense were shared by living citizens and skeletal townsfolk who remembered their former lives. A notable example, *Tomas of Vigil*, a mason in life, continued his craft in undeath, strengthening fortifications and civic works. These undead arose away from the strongest necrotic loci and displayed intact faculties and pro-social intent. See [[Appendix A|Appendix A]] for further philosophical speculation.
+Steadfast’s labor and defense were shared by living citizens and skeletal townsfolk who remembered their former lives. A notable example, *Tomas of Vigil*, a mason in life, continued his craft in undeath, strengthening fortifications and civic works. These undead arose away from the strongest necrotic loci and displayed intact faculties and pro-social intent. See [Appendix A](Appendix%20A.md) for further philosophical speculation.
 
 #### 2) The Keystone of Elios
 

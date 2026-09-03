@@ -8,17 +8,17 @@ cover: "assets/world-anvil/shared-cover-8a1bfbff37cb.png"
 
 # Session 22: The Mystery of the Missing Money
 
-![[shared-cover-8a1bfbff37cb.png]]
+![](../../../assets/images/shared-cover-8a1bfbff37cb.png)
 
 > [!side]
-> :   ![[session-22-the-mystery-of-the-missing-money-14.webp]]
+> :   ![](../../../assets/images/screenshots/Session%2022%20-%20The%20Mystery%20of%20the%20Missing%20Money/session-22-the-mystery-of-the-missing-money-14.webp)
 >
 >
 > ---
 >
 > <!-- session-gallery:start -->
 
-### From [[Linzi]]’s Journal
+### From [Linzi](../NPCs/Linzi.md)’s Journal
 
 *An account of events from approximately 8 Abadius until 31 Abadius, 4711 AR*
 
@@ -26,11 +26,11 @@ The Tubthumpers began the new year by closing several old accounts. Shamblesap w
 
 Jubilost used the quiet interval to continue his investigation into why gnomes left the First World for this one. His search had led him to a gnome named Xae, who had sought an invitation to something called the Inconsequent Debates. He promised to share what he learned if the Tubthumpers helped him follow the trail. With Jubilost, even the questions have footnotes.
 
-[[Valerie]] also spent time among us. She remains determined to be valued for something beyond her beauty, which is entirely reasonable, though the anonymous admirer who sent her an impractical gift appears not to have understood the assignment. She appreciates discipline, manners, and knowledge of warfare. She appreciates [[Seamus]] rather less, apparently because of his association with [[Shelyn]].
+[Valerie](../NPCs/Valerie.md) also spent time among us. She remains determined to be valued for something beyond her beauty, which is entirely reasonable, though the anonymous admirer who sent her an impractical gift appears not to have understood the assignment. She appreciates discipline, manners, and knowledge of warfare. She appreciates [Seamus](../Characters/Seamus.md) rather less, apparently because of his association with [Shelyn](../../../Rules/Deities/Shelyn.md).
 
 Then the treasury accounts exposed me.
 
-I had been taking money from the kingdom. Borrowing it, I told myself, although no one had authorized the loan and I had carefully arranged matters so no one would notice. I used the funds to purchase the components of a printing press and to hire [[Eobald]], one of my former teachers in [[Pitax]], to help us assemble and operate it.
+I had been taking money from the kingdom. Borrowing it, I told myself, although no one had authorized the loan and I had carefully arranged matters so no one would notice. I used the funds to purchase the components of a printing press and to hire [Eobald](../NPCs/Eobald.md), one of my former teachers in [Pitax](../../../Locations/Inner%20Sea%20Region/River%20Kingdoms/Stolen%20Lands/Thumping%20Waters/Settlements/Pitax/Pitax.md), to help us assemble and operate it.
 
 I intended it as a surprise. Thumping Waters was growing, and I believed a press could give every settlement the same news, preserve our laws and stories, and place knowledge into the hands of people who had never owned a book. I also believed that everyone would forgive the missing money once they saw what I had built. This was not one of my more mature assumptions.
 
@@ -60,10 +60,10 @@ I began this expedition ashamed of what I had done. I returned no less ashamed, 
 
 ## Session Gallery
 
-![[Session 22-01.webp]] ![[Session 22-02.webp]] ![[Session 22-03.webp]] ![[Session 22-04.webp]] ![[Session 22-05.webp]] ![[Session 22-06.webp]] ![[Session 22-07.webp]] ![[Session 22-08.webp]] ![[Session 22-09.webp]] ![[Session 22-10.webp]] ![[Session 22-11.webp]] ![[Session 22-12.webp]] ![[Session 22-13.webp]] ![[session-22-the-mystery-of-the-missing-money-14.webp]]
+![](../../../assets/images/screenshots/Session%2022%20-%20The%20Mystery%20of%20the%20Missing%20Money/Session%2022-01.webp) ![](../../../assets/images/screenshots/Session%2022%20-%20The%20Mystery%20of%20the%20Missing%20Money/Session%2022-02.webp) ![](../../../assets/images/screenshots/Session%2022%20-%20The%20Mystery%20of%20the%20Missing%20Money/Session%2022-03.webp) ![](../../../assets/images/screenshots/Session%2022%20-%20The%20Mystery%20of%20the%20Missing%20Money/Session%2022-04.webp) ![](../../../assets/images/screenshots/Session%2022%20-%20The%20Mystery%20of%20the%20Missing%20Money/Session%2022-05.webp) ![](../../../assets/images/screenshots/Session%2022%20-%20The%20Mystery%20of%20the%20Missing%20Money/Session%2022-06.webp) ![](../../../assets/images/screenshots/Session%2022%20-%20The%20Mystery%20of%20the%20Missing%20Money/Session%2022-07.webp) ![](../../../assets/images/screenshots/Session%2022%20-%20The%20Mystery%20of%20the%20Missing%20Money/Session%2022-08.webp) ![](../../../assets/images/screenshots/Session%2022%20-%20The%20Mystery%20of%20the%20Missing%20Money/Session%2022-09.webp) ![](../../../assets/images/screenshots/Session%2022%20-%20The%20Mystery%20of%20the%20Missing%20Money/Session%2022-10.webp) ![](../../../assets/images/screenshots/Session%2022%20-%20The%20Mystery%20of%20the%20Missing%20Money/Session%2022-11.webp) ![](../../../assets/images/screenshots/Session%2022%20-%20The%20Mystery%20of%20the%20Missing%20Money/Session%2022-12.webp) ![](../../../assets/images/screenshots/Session%2022%20-%20The%20Mystery%20of%20the%20Missing%20Money/Session%2022-13.webp) ![](../../../assets/images/screenshots/Session%2022%20-%20The%20Mystery%20of%20the%20Missing%20Money/session-22-the-mystery-of-the-missing-money-14.webp)
 <!-- session-gallery:end -->
 
 ## Article navigation
 
-**Previous:** [[Session 21- Rebuilding]]  
-**Next:** [[Session 23- Growth]]
+**Previous:** [Session 21- Rebuilding](Session%2021-%20Rebuilding.md)  
+**Next:** [Session 23- Growth](Session%2023-%20Growth.md)

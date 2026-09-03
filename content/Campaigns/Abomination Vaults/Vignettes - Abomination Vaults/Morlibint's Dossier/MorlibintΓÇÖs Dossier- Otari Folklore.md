@@ -8,10 +8,10 @@ cover: "assets/world-anvil/shared-cover-32ff100f6011.png"
 
 # Morlibint’s Dossier: Otari Folklore
 
-![[shared-cover-32ff100f6011.png]]
+![](../../../../assets/images/shared-cover-32ff100f6011.png)
 
 > [!side]
-> :   ![[morlibints-dossier-otari-folklore-image-01.jpeg]]
+> :   ![](../../../../assets/images/morlibints-dossier-otari-folklore-image-01.jpeg)
 >
 >     by ChatGPT
 

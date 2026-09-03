@@ -8,16 +8,16 @@ cover: "assets/world-anvil/shared-cover-8a1bfbff37cb.png"
 
 # Session 02: Go West, Young Heroes!
 
-![[shared-cover-8a1bfbff37cb.png]]
+![](../../../assets/images/shared-cover-8a1bfbff37cb.png)
 
 > [!side]
-> :   ![[session-02-go-west-young-heroes-image-02.webp]]
+> :   ![](../../../assets/images/screenshots/Session%2002%20-%20Go%20West%20Young%20Heroes/session-02-go-west-young-heroes-image-02.webp)
 >
 > ---
 >
 > <!-- session-gallery:start -->
 
-### From [[Linzi]]’s Journal
+### From [Linzi](../NPCs/Linzi.md)’s Journal
 
 *Calistril 24, 4710 AR*
 
@@ -29,9 +29,9 @@ It was not. Seamus survived, and the party helped Lady Jamandi bring down the la
 
 Lady Jamandi allowed the party to keep the weapons taken from the defeated attackers, along with the equipment they had borrowed and used in defense of her home. Among their spoils was an enchanted mace discovered earlier in the manor. It was a practical reward, if not a ceremonial one: arms placed immediately into the hands of people who had already demonstrated that they knew how to use them.
 
-Later that day, Lady Jamandi gathered the survivors and presented the promised charters. Seamus, Mairi, Ant, and Ally received authority to travel into the [[Locations/Inner Sea Region/River Kingdoms/Stolen Lands/Greenbelt|Greenbelt]], explore the wilderness, and confront the banditry that had prevented lasting settlement. Yesterday they had been guests answering a noblewoman’s call. Today they carried [[Restov]]’s written authority into the [[Stolen Lands]].
+Later that day, Lady Jamandi gathered the survivors and presented the promised charters. Seamus, Mairi, Ant, and Ally received authority to travel into the [Greenbelt](../../../Locations/Inner%20Sea%20Region/River%20Kingdoms/Stolen%20Lands/Greenbelt/Greenbelt.md), explore the wilderness, and confront the banditry that had prevented lasting settlement. Yesterday they had been guests answering a noblewoman’s call. Today they carried [Restov](../../../Locations/Inner%20Sea%20Region/Brevoy/Restov.md)’s written authority into the [Stolen Lands](../../../Locations/Inner%20Sea%20Region/River%20Kingdoms/Stolen%20Lands/Stolen%20Lands.md).
 
-![[session-02-go-west-young-heroes-image-01.webp]]
+![](../../../assets/images/screenshots/Session%2002%20-%20Go%20West%20Young%20Heroes/session-02-go-west-young-heroes-image-01.webp)
 
 *Calistril 25, 4710 AR*
 
@@ -43,10 +43,10 @@ When our paths crossed again, I learned that their first journey west had taken 
 
 ## Session Gallery
 
-![[session-02-go-west-young-heroes-image-01.webp]] ![[session-02-go-west-young-heroes-image-02.webp]]
+![](../../../assets/images/screenshots/Session%2002%20-%20Go%20West%20Young%20Heroes/session-02-go-west-young-heroes-image-01.webp) ![](../../../assets/images/screenshots/Session%2002%20-%20Go%20West%20Young%20Heroes/session-02-go-west-young-heroes-image-02.webp)
 <!-- session-gallery:end -->
 
 ## Article navigation
 
-**Previous:** [[Session 01- A Time to Kill]]  
-**Next:** [[Session 03- Big Trouble at Little Oleg's]]
+**Previous:** [Session 01- A Time to Kill](Session%2001-%20A%20Time%20to%20Kill.md)  
+**Next:** [Session 03- Big Trouble at Little Oleg's](Session%2003-%20Big%20Trouble%20at%20Little%20Oleg%27s.md)

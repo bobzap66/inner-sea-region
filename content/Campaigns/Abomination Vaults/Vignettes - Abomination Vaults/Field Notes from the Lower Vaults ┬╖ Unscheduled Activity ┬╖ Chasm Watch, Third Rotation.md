@@ -9,7 +9,7 @@ category_path:
 
 
 > [!side]
-> :   ![[field-notes-from-the-lower-vaults-unscheduled-activity-chasm-watch-third-image-01.jpeg]]
+> :   ![](../../../assets/images/field-notes-from-the-lower-vaults-unscheduled-activity-chasm-watch-third-image-01.jpeg)
 
 “…the creature had the advantage.”
 

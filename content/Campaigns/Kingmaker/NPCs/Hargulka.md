@@ -8,7 +8,7 @@ portrait: "assets/world-anvil/hargulka-portrait.webp"
 
 # Hargulka
 
-![[hargulka-portrait.webp]]
+![](../../../assets/images/hargulka-portrait.webp)
 
 *Self-Styled Troll King · Tyrant of Fire and Stone · Devoured by Ambition*
 

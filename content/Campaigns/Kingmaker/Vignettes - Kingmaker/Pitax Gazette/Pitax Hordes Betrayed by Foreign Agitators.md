@@ -7,7 +7,7 @@ cover: "assets/world-anvil/shared-cover-5d0935703bb5.png"
 
 # Pitax Hordes Betrayed by Foreign Agitators
 
-![[shared-cover-5d0935703bb5.png]]
+![](../../../../assets/images/shared-cover-5d0935703bb5.png)
 
 *Published in The Pitax Gazette, Lamashan 11th, 4714 AR*
 
@@ -17,7 +17,7 @@ Reports from the front confirm that several auxiliary horde formations operating
 
 Witnesses describe agents of the so-called Republic of Thumping Waters spreading lies, false promises, and seditious propaganda among irregular troops recruited from throughout the River Kingdoms. These efforts culminated in a shameful wave of desertions as several formations abandoned their oaths and fled the field.
 
-![[pitax-hordes-betrayed-by-foreign-agitators-image-01.png]]
+![](../../../../assets/images/pitax-hordes-betrayed-by-foreign-agitators-image-01.png)
 
 Even more disturbingly, three remaining horde formations, enraged by the treachery of their former allies, were drawn into a chaotic and bloody confrontation. What should have been a united effort against foreign aggression instead became a tragedy engineered by enemies who lack the courage to face Pitaxian arms directly.
 

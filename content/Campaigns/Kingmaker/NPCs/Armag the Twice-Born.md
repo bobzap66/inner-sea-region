@@ -8,11 +8,11 @@ portrait: "assets/world-anvil/armag-the-twice-born-portrait.png"
 
 # Armag the Twice-Born
 
-![[armag-the-twice-born-portrait.png]]
+![](../../../assets/images/armag-the-twice-born-portrait.png)
 
-*As recorded by [[Linzi]], Minister of Communication of Thumping Waters*
+*As recorded by [Linzi](Linzi.md), Minister of Communication of Thumping Waters*
 
-Armag the Twice-Born is one of those names that sounds impressive until you ask a very reasonable follow-up question and no one can give you the same answer twice. Born once normally, and then… what? Born again in anger? Born again after punching something large and furry? The [[Groups/Tiger Lords|Tiger Lords]] are notably evasive on this point, which I suspect is because clarity is considered a personal failing among barbarians.
+Armag the Twice-Born is one of those names that sounds impressive until you ask a very reasonable follow-up question and no one can give you the same answer twice. Born once normally, and then… what? Born again in anger? Born again after punching something large and furry? The [Tiger Lords](../../../Groups/Tiger%20Lords.md) are notably evasive on this point, which I suspect is because clarity is considered a personal failing among barbarians.
 
 Regardless, Armag leaned into the title with remarkable enthusiasm.
 
@@ -32,7 +32,7 @@ The Sisters of the Bloodshot Eye, devotees of the hag goddess Gyronna, abducted 
 
 By the time he took power, Armag was not merely convinced—he was *weaponized*.
 
-Their long game was precise: aim a living legend at [[Brevoy]], a nation that did not exist when the first Armag lived, and let history be rewritten in blood. Armag believed himself chosen. The Sisters knew better. To them, he was a tool.
+Their long game was precise: aim a living legend at [Brevoy](../../../Locations/Inner%20Sea%20Region/Brevoy/Brevoy.md), a nation that did not exist when the first Armag lived, and let history be rewritten in blood. Armag believed himself chosen. The Sisters knew better. To them, he was a tool.
 
 #### The Tomb and the Sword
 
@@ -56,6 +56,6 @@ Armag the Twice-Born—never reborn, never chosen, but carefully constructed. A 
 
 A legend manufactured, then destroyed by the very blade meant to prove it real.
 
-If there is a lesson here—and I am increasingly convinced the [[Stolen Lands]] insist on lessons—it is this: destiny is rarely born. It is far more often *taught*, and those who teach it are rarely the ones who bleed for it.
+If there is a lesson here—and I am increasingly convinced the [Stolen Lands](../../../Locations/Inner%20Sea%20Region/River%20Kingdoms/Stolen%20Lands/Stolen%20Lands.md) insist on lessons—it is this: destiny is rarely born. It is far more often *taught*, and those who teach it are rarely the ones who bleed for it.
 
 More updates to follow, assuming there are any left to write.

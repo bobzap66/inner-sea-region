@@ -9,7 +9,7 @@ parent: "[[Embeth Hall]]"
 ---
 # White Lantern
 
-![[white-lantern-portrait.png]]
+![](../../../../../../../assets/images/white-lantern-portrait.png)
 
 *A Lantern and Ledger correspondent's guide to Embeth Hall's best-known inn, supplemented by the municipal gazetteer and the travel recollections of Velka of the Sootscale*
 

@@ -8,10 +8,10 @@ cover: "assets/world-anvil/shared-cover-ee82cf8c9a07.png"
 
 # The "Charleton" File
 
-![[shared-cover-ee82cf8c9a07.png]]
+![](../../../../assets/images/shared-cover-ee82cf8c9a07.png)
 
 > [!side]
-> :   ![[the-charleton-file-charleton-file.png]]
+> :   ![](../../../../assets/images/the-charleton-file-charleton-file.png)
 
 ## Volantris Internal Archive
 

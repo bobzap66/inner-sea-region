@@ -8,13 +8,13 @@ portrait: "assets/world-anvil/terrion-numesti-portrait.png"
 
 # Terrion Numesti
 
-![[terrion-numesti-portrait.png]]
+![](../../../assets/images/terrion-numesti-portrait.png)
 
-I’ve still never met Lord Tarrion Numesti in person, though at this point I feel like I’ve been orbiting his story for so long that he’s become a sort of moral compass I’ve never actually spoken to. Everyone who knows him speaks with the same hushed reverence—like naming him too loudly might break the spell. If even half the stories are true, he’s that rarest of men in the [[River Kingdoms]]: one who refuses to compromise his honor, even when surrounded by people who sold theirs long ago.
+I’ve still never met Lord Tarrion Numesti in person, though at this point I feel like I’ve been orbiting his story for so long that he’s become a sort of moral compass I’ve never actually spoken to. Everyone who knows him speaks with the same hushed reverence—like naming him too loudly might break the spell. If even half the stories are true, he’s that rarest of men in the [River Kingdoms](../../../Locations/Inner%20Sea%20Region/River%20Kingdoms/River%20Kingdoms.md): one who refuses to compromise his honor, even when surrounded by people who sold theirs long ago.
 
   
 
-The tale hasn’t changed: Tarrion was once one of [[Hannis Drelev]]’s most trusted knights—a disciplined, principled officer from [[Restov]] who somehow thought integrity was still allowed in politics. When Drelev bent the knee to King Irovetti of [[Pitax]] and agreed to send Tarrion’s eldest daughter, Tamary, as a hostage to the Tiger Lords, Tarrion didn’t just object. He said no. Directly. Publicly. Without hedging or fear.
+The tale hasn’t changed: Tarrion was once one of [Hannis Drelev](Hannis%20Drelev.md)’s most trusted knights—a disciplined, principled officer from [Restov](../../../Locations/Inner%20Sea%20Region/Brevoy/Restov.md) who somehow thought integrity was still allowed in politics. When Drelev bent the knee to King Irovetti of [Pitax](../../../Locations/Inner%20Sea%20Region/River%20Kingdoms/Stolen%20Lands/Thumping%20Waters/Settlements/Pitax/Pitax.md) and agreed to send Tarrion’s eldest daughter, Tamary, as a hostage to the Tiger Lords, Tarrion didn’t just object. He said no. Directly. Publicly. Without hedging or fear.
 
   
 
@@ -30,7 +30,7 @@ And now, at last, the Tubthumpers have confirmed one thing beyond doubt: Tarrion
 
   
 
-I haven’t met him, but I’ve met his shadow—carried in the courage of his daughters. [[Kisandra Numesti|Kisandra]] risked everything to save strangers. [[Tamary Numesti|Tamary]] endures the Tiger Lords with a spine forged from something stronger than fear. Somewhere between those two remarkable women stands their father, still fighting in every breath he takes, planning the impossible: rescuing Tamary from her captors.
+I haven’t met him, but I’ve met his shadow—carried in the courage of his daughters. [Kisandra](Kisandra%20Numesti.md) risked everything to save strangers. [Tamary](Tamary%20Numesti.md) endures the Tiger Lords with a spine forged from something stronger than fear. Somewhere between those two remarkable women stands their father, still fighting in every breath he takes, planning the impossible: rescuing Tamary from her captors.
 
   
 

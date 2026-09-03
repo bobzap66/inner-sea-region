@@ -7,7 +7,7 @@ cover: "assets/world-anvil/shared-cover-110a4fd3e759.png"
 
 # The Water Owed Him One
 
-![[shared-cover-110a4fd3e759.png]]
+![](../../../../assets/images/shared-cover-110a4fd3e759.png)
 
 ### THE LANTERN AND LEDGER
 
@@ -31,7 +31,7 @@ Arven looked across Lake Candlemere for a long time before he answered.
 
 The island was visible through the morning mist, though only barely. A dark hill. A broken tower. The sort of destination that makes a sensible boatman remember work awaiting him in the opposite direction.
 
-![[the-water-owed-him-one-arven-to-candlemere-wide-woodcut.png]]
+![](../../../../assets/images/the-water-owed-him-one-arven-to-candlemere-wide-woodcut.png)
 
 *Arven carries the Tubthumpers toward Candlemere Island years after their first adventure together upon dangerous water.*
 
@@ -41,7 +41,7 @@ The Tubthumpers remembered.
 
 ### A FISHING GROUND UNDER SIEGE
 
-![[the-water-owed-him-one-old-crackjaw-square-woodcut.png]]
+![](../../../../assets/images/the-water-owed-him-one-old-crackjaw-square-woodcut.png)
 
 *Old Crackjaw rises through a boat that never existed. Connal stands with Ant and Ally upon the shore.*
 

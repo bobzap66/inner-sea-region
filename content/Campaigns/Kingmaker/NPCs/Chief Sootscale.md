@@ -8,11 +8,11 @@ portrait: "assets/world-anvil/chief-sootscale-portrait.png"
 
 # Chief Sootscale
 
-![[chief-sootscale-portrait.png]]
+![](../../../assets/images/chief-sootscale-portrait.png)
 
 ## Chief Sootscale
 
-*Former Governor of [[Sootscale Valley]] • Liberator of the [[Groups/Sootscale Kobolds|Sootscale Kobolds]]*
+*Former Governor of [Sootscale Valley](../../../Locations/Inner%20Sea%20Region/River%20Kingdoms/Stolen%20Lands/Thumping%20Waters/Settlements/Sootscale%20Valley/Sootscale%20Valley.md) • Liberator of the [Sootscale Kobolds](../../../Groups/Sootscale%20Kobolds.md)*
 
 > Chief Sootscale ensured that his people entered the republic on their own feet rather than upon their knees.
 
@@ -24,7 +24,7 @@ Liberator of the Sootscale Tribe
 
 #### Known For
 
-Overthrowing [[Tartuk]]  
+Overthrowing [Tartuk](Tartuk.md)  
 Destroying the idol of Old Sharptooth  
 Defending kobold independence  
 Establishing Sootscale Valley
@@ -41,7 +41,7 @@ Every part of his appearance reflects hard-won authority, tribal memory, and his
 
 ### History
 
-Chief Sootscale rose to lead the kobolds beneath [[Locations/Inner Sea Region/River Kingdoms/Stolen Lands/Greenbelt/Kamelands/The Old Sycamore|The Old Sycamore]], but his authority was stolen by the gnome [[Tartuccio]], who disguised himself as a purple-scaled kobold prophet named Tartuk. Through threats, manipulation, and false miracles, Tartuk drove the tribe into fearful devotion to a supposed demon called Old Sharptooth and reduced Sootscale to a leader in name only.
+Chief Sootscale rose to lead the kobolds beneath [The Old Sycamore](../../../Locations/Inner%20Sea%20Region/River%20Kingdoms/Stolen%20Lands/Greenbelt/Kamelands/The%20Old%20Sycamore.md), but his authority was stolen by the gnome [Tartuccio](Tartuccio.md), who disguised himself as a purple-scaled kobold prophet named Tartuk. Through threats, manipulation, and false miracles, Tartuk drove the tribe into fearful devotion to a supposed demon called Old Sharptooth and reduced Sootscale to a leader in name only.
 
 The adventurers who would later found the Republic of Thumping Waters exposed Tartuk’s deception and helped Chief Sootscale reclaim control of his people. During the conflict, the Tubthumpers rescued the kobold Mikmek from mite captivity, destroyed the mite enclave beneath the Old Sycamore, and returned the tribe’s stolen idol of Old Sharptooth.
 
@@ -49,7 +49,7 @@ Once his authority had been restored, Chief Sootscale smashed the idol himself. 
 
 **The destruction of the idol marked both the end of Tartuk’s rule and the beginning of the Sootscales’ liberation.**
 
-This victory became one of the earliest foundations of the relationship between the [[Groups/Sootscale Kobolds|Sootscale Kobolds]] and the future Republic of Thumping Waters. Chief Sootscale had good reason to distrust outsiders, but the actions of the Tubthumpers convinced him that cooperation did not always mean submission.
+This victory became one of the earliest foundations of the relationship between the [Sootscale Kobolds](../../../Groups/Sootscale%20Kobolds.md) and the future Republic of Thumping Waters. Chief Sootscale had good reason to distrust outsiders, but the actions of the Tubthumpers convinced him that cooperation did not always mean submission.
 
 ---
 
@@ -73,11 +73,11 @@ Chief Sootscale is disciplined, pragmatic, proud, and deeply protective of his p
 
 He is capable of gratitude, but never meekness. Sootscale remembers betrayal too clearly to surrender his judgment to outsiders, even trusted ones. He prefers clear agreements, defined responsibilities, and consequences that are understood in advance.
 
-His seriousness can make him appear humorless, especially beside leaders such as [[Nok-Nok]], but it comes from responsibility rather than cruelty. Chief Sootscale spent much of his rule ensuring that his people would never again be frightened into following someone who claimed authority through spectacle and lies.
+His seriousness can make him appear humorless, especially beside leaders such as [Nok-Nok](Nok-Nok.md), but it comes from responsibility rather than cruelty. Chief Sootscale spent much of his rule ensuring that his people would never again be frightened into following someone who claimed authority through spectacle and lies.
 
 ---
 
-### Relationship with [[Greengripe]]
+### Relationship with [Greengripe](../../../Locations/Inner%20Sea%20Region/River%20Kingdoms/Stolen%20Lands/Thumping%20Waters/Settlements/Greengripe/Greengripe.md)
 
 Chief Sootscale’s relationship with Greengripe was frequently strained during Nok-Nok’s governorship.
 
@@ -93,7 +93,7 @@ Chaos could strengthen a community by teaching its people to laugh at fear.
 
 Order protected a community from falling back into fear in the first place.
 
-Despite their mutual frustration, the dispute never erased Sootscale’s loyalty to the republic or Nok-Nok’s contributions to it. Relations between Sootscale Valley and Greengripe improved after [[Kereek]] succeeded Chief Sootscale as governor, as Kereek proved more willing to tolerate Nok-Nok’s methods and negotiate around the resulting problems.
+Despite their mutual frustration, the dispute never erased Sootscale’s loyalty to the republic or Nok-Nok’s contributions to it. Relations between Sootscale Valley and Greengripe improved after [Kereek](Kereek.md) succeeded Chief Sootscale as governor, as Kereek proved more willing to tolerate Nok-Nok’s methods and negotiate around the resulting problems.
 
 ---
 

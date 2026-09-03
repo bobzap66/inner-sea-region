@@ -7,7 +7,7 @@ cover: "assets/world-anvil/rainbows-in-the-snow-cover.png"
 
 # Rainbows in the Snow
 
-![[rainbows-in-the-snow-cover.png]]
+![](../../../../assets/images/rainbows-in-the-snow-cover.png)
 
 The winter solstice came down gently that year, like the world had decided to exhale all at once.
 

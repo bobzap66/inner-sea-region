@@ -9,16 +9,16 @@ flag_organization: "[[shared-image-8ec3e0278927.png]]"
 
 # Ministry of Magic
 
-![[shared-cover-48fb79abc6f1.png]]
+![](../../../../../../assets/images/shared-cover-48fb79abc6f1.png)
 
 *An institutional profile maintained by the Office of Public Record*
 
 The Ministry of Magic advises the Republic of Thumping Waters on supernatural threats and coordinates the safe public use of arcane, divine, occult, and primal power. It maintains magical infrastructure, supervises dangerous rituals undertaken by the government, investigates unusual phenomena, and provides expert assistance to other ministries and settlements.
 
-[[Tristian]] currently leads the ministry. [[Ally Grainger]] founded the office and served as Minister of Magic until she became Prime Minister.
+[Tristian](../../../../../../Campaigns/Kingmaker/NPCs/Tristian.md) currently leads the ministry. [Ally Grainger](../../../../../../Campaigns/Kingmaker/Characters/Ally%20Grainger.md) founded the office and served as Minister of Magic until she became Prime Minister.
 
 > [!profile] At a Glance
-> ![[assets/images/local-library/assets/portraits/ruling-council/Tristian - Minister of Magic.png|220]]
+> ![](../../../../../../assets/images/local-library/assets/portraits/ruling-council/Tristian%20-%20Minister%20of%20Magic.png)
 >
 > **Current Minister:** Tristian
 >
@@ -26,11 +26,11 @@ The Ministry of Magic advises the Republic of Thumping Waters on supernatural th
 >
 > **Charter Office:** Magister
 >
-> **Headquarters:** [[Thumpington]]
+> **Headquarters:** [Thumpington](../Settlements/Thumpington/Thumpington.md)
 >
 > **Primary Responsibilities:** Supernatural threat assessment, ritual supervision, magical public works, hazardous artifacts, arcane research, and expert support
 >
-> **Academic Partner:** College of the Four Traditions, [[Free University of Thumping Waters]]
+> **Academic Partner:** College of the Four Traditions, [Free University of Thumping Waters](../Settlements/Thumpington/Free%20University%20of%20Thumping%20Waters.md)
 ### Mandate
 
 The ministry studies magical threats, maintains government wards and teleportation facilities, inspects hazardous magical works, supervises large rituals, and advises the council whenever ordinary law or engineering encounters extraordinary reality.
@@ -43,7 +43,7 @@ It does not claim ownership of every spell cast within the Republic. Household m
 
 This office collects reports of curses, Blooms, planar disturbances, strange creatures, and unexplained magical effects. Scholars compare witness testimony with recovered records and field examinations before assigning a cause. When no cause can be established, the uncertainty is recorded rather than replaced with a more satisfying guess.
 
-Current research interests include the First World, [[Wild Hunt]] activity, ancient cyclops magic, Pharasmian structures beneath Candlemere, and the interaction of powerful artifacts with their bearers.
+Current research interests include the First World, [Wild Hunt](../../../../../../Campaigns/Kingmaker/Vignettes%20-%20Kingmaker/Intelligence%20Reports/Wild%20Hunt.md) activity, ancient cyclops magic, Pharasmian structures beneath Candlemere, and the interaction of powerful artifacts with their bearers.
 
 The office exchanges records and expertise with the Free University's College of the Four Traditions. Ministry personnel may provide field access, containment, threat assessments, or restricted evidence, while university scholars conduct independent study and review. Neither institution may present the other's conclusions as its own without attribution.
 
@@ -65,11 +65,11 @@ Settlements may request help with failed wards, magical contamination, unexplain
 
 ### History of the Ministry
 
-The Ministry of Magic was created in a country where supernatural events were never theoretical. The [[Stolen Lands]] contained ancient wards, will-o'-wisps, cursed tombs, hostile fey, forgotten cyclops workings, and recurring Blooms before the Republic built its first road.
+The Ministry of Magic was created in a country where supernatural events were never theoretical. The [Stolen Lands](../../Stolen%20Lands.md) contained ancient wards, will-o'-wisps, cursed tombs, hostile fey, forgotten cyclops workings, and recurring Blooms before the Republic built its first road.
 
 Under Ally Grainger, the ministry developed from a single minister's expertise into a network of consultants and records capable of supporting settlements across the Republic. Investigations surrounding Vordakai, Candlemere, the First World, and dangerous artifacts greatly expanded its responsibilities.
 
-When [[Mairi]] left office, Ally became Prime Minister and Tristian assumed responsibility for magical affairs. The transfer separated the ministry's technical work from the expanding duties of head of government without severing the Prime Minister's long familiarity with magical policy.
+When [Mairi](../../../../../../Campaigns/Kingmaker/Characters/Mairi.md) left office, Ally became Prime Minister and Tristian assumed responsibility for magical affairs. The transfer separated the ministry's technical work from the expanding duties of head of government without severing the Prime Minister's long familiarity with magical policy.
 
 ### The Minister
 

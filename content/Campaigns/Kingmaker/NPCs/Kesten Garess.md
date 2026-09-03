@@ -8,7 +8,7 @@ portrait: "assets/world-anvil/kesten-garess-portrait.webp"
 
 # Kesten Garess
 
-![[kesten-garess-portrait.webp]]
+![](../../../assets/images/kesten-garess-portrait.webp)
 
 Kesten Garess bears the name of a noble house in Brevoy, but little of its privilege. A quiet scandal—one whispered in the drawing rooms of Restov and hushed in the halls of House Garess—led to his quiet exile from noble society. Rather than accept a life of shame among the idle elite, Kesten took up sword and shield, turning to a mercenary’s life with grim determination.
 

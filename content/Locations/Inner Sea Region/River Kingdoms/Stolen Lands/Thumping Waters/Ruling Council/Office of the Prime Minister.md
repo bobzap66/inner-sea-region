@@ -9,16 +9,16 @@ flag_organization: "[[office-of-the-prime-minister-flag.png]]"
 
 # Office of the Prime Minister
 
-![[shared-cover-48fb79abc6f1.png]]
+![](../../../../../../assets/images/shared-cover-48fb79abc6f1.png)
 
 *An institutional profile maintained by the Office of Public Record*
 
 The Office of the Prime Minister coordinates the civil government of the Republic of Thumping Waters. It sets priorities, convenes the Ruling Council, resolves disputes among ministries, and ensures that national decisions become assignments, budgets, orders, and completed work rather than a collection of strongly expressed preferences.
 
-Ally Grainger currently serves as Prime Minister. [[Mairi]] founded the office and led the Republic through its earliest years before retiring from public adventuring and government leadership.
+Ally Grainger currently serves as Prime Minister. [Mairi](../../../../../../Campaigns/Kingmaker/Characters/Mairi.md) founded the office and led the Republic through its earliest years before retiring from public adventuring and government leadership.
 
 > [!profile] At a Glance
-> ![[ally-grainger-prime-minister.png|220]]
+> ![](../../../../../../assets/images/local-library/assets/portraits/ruling-council/ally-grainger-prime-minister.png)
 >
 > **Current Officeholder:** Ally Grainger
 >
@@ -26,7 +26,7 @@ Ally Grainger currently serves as Prime Minister. [[Mairi]] founded the office a
 >
 > **Charter Office:** Ruler
 >
-> **Seat:** [[Thumpington]]
+> **Seat:** [Thumpington](../Settlements/Thumpington/Thumpington.md)
 >
 > **Primary Responsibilities:** Executive coordination, national priorities, council leadership, inter-ministerial policy, crisis response, and representation of the Republic
 ### Mandate
@@ -53,7 +53,7 @@ During war, disaster, plague, magical emergency, or other national crisis, this 
 
 Mairi served as the Republic's founding Prime Minister, when the office's authority rested as much upon the confidence of the other founders as upon formal procedure. Her government established the first ministries, settlements, and institutions from which the modern Republic developed.
 
-Ally moved from the [[Ministry of Magic]] into the prime ministership. [[Tristian]] succeeded her as Minister of Magic, allowing the executive office to retain magical expertise without requiring its holder to direct two institutions at once.
+Ally moved from the [Ministry of Magic](Ministry%20of%20Magic.md) into the prime ministership. [Tristian](../../../../../../Campaigns/Kingmaker/NPCs/Tristian.md) succeeded her as Minister of Magic, allowing the executive office to retain magical expertise without requiring its holder to direct two institutions at once.
 
 ### The Prime Minister and the Council
 

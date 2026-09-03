@@ -9,7 +9,7 @@ parent: "[[Longtail Island]]"
 ---
 # Tailforge Atelier
 
-![[tailforge-atelier-portrait.png]]
+![](../../../../../../../assets/images/tailforge-atelier-portrait.png)
 
 *A Lantern and Ledger guide to the renowned riverside forge of Longtail Island, compiled from the settlement gazetteer, guild records, and the travel recollections of Velka of the Sootscale*
 

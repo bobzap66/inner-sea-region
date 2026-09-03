@@ -9,7 +9,7 @@ parent: "[[Willowfen]]"
 ---
 # Silver Reed
 
-![[silver-reed-portrait.png]]
+![](../../../../../../../assets/images/silver-reed-portrait.png)
 
 *A Lantern and Ledger guide to Willowfen's first inn, compiled from the settlement gazetteer, guest recollections, and the travel accounts of Velka of the Sootscale*
 

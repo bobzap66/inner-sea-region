@@ -9,16 +9,16 @@ flag_organization: "[[ministry-of-justice-flag.png]]"
 
 # Ministry of Justice
 
-![[shared-cover-48fb79abc6f1.png]]
+![](../../../../../../assets/images/shared-cover-48fb79abc6f1.png)
 
 *An institutional profile maintained by the Office of Public Record*
 
 The Ministry of Justice administers the laws of the Republic of Thumping Waters. It oversees national courts, legal procedure, warrants, appeals, mediation, and the enforcement of judgments while protecting citizens from the arbitrary exercise of government power.
 
-The ministry is led by [[Matteo]] Auditore. Its founding minister was [[Ekundayo]], who established the office when the Republic's law consisted of a charter, a council, and an alarming number of situations the charter had not anticipated.
+The ministry is led by [Matteo](../../../../../../Campaigns/Kingmaker/Characters/Matteo.md) Auditore. Its founding minister was [Ekundayo](../../../../../../Campaigns/Kingmaker/NPCs/Ekundayo.md), who established the office when the Republic's law consisted of a charter, a council, and an alarming number of situations the charter had not anticipated.
 
 > [!profile] At a Glance
-> ![[assets/images/local-library/assets/portraits/ruling-council/Matteo Auditore - Minister of Justice.png|220]]
+> ![](../../../../../../assets/images/local-library/assets/portraits/ruling-council/Matteo%20Auditore%20-%20Minister%20of%20Justice.png)
 >
 > **Current Minister:** Matteo Auditore
 >
@@ -26,7 +26,7 @@ The ministry is led by [[Matteo]] Auditore. Its founding minister was [[Ekundayo
 >
 > **Charter Office:** Warden
 >
-> **Headquarters:** [[Thumpington]]
+> **Headquarters:** [Thumpington](../Settlements/Thumpington/Thumpington.md)
 >
 > **Primary Responsibilities:** Courts, legal code, due process, warrants, appeals, mediation, judicial oversight, and enforcement of lawful judgments
 
@@ -48,7 +48,7 @@ National courts intervene when a case crosses settlement boundaries, concerns na
 
 The Office of Code and Precedent drafts statutes, records judicial decisions, reviews proposed council measures, and advises ministries about the legal limits of their plans. It is responsible for making the law consistent enough to govern distant communities without pretending that every dispute is identical.
 
-Translations and explanatory editions are prepared with the [[Ministry of Communication]] so that citizenship does not depend upon reading the preferred language of the capital.
+Translations and explanatory editions are prepared with the [Ministry of Communication](Ministry%20of%20Communication.md) so that citizenship does not depend upon reading the preferred language of the capital.
 
 #### Office of Warrants and Judicial Enforcement
 
@@ -62,7 +62,7 @@ Mediators seek settlements in property disputes, commercial disagreements, bound
 
 ### Development of Republican Law
 
-The Republic learned early that an enemy can be dangerous without being easily chargeable. When the agitator [[Grigori]] spread unrest through Thumpington, the government could not lawfully punish him merely for being persuasive and intolerable. His eventual arrest required provable conduct rather than official dislike. The case became an early lesson in the difference between protecting a government and protecting the law.
+The Republic learned early that an enemy can be dangerous without being easily chargeable. When the agitator [Grigori](../../../../../../Campaigns/Kingmaker/NPCs/Grigori.md) spread unrest through Thumpington, the government could not lawfully punish him merely for being persuasive and intolerable. His eventual arrest required provable conduct rather than official dislike. The case became an early lesson in the difference between protecting a government and protecting the law.
 
 Expansion created further complications. Kobold, goblin, iruxi, bog strider, and centaur communities brought their own leaders, customs, obligations, and methods of resolving disputes. The ministry's task has not been to erase those systems. It establishes the national rights and procedures that no local custom may violate while recognizing local authority wherever possible.
 

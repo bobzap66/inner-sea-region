@@ -8,10 +8,10 @@ cover: "assets/world-anvil/shared-cover-32ff100f6011.png"
 
 # Morlibint's Dossier: The Whispering Caverns
 
-![[shared-cover-32ff100f6011.png]]
+![](../../../../assets/images/shared-cover-32ff100f6011.png)
 
 > [!side]
-> :   ![[morlibint-s-dossier-the-whispering-caverns-image-01.jpeg]]
+> :   ![](../../../../assets/images/morlibint-s-dossier-the-whispering-caverns-image-01.jpeg)
 
 *Extract from the Morlibint Dossier*
 
@@ -51,5 +51,5 @@ I caution any reader of these notes: meaning extracted from the whispers is unre
 
   
 
-[[Morlibint's Dossier- The Cult of Urthagul|Morlibint's Dossier: The Cult of Urthagul]]
+[Morlibint's Dossier: The Cult of Urthagul](Morlibint%27s%20Dossier-%20The%20Cult%20of%20Urthagul.md)
 

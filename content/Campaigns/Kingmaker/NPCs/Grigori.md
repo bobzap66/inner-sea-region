@@ -8,11 +8,11 @@ portrait: "assets/world-anvil/grigori-portrait.png"
 
 # Grigori
 
-![[grigori-portrait.png]]
+![](../../../assets/images/grigori-portrait.png)
 
 *Provocateur · Orator · Martyr (to some)*
 
-Grigori arrived in [[Thumpington]] with a silver tongue and a sharpened agenda. A bard of considerable charm and talent, he quickly rose to notoriety by delivering impassioned public speeches that questioned the authority, competence, and morality of the Tubthumpers. Cloaking himself in the mantle of the people’s voice, he appealed to the fears and frustrations of settlers who felt overlooked or oppressed. His words spread like wildfire—incendiary, seductive, and dangerously effective.
+Grigori arrived in [Thumpington](../../../Locations/Inner%20Sea%20Region/River%20Kingdoms/Stolen%20Lands/Thumping%20Waters/Settlements/Thumpington/Thumpington.md) with a silver tongue and a sharpened agenda. A bard of considerable charm and talent, he quickly rose to notoriety by delivering impassioned public speeches that questioned the authority, competence, and morality of the Tubthumpers. Cloaking himself in the mantle of the people’s voice, he appealed to the fears and frustrations of settlers who felt overlooked or oppressed. His words spread like wildfire—incendiary, seductive, and dangerously effective.
 
 Though he never raised a blade or cast a spell in violence, Grigori's rhetoric struck at the heart of the fledgling republic. Whispers of outside influence—perhaps even espionage—followed him, though no proof was ever made public. Still, the unrest he incited was undeniable.
 

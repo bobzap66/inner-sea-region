@@ -8,6 +8,6 @@ parent: "[[Campaigns/Kingmaker/Characters/Characters|Characters]]"
 
 Animal companions associated with the Kingmaker party.
 
-- [[Connal]]
-- [[Lorcan]]
-- [[Rennie]]
+- [Connal](Connal.md)
+- [Lorcan](Lorcan.md)
+- [Rennie](Rennie.md)

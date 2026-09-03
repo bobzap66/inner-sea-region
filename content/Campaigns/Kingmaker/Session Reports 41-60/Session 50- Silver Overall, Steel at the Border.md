@@ -8,10 +8,10 @@ cover: "assets/world-anvil/shared-cover-110a4fd3e759.png"
 
 # Session 50: Silver Overall, Steel at the Border
 
-![[shared-cover-110a4fd3e759.png]]
+![](../../../assets/images/shared-cover-110a4fd3e759.png)
 
 > [!side]
-> :   ![[session-50-silver-overall-steel-at-the-border-13.webp]]
+> :   ![](../../../assets/images/screenshots/Session%2050%20-%20Silver%20Overall%20Steel%20at%20the%20Border/session-50-silver-overall-steel-at-the-border-13.webp)
 >
 > ---
 >
@@ -49,7 +49,7 @@ cover: "assets/world-anvil/shared-cover-110a4fd3e759.png"
 >
 > ---
 >
-> ![[shared-session-49-24.png]]
+> ![](../../../assets/images/shared-session-49-24.png)
 >
 > *Paid advertisement. The Lantern and Ledger makes no guarantee regarding courage, balance, horsemanship, or competitive success. Please joust responsibly.*
 >
@@ -191,7 +191,7 @@ The Tubthumpers could not cross the distance home before the invaders reached Wi
 
 The defenders maneuvered around the mammoth riders while goblin bombardiers struck the invading formation. The fighting was fierce, but coordinated attacks shattered the enemy armies.
 
-![[session-50-silver-overall-steel-at-the-border-image-01.webp]]
+![](../../../assets/images/screenshots/Session%2050%20-%20Silver%20Overall%20Steel%20at%20the%20Border/session-50-silver-overall-steel-at-the-border-image-01.webp)
 
 *High Marshal Valerie, commander of the armed forces of Thumping Waters.*
 
@@ -241,10 +241,10 @@ The Lantern and Ledger • Sarenith 12 Edition • Printed in Thumpington
 
 ## Session Gallery
 
-![[Session 50-01.webp]] ![[session-50-silver-overall-steel-at-the-border-image-01.webp]] ![[Session 50-02.webp]] ![[Session 50-03.webp]] ![[Session 50-04.webp]] ![[Session 50-05.webp]] ![[Session 50-06.webp]] ![[Session 50-07.webp]] ![[Session 50-08.webp]] ![[Session 50-09.webp]] ![[Session 50-10.webp]] ![[Session 50-11.webp]] ![[Session 50-12.webp]] ![[session-50-silver-overall-steel-at-the-border-13.webp]]
+![](../../../assets/images/screenshots/Session%2050%20-%20Silver%20Overall%20Steel%20at%20the%20Border/Session%2050-01.webp) ![](../../../assets/images/screenshots/Session%2050%20-%20Silver%20Overall%20Steel%20at%20the%20Border/session-50-silver-overall-steel-at-the-border-image-01.webp) ![](../../../assets/images/screenshots/Session%2050%20-%20Silver%20Overall%20Steel%20at%20the%20Border/Session%2050-02.webp) ![](../../../assets/images/screenshots/Session%2050%20-%20Silver%20Overall%20Steel%20at%20the%20Border/Session%2050-03.webp) ![](../../../assets/images/screenshots/Session%2050%20-%20Silver%20Overall%20Steel%20at%20the%20Border/Session%2050-04.webp) ![](../../../assets/images/screenshots/Session%2050%20-%20Silver%20Overall%20Steel%20at%20the%20Border/Session%2050-05.webp) ![](../../../assets/images/screenshots/Session%2050%20-%20Silver%20Overall%20Steel%20at%20the%20Border/Session%2050-06.webp) ![](../../../assets/images/screenshots/Session%2050%20-%20Silver%20Overall%20Steel%20at%20the%20Border/Session%2050-07.webp) ![](../../../assets/images/screenshots/Session%2050%20-%20Silver%20Overall%20Steel%20at%20the%20Border/Session%2050-08.webp) ![](../../../assets/images/screenshots/Session%2050%20-%20Silver%20Overall%20Steel%20at%20the%20Border/Session%2050-09.webp) ![](../../../assets/images/screenshots/Session%2050%20-%20Silver%20Overall%20Steel%20at%20the%20Border/Session%2050-10.webp) ![](../../../assets/images/screenshots/Session%2050%20-%20Silver%20Overall%20Steel%20at%20the%20Border/Session%2050-11.webp) ![](../../../assets/images/screenshots/Session%2050%20-%20Silver%20Overall%20Steel%20at%20the%20Border/Session%2050-12.webp) ![](../../../assets/images/screenshots/Session%2050%20-%20Silver%20Overall%20Steel%20at%20the%20Border/session-50-silver-overall-steel-at-the-border-13.webp)
 <!-- session-gallery:end -->
 
 ## Article navigation
 
-**Previous:** [[Session 49- The Rushlight Begins]]  
-**Next:** [[Session 51- Storms on the Western Horizon]]
+**Previous:** [Session 49- The Rushlight Begins](Session%2049-%20The%20Rushlight%20Begins.md)  
+**Next:** [Session 51- Storms on the Western Horizon](Session%2051-%20Storms%20on%20the%20Western%20Horizon.md)

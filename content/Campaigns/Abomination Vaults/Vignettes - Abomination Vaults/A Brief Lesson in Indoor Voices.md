@@ -8,7 +8,7 @@ category_path:
 
 
 > [!side]
-> :   ![[a-brief-lesson-in-indoor-voices-content.webp]]
+> :   ![](../../../assets/images/a-brief-lesson-in-indoor-voices-content.webp)
 
 Vethris had been having an excellent nap.
 

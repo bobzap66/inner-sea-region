@@ -8,7 +8,7 @@ cover: "assets/world-anvil/shared-cover-110a4fd3e759.png"
 
 # The Sun Still Shines
 
-![[shared-cover-110a4fd3e759.png]]
+![](../../../../assets/images/shared-cover-110a4fd3e759.png)
 
 ### The Lantern and Ledger
 
@@ -17,7 +17,7 @@ cover: "assets/world-anvil/shared-cover-110a4fd3e759.png"
 
 **Arodus 30, 4715 AR**
 
-**An Editorial by [[Linzi]], Minister of Communication**
+**An Editorial by [Linzi](../../NPCs/Linzi.md), Minister of Communication**
 
 ---
 
@@ -25,7 +25,7 @@ Leroy—known to most of Andoran, and for a time far beyond it, simply as **the 
 
 He did not die on a stage. There was no final announcement, no waiting audience, and no carefully prepared farewell. He died quietly in the Darkmoon Vale, near the town of Falcon’s Hollow, having reached the end of a life that was fuller, stranger, and more meaningful than it ever appeared from the outside.
 
-For many, [[Leroy]] will always be the rooster with a guitar: the improbable figure who stepped onto a stage in Almas and refused to treat his own existence as a joke. His music joined rural tradition with a modern confidence that felt, at the time, like a small revelation. His most famous song, *Sun Do Shine*, spread rapidly through fields, taverns, theaters, and temples. It became less a performance than a shared reassurance. The song did not demand that its listeners believe the world was good. It merely reminded them that darkness was not the whole of it.
+For many, [Leroy](../../NPCs/Leroy.md) will always be the rooster with a guitar: the improbable figure who stepped onto a stage in Almas and refused to treat his own existence as a joke. His music joined rural tradition with a modern confidence that felt, at the time, like a small revelation. His most famous song, *Sun Do Shine*, spread rapidly through fields, taverns, theaters, and temples. It became less a performance than a shared reassurance. The song did not demand that its listeners believe the world was good. It merely reminded them that darkness was not the whole of it.
 
 Fame followed, as it does. So did its complications.
 
@@ -35,7 +35,7 @@ In Falcon’s Hollow, he labored as a farmhand and performed in local taverns. A
 
 **That was not a retreat. It was a conclusion chosen on his own terms.**
 
-Leroy did occasionally return to the stage. His final known public performance came during the Victory Festival in [[Thumpington]], where citizens had gathered to celebrate the end of the war with [[Pitax]] and remember those who had not survived it. Age had slowed him by then, but it had not taken the warmth from his voice or the easy certainty with which he held a crowd.
+Leroy did occasionally return to the stage. His final known public performance came during the Victory Festival in [Thumpington](../../../../Locations/Inner%20Sea%20Region/River%20Kingdoms/Stolen%20Lands/Thumping%20Waters/Settlements/Thumpington/Thumpington.md), where citizens had gathered to celebrate the end of the war with [Pitax](../../../../Locations/Inner%20Sea%20Region/River%20Kingdoms/Stolen%20Lands/Thumping%20Waters/Settlements/Pitax/Pitax.md) and remember those who had not survived it. Age had slowed him by then, but it had not taken the warmth from his voice or the easy certainty with which he held a crowd.
 
 Those present understood that they might be witnessing his final performance. I believe Leroy understood it as well. He did not burden the occasion with a long farewell. He offered only a simple hope:
 
@@ -47,7 +47,7 @@ Those present understood that they might be witnessing his final performance. I 
 
 Leroy’s life was short by human standards and ordinary by some measures. It was neither. He reminded a great many people across a great many miles that joy does not require permission, that sincerity is not the enemy of sophistication, and that simple art is not the same thing as shallow art. He showed that a voice need not be grand to carry and that light, when offered honestly, does not require explanation.
 
-I knew Leroy first as a performer whose music had traveled farther than he had. Later, I had the privilege of knowing him as a guest of our Republic, a collaborator with [[Seamus]], and an aging artist who understood that a final song need not be a sad one. Thumpington was fortunate to hear him once more. I was fortunate to be there.
+I knew Leroy first as a performer whose music had traveled farther than he had. Later, I had the privilege of knowing him as a guest of our Republic, a collaborator with [Seamus](../../Characters/Seamus.md), and an aging artist who understood that a final song need not be a sad one. Thumpington was fortunate to hear him once more. I was fortunate to be there.
 
 The *Lantern and Ledger* records Leroy’s passing not merely as the death of a celebrity, but as the loss of a voice that chose its moments carefully and left them brighter than it found them.
 
@@ -58,4 +58,4 @@ The *Lantern and Ledger* records Leroy’s passing not merely as the death of a 
 
 #### Editor’s Note
 
-Readers seeking further context regarding Leroy’s visits to the Republic may refer to our earlier editorial, “The King Comes to Thumpington,” published in Desnus 4714 AR, documenting his limited performances in the capital and his impromptu collaboration with Seamus, Minister of Intelligence. His final appearance in Thumpington was also recorded in our coverage of the [[Session 59- There Is No Reyoknar|Victory Festival]]of Gozran 4715 AR.
+Readers seeking further context regarding Leroy’s visits to the Republic may refer to our earlier editorial, “The King Comes to Thumpington,” published in Desnus 4714 AR, documenting his limited performances in the capital and his impromptu collaboration with Seamus, Minister of Intelligence. His final appearance in Thumpington was also recorded in our coverage of the [Victory Festival](../../Session%20Reports%2041-60/Session%2059-%20There%20Is%20No%20Reyoknar.md)of Gozran 4715 AR.

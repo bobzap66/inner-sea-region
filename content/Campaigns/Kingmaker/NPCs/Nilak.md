@@ -8,9 +8,9 @@ portrait: "assets/world-anvil/nilak-portrait.png"
 
 # Nilak
 
-![[nilak-portrait.png]]
+![](../../../assets/images/nilak-portrait.png)
 
-## Nilak, Chieftain of the [[Groups/Six Bears|Six Bears]]
+## Nilak, Chieftain of the [Six Bears](../../../Groups/Six%20Bears.md)
 
 ### Titles
 
@@ -20,7 +20,7 @@ The Ice-Warden · Daughter of Winter’s Breath · Last Chieftain of the Six Bea
 
 Nilak is the proud and formidable chieftain of the last surviving members of the Six Bears following — a Kellid tribe once native to the Realm of the Mammoth Lords. A gifted spirit-talker and wielder of primal frost magic, she embodies both the fierce independence and the spiritual depth of her people. Once a healer and shaman, Nilak has become a leader hardened by loss, carrying the weight of her tribe’s extinction on her shoulders.
 
-When the Tubthumpers first found her, she and seven young survivors were besieged by undead in the [[Locations/Inner Sea Region/River Kingdoms/Stolen Lands/Hooktongue Slough|Hooktongue Slough]], trapped behind a wall of ice that Nilak held together through sheer force of will. Exhausted and wounded, she had been fending off wave after wave of undead while protecting her kin — a testament to her resolve and power.
+When the Tubthumpers first found her, she and seven young survivors were besieged by undead in the [Hooktongue Slough](../../../Locations/Inner%20Sea%20Region/River%20Kingdoms/Stolen%20Lands/Hooktongue%20Slough/Hooktongue%20Slough.md), trapped behind a wall of ice that Nilak held together through sheer force of will. Exhausted and wounded, she had been fending off wave after wave of undead while protecting her kin — a testament to her resolve and power.
 
 ### Appearance
 
@@ -34,13 +34,13 @@ To her, strength is survival, and mercy is a luxury the dead cannot afford. Yet 
 
 ### History
 
-Nilak was born among the Six Bears, a following in the far north known for their mastery of the hunt and their devotion to ancient spirits of winter and strength. When [[Amiri]] — once one of their own — was exiled for the crime of kinslaying, Nilak was only a girl, but the scandal shaped her youth. She grew up hearing both sides of the tale: that Amiri was a murderer who broke sacred law, and that the elders had sent her to die out of jealousy and fear.
+Nilak was born among the Six Bears, a following in the far north known for their mastery of the hunt and their devotion to ancient spirits of winter and strength. When [Amiri](Amiri.md) — once one of their own — was exiled for the crime of kinslaying, Nilak was only a girl, but the scandal shaped her youth. She grew up hearing both sides of the tale: that Amiri was a murderer who broke sacred law, and that the elders had sent her to die out of jealousy and fear.
 
 Years later, when the Six Bears journeyed south, disaster followed. Undead began hunting them, driven by an unseen will — a powerful ghost seeking a spirit trapped within Amiri’s greatsword. One by one, the Six Bears fell until only Nilak and seven young warriors remained, besieged and desperate when the Tubthumpers found them.
 
 ### Recent Events
 
-After the Tubthumpers helped defeat the undead siege, a fragile peace was shattered by words rather than weapons. During the tense diplomacy that followed, [[Fitzroy|Fitzroy Fulgrim III]], champion of [[Erastil]] and leader of Thumping Waters, questioned Nilak’s right to act in the [[Stolen Lands]] and accused her people of pursuing vengeance instead of justice.
+After the Tubthumpers helped defeat the undead siege, a fragile peace was shattered by words rather than weapons. During the tense diplomacy that followed, [Fitzroy Fulgrim III](../Characters/Fitzroy.md), champion of [Erastil](../../../Rules/Deities/Erastil.md) and leader of Thumping Waters, questioned Nilak’s right to act in the [Stolen Lands](../../../Locations/Inner%20Sea%20Region/River%20Kingdoms/Stolen%20Lands/Stolen%20Lands.md) and accused her people of pursuing vengeance instead of justice.
 
 Nilak’s response was cold fury. She denounced him for his arrogance, declaring that he dishonored the god whose symbol he bore. The confrontation ended in bitterness — any hope of reconciliation or alliance was destroyed.
 

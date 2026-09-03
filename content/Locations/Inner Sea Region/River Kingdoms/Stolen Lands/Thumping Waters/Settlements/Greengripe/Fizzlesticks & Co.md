@@ -9,7 +9,7 @@ parent: "[[Greengripe]]"
 ---
 # Fizzlesticks & Co
 
-![[fizzlesticks-and-co-portrait.png]]
+![](../../../../../../../assets/images/fizzlesticks-and-co-portrait.png)
 
 *Compiled by Rikka Tallowglass, Lecturer in Civic Alchemy, Nok-Nok College of Practical Arts and Civic Service, Free University of Thumping Waters, with the cooperation of Griggit Fizzlesticks, the Citizen Council of Greengripe, and the town's fire and sanitation crews*
 

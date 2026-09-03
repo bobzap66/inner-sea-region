@@ -9,7 +9,7 @@ parent: "[[Fort Serenko]]"
 ---
 # Fort Serenko Lumberworks
 
-![[fort-serenko-lumberworks-portrait.png]]
+![](../../../../../../../assets/images/fort-serenko-lumberworks-portrait.png)
 
 *Compiled by Anika Sorn, Lecturer in Forestry and Material Supply, College of Roads and Rivers, Free University of Thumping Waters, from the work ledgers of Serenko Lumberworks, surveys of the millrace, and interviews with Harl Edvane and the crews of Fort Serenko; with travel recollections supplied by Velka of the Sootscale*
 

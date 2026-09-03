@@ -9,7 +9,7 @@ parent: "[[Fort Tuskwater]]"
 ---
 # Briny Wake
 
-![[briny-wake-portrait.png]]
+![](../../../../../../../assets/images/briny-wake-portrait.png)
 
 *A Lantern and Ledger guide to Fort Tuskwater's working waterfront, compiled from the settlement gazetteer, harbor records, and the travel recollections of Velka of the Sootscale*
 

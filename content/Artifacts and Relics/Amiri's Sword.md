@@ -9,15 +9,15 @@ category_path:
 
 
 > [!side]
-> :   ![[amiri-s-sword-image-01.png]]
+> :   ![](../assets/images/amiri-s-sword-image-01.png)
 >
 >     by ChatGPT
 
-*As recorded by [[Linzi]], Minister of Communication of Thumping Waters*
+*As recorded by [Linzi](../Campaigns/Kingmaker/NPCs/Linzi.md), Minister of Communication of Thumping Waters*
 
 I don’t know the sword’s true name.
 
-[[Amiri]] never gave it one, and I don’t think the blade would answer if she did. Names have power, and this sword already carries too much of it.
+[Amiri](../Campaigns/Kingmaker/NPCs/Amiri.md) never gave it one, and I don’t think the blade would answer if she did. Names have power, and this sword already carries too much of it.
 
 What I know is this: it was taken from a frost giant long ago, pulled from a corpse that should have stayed dead. That alone should have been warning enough. Giants do not bind their dead lightly, and the First World never does anything by accident. Whatever soul lives in that blade did not wander there on its own.
 
@@ -33,7 +33,7 @@ The pieces pulled themselves together. Light traced the break like a memory refu
 
 Alive is the wrong word. Aware is closer.
 
-From that moment on, the sword reacted. Not always, not clearly, but enough to be noticed. It drank in cold and answered it. It resonated near certain places, certain spirits. And eventually, in the [[Locations/Inner Sea Region/River Kingdoms/Stolen Lands/Hooktongue Slough|Hooktongue Slough]], something spoke to it.
+From that moment on, the sword reacted. Not always, not clearly, but enough to be noticed. It drank in cold and answered it. It resonated near certain places, certain spirits. And eventually, in the [Hooktongue Slough](../Locations/Inner%20Sea%20Region/River%20Kingdoms/Stolen%20Lands/Hooktongue%20Slough/Hooktongue%20Slough.md), something spoke to it.
 
 A ghost—ancient, bound by the same First World curse—called the sword brother.
 
@@ -45,7 +45,7 @@ When it was over, we were left with knowledge instead of answers.
 
 The soul in the blade can be freed—but not easily, and not safely. The ritual required lies beyond us, buried in traditions older than our maps and kinder than our enemies. And until that day comes, the sword remains what it is: a prison that fights back against being one.
 
-That is why [[Mairi]] took it south.
+That is why [Mairi](../Campaigns/Kingmaker/Characters/Mairi.md) took it south.
 
 Not because Amiri could not bear it—but because she could. And because someone had to choose responsibility over strength. The sword was never corrupting Amiri, not in the way cursed things usually do. It didn’t whisper. It didn’t push. It endured with her. That, somehow, made it worse.
 

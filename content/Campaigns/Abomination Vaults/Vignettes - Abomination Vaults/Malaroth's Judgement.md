@@ -8,7 +8,7 @@ category_path:
 
 
 > [!side]
-> :   ![[malaroth-s-judgement-image0.webp]]
+> :   ![](../../../assets/images/malaroth-s-judgement-image0.webp)
 
 The dark void of the Boneyard stretches endlessly in every direction—an eerie plain of cracked gray stone beneath a violet-black sky that churns like storm clouds suspended in time. Countless souls await judgment in solemn silence, watched by psychopomps cloaked in shadow and bone.
 

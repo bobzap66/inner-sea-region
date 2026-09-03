@@ -8,9 +8,9 @@ portrait: "assets/world-anvil/hannis-drelev-portrait.webp"
 
 # Hannis Drelev
 
-![[hannis-drelev-portrait.webp]]
+![](../../../assets/images/hannis-drelev-portrait.webp)
 
-Baron Hannis Drelev was the autocratic ruler of [[Fort Drelev]], a man who arrived in the [[Stolen Lands]] with grand ambitions and left behind a legacy of fear, resentment, and the bitter aftertaste of squandered potential. Though once positioned as a proud Brevic noble and frontier pioneer, Drelev’s rule quickly devolved into heavy-handed repression and self-serving excess. The needs of his people were an afterthought; the preservation of his comfort and status came first, last, and always.
+Baron Hannis Drelev was the autocratic ruler of [Fort Drelev](../../../Locations/Inner%20Sea%20Region/River%20Kingdoms/Stolen%20Lands/Thumping%20Waters/Settlements/Fort%20Drelev/Fort%20Drelev.md), a man who arrived in the [Stolen Lands](../../../Locations/Inner%20Sea%20Region/River%20Kingdoms/Stolen%20Lands/Stolen%20Lands.md) with grand ambitions and left behind a legacy of fear, resentment, and the bitter aftertaste of squandered potential. Though once positioned as a proud Brevic noble and frontier pioneer, Drelev’s rule quickly devolved into heavy-handed repression and self-serving excess. The needs of his people were an afterthought; the preservation of his comfort and status came first, last, and always.
 
   
 
@@ -22,11 +22,11 @@ As public resentment grew, Drelev relied increasingly on brutality. His elite gu
 
   
 
-When the Tubthumpers infiltrated the keep, Drelev was dining in the banquet hall with his closest allies—a predictable scene of indulgence amid oppression. Their assault shattered his façade of control. Faced with real consequences for the first time, Drelev did not stand and fight. He fled. Even then, he attempted to reclaim advantage through violence, striking down [[Ally Grainger|Ally]] with a brutal blow as he escaped the hall.
+When the Tubthumpers infiltrated the keep, Drelev was dining in the banquet hall with his closest allies—a predictable scene of indulgence amid oppression. Their assault shattered his façade of control. Faced with real consequences for the first time, Drelev did not stand and fight. He fled. Even then, he attempted to reclaim advantage through violence, striking down [Ally](../Characters/Ally%20Grainger.md) with a brutal blow as he escaped the hall.
 
   
 
-His flight was short-lived. [[Velka]] and [[Seamus]] pursued him into the upper chambers, where Drelev’s desperation met the combined wrath of Hanspur’s faithful and a half-maddened bard fighting on instinct. Hannis Drelev died in those corridors—cornered, outmatched, and utterly stripped of the authority he had so long abused.
+His flight was short-lived. [Velka](../Characters/Velka/Velka.md) and [Seamus](../Characters/Seamus.md) pursued him into the upper chambers, where Drelev’s desperation met the combined wrath of Hanspur’s faithful and a half-maddened bard fighting on instinct. Hannis Drelev died in those corridors—cornered, outmatched, and utterly stripped of the authority he had so long abused.
 
   
 

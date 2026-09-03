@@ -8,7 +8,7 @@ category_path:
 
 
 > [!side]
-> :   ![[chafkhems-warning-image-01.png]]
+> :   ![](../../../assets/images/chafkhems-warning-image-01.png)
 
 ### The Mummy’s Warning
 

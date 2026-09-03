@@ -8,7 +8,7 @@ category_path:
 
 
 > [!side]
-> :   ![[nightmares-in-the-mayor-s-manor-image-01.png]]
+> :   ![](../../../assets/images/nightmares-in-the-mayor-s-manor-image-01.png)
 
 ## Nightmares in the Mayor’s Manor
 

@@ -8,13 +8,13 @@ portrait: "assets/world-anvil/kereek-portrait.png"
 
 # Kereek
 
-![[kereek-portrait.png]]
+![](../../../assets/images/kereek-portrait.png)
 
 bbcode
 
 ## Kereek
 
-*Governor of [[Sootscale Valley]] • Clever Tongue • Red Scales • Schemer with a Soft Spot*
+*Governor of [Sootscale Valley](../../../Locations/Inner%20Sea%20Region/River%20Kingdoms/Stolen%20Lands/Thumping%20Waters/Settlements/Sootscale%20Valley/Sootscale%20Valley.md) • Clever Tongue • Red Scales • Schemer with a Soft Spot*
 
 > A larger enemy is not necessarily a stronger enemy. It is merely a larger target with more ways to become tired.
 >
@@ -31,7 +31,7 @@ Former servant of the Tubthumpers
 Political maneuvering  
 Careful bargaining  
 Ruthless tactics  
-Unacknowledged loyalty to [[Prazil]]
+Unacknowledged loyalty to [Prazil](Prazil.md)
 
 ---
 
@@ -55,7 +55,7 @@ Over time, ambition gave way to investment. Kereek came to see the republic not 
 
 ### Governor of Sootscale Valley
 
-Kereek eventually succeeded [[Chief Sootscale]] as the leader of Sootscale Valley and now serves as its governor within the Republic of Thumping Waters.
+Kereek eventually succeeded [Chief Sootscale](Chief%20Sootscale.md) as the leader of Sootscale Valley and now serves as its governor within the Republic of Thumping Waters.
 
 His rise brought a marked change in the settlement’s leadership. Chief Sootscale had ruled through suspicion, pride, and a rigid concern for authority. Kereek is no less proud, but he is far more willing to negotiate, compromise, and exploit an opportunity when one presents itself. Where his predecessor often saw neighboring settlements as potential threats, Kereek is more inclined to see possible trading partners, political allies, or useful sources of leverage.
 
@@ -69,11 +69,11 @@ Kereek’s administration favors careful bargaining and preparation over display
 
 ---
 
-### Relationship with [[Greengripe]]
+### Relationship with [Greengripe](../../../Locations/Inner%20Sea%20Region/River%20Kingdoms/Stolen%20Lands/Thumping%20Waters/Settlements/Greengripe/Greengripe.md)
 
 Relations between Sootscale Valley and Greengripe improved after Kereek replaced Chief Sootscale.
 
-The old chief had little patience for [[Nok-Nok]]’s conviction that pranks were expressions of friendship, particularly when they involved frightened livestock, damaged property, or alchemical residue. Kereek did not necessarily find Greengripe’s antics amusing, but he understood Nok-Nok well enough to distinguish mischief from hostility.
+The old chief had little patience for [Nok-Nok](Nok-Nok.md)’s conviction that pranks were expressions of friendship, particularly when they involved frightened livestock, damaged property, or alchemical residue. Kereek did not necessarily find Greengripe’s antics amusing, but he understood Nok-Nok well enough to distinguish mischief from hostility.
 
 The two governors developed a workable relationship based on mutual respect, practical cooperation, and a shared commitment to their people. Nok-Nok’s chaos occasionally tested Kereek’s patience, while Kereek’s habit of treating every conversation as a negotiation occasionally tested Nok-Nok’s attention span. Even so, disputes between their settlements became manageable rather than dangerous.
 
@@ -87,7 +87,7 @@ Kereek’s constant companion is Prazil, a powerful kobold whom Kereek habituall
 
 Beneath the bluster lies a genuine and deeply rooted affection that Kereek refuses to acknowledge. Prazil protected him during their enslavement and escape, and Kereek has never forgotten it. He may insult Prazil, exploit his loyalty, or threaten to abandon him when danger approaches, but anyone who seriously harms the larger kobold risks becoming the object of Kereek’s patient and intensely personal revenge.
 
-> Their relationship is less that of a master and servant than two [[Survivors]] who have spent too long depending on one another to admit how much that dependence matters.
+> Their relationship is less that of a master and servant than two [Survivors](../../Abomination%20Vaults/Vignettes%20-%20Abomination%20Vaults/Survivors.md) who have spent too long depending on one another to admit how much that dependence matters.
 
 ---
 

@@ -8,10 +8,10 @@ cover: "assets/world-anvil/shared-cover-110a4fd3e759.png"
 
 # Session 55: Endeavor to Persevere
 
-![[shared-cover-110a4fd3e759.png]]
+![](../../../assets/images/shared-cover-110a4fd3e759.png)
 
 > [!side]
-> :   ![[session-55-endeavor-to-persevere-31.webp]]
+> :   ![](../../../assets/images/screenshots/Session%2055%20-%20Endeavor%20to%20Persevere/session-55-endeavor-to-persevere-31.webp)
 >
 > ---
 >
@@ -61,7 +61,7 @@ cover: "assets/world-anvil/shared-cover-110a4fd3e759.png"
 >
 > ---
 >
-> ![[session-55-endeavor-to-persevere-30.webp]]
+> ![](../../../assets/images/screenshots/Session%2055%20-%20Endeavor%20to%20Persevere/session-55-endeavor-to-persevere-30.webp)
 >
 > *Advertisement. The Lantern and Ledger makes no warranty regarding the disposition of any mammoth, the durability of repaired harnesses, or the continued smallness of any halfling employed in their handling.*
 >
@@ -75,13 +75,13 @@ cover: "assets/world-anvil/shared-cover-110a4fd3e759.png"
 
 *News, Notices, and the Public Record of Thumping Waters*
 
-Lamashan 21, 4714 AR • Published in [[Thumpington]] • [[Linzi]], Editor • Mara Venn, Managing Editor • Price 1 cp
+Lamashan 21, 4714 AR • Published in [Thumpington](../../../Locations/Inner%20Sea%20Region/River%20Kingdoms/Stolen%20Lands/Thumping%20Waters/Settlements/Thumpington/Thumpington.md) • [Linzi](../NPCs/Linzi.md), Editor • Mara Venn, Managing Editor • Price 1 cp
 
 ---
 
 ## FOUR TRIBES ABANDON IROVETTI
 
-*Red Tusks, Ash Wolves, Thunderfeet, and River Vipers break from [[Pitax]] after a grand parley and bloody struggle within the Horde.*
+*Red Tusks, Ash Wolves, Thunderfeet, and River Vipers break from [Pitax](../../../Locations/Inner%20Sea%20Region/River%20Kingdoms/Stolen%20Lands/Thumping%20Waters/Settlements/Pitax/Pitax.md) after a grand parley and bloody struggle within the Horde.*
 
 *By Darya Holt, Traveling Correspondent • Additional reporting by Linzi*
 
@@ -93,9 +93,9 @@ The Red Tusks, Ash Wolves, Thunderfeet, and River Vipers chose to leave Pitaxian
 
 The Tubthumpers fought beside the defectors. After a chaotic intertribal battle, the four departing tribes held the field and began separating from the remains of Irovetti’s Horde. None has sworn fealty to Thumping Waters, but all four have withdrawn from Pitax’s cause, and several have offered varying forms of friendship, neutrality, or cooperation.
 
-![[session-55-endeavor-to-persevere-27.webp]]
+![](../../../assets/images/screenshots/Session%2055%20-%20Endeavor%20to%20Persevere/session-55-endeavor-to-persevere-27.webp)
 
-*Seven tribal chiefs gather as [[Seamus]] presents proof of Kob Moleg’s death.*
+*Seven tribal chiefs gather as [Seamus](../Characters/Seamus.md) presents proof of Kob Moleg’s death.*
 
 **WAR OF THE RIVER KINGS BULLETIN**
 
@@ -109,7 +109,7 @@ The Tubthumpers fought beside the defectors. After a chaotic intertribal battle,
 
 **Cinder dragon commander:** Slain
 
-**Littletown [[Survivors]]:** None found
+**Littletown [Survivors](../../Abomination%20Vaults/Vignettes%20-%20Abomination%20Vaults/Survivors.md):** None found
 
 #### Inside This Edition
 
@@ -139,7 +139,7 @@ The Tubthumpers enter the ruins and discover the price Irovetti paid for monstro
 
 The Pitax Horde was never one people. It was a coalition of seven independent tribes forced into King Irovetti’s service by threats, pressure, and the example made of peoples who resisted him.
 
-The Tubthumpers entered the Horde’s camp knowing that a single appeal would not move seven chiefs for the same reason. Seamus spent the morning learning what each leader valued and feared. [[Ant]] hunted an elk, which Ally prepared for the gathering. Elowyn arranged wildflowers around the meeting place. Ally then created a permanent magical diorama depicting Kob Moleg’s defeat.
+The Tubthumpers entered the Horde’s camp knowing that a single appeal would not move seven chiefs for the same reason. Seamus spent the morning learning what each leader valued and feared. [Ant](../Characters/Ant.md) hunted an elk, which Ally prepared for the gathering. Elowyn arranged wildflowers around the meeting place. Ally then created a permanent magical diorama depicting Kob Moleg’s defeat.
 
 At midday, the chiefs assembled: Korga Skulltaker of the Red Tusks, Veshka Bloodwind of the Ash Wolves, Ol’nyr Mammothbreaker of the Thunderfeet, Yelena Three Spears of the River Vipers, Drogon One-Eye of the Black Boulders, Sivra Ghost Voice of the Moon Howls, and Herrick Ironjaw of the Broken Fangs.
 
@@ -163,7 +163,7 @@ The fighting spread rapidly through the encampment. Ritual fires flared, mammoth
 
 The Tubthumpers intervened on behalf of the defectors. Seamus rallied warriors with horn and voice while slipping among hostile ceremonies to disrupt them. Elowyn called spectral warriors into the battle and struck at tightly packed enemies. Ally broke a Moon Howl ritual with fear magic before turning Force Barrage upon the loyalists. Ant reached the panicked Thunderfoot mammoths and calmed them before they could trample friend and enemy alike.
 
-![[session-55-endeavor-to-persevere-28.webp]]
+![](../../../assets/images/screenshots/Session%2055%20-%20Endeavor%20to%20Persevere/session-55-endeavor-to-persevere-28.webp)
 
 *The four departing tribes fight through an attack by Irovetti’s remaining allies.*
 
@@ -209,7 +209,7 @@ No one answered.
 
 The village once held approximately three hundred people. By the time the Tubthumpers reached it, scavenging animals had picked the victims’ bones clean. Homes and workshops had been burned or torn apart. Anything valuable was gone, likely divided among the scattered hoards of the creatures that destroyed the town.
 
-![[session-55-endeavor-to-persevere-29.webp]]
+![](../../../assets/images/screenshots/Session%2055%20-%20Endeavor%20to%20Persevere/session-55-endeavor-to-persevere-29.webp)
 
 *A burned child’s doll lies among the ruins of Littletown after the occupying monsters depart.*
 
@@ -245,10 +245,10 @@ The Lantern and Ledger • Lamashan 21 Edition • Printed in Thumpington
 
 ## Session Gallery
 
-![[Session 55-02.webp]] ![[Session 55-03.webp]] ![[Session 55-04.webp]] ![[Session 55-05.webp]] ![[Session 55-06.webp]] ![[Session 55-07.webp]] ![[Session 55-08.webp]] ![[Session 55-09.webp]] ![[Session 55-10.webp]] ![[Session 55-11.webp]] ![[Session 55-12.webp]] ![[Session 55-13.webp]] ![[Session 55-14.webp]] ![[Session 55-15.webp]] ![[Session 55-16.webp]] ![[Session 55-17.webp]] ![[Session 55-18.webp]] ![[Session 55-19.webp]] ![[Session 55-20.webp]] ![[Session 55-21.webp]] ![[Session 55-22.webp]] ![[Session 55-23.webp]] ![[Session 55-24.webp]] ![[Session 55-25.webp]] ![[session-55-endeavor-to-persevere-27.webp]] ![[session-55-endeavor-to-persevere-28.webp]] ![[session-55-endeavor-to-persevere-29.webp]] ![[session-55-endeavor-to-persevere-30.webp]] ![[session-55-endeavor-to-persevere-31.webp]]
+![](../../../assets/images/screenshots/Session%2055%20-%20Endeavor%20to%20Persevere/Session%2055-02.webp) ![](../../../assets/images/screenshots/Session%2055%20-%20Endeavor%20to%20Persevere/Session%2055-03.webp) ![](../../../assets/images/screenshots/Session%2055%20-%20Endeavor%20to%20Persevere/Session%2055-04.webp) ![](../../../assets/images/screenshots/Session%2055%20-%20Endeavor%20to%20Persevere/Session%2055-05.webp) ![](../../../assets/images/screenshots/Session%2055%20-%20Endeavor%20to%20Persevere/Session%2055-06.webp) ![](../../../assets/images/screenshots/Session%2055%20-%20Endeavor%20to%20Persevere/Session%2055-07.webp) ![](../../../assets/images/screenshots/Session%2055%20-%20Endeavor%20to%20Persevere/Session%2055-08.webp) ![](../../../assets/images/screenshots/Session%2055%20-%20Endeavor%20to%20Persevere/Session%2055-09.webp) ![](../../../assets/images/screenshots/Session%2055%20-%20Endeavor%20to%20Persevere/Session%2055-10.webp) ![](../../../assets/images/screenshots/Session%2055%20-%20Endeavor%20to%20Persevere/Session%2055-11.webp) ![](../../../assets/images/screenshots/Session%2055%20-%20Endeavor%20to%20Persevere/Session%2055-12.webp) ![](../../../assets/images/screenshots/Session%2055%20-%20Endeavor%20to%20Persevere/Session%2055-13.webp) ![](../../../assets/images/screenshots/Session%2055%20-%20Endeavor%20to%20Persevere/Session%2055-14.webp) ![](../../../assets/images/screenshots/Session%2055%20-%20Endeavor%20to%20Persevere/Session%2055-15.webp) ![](../../../assets/images/screenshots/Session%2055%20-%20Endeavor%20to%20Persevere/Session%2055-16.webp) ![](../../../assets/images/screenshots/Session%2055%20-%20Endeavor%20to%20Persevere/Session%2055-17.webp) ![](../../../assets/images/screenshots/Session%2055%20-%20Endeavor%20to%20Persevere/Session%2055-18.webp) ![](../../../assets/images/screenshots/Session%2055%20-%20Endeavor%20to%20Persevere/Session%2055-19.webp) ![](../../../assets/images/screenshots/Session%2055%20-%20Endeavor%20to%20Persevere/Session%2055-20.webp) ![](../../../assets/images/screenshots/Session%2055%20-%20Endeavor%20to%20Persevere/Session%2055-21.webp) ![](../../../assets/images/screenshots/Session%2055%20-%20Endeavor%20to%20Persevere/Session%2055-22.webp) ![](../../../assets/images/screenshots/Session%2055%20-%20Endeavor%20to%20Persevere/Session%2055-23.webp) ![](../../../assets/images/screenshots/Session%2055%20-%20Endeavor%20to%20Persevere/Session%2055-24.webp) ![](../../../assets/images/screenshots/Session%2055%20-%20Endeavor%20to%20Persevere/Session%2055-25.webp) ![](../../../assets/images/screenshots/Session%2055%20-%20Endeavor%20to%20Persevere/session-55-endeavor-to-persevere-27.webp) ![](../../../assets/images/screenshots/Session%2055%20-%20Endeavor%20to%20Persevere/session-55-endeavor-to-persevere-28.webp) ![](../../../assets/images/screenshots/Session%2055%20-%20Endeavor%20to%20Persevere/session-55-endeavor-to-persevere-29.webp) ![](../../../assets/images/screenshots/Session%2055%20-%20Endeavor%20to%20Persevere/session-55-endeavor-to-persevere-30.webp) ![](../../../assets/images/screenshots/Session%2055%20-%20Endeavor%20to%20Persevere/session-55-endeavor-to-persevere-31.webp)
 <!-- session-gallery:end -->
 
 ## Article navigation
 
-**Previous:** [[Session 54- The War Heats Up]]  
-**Next:** [[Session 56- Pitax Awakens]]
+**Previous:** [Session 54- The War Heats Up](Session%2054-%20The%20War%20Heats%20Up.md)  
+**Next:** [Session 56- Pitax Awakens](Session%2056-%20Pitax%20Awakens.md)

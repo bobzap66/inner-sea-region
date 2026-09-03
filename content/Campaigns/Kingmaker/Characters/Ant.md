@@ -8,7 +8,7 @@ portrait: "assets/world-anvil/ant-portrait.png"
 
 # Ant
 
-![[ant-portrait.png]]
+![](../../../assets/images/ant-portrait.png)
 
 ### From the Journal of Linzi
 

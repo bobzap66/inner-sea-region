@@ -8,7 +8,7 @@ cover: "assets/world-anvil/shared-cover-110a4fd3e759.png"
 
 # The Lantern and Ledger
 
-![[shared-cover-110a4fd3e759.png]]
+![](../../../../assets/images/shared-cover-110a4fd3e759.png)
 
 ### The Lantern and Ledger
 
@@ -37,7 +37,7 @@ This paper exists because a kingdom is not defined solely by its borders, its la
 
 The name is deliberate. The lantern represents illumination—what can be seen clearly, even at the edge of the map, even when it would be easier to look away. The ledger represents record—what is written down and kept, not because it is flattering, but because it happened. One without the other is useless. Together, they are governance.
 
-![[the-lantern-and-ledger-printing-press.png]]
+![](../../../../assets/images/the-lantern-and-ledger-printing-press.png)
 
 The Lantern and Ledger will carry reports from the frontier, editorials from the capital, notices from ministries, and accounts of events that resist neat categorization. It will celebrate victories when they are earned and note costs when they are paid. It will not promise comfort. It will promise clarity.
 

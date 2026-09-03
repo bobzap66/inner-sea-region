@@ -9,16 +9,16 @@ flag_organization: "[[ministry-of-intelligence-flag.png]]"
 
 # Ministry of Intelligence
 
-![[shared-cover-48fb79abc6f1.png]]
+![](../../../../../../assets/images/shared-cover-48fb79abc6f1.png)
 
 *An institutional profile maintained by the Office of Public Record*
 
 The Ministry of Intelligence gathers and evaluates information needed to protect the Republic of Thumping Waters from threats that cannot be met safely after they become obvious. It studies foreign powers, hostile organizations, espionage, covert influence, dangerous artifacts, and supernatural activity with consequences for national security.
 
-Sean Charleton O'Finnigan McGee, better known as [[Seamus]], currently leads the ministry. Antson “[[Ant]]” Crazyfoot founded the office before later exchanging portfolios with Seamus and becoming Minister of the Interior.
+Sean Charleton O'Finnigan McGee, better known as [Seamus](../../../../../../Campaigns/Kingmaker/Characters/Seamus.md), currently leads the ministry. Antson “[Ant](../../../../../../Campaigns/Kingmaker/Characters/Ant.md)” Crazyfoot founded the office before later exchanging portfolios with Seamus and becoming Minister of the Interior.
 
 > [!profile] At a Glance
-> ![[assets/images/local-library/assets/portraits/ruling-council/Seamus - Minister of Intelligence.png|220]]
+> ![](../../../../../../assets/images/local-library/assets/portraits/ruling-council/Seamus%20-%20Minister%20of%20Intelligence.png)
 >
 > **Current Minister:** Seamus
 >
@@ -26,7 +26,7 @@ Sean Charleton O'Finnigan McGee, better known as [[Seamus]], currently leads the
 >
 > **Charter Office:** Emissary
 >
-> **Headquarters:** [[Thumpington]]
+> **Headquarters:** [Thumpington](../Settlements/Thumpington/Thumpington.md)
 >
 > **Primary Responsibilities:** Foreign intelligence, threat analysis, counterintelligence, secure correspondence, covert investigation, and protection of state secrets
 
@@ -34,7 +34,7 @@ Sean Charleton O'Finnigan McGee, better known as [[Seamus]], currently leads the
 
 The ministry collects reports, verifies sources, identifies patterns, and briefs the Prime Minister and council. Its fieldwork may include observation, liaison with foreign contacts, examination of captured correspondence, discreet investigation, and the use of magic where lawfully authorized.
 
-Intelligence is not proof of criminal guilt. When an inquiry requires arrest, search, seizure, or prosecution within the Republic, the ministry works through the [[Ministry of Justice]] and the courts. Secrecy may protect a source or an operation, but it does not create an exemption from the law.
+Intelligence is not proof of criminal guilt. When an inquiry requires arrest, search, seizure, or prosecution within the Republic, the ministry works through the [Ministry of Justice](Ministry%20of%20Justice.md) and the courts. Secrecy may protect a source or an operation, but it does not create an exemption from the law.
 
 ### Offices and Services
 
@@ -52,13 +52,13 @@ This office investigates foreign agents, sabotage, coercive cults, corruption ti
 
 #### Ciphers and Restricted Archives
 
-The ministry maintains secure codes, sealed correspondence, controlled briefings, and records unsuitable for immediate publication. Restricted material is preserved in cooperation with the [[Ministry of Communication]] so that secrecy does not become convenient forgetting.
+The ministry maintains secure codes, sealed correspondence, controlled briefings, and records unsuitable for immediate publication. Restricted material is preserved in cooperation with the [Ministry of Communication](Ministry%20of%20Communication.md) so that secrecy does not become convenient forgetting.
 
 ### History of the Office
 
 Ant founded the ministry when the early Republic's intelligence network consisted largely of exploration, personal contacts, intercepted bandit plans, and whatever could be learned before an enemy noticed the questions. His knowledge of terrain and fieldcraft shaped its first methods.
 
-Seamus later assumed the portfolio as the Republic's foreign and internal threats became more organized. [[Pitax]]'s agents, Irovetti's networks, supernatural infiltration, and the hidden interests surrounding Candlemere demonstrated that national security could no longer depend upon a few ministers personally discovering every conspiracy.
+Seamus later assumed the portfolio as the Republic's foreign and internal threats became more organized. [Pitax](../Settlements/Pitax/Pitax.md)'s agents, Irovetti's networks, supernatural infiltration, and the hidden interests surrounding Candlemere demonstrated that national security could no longer depend upon a few ministers personally discovering every conspiracy.
 
 ### The Minister and the Staff
 

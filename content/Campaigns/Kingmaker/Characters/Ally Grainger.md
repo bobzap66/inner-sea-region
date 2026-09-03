@@ -8,7 +8,7 @@ portrait: "assets/world-anvil/ally-grainger-portrait.jpg"
 
 # Ally Grainger
 
-![[ally-grainger-portrait.jpg]]
+![](../../../assets/images/ally-grainger-portrait.jpg)
 
 ### From the Journal of Linzi
 

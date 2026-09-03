@@ -8,10 +8,10 @@ cover: "assets/world-anvil/shared-cover-8a1bfbff37cb.png"
 
 # Session 09: Founding Day Part 2: The Refoundening
 
-![[shared-cover-8a1bfbff37cb.png]]
+![](../../../assets/images/shared-cover-8a1bfbff37cb.png)
 
 > [!side]
-> :   ![[session-9-10.webp]]
+> :   ![](../../../assets/images/screenshots/Session%2009/session-9-10.webp)
 >
 >
 > ---
@@ -80,10 +80,10 @@ What would they build in the space he had left behind?
 
 ## Session Gallery
 
-![[Session 9-01.webp]] ![[Session 9-02.webp]] ![[Session 9-03.webp]] ![[Session 9-04.webp]] ![[Session 9-05.webp]] ![[Session 9-06.webp]] ![[Session 9-07.webp]] ![[Session 9-08.webp]] ![[Session 9-09.webp]] ![[session-9-10.webp]]
+![](../../../assets/images/screenshots/Session%2009/Session%209-01.webp) ![](../../../assets/images/screenshots/Session%2009/Session%209-02.webp) ![](../../../assets/images/screenshots/Session%2009/Session%209-03.webp) ![](../../../assets/images/screenshots/Session%2009/Session%209-04.webp) ![](../../../assets/images/screenshots/Session%2009/Session%209-05.webp) ![](../../../assets/images/screenshots/Session%2009/Session%209-06.webp) ![](../../../assets/images/screenshots/Session%2009/Session%209-07.webp) ![](../../../assets/images/screenshots/Session%2009/Session%209-08.webp) ![](../../../assets/images/screenshots/Session%2009/Session%209-09.webp) ![](../../../assets/images/screenshots/Session%2009/session-9-10.webp)
 <!-- session-gallery:end -->
 
 ## Article navigation
 
-**Previous:** [[Session 08- Founding Day!]]  
-**Next:** [[Session 10- Founding Day 3 - A Good Day to Found Hard]]
+**Previous:** [Session 08- Founding Day!](Session%2008-%20Founding%20Day%21.md)  
+**Next:** [Session 10- Founding Day 3 - A Good Day to Found Hard](Session%2010-%20Founding%20Day%203%20-%20A%20Good%20Day%20to%20Found%20Hard.md)

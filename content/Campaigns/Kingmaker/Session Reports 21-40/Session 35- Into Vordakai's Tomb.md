@@ -8,17 +8,17 @@ cover: "assets/world-anvil/shared-cover-8a1bfbff37cb.png"
 
 # Session 35: Into Vordakai's Tomb
 
-![[shared-cover-8a1bfbff37cb.png]]
+![](../../../assets/images/shared-cover-8a1bfbff37cb.png)
 
 > [!side]
-> :   ![[session-35-into-vordakai-s-tomb-17.webp]]
+> :   ![](../../../assets/images/screenshots/Session%2035%20-%20Into%20Vordakai%20S%20Tomb/session-35-into-vordakai-s-tomb-17.webp)
 >
 >
 > ---
 >
 > <!-- session-gallery:start -->
 
-### From [[Linzi]]’s Journal
+### From [Linzi](../NPCs/Linzi.md)’s Journal
 
 *An account of events on approximately Kuthona 20, 4711 AR, reconstructed from the testimony of those present*
 
@@ -28,7 +28,7 @@ The passage beyond was dry, lightless, and old beyond easy reckoning. Alcoves li
 
 The dust explained how. Human footprints led from the beach to a broken amphora and then hurried back outside. Six sets of enormous skeletal tracks emerged from deeper in the tomb and followed him, never returning. The newest trail belonged to a centaur who had entered alone and continued onward.
 
-The human tracks were almost certainly those of Willas Gundarson. By taking treasure from the amphora, he had awakened the tomb’s guardians and, quite possibly, Vordakai himself. Willas had escaped the island, but the consequences of his curiosity had followed him all the way back to [[Varnhold]].
+The human tracks were almost certainly those of Willas Gundarson. By taking treasure from the amphora, he had awakened the tomb’s guardians and, quite possibly, Vordakai himself. Willas had escaped the island, but the consequences of his curiosity had followed him all the way back to [Varnhold](../../../Locations/Inner%20Sea%20Region/River%20Kingdoms/Stolen%20Lands/Thumping%20Waters/Settlements/Varnhold/Varnhold.md).
 
 The broken vessel still held scattered silver and gold, together with another curved band of green stone like the one described in Maestro Pendrod’s notes. It was not a bracelet at all, but a ring made for the finger of a cyclops.
 
@@ -84,10 +84,10 @@ The Tubthumpers rested because they needed to. They remained because leaving Vor
 
 ## Session Gallery
 
-![[Session 35-01.webp]] ![[Session 35-02.webp]] ![[Session 35-03.webp]] ![[Session 35-04.webp]] ![[Session 35-05.webp]] ![[Session 35-06.webp]] ![[Session 35-07.webp]] ![[Session 35-08.webp]] ![[Session 35-09.webp]] ![[Session 35-10.webp]] ![[Session 35-11.webp]] ![[Session 35-12.webp]] ![[Session 35-13.webp]] ![[Session 35-14.webp]] ![[Session 35-15.webp]] ![[Session 35-16.webp]] ![[Session 35-17.webp]] ![[session-35-into-vordakai-s-tomb-17.webp]]
+![](../../../assets/images/screenshots/Session%2035%20-%20Into%20Vordakai%20S%20Tomb/Session%2035-01.webp) ![](../../../assets/images/screenshots/Session%2035%20-%20Into%20Vordakai%20S%20Tomb/Session%2035-02.webp) ![](../../../assets/images/screenshots/Session%2035%20-%20Into%20Vordakai%20S%20Tomb/Session%2035-03.webp) ![](../../../assets/images/screenshots/Session%2035%20-%20Into%20Vordakai%20S%20Tomb/Session%2035-04.webp) ![](../../../assets/images/screenshots/Session%2035%20-%20Into%20Vordakai%20S%20Tomb/Session%2035-05.webp) ![](../../../assets/images/screenshots/Session%2035%20-%20Into%20Vordakai%20S%20Tomb/Session%2035-06.webp) ![](../../../assets/images/screenshots/Session%2035%20-%20Into%20Vordakai%20S%20Tomb/Session%2035-07.webp) ![](../../../assets/images/screenshots/Session%2035%20-%20Into%20Vordakai%20S%20Tomb/Session%2035-08.webp) ![](../../../assets/images/screenshots/Session%2035%20-%20Into%20Vordakai%20S%20Tomb/Session%2035-09.webp) ![](../../../assets/images/screenshots/Session%2035%20-%20Into%20Vordakai%20S%20Tomb/Session%2035-10.webp) ![](../../../assets/images/screenshots/Session%2035%20-%20Into%20Vordakai%20S%20Tomb/Session%2035-11.webp) ![](../../../assets/images/screenshots/Session%2035%20-%20Into%20Vordakai%20S%20Tomb/Session%2035-12.webp) ![](../../../assets/images/screenshots/Session%2035%20-%20Into%20Vordakai%20S%20Tomb/Session%2035-13.webp) ![](../../../assets/images/screenshots/Session%2035%20-%20Into%20Vordakai%20S%20Tomb/Session%2035-14.webp) ![](../../../assets/images/screenshots/Session%2035%20-%20Into%20Vordakai%20S%20Tomb/Session%2035-15.webp) ![](../../../assets/images/screenshots/Session%2035%20-%20Into%20Vordakai%20S%20Tomb/Session%2035-16.webp) ![](../../../assets/images/screenshots/Session%2035%20-%20Into%20Vordakai%20S%20Tomb/Session%2035-17.webp) ![](../../../assets/images/screenshots/Session%2035%20-%20Into%20Vordakai%20S%20Tomb/session-35-into-vordakai-s-tomb-17.webp)
 <!-- session-gallery:end -->
 
 ## Article navigation
 
-**Previous:** [[Session 34- Into the Valley of Death]]  
-**Next:** [[Session 36- Vordakai's End]]
+**Previous:** [Session 34- Into the Valley of Death](Session%2034-%20Into%20the%20Valley%20of%20Death.md)  
+**Next:** [Session 36- Vordakai's End](Session%2036-%20Vordakai%27s%20End.md)

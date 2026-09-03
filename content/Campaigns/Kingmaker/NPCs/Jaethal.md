@@ -8,7 +8,7 @@ portrait: "assets/world-anvil/jaethal-portrait.jpg"
 
 # Jaethal
 
-![[jaethal-portrait.jpg]]
+![](../../../assets/images/jaethal-portrait.jpg)
 
 > [!side]
 > :   Influence Level: 2

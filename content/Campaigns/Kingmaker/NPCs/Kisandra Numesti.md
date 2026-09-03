@@ -8,7 +8,7 @@ portrait: "[[kisandra-numesti-portrait.png]]"
 
 # Kisandra Numesti
 
-![[kisandra-numesti-portrait.png]]
+![](../../../assets/images/kisandra-numesti-portrait.png)
 
 ### Kisandra Numesti
 
@@ -16,7 +16,7 @@ portrait: "[[kisandra-numesti-portrait.png]]"
 
 #### Overview
 
-When **Kisandra Numesti** stumbled out of the [[Locations/Inner Sea Region/River Kingdoms/Stolen Lands/Hooktongue Slough]] and into the bog strider settlement of **[[Tok-Nikrat]]**, she was exhausted, starving, and so coated in mud that she barely looked human. But even through the delirium, she managed to speak a warning—one that would change the fate of [[Tatzlford]]. Her flight from **[[Fort Drelev]]** carried across the wilderness the news of an approaching army: Drelev’s soldiers, Tiger Lords, and trolls marching to sack the border town in a bid for favor with **King Irovetti of [[Pitax]]**. By chance or providence, she reached the Tubthumpers just in time to save hundreds of lives.
+When **Kisandra Numesti** stumbled out of the [Hooktongue Slough](../../../Locations/Inner%20Sea%20Region/River%20Kingdoms/Stolen%20Lands/Hooktongue%20Slough/Hooktongue%20Slough.md) and into the bog strider settlement of **[Tok-Nikrat](../../../Locations/Inner%20Sea%20Region/River%20Kingdoms/Stolen%20Lands/Thumping%20Waters/Settlements/Tok-Nikrat/Tok-Nikrat.md)**, she was exhausted, starving, and so coated in mud that she barely looked human. But even through the delirium, she managed to speak a warning—one that would change the fate of [Tatzlford](../../../Locations/Inner%20Sea%20Region/River%20Kingdoms/Stolen%20Lands/Thumping%20Waters/Settlements/Tatzlford/Tatzlford.md). Her flight from **[Fort Drelev](../../../Locations/Inner%20Sea%20Region/River%20Kingdoms/Stolen%20Lands/Thumping%20Waters/Settlements/Fort%20Drelev/Fort%20Drelev.md)** carried across the wilderness the news of an approaching army: Drelev’s soldiers, Tiger Lords, and trolls marching to sack the border town in a bid for favor with **King Irovetti of [Pitax](../../../Locations/Inner%20Sea%20Region/River%20Kingdoms/Stolen%20Lands/Thumping%20Waters/Settlements/Pitax/Pitax.md)**. By chance or providence, she reached the Tubthumpers just in time to save hundreds of lives.
 
 #### Appearance
 
@@ -24,7 +24,7 @@ Kisandra is a young woman in her early twenties, with dark brown hair usually ti
 
 #### Background
 
-Kisandra was born in **[[Restov]]**, the youngest daughter of **Lord Terrion Numesti**, a respected Brevic knight and swordsman of Rostlandic heritage. When **Baron Hannis Drelev** received his charter to found a new colony along the western frontier, Terrion followed him as both friend and commander—a decision that would cost him everything. Fort Drelev was meant to be a bastion of Brevic honor in the wilds, but Drelev’s ambitions and arrogance soon soured its promise. Within a few short years, he traded loyalty for survival, surrendering to the **Tiger Lords** and the rule of **King Irovetti of Pitax**.
+Kisandra was born in **[Restov](../../../Locations/Inner%20Sea%20Region/Brevoy/Restov.md)**, the youngest daughter of **Lord Terrion Numesti**, a respected Brevic knight and swordsman of Rostlandic heritage. When **Baron Hannis Drelev** received his charter to found a new colony along the western frontier, Terrion followed him as both friend and commander—a decision that would cost him everything. Fort Drelev was meant to be a bastion of Brevic honor in the wilds, but Drelev’s ambitions and arrogance soon soured its promise. Within a few short years, he traded loyalty for survival, surrendering to the **Tiger Lords** and the rule of **King Irovetti of Pitax**.
 
 When the Tiger Lords demanded noble hostages to guarantee Drelev’s obedience, Terrion refused to send his eldest daughter, **Tamary**. The baron’s response was swift and cruel: Terrion was imprisoned, Tamary was seized regardless, and Kisandra was placed under watch as a potential bargaining chip. She managed to escape with the help of a sympathetic servant, slipping into the marshes under cover of darkness with nothing but a cloak, a knife, and her father’s signet ring. Her plan was simple—reach Tatzlford and warn them of Drelev’s impending treachery. The Hooktongue Slough, however, had other plans.
 
@@ -48,7 +48,7 @@ To aid the heroes, she offered a single **jade ring**—a token of trust from **
 
 #### Current Role
 
-In the aftermath of the battle, Kisandra remained in Tatzlford, helping Mayor **[[Loy Rezbin]]** and **[[Latricia Rezbin|Latricia]]** coordinate repairs, organize refugees, and distribute supplies. Her Restovian education and noble upbringing made her a natural at leadership, though she insists she’s “just keeping busy.” Beneath that humility lies a quiet restlessness—her mind forever westward, toward the fort that still imprisons her family. To the people of Tatzlford, she is a hero. To herself, she’s simply unfinished business with a name and a sword.
+In the aftermath of the battle, Kisandra remained in Tatzlford, helping Mayor **[Loy Rezbin](Loy%20Rezbin.md)** and **[Latricia](Latricia%20Rezbin.md)** coordinate repairs, organize refugees, and distribute supplies. Her Restovian education and noble upbringing made her a natural at leadership, though she insists she’s “just keeping busy.” Beneath that humility lies a quiet restlessness—her mind forever westward, toward the fort that still imprisons her family. To the people of Tatzlford, she is a hero. To herself, she’s simply unfinished business with a name and a sword.
 
 Those who know her well say Kisandra Numesti is the living heart of the rebellion against Drelev—not through might or magic, but through the kind of courage that refuses to die quietly. When the Tubthumpers march to free her homeland, she will be waiting at the edge of the swamp, her father’s ring in hand and vengeance in her eyes.
 

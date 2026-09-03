@@ -8,10 +8,10 @@ cover: "assets/world-anvil/shared-cover-32ff100f6011.png"
 
 # Morlibint’s Dossier: Nhimbaloth, the Empty Death
 
-![[shared-cover-32ff100f6011.png]]
+![](../../../../assets/images/shared-cover-32ff100f6011.png)
 
 > [!side]
-> :   ![[morlibints-dossier-nhimbaloth-the-empty-death-image-01.png]]
+> :   ![](../../../../assets/images/morlibints-dossier-nhimbaloth-the-empty-death-image-01.png)
 
 *A collation of suppressed Pharasmin notes, unreliable field reports, and texts best left unconsulted.*
 
@@ -65,5 +65,5 @@ It is enough to understand this: Nhimbaloth is not merely a predator of souls. S
 
 And that something is hungry.
 
-[[Morlibint's Dossier- The Whispering Reeds|Morlibint's Dossier: The Whispering Reeds]]
+[Morlibint's Dossier: The Whispering Reeds](Morlibint%27s%20Dossier-%20The%20Whispering%20Reeds.md)
 

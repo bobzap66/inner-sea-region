@@ -9,7 +9,7 @@ parent: "[[Willowfen]]"
 ---
 # Willowfen General
 
-![[willowfen-general-portrait.png]]
+![](../../../../../../../assets/images/willowfen-general-portrait.png)
 
 *A Lantern and Ledger guide to Willowfen's principal store, compiled from the settlement gazetteer, caravan records, and the travel recollections of Velka of the Sootscale*
 

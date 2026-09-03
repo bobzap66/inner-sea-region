@@ -7,5 +7,5 @@ type: index
 
 Campaign-specific characters, session reports, fiction, and reference material.
 
-- [[Campaigns/Kingmaker/Kingmaker|Kingmaker]]
-- [[Campaigns/Abomination Vaults/Abomination Vaults|Abomination Vaults]]
+- [Kingmaker](Kingmaker/Kingmaker.md)
+- [Abomination Vaults](Abomination%20Vaults/Abomination%20Vaults.md)

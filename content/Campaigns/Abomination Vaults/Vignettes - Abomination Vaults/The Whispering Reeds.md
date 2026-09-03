@@ -9,7 +9,7 @@ category_path:
 
 
 > [!side]
-> :   ![[the-whispering-reeds-image-01.png]]
+> :   ![](../../../assets/images/the-whispering-reeds-image-01.png)
 >
 >     by ChatGPT
 

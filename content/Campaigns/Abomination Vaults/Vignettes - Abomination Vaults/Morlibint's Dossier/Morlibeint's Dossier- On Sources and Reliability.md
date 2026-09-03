@@ -8,10 +8,10 @@ cover: "assets/world-anvil/shared-cover-32ff100f6011.png"
 
 # Morlibint's Dossier: On Sources and Reliability
 
-![[shared-cover-32ff100f6011.png]]
+![](../../../../assets/images/shared-cover-32ff100f6011.png)
 
 > [!side]
-> :   ![[morlibeint-s-dossier-on-sources-and-reliability-image-01.jpeg]]
+> :   ![](../../../../assets/images/morlibeint-s-dossier-on-sources-and-reliability-image-01.jpeg)
 >
 >     by ChatGPT
 
