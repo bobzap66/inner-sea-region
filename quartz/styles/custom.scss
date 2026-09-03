@@ -1,4 +1,4 @@
-@use "./variables.scss" as *;
+﻿@use "./variables.scss" as *;
 
 /* Inner Sea Region — restrained fantasy gazetteer theme */
 
@@ -381,51 +381,79 @@ footer a {
 }
 
 /* BEGIN WORLD ANVIL SIDE CONTENT */
+/*
+ * [!side] blocks are authored inside Markdown so Obsidian can still display them,
+ * then client-side JS moves them into Quartz's real right sidebar.
+ */
 article .callout[data-callout="side"] {
-  float: right;
-  clear: right;
-  width: min(22rem, 42%);
-  margin: 0.25rem 0 1.5rem 1.75rem;
-  padding: 0;
+  margin: 1rem 0;
+}
+
+/* Once moved, make the supplemental material behave like a normal right-sidebar component. */
+.right.sidebar > .callout[data-callout="side"],
+.right.sidebar > .world-anvil-side-content {
+  float: none;
+  clear: none;
+  width: 100%;
+  max-width: none;
+  margin: 1.25rem 0 0;
+  padding: 0.85rem 0 0;
   border: 0;
+  border-top: 1px solid var(--isr-rule);
   border-radius: 0;
   background: transparent;
   box-shadow: none;
+  font-size: 0.88rem;
+  line-height: 1.5;
 }
 
-article .callout[data-callout="side"] > .callout-title {
+.right.sidebar > .callout[data-callout="side"] > .callout-title,
+.right.sidebar > .world-anvil-side-content > .callout-title {
   display: none;
 }
 
-article .callout[data-callout="side"] > .callout-content {
+.right.sidebar > .callout[data-callout="side"] > .callout-content,
+.right.sidebar > .world-anvil-side-content > .callout-content {
   padding: 0;
 }
 
-article .callout[data-callout="side"] .callout-content > :first-child {
-  margin-top: 0;
+.right.sidebar > .world-anvil-side-content h2,
+.right.sidebar > .world-anvil-side-content h3,
+.right.sidebar > .world-anvil-side-content h4 {
+  margin-top: 1.15rem;
+  margin-bottom: 0.45rem;
+  border-bottom: 0;
+  font-size: 1rem;
+  line-height: 1.2;
 }
 
-article .callout[data-callout="side"] .callout-content > :last-child {
-  margin-bottom: 0;
+.right.sidebar > .world-anvil-side-content p {
+  margin-block: 0.65rem;
 }
 
-article .callout[data-callout="side"] img {
+.right.sidebar > .world-anvil-side-content img {
   display: block;
   width: 100%;
   height: auto;
-  margin: 0 0 0.75rem;
+  margin: 0.5rem 0 0.8rem;
+  border: 1px solid var(--isr-rule);
+  border-radius: 0.25rem;
+  box-shadow: none;
 }
 
-article .callout[data-callout="side"] + h2 {
-  clear: none;
+.right.sidebar > .world-anvil-side-content ol,
+.right.sidebar > .world-anvil-side-content ul {
+  padding-left: 1.25rem;
 }
 
-@media (max-width: 900px) {
-  article .callout[data-callout="side"] {
-    float: none;
-    clear: both;
+@media (max-width: 1200px) {
+  /*
+   * On layouts where Quartz collapses the right sidebar, do not force
+   * the supplemental block into the article with float behavior.
+   * Quartz's sidebar rules remain authoritative.
+   */
+  .right.sidebar > .world-anvil-side-content {
     width: 100%;
-    margin: 1rem 0 1.5rem;
   }
 }
 /* END WORLD ANVIL SIDE CONTENT */

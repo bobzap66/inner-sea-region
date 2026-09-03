@@ -1,4 +1,4 @@
-import { i18n } from "../i18n"
+﻿import { i18n } from "../i18n"
 import { FullSlug, getFileExtension, joinSegments, pathToRoot } from "../util/path"
 import { CSSResourceToStyleElement, JSResourceToScriptElement } from "../util/resources"
 import { googleFontHref, googleFontSubsetHref } from "../util/theme"
@@ -92,6 +92,42 @@ export default (() => {
         <link rel="icon" href={iconPath} />
         <meta name="description" content={description} />
         <meta name="generator" content="Quartz" />
+
+        {/* INNER SEA REGION TRUE SIDEBAR BRIDGE */}
+        <script
+          dangerouslySetInnerHTML={{
+            __html: `
+(() => {
+  const moveWorldAnvilSideContent = () => {
+    const rightSidebar = document.querySelector(".right.sidebar")
+    if (!rightSidebar) return
+
+    rightSidebar
+      .querySelectorAll(":scope > .world-anvil-side-content")
+      .forEach((node) => node.remove())
+
+    const sideBlocks = document.querySelectorAll(
+      ".center article .callout[data-callout='side']",
+    )
+
+    sideBlocks.forEach((block) => {
+      block.classList.add("world-anvil-side-content")
+      rightSidebar.appendChild(block)
+    })
+  }
+
+  document.addEventListener("nav", moveWorldAnvilSideContent)
+
+  if (document.readyState === "loading") {
+    document.addEventListener("DOMContentLoaded", moveWorldAnvilSideContent, { once: true })
+  } else {
+    moveWorldAnvilSideContent()
+  }
+})()
+`,
+          }}
+        />
+        {/* END INNER SEA REGION TRUE SIDEBAR BRIDGE */}
 
         {css.map((resource) => CSSResourceToStyleElement(resource, true))}
         {js
