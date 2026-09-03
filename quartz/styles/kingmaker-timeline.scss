@@ -1,0 +1,145 @@
+﻿/* Kingmaker timeline — Quartz */
+
+article .callout[data-callout^="timeline-"] {
+  --timeline-minor: #20a86b;
+  --timeline-major: #e2ad2f;
+  --timeline-color: var(--timeline-minor);
+  position: relative;
+  box-sizing: border-box;
+  width: calc(50% - 2.4rem);
+  margin: 2.4rem 0;
+  border: 1px solid color-mix(in srgb, var(--timeline-color) 55%, transparent);
+  border-top: 3px solid var(--timeline-color);
+  border-radius: 0;
+  background: color-mix(in srgb, var(--light) 90%, var(--lightgray) 10%);
+  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.14);
+  overflow: visible;
+}
+
+[saved-theme="dark"] article .callout[data-callout^="timeline-"] {
+  background: color-mix(in srgb, var(--light) 92%, black 8%);
+}
+
+article .callout[data-callout^="timeline-major-"] {
+  --timeline-color: var(--timeline-major);
+}
+
+article .callout[data-callout^="timeline-"] .callout-icon {
+  display: none;
+}
+
+article .callout[data-callout^="timeline-"] .callout-title {
+  position: relative;
+  justify-content: center;
+  color: var(--dark);
+  font-family: var(--headerFont);
+  font-size: 1.05rem;
+  font-weight: 700;
+  text-align: center;
+}
+
+article .callout[data-callout^="timeline-"] .callout-content {
+  color: var(--darkgray);
+  text-align: center;
+}
+
+article .callout[data-callout^="timeline-"] .callout-content > p:first-child {
+  margin-top: 0.2rem;
+  color: var(--gray);
+  font-size: 0.72rem;
+  text-transform: uppercase;
+  letter-spacing: 0.04em;
+}
+
+article .callout[data-callout^="timeline-"] .callout-content strong {
+  color: var(--dark);
+}
+
+article .callout[data-callout$="-left"] {
+  margin-right: calc(50% + 2.4rem);
+}
+
+article .callout[data-callout$="-right"] {
+  margin-left: calc(50% + 2.4rem);
+}
+
+/* Colored vertical timeline segment. Adjacent segments overlap to form the spine. */
+article .callout[data-callout^="timeline-"]::before {
+  content: "";
+  position: absolute;
+  top: -2.55rem;
+  bottom: -2.55rem;
+  width: 5px;
+  background: var(--timeline-color);
+  z-index: 0;
+}
+
+article .callout[data-callout$="-left"]::before {
+  right: -2.63rem;
+}
+
+article .callout[data-callout$="-right"]::before {
+  left: -2.63rem;
+}
+
+/* Horizontal branch from the spine to each event card. */
+article .callout[data-callout^="timeline-"]::after {
+  content: "";
+  position: absolute;
+  top: 1.4rem;
+  width: 2.45rem;
+  height: 2px;
+  background: var(--timeline-color);
+}
+
+article .callout[data-callout$="-left"]::after {
+  right: -2.45rem;
+}
+
+article .callout[data-callout$="-right"]::after {
+  left: -2.45rem;
+}
+
+/* Diamond marker on the central spine. */
+article .callout[data-callout^="timeline-"] .callout-title::after {
+  content: "";
+  position: absolute;
+  top: -0.03rem;
+  width: 0.72rem;
+  height: 0.72rem;
+  background: var(--timeline-color);
+  transform: rotate(45deg);
+  box-shadow: 0 0 0 2px var(--light);
+  z-index: 2;
+}
+
+article .callout[data-callout$="-left"] .callout-title::after {
+  right: -3.42rem;
+}
+
+article .callout[data-callout$="-right"] .callout-title::after {
+  left: -3.42rem;
+}
+
+@media (max-width: 800px) {
+  article .callout[data-callout^="timeline-"] {
+    width: calc(100% - 2.8rem);
+    margin: 2rem 0 2rem 2.8rem;
+  }
+
+  article .callout[data-callout^="timeline-"]::before {
+    left: -1.65rem;
+    right: auto;
+  }
+
+  article .callout[data-callout^="timeline-"]::after {
+    left: -1.65rem;
+    right: auto;
+    width: 1.65rem;
+  }
+
+  article .callout[data-callout^="timeline-"] .callout-title::after {
+    left: -2.43rem;
+    right: auto;
+  }
+}
