@@ -143,3 +143,52 @@ article .callout[data-callout$="-right"] .callout-title::after {
     right: auto;
   }
 }
+
+/* Inner Sea Region profile / At a Glance callout */
+.callout[data-callout="profile"] {
+  --callout-color: 154, 109, 47;
+  margin: 1.25rem 0;
+}
+
+.callout[data-callout="profile"] > .callout-title {
+  font-family: "Cormorant Garamond", Georgia, serif;
+  font-style: normal;
+  font-weight: 700;
+}
+
+.callout[data-callout="profile"] > .callout-title .callout-icon {
+  display: none;
+}
+
+.callout[data-callout="profile"] .callout-content {
+  display: flow-root;
+}
+
+.callout[data-callout="profile"] .callout-content > p:first-child {
+  float: right;
+  width: 220px;
+  max-width: 38%;
+  margin: 0 0 1rem 1.5rem;
+}
+
+.callout[data-callout="profile"] .callout-content > p:first-child img {
+  display: block;
+  width: 100%;
+  height: auto;
+  margin: 0;
+  border-radius: 6px;
+}
+
+.callout[data-callout="profile"] .callout-content > p {
+  margin-top: 0.65rem;
+  margin-bottom: 0.65rem;
+}
+
+@media (max-width: 700px) {
+  .callout[data-callout="profile"] .callout-content > p:first-child {
+    float: none;
+    width: 220px;
+    max-width: 100%;
+    margin: 0 auto 1rem;
+  }
+}
