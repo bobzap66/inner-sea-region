@@ -12,7 +12,7 @@ portrait: "assets/world-anvil/jubilost-narthropple-portrait.webp"
 
 *Minister of the Treasury · Explorer Extraordinaire · Legend in His Own Mind*
 
-The name Jubilost Narthropple is known to every truly educated person in Avistan—or so Jubilost insists. And if you don’t know his name? Then perhaps you aren’t truly educated. A prolific explorer, cartographer, author, and insufferable braggart, Jubilost is one of the most irritatingly brilliant gnomes in the [[Inner Sea Region]].
+The name Jubilost Narthropple is known to every truly educated person in Avistan—or so Jubilost insists. And if you don’t know his name? Then perhaps you aren’t truly educated. A prolific explorer, cartographer, author, and insufferable braggart, Jubilost is one of the most irritatingly brilliant gnomes in the [Inner Sea Region](../../../Locations/Inner%20Sea%20Region/Inner%20Sea%20Region.md).
 
 Whether producing illustrated atlases of uncharted wilderness, scathing critiques of urban plumbing infrastructure, or recipe books for frontier gourmands, Jubilost has a knack for doing everything loudly, confidently, and better than you (according to him). His ego is vast, his wit sharper than his tongue, and his command of obscure languages is almost as extensive as the number of people he’s managed to offend.
 
