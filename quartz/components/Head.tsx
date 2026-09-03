@@ -93,6 +93,126 @@ export default (() => {
         <meta name="description" content={description} />
         <meta name="generator" content="Quartz" />
 
+        {/* INNER SEA REGION IMAGE LIGHTBOX */}
+        <script
+          dangerouslySetInnerHTML={{
+            __html: `
+(() => {
+  const IMAGE_SELECTOR = [
+    ".center article img",
+    ".right.sidebar .world-anvil-side-content img",
+    ".right.sidebar .callout[data-callout='side'] img",
+  ].join(",")
+
+  const ensureLightbox = () => {
+    let overlay = document.getElementById("isr-image-lightbox")
+    if (overlay) return overlay
+
+    overlay = document.createElement("div")
+    overlay.id = "isr-image-lightbox"
+    overlay.setAttribute("aria-hidden", "true")
+    overlay.innerHTML = [
+      '<button class="isr-lightbox-close" type="button" aria-label="Close image">×</button>',
+      '<div class="isr-lightbox-stage">',
+      '  <img class="isr-lightbox-image" alt="">',
+      '  <div class="isr-lightbox-caption"></div>',
+      '</div>',
+    ].join("")
+
+    document.body.appendChild(overlay)
+
+    const close = () => {
+      overlay.classList.remove("is-open", "is-natural-size")
+      overlay.setAttribute("aria-hidden", "true")
+      document.documentElement.classList.remove("isr-lightbox-open")
+
+      const img = overlay.querySelector(".isr-lightbox-image")
+      if (img) img.removeAttribute("src")
+    }
+
+    overlay.querySelector(".isr-lightbox-close")?.addEventListener("click", close)
+
+    overlay.addEventListener("click", (event) => {
+      if (event.target === overlay || event.target?.classList?.contains("isr-lightbox-stage")) {
+        close()
+      }
+    })
+
+    overlay.querySelector(".isr-lightbox-image")?.addEventListener("click", (event) => {
+      event.stopPropagation()
+      overlay.classList.toggle("is-natural-size")
+    })
+
+    document.addEventListener("keydown", (event) => {
+      if (event.key === "Escape" && overlay.classList.contains("is-open")) {
+        close()
+      }
+    })
+
+    return overlay
+  }
+
+  const openImage = (source) => {
+    const overlay = ensureLightbox()
+    const target = overlay.querySelector(".isr-lightbox-image")
+    const caption = overlay.querySelector(".isr-lightbox-caption")
+    if (!target) return
+
+    target.src = source.currentSrc || source.src
+    target.alt = source.alt || ""
+
+    const captionText = source.alt?.trim() || source.title?.trim() || ""
+    if (caption) {
+      caption.textContent = captionText
+      caption.hidden = captionText.length === 0
+    }
+
+    overlay.classList.remove("is-natural-size")
+    overlay.classList.add("is-open")
+    overlay.setAttribute("aria-hidden", "false")
+    document.documentElement.classList.add("isr-lightbox-open")
+  }
+
+  const wireImages = () => {
+    ensureLightbox()
+
+    document.querySelectorAll(IMAGE_SELECTOR).forEach((img) => {
+      if (img.dataset.isrLightbox === "1") return
+      if (img.closest("[data-no-lightbox], .no-lightbox")) return
+
+      img.dataset.isrLightbox = "1"
+      img.classList.add("isr-zoomable-image")
+      img.setAttribute("tabindex", "0")
+      img.setAttribute("role", "button")
+
+      const open = (event) => {
+        event.preventDefault()
+        event.stopPropagation()
+        openImage(img)
+      }
+
+      img.addEventListener("click", open)
+      img.addEventListener("keydown", (event) => {
+        if (event.key === "Enter" || event.key === " ") {
+          open(event)
+        }
+      })
+    })
+  }
+
+  document.addEventListener("nav", wireImages)
+
+  if (document.readyState === "loading") {
+    document.addEventListener("DOMContentLoaded", wireImages, { once: true })
+  } else {
+    wireImages()
+  }
+})()
+`,
+          }}
+        />
+        {/* END INNER SEA REGION IMAGE LIGHTBOX */}
+
         {/* INNER SEA REGION TRUE SIDEBAR BRIDGE */}
         <script
           dangerouslySetInnerHTML={{

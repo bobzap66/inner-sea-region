@@ -544,3 +544,118 @@ article .callout[data-callout="side"] {
     line-height: 1.55;
   }
 }
+
+/* INNER SEA REGION IMAGE LIGHTBOX */
+.isr-zoomable-image {
+  cursor: zoom-in;
+}
+
+.isr-zoomable-image:focus-visible {
+  outline: 2px solid var(--tertiary);
+  outline-offset: 3px;
+}
+
+html.isr-lightbox-open,
+html.isr-lightbox-open body {
+  overflow: hidden;
+}
+
+#isr-image-lightbox {
+  position: fixed;
+  inset: 0;
+  z-index: 10000;
+  display: none;
+  padding: clamp(1rem, 3vw, 2.5rem);
+  box-sizing: border-box;
+  background: rgba(15, 14, 12, 0.92);
+  overflow: auto;
+  overscroll-behavior: contain;
+}
+
+#isr-image-lightbox.is-open {
+  display: block;
+}
+
+#isr-image-lightbox .isr-lightbox-stage {
+  min-width: 100%;
+  min-height: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+#isr-image-lightbox .isr-lightbox-image {
+  display: block;
+  max-width: calc(100vw - clamp(2rem, 6vw, 5rem));
+  max-height: calc(100vh - clamp(4rem, 10vw, 8rem));
+  width: auto;
+  height: auto;
+  margin: auto;
+  object-fit: contain;
+  cursor: zoom-in;
+  user-select: none;
+  -webkit-user-drag: none;
+  box-shadow: 0 0.8rem 2.5rem rgba(0, 0, 0, 0.5);
+}
+
+#isr-image-lightbox.is-natural-size .isr-lightbox-stage {
+  align-items: flex-start;
+  justify-content: flex-start;
+  width: max-content;
+  min-width: 100%;
+  min-height: 100%;
+}
+
+#isr-image-lightbox.is-natural-size .isr-lightbox-image {
+  max-width: none;
+  max-height: none;
+  margin: 2rem auto;
+  cursor: zoom-out;
+}
+
+#isr-image-lightbox .isr-lightbox-caption {
+  max-width: min(70rem, 90vw);
+  margin: 0.8rem auto 0;
+  color: #f3eee2;
+  font-family: var(--bodyFont);
+  font-size: 0.95rem;
+  line-height: 1.4;
+  text-align: center;
+}
+
+#isr-image-lightbox .isr-lightbox-close {
+  position: fixed;
+  top: max(0.75rem, env(safe-area-inset-top));
+  right: max(0.9rem, env(safe-area-inset-right));
+  z-index: 10001;
+  width: 2.5rem;
+  height: 2.5rem;
+  border: 1px solid rgba(255, 255, 255, 0.45);
+  border-radius: 999px;
+  background: rgba(20, 18, 15, 0.72);
+  color: #fff;
+  font: 400 1.8rem/1 system-ui, sans-serif;
+  cursor: pointer;
+}
+
+#isr-image-lightbox .isr-lightbox-close:hover,
+#isr-image-lightbox .isr-lightbox-close:focus-visible {
+  background: rgba(255, 255, 255, 0.16);
+  outline: none;
+}
+
+@media (max-width: 800px) {
+  #isr-image-lightbox {
+    padding: 0.75rem;
+  }
+
+  #isr-image-lightbox .isr-lightbox-image {
+    max-width: calc(100vw - 1.5rem);
+    max-height: calc(100vh - 4rem);
+  }
+
+  #isr-image-lightbox.is-natural-size .isr-lightbox-image {
+    margin-top: 3rem;
+  }
+}
