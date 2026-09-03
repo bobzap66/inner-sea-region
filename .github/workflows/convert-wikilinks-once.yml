@@ -1,0 +1,36 @@
+name: Convert wikilinks once
+
+on:
+  push:
+    paths:
+      - ".github/workflows/convert-wikilinks-once.yml"
+
+permissions:
+  contents: write
+
+jobs:
+  convert:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Check out repository
+        uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+
+      - name: Convert Obsidian wikilinks
+        run: python3 scripts/convert_wikilinks.py
+
+      - name: Show conversion report
+        run: cat scripts/wikilink-conversion-report.txt
+
+      - name: Commit converted Markdown
+        run: |
+          if git diff --quiet -- content scripts/wikilink-conversion-report.txt; then
+            echo "No wikilink conversions were needed."
+            exit 0
+          fi
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add content scripts/wikilink-conversion-report.txt
+          git commit -m "Convert Obsidian wikilinks to Markdown links"
+          git push
