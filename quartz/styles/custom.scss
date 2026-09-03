@@ -458,16 +458,28 @@ article .callout[data-callout="side"] {
 }
 /* END WORLD ANVIL SIDE CONTENT */
 
-/* INNER SEA REGION RIGHT SIDEBAR SCROLL */
+/* INNER SEA REGION RIGHT SIDEBAR DOCUMENT FLOW */
+/*
+ * The stock Quartz right sidebar is sticky and only 100vh tall.
+ * That works for TOC/backlinks, but not for long World Anvil side material.
+ * Let the right column participate in normal document flow so the page itself
+ * grows tall enough to contain all migrated sidebar content.
+ */
 @media (min-width: 1201px) {
   .page > #quartz-body .sidebar.right {
-    overflow-y: auto;
-    overflow-x: hidden;
-    overscroll-behavior: contain;
-    scrollbar-width: thin;
+    position: static;
+    top: auto;
+    height: auto;
+    max-height: none;
+    overflow: visible;
+    align-self: start;
   }
 
-  .page > #quartz-body .sidebar.right::-webkit-scrollbar {
-    width: 6px;
+  .page > #quartz-body .sidebar.right > * {
+    max-height: none;
+  }
+
+  .page > #quartz-body .sidebar.right > .world-anvil-side-content {
+    overflow: visible;
   }
 }
