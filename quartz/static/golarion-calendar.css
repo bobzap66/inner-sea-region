@@ -2,6 +2,99 @@
   margin: 1.5rem 0 2.5rem;
 }
 
+#golarion-today {
+  margin: 1.5rem 0 2.5rem;
+}
+
+.golarion-today-shell {
+  overflow: hidden;
+  border: 1px solid var(--isr-rule, rgba(99, 75, 43, 0.28));
+  border-radius: 0.55rem;
+  background: color-mix(in srgb, var(--light) 94%, white 6%);
+  box-shadow: var(--isr-shadow, 0 12px 32px rgba(67, 49, 27, 0.08));
+}
+
+[saved-theme="dark"] .golarion-today-shell {
+  background: color-mix(in srgb, var(--light) 94%, black 6%);
+}
+
+.golarion-today-heading {
+  padding: 1.15rem 1.25rem;
+  border-bottom: 1px solid var(--isr-rule, var(--lightgray));
+  background: var(--highlight);
+  text-align: center;
+}
+
+.golarion-today-heading span {
+  color: var(--gray);
+  font-size: 0.72rem;
+  font-weight: 700;
+  letter-spacing: 0.12em;
+  text-transform: uppercase;
+}
+
+.golarion-today-heading h2 {
+  margin: 0.2rem 0 0;
+  color: var(--dark);
+  font-family: var(--headerFont);
+  font-size: clamp(1.65rem, 4vw, 2.4rem);
+  font-weight: 600;
+}
+
+.golarion-today-section {
+  padding: 1rem 1.2rem 1.2rem;
+}
+
+.golarion-today-section + .golarion-today-section {
+  border-top: 1px solid var(--isr-rule, var(--lightgray));
+}
+
+.golarion-today-section h3 {
+  margin: 0 0 0.7rem;
+  color: var(--secondary);
+  font-size: 1.15rem;
+}
+
+.golarion-today-list {
+  display: grid;
+  gap: 0.75rem;
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+.golarion-today-list li {
+  padding-left: 0.8rem;
+  border-left: 3px solid var(--tertiary);
+}
+
+.golarion-today-list li.is-holiday {
+  border-left-color: var(--secondary);
+}
+
+.golarion-today-list strong {
+  display: block;
+}
+
+.golarion-today-list span {
+  display: block;
+  margin-top: 0.08rem;
+  color: var(--gray);
+  font-size: 0.78rem;
+}
+
+.golarion-today-list p,
+.golarion-today-empty {
+  margin: 0.3rem 0 0;
+  color: var(--darkgray);
+  font-size: 0.88rem;
+  line-height: 1.5;
+}
+
+.golarion-today-list .golarion-today-sources {
+  font-size: 0.8rem;
+}
+
 .golarion-calendar-shell {
   overflow: hidden;
   border: 1px solid var(--isr-rule, rgba(99, 75, 43, 0.28));
