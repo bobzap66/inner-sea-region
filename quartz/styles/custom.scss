@@ -1,3 +1,327 @@
 @use "./variables.scss" as *;
 
-// put your custom CSS here!
+/* Inner Sea Region — restrained fantasy gazetteer theme */
+
+:root {
+  --isr-gold: #9a6d2f;
+  --isr-gold-soft: rgba(154, 109, 47, 0.18);
+  --isr-navy: #28485d;
+  --isr-burgundy: #713f3c;
+  --isr-paper: #f5efe0;
+  --isr-ink: #28251f;
+  --isr-rule: rgba(99, 75, 43, 0.28);
+  --isr-shadow: 0 12px 32px rgba(67, 49, 27, 0.08);
+}
+
+[saved-theme="dark"] {
+  --isr-gold: #d0a55c;
+  --isr-gold-soft: rgba(208, 165, 92, 0.15);
+  --isr-navy: #8bb4ca;
+  --isr-burgundy: #c28780;
+  --isr-paper: #1d1e1d;
+  --isr-ink: #f1ead8;
+  --isr-rule: rgba(216, 208, 189, 0.2);
+  --isr-shadow: 0 12px 32px rgba(0, 0, 0, 0.22);
+}
+
+html {
+  background-color: var(--light);
+  background-image:
+    radial-gradient(circle at 18% 8%, var(--highlight) 0, transparent 28rem),
+    linear-gradient(90deg, transparent 0, rgba(120, 92, 51, 0.025) 50%, transparent 100%);
+}
+
+body {
+  letter-spacing: 0.006em;
+}
+
+/* Give the reading column the presence of a printed folio. */
+.page > #quartz-body .center {
+  position: relative;
+}
+
+.page > #quartz-body .center::before {
+  content: "";
+  position: absolute;
+  inset: 1rem -2rem 0;
+  z-index: -1;
+  border: 1px solid var(--isr-rule);
+  border-radius: 0.45rem;
+  background: color-mix(in srgb, var(--light) 94%, white 6%);
+  box-shadow: var(--isr-shadow);
+}
+
+[saved-theme="dark"] .page > #quartz-body .center::before {
+  background: color-mix(in srgb, var(--light) 94%, black 6%);
+}
+
+.center > .page-header,
+.center > article,
+.center > .page-footer {
+  padding-inline: 0.25rem;
+}
+
+/* Masthead */
+.page-title {
+  margin-bottom: 0.4rem;
+  font-size: 1.7rem;
+  letter-spacing: 0.035em;
+  line-height: 1.05;
+}
+
+.page-title a {
+  color: var(--dark);
+  text-decoration: none;
+}
+
+.page-title::after {
+  content: "A GAZETTEER OF GOLARION";
+  display: block;
+  margin-top: 0.55rem;
+  color: var(--tertiary);
+  font-family: var(--bodyFont);
+  font-size: 0.62rem;
+  font-weight: 700;
+  letter-spacing: 0.18em;
+}
+
+.article-title {
+  margin-bottom: 0.25rem;
+  color: var(--dark);
+  font-size: clamp(2.35rem, 5vw, 3.7rem);
+  font-weight: 600;
+  letter-spacing: -0.025em;
+  line-height: 0.98;
+  text-wrap: balance;
+}
+
+.article-title::after {
+  content: "";
+  display: block;
+  width: min(11rem, 38%);
+  height: 3px;
+  margin-top: 1rem;
+  background: linear-gradient(90deg, var(--tertiary), transparent);
+}
+
+.content-meta {
+  color: var(--gray);
+  font-size: 0.82rem;
+  letter-spacing: 0.045em;
+  text-transform: uppercase;
+}
+
+/* Typography */
+article {
+  font-size: 1.06rem;
+  line-height: 1.75;
+}
+
+article h1,
+article h2,
+article h3,
+article h4 {
+  color: var(--dark);
+  font-weight: 600;
+  letter-spacing: -0.01em;
+  text-wrap: balance;
+}
+
+article h2 {
+  margin-top: 2.6rem;
+  padding-bottom: 0.32rem;
+  border-bottom: 1px solid var(--isr-rule);
+  font-size: 1.85rem;
+}
+
+article h3 {
+  color: var(--secondary);
+  font-size: 1.42rem;
+}
+
+article > p:first-of-type::first-letter {
+  float: left;
+  margin: 0.08em 0.08em 0 0;
+  color: var(--tertiary);
+  font-family: var(--headerFont);
+  font-size: 3.25em;
+  font-weight: 600;
+  line-height: 0.78;
+}
+
+a.internal,
+article a {
+  text-decoration-color: color-mix(in srgb, var(--secondary) 45%, transparent);
+  text-decoration-thickness: 1px;
+  text-underline-offset: 0.15em;
+}
+
+article a:hover {
+  color: var(--tertiary);
+  text-decoration-color: var(--tertiary);
+}
+
+strong {
+  color: color-mix(in srgb, var(--dark) 88%, var(--tertiary) 12%);
+}
+
+hr {
+  height: 1px;
+  margin: 2.5rem auto;
+  border: 0;
+  background: linear-gradient(90deg, transparent, var(--tertiary), transparent);
+}
+
+blockquote {
+  margin-inline: 0;
+  padding: 0.75rem 1.2rem 0.75rem 1.35rem;
+  border-left: 3px solid var(--tertiary);
+  border-radius: 0 0.35rem 0.35rem 0;
+  background: var(--isr-gold-soft);
+  color: var(--darkgray);
+  font-style: italic;
+}
+
+/* Illustrated material */
+article img {
+  border: 1px solid var(--isr-rule);
+  border-radius: 0.3rem;
+  box-shadow: 0 8px 24px rgba(54, 40, 24, 0.14);
+}
+
+article figure,
+article p:has(> img:only-child) {
+  margin-block: 2rem;
+}
+
+/* Tables as reference-book inserts. */
+article table {
+  overflow: hidden;
+  border: 1px solid var(--isr-rule);
+  border-radius: 0.3rem;
+  box-shadow: 0 5px 14px rgba(67, 49, 27, 0.06);
+}
+
+article th {
+  background: var(--secondary);
+  color: var(--light);
+  font-family: var(--headerFont);
+  font-size: 1.02rem;
+  letter-spacing: 0.025em;
+}
+
+article tr:nth-child(even) {
+  background: var(--highlight);
+}
+
+/* Callouts retain their semantic color but share one visual language. */
+.callout {
+  border-width: 1px 1px 1px 4px;
+  border-radius: 0.4rem;
+  box-shadow: 0 5px 16px rgba(67, 49, 27, 0.06);
+}
+
+.callout-title {
+  font-family: var(--headerFont);
+  font-size: 1.08rem;
+  letter-spacing: 0.02em;
+}
+
+/* Navigation */
+.sidebar {
+  font-size: 0.91rem;
+}
+
+.sidebar h2,
+.sidebar h3 {
+  color: var(--dark);
+  letter-spacing: 0.02em;
+}
+
+.search-button,
+.darkmode,
+.readermode {
+  border: 1px solid transparent;
+  border-radius: 0.35rem;
+  transition: background 150ms ease, border-color 150ms ease, transform 150ms ease;
+}
+
+.search-button:hover,
+.darkmode:hover,
+.readermode:hover {
+  border-color: var(--isr-rule);
+  background: var(--highlight);
+  transform: translateY(-1px);
+}
+
+.explorer .title-button h2,
+.backlinks h3,
+.graph h3,
+.toc-header h3 {
+  font-size: 1rem;
+  text-transform: uppercase;
+  letter-spacing: 0.09em;
+}
+
+.explorer-content a,
+.toc-content a,
+.backlinks a {
+  border-radius: 0.22rem;
+}
+
+.explorer-content a:hover,
+.toc-content a:hover,
+.backlinks a:hover {
+  color: var(--tertiary);
+}
+
+/* Static media is published, but it is not a useful browsing destination. */
+.explorer-content li:has(a[href="/assets/"]),
+.explorer-content li:has(a[href="./assets/"]) {
+  display: none;
+}
+
+.breadcrumbs {
+  color: var(--gray);
+  font-size: 0.78rem;
+  letter-spacing: 0.045em;
+  text-transform: uppercase;
+}
+
+/* Footer */
+footer {
+  border-top: 1px solid var(--isr-rule);
+  color: var(--gray);
+  font-size: 0.82rem;
+}
+
+footer a {
+  color: var(--secondary);
+}
+
+@media (max-width: 800px) {
+  .page > #quartz-body .center::before {
+    display: none;
+  }
+
+  .article-title {
+    font-size: 2.45rem;
+  }
+
+  article {
+    font-size: 1rem;
+    line-height: 1.68;
+  }
+
+  article h2 {
+    font-size: 1.62rem;
+  }
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .search-button,
+  .darkmode,
+  .readermode {
+    transition: none;
+  }
+}

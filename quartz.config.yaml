@@ -12,34 +12,41 @@ configuration:
     - private
     - templates
     - .obsidian
+    - "**/*.csv"
+    - "**/*.json"
+    - "**/*.py"
+    - "**/*.bak"
+    - "**/MIGRATION_REPORT.md"
+    - "**/_START_HERE.md"
+    - "**/gitattributes"
   theme:
     fontOrigin: googleFonts
     cdnCaching: true
     typography:
-      header: Schibsted Grotesk
-      body: Source Sans Pro
+      header: Cormorant Garamond
+      body: Source Serif 4
       code: IBM Plex Mono
     colors:
       lightMode:
-        light: "#faf8f8"
-        lightgray: "#e5e5e5"
-        gray: "#b8b8b8"
-        darkgray: "#4e4e4e"
-        dark: "#2b2b2b"
-        secondary: "#284b63"
-        tertiary: "#84a59d"
-        highlight: rgba(143, 159, 169, 0.15)
-        textHighlight: "#fff23688"
+        light: "#f5efe0"
+        lightgray: "#ded3bd"
+        gray: "#9b8e78"
+        darkgray: "#514a3f"
+        dark: "#28251f"
+        secondary: "#28485d"
+        tertiary: "#9a6d2f"
+        highlight: rgba(154, 109, 47, 0.14)
+        textHighlight: "#d9b85f66"
       darkMode:
-        light: "#161618"
-        lightgray: "#393639"
-        gray: "#646464"
-        darkgray: "#d4d4d4"
-        dark: "#ebebec"
-        secondary: "#7b97aa"
-        tertiary: "#84a59d"
-        highlight: rgba(143, 159, 169, 0.15)
-        textHighlight: "#b3aa0288"
+        light: "#1d1e1d"
+        lightgray: "#343631"
+        gray: "#77766d"
+        darkgray: "#d8d0bd"
+        dark: "#f1ead8"
+        secondary: "#8bb4ca"
+        tertiary: "#d0a55c"
+        highlight: rgba(208, 165, 92, 0.14)
+        textHighlight: "#b58b3f66"
 plugins:
   - source: "@quartz-community/created-modified-date"
     enabled: true
@@ -110,8 +117,18 @@ plugins:
     order: 92
   - source: "@quartz-community/quartz-fonts"
     enabled: true
+    options:
+      useThemeFonts: false
+      fontOrigin: googleFonts
+      title: '"Cormorant Garamond", Georgia, serif'
+      header: '"Cormorant Garamond", Georgia, serif'
+      body: '"Source Serif 4", Georgia, serif'
+      interface: '"Source Sans 3", system-ui, sans-serif'
+      code: '"IBM Plex Mono", monospace'
   - source: "@quartz-themes/core"
-    enabled: true
+    # The stock theme rewrites configuration.theme at build time. Keep it off
+    # so the Inner Sea Region palette and typography above remain authoritative.
+    enabled: false
     options:
       theme: default
       mode: both
@@ -230,8 +247,8 @@ plugins:
     enabled: true
     options:
       links:
-        GitHub: https://github.com/jackyzha0/quartz
-        Discord Community: https://discord.gg/cRFFHYye7t
+        Home: https://bobzap66.github.io/inner-sea-region/
+        Source: https://github.com/bobzap66/inner-sea-region
     layout:
       position: footer
       priority: 50
