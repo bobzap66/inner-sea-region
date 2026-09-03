@@ -483,3 +483,64 @@ article .callout[data-callout="side"] {
     overflow: visible;
   }
 }
+
+/* INNER SEA REGION MOBILE RIGHT SIDEBAR */
+/*
+ * Quartz changes the right sidebar into a horizontal flex row below desktop
+ * width and caps each child at 24rem. That is fine for compact widgets, but it
+ * breaks long migrated World Anvil side material.
+ *
+ * Stack the right-sidebar components vertically on tablet/mobile and let the
+ * migrated side content use its full natural height.
+ */
+@media (max-width: 1200px) {
+  .page > #quartz-body .sidebar.right {
+    display: flex;
+    flex-direction: column;
+    align-items: stretch;
+    gap: 1.25rem;
+    width: 100%;
+    height: auto;
+    max-height: none;
+    overflow: visible;
+    padding: 1rem 0 0;
+  }
+
+  .page > #quartz-body .sidebar.right > * {
+    flex: none;
+    width: 100%;
+    max-width: 100%;
+    max-height: none;
+  }
+
+  .page > #quartz-body .sidebar.right > .world-anvil-side-content,
+  .page > #quartz-body .sidebar.right > .callout[data-callout="side"] {
+    display: block;
+    width: 100%;
+    max-width: 100%;
+    height: auto;
+    max-height: none;
+    margin: 0;
+    padding-top: 1rem;
+    overflow: visible;
+  }
+
+  .page > #quartz-body .sidebar.right > .world-anvil-side-content img,
+  .page > #quartz-body .sidebar.right > .callout[data-callout="side"] img {
+    width: 100%;
+    height: auto;
+  }
+}
+
+/* On phone-sized screens, keep the supplemental material readable. */
+@media (max-width: 800px) {
+  .page > #quartz-body .sidebar.right {
+    padding-top: 0.75rem;
+  }
+
+  .page > #quartz-body .sidebar.right > .world-anvil-side-content,
+  .page > #quartz-body .sidebar.right > .callout[data-callout="side"] {
+    font-size: 0.95rem;
+    line-height: 1.55;
+  }
+}
