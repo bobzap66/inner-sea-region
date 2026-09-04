@@ -6,8 +6,10 @@ const CONTENT_ROOT = path.resolve("content")
 const INDEX_FILE = path.join(CONTENT_ROOT, "index.md")
 const COUNT = 3
 
-const START = "<!-- HOMEPAGE_RECENTS_START -->"
-const END = "<!-- HOMEPAGE_RECENTS_END -->"
+const HOME_START = "<!-- HOMEPAGE_RECENTS_START -->"
+const HOME_END = "<!-- HOMEPAGE_RECENTS_END -->"
+const CAMPAIGN_START = "<!-- CAMPAIGN_RECENTS_START -->"
+const CAMPAIGN_END = "<!-- CAMPAIGN_RECENTS_END -->"
 
 const IGNORED_DIRS = new Set([".git", ".obsidian", "private", "templates"])
 const MAINTENANCE_COMMIT = /(autolink|wikilink|link conversion|resolver|homepage navigation|one-shot|migration|maintenance|script|quartz|workflow)/i
@@ -64,8 +66,13 @@ function parseDate(value) {
   return Number.isNaN(date.valueOf()) ? null : date
 }
 
-function linkFor(rel) {
-  return "./" + rel.split("/").map(encodeURIComponent).join("/")
+function encodePath(rel) {
+  return rel.split("/").map(encodeURIComponent).join("/")
+}
+
+function linkFrom(baseDir, targetRel) {
+  const relative = path.posix.relative(baseDir || ".", targetRel)
+  return encodePath(relative || path.posix.basename(targetRel))
 }
 
 function formatDate(date) {
@@ -77,13 +84,78 @@ function formatDate(date) {
   }).format(date)
 }
 
+function chooseRecents(pool, excluded = new Set()) {
+  const brandNew = [...pool]
+    .filter((note) => !excluded.has(note.rel))
+    .sort((a, b) => b.created - a.created || a.title.localeCompare(b.title))
+    .slice(0, COUNT)
+
+  const brandNewPaths = new Set([...excluded, ...brandNew.map((note) => note.rel)])
+  const recentlyUpdated = [...pool]
+    .filter((note) => !brandNewPaths.has(note.rel))
+    .sort((a, b) => b.modified - a.modified || a.title.localeCompare(b.title))
+    .slice(0, COUNT)
+
+  return { brandNew, recentlyUpdated }
+}
+
+function renderSection(title, items, dateField, baseDir) {
+  const lines = [`### ${title}`, ""]
+  if (items.length === 0) {
+    lines.push("- Nothing here yet.")
+  } else {
+    for (const item of items) {
+      lines.push(`- [${item.title}](${linkFrom(baseDir, item.rel)}) — ${formatDate(item[dateField])}`)
+    }
+  }
+  return lines.join("\n")
+}
+
+function renderBlock(start, end, recents, baseDir) {
+  return [
+    start,
+    "## What's New",
+    "",
+    renderSection("Brand New", recents.brandNew, "created", baseDir),
+    "",
+    renderSection("Recently Updated", recents.recentlyUpdated, "modified", baseDir),
+    end,
+  ].join("\n")
+}
+
+async function injectBlock(file, start, end, block, preferredMarker = null) {
+  let text = await fs.readFile(file, "utf8")
+  const existing = new RegExp(`${start}[\\s\\S]*?${end}\\n*`, "m")
+  text = text.replace(existing, "")
+
+  if (preferredMarker && text.includes(preferredMarker)) {
+    text = text.replace(preferredMarker, `${block}\n\n${preferredMarker}`)
+  } else {
+    const firstSection = /^##\s+/m.exec(text)
+    if (firstSection) {
+      text = `${text.slice(0, firstSection.index).trimEnd()}\n\n${block}\n\n${text.slice(firstSection.index)}`
+    } else {
+      text = `${text.trimEnd()}\n\n${block}\n`
+    }
+  }
+
+  await fs.writeFile(file, text, "utf8")
+}
+
 const notes = []
+const campaigns = []
+
 for (const file of await walk(CONTENT_ROOT)) {
   const rel = path.relative(CONTENT_ROOT, file).replace(/\\/g, "/")
-  if (rel.toLowerCase() === "index.md") continue
-
   const text = await fs.readFile(file, "utf8")
   const fm = parseFrontmatter(text)
+
+  if (String(fm.type ?? "").toLowerCase() === "campaign") {
+    const match = /^Campaigns\/([^/]+)\/[^/]+\.md$/i.exec(rel)
+    if (match) campaigns.push({ file, rel, dir: path.posix.dirname(rel), title: String(fm.title || match[1]) })
+  }
+
+  if (rel.toLowerCase() === "index.md") continue
   if (fm.draft === true || String(fm.type ?? "").toLowerCase() === "index") continue
 
   const history = gitHistory(rel)
@@ -99,46 +171,26 @@ for (const file of await walk(CONTENT_ROOT)) {
   notes.push({ rel, title, created, modified })
 }
 
-const brandNew = [...notes]
-  .sort((a, b) => b.created - a.created || a.title.localeCompare(b.title))
-  .slice(0, COUNT)
+const homeRecents = chooseRecents(notes)
+await injectBlock(
+  INDEX_FILE,
+  HOME_START,
+  HOME_END,
+  renderBlock(HOME_START, HOME_END, homeRecents, "."),
+  "## Table of Contents",
+)
 
-const brandNewPaths = new Set(brandNew.map((note) => note.rel))
-const recentlyUpdated = [...notes]
-  .filter((note) => !brandNewPaths.has(note.rel))
-  .sort((a, b) => b.modified - a.modified || a.title.localeCompare(b.title))
-  .slice(0, COUNT)
-
-function renderSection(title, items, dateField) {
-  const lines = [`### ${title}`, ""]
-  for (const item of items) {
-    lines.push(`- [${item.title}](${linkFor(item.rel)}) — ${formatDate(item[dateField])}`)
-  }
-  return lines.join("\n")
-}
-
-const block = [
-  START,
-  "## What's New",
-  "",
-  renderSection("Brand New", brandNew, "created"),
-  "",
-  renderSection("Recently Updated", recentlyUpdated, "modified"),
-  END,
-].join("\n")
-
-let index = await fs.readFile(INDEX_FILE, "utf8")
-const existing = new RegExp(`${START}[\\s\\S]*?${END}\\n*`, "m")
-index = index.replace(existing, "")
-
-const marker = "## Table of Contents"
-if (index.includes(marker)) {
-  index = index.replace(marker, `${block}\n\n${marker}`)
-} else {
-  index = `${index.trimEnd()}\n\n${block}\n`
-}
-
-await fs.writeFile(INDEX_FILE, index, "utf8")
 console.log("Homepage recents generated")
-console.log("Brand New:", brandNew.map((note) => note.title).join(", "))
-console.log("Recently Updated:", recentlyUpdated.map((note) => note.title).join(", "))
+console.log("Brand New:", homeRecents.brandNew.map((note) => note.title).join(", "))
+console.log("Recently Updated:", homeRecents.recentlyUpdated.map((note) => note.title).join(", "))
+
+for (const campaign of campaigns) {
+  const prefix = `${campaign.dir}/`
+  const pool = notes.filter((note) => note.rel.startsWith(prefix))
+  const recents = chooseRecents(pool, new Set([campaign.rel]))
+  const block = renderBlock(CAMPAIGN_START, CAMPAIGN_END, recents, campaign.dir)
+  await injectBlock(campaign.file, CAMPAIGN_START, CAMPAIGN_END, block)
+  console.log(`${campaign.title} recents generated`)
+  console.log("  Brand New:", recents.brandNew.map((note) => note.title).join(", "))
+  console.log("  Recently Updated:", recents.recentlyUpdated.map((note) => note.title).join(", "))
+}
