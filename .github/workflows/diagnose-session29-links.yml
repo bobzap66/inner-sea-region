@@ -1,0 +1,36 @@
+name: Diagnose Session 29 links
+
+on:
+  push:
+    paths:
+      - ".github/workflows/diagnose-session29-links.yml"
+
+jobs:
+  diagnose:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version-file: .node-version
+          cache: npm
+      - run: npm ci
+      - name: Build Quartz
+        run: npx quartz build
+      - name: Print Session 29 internal links
+        run: |
+          FILE=$(find public -type f -path '*session-29--aftermath*/index.html' -o -type f -name 'session-29--aftermath.html' | head -1)
+          echo "Generated file: $FILE"
+          if [ -z "$FILE" ]; then
+            find public -type f | grep -i 'session-29' || true
+            exit 1
+          fi
+          python3 - "$FILE" <<'PY'
+          import re, sys
+          from pathlib import Path
+          p=Path(sys.argv[1])
+          html=p.read_text(encoding='utf-8')
+          for label in ['Linzi','Lamashtu','Fitzroy','Mairi','Thumpington','Greengripe','Embeth Hall','Pitax','Varnhold','Session 28- Source of the Bloom',"Session 30- Valerie's Victory"]:
+              m=re.search(r'<a\b[^>]*href="([^"]+)"[^>]*>\s*'+re.escape(label)+r'\s*</a>', html, re.I)
+              print(f'{label}: {m.group(1) if m else "NOT FOUND"}')
+          PY
