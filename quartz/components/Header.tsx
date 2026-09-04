@@ -1,20 +1,17 @@
-import { joinSegments, pathToRoot } from "../util/path"
 import { QuartzComponent, QuartzComponentConstructor, QuartzComponentProps } from "./types"
 
-const Header: QuartzComponent = ({ children, fileData }: QuartzComponentProps) => {
-  const baseDir = pathToRoot(fileData.slug!)
-  const mastheadPath = joinSegments(
-    baseDir,
-    "assets/images/lantern and ledger branding/wide_vintage_newspaper_masthead_style_illustration.png",
-  )
-  const compactPath = joinSegments(
-    baseDir,
-    "assets/images/lantern and ledger branding/lantern-and-ledger-compact.png",
-  )
+const Header: QuartzComponent = ({ children, cfg }: QuartzComponentProps) => {
+  const basePath = cfg.baseUrl?.includes("/")
+    ? `/${cfg.baseUrl.split("/").slice(1).join("/")}`
+    : ""
+  const homePath = `${basePath}/`
+  const brandingRoot = `${basePath}/assets/images/lantern%20and%20ledger%20branding`
+  const mastheadPath = `${brandingRoot}/wide_vintage_newspaper_masthead_style_illustration.png`
+  const compactPath = `${brandingRoot}/lantern-and-ledger-compact.png`
 
   return (
     <header class="lantern-ledger-site-header">
-      <a class="lantern-ledger-masthead" href={baseDir} aria-label="The Lantern and Ledger home">
+      <a class="lantern-ledger-masthead" href={homePath} aria-label="The Lantern and Ledger home">
         <picture>
           <source media="(max-width: 800px)" srcSet={compactPath} />
           <img
