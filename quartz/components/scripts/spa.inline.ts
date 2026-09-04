@@ -201,7 +201,11 @@ async function updateArchiveConsultations() {
   if (!meta) return
 
   try {
-    const path = window.goatcounter?.get_data?.()["p"] ?? location.pathname
+    let path = window.goatcounter?.get_data?.()["p"] ?? location.pathname
+    if (path.length > 1 && path.endsWith("/")) {
+      path = path.slice(0, -1)
+    }
+
     const counterUrl = `https://lanternandledger.goatcounter.com/counter/${encodeURIComponent(path)}.json`
     const response = await fetch(counterUrl)
     if (!response.ok) return
