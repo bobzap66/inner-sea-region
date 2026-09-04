@@ -194,6 +194,37 @@ function createRouter() {
   })()
 }
 
+async function updateArchiveConsultations() {
+  document.querySelector(".archive-consultations")?.remove()
+
+  const meta = document.querySelector(".content-meta")
+  if (!meta) return
+
+  try {
+    const path = window.goatcounter?.get_data?.()["p"] ?? location.pathname
+    const counterUrl = `https://lanternandledger.goatcounter.com/counter/${encodeURIComponent(path)}.json`
+    const response = await fetch(counterUrl)
+    if (!response.ok) return
+
+    const data = (await response.json()) as { count?: string }
+    if (!data.count) return
+
+    const numericCount = Number(data.count.replace(/[^0-9]/g, ""))
+    if (!Number.isFinite(numericCount) || numericCount < 5) return
+
+    const consultations = document.createElement("span")
+    consultations.className = "archive-consultations"
+    consultations.textContent = `${numericCount.toLocaleString("en-US")} archive consultations`
+    consultations.style.marginInlineStart = "0.75rem"
+    consultations.style.whiteSpace = "nowrap"
+    meta.appendChild(consultations)
+  } catch {
+    // Analytics should never interfere with page rendering.
+  }
+}
+
+document.addEventListener("nav", updateArchiveConsultations)
+
 createRouter()
 notifyNav(getFullSlug(window))
 
