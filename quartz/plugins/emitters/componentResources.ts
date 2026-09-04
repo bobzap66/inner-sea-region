@@ -149,8 +149,12 @@ function addGlobalPageResources(ctx: BuildCtx, componentResources: ComponentReso
       document.head.appendChild(goatcounterScriptPre);
 
       const pendingPageviews = [];
-      const countPageview = () => {
+      const getGoatcounterPath = () => {
         const path = location.pathname;
+        return path.length > 1 && path.endsWith('/') ? path.slice(0, -1) : path;
+      };
+      const countPageview = () => {
+        const path = getGoatcounterPath();
         if (typeof window.goatcounter?.count === 'function') {
           window.goatcounter.count({ path });
         } else {

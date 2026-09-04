@@ -194,6 +194,11 @@ function createRouter() {
   })()
 }
 
+function getGoatcounterPath() {
+  const path = location.pathname
+  return path.length > 1 && path.endsWith("/") ? path.slice(0, -1) : path
+}
+
 async function updateArchiveConsultations() {
   document.querySelector(".archive-consultations")?.remove()
 
@@ -201,7 +206,7 @@ async function updateArchiveConsultations() {
   if (!meta) return
 
   try {
-    const path = location.pathname
+    const path = getGoatcounterPath()
     const endpoint =
       window.goatcounter?.endpoint ??
       document.querySelector<HTMLScriptElement>("script[data-goatcounter]")?.dataset.goatcounter
@@ -216,7 +221,7 @@ async function updateArchiveConsultations() {
 
     const numericCount = Number(data.count.replace(/[^0-9]/g, ""))
     if (!Number.isFinite(numericCount) || numericCount < 5) return
-    if (location.pathname !== path) return
+    if (getGoatcounterPath() !== path) return
 
     const consultations = document.createElement("span")
     consultations.className = "archive-consultations"
