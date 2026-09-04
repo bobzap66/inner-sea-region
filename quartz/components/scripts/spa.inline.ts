@@ -194,29 +194,30 @@ function createRouter() {
   })()
 }
 
-async function updateArchiveConsultations() {
+function updateArchiveConsultations() {
   document.querySelector(".archive-consultations")?.remove()
+  document.querySelector("#archive-consultations-probe")?.remove()
 
   const meta = document.querySelector(".content-meta")
-  if (!meta) return
+  if (!meta || !window.goatcounter?.visit_count) return
 
-  try {
-    let path = window.goatcounter?.get_data?.()["p"] ?? location.pathname
-    if (path.length > 1 && path.endsWith("/")) {
-      path = path.slice(0, -1)
-    }
+  let path = window.goatcounter.get_data?.()["p"] ?? location.pathname
+  if (path.length > 1 && path.endsWith("/")) {
+    path = path.slice(0, -1)
+  }
 
-    // GoatCounter's direct counter URL expects the stored path itself, including
-    // its leading slash. Keeping that slash produces /counter//path.json.
-    const counterUrl = `https://lanternandledger.goatcounter.com/counter/${path}.json`
-    const response = await fetch(counterUrl)
-    if (!response.ok) return
+  const probe = document.createElement("span")
+  probe.id = "archive-consultations-probe"
+  probe.style.display = "none"
+  document.body.appendChild(probe)
 
-    const data = (await response.json()) as { count?: string }
-    if (!data.count) return
-
-    const numericCount = Number(data.count.replace(/[^0-9]/g, ""))
+  const observer = new MutationObserver(() => {
+    const countText = probe.querySelector("#gcvc-views")?.textContent ?? probe.textContent ?? ""
+    const numericCount = Number(countText.replace(/[^0-9]/g, ""))
     if (!Number.isFinite(numericCount) || numericCount < 5) return
+
+    observer.disconnect()
+    probe.remove()
 
     const consultations = document.createElement("span")
     consultations.className = "archive-consultations"
@@ -224,9 +225,21 @@ async function updateArchiveConsultations() {
     consultations.style.marginInlineStart = "0.75rem"
     consultations.style.whiteSpace = "nowrap"
     meta.appendChild(consultations)
-  } catch {
-    // Analytics should never interfere with page rendering.
-  }
+  })
+
+  observer.observe(probe, { childList: true, subtree: true, characterData: true })
+
+  window.goatcounter.visit_count({
+    append: "#archive-consultations-probe",
+    path,
+    no_branding: true,
+    type: "html",
+  })
+
+  window.setTimeout(() => {
+    observer.disconnect()
+    probe.remove()
+  }, 5000)
 }
 
 document.addEventListener("nav", updateArchiveConsultations)
