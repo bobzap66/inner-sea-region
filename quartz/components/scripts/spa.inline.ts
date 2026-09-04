@@ -194,18 +194,46 @@ function createRouter() {
   })()
 }
 
-function installSimpleAnalytics() {
-  if (document.querySelector("script[data-simple-analytics]")) return
+async function updateArchiveConsultations() {
+  document.querySelector(".archive-consultations")?.remove()
 
-  const simpleAnalyticsScript = document.createElement("script")
-  simpleAnalyticsScript.src = "https://scripts.simpleanalyticscdn.com/latest.js"
-  simpleAnalyticsScript.async = true
-  simpleAnalyticsScript.dataset.simpleAnalytics = ""
-  simpleAnalyticsScript.dataset.persist = ""
-  document.head.appendChild(simpleAnalyticsScript)
+  const meta = document.querySelector(".content-meta")
+  if (!meta) return
+
+  try {
+    let path = window.goatcounter?.get_data?.()["p"] ?? location.pathname
+    if (path.length > 1 && path.endsWith("/")) {
+      path = path.slice(0, -1)
+    }
+
+    const counterUrl = `https://lanternandledger.goatcounter.com/counter/${encodeURIComponent(path)}.json`
+    const response = await fetch(counterUrl)
+    if (!response.ok) return
+
+    const data = (await response.json()) as { count?: string }
+    if (!data.count) return
+
+    const numericCount = Number(data.count.replace(/[^0-9]/g, ""))
+    if (!Number.isFinite(numericCount) || numericCount < 5) return
+
+    const consultations = document.createElement("span")
+    consultations.className = "archive-consultations"
+    consultations.textContent = `${numericCount.toLocaleString("en-US")} archive consultations`
+    consultations.style.marginInlineStart = "0.75rem"
+    consultations.style.whiteSpace = "nowrap"
+    meta.appendChild(consultations)
+  } catch {
+    // Analytics should never interfere with page rendering.
+  }
 }
 
-installSimpleAnalytics()
+document.addEventListener("nav", () => {
+  updateArchiveConsultations()
+  if (!window.goatcounter?.get_data) {
+    window.setTimeout(updateArchiveConsultations, 1500)
+  }
+})
+
 createRouter()
 notifyNav(getFullSlug(window))
 
