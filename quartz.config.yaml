@@ -93,7 +93,7 @@ plugins:
   - source: "@quartz-community/crawl-links"
     enabled: true
     options:
-      markdownLinkResolution: relative
+      markdownLinkResolution: shortest
     order: 60
   - source: "@quartz-community/description"
     enabled: true
@@ -266,6 +266,10 @@ plugins:
     enabled: true
     options: {}
     order: 50
+    layout:
+      position: beforeBody
+      priority: 15
+      display: all
   - source: "@quartz-community/note-properties"
     enabled: true
     options:
