@@ -1,4 +1,11 @@
 export declare global {
+  interface GoatCounter {
+    no_onload?: boolean
+    endpoint?: string
+    count?: (vars?: { path?: string }) => void
+    get_data?: () => Record<string, string>
+  }
+
   interface Document {
     addEventListener<K extends keyof CustomEventMap>(
       type: K,
@@ -13,5 +20,6 @@ export declare global {
   interface Window {
     spaNavigate(url: URL, isBack: boolean = false)
     addCleanup(fn: (...args: any[]) => void)
+    goatcounter?: GoatCounter
   }
 }

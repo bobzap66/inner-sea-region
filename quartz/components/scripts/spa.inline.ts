@@ -201,12 +201,13 @@ async function updateArchiveConsultations() {
   if (!meta) return
 
   try {
-    let path = window.goatcounter?.get_data?.()["p"] ?? location.pathname
-    if (path.length > 1 && path.endsWith("/")) {
-      path = path.slice(0, -1)
-    }
+    const path = location.pathname
+    const endpoint =
+      window.goatcounter?.endpoint ??
+      document.querySelector<HTMLScriptElement>("script[data-goatcounter]")?.dataset.goatcounter
+    if (!endpoint) return
 
-    const counterUrl = `https://lanternandledger.goatcounter.com/counter/${encodeURIComponent(path)}.json`
+    const counterUrl = `${new URL(endpoint).origin}/counter/${encodeURIComponent(path)}.json`
     const response = await fetch(counterUrl)
     if (!response.ok) return
 
@@ -215,6 +216,7 @@ async function updateArchiveConsultations() {
 
     const numericCount = Number(data.count.replace(/[^0-9]/g, ""))
     if (!Number.isFinite(numericCount) || numericCount < 5) return
+    if (location.pathname !== path) return
 
     const consultations = document.createElement("span")
     consultations.className = "archive-consultations"
@@ -229,9 +231,7 @@ async function updateArchiveConsultations() {
 
 document.addEventListener("nav", () => {
   updateArchiveConsultations()
-  if (!window.goatcounter?.get_data) {
-    window.setTimeout(updateArchiveConsultations, 1500)
-  }
+  window.setTimeout(updateArchiveConsultations, 1500)
 })
 
 createRouter()

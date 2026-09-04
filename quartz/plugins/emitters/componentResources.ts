@@ -139,24 +139,35 @@ function addGlobalPageResources(ctx: BuildCtx, componentResources: ComponentReso
       document.head.appendChild(umamiScript);
     `)
   } else if (cfg.analytics?.provider === "goatcounter") {
+    const goatcounterEndpoint = `https://${cfg.analytics.websiteId}.${cfg.analytics.host ?? "goatcounter.com"}/count`
     componentResources.afterDOMLoaded.push(`
+      const endpoint = "${goatcounterEndpoint}";
       const goatcounterScriptPre = document.createElement('script');
       goatcounterScriptPre.textContent = \`
-        window.goatcounter = { no_onload: true };
+        window.goatcounter = { no_onload: true, endpoint: "${goatcounterEndpoint}" };
       \`;
       document.head.appendChild(goatcounterScriptPre);
 
-      const endpoint = "https://${cfg.analytics.websiteId}.${cfg.analytics.host ?? "goatcounter.com"}/count";
+      const pendingPageviews = [];
+      const countPageview = () => {
+        const path = location.pathname;
+        if (typeof window.goatcounter?.count === 'function') {
+          window.goatcounter.count({ path });
+        } else {
+          pendingPageviews.push(path);
+        }
+      };
+      document.addEventListener('nav', countPageview);
+
       const goatcounterScript = document.createElement('script');
       goatcounterScript.src = "${cfg.analytics.scriptSrc ?? "https://gc.zgo.at/count.js"}";
       goatcounterScript.defer = true;
       goatcounterScript.setAttribute('data-goatcounter', endpoint);
       goatcounterScript.onload = () => {
         window.goatcounter.endpoint = endpoint;
-        goatcounter.count({ path: location.pathname });
-        document.addEventListener('nav', () => {
-          goatcounter.count({ path: location.pathname });
-        });
+        for (const path of pendingPageviews.splice(0)) {
+          window.goatcounter.count({ path });
+        }
       };
 
       document.head.appendChild(goatcounterScript);
