@@ -206,7 +206,9 @@ async function updateArchiveConsultations() {
       path = path.slice(0, -1)
     }
 
-    const counterUrl = `https://lanternandledger.goatcounter.com/counter/${encodeURIComponent(path)}.json`
+    // GoatCounter's direct counter URL expects the stored path itself, including
+    // its leading slash. Keeping that slash produces /counter//path.json.
+    const counterUrl = `https://lanternandledger.goatcounter.com/counter/${path}.json`
     const response = await fetch(counterUrl)
     if (!response.ok) return
 
