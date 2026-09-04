@@ -4,6 +4,9 @@ configuration:
   pageTitleSuffix: " | Inner Sea Region Archives"
   enableSPA: true
   enablePopovers: true
+  analytics:
+    provider: goatcounter
+    websiteId: lanternandledger
   locale: en-US
   baseUrl: bobzap66.github.io/inner-sea-region
   ignorePatterns:
