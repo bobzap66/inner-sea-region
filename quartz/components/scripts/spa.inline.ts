@@ -194,30 +194,27 @@ function createRouter() {
   })()
 }
 
-function updateArchiveConsultations() {
+async function updateArchiveConsultations() {
   document.querySelector(".archive-consultations")?.remove()
-  document.querySelector("#archive-consultations-probe")?.remove()
 
   const meta = document.querySelector(".content-meta")
-  if (!meta || !window.goatcounter?.visit_count) return
+  if (!meta) return
 
-  let path = window.goatcounter.get_data?.()["p"] ?? location.pathname
-  if (path.length > 1 && path.endsWith("/")) {
-    path = path.slice(0, -1)
-  }
+  try {
+    let path = window.goatcounter?.get_data?.()["p"] ?? location.pathname
+    if (path.length > 1 && path.endsWith("/")) {
+      path = path.slice(0, -1)
+    }
 
-  const probe = document.createElement("span")
-  probe.id = "archive-consultations-probe"
-  probe.style.display = "none"
-  document.body.appendChild(probe)
+    const counterUrl = `https://lanternandledger.goatcounter.com/counter/${encodeURIComponent(path)}.json`
+    const response = await fetch(counterUrl)
+    if (!response.ok) return
 
-  const observer = new MutationObserver(() => {
-    const countText = probe.querySelector("#gcvc-views")?.textContent ?? probe.textContent ?? ""
-    const numericCount = Number(countText.replace(/[^0-9]/g, ""))
+    const data = (await response.json()) as { count?: string }
+    if (!data.count) return
+
+    const numericCount = Number(data.count.replace(/[^0-9]/g, ""))
     if (!Number.isFinite(numericCount) || numericCount < 5) return
-
-    observer.disconnect()
-    probe.remove()
 
     const consultations = document.createElement("span")
     consultations.className = "archive-consultations"
@@ -225,24 +222,17 @@ function updateArchiveConsultations() {
     consultations.style.marginInlineStart = "0.75rem"
     consultations.style.whiteSpace = "nowrap"
     meta.appendChild(consultations)
-  })
-
-  observer.observe(probe, { childList: true, subtree: true, characterData: true })
-
-  window.goatcounter.visit_count({
-    append: "#archive-consultations-probe",
-    path,
-    no_branding: true,
-    type: "html",
-  })
-
-  window.setTimeout(() => {
-    observer.disconnect()
-    probe.remove()
-  }, 5000)
+  } catch {
+    // Analytics should never interfere with page rendering.
+  }
 }
 
-document.addEventListener("nav", updateArchiveConsultations)
+document.addEventListener("nav", () => {
+  updateArchiveConsultations()
+  if (!window.goatcounter?.get_data) {
+    window.setTimeout(updateArchiveConsultations, 1500)
+  }
+})
 
 createRouter()
 notifyNav(getFullSlug(window))
