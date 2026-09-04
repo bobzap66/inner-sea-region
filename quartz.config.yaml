@@ -1,7 +1,7 @@
 # yaml-language-server: $schema=./quartz/plugins/quartz-plugins.schema.json
 configuration:
-  pageTitle: Inner Sea Region
-  pageTitleSuffix: ""
+  pageTitle: The Lantern and Ledger
+  pageTitleSuffix: " | Inner Sea Region Archives"
   enableSPA: true
   enablePopovers: true
   analytics:
@@ -23,30 +23,30 @@ configuration:
     fontOrigin: googleFonts
     cdnCaching: true
     typography:
-      header: Cormorant Garamond
+      header: Libre Baskerville
       body: Source Serif 4
       code: IBM Plex Mono
     colors:
       lightMode:
-        light: "#f5efe0"
-        lightgray: "#ded3bd"
-        gray: "#9b8e78"
-        darkgray: "#514a3f"
-        dark: "#28251f"
-        secondary: "#28485d"
-        tertiary: "#9a6d2f"
-        highlight: rgba(154, 109, 47, 0.14)
-        textHighlight: "#d9b85f66"
+        light: "#eee1c3"
+        lightgray: "#d4bc88"
+        gray: "#8a765a"
+        darkgray: "#685238"
+        dark: "#17140f"
+        secondary: "#405c68"
+        tertiary: "#c58b2b"
+        highlight: rgba(197, 139, 43, 0.14)
+        textHighlight: "#c58b2b4d"
       darkMode:
-        light: "#1d1e1d"
-        lightgray: "#343631"
-        gray: "#77766d"
-        darkgray: "#d8d0bd"
-        dark: "#f1ead8"
-        secondary: "#8bb4ca"
-        tertiary: "#d0a55c"
-        highlight: rgba(208, 165, 92, 0.14)
-        textHighlight: "#b58b3f66"
+        light: "#17140f"
+        lightgray: "#2b261e"
+        gray: "#8d806e"
+        darkgray: "#eee1c3"
+        dark: "#f6eedc"
+        secondary: "#7ea0ac"
+        tertiary: "#d5a653"
+        highlight: rgba(213, 166, 83, 0.14)
+        textHighlight: "#d5a6534d"
 plugins:
   - source: "@quartz-community/created-modified-date"
     enabled: true
@@ -120,14 +120,14 @@ plugins:
     options:
       useThemeFonts: false
       fontOrigin: googleFonts
-      title: '\"Cormorant Garamond\", Georgia, serif'
-      header: '\"Cormorant Garamond\", Georgia, serif'
+      title: '\"Libre Baskerville\", Georgia, serif'
+      header: '\"Libre Baskerville\", Georgia, serif'
       body: '\"Source Serif 4\", Georgia, serif'
       interface: '\"Source Sans 3\", system-ui, sans-serif'
       code: '\"IBM Plex Mono\", monospace'
   - source: "@quartz-themes/core"
     # The stock theme rewrites configuration.theme at build time. Keep it off
-    # so the Inner Sea Region palette and typography above remain authoritative.
+    # so the Lantern and Ledger palette and typography above remain authoritative.
     enabled: false
     options:
       theme: default
