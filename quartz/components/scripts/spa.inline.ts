@@ -206,14 +206,14 @@ async function updateArchiveConsultations() {
       path = path.slice(0, -1)
     }
 
-    const counterUrl = `https://lanternandledger.goatcounter.com/counter/${encodeURIComponent(path)}.html?no_branding=1`
+    const counterUrl = `https://lanternandledger.goatcounter.com/counter/${encodeURIComponent(path)}.json`
     const response = await fetch(counterUrl)
     if (!response.ok) return
 
-    const html = await response.text()
-    const counterDocument = new DOMParser().parseFromString(html, "text/html")
-    const countText = counterDocument.querySelector("#gcvc-views")?.textContent ?? ""
-    const numericCount = Number(countText.replace(/[^0-9]/g, ""))
+    const data = (await response.json()) as { count?: string }
+    if (!data.count) return
+
+    const numericCount = Number(data.count.replace(/[^0-9]/g, ""))
     if (!Number.isFinite(numericCount) || numericCount < 5) return
 
     const consultations = document.createElement("span")
