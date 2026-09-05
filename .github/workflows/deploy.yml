@@ -48,6 +48,9 @@ jobs:
       - name: Install Quartz plugins
         run: npx quartz plugin install --from-config --clean
 
+      - name: Normalize content asset paths
+        run: node scripts/normalize-content-asset-paths.mjs
+
       - name: Generate homepage recent notes
         run: node scripts/generate-homepage-recents.mjs
 
