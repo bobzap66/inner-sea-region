@@ -66,13 +66,9 @@ function parseDate(value) {
   return Number.isNaN(date.valueOf()) ? null : date
 }
 
-function encodePath(rel) {
-  return rel.split("/").map(encodeURIComponent).join("/")
-}
-
 function linkFrom(baseDir, targetRel) {
   const relative = path.posix.relative(baseDir || ".", targetRel)
-  return encodePath(relative || path.posix.basename(targetRel))
+  return relative || path.posix.basename(targetRel)
 }
 
 function formatDate(date) {
@@ -105,7 +101,7 @@ function renderSection(title, items, dateField, baseDir) {
     lines.push("- Nothing here yet.")
   } else {
     for (const item of items) {
-      lines.push(`- [${item.title}](${linkFrom(baseDir, item.rel)}) — ${formatDate(item[dateField])}`)
+      lines.push(`- [${item.title}](<${linkFrom(baseDir, item.rel)}>) — ${formatDate(item[dateField])}`)
     }
   }
   return lines.join("\n")
