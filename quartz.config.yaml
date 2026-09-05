@@ -276,6 +276,8 @@ plugins:
         - tags
         - aliases
         - session records
+        - previous session
+        - next session
       excludedProperties: []
       hidePropertiesView: false
       delimiters: ---
