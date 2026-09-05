@@ -2,7 +2,7 @@ import { promises as fs } from "node:fs"
 import path from "node:path"
 import { execFileSync } from "node:child_process"
 
-const CONTENT_ROOT = path.resolve("content")
+const CONTENT_ROOT = path.resolve(process.argv[2] ?? "content")
 const INDEX_FILE = path.join(CONTENT_ROOT, "index.md")
 const COUNT = 3
 
@@ -112,6 +112,27 @@ function renderSection(title, items, dateField, baseDir) {
 }
 
 function renderBlock(start, end, recents, baseDir) {
+  if (start === HOME_START) {
+    return [
+      start,
+      '<section class="home-recents" aria-labelledby="whats-new">',
+      "",
+      "## What's New",
+      "",
+      '<div class="home-recent-column">',
+      "",
+      renderSection("Brand New", recents.brandNew, "created", baseDir),
+      "",
+      "</div>",
+      '<div class="home-recent-column">',
+      "",
+      renderSection("Recently Updated", recents.recentlyUpdated, "modified", baseDir),
+      "",
+      "</div>",
+      "</section>",
+      end,
+    ].join("\n")
+  }
   return [
     start,
     "## What's New",
@@ -177,7 +198,7 @@ await injectBlock(
   HOME_START,
   HOME_END,
   renderBlock(HOME_START, HOME_END, homeRecents, "."),
-  "## Table of Contents",
+  "<!-- HOMEPAGE_RECENTS -->",
 )
 
 console.log("Homepage recents generated")

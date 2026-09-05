@@ -1,0 +1,185 @@
+/* The archive entrance uses the same Markdown in Obsidian and on the site. */
+body[data-slug="index"] {
+  .lantern-ledger-site-header {
+    margin-bottom: 1.75rem;
+  }
+
+  .lantern-ledger-masthead img {
+    display: block;
+    width: 100%;
+    height: auto;
+    max-height: 12rem;
+    object-fit: contain;
+  }
+
+  .lantern-ledger-archive-rule {
+    margin-top: 0.7rem;
+    text-align: center;
+    font-size: 0.65rem;
+    letter-spacing: 0.15em;
+    color: var(--darkgray);
+  }
+
+  .content-meta,
+  .page > #quartz-body .sidebar.right {
+    display: none;
+  }
+
+  .page > #quartz-body {
+    @media (min-width: 1201px) {
+      grid-template-columns: 280px minmax(0, 1fr);
+      grid-template-areas:
+        "grid-sidebar-left grid-header"
+        "grid-sidebar-left grid-center"
+        "grid-sidebar-left grid-footer";
+      padding-right: 3rem;
+    }
+
+    .page-header {
+      margin-top: 2.5rem;
+    }
+    .center::before {
+      display: none;
+    }
+  }
+
+  .article-title {
+    font-size: clamp(2rem, 4vw, 3rem);
+    line-height: 1.15;
+  }
+
+  article {
+    line-height: 1.6;
+
+    > p:first-of-type {
+      margin: 0.9rem 0 1.8rem;
+      font-size: 1.1rem;
+      &::first-letter {
+        float: none;
+        margin: 0;
+        color: inherit;
+        font: inherit;
+      }
+    }
+
+    h2 {
+      margin: 1.8rem 0 1rem;
+      font-size: 1.45rem;
+    }
+    a.internal {
+      background: transparent;
+    }
+    a:focus-visible {
+      outline: 2px solid var(--secondary);
+      outline-offset: 4px;
+    }
+
+    #campaigns + ul {
+      display: grid;
+      grid-template-columns: repeat(2, minmax(0, 1fr));
+      gap: 1rem;
+      padding: 0;
+      list-style: none;
+
+      > li {
+        padding: 1.25rem;
+        border: 1px solid var(--isr-rule);
+        border-top: 3px solid var(--tertiary);
+        border-radius: 0.3rem;
+        background: color-mix(in srgb, var(--light) 88%, var(--lightgray));
+
+        > p:first-child {
+          margin: 0 0 0.6rem;
+          font-family: var(--headerFont);
+          font-size: 1.3rem;
+        }
+        > p {
+          margin: 0 0 1rem;
+        }
+        > ul {
+          display: flex;
+          flex-wrap: wrap;
+          gap: 0.45rem 1rem;
+          padding: 0;
+          list-style: none;
+          font-size: 0.95rem;
+        }
+        > ul a {
+          display: inline-block;
+          padding-block: 0.2rem;
+          text-decoration: underline;
+        }
+      }
+    }
+
+    #world-reference + ul {
+      display: grid;
+      grid-template-columns: repeat(3, minmax(0, 1fr));
+      gap: 0.5rem 1.25rem;
+      list-style: none;
+      padding: 0;
+      a {
+        display: block;
+        padding: 0.65rem 0;
+        border-bottom: 1px solid var(--isr-rule);
+      }
+    }
+
+    .home-recents {
+      display: grid;
+      grid-template-columns: repeat(2, minmax(0, 1fr));
+      gap: 0 1.75rem;
+      > h2 {
+        grid-column: 1 / -1;
+      }
+      h3 {
+        margin: 0 0 0.6rem;
+        font-size: 1.1rem;
+      }
+      ul {
+        list-style: none;
+        padding: 0;
+        margin: 0;
+      }
+      li {
+        padding: 0.75rem 0;
+        border-bottom: 1px solid var(--isr-rule);
+        font-size: 0.88rem;
+      }
+      li a {
+        display: block;
+        font-size: 1rem;
+        line-height: 1.5;
+      }
+    }
+  }
+
+  @media (max-width: 800px) {
+    .page-title {
+      font-size: 1rem;
+      line-height: 1.2;
+    }
+    .page-title::after {
+      display: none;
+    }
+    .lantern-ledger-masthead img {
+      max-height: 7rem;
+    }
+    .page > #quartz-body .page-header {
+      margin-top: 1.25rem;
+    }
+    article #world-reference + ul {
+      grid-template-columns: repeat(2, minmax(0, 1fr));
+    }
+  }
+
+  @media (max-width: 600px) {
+    article #campaigns + ul,
+    article .home-recents {
+      grid-template-columns: minmax(0, 1fr);
+    }
+    article .home-recent-column + .home-recent-column {
+      margin-top: 1.25rem;
+    }
+  }
+}
