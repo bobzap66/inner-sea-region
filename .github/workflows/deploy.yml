@@ -48,9 +48,6 @@ jobs:
       - name: Install Quartz plugins
         run: npx quartz plugin install --from-config --clean
 
-      - name: Patch Note Properties session records
-        run: node scripts/patch-note-properties-session-records.mjs
-
       - name: Normalize content asset paths
         run: node scripts/normalize-content-asset-paths.mjs
 
