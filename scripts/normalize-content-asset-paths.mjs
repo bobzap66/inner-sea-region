@@ -70,8 +70,12 @@ function normalizeMarkdownLinks(sourceFile, text) {
     const target = findTarget(sourceFile, rawTarget)
     if (!target) return match
 
-    const vaultPath = toPosix(path.relative(contentRoot, target.file)).replace(/\.md$/, "")
-    return `[[${vaultPath}${target.anchor}|${label}]]`
+    let relativePath = toPosix(path.relative(path.dirname(sourceFile), target.file))
+    if (!relativePath.startsWith(".")) relativePath = `./${relativePath}`
+
+    // Angle-bracket destinations allow spaces and punctuation without pre-encoding,
+    // while preserving normal relative-link resolution in Quartz.
+    return `[${label}](<${relativePath}${target.anchor}>)`
   })
 }
 
