@@ -202,11 +202,12 @@ function getGoatcounterPath() {
 async function updateArchiveConsultations() {
   document.querySelector(".archive-consultations")?.remove()
 
+  const path = getGoatcounterPath()
   const meta = document.querySelector(".content-meta")
-  if (!meta) return
+  const homepageHeading = path === "/" ? document.querySelector(".center h1") : null
+  if (!meta && !homepageHeading) return
 
   try {
-    const path = getGoatcounterPath()
     const endpoint =
       window.goatcounter?.endpoint ??
       document.querySelector<HTMLScriptElement>("script[data-goatcounter]")?.dataset.goatcounter
@@ -226,9 +227,16 @@ async function updateArchiveConsultations() {
     const consultations = document.createElement("span")
     consultations.className = "archive-consultations"
     consultations.textContent = `${numericCount.toLocaleString("en-US")} archive consultations`
-    consultations.style.marginInlineStart = "0.75rem"
     consultations.style.whiteSpace = "nowrap"
-    meta.appendChild(consultations)
+
+    if (meta) {
+      consultations.style.marginInlineStart = "0.75rem"
+      meta.appendChild(consultations)
+    } else if (homepageHeading) {
+      consultations.style.display = "block"
+      consultations.style.marginBlock = "-0.5rem 1rem"
+      homepageHeading.insertAdjacentElement("afterend", consultations)
+    }
   } catch {
     // Analytics should never interfere with page rendering.
   }
