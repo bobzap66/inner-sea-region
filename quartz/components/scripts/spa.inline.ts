@@ -204,7 +204,9 @@ async function updateArchiveConsultations() {
 
   const path = getGoatcounterPath()
   const meta = document.querySelector(".content-meta")
-  const homepageHeading = path === "/" ? document.querySelector(".center h1") : null
+  const basePath = (document.body.dataset.basepath ?? "").replace(/\/$/, "")
+  const isHomepage = path === (basePath || "/")
+  const homepageHeading = isHomepage ? document.querySelector(".center h1") : null
   if (!meta && !homepageHeading) return
 
   try {
