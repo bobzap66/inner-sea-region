@@ -244,7 +244,32 @@ async function updateArchiveConsultations() {
   }
 }
 
+function formatSessionRecordProperties() {
+  const rows = document.querySelectorAll<HTMLElement>(".note-properties-row")
+
+  for (const row of rows) {
+    const key = row.querySelector(".note-properties-key")?.textContent?.trim().toLowerCase()
+    if (key !== "session records") continue
+
+    const list = row.querySelector<HTMLElement>(".note-properties-list")
+    if (!list) continue
+
+    const records = list.querySelectorAll<HTMLElement>(":scope > .note-properties-text")
+    if (records.length < 2) continue
+
+    list.style.display = "flex"
+    list.style.flexDirection = "column"
+    list.style.alignItems = "flex-start"
+    list.style.gap = "0.15rem"
+
+    list.querySelectorAll<HTMLElement>(":scope > .note-properties-separator").forEach((separator) => {
+      separator.style.display = "none"
+    })
+  }
+}
+
 document.addEventListener("nav", () => {
+  formatSessionRecordProperties()
   updateArchiveConsultations()
   window.setTimeout(updateArchiveConsultations, 1500)
 })
