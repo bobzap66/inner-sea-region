@@ -1,7 +1,0 @@
-Wikilink conversion report
-==========================
-Markdown files changed: 0
-Wikilinks converted: 0
-Wikilinks left unchanged: 0
-
-No ambiguous, unresolved, or unsupported wikilinks remain in processed Markdown bodies.
