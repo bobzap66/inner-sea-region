@@ -341,6 +341,18 @@
   color: var(--secondary);
 }
 
+.golarion-calendar-period-history {
+  margin-top: 1rem;
+  padding-top: 0.9rem;
+  border-top: 1px solid var(--isr-rule, var(--lightgray));
+}
+
+.golarion-calendar-period-history h4 {
+  margin: 0 0 0.65rem;
+  color: var(--secondary);
+  font-size: 1.05rem;
+}
+
 .golarion-calendar-error {
   padding: 1rem;
   border: 1px solid var(--isr-rule, var(--lightgray));
