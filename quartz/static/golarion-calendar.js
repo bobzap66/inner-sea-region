@@ -302,8 +302,25 @@
         })
       }
       const anniversaries = [...grouped.values()].sort(
-        (a, b) => a.year - b.year || a.name.localeCompare(b.name),
+        (a, b) => b.year - a.year || a.name.localeCompare(b.name),
       )
+
+      const monthlyHistory = (data.events ?? [])
+        .filter(
+          (event) =>
+            event.kind === "historical" &&
+            event.datePrecision === "month" &&
+            event.year <= today.year &&
+            event.month === today.month,
+        )
+        .map((event) => ({
+          ...event,
+          yearsAgo: today.year - event.year,
+          sources: event.source
+            ? [{ slug: event.source, campaign: event.campaign, kind: event.kind }]
+            : [],
+        }))
+        .sort((a, b) => b.year - a.year || a.name.localeCompare(b.name))
 
       const sourceLinks = (event) =>
         event.sources
@@ -346,6 +363,20 @@
             .join("")}</ul>`
         : '<p class="golarion-today-empty">No anniversaries are recorded today.</p>'
 
+      const monthlyHistoryMarkup = monthlyHistory.length
+        ? `<ul class="golarion-today-list">${monthlyHistory
+            .map(
+              (event) => `
+            <li class="is-anniversary">
+              <strong>${escapeHtml(event.name)}</strong>
+              <span>${event.yearsAgo === 0 ? "This year" : `${event.yearsAgo} ${event.yearsAgo === 1 ? "year" : "years"} ago`} · ${escapeHtml(data.months[event.month])} ${event.year} AR</span>
+              ${event.description ? `<p>${escapeHtml(event.description)}</p>` : ""}
+              ${event.sources.length ? `<p class="golarion-today-sources">${sourceLinks(event)}</p>` : ""}
+            </li>`,
+            )
+            .join("")}</ul>`
+        : `<p class="golarion-today-empty">No month-level historical events are recorded for ${escapeHtml(data.months[today.month])}.</p>`
+
       root.innerHTML = `
         <section class="golarion-today-shell" aria-label="On This Date in History">
           <header class="golarion-today-heading">
@@ -359,6 +390,10 @@
           <div class="golarion-today-section">
             <h3>On This Day</h3>
             ${anniversaryMarkup}
+          </div>
+          <div class="golarion-today-section">
+            <h3>This Month in History</h3>
+            ${monthlyHistoryMarkup}
           </div>
         </section>
       `
