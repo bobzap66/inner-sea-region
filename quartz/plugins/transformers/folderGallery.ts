@@ -8,7 +8,7 @@ const GALLERY_CSS = `
 .isr-folder-gallery {
   position: relative;
   margin: 1.5rem 0 2.5rem;
-  padding: 0.8rem 3.25rem 3.6rem;
+  padding: 0.8rem 3.25rem 2.8rem;
   border: 1px solid var(--isr-rule);
   border-radius: 0.45rem;
   background: color-mix(in srgb, var(--light) 84%, var(--lightgray) 16%);
@@ -46,7 +46,13 @@ const GALLERY_CSS = `
 }
 
 .isr-folder-gallery .isr-gallery-slide figcaption {
-  display: none;
+  display: block;
+  margin-top: 0.7rem;
+  color: var(--darkgray);
+  font-size: 0.9rem;
+  line-height: 1.35;
+  text-align: center;
+  overflow-wrap: anywhere;
 }
 
 .isr-folder-gallery .isr-gallery-button {
@@ -67,18 +73,6 @@ const GALLERY_CSS = `
 .isr-folder-gallery .isr-gallery-previous { left: 0.45rem; }
 .isr-folder-gallery .isr-gallery-next { right: 0.45rem; }
 
-.isr-folder-gallery .isr-gallery-caption {
-  position: absolute;
-  left: 3.25rem;
-  right: 3.25rem;
-  bottom: 1.45rem;
-  color: var(--darkgray);
-  font-size: 0.9rem;
-  line-height: 1.35;
-  text-align: center;
-  overflow-wrap: anywhere;
-}
-
 .isr-folder-gallery .isr-gallery-status {
   position: absolute;
   right: 0.9rem;
@@ -97,7 +91,7 @@ const GALLERY_CSS = `
 @media (max-width: 600px) {
   .isr-folder-gallery {
     padding-inline: 0.5rem;
-    padding-bottom: 4.5rem;
+    padding-bottom: 3.4rem;
   }
 
   .isr-folder-gallery .isr-gallery-button {
@@ -108,12 +102,6 @@ const GALLERY_CSS = `
 
   .isr-folder-gallery .isr-gallery-previous { left: 0.5rem; }
   .isr-folder-gallery .isr-gallery-next { left: 3.3rem; right: auto; }
-
-  .isr-folder-gallery .isr-gallery-caption {
-    left: 0.5rem;
-    right: 0.5rem;
-    bottom: 2.95rem;
-  }
 }
 `
 
@@ -129,15 +117,7 @@ const GALLERY_JS = `
 
       gallery.dataset.isrGalleryWired = "1"
 
-      const caption = document.createElement("div")
-      caption.className = "isr-gallery-caption"
-      caption.setAttribute("aria-live", "polite")
-      gallery.append(caption)
-
-      if (slides.length === 1) {
-        caption.textContent = slides[0].dataset.filename || slides[0].querySelector("figcaption")?.textContent || ""
-        return
-      }
+      if (slides.length === 1) return
 
       const previous = document.createElement("button")
       previous.type = "button"
@@ -162,7 +142,6 @@ const GALLERY_JS = `
 
       const updateControls = () => {
         status.textContent = (current + 1) + " / " + slides.length
-        caption.textContent = slides[current].dataset.filename || slides[current].querySelector("figcaption")?.textContent || ""
       }
 
       const goTo = (index) => {
@@ -320,7 +299,7 @@ export const FolderGallery: QuartzTransformerPlugin = () => ({
                   const loading = index === 0 ? "eager" : "lazy"
 
                   return [
-                    `<figure class="isr-gallery-slide" data-filename="${label}">`,
+                    '<figure class="isr-gallery-slide">',
                     `  <img src="${src}" alt="${label}" title="${label}" loading="${loading}" decoding="async">`,
                     `  <figcaption>${label}</figcaption>`,
                     "</figure>",
@@ -348,13 +327,12 @@ export const FolderGallery: QuartzTransformerPlugin = () => ({
   },
   externalResources() {
     return {
-      css: [{ content: GALLERY_CSS, inline: true, spaPreserve: true }],
+      css: [{ content: GALLERY_CSS, inline: true }],
       js: [
         {
           script: GALLERY_JS,
           contentType: "inline",
           loadTime: "afterDOMReady",
-          spaPreserve: true,
         },
       ],
     }
