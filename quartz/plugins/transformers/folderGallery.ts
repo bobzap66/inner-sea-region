@@ -8,7 +8,7 @@ const GALLERY_CSS = `
 .isr-folder-gallery {
   position: relative;
   margin: 1.5rem 0 2.5rem;
-  padding: 0.8rem 3.25rem 2.6rem;
+  padding: 0.8rem 3.25rem 3.6rem;
   border: 1px solid var(--isr-rule);
   border-radius: 0.45rem;
   background: color-mix(in srgb, var(--light) 84%, var(--lightgray) 16%);
@@ -46,11 +46,7 @@ const GALLERY_CSS = `
 }
 
 .isr-folder-gallery .isr-gallery-slide figcaption {
-  margin-top: 0.7rem;
-  color: var(--gray);
-  font-size: 0.88rem;
-  line-height: 1.35;
-  overflow-wrap: anywhere;
+  display: none;
 }
 
 .isr-folder-gallery .isr-gallery-button {
@@ -71,15 +67,22 @@ const GALLERY_CSS = `
 .isr-folder-gallery .isr-gallery-previous { left: 0.45rem; }
 .isr-folder-gallery .isr-gallery-next { right: 0.45rem; }
 
-.isr-folder-gallery .isr-gallery-button:disabled {
-  opacity: 0.28;
-  cursor: default;
+.isr-folder-gallery .isr-gallery-caption {
+  position: absolute;
+  left: 3.25rem;
+  right: 3.25rem;
+  bottom: 1.45rem;
+  color: var(--darkgray);
+  font-size: 0.9rem;
+  line-height: 1.35;
+  text-align: center;
+  overflow-wrap: anywhere;
 }
 
 .isr-folder-gallery .isr-gallery-status {
   position: absolute;
   right: 0.9rem;
-  bottom: 0.65rem;
+  bottom: 0.45rem;
   color: var(--gray);
   font-size: 0.82rem;
 }
@@ -94,6 +97,7 @@ const GALLERY_CSS = `
 @media (max-width: 600px) {
   .isr-folder-gallery {
     padding-inline: 0.5rem;
+    padding-bottom: 4.5rem;
   }
 
   .isr-folder-gallery .isr-gallery-button {
@@ -104,6 +108,12 @@ const GALLERY_CSS = `
 
   .isr-folder-gallery .isr-gallery-previous { left: 0.5rem; }
   .isr-folder-gallery .isr-gallery-next { left: 3.3rem; right: auto; }
+
+  .isr-folder-gallery .isr-gallery-caption {
+    left: 0.5rem;
+    right: 0.5rem;
+    bottom: 2.95rem;
+  }
 }
 `
 
@@ -119,7 +129,13 @@ const GALLERY_JS = `
 
       gallery.dataset.isrGalleryWired = "1"
 
+      const caption = document.createElement("div")
+      caption.className = "isr-gallery-caption"
+      caption.setAttribute("aria-live", "polite")
+      gallery.append(caption)
+
       if (slides.length === 1) {
+        caption.textContent = slides[0].dataset.filename || slides[0].querySelector("figcaption")?.textContent || ""
         return
       }
 
@@ -145,13 +161,12 @@ const GALLERY_JS = `
       let scrollTimer
 
       const updateControls = () => {
-        previous.disabled = current <= 0
-        next.disabled = current >= slides.length - 1
         status.textContent = (current + 1) + " / " + slides.length
+        caption.textContent = slides[current].dataset.filename || slides[current].querySelector("figcaption")?.textContent || ""
       }
 
       const goTo = (index) => {
-        current = Math.max(0, Math.min(slides.length - 1, index))
+        current = ((index % slides.length) + slides.length) % slides.length
         slides[current].scrollIntoView({
           behavior: window.matchMedia("(prefers-reduced-motion: reduce)").matches ? "auto" : "smooth",
           block: "nearest",
@@ -305,7 +320,7 @@ export const FolderGallery: QuartzTransformerPlugin = () => ({
                   const loading = index === 0 ? "eager" : "lazy"
 
                   return [
-                    '<figure class="isr-gallery-slide">',
+                    `<figure class="isr-gallery-slide" data-filename="${label}">`,
                     `  <img src="${src}" alt="${label}" title="${label}" loading="${loading}" decoding="async">`,
                     `  <figcaption>${label}</figcaption>`,
                     "</figure>",
