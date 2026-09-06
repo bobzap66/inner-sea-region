@@ -7,7 +7,7 @@ const CONTENT_ROOT = path.resolve("content")
 const STATIC_OUTPUT = path.resolve("quartz/static/golarion-events.json")
 const PUBLIC_OUTPUT = path.resolve("public/static/golarion-events.json")
 const CALENDARIUM_DATA = path.resolve("content/.obsidian/plugins/calendarium/data.json")
-const HISTORICAL_DATA = path.resolve("content/golarion-timegraphics-history-reshaped.json")
+const HISTORICAL_DATA = path.resolve("content/metadata/golarion-timegraphics-history-reshaped.json")
 const CALENDAR_NAME = "Calendar of Golarion"
 const MONTHS = [
   "Abadius",
