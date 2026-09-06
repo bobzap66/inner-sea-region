@@ -1,4 +1,5 @@
 import { loadQuartzConfig, loadQuartzLayout } from "./quartz/plugins/loader/config-loader"
+import { FolderGallery } from "./quartz/plugins/transformers/folderGallery"
 import { Explorer } from "@quartz-community/explorer"
 
 const dossierOrder = [
@@ -57,5 +58,7 @@ Explorer({
 })
 
 const config = await loadQuartzConfig()
+config.plugins.transformers.push(FolderGallery())
+
 export default config
 export const layout = await loadQuartzLayout()
