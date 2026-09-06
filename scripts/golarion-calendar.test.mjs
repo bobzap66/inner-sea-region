@@ -68,6 +68,37 @@ test("On This Date in History renders holidays and deduplicated anniversaries", 
         source: "future-source",
         campaign: "First Campaign",
       },
+      {
+        name: "A More Recent Historic Event",
+        year: 4724,
+        month: 8,
+        day: 3,
+        source: "recent-source",
+        campaign: "First Campaign",
+      },
+      {
+        name: "A Month-Level Historic Event",
+        year: 4700,
+        month: 8,
+        datePrecision: "month",
+        kind: "historical",
+        description: "The source identifies Rova, but not a specific day.",
+        source: "https://example.com/month-source",
+      },
+      {
+        name: "A More Recent Month-Level Event",
+        year: 4710,
+        month: 8,
+        datePrecision: "month",
+        kind: "historical",
+      },
+      {
+        name: "A Future Month-Level Event",
+        year: 4727,
+        month: 8,
+        datePrecision: "month",
+        kind: "historical",
+      },
     ],
   }
 
@@ -95,6 +126,20 @@ test("On This Date in History renders holidays and deduplicated anniversaries", 
   assert.match(root.innerHTML, /5 years ago/)
   assert.match(root.innerHTML, /first-source/)
   assert.match(root.innerHTML, /second-source/)
+  assert.ok(
+    root.innerHTML.indexOf("A More Recent Historic Event") <
+      root.innerHTML.indexOf("A Historic Event"),
+  )
+  assert.match(root.innerHTML, /This Month in History/)
+  assert.match(root.innerHTML, /A Month-Level Historic Event/)
+  assert.match(root.innerHTML, /A More Recent Month-Level Event/)
+  assert.match(root.innerHTML, /26 years ago · Rova 4700 AR/)
+  assert.match(root.innerHTML, /month-source/)
+  assert.ok(
+    root.innerHTML.indexOf("A More Recent Month-Level Event") <
+      root.innerHTML.indexOf("A Month-Level Historic Event"),
+  )
   assert.doesNotMatch(root.innerHTML, /A Future Event/)
+  assert.doesNotMatch(root.innerHTML, /A Future Month-Level Event/)
   assert.equal((root.innerHTML.match(/<strong>A Historic Event<\/strong>/g) ?? []).length, 1)
 })
