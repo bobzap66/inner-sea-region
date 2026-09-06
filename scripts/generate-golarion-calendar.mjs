@@ -128,27 +128,47 @@ async function readHolidays() {
 
 async function readHistoricalEvents() {
   try {
-    const raw = JSON.parse(await fs.readFile(HISTORICAL_DATA, "utf8"))
-    return (raw.events ?? [])
-      .filter(
-        (event) =>
-          Number.isInteger(event.year) &&
-          Number.isInteger(event.month) &&
-          event.month >= 0 &&
-          event.month < MONTHS.length &&
-          Number.isInteger(event.day),
-      )
-      .map((event) => ({
-        year: event.year,
-        month: event.month,
-        monthName: MONTHS[event.month],
-        day: event.day,
-        name: event.name || "Untitled historical event",
-        category: event.category || "Golarion History",
-        kind: "historical",
-        source: event.source || null,
-        timeGraphicsEventId: event.timeGraphicsEventId ?? null,
-      }))
+    const manifest = JSON.parse(await fs.readFile(HISTORICAL_DATA, "utf8"))
+    let sourceEvents = manifest.events ?? []
+
+    if (!sourceEvents.length && Array.isArray(manifest.parts)) {
+      sourceEvents = []
+      for (const partName of manifest.parts) {
+        const partPath = path.resolve(path.dirname(HISTORICAL_DATA), partName)
+        const part = JSON.parse(await fs.readFile(partPath, "utf8"))
+        sourceEvents.push(...(part.events ?? []))
+      }
+    }
+
+    return sourceEvents
+      .filter((event) => {
+        if (!Number.isInteger(event.year)) return false
+        const precision = event.datePrecision || "day"
+        if (!new Set(["year", "month", "day"]).has(precision)) return false
+        if (precision === "year") return true
+        if (!Number.isInteger(event.month) || event.month < 0 || event.month >= MONTHS.length)
+          return false
+        if (precision === "month") return true
+        return Number.isInteger(event.day)
+      })
+      .map((event) => {
+        const precision = event.datePrecision || "day"
+        const historicalEvent = {
+          year: event.year,
+          datePrecision: precision,
+          name: event.name || "Untitled historical event",
+          category: event.category || "Golarion History",
+          kind: "historical",
+          source: event.source || null,
+          timeGraphicsEventId: event.timeGraphicsEventId ?? null,
+        }
+        if (precision === "month" || precision === "day") {
+          historicalEvent.month = event.month
+          historicalEvent.monthName = MONTHS[event.month]
+        }
+        if (precision === "day") historicalEvent.day = event.day
+        return historicalEvent
+      })
   } catch (error) {
     console.warn(`Could not load historical events: ${error.message}`)
     return []
@@ -169,6 +189,7 @@ for (const file of files) {
     if (!date) continue
     events.push({
       ...date,
+      datePrecision: "day",
       name: attrs.name || "Untitled event",
       category: attrs.category || "Miscellaneous Events",
       campaign: campaignFromFile(file),
@@ -182,7 +203,11 @@ const historicalEvents = await readHistoricalEvents()
 events.push(...historicalEvents)
 
 events.sort(
-  (a, b) => a.year - b.year || a.month - b.month || a.day - b.day || a.name.localeCompare(b.name),
+  (a, b) =>
+    a.year - b.year ||
+    (a.month ?? -1) - (b.month ?? -1) ||
+    (a.day ?? -1) - (b.day ?? -1) ||
+    a.name.localeCompare(b.name),
 )
 
 const payload = {
