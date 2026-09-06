@@ -117,6 +117,39 @@
         const details = root.querySelector(".golarion-calendar-details")
         if (!details) return
         const events = eventsForDate(year, month, selectedDay)
+        const monthHistory =
+          filter === "all"
+            ? campaignEvents.filter(
+                (event) =>
+                  event.kind === "historical" &&
+                  event.datePrecision === "month" &&
+                  event.year === year &&
+                  event.month === month,
+              )
+            : []
+        const yearHistory =
+          filter === "all"
+            ? campaignEvents.filter(
+                (event) =>
+                  event.kind === "historical" &&
+                  event.datePrecision === "year" &&
+                  event.year === year,
+              )
+            : []
+        const precisionSection = (heading, matchingEvents, dateLabel) =>
+          matchingEvents.length
+            ? `<section class="golarion-calendar-period-history">
+                <h4>${heading}</h4>
+                <ul>${matchingEvents
+                  .map((event) => {
+                    const title = event.source
+                      ? `<a href="${sourceHref(event.source)}"${/^https?:\/\//i.test(event.source) ? ' target="_blank" rel="noopener noreferrer"' : ""}>${escapeHtml(event.name)}</a>`
+                      : `<strong>${escapeHtml(event.name)}</strong>`
+                    return `<li>${title}<span>Golarion History · ${dateLabel}</span>${event.description ? `<p>${escapeHtml(event.description)}</p>` : ""}</li>`
+                  })
+                  .join("")}</ul>
+              </section>`
+            : ""
         details.innerHTML = `
           <h3>${escapeHtml(months[month])} ${selectedDay}, ${year} AR</h3>
           ${
@@ -137,6 +170,8 @@
                   .join("")}</ul>`
               : "<p>No recorded events on this date.</p>"
           }
+          ${precisionSection("This Month", monthHistory, `${escapeHtml(months[month])} ${year} AR`)}
+          ${precisionSection("This Year", yearHistory, `${year} AR`)}
         `
       }
 
