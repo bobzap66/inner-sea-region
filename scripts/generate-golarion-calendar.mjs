@@ -8,6 +8,7 @@ const STATIC_OUTPUT = path.resolve("quartz/static/golarion-events.json")
 const PUBLIC_OUTPUT = path.resolve("public/static/golarion-events.json")
 const CALENDARIUM_DATA = path.resolve("content/.obsidian/plugins/calendarium/data.json")
 const HISTORICAL_DATA = path.resolve("content/Meta/Chronicler Voices/golarion-timegraphics-history-reshaped.json")
+const VERIFIED_ANNIVERSARIES = path.resolve("content/Meta/Chronicler Voices/golarion-verified-anniversaries.json")
 const CALENDAR_NAME = "Calendar of Golarion"
 const MONTHS = [
   "Abadius",
@@ -126,6 +127,35 @@ async function readHolidays() {
   }
 }
 
+function normalizeHistoricalEvent(event) {
+  if (!Number.isInteger(event.year)) return null
+  const precision = event.datePrecision || "day"
+  if (!new Set(["year", "month", "day"]).has(precision)) return null
+  if (precision !== "year") {
+    if (!Number.isInteger(event.month) || event.month < 0 || event.month >= MONTHS.length) return null
+  }
+  if (precision === "day" && !Number.isInteger(event.day)) return null
+
+  const historicalEvent = {
+    year: event.year,
+    datePrecision: precision,
+    name: event.name || "Untitled historical event",
+    description: event.description || "",
+    category: event.category || "Golarion History",
+    kind: "historical",
+    source: event.source || null,
+    sourceTitle: event.sourceTitle || null,
+    verification: event.verification || null,
+    timeGraphicsEventId: event.timeGraphicsEventId ?? null,
+  }
+  if (precision === "month" || precision === "day") {
+    historicalEvent.month = event.month
+    historicalEvent.monthName = MONTHS[event.month]
+  }
+  if (precision === "day") historicalEvent.day = event.day
+  return historicalEvent
+}
+
 async function readHistoricalEvents() {
   try {
     const manifest = JSON.parse(await fs.readFile(HISTORICAL_DATA, "utf8"))
@@ -140,37 +170,19 @@ async function readHistoricalEvents() {
       }
     }
 
-    return sourceEvents
-      .filter((event) => {
-        if (!Number.isInteger(event.year)) return false
-        const precision = event.datePrecision || "day"
-        if (!new Set(["year", "month", "day"]).has(precision)) return false
-        if (precision === "year") return true
-        if (!Number.isInteger(event.month) || event.month < 0 || event.month >= MONTHS.length)
-          return false
-        if (precision === "month") return true
-        return Number.isInteger(event.day)
-      })
-      .map((event) => {
-        const precision = event.datePrecision || "day"
-        const historicalEvent = {
-          year: event.year,
-          datePrecision: precision,
-          name: event.name || "Untitled historical event",
-          category: event.category || "Golarion History",
-          kind: "historical",
-          source: event.source || null,
-          timeGraphicsEventId: event.timeGraphicsEventId ?? null,
-        }
-        if (precision === "month" || precision === "day") {
-          historicalEvent.month = event.month
-          historicalEvent.monthName = MONTHS[event.month]
-        }
-        if (precision === "day") historicalEvent.day = event.day
-        return historicalEvent
-      })
+    return sourceEvents.map(normalizeHistoricalEvent).filter(Boolean)
   } catch (error) {
     console.warn(`Could not load historical events: ${error.message}`)
+    return []
+  }
+}
+
+async function readVerifiedAnniversaries() {
+  try {
+    const raw = JSON.parse(await fs.readFile(VERIFIED_ANNIVERSARIES, "utf8"))
+    return (raw.events ?? []).map(normalizeHistoricalEvent).filter(Boolean)
+  } catch (error) {
+    console.warn(`Could not load verified anniversaries: ${error.message}`)
     return []
   }
 }
@@ -200,7 +212,8 @@ for (const file of files) {
 }
 
 const historicalEvents = await readHistoricalEvents()
-events.push(...historicalEvents)
+const verifiedAnniversaries = await readVerifiedAnniversaries()
+events.push(...historicalEvents, ...verifiedAnniversaries)
 
 events.sort(
   (a, b) =>
@@ -227,5 +240,5 @@ for (const target of [STATIC_OUTPUT, PUBLIC_OUTPUT]) {
   await fs.writeFile(target, output, "utf8")
 }
 console.log(
-  `Generated ${events.length - historicalEvents.length} campaign events, ${historicalEvents.length} historical events, ${payload.holidays.length} holidays, and ${payload.campaigns.length} campaigns`,
+  `Generated ${events.length - historicalEvents.length - verifiedAnniversaries.length} campaign events, ${historicalEvents.length} timeline events, ${verifiedAnniversaries.length} verified anniversaries, ${payload.holidays.length} holidays, and ${payload.campaigns.length} campaigns`,
 )
