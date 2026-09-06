@@ -4,6 +4,216 @@ import { QuartzTransformerPlugin } from "../types"
 
 const IMAGE_EXTENSIONS = new Set([".avif", ".gif", ".jpeg", ".jpg", ".png", ".webp"])
 
+const GALLERY_CSS = `
+.isr-folder-gallery {
+  position: relative;
+  margin: 1.5rem 0 2.5rem;
+  padding: 0.8rem 3.25rem 2.6rem;
+  border: 1px solid var(--isr-rule);
+  border-radius: 0.45rem;
+  background: color-mix(in srgb, var(--light) 84%, var(--lightgray) 16%);
+  box-shadow: inset 0 0 0 3px color-mix(in srgb, var(--light) 75%, transparent);
+}
+
+.isr-folder-gallery .isr-gallery-track {
+  display: flex;
+  gap: 1rem;
+  overflow-x: auto;
+  scroll-snap-type: x mandatory;
+  scrollbar-width: none;
+  overscroll-behavior-x: contain;
+}
+
+.isr-folder-gallery .isr-gallery-track::-webkit-scrollbar {
+  display: none;
+}
+
+.isr-folder-gallery .isr-gallery-slide {
+  flex: 0 0 100%;
+  min-width: 0;
+  margin: 0;
+  scroll-snap-align: start;
+  scroll-snap-stop: always;
+  text-align: center;
+}
+
+.isr-folder-gallery .isr-gallery-slide img {
+  display: block;
+  width: 100%;
+  max-height: min(68vh, 46rem);
+  margin: 0 auto;
+  object-fit: contain;
+}
+
+.isr-folder-gallery .isr-gallery-slide figcaption {
+  margin-top: 0.7rem;
+  color: var(--gray);
+  font-size: 0.88rem;
+  line-height: 1.35;
+  overflow-wrap: anywhere;
+}
+
+.isr-folder-gallery .isr-gallery-button {
+  position: absolute;
+  top: 50%;
+  z-index: 2;
+  width: 2.4rem;
+  height: 2.4rem;
+  border: 1px solid var(--isr-rule);
+  border-radius: 999px;
+  background: color-mix(in srgb, var(--light) 88%, transparent);
+  color: var(--dark);
+  font: 400 1.8rem/1 system-ui, sans-serif;
+  cursor: pointer;
+  transform: translateY(-70%);
+}
+
+.isr-folder-gallery .isr-gallery-previous { left: 0.45rem; }
+.isr-folder-gallery .isr-gallery-next { right: 0.45rem; }
+
+.isr-folder-gallery .isr-gallery-button:disabled {
+  opacity: 0.28;
+  cursor: default;
+}
+
+.isr-folder-gallery .isr-gallery-status {
+  position: absolute;
+  right: 0.9rem;
+  bottom: 0.65rem;
+  color: var(--gray);
+  font-size: 0.82rem;
+}
+
+.isr-gallery-error,
+.isr-gallery-empty {
+  padding: 0.75rem 1rem;
+  border-left: 3px solid var(--tertiary);
+  background: var(--highlight);
+}
+
+@media (max-width: 600px) {
+  .isr-folder-gallery {
+    padding-inline: 0.5rem;
+  }
+
+  .isr-folder-gallery .isr-gallery-button {
+    top: auto;
+    bottom: 0.45rem;
+    transform: none;
+  }
+
+  .isr-folder-gallery .isr-gallery-previous { left: 0.5rem; }
+  .isr-folder-gallery .isr-gallery-next { left: 3.3rem; right: auto; }
+}
+`
+
+const GALLERY_JS = `
+(() => {
+  const wireFolderGalleries = () => {
+    document.querySelectorAll("[data-isr-gallery]").forEach((gallery) => {
+      if (gallery.dataset.isrGalleryWired === "1") return
+
+      const track = gallery.querySelector(".isr-gallery-track")
+      const slides = Array.from(gallery.querySelectorAll(":scope .isr-gallery-slide"))
+      if (!track || slides.length === 0) return
+
+      gallery.dataset.isrGalleryWired = "1"
+
+      if (slides.length === 1) {
+        return
+      }
+
+      const previous = document.createElement("button")
+      previous.type = "button"
+      previous.className = "isr-gallery-button isr-gallery-previous"
+      previous.setAttribute("aria-label", "Previous image")
+      previous.textContent = "‹"
+
+      const next = document.createElement("button")
+      next.type = "button"
+      next.className = "isr-gallery-button isr-gallery-next"
+      next.setAttribute("aria-label", "Next image")
+      next.textContent = "›"
+
+      const status = document.createElement("div")
+      status.className = "isr-gallery-status"
+      status.setAttribute("aria-live", "polite")
+
+      gallery.append(previous, next, status)
+
+      let current = 0
+      let scrollTimer
+
+      const updateControls = () => {
+        previous.disabled = current <= 0
+        next.disabled = current >= slides.length - 1
+        status.textContent = (current + 1) + " / " + slides.length
+      }
+
+      const goTo = (index) => {
+        current = Math.max(0, Math.min(slides.length - 1, index))
+        slides[current].scrollIntoView({
+          behavior: window.matchMedia("(prefers-reduced-motion: reduce)").matches ? "auto" : "smooth",
+          block: "nearest",
+          inline: "start",
+        })
+        updateControls()
+      }
+
+      previous.addEventListener("click", () => goTo(current - 1))
+      next.addEventListener("click", () => goTo(current + 1))
+
+      track.addEventListener("keydown", (event) => {
+        if (event.key === "ArrowLeft") {
+          event.preventDefault()
+          goTo(current - 1)
+        } else if (event.key === "ArrowRight") {
+          event.preventDefault()
+          goTo(current + 1)
+        } else if (event.key === "Home") {
+          event.preventDefault()
+          goTo(0)
+        } else if (event.key === "End") {
+          event.preventDefault()
+          goTo(slides.length - 1)
+        }
+      })
+
+      track.addEventListener("scroll", () => {
+        window.clearTimeout(scrollTimer)
+        scrollTimer = window.setTimeout(() => {
+          const trackRect = track.getBoundingClientRect()
+          let nearest = 0
+          let nearestDistance = Infinity
+
+          slides.forEach((slide, index) => {
+            const distance = Math.abs(slide.getBoundingClientRect().left - trackRect.left)
+            if (distance < nearestDistance) {
+              nearestDistance = distance
+              nearest = index
+            }
+          })
+
+          if (nearest !== current) {
+            current = nearest
+            updateControls()
+          }
+        }, 80)
+      }, { passive: true })
+
+      updateControls()
+    })
+  }
+
+  document.addEventListener("nav", wireFolderGalleries)
+  if (document.readyState === "loading") {
+    document.addEventListener("DOMContentLoaded", wireFolderGalleries, { once: true })
+  } else {
+    wireFolderGalleries()
+  }
+})()
+`
+
 function escapeHtml(value: string) {
   return value
     .replaceAll("&", "&amp;")
@@ -120,5 +330,18 @@ export const FolderGallery: QuartzTransformerPlugin = () => ({
         }
       },
     ]
+  },
+  externalResources() {
+    return {
+      css: [{ content: GALLERY_CSS, inline: true, spaPreserve: true }],
+      js: [
+        {
+          script: GALLERY_JS,
+          contentType: "inline",
+          loadTime: "afterDOMReady",
+          spaPreserve: true,
+        },
+      ],
+    }
   },
 })
