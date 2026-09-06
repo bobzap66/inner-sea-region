@@ -51,6 +51,9 @@ jobs:
       - name: Normalize content asset paths
         run: node scripts/normalize-content-asset-paths.mjs
 
+      - name: Expand folder galleries
+        run: node scripts/expand-folder-galleries.mjs
+
       - name: Generate homepage recent notes
         run: node scripts/generate-homepage-recents.mjs
 
