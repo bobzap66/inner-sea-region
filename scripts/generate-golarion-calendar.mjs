@@ -7,6 +7,7 @@ const CONTENT_ROOT = path.resolve("content")
 const STATIC_OUTPUT = path.resolve("quartz/static/golarion-events.json")
 const PUBLIC_OUTPUT = path.resolve("public/static/golarion-events.json")
 const CALENDARIUM_DATA = path.resolve("content/.obsidian/plugins/calendarium/data.json")
+const HISTORICAL_DATA = path.resolve("content/golarion-timegraphics-history-reshaped.json")
 const CALENDAR_NAME = "Calendar of Golarion"
 const MONTHS = [
   "Abadius",
@@ -125,6 +126,35 @@ async function readHolidays() {
   }
 }
 
+async function readHistoricalEvents() {
+  try {
+    const raw = JSON.parse(await fs.readFile(HISTORICAL_DATA, "utf8"))
+    return (raw.events ?? [])
+      .filter(
+        (event) =>
+          Number.isInteger(event.year) &&
+          Number.isInteger(event.month) &&
+          event.month >= 0 &&
+          event.month < MONTHS.length &&
+          Number.isInteger(event.day),
+      )
+      .map((event) => ({
+        year: event.year,
+        month: event.month,
+        monthName: MONTHS[event.month],
+        day: event.day,
+        name: event.name || "Untitled historical event",
+        category: event.category || "Golarion History",
+        kind: "historical",
+        source: event.source || null,
+        timeGraphicsEventId: event.timeGraphicsEventId ?? null,
+      }))
+  } catch (error) {
+    console.warn(`Could not load historical events: ${error.message}`)
+    return []
+  }
+}
+
 const files = await walk(CONTENT_ROOT)
 const events = []
 
@@ -148,6 +178,9 @@ for (const file of files) {
   }
 }
 
+const historicalEvents = await readHistoricalEvents()
+events.push(...historicalEvents)
+
 events.sort(
   (a, b) => a.year - b.year || a.month - b.month || a.day - b.day || a.name.localeCompare(b.name),
 )
@@ -169,5 +202,5 @@ for (const target of [STATIC_OUTPUT, PUBLIC_OUTPUT]) {
   await fs.writeFile(target, output, "utf8")
 }
 console.log(
-  `Generated ${events.length} campaign events, ${payload.holidays.length} holidays, and ${payload.campaigns.length} campaigns`,
+  `Generated ${events.length - historicalEvents.length} campaign events, ${historicalEvents.length} historical events, ${payload.holidays.length} holidays, and ${payload.campaigns.length} campaigns`,
 )
