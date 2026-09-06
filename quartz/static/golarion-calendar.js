@@ -29,7 +29,10 @@
       .replaceAll('"', "&quot;")
       .replaceAll("'", "&#039;")
 
-  const sourceHref = (slug) => `${siteBase()}/${slug}`.replace(/\/+/g, "/")
+  const sourceHref = (source) => {
+    if (/^https?:\/\//i.test(source)) return source
+    return `${siteBase()}/${source}`.replace(/\/+/g, "/")
+  }
 
   const golarionToday = (data) => {
     const realToday = new Date()
@@ -123,9 +126,11 @@
                     const label =
                       event.kind === "holiday"
                         ? "Golarion Holiday"
-                        : event.campaign || event.category
+                        : event.kind === "historical"
+                          ? "Golarion History"
+                          : event.campaign || event.category
                     const title = event.source
-                      ? `<a href="${sourceHref(event.source)}">${escapeHtml(event.name)}</a>`
+                      ? `<a href="${sourceHref(event.source)}"${/^https?:\/\//i.test(event.source) ? ' target="_blank" rel="noopener noreferrer"' : ""}>${escapeHtml(event.name)}</a>`
                       : `<strong>${escapeHtml(event.name)}</strong>`
                     return `<li class="${event.kind === "holiday" ? "is-holiday" : "is-campaign-event"}">${title}<span>${escapeHtml(label)}</span>${event.description ? `<p>${escapeHtml(event.description)}</p>` : ""}</li>`
                   })
@@ -187,7 +192,7 @@
                 <option value="all"${filter === "all" ? " selected" : ""}>All</option>
                 ${campaignOptions}
               </select>
-              <span class="golarion-calendar-filter-note">Holidays are always shown.</span>
+              <span class="golarion-calendar-filter-note">Holidays and Golarion history are shown in All.</span>
             </div>
             <div class="golarion-calendar-toolbar">
               <button type="button" data-action="prev-year" aria-label="Previous year">«</button>
@@ -280,14 +285,20 @@
         const existing = grouped.get(key)
         if (existing) {
           if (event.source && !existing.sources.some((source) => source.slug === event.source)) {
-            existing.sources.push({ slug: event.source, campaign: event.campaign })
+            existing.sources.push({
+              slug: event.source,
+              campaign: event.campaign,
+              kind: event.kind,
+            })
           }
           continue
         }
         grouped.set(key, {
           ...event,
           yearsAgo: today.year - event.year,
-          sources: event.source ? [{ slug: event.source, campaign: event.campaign }] : [],
+          sources: event.source
+            ? [{ slug: event.source, campaign: event.campaign, kind: event.kind }]
+            : [],
         })
       }
       const anniversaries = [...grouped.values()].sort(
@@ -297,8 +308,15 @@
       const sourceLinks = (event) =>
         event.sources
           .map((source, index) => {
-            const label = source.campaign || (index === 0 ? "Source" : `Source ${index + 1}`)
-            return `<a href="${sourceHref(source.slug)}">${escapeHtml(label)}</a>`
+            const label =
+              source.campaign ||
+              (source.kind === "historical"
+                ? "Time.Graphics"
+                : index === 0
+                  ? "Source"
+                  : `Source ${index + 1}`)
+            const external = /^https?:\/\//i.test(source.slug)
+            return `<a href="${sourceHref(source.slug)}"${external ? ' target="_blank" rel="noopener noreferrer"' : ""}>${escapeHtml(label)}</a>`
           })
           .join(" · ")
 
