@@ -34,6 +34,9 @@
     return `${siteBase()}/${source}`.replace(/\/+/g, "/")
   }
 
+  const pathfinderWikiHref = (name) =>
+    `https://pathfinderwiki.com/wiki/Special:Search?search=${encodeURIComponent(name)}`
+
   const golarionToday = (data) => {
     const realToday = new Date()
     const year = realToday.getFullYear() + (data.realWorldYearOffset ?? 2700)
@@ -142,8 +145,14 @@
                 <h4>${heading}</h4>
                 <ul>${matchingEvents
                   .map((event) => {
-                    const title = event.source
-                      ? `<a href="${sourceHref(event.source)}"${/^https?:\/\//i.test(event.source) ? ' target="_blank" rel="noopener noreferrer"' : ""}>${escapeHtml(event.name)}</a>`
+                    const useWiki = event.kind === "historical" && event.datePrecision === "month"
+                    const href = useWiki
+                      ? pathfinderWikiHref(event.name)
+                      : event.source
+                        ? sourceHref(event.source)
+                        : null
+                    const title = href
+                      ? `<a href="${href}" target="_blank" rel="noopener noreferrer">${escapeHtml(event.name)}</a>`
                       : `<strong>${escapeHtml(event.name)}</strong>`
                     return `<li>${title}<span>Golarion History · ${dateLabel}</span>${event.description ? `<p>${escapeHtml(event.description)}</p>` : ""}</li>`
                   })
@@ -372,6 +381,9 @@
           })
           .join(" · ")
 
+      const monthlySourceLink = (event) =>
+        `<a href="${pathfinderWikiHref(event.name)}" target="_blank" rel="noopener noreferrer">PathfinderWiki</a>`
+
       const holidayMarkup = holidays.length
         ? `<ul class="golarion-today-list">${holidays
             .map(
@@ -406,7 +418,7 @@
               <strong>${escapeHtml(event.name)}</strong>
               <span>${event.yearsAgo === 0 ? "This year" : `${event.yearsAgo} ${event.yearsAgo === 1 ? "year" : "years"} ago`} · ${escapeHtml(data.months[event.month])} ${event.year} AR</span>
               ${event.description ? `<p>${escapeHtml(event.description)}</p>` : ""}
-              ${event.sources.length ? `<p class="golarion-today-sources">${sourceLinks(event)}</p>` : ""}
+              <p class="golarion-today-sources">${monthlySourceLink(event)}</p>
             </li>`,
             )
             .join("")}</ul>`
