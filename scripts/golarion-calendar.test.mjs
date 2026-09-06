@@ -143,3 +143,90 @@ test("On This Date in History renders holidays and deduplicated anniversaries", 
   assert.doesNotMatch(root.innerHTML, /A Future Month-Level Event/)
   assert.equal((root.innerHTML.match(/<strong>A Historic Event<\/strong>/g) ?? []).length, 1)
 })
+
+test("Calendar details render matching month-only and year-only history", async () => {
+  const details = { innerHTML: "" }
+  const root = {
+    dataset: {},
+    innerHTML: "",
+    querySelector(selector) {
+      if (selector === ".golarion-calendar-details") return details
+      return null
+    },
+    querySelectorAll() {
+      return []
+    },
+  }
+  const source = await readFile(
+    new URL("../quartz/static/golarion-calendar.js", import.meta.url),
+    "utf8",
+  )
+  const data = {
+    realWorldYearOffset: 2700,
+    months: [
+      "Abadius",
+      "Calistril",
+      "Pharast",
+      "Gozran",
+      "Desnus",
+      "Sarenith",
+      "Erastus",
+      "Arodus",
+      "Rova",
+      "Lamashan",
+      "Neth",
+      "Kuthona",
+    ],
+    weekdays: ["Moonday", "Toilday", "Wealday", "Oathday", "Fireday", "Starday", "Sunday"],
+    campaigns: [],
+    holidays: [],
+    events: [
+      {
+        name: "Rova Event",
+        year: 4726,
+        month: 8,
+        datePrecision: "month",
+        kind: "historical",
+      },
+      { name: "Year Event", year: 4726, datePrecision: "year", kind: "historical" },
+      {
+        name: "Wrong Month",
+        year: 4726,
+        month: 7,
+        datePrecision: "month",
+        kind: "historical",
+      },
+      { name: "Wrong Year", year: 4725, datePrecision: "year", kind: "historical" },
+    ],
+  }
+  class FixedDate extends Date {
+    constructor(...args) {
+      super(...(args.length ? args : ["2026-09-06T12:00:00Z"]))
+    }
+  }
+  const context = {
+    console,
+    Date: FixedDate,
+    location: { pathname: "/inner-sea-region/calendar" },
+    localStorage: { getItem: () => null, setItem() {} },
+    fetch: async () => ({ ok: true, json: async () => data }),
+    document: {
+      readyState: "complete",
+      addEventListener() {},
+      querySelector(selector) {
+        return selector === "#golarion-calendar" ? root : null
+      },
+    },
+  }
+
+  vm.runInNewContext(source, context)
+  await new Promise((resolve) => setImmediate(resolve))
+
+  assert.match(details.innerHTML, /This Month/)
+  assert.match(details.innerHTML, /Rova Event/)
+  assert.match(details.innerHTML, /Rova 4726 AR/)
+  assert.match(details.innerHTML, /This Year/)
+  assert.match(details.innerHTML, /Year Event/)
+  assert.doesNotMatch(details.innerHTML, /Wrong Month/)
+  assert.doesNotMatch(details.innerHTML, /Wrong Year/)
+})
