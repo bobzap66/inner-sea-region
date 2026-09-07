@@ -16,6 +16,7 @@ const dossierOrder = [
   "Morlibint's Dossier: On the So-Called Cult of the Canker",
   "Morlibint's Dossier: On the Training Grounds",
   "Morlibint's Dossier: On the Fleshwarping Laboratories",
+  "Morlibint's Dossier: On the Prison Level and Infernal Presence",
   "Morlibint's Dossier: Servants and Survivors",
   "Morlibint's Dossier: Wisps, Fog, and Dreams",
   "Morlibint's Dossier: The Farm",
