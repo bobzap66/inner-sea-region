@@ -1,5 +1,6 @@
 import { loadQuartzConfig, loadQuartzLayout } from "./quartz/plugins/loader/config-loader"
 import { CampaignDossiers } from "./quartz/plugins/transformers/campaignDossiers"
+import { CharacterCards } from "./quartz/plugins/transformers/characterCards"
 import { FolderGallery } from "./quartz/plugins/transformers/folderGallery"
 import { ImageMetadataGallery } from "./quartz/plugins/transformers/imageMetadataGallery"
 import { Explorer } from "@quartz-community/explorer"
@@ -15,7 +16,6 @@ const dossierOrder = [
   "Morlibint's Dossier: On the So-Called Cult of the Canker",
   "Morlibint's Dossier: On the Training Grounds",
   "Morlibint's Dossier: On the Fleshwarping Laboratories",
-  "Morlibint's Dossier: On the Prison Level and Infernal Presence",
   "Morlibint's Dossier: Servants and Survivors",
   "Morlibint's Dossier: Wisps, Fog, and Dreams",
   "Morlibint's Dossier: The Farm",
@@ -61,6 +61,7 @@ Explorer({
 const config = await loadQuartzConfig()
 config.plugins.transformers.push(FolderGallery())
 config.plugins.transformers.push(ImageMetadataGallery())
+config.plugins.transformers.push(CharacterCards())
 config.plugins.transformers.push(CampaignDossiers())
 
 export default config
