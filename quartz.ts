@@ -1,6 +1,7 @@
 import { loadQuartzConfig, loadQuartzLayout } from "./quartz/plugins/loader/config-loader"
 import { CampaignDossiers } from "./quartz/plugins/transformers/campaignDossiers"
 import { FolderGallery } from "./quartz/plugins/transformers/folderGallery"
+import { ImageMetadataGallery } from "./quartz/plugins/transformers/imageMetadataGallery"
 import { Explorer } from "@quartz-community/explorer"
 
 const dossierOrder = [
@@ -25,7 +26,6 @@ const dossierOrder = [
   "Morlibint's Dossier: The Farm Redux",
   "Morlibint's Dossier: Final Assessment",
   "Morlibint's Dossier: On Wrin Sivinxi and the Question of Lenses",
-  "Morlibint's Dossier: Nhimbaloth, the Empty Death",
   "Morlibint's Dossier: The Whispering Reeds",
   "Morlibint's Dossier: Closing Remarks",
 ]
@@ -60,6 +60,7 @@ Explorer({
 
 const config = await loadQuartzConfig()
 config.plugins.transformers.push(FolderGallery())
+config.plugins.transformers.push(ImageMetadataGallery())
 config.plugins.transformers.push(CampaignDossiers())
 
 export default config
