@@ -2,7 +2,7 @@ import fs from "node:fs"
 import path from "node:path"
 import YAML from "yaml"
 import { QuartzTransformerPlugin } from "../types"
-import { resolveRelative, simplifySlug, slugifyFilePath } from "../../util/path"
+import { simplifySlug, slugifyFilePath } from "../../util/path"
 
 const CARD_CSS = `
 .isr-character-grid {
@@ -14,8 +14,10 @@ const CARD_CSS = `
 
 .isr-character-card {
   position: relative;
+  display: flex;
   overflow: hidden;
   min-height: 20rem;
+  flex-direction: column;
   border: 1px solid var(--lightgray);
   border-radius: 0.65rem;
   background: color-mix(in srgb, var(--light) 90%, var(--lightgray) 10%);
@@ -30,13 +32,13 @@ const CARD_CSS = `
 
 .isr-character-card > a {
   display: flex;
-  height: 100%;
+  flex: 1;
   flex-direction: column;
   color: inherit;
   text-decoration: none;
 }
 
-.isr-character-card img {
+.isr-character-card-image {
   display: block;
   width: 100%;
   aspect-ratio: 4 / 5;
@@ -44,6 +46,7 @@ const CARD_CSS = `
   object-fit: cover;
   object-position: top center;
   background: var(--lightgray);
+  cursor: default;
 }
 
 .isr-character-card-copy {
@@ -185,7 +188,6 @@ export const CharacterCards: QuartzTransformerPlugin = () => {
 
         const absoluteSource = path.resolve(sourcePath)
         const relativeSource = path.relative(vaultRoot, absoluteSource).replaceAll("\\", "/")
-        const currentSlug = simplifySlug(slugifyFilePath(relativeSource as any))
         const sourceDirectory = path.dirname(absoluteSource)
         const currentDirectory = path.dirname(relativeSource).replaceAll("\\", "/")
 
@@ -203,14 +205,15 @@ export const CharacterCards: QuartzTransformerPlugin = () => {
               const status = typeof fm.status === "string" ? fm.status : ""
               const target = character.relativePath.replace(/\.md$/i, "")
               const count = vignetteCounts.get(target) ?? 0
-              const href = escapeHtml(resolveRelative(currentSlug, character.slug))
+              const slugText = String(character.slug).replaceAll("\\", "/")
+              const href = `./${escapeHtml(slugText.split("/").pop() ?? slugText)}`
               const image = portrait
-                ? `<img src="${encodeRelativeUrl(path.relative(sourceDirectory, path.resolve(vaultRoot, portrait)))}" alt="Portrait of ${escapeHtml(title)}">`
+                ? `<img class="isr-character-card-image" src="${encodeRelativeUrl(path.relative(sourceDirectory, path.resolve(vaultRoot, portrait)))}" alt="Portrait of ${escapeHtml(title)}">`
                 : ""
               return [
                 '<article class="isr-character-card">',
-                `<a href="${href}">`,
                 image,
+                `<a href="${href}" aria-label="Open ${escapeHtml(title)} dossier">`,
                 '<div class="isr-character-card-copy">',
                 `<p class="isr-character-card-name">${escapeHtml(title)}</p>`,
                 subtitle ? `<p class="isr-character-card-subtitle">${escapeHtml(subtitle)}</p>` : "",
