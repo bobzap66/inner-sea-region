@@ -31,28 +31,38 @@ const JS = `
     if (slides.length === 1) return
 
     const previous = document.createElement("button")
-    previous.type = "button"; previous.className = "isr-gallery-button isr-gallery-previous"; previous.setAttribute("aria-label", "Previous image"); previous.textContent = "‹"
+    previous.type = "button"
+    previous.className = "isr-gallery-button isr-gallery-previous"
+    previous.setAttribute("aria-label", "Previous image")
+    previous.textContent = "‹"
+
     const next = document.createElement("button")
-    next.type = "button"; next.className = "isr-gallery-button isr-gallery-next"; next.setAttribute("aria-label", "Next image"); next.textContent = "›"
+    next.type = "button"
+    next.className = "isr-gallery-button isr-gallery-next"
+    next.setAttribute("aria-label", "Next image")
+    next.textContent = "›"
+
     const status = document.createElement("div")
-    status.className = "isr-gallery-status"; status.setAttribute("aria-live", "polite")
+    status.className = "isr-gallery-status"
+    status.setAttribute("aria-live", "polite")
     gallery.append(previous, next, status)
 
-    let current = 0, scrollTimer, timer
+    let current = 0
+    let scrollTimer
+    let timer
     const interval = Math.max(0, Number(gallery.dataset.interval || 10)) * 1000
     const reducedMotion = window.matchMedia("(prefers-reduced-motion: reduce)").matches
     let paused = reducedMotion
 
     const update = () => { status.textContent = (current + 1) + " / " + slides.length }
-    const goTo = (index, manual = false) => {
-      current = ((index % slides.length) + slides.length) % slides.length
-      slides[current].scrollIntoView({ behavior: reducedMotion ? "auto" : "smooth", block:"nearest", inline:"start" })
-      update()
-      if (manual) restart()
-    }
     const stop = () => { if (timer) window.clearInterval(timer); timer = undefined }
     const start = () => { stop(); if (!paused && interval > 0) timer = window.setInterval(() => goTo(current + 1), interval) }
-    const restart = () => { start() }
+    const goTo = (index, manual = false) => {
+      current = ((index % slides.length) + slides.length) % slides.length
+      slides[current].scrollIntoView({ behavior: reducedMotion ? "auto" : "smooth", block: "nearest", inline: "start" })
+      update()
+      if (manual) start()
+    }
 
     previous.addEventListener("click", () => goTo(current - 1, true))
     next.addEventListener("click", () => goTo(current + 1, true))
@@ -60,7 +70,6 @@ const JS = `
     gallery.addEventListener("mouseleave", () => { paused = reducedMotion; start() })
     gallery.addEventListener("focusin", () => { paused = true; stop() })
     gallery.addEventListener("focusout", (event) => { if (!gallery.contains(event.relatedTarget)) { paused = reducedMotion; start() } })
-    document.addEventListener("visibilitychange", () => { if (document.hidden) stop(); else start() })
 
     track.addEventListener("keydown", (event) => {
       if (event.key === "ArrowLeft") { event.preventDefault(); goTo(current - 1, true) }
@@ -68,57 +77,182 @@ const JS = `
       else if (event.key === "Home") { event.preventDefault(); goTo(0, true) }
       else if (event.key === "End") { event.preventDefault(); goTo(slides.length - 1, true) }
     })
+
     track.addEventListener("scroll", () => {
       window.clearTimeout(scrollTimer)
       scrollTimer = window.setTimeout(() => {
         const left = track.getBoundingClientRect().left
-        let nearest = 0, distance = Infinity
-        slides.forEach((slide, index) => { const d = Math.abs(slide.getBoundingClientRect().left - left); if (d < distance) { distance = d; nearest = index } })
-        if (nearest !== current) { current = nearest; update(); restart() }
+        let nearest = 0
+        let distance = Infinity
+        slides.forEach((slide, index) => {
+          const d = Math.abs(slide.getBoundingClientRect().left - left)
+          if (d < distance) { distance = d; nearest = index }
+        })
+        if (nearest !== current) { current = nearest; update(); start() }
       }, 80)
-    }, { passive:true })
+    }, { passive: true })
 
-    update(); start()
+    document.addEventListener("visibilitychange", () => { if (document.hidden) stop(); else start() })
+    update()
+    start()
   })
+
   document.addEventListener("nav", wire)
-  if (document.readyState === "loading") document.addEventListener("DOMContentLoaded", wire, { once:true }); else wire()
+  if (document.readyState === "loading") document.addEventListener("DOMContentLoaded", wire, { once: true })
+  else wire()
 })()
 `
 
-type ImageRecord = { asset:string; title:string; caption?:string; characters:string[]; campaigns:string[]; subjects:string[]; locations:string[]; sessions:string[]; articles:string[] }
+type ImageRecord = {
+  asset: string
+  title: string
+  caption?: string
+  characters: string[]
+  campaigns: string[]
+  subjects: string[]
+  locations: string[]
+  sessions: string[]
+  articles: string[]
+}
 
-function escapeHtml(value:unknown) { return String(value ?? "").replaceAll("&","&amp;").replaceAll('"',"&quot;").replaceAll("<","&lt;").replaceAll(">","&gt;") }
-function encodeRelativeUrl(value:string) { return value.replaceAll("\\","/").split("/").map((s) => s === "." || s === ".." ? s : encodeURIComponent(s)).join("/") }
-function list(value:unknown):string[] { if (value == null) return []; return (Array.isArray(value) ? value : [value]).map(String).filter(Boolean) }
-function semanticName(value:string) { const wiki=value.match(/^\[\[([^\]|#]+)(?:#[^\]|]+)?(?:\|([^\]]+))?\]\]$/); return (wiki ? (wiki[2] ?? path.basename(wiki[1])) : value).trim().toLowerCase() }
-function matches(values:string[], wanted:unknown) { if (wanted == null || wanted === "") return true; const available=values.map(semanticName); return list(wanted).map(semanticName).every((x) => available.includes(x)) }
-function readFrontmatter(filePath:string):Record<string,any> { try { const source=fs.readFileSync(filePath,"utf8"); const m=source.match(/^---\s*\r?\n([\s\S]*?)\r?\n---(?:\r?\n|$)/); return m ? YAML.parse(m[1]) ?? {} : {} } catch { return {} } }
-function walk(directory:string):string[] { const out:string[]=[]; if (!fs.existsSync(directory)) return out; const visit=(d:string) => { for (const e of fs.readdirSync(d,{withFileTypes:true})) { if (e.name.startsWith(".")) continue; const f=path.join(d,e.name); if(e.isDirectory()) visit(f); else if(e.isFile() && e.name.toLowerCase().endsWith(".md")) out.push(f) } }; visit(directory); return out }
+function escapeHtml(value: unknown) {
+  return String(value ?? "").replaceAll("&", "&amp;").replaceAll('"', "&quot;").replaceAll("<", "&lt;").replaceAll(">", "&gt;")
+}
+
+function encodeRelativeUrl(value: string) {
+  return value.replaceAll("\\", "/").split("/").map((segment) => segment === "." || segment === ".." ? segment : encodeURIComponent(segment)).join("/")
+}
+
+function list(value: unknown): string[] {
+  if (value == null) return []
+  return (Array.isArray(value) ? value : [value]).map(String).filter(Boolean)
+}
+
+function semanticName(value: string) {
+  const wiki = value.match(/^\[\[([^\]|#]+)(?:#[^\]|]+)?(?:\|([^\]]+))?\]\]$/)
+  return (wiki ? (wiki[2] ?? path.basename(wiki[1])) : value).trim().toLowerCase()
+}
+
+function matches(values: string[], wanted: unknown) {
+  if (wanted == null || wanted === "") return true
+  const available = values.map(semanticName)
+  return list(wanted).map(semanticName).every((target) => available.includes(target))
+}
+
+function readFrontmatter(filePath: string): Record<string, any> {
+  try {
+    const source = fs.readFileSync(filePath, "utf8")
+    const match = source.match(/^---\s*\r?\n([\s\S]*?)\r?\n---(?:\r?\n|$)/)
+    return match ? YAML.parse(match[1]) ?? {} : {}
+  } catch {
+    return {}
+  }
+}
+
+function walk(directory: string): string[] {
+  const files: string[] = []
+  if (!fs.existsSync(directory)) return files
+  const visit = (current: string) => {
+    for (const entry of fs.readdirSync(current, { withFileTypes: true })) {
+      if (entry.name.startsWith(".")) continue
+      const full = path.join(current, entry.name)
+      if (entry.isDirectory()) visit(full)
+      else if (entry.isFile() && entry.name.toLowerCase().endsWith(".md")) files.push(full)
+    }
+  }
+  visit(directory)
+  return files
+}
 
 export const ImageMetadataCarousel: QuartzTransformerPlugin = () => {
-  let indexedRoot=""; let records:ImageRecord[]=[]
-  const ensureIndex=(vaultRoot:string) => {
-    if(indexedRoot===vaultRoot) return; indexedRoot=vaultRoot
-    records=walk(path.join(vaultRoot,"Image Metadata")).flatMap((filePath) => {
-      const fm=readFrontmatter(filePath); if(fm.type!=="image" || typeof fm.asset!=="string") return []
-      return [{ asset:fm.asset.replaceAll("\\","/").replace(/^\/+/,""), title:String(fm.title ?? path.basename(fm.asset,path.extname(fm.asset))), caption:typeof fm.caption==="string"?fm.caption:undefined, characters:list(fm.characters), campaigns:list(fm.campaign ?? fm.campaigns), subjects:list(fm.subjects), locations:list(fm.location ?? fm.locations), sessions:list(fm.session ?? fm.sessions), articles:list(fm.article ?? fm.articles) }]
+  let indexedRoot = ""
+  let records: ImageRecord[] = []
+
+  const ensureIndex = (vaultRoot: string) => {
+    if (indexedRoot === vaultRoot) return
+    indexedRoot = vaultRoot
+    records = walk(path.join(vaultRoot, "Image Metadata")).flatMap((filePath) => {
+      const fm = readFrontmatter(filePath)
+      if (fm.type !== "image" || typeof fm.asset !== "string") return []
+      return [{
+        asset: fm.asset.replaceAll("\\", "/").replace(/^\/+/, ""),
+        title: String(fm.title ?? path.basename(fm.asset, path.extname(fm.asset))),
+        caption: typeof fm.caption === "string" ? fm.caption : undefined,
+        characters: list(fm.characters),
+        campaigns: list(fm.campaign ?? fm.campaigns),
+        subjects: list(fm.subjects),
+        locations: list(fm.location ?? fm.locations),
+        sessions: list(fm.session ?? fm.sessions),
+        articles: list(fm.article ?? fm.articles),
+      }]
     })
   }
+
   return {
-    name:"ImageMetadataCarousel",
-    markdownPlugins(ctx) { return [() => (tree:any,file:any) => {
-      const sourcePath=file.path || file.data?.filePath; if(!sourcePath) return
-      const vaultRoot=path.resolve(ctx.argv.directory); ensureIndex(vaultRoot); const sourceDirectory=path.dirname(path.resolve(sourcePath))
-      const transform=(parent:any) => { if(!Array.isArray(parent?.children)) return; parent.children=parent.children.map((node:any) => {
-        if(node?.type!=="code" || String(node.lang ?? "").toLowerCase()!=="image-carousel") { transform(node); return node }
-        let q:Record<string,any>={}; try { q=YAML.parse(String(node.value ?? "")) ?? {} } catch { return {type:"html",value:'<p class="isr-metadata-carousel-empty">Invalid image-carousel query.</p>'} }
-        const found=records.filter((r) => matches(r.characters,q.character ?? q.characters) && matches(r.campaigns,q.campaign ?? q.campaigns) && matches(r.subjects,q.subject ?? q.subjects) && matches(r.locations,q.location ?? q.locations) && matches(r.sessions,q.session ?? q.sessions) && matches(r.articles,q.article ?? q.articles))
-        if(!found.length) return {type:"html",value:'<p class="isr-metadata-carousel-empty">No matching images are currently catalogued.</p>'}
-        const slides=found.map((r,index) => { const absolute=path.resolve(vaultRoot,r.asset); if((!absolute.startsWith(vaultRoot+path.sep)&&absolute!==vaultRoot)||!IMAGE_EXTENSIONS.has(path.extname(absolute).toLowerCase())) return ""; const src=encodeRelativeUrl(path.relative(sourceDirectory,absolute)); const caption=r.caption || r.title; return `<figure class="isr-gallery-slide"><img src="${src}" alt="${escapeHtml(caption)}" loading="${index===0?"eager":"lazy"}" decoding="async"><figcaption>${escapeHtml(caption)}</figcaption></figure>` }).filter(Boolean).join("\n")
-        const interval=Math.min(120,Math.max(0,Number(q.interval ?? 10) || 10))
-        return {type:"html",value:`<div class="isr-metadata-carousel" data-isr-metadata-carousel data-interval="${interval}"><div class="isr-gallery-track" tabindex="0" role="group" aria-roledescription="carousel" aria-label="Image carousel">${slides}</div></div>`}
-      }) }; transform(tree)
-    })] },
-    externalResources() { return { css:[{content:CSS,inline:true}], js:[{script:JS,contentType:"inline",loadTime:"afterDOMReady"}] } }
+    name: "ImageMetadataCarousel",
+    markdownPlugins(ctx) {
+      return [
+        () => (tree: any, file: any) => {
+          const sourcePath = file.path || file.data?.filePath
+          if (!sourcePath) return
+          const vaultRoot = path.resolve(ctx.argv.directory)
+          ensureIndex(vaultRoot)
+          const sourceDirectory = path.dirname(path.resolve(sourcePath))
+
+          const transform = (parent: any) => {
+            if (!Array.isArray(parent?.children)) return
+            parent.children = parent.children.map((node: any) => {
+              if (node?.type !== "code" || String(node.lang ?? "").toLowerCase() !== "image-carousel") {
+                transform(node)
+                return node
+              }
+
+              let query: Record<string, any> = {}
+              try {
+                query = YAML.parse(String(node.value ?? "")) ?? {}
+              } catch {
+                return { type: "html", value: '<p class="isr-metadata-carousel-empty">Invalid image-carousel query.</p>' }
+              }
+
+              const found = records.filter((record) =>
+                matches(record.characters, query.character ?? query.characters) &&
+                matches(record.campaigns, query.campaign ?? query.campaigns) &&
+                matches(record.subjects, query.subject ?? query.subjects) &&
+                matches(record.locations, query.location ?? query.locations) &&
+                matches(record.sessions, query.session ?? query.sessions) &&
+                matches(record.articles, query.article ?? query.articles)
+              )
+
+              if (found.length === 0) {
+                return { type: "html", value: '<p class="isr-metadata-carousel-empty">No matching images are currently catalogued.</p>' }
+              }
+
+              const slides = found.map((record, index) => {
+                const absoluteAsset = path.resolve(vaultRoot, record.asset)
+                if ((!absoluteAsset.startsWith(vaultRoot + path.sep) && absoluteAsset !== vaultRoot) || !IMAGE_EXTENSIONS.has(path.extname(absoluteAsset).toLowerCase())) return ""
+                const src = encodeRelativeUrl(path.relative(sourceDirectory, absoluteAsset))
+                const caption = record.caption || record.title
+                return `<figure class="isr-gallery-slide"><img src="${src}" alt="${escapeHtml(caption)}" loading="${index === 0 ? "eager" : "lazy"}" decoding="async"><figcaption>${escapeHtml(caption)}</figcaption></figure>`
+              }).filter(Boolean).join("\n")
+
+              const rawInterval = Number(query.interval ?? 10)
+              const interval = Number.isFinite(rawInterval) ? Math.min(120, Math.max(0, rawInterval)) : 10
+              return {
+                type: "html",
+                value: `<div class="isr-metadata-carousel" data-isr-metadata-carousel data-interval="${interval}"><div class="isr-gallery-track" tabindex="0" role="group" aria-roledescription="carousel" aria-label="Image carousel">${slides}</div></div>`,
+              }
+            })
+          }
+
+          transform(tree)
+        },
+      ]
+    },
+    externalResources() {
+      return {
+        css: [{ content: CSS, inline: true }],
+        js: [{ script: JS, contentType: "inline", loadTime: "afterDOMReady" }],
+      }
+    },
   }
 }
