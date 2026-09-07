@@ -152,6 +152,11 @@ function wikilinkTarget(value: unknown) {
   return (match ? match[1] : value).replaceAll("\\", "/").replace(/\.md$/i, "")
 }
 
+function characterKey(value: unknown) {
+  const target = wikilinkTarget(value).trim()
+  return target ? target.split("/").pop()?.toLowerCase() ?? "" : ""
+}
+
 export const CharacterCards: QuartzTransformerPlugin = () => {
   let root = ""
   let characters: CharacterNote[] = []
@@ -172,8 +177,8 @@ export const CharacterCards: QuartzTransformerPlugin = () => {
     characters = all.filter((note) => note.frontmatter?.role === "player-character")
     vignetteCounts = new Map()
     for (const note of all.filter((note) => note.frontmatter?.type === "vignette")) {
-      const target = wikilinkTarget(note.frontmatter?.character)
-      if (target) vignetteCounts.set(target, (vignetteCounts.get(target) ?? 0) + 1)
+      const key = characterKey(note.frontmatter?.character)
+      if (key) vignetteCounts.set(key, (vignetteCounts.get(key) ?? 0) + 1)
     }
   }
 
@@ -212,8 +217,7 @@ export const CharacterCards: QuartzTransformerPlugin = () => {
               const portrait = typeof fm.portrait === "string" ? fm.portrait : undefined
               const subtitle = typeof fm.card_subtitle === "string" ? fm.card_subtitle : ""
               const status = typeof fm.status === "string" ? fm.status : ""
-              const target = character.relativePath.replace(/\.md$/i, "")
-              const count = vignetteCounts.get(target) ?? 0
+              const count = vignetteCounts.get(String(title).trim().toLowerCase()) ?? 0
               const slugText = String(character.slug).replaceAll("\\", "/")
               const href = `./${escapeHtml(slugText.split("/").pop() ?? slugText)}`
               const image = portrait
