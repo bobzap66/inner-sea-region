@@ -3,6 +3,7 @@ import { CampaignDossiers } from "./quartz/plugins/transformers/campaignDossiers
 import { CharacterCards } from "./quartz/plugins/transformers/characterCards"
 import { FolderGallery } from "./quartz/plugins/transformers/folderGallery"
 import { ImageMetadataGallery } from "./quartz/plugins/transformers/imageMetadataGallery"
+import { ImageMetadataCarousel } from "./quartz/plugins/transformers/imageMetadataCarousel"
 import { Explorer } from "@quartz-community/explorer"
 
 const dossierOrder = [
@@ -62,6 +63,7 @@ Explorer({
 const config = await loadQuartzConfig()
 config.plugins.transformers.push(FolderGallery())
 config.plugins.transformers.push(ImageMetadataGallery())
+config.plugins.transformers.push(ImageMetadataCarousel())
 config.plugins.transformers.push(CharacterCards())
 config.plugins.transformers.push(CampaignDossiers())
 
