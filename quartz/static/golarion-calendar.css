@@ -183,11 +183,53 @@
   font-weight: 600;
 }
 
-.golarion-calendar-heading span {
+.golarion-calendar-toolbar .golarion-calendar-year {
+  display: inline-block;
+  min-width: 0;
+  min-height: 0;
+  margin-top: 0.08rem;
+  padding: 0;
+  border: 0;
+  background: transparent;
   color: var(--gray);
   font-size: 0.78rem;
   letter-spacing: 0.08em;
+  line-height: 1.1;
   text-transform: uppercase;
+}
+
+.golarion-calendar-toolbar .golarion-calendar-year:hover:not(:disabled) {
+  border: 0;
+  color: var(--tertiary);
+  text-decoration: underline;
+  text-underline-offset: 0.18em;
+}
+
+.golarion-calendar-year-editor {
+  display: inline-flex;
+  gap: 0.3rem;
+  align-items: center;
+  justify-content: center;
+  margin-top: 0.12rem;
+}
+
+.golarion-calendar-year-editor input {
+  width: 7.25rem;
+  min-height: 2rem;
+  padding: 0.2rem 0.4rem;
+  border: 1px solid var(--isr-rule, var(--lightgray));
+  border-radius: 0.3rem;
+  background: var(--light);
+  color: var(--dark);
+  font: inherit;
+  text-align: center;
+}
+
+.golarion-calendar-toolbar .golarion-calendar-year-editor button {
+  min-width: 2.5rem;
+  min-height: 2rem;
+  padding: 0.2rem 0.45rem;
+  font-size: 0.75rem;
 }
 
 .golarion-calendar-toolbar .golarion-calendar-today {
