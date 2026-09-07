@@ -204,9 +204,13 @@ export const CharacterCards: QuartzTransformerPlugin = () => {
           const wantedStatus = typeof query.status === "string" ? query.status.trim().toLowerCase() : ""
           const wantedGroup = typeof query.group === "string" ? query.group.trim().toLowerCase() : ""
           const excludedGroup = typeof query.exclude_group === "string" ? query.exclude_group.trim().toLowerCase() : ""
+          const recursive = query.recursive === true
 
           const cards = characters
-            .filter((character) => path.dirname(character.relativePath).replaceAll("\\", "/") === currentDirectory)
+            .filter((character) => {
+              const characterDirectory = path.dirname(character.relativePath).replaceAll("\\", "/")
+              return characterDirectory === currentDirectory || (recursive && characterDirectory.startsWith(`${currentDirectory}/`))
+            })
             .filter((character) => !wantedStatus || String(character.frontmatter?.status ?? "").trim().toLowerCase() === wantedStatus)
             .filter((character) => !wantedGroup || String(character.frontmatter?.card_group ?? "").trim().toLowerCase() === wantedGroup)
             .filter((character) => !excludedGroup || String(character.frontmatter?.card_group ?? "").trim().toLowerCase() !== excludedGroup)
@@ -219,7 +223,11 @@ export const CharacterCards: QuartzTransformerPlugin = () => {
               const status = typeof fm.status === "string" ? fm.status : ""
               const count = vignetteCounts.get(String(title).trim().toLowerCase()) ?? 0
               const slugText = String(character.slug).replaceAll("\\", "/")
-              const href = `./${escapeHtml(slugText.split("/").pop() ?? slugText)}`
+              const characterDirectory = path.dirname(character.relativePath).replaceAll("\\", "/")
+              const nestedPath = path.posix.relative(currentDirectory, character.relativePath.replace(/\.md$/i, ""))
+              const href = characterDirectory === currentDirectory
+                ? `./${escapeHtml(slugText.split("/").pop() ?? slugText)}`
+                : `./${escapeHtml(encodeRelativeUrl(nestedPath))}`
               const image = portrait
                 ? `<img class="isr-character-card-image" src="${encodeRelativeUrl(path.relative(sourceDirectory, path.resolve(vaultRoot, portrait)))}" alt="Portrait of ${escapeHtml(title)}">`
                 : ""
