@@ -4,7 +4,7 @@ const Header: QuartzComponent = ({ children, cfg }: QuartzComponentProps) => {
   const basePath = cfg.baseUrl?.includes("/")
     ? `/${cfg.baseUrl.split("/").slice(1).join("/")}`
     : ""
-  const homePath = `${basePath}/`
+  const lanternLedgerPath = `${basePath}/campaigns/kingmaker/vignettes/the-lantern-and-ledger/the-lantern-and-ledger-index`
   // Quartz's Assets emitter slugifies file paths as it copies them into public/.
   // The source folder is "lantern and ledger branding", so its published path is
   // "lantern-and-ledger-branding" rather than a URL-encoded space-separated path.
@@ -14,7 +14,7 @@ const Header: QuartzComponent = ({ children, cfg }: QuartzComponentProps) => {
 
   return (
     <header class="lantern-ledger-site-header">
-      <a class="lantern-ledger-masthead" href={homePath} aria-label="The Lantern and Ledger home">
+      <a class="lantern-ledger-masthead" href={lanternLedgerPath} aria-label="The Lantern and Ledger index">
         <picture>
           <source media="(max-width: 800px)" srcSet={compactPath} />
           <img
