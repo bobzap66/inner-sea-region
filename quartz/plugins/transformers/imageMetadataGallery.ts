@@ -19,9 +19,17 @@ type ImageRecord = {
   asset: string
   title: string
   caption?: string
-  characters: string[]
-  campaigns: string[]
+  playerCharacters: string[]
+  npcs: string[]
   subjects: string[]
+  campaigns: string[]
+  groups: string[]
+  locations: string[]
+  events: string[]
+  tags: string[]
+  sessions: string[]
+  articles: string[]
+  campaignDates: string[]
 }
 
 function escapeHtml(value: unknown) {
@@ -70,7 +78,13 @@ function matches(recordValues: string[], wanted?: unknown) {
   if (wanted == null || wanted === "") return true
   const targets = list(wanted).map(semanticName)
   const values = recordValues.map(semanticName)
-  return targets.every((target) => values.includes(target))
+  return targets.some((target) => values.includes(target))
+}
+
+function matchesDate(values: string[], wanted?: unknown) {
+  if (wanted == null || wanted === "") return true
+  const available = values.map(String)
+  return list(wanted).some((target) => available.some((value) => value === target || value.startsWith(target + "-")))
 }
 
 export const ImageMetadataGallery: QuartzTransformerPlugin = () => {
@@ -89,9 +103,17 @@ export const ImageMetadataGallery: QuartzTransformerPlugin = () => {
         asset: fm.asset.replaceAll("\\", "/").replace(/^\/+/, ""),
         title: String(fm.title ?? path.basename(fm.asset, path.extname(fm.asset))),
         caption: typeof fm.caption === "string" ? fm.caption : undefined,
-        characters: list(fm.characters),
+        playerCharacters: list(fm.player_character ?? fm.player_characters ?? fm.character ?? fm.characters),
+        npcs: list(fm.npc ?? fm.npcs),
+        subjects: list(fm.subject ?? fm.subjects),
         campaigns: list(fm.campaign ?? fm.campaigns),
-        subjects: list(fm.subjects),
+        groups: list(fm.group ?? fm.groups),
+        locations: list(fm.location ?? fm.locations),
+        events: list(fm.event ?? fm.events),
+        tags: list(fm.tag ?? fm.tags),
+        sessions: list(fm.session ?? fm.sessions),
+        articles: list(fm.article ?? fm.articles),
+        campaignDates: list(fm.campaign_date ?? fm.campaign_dates),
       }]
     })
   }
@@ -120,9 +142,17 @@ export const ImageMetadataGallery: QuartzTransformerPlugin = () => {
             }
 
             const found = records.filter((record) =>
-              matches(record.characters, query.character ?? query.characters) &&
+              matches(record.playerCharacters, query.player_character ?? query.player_characters ?? query.character ?? query.characters) &&
+              matches(record.npcs, query.npc ?? query.npcs) &&
+              matches(record.subjects, query.subject ?? query.subjects) &&
               matches(record.campaigns, query.campaign ?? query.campaigns) &&
-              matches(record.subjects, query.subject ?? query.subjects)
+              matches(record.groups, query.group ?? query.groups) &&
+              matches(record.locations, query.location ?? query.locations) &&
+              matches(record.events, query.event ?? query.events) &&
+              matches(record.tags, query.tag ?? query.tags) &&
+              matches(record.sessions, query.session ?? query.sessions) &&
+              matches(record.articles, query.article ?? query.articles) &&
+              matchesDate(record.campaignDates, query.campaign_date ?? query.campaign_dates)
             )
 
             if (found.length === 0) return { type: "html", value: '<p class="isr-metadata-gallery-empty">No matching images are currently catalogued.</p>' }
