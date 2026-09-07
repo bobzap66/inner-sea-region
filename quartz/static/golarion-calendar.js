@@ -1,6 +1,8 @@
 ;(() => {
   const MONTH_LENGTHS = [31, 28, 31, 30, 31, 30, 31, 31, 30, 31, 30, 31]
   const ANCHOR = { year: 4710, month: 1, day: 17, weekday: 3 }
+  const MIN_YEAR = -10000
+  const MAX_YEAR = 10000
 
   const siteBase = () =>
     location.pathname === "/inner-sea-region" || location.pathname.startsWith("/inner-sea-region/")
@@ -9,6 +11,7 @@
 
   const isLeapYear = (year) => year % 8 === 0
   const monthLength = (year, month) => (month === 1 && isLeapYear(year) ? 29 : MONTH_LENGTHS[month])
+  const clampYear = (value) => Math.min(MAX_YEAR, Math.max(MIN_YEAR, value))
 
   const serialDay = (year, month, day) => {
     let total = (year - 1) * 365 + Math.floor((year - 1) / 8)
@@ -74,7 +77,7 @@
       } catch (_) {}
 
       let filter = stored?.filter || "all"
-      let year = Number.isInteger(stored?.year) ? stored.year : allToday.year
+      let year = clampYear(Number.isInteger(stored?.year) ? stored.year : allToday.year)
       let month = Number.isInteger(stored?.month) ? stored.month : allToday.month
       let selectedDay = Number.isInteger(stored?.day) ? stored.day : allToday.day
 
@@ -108,7 +111,7 @@
       const jumpToFocus = () => {
         const target = focusDate()
         if (!target) return
-        year = target.year
+        year = clampYear(target.year)
         month = target.month
         selectedDay = target.day
       }
@@ -186,8 +189,9 @@
 
       const render = () => {
         const focus = focusDate()
-        const firstWeekday = weekdayFor(year, month, 1)
         const days = monthLength(year, month)
+        selectedDay = Math.min(Math.max(1, selectedDay), days)
+        const firstWeekday = weekdayFor(year, month, 1)
         const cells = []
         for (let i = 0; i < firstWeekday; i += 1)
           cells.push('<div class="golarion-calendar-day is-empty" aria-hidden="true"></div>')
@@ -227,6 +231,10 @@
             : campaignForFilter()?.currentDate
               ? "Current campaign date"
               : "No current date set"
+        const atMinYear = year <= MIN_YEAR
+        const atMaxYear = year >= MAX_YEAR
+        const atMinMonth = atMinYear && month === 0
+        const atMaxMonth = atMaxYear && month === 11
 
         root.innerHTML = `
           <section class="golarion-calendar-shell" aria-label="Golarion Calendar">
@@ -239,11 +247,14 @@
               <span class="golarion-calendar-filter-note">Holidays and Golarion history are shown in All.</span>
             </div>
             <div class="golarion-calendar-toolbar">
-              <button type="button" data-action="prev-year" aria-label="Previous year">«</button>
-              <button type="button" data-action="prev-month" aria-label="Previous month">‹</button>
-              <div class="golarion-calendar-heading"><strong>${escapeHtml(months[month])}</strong><span>${year} AR</span></div>
-              <button type="button" data-action="next-month" aria-label="Next month">›</button>
-              <button type="button" data-action="next-year" aria-label="Next year">»</button>
+              <button type="button" data-action="prev-year" aria-label="Previous year"${atMinYear ? " disabled" : ""}>«</button>
+              <button type="button" data-action="prev-month" aria-label="Previous month"${atMinMonth ? " disabled" : ""}>‹</button>
+              <div class="golarion-calendar-heading">
+                <strong>${escapeHtml(months[month])}</strong>
+                <button class="golarion-calendar-year" type="button" aria-label="Jump to a specific year" title="Jump to a specific year">${year} AR</button>
+              </div>
+              <button type="button" data-action="next-month" aria-label="Next month"${atMaxMonth ? " disabled" : ""}>›</button>
+              <button type="button" data-action="next-year" aria-label="Next year"${atMaxYear ? " disabled" : ""}>»</button>
               <button class="golarion-calendar-today" type="button" data-action="today"${focus ? "" : " disabled"}>${escapeHtml(focusLabel)}</button>
             </div>
             <div class="golarion-calendar-weekdays">${weekdays.map((day) => `<span>${escapeHtml(day.slice(0, 3))}</span>`).join("")}</div>
@@ -257,6 +268,42 @@
           jumpToFocus()
           saveView()
           render()
+        })
+
+        root.querySelector(".golarion-calendar-year")?.addEventListener("click", (event) => {
+          const button = event.currentTarget
+          const form = document.createElement("form")
+          form.className = "golarion-calendar-year-editor"
+          form.innerHTML = `
+            <input type="number" min="${MIN_YEAR}" max="${MAX_YEAR}" step="1" value="${year}" aria-label="Golarion year" />
+            <button type="submit">Go</button>
+          `
+          button.replaceWith(form)
+          const input = form.querySelector("input")
+          input?.focus()
+          input?.select()
+
+          form.addEventListener("submit", (submitEvent) => {
+            submitEvent.preventDefault()
+            const nextYear = Number(input?.value)
+            if (!Number.isInteger(nextYear) || nextYear < MIN_YEAR || nextYear > MAX_YEAR) {
+              input?.setCustomValidity(`Enter a year from ${MIN_YEAR} to ${MAX_YEAR}.`)
+              input?.reportValidity()
+              return
+            }
+            input?.setCustomValidity("")
+            year = nextYear
+            selectedDay = Math.min(selectedDay, monthLength(year, month))
+            saveView()
+            render()
+          })
+
+          input?.addEventListener("keydown", (keyEvent) => {
+            if (keyEvent.key === "Escape") {
+              keyEvent.preventDefault()
+              render()
+            }
+          })
         })
 
         root.querySelectorAll(".golarion-calendar-day[data-day]").forEach((button) => {
@@ -274,22 +321,22 @@
               month -= 1
               if (month < 0) {
                 month = 11
-                year -= 1
+                year = clampYear(year - 1)
               }
               selectedDay = 1
             } else if (action === "next-month") {
               month += 1
               if (month > 11) {
                 month = 0
-                year += 1
+                year = clampYear(year + 1)
               }
               selectedDay = 1
             } else if (action === "prev-year") {
-              year -= 1
-              selectedDay = 1
+              year = clampYear(year - 1)
+              selectedDay = Math.min(selectedDay, monthLength(year, month))
             } else if (action === "next-year") {
-              year += 1
-              selectedDay = 1
+              year = clampYear(year + 1)
+              selectedDay = Math.min(selectedDay, monthLength(year, month))
             } else if (action === "today") {
               jumpToFocus()
             }
