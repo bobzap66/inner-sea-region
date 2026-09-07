@@ -197,10 +197,14 @@ export const CharacterCards: QuartzTransformerPlugin = () => {
           let query: Record<string, any> = {}
           try { query = YAML.parse(String(node.value ?? "")) ?? {} } catch { query = {} }
           const wantedStatus = typeof query.status === "string" ? query.status.trim().toLowerCase() : ""
+          const wantedGroup = typeof query.group === "string" ? query.group.trim().toLowerCase() : ""
+          const excludedGroup = typeof query.exclude_group === "string" ? query.exclude_group.trim().toLowerCase() : ""
 
           const cards = characters
             .filter((character) => path.dirname(character.relativePath).replaceAll("\\", "/") === currentDirectory)
             .filter((character) => !wantedStatus || String(character.frontmatter?.status ?? "").trim().toLowerCase() === wantedStatus)
+            .filter((character) => !wantedGroup || String(character.frontmatter?.card_group ?? "").trim().toLowerCase() === wantedGroup)
+            .filter((character) => !excludedGroup || String(character.frontmatter?.card_group ?? "").trim().toLowerCase() !== excludedGroup)
             .sort((a, b) => Number(a.frontmatter?.card_order ?? 999) - Number(b.frontmatter?.card_order ?? 999) || String(a.frontmatter?.title ?? "").localeCompare(String(b.frontmatter?.title ?? "")))
             .map((character) => {
               const fm = character.frontmatter
