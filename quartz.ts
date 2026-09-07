@@ -1,4 +1,5 @@
 import { loadQuartzConfig, loadQuartzLayout } from "./quartz/plugins/loader/config-loader"
+import { CampaignDossiers } from "./quartz/plugins/transformers/campaignDossiers"
 import { FolderGallery } from "./quartz/plugins/transformers/folderGallery"
 import { Explorer } from "@quartz-community/explorer"
 
@@ -59,6 +60,7 @@ Explorer({
 
 const config = await loadQuartzConfig()
 config.plugins.transformers.push(FolderGallery())
+config.plugins.transformers.push(CampaignDossiers())
 
 export default config
 export const layout = await loadQuartzLayout()
