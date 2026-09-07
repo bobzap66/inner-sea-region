@@ -9,8 +9,8 @@ const Header: QuartzComponent = ({ children, cfg }: QuartzComponentProps) => {
   // The source folder is "lantern and ledger branding", so its published path is
   // "lantern-and-ledger-branding" rather than a URL-encoded space-separated path.
   const brandingRoot = `${basePath}/assets/images/lantern-and-ledger-branding`
-  const mastheadPath = `${brandingRoot}/wide_vintage_newspaper_masthead_style_illustration.png`
-  const compactPath = `${brandingRoot}/lantern-and-ledger-compact.png`
+  const mastheadPath = `${brandingRoot}/wide_vintage_newspaper_masthead_style_illustration.webp`
+  const compactPath = `${brandingRoot}/lantern-and-ledger-compact.webp`
 
   return (
     <header class="lantern-ledger-site-header">
@@ -159,7 +159,7 @@ Header.afterDOMLoaded = `
 const setLanternLedgerFavicon = () => {
   const local = location.hostname === "localhost" || location.hostname === "127.0.0.1"
   const base = local ? "" : "/inner-sea-region"
-  const href = base + "/assets/images/lantern-and-ledger-branding/lantern-and-ledger-favicon.png"
+  const href = base + "/assets/images/lantern-and-ledger-branding/lantern-and-ledger-favicon.webp"
   let icon = document.querySelector('link[rel~="icon"]')
 
   if (!icon) {
