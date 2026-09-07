@@ -194,8 +194,13 @@ export const CharacterCards: QuartzTransformerPlugin = () => {
         tree.children = tree.children.map((node: any) => {
           if (node?.type !== "code" || node.lang !== "character-cards") return node
 
+          let query: Record<string, any> = {}
+          try { query = YAML.parse(String(node.value ?? "")) ?? {} } catch { query = {} }
+          const wantedStatus = typeof query.status === "string" ? query.status.trim().toLowerCase() : ""
+
           const cards = characters
             .filter((character) => path.dirname(character.relativePath).replaceAll("\\", "/") === currentDirectory)
+            .filter((character) => !wantedStatus || String(character.frontmatter?.status ?? "").trim().toLowerCase() === wantedStatus)
             .sort((a, b) => Number(a.frontmatter?.card_order ?? 999) - Number(b.frontmatter?.card_order ?? 999) || String(a.frontmatter?.title ?? "").localeCompare(String(b.frontmatter?.title ?? "")))
             .map((character) => {
               const fm = character.frontmatter
