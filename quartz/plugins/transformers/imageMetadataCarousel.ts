@@ -125,7 +125,10 @@ function escapeHtml(value: unknown) {
 }
 
 function encodeRelativeUrl(value: string) {
-  return value.replaceAll("\\", "/").split("/").map((segment) => segment === "." || segment === ".." ? segment : encodeURIComponent(segment)).join("/")
+  return value.replaceAll("\\", "/").split("/").map((segment) => {
+    if (segment === "." || segment === "..") return segment
+    return encodeURIComponent(segment).replaceAll("%2C", ",")
+  }).join("/")
 }
 
 function list(value: unknown): string[] {
