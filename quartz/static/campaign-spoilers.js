@@ -12,19 +12,35 @@
   const siteBase = () => document.body?.dataset?.basepath || ""
 
   const normalizeRootLink = (link) => {
-    const base = siteBase()
+    const base = siteBase().replace(/\/$/, "")
     if (!base) return
 
     const href = link.getAttribute("href")
-    if (!href || !href.startsWith("/") || href.startsWith("//")) return
-    if (href === base || href.startsWith(base + "/")) return
+    if (!href || href.startsWith("#") || href.startsWith("mailto:") || href.startsWith("tel:")) return
 
-    link.setAttribute("href", `${base}${href}`.replace(/\/+/g, "/"))
+    let url
+    try {
+      url = new URL(href, location.origin)
+    } catch (_) {
+      return
+    }
+
+    if (url.origin !== location.origin) return
+    if (url.pathname === base || url.pathname.startsWith(base + "/")) return
+    if (!url.pathname.startsWith("/")) return
+
+    const normalizedPath = `${base}${url.pathname}`.replace(/\/+/g, "/")
+    link.setAttribute("href", `${normalizedPath}${url.search}${url.hash}`)
   }
 
   const normalizeInternalLinks = (root = document) => {
     if (root instanceof HTMLAnchorElement) normalizeRootLink(root)
-    root.querySelectorAll?.('a[href^="/"]').forEach(normalizeRootLink)
+    root.querySelectorAll?.("a[href]").forEach(normalizeRootLink)
+  }
+
+  const normalizeEventLink = (event) => {
+    const link = event.target instanceof Element ? event.target.closest("a[href]") : null
+    if (link instanceof HTMLAnchorElement) normalizeRootLink(link)
   }
 
   const installLinkNormalizer = () => {
@@ -50,6 +66,12 @@
       attributes: true,
       attributeFilter: ["href"],
     })
+
+    document.addEventListener("pointerover", normalizeEventLink, true)
+    document.addEventListener("focusin", normalizeEventLink, true)
+    document.addEventListener("mousedown", normalizeEventLink, true)
+    document.addEventListener("click", normalizeEventLink, true)
+
     window.__isrBasepathLinkObserver = observer
   }
 
