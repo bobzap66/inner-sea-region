@@ -2,16 +2,14 @@ import { QuartzComponent, QuartzComponentConstructor, QuartzComponentProps } fro
 import { CampaignSpoilerGate } from "./CampaignSpoilerGate"
 
 const Header: QuartzComponent = (props: QuartzComponentProps) => {
-  const { children, cfg } = props
-  const basePath = cfg.baseUrl?.includes("/")
-    ? `/${cfg.baseUrl.split("/").slice(1).join("/")}`
-    : ""
-  const lanternLedgerPath = `${basePath}/campaigns/kingmaker/vignettes/the-lantern-and-ledger/the-lantern-and-ledger-index`
-  const spoilerControllerPath = `${basePath}/static/campaign-spoilers.js`
+  const { children } = props
+  const siteRoot = "/inner-sea-region"
+  const homePath = `${siteRoot}/`
+  const spoilerControllerPath = `${siteRoot}/static/campaign-spoilers.js`
   // Quartz's Assets emitter slugifies file paths as it copies them into public/.
   // The source folder is "lantern and ledger branding", so its published path is
   // "lantern-and-ledger-branding" rather than a URL-encoded space-separated path.
-  const brandingRoot = `${basePath}/assets/images/lantern-and-ledger-branding`
+  const brandingRoot = `${siteRoot}/assets/images/lantern-and-ledger-branding`
   const mastheadPath = `${brandingRoot}/wide_vintage_newspaper_masthead_style_illustration.webp`
   const compactPath = `${brandingRoot}/lantern-and-ledger-compact.webp`
 
@@ -19,7 +17,7 @@ const Header: QuartzComponent = (props: QuartzComponentProps) => {
     <>
       <script src={spoilerControllerPath}></script>
       <header class="lantern-ledger-site-header">
-        <a class="lantern-ledger-masthead" href={lanternLedgerPath} aria-label="The Lantern and Ledger index">
+        <a class="lantern-ledger-masthead" href={homePath} aria-label="Campaign site home">
           <picture>
             <source media="(max-width: 800px)" srcSet={compactPath} />
             <img
