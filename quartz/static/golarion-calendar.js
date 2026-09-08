@@ -435,11 +435,14 @@
         .map((event) => ({
           ...event,
           yearsAgo: today.year - event.year,
-          sources: event.source
-            ? [{ slug: event.source, campaign: event.campaign, kind: event.kind }]
-            : [],
         }))
-        .sort((a, b) => b.year - a.year || a.name.localeCompare(b.name))
+
+      const yearlyHistoryDeck = [...yearlyHistory]
+      for (let i = yearlyHistoryDeck.length - 1; i > 0; i -= 1) {
+        const j = Math.floor(Math.random() * (i + 1))
+        ;[yearlyHistoryDeck[i], yearlyHistoryDeck[j]] = [yearlyHistoryDeck[j], yearlyHistoryDeck[i]]
+      }
+      let yearlyHistoryIndex = 0
 
       const sourceLinks = (event) =>
         event.sources
@@ -502,19 +505,28 @@
             .join("")}</ul>`
         : `<p class="golarion-today-empty">No month-level historical events are recorded for ${escapeHtml(data.months[today.month])}.</p>`
 
-      const yearlyHistoryMarkup = yearlyHistory.length
-        ? `<ul class="golarion-today-list">${yearlyHistory
-            .map(
-              (event) => `
+      const yearlyHistoryMarkup = () => {
+        const event = yearlyHistoryDeck[yearlyHistoryIndex]
+        if (!event) return ""
+        return `
+          <ul class="golarion-today-list">
             <li class="is-anniversary">
               <strong>${escapeHtml(event.name)}</strong>
               <span>${event.yearsAgo} years ago · ${event.year} AR</span>
               ${event.description ? `<p>${escapeHtml(event.description)}</p>` : ""}
               <p class="golarion-today-sources">${yearlySourceLink(event)}</p>
-            </li>`,
-            )
-            .join("")}</ul>`
-        : `<p class="golarion-today-empty">No century anniversaries from year-only historical events fall in ${today.year} AR.</p>`
+            </li>
+          </ul>
+          ${yearlyHistoryDeck.length > 1 ? `<button class="golarion-today-another" type="button">Show another</button>` : ""}
+        `
+      }
+
+      const yearlyHistorySection = yearlyHistoryDeck.length
+        ? `<div class="golarion-today-section">
+            <h3>This Year in History</h3>
+            <div class="golarion-today-yearly"></div>
+          </div>`
+        : ""
 
       root.innerHTML = `
         <section class="golarion-today-shell" aria-label="On This Date in History">
@@ -534,12 +546,20 @@
             <h3>This Month in History</h3>
             ${monthlyHistoryMarkup}
           </div>
-          <div class="golarion-today-section">
-            <h3>This Year in History</h3>
-            ${yearlyHistoryMarkup}
-          </div>
+          ${yearlyHistorySection}
         </section>
       `
+
+      const renderYearlyHistory = () => {
+        const container = root.querySelector(".golarion-today-yearly")
+        if (!container) return
+        container.innerHTML = yearlyHistoryMarkup()
+        container.querySelector(".golarion-today-another")?.addEventListener("click", () => {
+          yearlyHistoryIndex = (yearlyHistoryIndex + 1) % yearlyHistoryDeck.length
+          renderYearlyHistory()
+        })
+      }
+      renderYearlyHistory()
     } catch (error) {
       console.error("Failed to load On This Date in History", error)
       root.innerHTML =
