@@ -2,7 +2,7 @@ import fs from "node:fs"
 import path from "node:path"
 import YAML from "yaml"
 import { QuartzTransformerPlugin } from "../types"
-import { resolveRelative, simplifySlug, slugifyFilePath } from "../../util/path"
+import { simplifySlug, slugifyFilePath } from "../../util/path"
 
 const CARD_CSS = `
 .isr-character-grid {
@@ -195,7 +195,6 @@ export const CharacterCards: QuartzTransformerPlugin = () => {
         const relativeSource = path.relative(vaultRoot, absoluteSource).replaceAll("\\", "/")
         const sourceDirectory = path.dirname(absoluteSource)
         const currentDirectory = path.dirname(relativeSource).replaceAll("\\", "/")
-        const currentSlug = simplifySlug(slugifyFilePath(relativeSource as any))
 
         tree.children = tree.children.map((node: any) => {
           if (node?.type !== "code" || node.lang !== "character-cards") return node
@@ -223,7 +222,12 @@ export const CharacterCards: QuartzTransformerPlugin = () => {
               const subtitle = typeof fm.card_subtitle === "string" ? fm.card_subtitle : ""
               const status = typeof fm.status === "string" ? fm.status : ""
               const count = vignetteCounts.get(String(title).trim().toLowerCase()) ?? 0
-              const href = escapeHtml(resolveRelative(currentSlug, character.slug))
+              const slugText = String(character.slug).replaceAll("\\", "/")
+              const characterDirectory = path.dirname(character.relativePath).replaceAll("\\", "/")
+              const nestedPath = path.posix.relative(currentDirectory, character.relativePath.replace(/\.md$/i, ""))
+              const href = characterDirectory === currentDirectory
+                ? `./${escapeHtml(slugText.split("/").pop() ?? slugText)}`
+                : `./${escapeHtml(encodeRelativeUrl(nestedPath))}`
               const image = portrait
                 ? `<img class="isr-character-card-image" src="${encodeRelativeUrl(path.relative(sourceDirectory, path.resolve(vaultRoot, portrait)))}" alt="Portrait of ${escapeHtml(title)}">`
                 : ""
