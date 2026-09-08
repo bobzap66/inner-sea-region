@@ -45,7 +45,19 @@ const pageUrls = [...sitemap.matchAll(/<loc>(.*?)<\/loc>/g)].map((match) => matc
 const sitemapPaths = new Set(pageUrls.map((url) => new URL(url).pathname.replace(/\/$/, "")))
 const sourcesByTarget = new Map()
 const escapedBaseByTarget = new Map()
+const nonCanonicalByHref = new Map()
 const fetchFailures = []
+
+const basePath = siteRoot.pathname.replace(/\/$/, "")
+const hasLiteralBasePath = (href) => {
+  const decoded = decodeHtml(href)
+  return (
+    decoded === basePath ||
+    decoded.startsWith(`${basePath}/`) ||
+    decoded.startsWith(`${basePath}?`) ||
+    decoded.startsWith(`${basePath}#`)
+  )
+}
 
 await pooled(pageUrls, async (pageUrl) => {
   try {
@@ -59,6 +71,18 @@ await pooled(pageUrls, async (pageUrl) => {
       ...[...html.matchAll(/href="([^"]*)"/gi)].map((match) => match[1]),
       ...[...html.matchAll(/href='([^']*)'/gi)].map((match) => match[1]),
     ]
+    const anchorHrefs = [...html.matchAll(/<a\b[^>]*?\bhref\s*=\s*(["'])(.*?)\1/gi)].map(
+      (match) => match[2],
+    )
+    for (const href of anchorHrefs) {
+      const inspected = internalUrl(href, pageUrl)
+      if (!inspected || !inspected.insideBase || hasLiteralBasePath(href)) continue
+      const key = decodeHtml(href)
+      if (!nonCanonicalByHref.has(key)) {
+        nonCanonicalByHref.set(key, { target: inspected.url.href, sources: new Set() })
+      }
+      nonCanonicalByHref.get(key).sources.add(pageUrl)
+    }
     for (const href of hrefs) {
       const inspected = internalUrl(href, pageUrl)
       if (!inspected) continue
@@ -106,6 +130,13 @@ broken.sort((a, b) => a.url.localeCompare(b.url))
 const escapedBase = [...escapedBaseByTarget]
   .map(([url, sources]) => ({ url, sources: [...sources].slice(0, 5) }))
   .sort((a, b) => a.url.localeCompare(b.url))
+const nonCanonical = [...nonCanonicalByHref]
+  .map(([href, details]) => ({
+    href,
+    target: details.target,
+    sources: [...details.sources].slice(0, 5),
+  }))
+  .sort((a, b) => a.href.localeCompare(b.href))
 console.log(
   JSON.stringify(
     {
@@ -115,13 +146,17 @@ console.log(
       nonSitemapTargetsChecked: candidates.length,
       brokenCount: broken.length,
       escapedBaseCount: escapedBase.length,
+      nonCanonicalCount: nonCanonical.length,
       pageFetchFailures: fetchFailures,
       broken,
       escapedBase,
+      nonCanonical,
     },
     null,
     2,
   ),
 )
 
-if (fetchFailures.length || broken.length || escapedBase.length) process.exitCode = 1
+if (fetchFailures.length || broken.length || escapedBase.length || nonCanonical.length) {
+  process.exitCode = 1
+}
