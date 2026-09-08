@@ -9,8 +9,6 @@
       .replace(/[^a-z0-9]+/g, "-")
       .replace(/^-+|-+$/g, "")
 
-  const storageKey = (campaign) => STORAGE_PREFIX + normalizeCampaignKey(campaign)
-
   const isEnabled = (campaign) => {
     const key = normalizeCampaignKey(campaign)
     if (!key) return false
@@ -31,10 +29,12 @@
   }
 
   const applyGateState = () => {
+    const body = document.querySelector("#quartz-body")
     const gate = document.querySelector(".campaign-spoiler-gate[data-campaign-key]")
     const reset = document.querySelector(".campaign-spoiler-reset[data-campaign-key]")
 
     if (!gate) {
+      body?.classList.remove("campaign-spoiler-pending")
       document.documentElement.classList.remove("campaign-spoiler-locked")
       return
     }
@@ -43,6 +43,7 @@
     const enabled = isEnabled(key)
     gate.hidden = enabled
     if (reset) reset.hidden = !enabled
+    body?.classList.toggle("campaign-spoiler-pending", !enabled)
     document.documentElement.classList.toggle("campaign-spoiler-locked", !enabled)
   }
 
@@ -92,8 +93,6 @@
           detail: { campaign: key, enabled: false },
         }),
       )
-      // Quartz can retain the hidden gate element across SPA navigation. A full reload
-      // guarantees the now-disabled campaign is rendered in its locked state again.
       location.reload()
     }
   })
