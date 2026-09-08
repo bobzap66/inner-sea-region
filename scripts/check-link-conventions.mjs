@@ -77,14 +77,13 @@ function checkWikilinks(file, text) {
   const pattern = /(!?)\[\[([^\]|]+)(?:\|([^\]]+))?\]\]/g
 
   for (const match of text.matchAll(pattern)) {
-    const [whole, bang, rawTarget] = match
+    const [whole, , rawTarget] = match
     const offset = match.index ?? 0
     const target = String(rawTarget).trim()
     wikilinksChecked += 1
 
-    // Same-page anchors and non-note embeds are allowed.
-    if (target.startsWith("#")) continue
-    if (bang && isResource(target)) continue
+    // Same-page anchors and file/resource wikilinks are allowed.
+    if (target.startsWith("#") || isResource(target)) continue
 
     if (SAME_SITE.test(target)) {
       record(file, text, offset, "wikilink", "Internal links must never use the deployed site URL.", whole)
