@@ -3,6 +3,7 @@ import path from "node:path"
 
 const outputRoot = path.resolve(process.argv[2] ?? "public")
 const baseRoot = `/${(process.argv[3] ?? "inner-sea-region").replace(/^\/+|\/+$/g, "")}`
+const siteOrigin = new URL(process.argv[4] ?? "https://bobzap66.github.io").origin
 const htmlFiles = []
 
 async function collectHtml(dir) {
@@ -18,22 +19,63 @@ function attributeValue(tag, name) {
   return match ? (match[1] ?? match[2] ?? "") : null
 }
 
-function canonicalHref(dataSlug, originalHref) {
-  let slug = dataSlug.replace(/^\/+|\/+$/g, "")
-  const hashIndex = originalHref.indexOf("#")
-  const hash = hashIndex >= 0 ? originalHref.slice(hashIndex) : ""
+function routeFor(file) {
+  const relative = path.relative(outputRoot, file).split(path.sep).join("/")
+  if (relative === "index.html") return `${baseRoot}/`
+  return `${baseRoot}/${relative.replace(/\.html$/, "").replace(/\/index$/, "/")}`
+}
 
-  if (!slug || slug === "index") return `${baseRoot}/${hash}`
+function suffixFor(originalHref) {
+  const suffixIndex = originalHref.search(/[?#]/)
+  return suffixIndex >= 0 ? originalHref.slice(suffixIndex) : ""
+}
+
+function canonicalSlugHref(dataSlug, originalHref) {
+  let slug = dataSlug.replace(/^\/+|\/+$/g, "")
+  const suffix = suffixFor(originalHref)
+
+  if (!slug || slug === "index") return `${baseRoot}/${suffix}`
 
   if (slug.endsWith("/index")) {
     slug = slug.slice(0, -"/index".length)
-    return `${baseRoot}/${slug}/${hash}`
+    return `${baseRoot}/${slug}/${suffix}`
   }
 
-  return `${baseRoot}/${slug}${hash}`
+  return `${baseRoot}/${slug}${suffix}`
 }
 
 await collectHtml(outputRoot)
+
+const canonicalRoutes = new Map()
+for (const file of htmlFiles) {
+  const route = routeFor(file)
+  canonicalRoutes.set(route.replace(/\/$/, "") || "/", route)
+}
+
+function canonicalHref(file, originalHref, dataSlug) {
+  if (!originalHref || originalHref.startsWith("#")) return originalHref
+  if (/^(?:mailto:|tel:|javascript:|data:|blob:|\/\/)/i.test(originalHref)) return originalHref
+  if (dataSlug !== null) return canonicalSlugHref(dataSlug, originalHref)
+
+  let target
+  try {
+    target = new URL(originalHref, `${siteOrigin}${routeFor(file)}`)
+  } catch {
+    return originalHref
+  }
+
+  if (target.origin !== siteOrigin) return originalHref
+
+  let pathname = target.pathname
+  const insideBase = pathname === baseRoot || pathname.startsWith(`${baseRoot}/`)
+  if (!insideBase) {
+    pathname = `${baseRoot}${pathname}`.replace(/\/{2,}/g, "/")
+  }
+
+  const routeKey = pathname.replace(/\/$/, "") || "/"
+  pathname = canonicalRoutes.get(routeKey) ?? pathname
+  return `${pathname}${target.search}${target.hash}`
+}
 
 let filesChanged = 0
 let linksChanged = 0
@@ -43,9 +85,9 @@ for (const file of htmlFiles) {
   const rewritten = original.replace(/<a\b[^>]*>/gi, (tag) => {
     const href = attributeValue(tag, "href")
     const dataSlug = attributeValue(tag, "data-slug")
-    if (href === null || dataSlug === null) return tag
+    if (href === null) return tag
 
-    const canonical = canonicalHref(dataSlug, href)
+    const canonical = canonicalHref(file, href, dataSlug)
     if (canonical === href) return tag
 
     linksChanged++
@@ -58,4 +100,6 @@ for (const file of htmlFiles) {
   }
 }
 
-console.log(`Canonicalized ${linksChanged} rendered note link(s) across ${filesChanged} HTML file(s).`)
+console.log(
+  `Canonicalized ${linksChanged} rendered internal link(s) across ${filesChanged} HTML file(s).`,
+)

@@ -51,6 +51,7 @@ await collectOutput(outputRoot)
 const routes = new Set(htmlFiles.map(routeFor).map((route) => route.replace(/\/$/, "") || "/"))
 const brokenByTarget = new Map()
 const escapedByTarget = new Map()
+const nonCanonicalByHref = new Map()
 
 for (const file of htmlFiles) {
   const sourceRoute = routeFor(file)
@@ -65,6 +66,11 @@ for (const file of htmlFiles) {
       if (!escapedByTarget.has(inspected.target)) escapedByTarget.set(inspected.target, new Set())
       escapedByTarget.get(inspected.target).add(sourceRoute)
       continue
+    }
+
+    if (!(href === baseRoot || href.startsWith(basePath))) {
+      if (!nonCanonicalByHref.has(href)) nonCanonicalByHref.set(href, new Set())
+      nonCanonicalByHref.get(href).add(sourceRoute)
     }
 
     const target = inspected.target
@@ -82,12 +88,24 @@ const escapedBase = [...escapedByTarget]
   .map(([target, sources]) => ({ target, sources: [...sources].slice(0, 5) }))
   .sort((a, b) => a.target.localeCompare(b.target))
 
-console.log(JSON.stringify({
-  pages: htmlFiles.length,
-  brokenCount: broken.length,
-  escapedBaseCount: escapedBase.length,
-  broken,
-  escapedBase,
-}, null, 2))
+const nonCanonical = [...nonCanonicalByHref]
+  .map(([href, sources]) => ({ href, sources: [...sources].slice(0, 5) }))
+  .sort((a, b) => a.href.localeCompare(b.href))
 
-if (broken.length || escapedBase.length) process.exitCode = 1
+console.log(
+  JSON.stringify(
+    {
+      pages: htmlFiles.length,
+      brokenCount: broken.length,
+      escapedBaseCount: escapedBase.length,
+      nonCanonicalCount: nonCanonical.length,
+      broken,
+      escapedBase,
+      nonCanonical,
+    },
+    null,
+    2,
+  ),
+)
+
+if (broken.length || escapedBase.length || nonCanonical.length) process.exitCode = 1

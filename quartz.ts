@@ -32,14 +32,13 @@ const dossierOrder = [
   "Morlibint's Dossier: Closing Remarks",
 ]
 
-const normalizeTitle = (value: string | undefined) =>
-  (value ?? "").replace(/[‘’]/g, "'").trim()
+const normalizeTitle = (value: string | undefined) => (value ?? "").replace(/[‘’]/g, "'").trim()
 
 const dossierRank = new Map(dossierOrder.map((title, index) => [title, index]))
 const hiddenExplorerFolders = new Set(["tags", "assets", "image-metadata", "templates"])
 
 Explorer({
-  filterFn: (node) => !hiddenExplorerFolders.has(node.slugSegment.toLowerCase()),
+  filterFn: (node) => !hiddenExplorerFolders.has(node.slugSegment?.toLowerCase() ?? ""),
   sortFn: (a, b) => {
     const aTitle = normalizeTitle(a.displayName)
     const bTitle = normalizeTitle(b.displayName)

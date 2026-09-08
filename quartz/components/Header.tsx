@@ -2,8 +2,11 @@ import { QuartzComponent, QuartzComponentConstructor, QuartzComponentProps } fro
 import { CampaignSpoilerGate } from "./CampaignSpoilerGate"
 
 const Header: QuartzComponent = (props: QuartzComponentProps) => {
-  const { children } = props
-  const siteRoot = "/inner-sea-region"
+  const { children, cfg, ctx } = props
+  const siteRoot =
+    ctx.argv.serve || !cfg.baseUrl
+      ? ""
+      : new URL(`https://${cfg.baseUrl}`).pathname.replace(/\/$/, "")
   const homePath = `${siteRoot}/`
   const spoilerControllerPath = `${siteRoot}/static/campaign-spoilers.js`
   // Quartz's Assets emitter slugifies file paths as it copies them into public/.
@@ -171,8 +174,7 @@ Header.css = `${CampaignSpoilerGate.css ?? ""}
 
 Header.afterDOMLoaded = `
 const setLanternLedgerFavicon = () => {
-  const local = location.hostname === "localhost" || location.hostname === "127.0.0.1"
-  const base = local ? "" : "/inner-sea-region"
+  const base = (document.body?.dataset?.basepath || "").replace(/\/$/, "")
   const href = base + "/assets/images/lantern-and-ledger-branding/lantern-and-ledger-favicon.webp"
   let icon = document.querySelector('link[rel~="icon"]')
 

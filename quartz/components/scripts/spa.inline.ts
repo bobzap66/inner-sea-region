@@ -24,15 +24,25 @@ const isSamePage = (url: URL): boolean => {
   return sameOrigin && samePath
 }
 
+const withBasePath = (url: URL): URL => {
+  const basePath = (document.body.dataset.basepath ?? "").replace(/\/$/, "")
+  if (!basePath || url.origin !== window.location.origin) return url
+  if (url.pathname === basePath || url.pathname.startsWith(`${basePath}/`)) return url
+
+  const normalized = new URL(url)
+  normalized.pathname = `${basePath}${url.pathname}`.replace(/\/{2,}/g, "/")
+  return normalized
+}
+
 const getOpts = ({ target }: Event): { url: URL; scroll?: boolean } | undefined => {
   if (!isElement(target)) return
   if (target.attributes.getNamedItem("target")?.value === "_blank") return
   const a = target.closest("a")
   if (!a) return
   if ("routerIgnore" in a.dataset) return
-  const { href } = a
-  if (!isLocalUrl(href)) return
-  return { url: new URL(href), scroll: "routerNoscroll" in a.dataset ? false : undefined }
+  const url = withBasePath(new URL(a.href))
+  if (!isLocalUrl(url.href)) return
+  return { url, scroll: "routerNoscroll" in a.dataset ? false : undefined }
 }
 
 function notifyNav(url: FullSlug) {
@@ -262,9 +272,11 @@ function formatSessionRecordProperties() {
     list.style.alignItems = "flex-start"
     list.style.gap = "0.15rem"
 
-    list.querySelectorAll<HTMLElement>(":scope > .note-properties-separator").forEach((separator) => {
-      separator.style.display = "none"
-    })
+    list
+      .querySelectorAll<HTMLElement>(":scope > .note-properties-separator")
+      .forEach((separator) => {
+        separator.style.display = "none"
+      })
   }
 }
 

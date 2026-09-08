@@ -14,9 +14,11 @@ const internalUrl = (href, source) => {
   try {
     const url = new URL(decodeHtml(href), source)
     if (url.origin !== siteRoot.origin) return null
-    if (!url.pathname.startsWith(siteRoot.pathname)) return null
     url.hash = ""
-    return url
+    const insideBase =
+      url.pathname === siteRoot.pathname.replace(/\/$/, "") ||
+      url.pathname.startsWith(siteRoot.pathname)
+    return { url, insideBase }
   } catch {
     return null
   }
@@ -42,6 +44,7 @@ const sitemap = await sitemapResponse.text()
 const pageUrls = [...sitemap.matchAll(/<loc>(.*?)<\/loc>/g)].map((match) => match[1])
 const sitemapPaths = new Set(pageUrls.map((url) => new URL(url).pathname.replace(/\/$/, "")))
 const sourcesByTarget = new Map()
+const escapedBaseByTarget = new Map()
 const fetchFailures = []
 
 await pooled(pageUrls, async (pageUrl) => {
@@ -57,9 +60,14 @@ await pooled(pageUrls, async (pageUrl) => {
       ...[...html.matchAll(/href='([^']*)'/gi)].map((match) => match[1]),
     ]
     for (const href of hrefs) {
-      const target = internalUrl(href, pageUrl)
-      if (!target) continue
-      const key = target.href
+      const inspected = internalUrl(href, pageUrl)
+      if (!inspected) continue
+      const key = inspected.url.href
+      if (!inspected.insideBase) {
+        if (!escapedBaseByTarget.has(key)) escapedBaseByTarget.set(key, new Set())
+        escapedBaseByTarget.get(key).add(pageUrl)
+        continue
+      }
       if (!sourcesByTarget.has(key)) sourcesByTarget.set(key, new Set())
       sourcesByTarget.get(key).add(pageUrl)
     }
@@ -85,11 +93,19 @@ await pooled(candidates, async (url) => {
       })
     }
   } catch (error) {
-    broken.push({ status: "ERR", url, error: error.message, sources: [...sourcesByTarget.get(url)] })
+    broken.push({
+      status: "ERR",
+      url,
+      error: error.message,
+      sources: [...sourcesByTarget.get(url)],
+    })
   }
 })
 
 broken.sort((a, b) => a.url.localeCompare(b.url))
+const escapedBase = [...escapedBaseByTarget]
+  .map(([url, sources]) => ({ url, sources: [...sources].slice(0, 5) }))
+  .sort((a, b) => a.url.localeCompare(b.url))
 console.log(
   JSON.stringify(
     {
@@ -98,12 +114,14 @@ console.log(
       uniqueInternalLinks: sourcesByTarget.size,
       nonSitemapTargetsChecked: candidates.length,
       brokenCount: broken.length,
+      escapedBaseCount: escapedBase.length,
       pageFetchFailures: fetchFailures,
       broken,
+      escapedBase,
     },
     null,
     2,
   ),
 )
 
-if (fetchFailures.length || broken.length) process.exitCode = 1
+if (fetchFailures.length || broken.length || escapedBase.length) process.exitCode = 1

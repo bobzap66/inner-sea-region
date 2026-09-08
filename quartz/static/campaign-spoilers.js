@@ -16,11 +16,15 @@
     if (!base) return
 
     const href = link.getAttribute("href")
-    if (!href || href.startsWith("#") || href.startsWith("mailto:") || href.startsWith("tel:")) return
+    if (!href || href.startsWith("#") || href.startsWith("mailto:") || href.startsWith("tel:"))
+      return
 
     let url
     try {
-      url = new URL(href, location.origin)
+      // Resolve relative component links exactly as the browser would from the
+      // current page. Using location.origin here incorrectly collapsed links
+      // such as ../npcs/foo to /npcs/foo before adding the repository path.
+      url = new URL(href, location.href)
     } catch (_) {
       return
     }
@@ -122,7 +126,8 @@
   }
 
   document.addEventListener("click", (event) => {
-    const target = event.target instanceof Element ? event.target.closest("[data-spoiler-action]") : null
+    const target =
+      event.target instanceof Element ? event.target.closest("[data-spoiler-action]") : null
     if (!target) return
 
     const action = target.getAttribute("data-spoiler-action")
@@ -206,10 +211,14 @@
   })
 
   if (document.readyState === "loading") {
-    document.addEventListener("DOMContentLoaded", () => {
-      applyGateState()
-      normalizeInternalLinks()
-    }, { once: true })
+    document.addEventListener(
+      "DOMContentLoaded",
+      () => {
+        applyGateState()
+        normalizeInternalLinks()
+      },
+      { once: true },
+    )
   } else {
     applyGateState()
     normalizeInternalLinks()

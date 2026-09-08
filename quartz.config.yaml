@@ -94,6 +94,9 @@ plugins:
   - source: "@quartz-community/crawl-links"
     enabled: true
     options:
+      # Vault wikilinks are canonical paths relative to their source note.
+      # CrawlLinks resolves those targets; the rendered-link canonicalizer adds
+      # the deployment base path afterward.
       markdownLinkResolution: relative
     order: 60
   - source: "@quartz-community/description"

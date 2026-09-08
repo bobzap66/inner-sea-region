@@ -19,10 +19,7 @@
   })()
 
   const siteBase = () =>
-    calendarScriptBase ||
-    (location.pathname === "/inner-sea-region" || location.pathname.startsWith("/inner-sea-region/")
-      ? "/inner-sea-region"
-      : "")
+    (document.body?.dataset?.basepath || calendarScriptBase || "").replace(/\/$/, "")
 
   const isLeapYear = (year) => year % 8 === 0
   const monthLength = (year, month) => (month === 1 && isLeapYear(year) ? 29 : MONTH_LENGTHS[month])

@@ -108,6 +108,8 @@ test("On This Date in History renders holidays and deduplicated anniversaries", 
     location: { pathname: "/inner-sea-region/on-this-date-in-history" },
     fetch: async () => ({ ok: true, json: async () => data }),
     document: {
+      body: { dataset: { basepath: "/inner-sea-region" } },
+      scripts: [],
       readyState: "complete",
       addEventListener() {},
       querySelector(selector) {
@@ -126,6 +128,7 @@ test("On This Date in History renders holidays and deduplicated anniversaries", 
   assert.match(root.innerHTML, /5 years ago/)
   assert.match(root.innerHTML, /first-source/)
   assert.match(root.innerHTML, /second-source/)
+  assert.match(root.innerHTML, /href="\/inner-sea-region\/first-source"/)
   assert.ok(
     root.innerHTML.indexOf("A More Recent Historic Event") <
       root.innerHTML.indexOf("A Historic Event"),
@@ -134,7 +137,8 @@ test("On This Date in History renders holidays and deduplicated anniversaries", 
   assert.match(root.innerHTML, /A Month-Level Historic Event/)
   assert.match(root.innerHTML, /A More Recent Month-Level Event/)
   assert.match(root.innerHTML, /26 years ago · Rova 4700 AR/)
-  assert.match(root.innerHTML, /month-source/)
+  assert.doesNotMatch(root.innerHTML, /month-source/)
+  assert.match(root.innerHTML, /pathfinderwiki\.com\/wiki\/Special:Search/)
   assert.ok(
     root.innerHTML.indexOf("A More Recent Month-Level Event") <
       root.innerHTML.indexOf("A Month-Level Historic Event"),
@@ -211,6 +215,8 @@ test("Calendar details render matching month-only and year-only history", async 
     localStorage: { getItem: () => null, setItem() {} },
     fetch: async () => ({ ok: true, json: async () => data }),
     document: {
+      body: { dataset: { basepath: "/inner-sea-region" } },
+      scripts: [],
       readyState: "complete",
       addEventListener() {},
       querySelector(selector) {

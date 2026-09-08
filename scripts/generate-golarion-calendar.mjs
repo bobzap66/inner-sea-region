@@ -3,12 +3,18 @@ import path from "node:path"
 import { simplifySlug, slugifyFilePath } from "@quartz-community/utils"
 import YAML from "yaml"
 
-const CONTENT_ROOT = path.resolve("content")
+const CONTENT_ROOT = path.resolve(process.argv[2] ?? "content")
 const STATIC_OUTPUT = path.resolve("quartz/static/golarion-events.json")
 const PUBLIC_OUTPUT = path.resolve("public/static/golarion-events.json")
-const CALENDARIUM_DATA = path.resolve("content/.obsidian/plugins/calendarium/data.json")
-const HISTORICAL_DATA = path.resolve("content/Meta/Chronicler Voices/golarion-timegraphics-history-reshaped.json")
-const VERIFIED_ANNIVERSARIES = path.resolve("content/Meta/Chronicler Voices/golarion-verified-anniversaries.json")
+const CALENDARIUM_DATA = path.join(CONTENT_ROOT, ".obsidian/plugins/calendarium/data.json")
+const HISTORICAL_DATA = path.join(
+  CONTENT_ROOT,
+  "Meta/Chronicler Voices/golarion-timegraphics-history-reshaped.json",
+)
+const VERIFIED_ANNIVERSARIES = path.join(
+  CONTENT_ROOT,
+  "Meta/Chronicler Voices/golarion-verified-anniversaries.json",
+)
 const CALENDAR_NAME = "Calendar of Golarion"
 const MONTHS = [
   "Abadius",
@@ -83,7 +89,11 @@ async function readCampaigns(files) {
   for (const file of files) {
     const rel = path.relative(CONTENT_ROOT, file).replace(/\\/g, "/")
     const match = /^Campaigns\/([^/]+)\/([^/]+)\.md$/i.exec(rel)
-    if (!match || match[1] !== match[2]) continue
+    if (
+      !match ||
+      (match[1].toLowerCase() !== match[2].toLowerCase() && match[2].toLowerCase() !== "index")
+    )
+      continue
     const text = await fs.readFile(file, "utf8")
     const fm = parseFrontmatter(text)
     if (fm.type !== "campaign" || fm.calendar !== CALENDAR_NAME) continue
@@ -132,7 +142,8 @@ function normalizeHistoricalEvent(event) {
   const precision = event.datePrecision || "day"
   if (!new Set(["year", "month", "day"]).has(precision)) return null
   if (precision !== "year") {
-    if (!Number.isInteger(event.month) || event.month < 0 || event.month >= MONTHS.length) return null
+    if (!Number.isInteger(event.month) || event.month < 0 || event.month >= MONTHS.length)
+      return null
   }
   if (precision === "day" && !Number.isInteger(event.day)) return null
 
