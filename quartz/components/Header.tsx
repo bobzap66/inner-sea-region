@@ -18,7 +18,6 @@ const Header: QuartzComponent = (props: QuartzComponentProps) => {
   return (
     <>
       <script src={spoilerControllerPath}></script>
-      <CampaignSpoilerGate {...props} />
       <header class="lantern-ledger-site-header">
         <a class="lantern-ledger-masthead" href={lanternLedgerPath} aria-label="The Lantern and Ledger index">
           <picture>
@@ -39,12 +38,14 @@ const Header: QuartzComponent = (props: QuartzComponentProps) => {
 }
 
 Header.css = `${CampaignSpoilerGate.css ?? ""}
-#quartz-body.campaign-spoiler-pending > * {
+#quartz-body.campaign-spoiler-pending > :not(.campaign-spoiler-gate):not(.campaign-spoiler-reset) {
   visibility: hidden !important;
+  pointer-events: none !important;
 }
 
-#quartz-body.campaign-spoiler-pending .campaign-spoiler-gate {
+#quartz-body.campaign-spoiler-pending > .campaign-spoiler-gate {
   visibility: visible !important;
+  pointer-events: auto !important;
 }
 
 :root {
