@@ -1,6 +1,8 @@
 import { QuartzComponent, QuartzComponentConstructor, QuartzComponentProps } from "./types"
+import { CampaignSpoilerGate } from "./CampaignSpoilerGate"
 
-const Header: QuartzComponent = ({ children, cfg }: QuartzComponentProps) => {
+const Header: QuartzComponent = (props: QuartzComponentProps) => {
+  const { children, cfg } = props
   const basePath = cfg.baseUrl?.includes("/")
     ? `/${cfg.baseUrl.split("/").slice(1).join("/")}`
     : ""
@@ -13,25 +15,28 @@ const Header: QuartzComponent = ({ children, cfg }: QuartzComponentProps) => {
   const compactPath = `${brandingRoot}/lantern-and-ledger-compact.webp`
 
   return (
-    <header class="lantern-ledger-site-header">
-      <a class="lantern-ledger-masthead" href={lanternLedgerPath} aria-label="The Lantern and Ledger index">
-        <picture>
-          <source media="(max-width: 800px)" srcSet={compactPath} />
-          <img
-            src={mastheadPath}
-            alt="The Lantern and Ledger — Light for the Present. Record for the Future."
-          />
-        </picture>
-      </a>
-      <div class="lantern-ledger-archive-rule" aria-hidden="true">
-        <span>THE LANTERN AND LEDGER · ARCHIVES</span>
-      </div>
-      {children.length > 0 && <div class="lantern-ledger-header-children">{children}</div>}
-    </header>
+    <>
+      <CampaignSpoilerGate {...props} />
+      <header class="lantern-ledger-site-header">
+        <a class="lantern-ledger-masthead" href={lanternLedgerPath} aria-label="The Lantern and Ledger index">
+          <picture>
+            <source media="(max-width: 800px)" srcSet={compactPath} />
+            <img
+              src={mastheadPath}
+              alt="The Lantern and Ledger — Light for the Present. Record for the Future."
+            />
+          </picture>
+        </a>
+        <div class="lantern-ledger-archive-rule" aria-hidden="true">
+          <span>THE LANTERN AND LEDGER · ARCHIVES</span>
+        </div>
+        {children.length > 0 && <div class="lantern-ledger-header-children">{children}</div>}
+      </header>
+    </>
   )
 }
 
-Header.css = `
+Header.css = `${CampaignSpoilerGate.css ?? ""}
 :root {
   --isr-gold: #c58b2b !important;
   --isr-gold-soft: rgba(197, 139, 43, 0.14) !important;
@@ -155,7 +160,7 @@ Header.css = `
 }
 `
 
-Header.afterDOMLoaded = `
+Header.afterDOMLoaded = `${CampaignSpoilerGate.afterDOMLoaded ?? ""}
 const setLanternLedgerFavicon = () => {
   const local = location.hostname === "localhost" || location.hostname === "127.0.0.1"
   const base = local ? "" : "/inner-sea-region"
