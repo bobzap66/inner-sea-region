@@ -179,6 +179,64 @@ CampaignSpoilerGate.css = `
 
 CampaignSpoilerGate.afterDOMLoaded = `
 const campaignSpoilerStorageKey = (key) => "isr-campaign-spoilers:" + key
+const normalizeCampaignSpoilerKey = (value) =>
+  String(value || "")
+    .trim()
+    .toLowerCase()
+    .replace(/&/g, " and ")
+    .replace(/[^a-z0-9]+/g, "-")
+    .replace(/^-+|-+$/g, "")
+
+const campaignSpoilersEnabled = (campaign) => {
+  const key = normalizeCampaignSpoilerKey(campaign)
+  if (!key) return false
+  try {
+    return localStorage.getItem(campaignSpoilerStorageKey(key)) === "true"
+  } catch (_) {
+    return false
+  }
+}
+
+const installCampaignCalendarFilter = () => {
+  if (window.__isrCampaignCalendarFetchFiltered) return
+  window.__isrCampaignCalendarFetchFiltered = true
+
+  const nativeFetch = window.fetch.bind(window)
+  window.fetch = async (...args) => {
+    const response = await nativeFetch(...args)
+    const requestTarget = args[0]
+    const url =
+      typeof requestTarget === "string"
+        ? requestTarget
+        : requestTarget instanceof Request
+          ? requestTarget.url
+          : ""
+
+    if (!url.includes("golarion-events.json") || !response.ok) return response
+
+    try {
+      const data = await response.clone().json()
+      data.campaigns = (data.campaigns || []).filter((campaign) =>
+        campaignSpoilersEnabled(campaign.id || campaign.name),
+      )
+      data.events = (data.events || []).filter(
+        (event) => !event.campaign || campaignSpoilersEnabled(event.campaign),
+      )
+
+      const headers = new Headers(response.headers)
+      headers.set("content-type", "application/json; charset=utf-8")
+      return new Response(JSON.stringify(data), {
+        status: response.status,
+        statusText: response.statusText,
+        headers,
+      })
+    } catch (_) {
+      return response
+    }
+  }
+}
+
+installCampaignCalendarFilter()
 
 const installCampaignSpoilerGate = () => {
   const gate = document.querySelector(".campaign-spoiler-gate[data-campaign-key]")
