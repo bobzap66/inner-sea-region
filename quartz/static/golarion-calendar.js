@@ -426,6 +426,21 @@
         }))
         .sort((a, b) => b.year - a.year || a.name.localeCompare(b.name))
 
+      const yearlyHistory = (data.events ?? [])
+        .filter((event) => {
+          if (event.kind !== "historical" || event.datePrecision !== "year") return false
+          const yearsAgo = today.year - event.year
+          return yearsAgo >= 100 && yearsAgo % 100 === 0
+        })
+        .map((event) => ({
+          ...event,
+          yearsAgo: today.year - event.year,
+          sources: event.source
+            ? [{ slug: event.source, campaign: event.campaign, kind: event.kind }]
+            : [],
+        }))
+        .sort((a, b) => b.year - a.year || a.name.localeCompare(b.name))
+
       const sourceLinks = (event) =>
         event.sources
           .map((source, index) => {
@@ -442,6 +457,9 @@
           .join(" · ")
 
       const monthlySourceLink = (event) =>
+        `<a href="${pathfinderWikiHref(event.name)}" target="_blank" rel="noopener noreferrer">PathfinderWiki</a>`
+
+      const yearlySourceLink = (event) =>
         `<a href="${pathfinderWikiHref(event.name)}" target="_blank" rel="noopener noreferrer">PathfinderWiki</a>`
 
       const holidayMarkup = holidays.length
@@ -484,6 +502,20 @@
             .join("")}</ul>`
         : `<p class="golarion-today-empty">No month-level historical events are recorded for ${escapeHtml(data.months[today.month])}.</p>`
 
+      const yearlyHistoryMarkup = yearlyHistory.length
+        ? `<ul class="golarion-today-list">${yearlyHistory
+            .map(
+              (event) => `
+            <li class="is-anniversary">
+              <strong>${escapeHtml(event.name)}</strong>
+              <span>${event.yearsAgo} years ago · ${event.year} AR</span>
+              ${event.description ? `<p>${escapeHtml(event.description)}</p>` : ""}
+              <p class="golarion-today-sources">${yearlySourceLink(event)}</p>
+            </li>`,
+            )
+            .join("")}</ul>`
+        : `<p class="golarion-today-empty">No century anniversaries from year-only historical events fall in ${today.year} AR.</p>`
+
       root.innerHTML = `
         <section class="golarion-today-shell" aria-label="On This Date in History">
           <header class="golarion-today-heading">
@@ -501,6 +533,10 @@
           <div class="golarion-today-section">
             <h3>This Month in History</h3>
             ${monthlyHistoryMarkup}
+          </div>
+          <div class="golarion-today-section">
+            <h3>This Year in History</h3>
+            ${yearlyHistoryMarkup}
           </div>
         </section>
       `
