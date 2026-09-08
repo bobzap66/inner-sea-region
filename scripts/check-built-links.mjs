@@ -52,10 +52,21 @@ const routes = new Set(htmlFiles.map(routeFor).map((route) => route.replace(/\/$
 const brokenByTarget = new Map()
 const escapedByTarget = new Map()
 const nonCanonicalByHref = new Map()
+const selfRedirects = []
 
 for (const file of htmlFiles) {
   const sourceRoute = routeFor(file)
   const html = await fs.readFile(file, "utf8")
+
+  const refreshTag = html.match(/<meta\b[^>]*\bhttp-equiv=["']refresh["'][^>]*>/i)?.[0]
+  const refreshContent = refreshTag?.match(/\bcontent=["']([^"']*)["']/i)?.[1]
+  const refreshTarget = refreshContent?.match(/(?:^|;)\s*url\s*=\s*(.+)\s*$/i)?.[1]
+  if (refreshTarget) {
+    const resolved = new URL(refreshTarget, `https://local.invalid${sourceRoute}`)
+    const sourcePath = sourceRoute.replace(/\/$/, "") || "/"
+    const targetPath = resolved.pathname.replace(/\/$/, "") || "/"
+    if (sourcePath === targetPath) selfRedirects.push(sourceRoute)
+  }
 
   for (const match of html.matchAll(/<a\b[^>]*\bhref=(?:"([^"]*)"|'([^']*)')[^>]*>/gi)) {
     const href = match[1] ?? match[2]
@@ -99,13 +110,17 @@ console.log(
       brokenCount: broken.length,
       escapedBaseCount: escapedBase.length,
       nonCanonicalCount: nonCanonical.length,
+      selfRedirectCount: selfRedirects.length,
       broken,
       escapedBase,
       nonCanonical,
+      selfRedirects,
     },
     null,
     2,
   ),
 )
 
-if (broken.length || escapedBase.length || nonCanonical.length) process.exitCode = 1
+if (broken.length || escapedBase.length || nonCanonical.length || selfRedirects.length) {
+  process.exitCode = 1
+}

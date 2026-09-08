@@ -46,6 +46,7 @@ const sitemapPaths = new Set(pageUrls.map((url) => new URL(url).pathname.replace
 const sourcesByTarget = new Map()
 const escapedBaseByTarget = new Map()
 const nonCanonicalByHref = new Map()
+const selfRedirects = []
 const fetchFailures = []
 
 const basePath = siteRoot.pathname.replace(/\/$/, "")
@@ -67,6 +68,17 @@ await pooled(pageUrls, async (pageUrl) => {
       return
     }
     const html = await response.text()
+    const refreshTag = html.match(/<meta\b[^>]*\bhttp-equiv=["']refresh["'][^>]*>/i)?.[0]
+    const refreshContent = refreshTag?.match(/\bcontent=["']([^"']*)["']/i)?.[1]
+    const refreshTarget = refreshContent?.match(/(?:^|;)\s*url\s*=\s*(.+)\s*$/i)?.[1]
+    if (refreshTarget) {
+      const resolved = new URL(decodeHtml(refreshTarget), pageUrl)
+      const sourcePath = new URL(pageUrl).pathname.replace(/\/$/, "") || "/"
+      const targetPath = resolved.pathname.replace(/\/$/, "") || "/"
+      if (resolved.origin === siteRoot.origin && sourcePath === targetPath) {
+        selfRedirects.push(pageUrl)
+      }
+    }
     const hrefs = [
       ...[...html.matchAll(/href="([^"]*)"/gi)].map((match) => match[1]),
       ...[...html.matchAll(/href='([^']*)'/gi)].map((match) => match[1]),
@@ -147,16 +159,24 @@ console.log(
       brokenCount: broken.length,
       escapedBaseCount: escapedBase.length,
       nonCanonicalCount: nonCanonical.length,
+      selfRedirectCount: selfRedirects.length,
       pageFetchFailures: fetchFailures,
       broken,
       escapedBase,
       nonCanonical,
+      selfRedirects,
     },
     null,
     2,
   ),
 )
 
-if (fetchFailures.length || broken.length || escapedBase.length || nonCanonical.length) {
+if (
+  fetchFailures.length ||
+  broken.length ||
+  escapedBase.length ||
+  nonCanonical.length ||
+  selfRedirects.length
+) {
   process.exitCode = 1
 }
