@@ -3,7 +3,19 @@ import { CampaignSpoilerGate } from "./CampaignSpoilerGate"
 
 function isCampaignPage(slug: string | undefined) {
   if (!slug) return false
-  return /^campaigns\/(?:archived\/)?[^/]+(?:\/|$)/i.test(slug)
+
+  const directMatch = /^campaigns\/([^/]+)(?:\/|$)/i.exec(slug)
+  if (!directMatch) return false
+
+  const first = directMatch[1]?.toLowerCase()
+  if (!first || first === "index") return false
+
+  if (first === "archived") {
+    const archivedKey = /^campaigns\/archived\/([^/]+)(?:\/|$)/i.exec(slug)?.[1]?.toLowerCase()
+    return Boolean(archivedKey && archivedKey !== "index")
+  }
+
+  return true
 }
 
 const Body: QuartzComponent = (props: QuartzComponentProps) => {
