@@ -24,12 +24,19 @@ function routeFor(file) {
   return `${basePath}${relative.replace(/\.html$/, "").replace(/\/index$/, "/")}`
 }
 
-function targetRoute(href, sourceRoute) {
+function inspectHref(href, sourceRoute) {
   if (!href || href.startsWith("#") || /^(?:[a-z]+:|\/\/)/i.test(href)) return null
+
   try {
     const target = new URL(href, `https://local.invalid${sourceRoute}`)
-    if (!target.pathname.startsWith(basePath)) return null
-    return decodeURIComponent(target.pathname).replace(/\/$/, "") || "/"
+    const pathname = decodeURIComponent(target.pathname)
+
+    if (href.startsWith("/") && !pathname.startsWith(basePath)) {
+      return { kind: "escaped-base", target: pathname.replace(/\/$/, "") || "/" }
+    }
+
+    if (!pathname.startsWith(basePath)) return null
+    return { kind: "internal", target: pathname.replace(/\/$/, "") || "/" }
   } catch {
     return null
   }
@@ -38,13 +45,25 @@ function targetRoute(href, sourceRoute) {
 await collectOutput(outputRoot)
 const routes = new Set(htmlFiles.map(routeFor).map((route) => route.replace(/\/$/, "") || "/"))
 const brokenByTarget = new Map()
+const escapedByTarget = new Map()
 
 for (const file of htmlFiles) {
   const sourceRoute = routeFor(file)
   const html = await fs.readFile(file, "utf8")
+
   for (const match of html.matchAll(/<a\b[^>]*\bhref=(?:"([^"]*)"|'([^']*)')[^>]*>/gi)) {
-    const target = targetRoute(match[1] ?? match[2], sourceRoute)
-    if (!target || routes.has(target) || outputPaths.has(`${target}`)) continue
+    const href = match[1] ?? match[2]
+    const inspected = inspectHref(href, sourceRoute)
+    if (!inspected) continue
+
+    if (inspected.kind === "escaped-base") {
+      if (!escapedByTarget.has(inspected.target)) escapedByTarget.set(inspected.target, new Set())
+      escapedByTarget.get(inspected.target).add(sourceRoute)
+      continue
+    }
+
+    const target = inspected.target
+    if (routes.has(target) || outputPaths.has(`${target}`)) continue
     if (!brokenByTarget.has(target)) brokenByTarget.set(target, new Set())
     brokenByTarget.get(target).add(sourceRoute)
   }
@@ -54,5 +73,16 @@ const broken = [...brokenByTarget]
   .map(([target, sources]) => ({ target, sources: [...sources].slice(0, 5) }))
   .sort((a, b) => a.target.localeCompare(b.target))
 
-console.log(JSON.stringify({ pages: htmlFiles.length, brokenCount: broken.length, broken }, null, 2))
-if (broken.length) process.exitCode = 1
+const escapedBase = [...escapedByTarget]
+  .map(([target, sources]) => ({ target, sources: [...sources].slice(0, 5) }))
+  .sort((a, b) => a.target.localeCompare(b.target))
+
+console.log(JSON.stringify({
+  pages: htmlFiles.length,
+  brokenCount: broken.length,
+  escapedBaseCount: escapedBase.length,
+  broken,
+  escapedBase,
+}, null, 2))
+
+if (broken.length || escapedBase.length) process.exitCode = 1
