@@ -39,6 +39,14 @@ const Header: QuartzComponent = (props: QuartzComponentProps) => {
 }
 
 Header.css = `${CampaignSpoilerGate.css ?? ""}
+#quartz-body.campaign-spoiler-pending > * {
+  visibility: hidden !important;
+}
+
+#quartz-body.campaign-spoiler-pending .campaign-spoiler-gate {
+  visibility: visible !important;
+}
+
 :root {
   --isr-gold: #c58b2b !important;
   --isr-gold-soft: rgba(197, 139, 43, 0.14) !important;
