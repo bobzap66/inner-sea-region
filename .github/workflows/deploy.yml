@@ -63,6 +63,9 @@ jobs:
       - name: Generate Golarion calendar data
         run: node scripts/generate-golarion-calendar.mjs
 
+      - name: Check internal links
+        run: node scripts/check-built-links.mjs
+
       - name: Setup Pages
         uses: actions/configure-pages@v6
 
