@@ -17,9 +17,17 @@ function campaignFromSlug(slug: string | undefined) {
     key = directMatch[1]
   }
 
-  if (!key || key.toLowerCase() === "campaigns" || key.toLowerCase() === "archived") return null
+  const normalizedKey = key?.toLowerCase()
+  if (
+    !normalizedKey ||
+    normalizedKey === "campaigns" ||
+    normalizedKey === "archived" ||
+    normalizedKey === "index"
+  ) {
+    return null
+  }
 
-  const words = decodeURIComponent(key)
+  const words = decodeURIComponent(key!)
     .split("-")
     .filter(Boolean)
     .map((word, index) => {
@@ -28,7 +36,7 @@ function campaignFromSlug(slug: string | undefined) {
       return lower.charAt(0).toUpperCase() + lower.slice(1)
     })
 
-  return { key: key.toLowerCase(), name: words.join(" ") }
+  return { key: normalizedKey, name: words.join(" ") }
 }
 
 export const CampaignSpoilerGate: QuartzComponent = ({ fileData }: QuartzComponentProps) => {
