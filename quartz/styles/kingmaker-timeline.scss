@@ -192,3 +192,115 @@ article .callout[data-callout$="-right"] .callout-title::after {
     margin: 0 auto 1rem;
   }
 }
+
+/* Campaign spoiler gate — global because frame-imported component CSS is not reliably bundled. */
+html.campaign-spoiler-locked {
+  overflow: hidden;
+}
+
+#quartz-body.campaign-spoiler-pending > *:not(.campaign-spoiler-gate):not(.campaign-spoiler-reset) {
+  visibility: hidden !important;
+  pointer-events: none !important;
+}
+
+.campaign-spoiler-gate {
+  position: fixed !important;
+  inset: 0 !important;
+  z-index: 100000 !important;
+  display: grid !important;
+  place-items: center !important;
+  box-sizing: border-box;
+  padding: 1.5rem;
+  background: var(--light) !important;
+  color: var(--dark);
+}
+
+.campaign-spoiler-gate[hidden] {
+  display: none !important;
+}
+
+.campaign-spoiler-gate-card {
+  width: min(100%, 42rem);
+  box-sizing: border-box;
+  padding: clamp(1.5rem, 5vw, 3rem);
+  border: 1px solid var(--tertiary);
+  border-radius: 0.35rem;
+  background: var(--light);
+  color: var(--dark);
+  box-shadow: 0 24px 70px rgba(0, 0, 0, 0.22);
+  text-align: center;
+}
+
+.campaign-spoiler-eyebrow {
+  margin: 0 0 0.65rem;
+  color: var(--tertiary);
+  font-family: var(--bodyFont);
+  font-size: 0.72rem;
+  font-weight: 700;
+  letter-spacing: 0.16em;
+  text-transform: uppercase;
+}
+
+.campaign-spoiler-gate-card h1 {
+  margin: 0 0 1rem;
+  font-size: clamp(1.55rem, 5vw, 2.45rem);
+}
+
+.campaign-spoiler-gate-card p:not(.campaign-spoiler-eyebrow) {
+  max-width: 34rem;
+  margin: 0 auto;
+  line-height: 1.65;
+}
+
+.campaign-spoiler-actions {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 0.75rem;
+  margin-top: 1.6rem;
+}
+
+.campaign-spoiler-actions button,
+.campaign-spoiler-reset {
+  appearance: none;
+  border: 1px solid var(--gray);
+  border-radius: 0.25rem;
+  padding: 0.72rem 1rem;
+  background: var(--lightgray);
+  color: var(--dark);
+  font: inherit;
+  font-weight: 700;
+  cursor: pointer;
+}
+
+.campaign-spoiler-actions button.is-primary {
+  border-color: var(--tertiary);
+  background: var(--tertiary);
+  color: var(--light);
+}
+
+.campaign-spoiler-reset {
+  display: block;
+  width: fit-content;
+  margin: -0.8rem 0 1.25rem auto;
+  padding: 0.42rem 0.65rem;
+  border-color: var(--lightgray);
+  background: transparent;
+  color: var(--darkgray);
+  font-size: 0.72rem;
+  font-weight: 600;
+}
+
+.campaign-spoiler-reset[hidden] {
+  display: none !important;
+}
+
+@media (max-width: 600px) {
+  .campaign-spoiler-actions {
+    flex-direction: column;
+  }
+
+  .campaign-spoiler-actions button {
+    width: 100%;
+  }
+}
