@@ -67,8 +67,10 @@ function parseDate(value) {
 }
 
 function linkFrom(baseDir, targetRel) {
-  const relative = path.posix.relative(baseDir || ".", targetRel)
-  return relative || path.posix.basename(targetRel)
+  const withoutExtension = targetRel.replace(/\.md$/i, "")
+  let relative = path.posix.relative(baseDir || ".", withoutExtension)
+  if (!relative.startsWith(".")) relative = `./${relative}`
+  return relative
 }
 
 function formatDate(date) {
@@ -101,7 +103,7 @@ function renderSection(title, items, dateField, baseDir) {
     lines.push("- Nothing here yet.")
   } else {
     for (const item of items) {
-      lines.push(`- [${item.title}](<${linkFrom(baseDir, item.rel)}>) — ${formatDate(item[dateField])}`)
+      lines.push(`- [[${linkFrom(baseDir, item.rel)}|${item.title}]] — ${formatDate(item[dateField])}`)
     }
   }
   return lines.join("\n")
