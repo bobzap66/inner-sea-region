@@ -201,4 +201,78 @@ html.campaign-spoiler-locked {
 }
 `
 
+CampaignSpoilerGate.afterDOMLoaded = `
+const campaignSpoilerStorageKey = (key) => "isr-campaign-spoilers:" + key
+
+const installCampaignSpoilerGate = () => {
+  const gate = document.querySelector(".campaign-spoiler-gate[data-campaign-key]")
+  const reset = document.querySelector(".campaign-spoiler-reset[data-campaign-key]")
+  const body = document.querySelector("#quartz-body")
+
+  if (!gate) {
+    document.documentElement.classList.remove("campaign-spoiler-locked")
+    return
+  }
+
+  const key = gate.dataset.campaignKey
+  const name = gate.dataset.campaignName || key
+  if (!key) return
+
+  let optedIn = false
+  try {
+    optedIn = localStorage.getItem(campaignSpoilerStorageKey(key)) === "true"
+  } catch (_) {}
+
+  const applyState = (nextValue) => {
+    optedIn = nextValue
+    gate.hidden = optedIn
+    if (reset) reset.hidden = !optedIn
+    body?.classList.toggle("campaign-spoiler-pending", !optedIn)
+    document.documentElement.classList.toggle("campaign-spoiler-locked", !optedIn)
+    document.documentElement.classList.toggle("campaign-spoilers-visible", optedIn)
+  }
+
+  applyState(optedIn)
+
+  gate.querySelector('[data-spoiler-action="back"]')?.addEventListener("click", () => {
+    if (history.length > 1) {
+      history.back()
+      return
+    }
+
+    const base = (document.body?.dataset?.basepath || "").replace(/\/$/, "")
+    location.href = base + "/campaigns"
+  })
+
+  gate.querySelector('[data-spoiler-action="opt-in"]')?.addEventListener("click", () => {
+    try {
+      localStorage.setItem(campaignSpoilerStorageKey(key), "true")
+    } catch (_) {}
+
+    applyState(true)
+    document.dispatchEvent(
+      new CustomEvent("isr:campaign-spoilers-changed", {
+        detail: { campaign: key, name, enabled: true },
+      }),
+    )
+  })
+
+  reset?.addEventListener("click", () => {
+    try {
+      localStorage.removeItem(campaignSpoilerStorageKey(key))
+    } catch (_) {}
+
+    applyState(false)
+    document.dispatchEvent(
+      new CustomEvent("isr:campaign-spoilers-changed", {
+        detail: { campaign: key, name, enabled: false },
+      }),
+    )
+  })
+}
+
+document.addEventListener("nav", installCampaignSpoilerGate)
+installCampaignSpoilerGate()
+`
+
 export default (() => CampaignSpoilerGate) satisfies QuartzComponentConstructor
