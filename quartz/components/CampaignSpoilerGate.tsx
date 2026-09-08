@@ -65,6 +65,7 @@ export const CampaignSpoilerGate: QuartzComponent = ({ fileData }: QuartzCompone
         type="button"
         data-campaign-key={campaign.key}
         data-campaign-name={campaign.name}
+        data-spoiler-action="reset"
         hidden
       >
         Hide {campaign.name} spoilers again
@@ -74,6 +75,10 @@ export const CampaignSpoilerGate: QuartzComponent = ({ fileData }: QuartzCompone
 }
 
 CampaignSpoilerGate.css = `
+html.campaign-spoiler-locked {
+  overflow: hidden;
+}
+
 .campaign-spoiler-gate {
   position: fixed;
   inset: 0;
@@ -82,10 +87,8 @@ CampaignSpoilerGate.css = `
   place-items: center;
   box-sizing: border-box;
   padding: 1.5rem;
-  background:
-    linear-gradient(rgba(23, 20, 15, 0.88), rgba(23, 20, 15, 0.94)),
-    var(--light);
-  backdrop-filter: blur(8px);
+  background: var(--light);
+  color: var(--dark);
 }
 
 .campaign-spoiler-gate[hidden] {
@@ -100,7 +103,7 @@ CampaignSpoilerGate.css = `
   border-radius: 0.35rem;
   background: var(--light);
   color: var(--dark);
-  box-shadow: 0 24px 70px rgba(0, 0, 0, 0.38);
+  box-shadow: 0 24px 70px rgba(0, 0, 0, 0.22);
   text-align: center;
 }
 
@@ -186,124 +189,6 @@ CampaignSpoilerGate.css = `
     width: 100%;
   }
 }
-`
-
-CampaignSpoilerGate.afterDOMLoaded = `
-const campaignSpoilerStorageKey = (key) => "isr-campaign-spoilers:" + key
-const normalizeCampaignSpoilerKey = (value) =>
-  String(value || "")
-    .trim()
-    .toLowerCase()
-    .replace(/&/g, " and ")
-    .replace(/[^a-z0-9]+/g, "-")
-    .replace(/^-+|-+$/g, "")
-
-const campaignSpoilersEnabled = (campaign) => {
-  const key = normalizeCampaignSpoilerKey(campaign)
-  if (!key) return false
-  try {
-    return localStorage.getItem(campaignSpoilerStorageKey(key)) === "true"
-  } catch (_) {
-    return false
-  }
-}
-
-const installCampaignCalendarFilter = () => {
-  if (window.__isrCampaignCalendarFetchFiltered) return
-  window.__isrCampaignCalendarFetchFiltered = true
-
-  const nativeFetch = window.fetch.bind(window)
-  window.fetch = async (...args) => {
-    const response = await nativeFetch(...args)
-    const requestTarget = args[0]
-    const url =
-      typeof requestTarget === "string"
-        ? requestTarget
-        : requestTarget instanceof Request
-          ? requestTarget.url
-          : ""
-
-    if (!url.includes("golarion-events.json") || !response.ok) return response
-
-    try {
-      const data = await response.clone().json()
-      data.campaigns = (data.campaigns || []).filter((campaign) =>
-        campaignSpoilersEnabled(campaign.id || campaign.name),
-      )
-      data.events = (data.events || []).filter(
-        (event) => !event.campaign || campaignSpoilersEnabled(event.campaign),
-      )
-
-      const headers = new Headers(response.headers)
-      headers.set("content-type", "application/json; charset=utf-8")
-      return new Response(JSON.stringify(data), {
-        status: response.status,
-        statusText: response.statusText,
-        headers,
-      })
-    } catch (_) {
-      return response
-    }
-  }
-}
-
-installCampaignCalendarFilter()
-
-const installCampaignSpoilerGate = () => {
-  const gate = document.querySelector(".campaign-spoiler-gate[data-campaign-key]")
-  const reset = document.querySelector(".campaign-spoiler-reset[data-campaign-key]")
-  if (!gate) return
-
-  const key = gate.dataset.campaignKey
-  const name = gate.dataset.campaignName || key
-  if (!key) return
-
-  let optedIn = false
-  try {
-    optedIn = localStorage.getItem(campaignSpoilerStorageKey(key)) === "true"
-  } catch (_) {}
-
-  const applyState = (nextValue) => {
-    optedIn = nextValue
-    gate.hidden = optedIn
-    if (reset) reset.hidden = !optedIn
-    document.documentElement.classList.toggle("campaign-spoilers-visible", optedIn)
-  }
-
-  applyState(optedIn)
-
-  gate.querySelector('[data-spoiler-action="back"]')?.addEventListener("click", () => {
-    if (history.length > 1) {
-      history.back()
-      return
-    }
-    const base = location.pathname.startsWith("/inner-sea-region/") ? "/inner-sea-region" : ""
-    location.href = base + "/campaigns"
-  })
-
-  gate.querySelector('[data-spoiler-action="opt-in"]')?.addEventListener("click", () => {
-    try {
-      localStorage.setItem(campaignSpoilerStorageKey(key), "true")
-    } catch (_) {}
-    applyState(true)
-    document.dispatchEvent(
-      new CustomEvent("isr:campaign-spoilers-changed", { detail: { campaign: key, name, enabled: true } }),
-    )
-  })
-
-  reset?.addEventListener("click", () => {
-    try {
-      localStorage.removeItem(campaignSpoilerStorageKey(key))
-    } catch (_) {}
-    applyState(false)
-    document.dispatchEvent(
-      new CustomEvent("isr:campaign-spoilers-changed", { detail: { campaign: key, name, enabled: false } }),
-    )
-  })
-}
-
-document.addEventListener("nav", installCampaignSpoilerGate)
-installCampaignSpoilerGate()
 `
 
 export default (() => CampaignSpoilerGate) satisfies QuartzComponentConstructor
