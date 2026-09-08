@@ -3,6 +3,7 @@ import path from "node:path"
 
 const outputRoot = path.resolve(process.argv[2] ?? "public")
 const basePath = `/${(process.argv[3] ?? "inner-sea-region").replace(/^\/+|\/+$/g, "")}/`
+const baseRoot = basePath.replace(/\/$/, "")
 const htmlFiles = []
 const outputPaths = new Set()
 
@@ -24,6 +25,10 @@ function routeFor(file) {
   return `${basePath}${relative.replace(/\.html$/, "").replace(/\/index$/, "/")}`
 }
 
+function isInsideBase(pathname) {
+  return pathname === baseRoot || pathname.startsWith(basePath)
+}
+
 function inspectHref(href, sourceRoute) {
   if (!href || href.startsWith("#") || /^(?:[a-z]+:|\/\/)/i.test(href)) return null
 
@@ -31,11 +36,11 @@ function inspectHref(href, sourceRoute) {
     const target = new URL(href, `https://local.invalid${sourceRoute}`)
     const pathname = decodeURIComponent(target.pathname)
 
-    if (href.startsWith("/") && !pathname.startsWith(basePath)) {
+    if (href.startsWith("/") && !isInsideBase(pathname)) {
       return { kind: "escaped-base", target: pathname.replace(/\/$/, "") || "/" }
     }
 
-    if (!pathname.startsWith(basePath)) return null
+    if (!isInsideBase(pathname)) return null
     return { kind: "internal", target: pathname.replace(/\/$/, "") || "/" }
   } catch {
     return null
