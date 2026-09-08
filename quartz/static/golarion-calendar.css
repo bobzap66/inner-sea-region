@@ -95,6 +95,23 @@
   font-size: 0.8rem;
 }
 
+.golarion-today-another {
+  margin-top: 0.85rem;
+  padding: 0.4rem 0.7rem;
+  border: 1px solid var(--isr-rule, var(--lightgray));
+  border-radius: 0.35rem;
+  background: var(--light);
+  color: var(--dark);
+  font: inherit;
+  font-size: 0.8rem;
+  cursor: pointer;
+}
+
+.golarion-today-another:hover {
+  border-color: var(--tertiary);
+  color: var(--tertiary);
+}
+
 .golarion-calendar-shell {
   overflow: hidden;
   border: 1px solid var(--isr-rule, rgba(99, 75, 43, 0.28));
