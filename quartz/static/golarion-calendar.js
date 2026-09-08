@@ -4,10 +4,25 @@
   const MIN_YEAR = -10000
   const MAX_YEAR = 10000
 
+  const calendarScriptBase = (() => {
+    const script = [...document.scripts].find((item) =>
+      /\/static\/golarion-calendar\.js(?:\?|$)/.test(item.src),
+    )
+    if (!script?.src) return ""
+    try {
+      return new URL(script.src, location.href).pathname
+        .replace(/\/static\/golarion-calendar\.js$/, "")
+        .replace(/\/$/, "")
+    } catch (_) {
+      return ""
+    }
+  })()
+
   const siteBase = () =>
-    location.pathname === "/inner-sea-region" || location.pathname.startsWith("/inner-sea-region/")
+    calendarScriptBase ||
+    (location.pathname === "/inner-sea-region" || location.pathname.startsWith("/inner-sea-region/")
       ? "/inner-sea-region"
-      : ""
+      : "")
 
   const isLeapYear = (year) => year % 8 === 0
   const monthLength = (year, month) => (month === 1 && isLeapYear(year) ? 29 : MONTH_LENGTHS[month])
