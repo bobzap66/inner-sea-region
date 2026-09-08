@@ -87,12 +87,14 @@
     } else if (action === "reset") {
       event.preventDefault()
       setEnabled(key, false)
-      applyGateState()
       document.dispatchEvent(
         new CustomEvent("isr:campaign-spoilers-changed", {
           detail: { campaign: key, enabled: false },
         }),
       )
+      // Quartz can retain the hidden gate element across SPA navigation. A full reload
+      // guarantees the now-disabled campaign is rendered in its locked state again.
+      location.reload()
     }
   })
 
