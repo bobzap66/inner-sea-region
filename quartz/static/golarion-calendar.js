@@ -33,24 +33,9 @@
       .replaceAll("'", "&#039;")
 
   const sourceHref = (source) => {
-    const base = siteBase()
-
-    if (/^https?:\/\//i.test(source)) {
-      try {
-        const url = new URL(source)
-        if (url.origin !== location.origin) return source
-
-        if (base && url.pathname !== base && !url.pathname.startsWith(base + "/")) {
-          url.pathname = `${base}${url.pathname}`.replace(/\/+/g, "/")
-        }
-
-        return `${url.pathname}${url.search}${url.hash}`
-      } catch (_) {
-        return source
-      }
-    }
-
-    return `${base}/${source}`.replace(/\/+/g, "/")
+    if (/^https?:\/\//i.test(source)) return source
+    const slug = String(source).replace(/^\/+|\/+$/g, "")
+    return `${siteBase()}/${slug}`.replace(/\/+/g, "/")
   }
 
   const pathfinderWikiHref = (name) =>
