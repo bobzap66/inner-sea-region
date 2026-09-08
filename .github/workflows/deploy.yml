@@ -71,6 +71,9 @@ jobs:
       - name: Generate Golarion calendar data
         run: node scripts/generate-golarion-calendar.mjs
 
+      - name: Canonicalize rendered note links
+        run: node scripts/canonicalize-built-note-links.mjs
+
       - name: Check internal links
         run: node scripts/check-built-links.mjs
 
