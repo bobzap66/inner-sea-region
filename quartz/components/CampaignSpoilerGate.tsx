@@ -79,6 +79,14 @@ html.campaign-spoiler-locked {
   overflow: hidden;
 }
 
+/* If the gate is present and not opted-in yet, the Quartz page body must not be
+   visible at all. This applies before the controller runs, preventing spoiler
+   content from flashing behind or around the warning. */
+html:has(.campaign-spoiler-gate:not([hidden])) #quartz-body {
+  visibility: hidden !important;
+  pointer-events: none !important;
+}
+
 .campaign-spoiler-gate {
   position: fixed;
   inset: 0;
