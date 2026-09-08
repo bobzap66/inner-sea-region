@@ -343,10 +343,15 @@ export function renderPage(
     componentData.ctx.argv.serve || !cfg.baseUrl
       ? ""
       : new URL(`https://${cfg.baseUrl}`).pathname.replace(/\/$/, "")
+  const canonicalRootScript =
+    slug === "index" && basePath
+      ? `if (location.pathname === ${JSON.stringify(basePath)}) { location.replace(${JSON.stringify(`${basePath}/`)} + location.search + location.hash) }`
+      : undefined
   const doc = (
     <html lang={lang} dir={direction}>
       <Head {...componentData} />
       <body data-slug={slug} data-basepath={basePath}>
+        {canonicalRootScript && <script dangerouslySetInnerHTML={{ __html: canonicalRootScript }} />}
         {frame.css && <style dangerouslySetInnerHTML={{ __html: frame.css }} />}
         <div id="quartz-root" class="page" data-frame={frame.name}>
           <Body {...componentData}>
