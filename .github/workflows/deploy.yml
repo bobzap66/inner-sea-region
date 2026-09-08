@@ -36,6 +36,9 @@ jobs:
           fetch-depth: 0
           token: ${{ secrets.VAULT_TOKEN }}
 
+      - name: Check vault link conventions
+        run: node scripts/check-link-conventions.mjs
+
       - name: Setup Node
         uses: actions/setup-node@v7
         with:
