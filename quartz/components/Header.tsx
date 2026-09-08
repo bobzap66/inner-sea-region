@@ -7,6 +7,7 @@ const Header: QuartzComponent = (props: QuartzComponentProps) => {
     ? `/${cfg.baseUrl.split("/").slice(1).join("/")}`
     : ""
   const lanternLedgerPath = `${basePath}/campaigns/kingmaker/vignettes/the-lantern-and-ledger/the-lantern-and-ledger-index`
+  const spoilerControllerPath = `${basePath}/static/campaign-spoilers.js`
   // Quartz's Assets emitter slugifies file paths as it copies them into public/.
   // The source folder is "lantern and ledger branding", so its published path is
   // "lantern-and-ledger-branding" rather than a URL-encoded space-separated path.
@@ -16,6 +17,7 @@ const Header: QuartzComponent = (props: QuartzComponentProps) => {
 
   return (
     <>
+      <script src={spoilerControllerPath}></script>
       <CampaignSpoilerGate {...props} />
       <header class="lantern-ledger-site-header">
         <a class="lantern-ledger-masthead" href={lanternLedgerPath} aria-label="The Lantern and Ledger index">
@@ -160,7 +162,7 @@ Header.css = `${CampaignSpoilerGate.css ?? ""}
 }
 `
 
-Header.afterDOMLoaded = `${CampaignSpoilerGate.afterDOMLoaded ?? ""}
+Header.afterDOMLoaded = `
 const setLanternLedgerFavicon = () => {
   const local = location.hostname === "localhost" || location.hostname === "127.0.0.1"
   const base = local ? "" : "/inner-sea-region"
