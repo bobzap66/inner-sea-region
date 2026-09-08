@@ -9,6 +9,50 @@
       .replace(/[^a-z0-9]+/g, "-")
       .replace(/^-+|-+$/g, "")
 
+  const siteBase = () => document.body?.dataset?.basepath || ""
+
+  const normalizeRootLink = (link) => {
+    const base = siteBase()
+    if (!base) return
+
+    const href = link.getAttribute("href")
+    if (!href || !href.startsWith("/") || href.startsWith("//")) return
+    if (href === base || href.startsWith(base + "/")) return
+
+    link.setAttribute("href", `${base}${href}`.replace(/\/+/g, "/"))
+  }
+
+  const normalizeInternalLinks = (root = document) => {
+    if (root instanceof HTMLAnchorElement) normalizeRootLink(root)
+    root.querySelectorAll?.('a[href^="/"]').forEach(normalizeRootLink)
+  }
+
+  const installLinkNormalizer = () => {
+    normalizeInternalLinks()
+    if (window.__isrBasepathLinkObserver) return
+
+    const observer = new MutationObserver((mutations) => {
+      for (const mutation of mutations) {
+        if (mutation.type === "attributes" && mutation.target instanceof HTMLAnchorElement) {
+          normalizeRootLink(mutation.target)
+          continue
+        }
+
+        mutation.addedNodes.forEach((node) => {
+          if (node instanceof Element) normalizeInternalLinks(node)
+        })
+      }
+    })
+
+    observer.observe(document.documentElement, {
+      subtree: true,
+      childList: true,
+      attributes: true,
+      attributeFilter: ["href"],
+    })
+    window.__isrBasepathLinkObserver = observer
+  }
+
   const isEnabled = (campaign) => {
     const key = normalizeCampaignKey(campaign)
     if (!key) return false
@@ -52,11 +96,7 @@
       history.back()
       return
     }
-    const base =
-      location.pathname === "/inner-sea-region" || location.pathname.startsWith("/inner-sea-region/")
-        ? "/inner-sea-region"
-        : ""
-    location.href = base + "/campaigns"
+    location.href = siteBase() + "/campaigns"
   }
 
   document.addEventListener("click", (event) => {
@@ -137,11 +177,19 @@
   }
 
   installCalendarFilter()
-  document.addEventListener("nav", applyGateState)
+  installLinkNormalizer()
+  document.addEventListener("nav", () => {
+    applyGateState()
+    normalizeInternalLinks()
+  })
 
   if (document.readyState === "loading") {
-    document.addEventListener("DOMContentLoaded", applyGateState, { once: true })
+    document.addEventListener("DOMContentLoaded", () => {
+      applyGateState()
+      normalizeInternalLinks()
+    }, { once: true })
   } else {
     applyGateState()
+    normalizeInternalLinks()
   }
 })()
