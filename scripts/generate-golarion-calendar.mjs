@@ -15,6 +15,10 @@ const VERIFIED_ANNIVERSARIES = path.join(
   CONTENT_ROOT,
   "Meta/Chronicler Voices/golarion-verified-anniversaries.json",
 )
+const VERIFIED_YEAR_HISTORY = path.join(
+  CONTENT_ROOT,
+  "Meta/Chronicler Voices/golarion-verified-year-history.json",
+)
 const CALENDAR_NAME = "Calendar of Golarion"
 const MONTHS = [
   "Abadius",
@@ -198,6 +202,18 @@ async function readVerifiedAnniversaries() {
   }
 }
 
+async function readVerifiedYearHistory() {
+  try {
+    const raw = JSON.parse(await fs.readFile(VERIFIED_YEAR_HISTORY, "utf8"))
+    return (raw.events ?? [])
+      .map(normalizeHistoricalEvent)
+      .filter((event) => event && event.datePrecision === "year")
+  } catch (error) {
+    console.warn(`Could not load verified year-only history: ${error.message}`)
+    return []
+  }
+}
+
 const files = await walk(CONTENT_ROOT)
 const events = []
 
@@ -224,7 +240,8 @@ for (const file of files) {
 
 const historicalEvents = await readHistoricalEvents()
 const verifiedAnniversaries = await readVerifiedAnniversaries()
-events.push(...historicalEvents, ...verifiedAnniversaries)
+const verifiedYearHistory = await readVerifiedYearHistory()
+events.push(...historicalEvents, ...verifiedAnniversaries, ...verifiedYearHistory)
 
 events.sort(
   (a, b) =>
@@ -251,5 +268,5 @@ for (const target of [STATIC_OUTPUT, PUBLIC_OUTPUT]) {
   await fs.writeFile(target, output, "utf8")
 }
 console.log(
-  `Generated ${events.length - historicalEvents.length - verifiedAnniversaries.length} campaign events, ${historicalEvents.length} timeline events, ${verifiedAnniversaries.length} verified anniversaries, ${payload.holidays.length} holidays, and ${payload.campaigns.length} campaigns`,
+  `Generated ${events.length - historicalEvents.length - verifiedAnniversaries.length - verifiedYearHistory.length} campaign events, ${historicalEvents.length} timeline events, ${verifiedAnniversaries.length} verified anniversaries, ${verifiedYearHistory.length} verified year-only events, ${payload.holidays.length} holidays, and ${payload.campaigns.length} campaigns`,
 )
