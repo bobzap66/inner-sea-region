@@ -4,9 +4,20 @@ const SMALL_WORDS = new Set(["a", "an", "and", "as", "at", "for", "in", "of", "o
 
 function campaignFromSlug(slug: string | undefined) {
   if (!slug) return null
-  const match = /^campaigns\/([^/]+)(?:\/|$)/i.exec(slug)
-  const key = match?.[1]
-  if (!key || key.toLowerCase() === "campaigns") return null
+
+  const directMatch = /^campaigns\/([^/]+)(?:\/|$)/i.exec(slug)
+  if (!directMatch) return null
+
+  const first = directMatch[1]?.toLowerCase()
+  let key: string | undefined
+
+  if (first === "archived") {
+    key = /^campaigns\/archived\/([^/]+)(?:\/|$)/i.exec(slug)?.[1]
+  } else {
+    key = directMatch[1]
+  }
+
+  if (!key || key.toLowerCase() === "campaigns" || key.toLowerCase() === "archived") return null
 
   const words = decodeURIComponent(key)
     .split("-")
