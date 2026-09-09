@@ -1,6 +1,7 @@
 import { loadQuartzConfig, loadQuartzLayout } from "./quartz/plugins/loader/config-loader"
 import { CampaignDossiers } from "./quartz/plugins/transformers/campaignDossiers"
 import { CharacterCards } from "./quartz/plugins/transformers/characterCards"
+import { ArticleAuthorCards } from "./quartz/plugins/transformers/articleAuthorCards"
 import { FolderGallery } from "./quartz/plugins/transformers/folderGallery"
 import { ImageMetadataGallery } from "./quartz/plugins/transformers/imageMetadataGallery"
 import { ImageMetadataCarousel } from "./quartz/plugins/transformers/imageMetadataCarousel"
@@ -66,6 +67,7 @@ config.plugins.transformers.push(FolderGallery())
 config.plugins.transformers.push(ImageMetadataGallery())
 config.plugins.transformers.push(ImageMetadataCarousel())
 config.plugins.transformers.push(CharacterCards())
+config.plugins.transformers.push(ArticleAuthorCards())
 config.plugins.transformers.push(CampaignDossiers())
 
 export default config
