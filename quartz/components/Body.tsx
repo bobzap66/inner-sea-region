@@ -151,8 +151,8 @@ const Body: QuartzComponent = (props: QuartzComponentProps) => {
     <div id="quartz-body" class={bodyClasses || undefined}>
       {formalPublication && (
         <style>{`
-          #quartz-body.formal-publication article > p {
-            text-align: justify;
+          #quartz-body.formal-publication .center article p {
+            text-align: justify !important;
             text-justify: inter-word;
             hyphens: auto;
           }
