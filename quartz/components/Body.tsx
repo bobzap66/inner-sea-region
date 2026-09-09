@@ -18,7 +18,10 @@ function isCampaignPage(slug: string | undefined) {
   return true
 }
 
-function isFormalPublication(frontmatter: Record<string, unknown> | undefined) {
+function isFormalPublication(
+  frontmatter: Record<string, unknown> | undefined,
+  slug: string | undefined,
+) {
   if (!frontmatter) return false
 
   const normalize = (value: unknown) => String(value ?? "").trim().toLowerCase()
@@ -26,12 +29,34 @@ function isFormalPublication(frontmatter: Record<string, unknown> | undefined) {
   const articleType = normalize(frontmatter.article_type)
   const publication = normalize(frontmatter.publication)
   const documentStyle = normalize(frontmatter.document_style)
+  const normalizedSlug = normalize(slug)
 
   // Explicit opt-in for unusual documents that should use publication typography.
   if (documentStyle === "formal-publication") return true
 
   // Newspaper and periodical articles carry both an article type and a publication name.
   if (type === "article" && publication.length > 0) return true
+
+  // Kingmaker's migrated material predates the newer document-style metadata.
+  // Treat only the known publication-style vignette families as formal prose,
+  // leaving character vignettes, personal journals, and ordinary scenes alone.
+  if (
+    type === "vignette" &&
+    /^campaigns\/kingmaker\/vignettes\/(?:the-lantern-and-ledger|pitax-gazette|scholarly-journals|intelligence-reports)\//.test(
+      normalizedSlug,
+    )
+  ) {
+    return true
+  }
+
+  // Kingmaker session reports are presented as newspaper/chronicle reports rather
+  // than ordinary campaign notes, so give those report pages publication typography.
+  if (
+    type === "report" &&
+    /^campaigns\/kingmaker\/session-notes\//.test(normalizedSlug)
+  ) {
+    return true
+  }
 
   // Formal report / journal families. Keep personal journals and ordinary notes left-aligned.
   const formalTypes = new Set([
@@ -138,7 +163,7 @@ const Body: QuartzComponent = (props: QuartzComponentProps) => {
   const { children, fileData } = props
   const lockedByDefault = isCampaignPage(fileData.slug)
   const frontmatter = fileData.frontmatter as Record<string, unknown> | undefined
-  const formalPublication = isFormalPublication(frontmatter)
+  const formalPublication = isFormalPublication(frontmatter, fileData.slug)
   const coverage = morlibintCoverage(frontmatter)
   const bodyClasses = [
     lockedByDefault ? "campaign-spoiler-pending" : "",
