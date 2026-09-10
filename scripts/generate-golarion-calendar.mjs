@@ -297,13 +297,17 @@ async function readVerifiedYearHistory() {
 const files = await walk(CONTENT_ROOT)
 const events = []
 const canonicalCampaignEvents = new Set()
+const inlineCampaignRanges = new Set()
+const pendingFrontmatterEvents = []
 
+// First pass: inline markers are the most explicit event definitions in the vault.
+// Collect all of them before considering frontmatter so deduplication does not depend
+// on filesystem traversal order.
 for (const file of files) {
   const text = await fs.readFile(file, "utf8")
   const fm = parseFrontmatter(text)
   const campaign = campaignFromFile(file)
   const source = sourceSlug(file)
-  const inlineRanges = []
 
   const spanRe = /<span\b[^>]*data-calendar\s*=\s*(["'])Calendar of Golarion\1[^>]*><\/span>/gi
   let match
@@ -315,7 +319,9 @@ for (const file of files) {
     const parsedEnd = attrs["end-date"] ? parseDate(attrs["end-date"]) : null
     const end = parsedEnd && serialDay(parsedEnd) > serialDay(start) ? parsedEnd : null
     const name = attrs.name || "Untitled event"
-    inlineRanges.push({ start, end: end ?? start })
+    const eventKey = `${campaign}|${rangeIdentity(start, end ?? start)}|${normalizedName(name)}`
+    if (canonicalCampaignEvents.has(eventKey)) continue
+
     pushCampaignEvent(events, {
       start,
       end,
@@ -324,9 +330,8 @@ for (const file of files) {
       campaign,
       source,
     })
-    canonicalCampaignEvents.add(
-      `${campaign}|${rangeIdentity(start, end ?? start)}|${normalizedName(name)}`,
-    )
+    canonicalCampaignEvents.add(eventKey)
+    inlineCampaignRanges.add(`${campaign}|${rangeIdentity(start, end ?? start)}`)
   }
 
   if (!campaign) continue
@@ -338,23 +343,31 @@ for (const file of files) {
   if (!start) continue
   const end = rangeStart && rangeEnd && serialDay(rangeEnd) > serialDay(rangeStart) ? rangeEnd : null
 
-  const duplicateInlineRange = inlineRanges.some(
-    (inline) => sameDate(inline.start, start) && sameDate(inline.end, end ?? start),
-  )
-  if (duplicateInlineRange) continue
-
-  const name = fm.calendar_event_name || fm.title || path.basename(file, path.extname(file))
-  const eventKey = `${campaign}|${rangeIdentity(start, end ?? start)}|${normalizedName(name)}`
-  if (canonicalCampaignEvents.has(eventKey)) continue
-
-  pushCampaignEvent(events, {
+  pendingFrontmatterEvents.push({
     start,
     end,
-    name,
+    name: fm.calendar_event_name || fm.title || path.basename(file, path.extname(file)),
     category: fm.calendar_category || "Campaign Events",
     campaign,
     source,
+    type: fm.type || null,
   })
+}
+
+// Second pass: frontmatter supplies events for pages that do not already have a
+// canonical inline definition. Exact name/range duplicates are always suppressed.
+// Session reports are also suppressed when the campaign timeline already defines an
+// inline event on the same date/range, because the report title describes the record,
+// not a second historical event.
+for (const candidate of pendingFrontmatterEvents) {
+  const { start, end, name, category, campaign, source, type } = candidate
+  const rangeKey = `${campaign}|${rangeIdentity(start, end ?? start)}`
+  const eventKey = `${rangeKey}|${normalizedName(name)}`
+
+  if (canonicalCampaignEvents.has(eventKey)) continue
+  if (type === "report" && inlineCampaignRanges.has(rangeKey)) continue
+
+  pushCampaignEvent(events, { start, end, name, category, campaign, source })
   canonicalCampaignEvents.add(eventKey)
 }
 
