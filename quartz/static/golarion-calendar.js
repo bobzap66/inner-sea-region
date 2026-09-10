@@ -399,6 +399,17 @@
       for (const event of data.events ?? []) {
         if (event.year > today.year || event.month !== today.month || event.day !== today.day)
           continue
+        if (event.isMultiDay && event.rangeStart && event.rangeEnd) {
+          const isStart =
+            event.year === event.rangeStart.year &&
+            event.month === event.rangeStart.month &&
+            event.day === event.rangeStart.day
+          const isEnd =
+            event.year === event.rangeEnd.year &&
+            event.month === event.rangeEnd.month &&
+            event.day === event.rangeEnd.day
+          if (!isStart && !isEnd) continue
+        }
         const originalYear = event.rangeStart?.year ?? event.year
         const key = `${originalYear}|${event.name.trim().toLocaleLowerCase()}`
         const existing = grouped.get(key)
@@ -421,7 +432,9 @@
         })
       }
       const anniversaries = [...grouped.values()].sort(
-        (a, b) => (b.rangeStart?.year ?? b.year) - (a.rangeStart?.year ?? a.year) || a.name.localeCompare(b.name),
+        (a, b) =>
+          (b.rangeStart?.year ?? b.year) - (a.rangeStart?.year ?? a.year) ||
+          a.name.localeCompare(b.name),
       )
 
       const monthlyHistory = (data.events ?? [])
