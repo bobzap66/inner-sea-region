@@ -63,6 +63,20 @@
     }
   }
 
+  const formatEventRange = (event, months) => {
+    const start = event.rangeStart
+    const end = event.rangeEnd
+    if (!event.isMultiDay || !start || !end) return ""
+
+    if (start.year === end.year && start.month === end.month) {
+      return `${months[start.month]} ${start.day}–${end.day}, ${start.year} AR`
+    }
+    if (start.year === end.year) {
+      return `${months[start.month]} ${start.day}–${months[end.month]} ${end.day}, ${start.year} AR`
+    }
+    return `${months[start.month]} ${start.day}, ${start.year} AR–${months[end.month]} ${end.day}, ${end.year} AR`
+  }
+
   const loadCalendarData = async () => {
     const response = await fetch(`${siteBase()}/static/golarion-events.json`, { cache: "no-cache" })
     if (!response.ok) throw new Error(`HTTP ${response.status}`)
@@ -187,10 +201,11 @@
                         : event.kind === "historical"
                           ? "Golarion History"
                           : event.campaign || event.category
+                    const rangeLabel = formatEventRange(event, months)
                     const title = event.source
                       ? `<a href="${sourceHref(event.source)}"${/^https?:\/\//i.test(event.source) ? ' target="_blank" rel="noopener noreferrer"' : ""}>${escapeHtml(event.name)}</a>`
                       : `<strong>${escapeHtml(event.name)}</strong>`
-                    return `<li class="${event.kind === "holiday" ? "is-holiday" : "is-campaign-event"}">${title}<span>${escapeHtml(label)}</span>${event.description ? `<p>${escapeHtml(event.description)}</p>` : ""}</li>`
+                    return `<li class="${event.kind === "holiday" ? "is-holiday" : "is-campaign-event"}">${title}<span>${escapeHtml(label)}${rangeLabel ? ` · ${escapeHtml(rangeLabel)}` : ""}</span>${event.description ? `<p>${escapeHtml(event.description)}</p>` : ""}</li>`
                   })
                   .join("")}</ul>`
               : "<p>No recorded events on this date.</p>"
@@ -357,7 +372,6 @@
             render()
           })
         })
-
         renderDetails()
       }
 
@@ -385,7 +399,8 @@
       for (const event of data.events ?? []) {
         if (event.year > today.year || event.month !== today.month || event.day !== today.day)
           continue
-        const key = `${event.year}|${event.name.trim().toLocaleLowerCase()}`
+        const originalYear = event.rangeStart?.year ?? event.year
+        const key = `${originalYear}|${event.name.trim().toLocaleLowerCase()}`
         const existing = grouped.get(key)
         if (existing) {
           if (event.source && !existing.sources.some((source) => source.slug === event.source)) {
@@ -399,14 +414,14 @@
         }
         grouped.set(key, {
           ...event,
-          yearsAgo: today.year - event.year,
+          yearsAgo: today.year - originalYear,
           sources: event.source
             ? [{ slug: event.source, campaign: event.campaign, kind: event.kind }]
             : [],
         })
       }
       const anniversaries = [...grouped.values()].sort(
-        (a, b) => b.year - a.year || a.name.localeCompare(b.name),
+        (a, b) => (b.rangeStart?.year ?? b.year) - (a.rangeStart?.year ?? a.year) || a.name.localeCompare(b.name),
       )
 
       const monthlyHistory = (data.events ?? [])
@@ -480,14 +495,17 @@
 
       const anniversaryMarkup = anniversaries.length
         ? `<ul class="golarion-today-list">${anniversaries
-            .map(
-              (event) => `
+            .map((event) => {
+              const dateLabel =
+                formatEventRange(event, data.months) ||
+                `${data.months[event.month]} ${event.day}, ${event.year} AR`
+              return `
             <li class="is-anniversary">
               <strong>${escapeHtml(event.name)}</strong>
-              <span>${event.yearsAgo === 0 ? "Today" : `${event.yearsAgo} ${event.yearsAgo === 1 ? "year" : "years"} ago`} · ${escapeHtml(data.months[event.month])} ${event.day}, ${event.year} AR</span>
+              <span>${event.yearsAgo === 0 ? "Today" : `${event.yearsAgo} ${event.yearsAgo === 1 ? "year" : "years"} ago`} · ${escapeHtml(dateLabel)}</span>
               ${event.sources.length ? `<p class="golarion-today-sources">${sourceLinks(event)}</p>` : ""}
-            </li>`,
-            )
+            </li>`
+            })
             .join("")}</ul>`
         : '<p class="golarion-today-empty">No anniversaries are recorded today.</p>'
 
