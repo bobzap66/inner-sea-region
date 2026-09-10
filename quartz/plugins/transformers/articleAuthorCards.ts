@@ -16,6 +16,13 @@ const AUTHOR_CSS = `
   border-radius: 0.65rem;
   background: color-mix(in srgb, var(--light) 91%, var(--lightgray) 9%);
   box-shadow: 0 0.12rem 0.45rem color-mix(in srgb, var(--dark) 8%, transparent);
+  text-align: left;
+}
+
+.isr-author-card p,
+.isr-author-card a,
+.isr-author-card span {
+  text-align: left;
 }
 
 .isr-author-card-portrait,
