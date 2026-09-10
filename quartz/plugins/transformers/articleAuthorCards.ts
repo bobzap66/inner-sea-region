@@ -293,7 +293,9 @@ function publicationRank(value: unknown) {
 
 function relativeSlugHref(fromRelativePath: string, toSlug: any) {
   const fromSlug = simplifySlug(slugifyFilePath(fromRelativePath as any))
-  const fromDirectory = path.posix.dirname(String(fromSlug).replaceAll("\\", "/"))
+  const normalizedFromSlug = String(fromSlug).replaceAll("\\", "/")
+  const isIndex = path.posix.basename(fromRelativePath).toLowerCase() === "index.md"
+  const fromDirectory = isIndex ? normalizedFromSlug : path.posix.dirname(normalizedFromSlug)
   let href = path.posix.relative(fromDirectory, String(toSlug).replaceAll("\\", "/"))
   if (!href.startsWith(".")) href = `./${href}`
   return href
