@@ -34,6 +34,7 @@ const MONTHS = [
   "Neth",
   "Kuthona",
 ]
+const MONTH_LENGTHS = [31, 28, 31, 30, 31, 30, 31, 31, 30, 31, 30, 31]
 const WEEKDAYS = ["Moonday", "Toilday", "Wealday", "Oathday", "Fireday", "Starday", "Sunday"]
 
 function sourceSlug(file) {
@@ -61,6 +62,14 @@ function attributesFromTag(tag) {
   return attrs
 }
 
+function isLeapYear(year) {
+  return year % 8 === 0
+}
+
+function monthLength(year, month) {
+  return month === 1 && isLeapYear(year) ? 29 : MONTH_LENGTHS[month]
+}
+
 function parseDate(value) {
   const match = /^(\-?\d+)-([A-Za-z]+)-(\d{1,2})$/.exec(value ?? "")
   if (!match) return null
@@ -68,8 +77,47 @@ function parseDate(value) {
   const monthName = match[2]
   const month = MONTHS.indexOf(monthName)
   const day = Number(match[3])
-  if (month < 0 || !Number.isInteger(year) || !Number.isInteger(day)) return null
+  if (
+    month < 0 ||
+    !Number.isInteger(year) ||
+    !Number.isInteger(day) ||
+    day < 1 ||
+    day > monthLength(year, month)
+  )
+    return null
   return { year, month, monthName, day }
+}
+
+function serialDay(date) {
+  let total = (date.year - 1) * 365 + Math.floor((date.year - 1) / 8)
+  for (let month = 0; month < date.month; month += 1) total += monthLength(date.year, month)
+  return total + date.day - 1
+}
+
+function nextDate(date) {
+  let { year, month, day } = date
+  day += 1
+  if (day > monthLength(year, month)) {
+    day = 1
+    month += 1
+    if (month >= MONTHS.length) {
+      month = 0
+      year += 1
+    }
+  }
+  return { year, month, monthName: MONTHS[month], day }
+}
+
+function expandDateRange(start, end) {
+  if (serialDay(end) < serialDay(start)) return [start]
+  const dates = []
+  let current = start
+  const endSerial = serialDay(end)
+  while (serialDay(current) <= endSerial) {
+    dates.push(current)
+    current = nextDate(current)
+  }
+  return dates
 }
 
 function parseFrontmatter(text) {
@@ -226,15 +274,25 @@ for (const file of files) {
     if (attrs.calendar !== CALENDAR_NAME) continue
     const date = parseDate(attrs.date)
     if (!date) continue
-    events.push({
-      ...date,
-      datePrecision: "day",
-      name: attrs.name || "Untitled event",
-      category: attrs.category || "Miscellaneous Events",
-      campaign: campaignFromFile(file),
-      kind: "campaign-event",
-      source: sourceSlug(file),
-    })
+
+    const parsedEndDate = attrs["end-date"] ? parseDate(attrs["end-date"]) : null
+    const isMultiDay = parsedEndDate && serialDay(parsedEndDate) > serialDay(date)
+    const occurrenceDates = isMultiDay ? expandDateRange(date, parsedEndDate) : [date]
+    const rangeStart = isMultiDay ? { ...date } : null
+    const rangeEnd = isMultiDay ? { ...parsedEndDate } : null
+
+    for (const occurrenceDate of occurrenceDates) {
+      events.push({
+        ...occurrenceDate,
+        datePrecision: "day",
+        name: attrs.name || "Untitled event",
+        category: attrs.category || "Miscellaneous Events",
+        campaign: campaignFromFile(file),
+        kind: "campaign-event",
+        source: sourceSlug(file),
+        ...(isMultiDay ? { isMultiDay: true, rangeStart, rangeEnd } : {}),
+      })
+    }
   }
 }
 
@@ -268,5 +326,5 @@ for (const target of [STATIC_OUTPUT, PUBLIC_OUTPUT]) {
   await fs.writeFile(target, output, "utf8")
 }
 console.log(
-  `Generated ${events.length - historicalEvents.length - verifiedAnniversaries.length - verifiedYearHistory.length} campaign events, ${historicalEvents.length} timeline events, ${verifiedAnniversaries.length} verified anniversaries, ${verifiedYearHistory.length} verified year-only events, ${payload.holidays.length} holidays, and ${payload.campaigns.length} campaigns`,
+  `Generated ${events.length - historicalEvents.length - verifiedAnniversaries.length - verifiedYearHistory.length} campaign event dates, ${historicalEvents.length} timeline events, ${verifiedAnniversaries.length} verified anniversaries, ${verifiedYearHistory.length} verified year-only events, ${payload.holidays.length} holidays, and ${payload.campaigns.length} campaigns`,
 )
