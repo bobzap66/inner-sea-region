@@ -136,6 +136,38 @@ function campaignFromFile(file) {
   return match?.[1] ?? null
 }
 
+function sameDate(a, b) {
+  return a && b && a.year === b.year && a.month === b.month && a.day === b.day
+}
+
+function rangeIdentity(start, end) {
+  const finalEnd = end ?? start
+  return `${start.year}-${start.month}-${start.day}|${finalEnd.year}-${finalEnd.month}-${finalEnd.day}`
+}
+
+function normalizedName(value) {
+  return String(value ?? "").trim().toLocaleLowerCase().replace(/\s+/g, " ")
+}
+
+function pushCampaignEvent(events, { start, end, name, category, campaign, source }) {
+  const validEnd = end && serialDay(end) > serialDay(start) ? end : null
+  const occurrenceDates = validEnd ? expandDateRange(start, validEnd) : [start]
+  const rangeStart = validEnd ? { ...start } : null
+  const rangeEnd = validEnd ? { ...validEnd } : null
+  for (const occurrenceDate of occurrenceDates) {
+    events.push({
+      ...occurrenceDate,
+      datePrecision: "day",
+      name,
+      category,
+      campaign,
+      kind: "campaign-event",
+      source,
+      ...(validEnd ? { isMultiDay: true, rangeStart, rangeEnd } : {}),
+    })
+  }
+}
+
 async function readCampaigns(files) {
   const campaigns = []
   for (const file of files) {
@@ -264,36 +296,66 @@ async function readVerifiedYearHistory() {
 
 const files = await walk(CONTENT_ROOT)
 const events = []
+const canonicalCampaignEvents = new Set()
 
 for (const file of files) {
   const text = await fs.readFile(file, "utf8")
+  const fm = parseFrontmatter(text)
+  const campaign = campaignFromFile(file)
+  const source = sourceSlug(file)
+  const inlineRanges = []
+
   const spanRe = /<span\b[^>]*data-calendar\s*=\s*(["'])Calendar of Golarion\1[^>]*><\/span>/gi
   let match
   while ((match = spanRe.exec(text)) !== null) {
     const attrs = attributesFromTag(match[0])
     if (attrs.calendar !== CALENDAR_NAME) continue
-    const date = parseDate(attrs.date)
-    if (!date) continue
-
-    const parsedEndDate = attrs["end-date"] ? parseDate(attrs["end-date"]) : null
-    const isMultiDay = parsedEndDate && serialDay(parsedEndDate) > serialDay(date)
-    const occurrenceDates = isMultiDay ? expandDateRange(date, parsedEndDate) : [date]
-    const rangeStart = isMultiDay ? { ...date } : null
-    const rangeEnd = isMultiDay ? { ...parsedEndDate } : null
-
-    for (const occurrenceDate of occurrenceDates) {
-      events.push({
-        ...occurrenceDate,
-        datePrecision: "day",
-        name: attrs.name || "Untitled event",
-        category: attrs.category || "Miscellaneous Events",
-        campaign: campaignFromFile(file),
-        kind: "campaign-event",
-        source: sourceSlug(file),
-        ...(isMultiDay ? { isMultiDay: true, rangeStart, rangeEnd } : {}),
-      })
-    }
+    const start = parseDate(attrs.date)
+    if (!start) continue
+    const parsedEnd = attrs["end-date"] ? parseDate(attrs["end-date"]) : null
+    const end = parsedEnd && serialDay(parsedEnd) > serialDay(start) ? parsedEnd : null
+    const name = attrs.name || "Untitled event"
+    inlineRanges.push({ start, end: end ?? start })
+    pushCampaignEvent(events, {
+      start,
+      end,
+      name,
+      category: attrs.category || "Miscellaneous Events",
+      campaign,
+      source,
+    })
+    canonicalCampaignEvents.add(
+      `${campaign}|${rangeIdentity(start, end ?? start)}|${normalizedName(name)}`,
+    )
   }
+
+  if (!campaign) continue
+
+  const rangeStart = parseDate(fm.event_start)
+  const rangeEnd = parseDate(fm.event_end)
+  const singleDate = parseDate(fm.event_date)
+  const start = rangeStart || singleDate
+  if (!start) continue
+  const end = rangeStart && rangeEnd && serialDay(rangeEnd) > serialDay(rangeStart) ? rangeEnd : null
+
+  const duplicateInlineRange = inlineRanges.some(
+    (inline) => sameDate(inline.start, start) && sameDate(inline.end, end ?? start),
+  )
+  if (duplicateInlineRange) continue
+
+  const name = fm.calendar_event_name || fm.title || path.basename(file, path.extname(file))
+  const eventKey = `${campaign}|${rangeIdentity(start, end ?? start)}|${normalizedName(name)}`
+  if (canonicalCampaignEvents.has(eventKey)) continue
+
+  pushCampaignEvent(events, {
+    start,
+    end,
+    name,
+    category: fm.calendar_category || "Campaign Events",
+    campaign,
+    source,
+  })
+  canonicalCampaignEvents.add(eventKey)
 }
 
 const historicalEvents = await readHistoricalEvents()
