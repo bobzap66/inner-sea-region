@@ -59,7 +59,10 @@ const JS = `
     const start = () => { stop(); if (!paused && interval > 0) timer = window.setInterval(() => goTo(current + 1), interval) }
     const goTo = (index, manual = false) => {
       current = ((index % slides.length) + slides.length) % slides.length
-      slides[current].scrollIntoView({ behavior: reducedMotion ? "auto" : "smooth", block: "nearest", inline: "start" })
+      const trackRect = track.getBoundingClientRect()
+      const slideRect = slides[current].getBoundingClientRect()
+      const left = track.scrollLeft + (slideRect.left - trackRect.left)
+      track.scrollTo({ left, behavior: reducedMotion ? "auto" : "smooth" })
       update()
       if (manual) start()
     }
