@@ -2,18 +2,18 @@
 
 /**
  * Layout breakpoints
- * $mobile: screen width below this value will use mobile styles
- * $desktop: screen width above this value will use desktop styles
- * Screen width between $mobile and $desktop width will use the tablet layout.
- * assuming mobile < desktop
+ * Phones and tablets below the desktop breakpoint intentionally share the
+ * compact/mobile presentation. The tablet query is retained for any
+ * tablet-specific refinements, but mobile rules also apply there and take
+ * precedence where both are defined.
  */
 $breakpoints: (
   mobile: 800px,
   desktop: 1200px,
 );
 
-$mobile: "(max-width: #{map.get($breakpoints, mobile)})";
-$tablet: "(min-width: #{map.get($breakpoints, mobile)}) and (max-width: #{map.get($breakpoints, desktop)})";
+$mobile: "(max-width: 1199px)";
+$tablet: "(min-width: #{map.get($breakpoints, mobile)}) and (max-width: 1199px)";
 $desktop: "(min-width: #{map.get($breakpoints, desktop)})";
 
 $pageWidth: #{map.get($breakpoints, mobile)};
