@@ -2,7 +2,7 @@ import { promises as fs } from "node:fs"
 import path from "node:path"
 
 const outputRoot = path.resolve(process.argv[2] ?? "public")
-const baseRoot = `/${(process.argv[3] ?? "inner-sea-region").replace(/^\/+|\/+$/g, "")}`
+const baseRoot = `/${(process.argv[3] ?? "lantern-and-ledger").replace(/^\/+|\/+$/g, "")}`
 const siteOrigin = new URL(process.argv[4] ?? "https://bobzap66.github.io").origin
 const htmlFiles = []
 
