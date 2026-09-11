@@ -325,6 +325,9 @@ export const ArticleAuthorCards: QuartzTransformerPlugin = () => {
     })
 
     for (const note of all) {
+      const isPublished = note.frontmatter?.draft !== true && note.frontmatter?.publish !== false
+      if (!isPublished) continue
+
       if (note.frontmatter?.type === "author" || note.frontmatter?.type === "contributor") {
         const key = authorKey(note.frontmatter?.title ?? path.basename(note.relativePath, ".md"))
         if (key) authors.set(key, note)
