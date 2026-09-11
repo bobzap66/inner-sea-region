@@ -2,7 +2,7 @@ import { promises as fs } from "node:fs"
 import path from "node:path"
 
 const outputRoot = path.resolve(process.argv[2] ?? "public")
-const basePath = `/${(process.argv[3] ?? "inner-sea-region").replace(/^\/+|\/+$/g, "")}/`
+const basePath = `/${(process.argv[3] ?? "lantern-and-ledger").replace(/^\/+|\/+$/g, "")}/`
 const baseRoot = basePath.replace(/\/$/, "")
 const htmlFiles = []
 const outputPaths = new Set()

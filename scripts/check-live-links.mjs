@@ -1,4 +1,4 @@
-const siteRoot = new URL(process.argv[2] || "https://bobzap66.github.io/inner-sea-region/")
+const siteRoot = new URL(process.argv[2] || "https://bobzap66.github.io/lantern-and-ledger/")
 const concurrency = Math.max(1, Number(process.argv[3] || 16))
 
 const decodeHtml = (value) =>
