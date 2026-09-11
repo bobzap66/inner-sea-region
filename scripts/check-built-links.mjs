@@ -50,6 +50,7 @@ function inspectHref(href, sourceRoute) {
 await collectOutput(outputRoot)
 const routes = new Set(htmlFiles.map(routeFor).map((route) => route.replace(/\/$/, "") || "/"))
 const brokenByTarget = new Map()
+const brokenImagesByTarget = new Map()
 const escapedByTarget = new Map()
 const nonCanonicalByHref = new Map()
 const selfRedirects = []
@@ -89,9 +90,24 @@ for (const file of htmlFiles) {
     if (!brokenByTarget.has(target)) brokenByTarget.set(target, new Set())
     brokenByTarget.get(target).add(sourceRoute)
   }
+
+  for (const match of html.matchAll(/<img\b[^>]*\bsrc=(?:"([^"]*)"|'([^']*)')[^>]*>/gi)) {
+    const src = match[1] ?? match[2]
+    const inspected = inspectHref(src, sourceRoute)
+    if (!inspected) continue
+
+    const target = inspected.target
+    if (inspected.kind === "internal" && outputPaths.has(target)) continue
+    if (!brokenImagesByTarget.has(target)) brokenImagesByTarget.set(target, new Set())
+    brokenImagesByTarget.get(target).add(sourceRoute)
+  }
 }
 
 const broken = [...brokenByTarget]
+  .map(([target, sources]) => ({ target, sources: [...sources].slice(0, 5) }))
+  .sort((a, b) => a.target.localeCompare(b.target))
+
+const brokenImages = [...brokenImagesByTarget]
   .map(([target, sources]) => ({ target, sources: [...sources].slice(0, 5) }))
   .sort((a, b) => a.target.localeCompare(b.target))
 
@@ -108,10 +124,12 @@ console.log(
     {
       pages: htmlFiles.length,
       brokenCount: broken.length,
+      brokenImageCount: brokenImages.length,
       escapedBaseCount: escapedBase.length,
       nonCanonicalCount: nonCanonical.length,
       selfRedirectCount: selfRedirects.length,
       broken,
+      brokenImages,
       escapedBase,
       nonCanonical,
       selfRedirects,
@@ -121,6 +139,6 @@ console.log(
   ),
 )
 
-if (broken.length || escapedBase.length || nonCanonical.length || selfRedirects.length) {
+if (broken.length || brokenImages.length || escapedBase.length || nonCanonical.length || selfRedirects.length) {
   process.exitCode = 1
 }
