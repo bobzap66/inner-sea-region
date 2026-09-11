@@ -36,6 +36,9 @@ jobs:
           fetch-depth: 0
           token: ${{ secrets.VAULT_TOKEN }}
 
+      - name: Normalize vault note links
+        run: node scripts/normalize-vault-note-links.mjs
+
       - name: Check vault link conventions
         run: node scripts/check-link-conventions.mjs
 
