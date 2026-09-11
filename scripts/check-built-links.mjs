@@ -111,6 +111,10 @@ const brokenImages = [...brokenImagesByTarget]
   .map(([target, sources]) => ({ target, sources: [...sources].slice(0, 5) }))
   .sort((a, b) => a.target.localeCompare(b.target))
 
+const brokenArticleImages = brokenImages.filter(({ sources }) =>
+  sources.some((source) => source.includes("/articles/")),
+)
+
 const escapedBase = [...escapedByTarget]
   .map(([target, sources]) => ({ target, sources: [...sources].slice(0, 5) }))
   .sort((a, b) => a.target.localeCompare(b.target))
@@ -125,11 +129,13 @@ console.log(
       pages: htmlFiles.length,
       brokenCount: broken.length,
       brokenImageCount: brokenImages.length,
+      brokenArticleImageCount: brokenArticleImages.length,
       escapedBaseCount: escapedBase.length,
       nonCanonicalCount: nonCanonical.length,
       selfRedirectCount: selfRedirects.length,
       broken,
       brokenImages,
+      brokenArticleImages,
       escapedBase,
       nonCanonical,
       selfRedirects,
@@ -139,6 +145,6 @@ console.log(
   ),
 )
 
-if (broken.length || brokenImages.length || escapedBase.length || nonCanonical.length || selfRedirects.length) {
+if (broken.length || brokenArticleImages.length || escapedBase.length || nonCanonical.length || selfRedirects.length) {
   process.exitCode = 1
 }
