@@ -8,7 +8,7 @@ configuration:
     provider: goatcounter
     websiteId: lanternandledger
   locale: en-US
-  baseUrl: bobzap66.github.io/inner-sea-region
+  baseUrl: bobzap66.github.io/lantern-and-ledger
   ignorePatterns:
     - private
     - templates
@@ -251,8 +251,8 @@ plugins:
     enabled: true
     options:
       links:
-        Home: https://bobzap66.github.io/inner-sea-region/
-        Source: https://github.com/bobzap66/inner-sea-region
+        Home: https://bobzap66.github.io/lantern-and-ledger/
+        Source: https://github.com/bobzap66/lantern-and-ledger
     layout:
       position: footer
       priority: 50
