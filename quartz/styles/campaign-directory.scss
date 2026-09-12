@@ -41,7 +41,6 @@
 
 article .campaign-directory__card {
   --campaign-directory-accent: var(--tertiary);
-  --campaign-directory-art: none;
   position: relative;
   display: flex;
   min-width: 0;
@@ -51,17 +50,21 @@ article .campaign-directory__card {
   overflow: hidden;
   border: 1px solid var(--isr-rule);
   border-radius: 0.55rem;
-  background-color: #111;
-  background-image:
-    linear-gradient(0deg, rgba(5, 7, 8, 0.9) 0%, rgba(5, 7, 8, 0.64) 38%, rgba(5, 7, 8, 0.16) 74%, rgba(5, 7, 8, 0.04) 100%),
-    linear-gradient(90deg, rgba(5, 7, 8, 0.2), transparent 60%),
-    var(--campaign-directory-art);
-  background-position: center;
-  background-size: cover;
-  background-repeat: no-repeat;
+  background: #111;
   box-shadow: 0 8px 22px rgba(35, 28, 20, 0.12);
   color: #fff8e8;
   transition: transform 160ms ease, border-color 160ms ease, box-shadow 160ms ease;
+}
+
+article .campaign-directory__card::after {
+  content: "";
+  position: absolute;
+  inset: 0;
+  z-index: 1;
+  background:
+    linear-gradient(0deg, rgba(5, 7, 8, 0.9) 0%, rgba(5, 7, 8, 0.64) 38%, rgba(5, 7, 8, 0.16) 74%, rgba(5, 7, 8, 0.04) 100%),
+    linear-gradient(90deg, rgba(5, 7, 8, 0.2), transparent 60%);
+  pointer-events: none;
 }
 
 article .campaign-directory__card:hover {
@@ -70,9 +73,25 @@ article .campaign-directory__card:hover {
   transform: translateY(-2px);
 }
 
+.campaign-directory__image {
+  position: absolute;
+  inset: 0;
+  z-index: 0;
+  display: block;
+  width: 100%;
+  height: 100%;
+  margin: 0;
+  border: 0;
+  border-radius: 0;
+  box-shadow: none;
+  object-fit: cover;
+  pointer-events: none;
+  user-select: none;
+}
+
 .campaign-directory__copy {
   position: relative;
-  z-index: 1;
+  z-index: 2;
   padding: 1.15rem;
   text-shadow: 0 2px 12px rgba(0, 0, 0, 0.72);
 }
@@ -121,33 +140,19 @@ article .campaign-directory__card:hover {
   line-height: 1.4;
 }
 
-.campaign-directory__card--kingmaker {
-  --campaign-directory-accent: #d2a34f;
-  --campaign-directory-art: url("/lantern-and-ledger/assets/images/kingmaker/kingmaker-banner.png");
-}
-
-.campaign-directory__card--claws-of-the-tyrant {
-  --campaign-directory-accent: #c7655f;
-  --campaign-directory-art: url("/lantern-and-ledger/assets/images/claws-of-the-tyrant/claws-of-the-tyrant-banner.png");
-}
-
-.campaign-directory__card--season-of-ghosts {
-  --campaign-directory-accent: #dfaa55;
-  --campaign-directory-art: url("/lantern-and-ledger/assets/images/season-of-ghosts/season-of-ghosts-banner.png");
-}
-
-.campaign-directory__card--abomination-vaults {
-  --campaign-directory-accent: #78c7ad;
-  --campaign-directory-art: url("/lantern-and-ledger/assets/images/abomination-vaults/abomination-vaults-banner.png");
-}
+.campaign-directory__card--kingmaker { --campaign-directory-accent: #d2a34f; }
+.campaign-directory__card--claws-of-the-tyrant { --campaign-directory-accent: #c7655f; }
+.campaign-directory__card--season-of-ghosts { --campaign-directory-accent: #dfaa55; }
+.campaign-directory__card--abomination-vaults { --campaign-directory-accent: #78c7ad; }
 
 .campaign-directory__grid--archived { grid-template-columns: 1fr; }
 
 article .campaign-directory__card--archived {
   min-height: 10rem;
-  background-image:
-    linear-gradient(90deg, rgba(7, 9, 10, 0.93) 0%, rgba(7, 9, 10, 0.78) 42%, rgba(7, 9, 10, 0.5) 72%, rgba(7, 9, 10, 0.34) 100%),
-    var(--campaign-directory-art);
+}
+
+article .campaign-directory__card--archived::after {
+  background: linear-gradient(90deg, rgba(7, 9, 10, 0.93) 0%, rgba(7, 9, 10, 0.78) 42%, rgba(7, 9, 10, 0.5) 72%, rgba(7, 9, 10, 0.34) 100%);
 }
 
 .campaign-directory__card--archived .campaign-directory__copy { max-width: 44rem; }
