@@ -34,19 +34,34 @@ async function walk(dir) {
   return out
 }
 
-function parseFrontmatter(text) {
-  const match = /^---\s*\n([\s\S]*?)\n---/.exec(text)
-  if (!match) return {}
-  const fm = {}
-  for (const line of match[1].split(/\r?\n/)) {
+function parseKeyValueLines(text) {
+  const data = {}
+  for (const line of text.split(/\r?\n/)) {
     const m = /^([A-Za-z0-9 _-]+):\s*(.*?)\s*$/.exec(line)
     if (!m) continue
     let value = m[2].trim()
     if (!value) continue
     value = value.replace(/^['"]|['"]$/g, "")
-    fm[m[1].trim().toLowerCase().replaceAll(" ", "_")] = value
+    data[m[1].trim().toLowerCase().replaceAll(" ", "_")] = value
   }
-  return fm
+  return data
+}
+
+function parseFrontmatter(text) {
+  const match = /^---\s*\n([\s\S]*?)\n---/.exec(text)
+  return match ? parseKeyValueLines(match[1]) : {}
+}
+
+function parseManualEvents(text) {
+  const events = []
+  const pattern = /<!--\s*timeline-event\s*\n([\s\S]*?)\n\s*-->/gi
+  for (const match of text.matchAll(pattern)) {
+    const event = parseKeyValueLines(match[1])
+    if (event.title && (event.date || event.start || event.event_start || event.campaign_date_start || event.campaign_date)) {
+      events.push(event)
+    }
+  }
+  return events
 }
 
 function parseGolarionDate(value) {
@@ -100,10 +115,6 @@ function cleanTitle(title, sessionNumber) {
   return title
 }
 
-function encodeLinkPart(part) {
-  return part.split("/").map((segment) => encodeURIComponent(segment)).join("/")
-}
-
 function relativeWikiLink(timelineFile, sourceFile, label) {
   const baseDir = path.dirname(timelineFile)
   const rel = path.relative(baseDir, sourceFile).replace(/\\/g, "/").replace(/\.md$/i, "")
@@ -112,25 +123,28 @@ function relativeWikiLink(timelineFile, sourceFile, label) {
 }
 
 function renderEntry(entry, index, isFirstInGroup) {
-  const importance = String(entry.fm.timeline_importance || "").toLowerCase()
+  const importance = String(entry.fm.timeline_importance || entry.fm.importance || "").toLowerCase()
   const major = importance === "major" || (!importance && isFirstInGroup)
   const side = index % 2 === 0 ? "left" : "right"
   const kind = major ? "major" : "minor"
-  const title = entry.fm.timeline_title || cleanTitle(entry.fm.title || entry.basename, entry.fm.session_number)
-  const label = entry.fm.timeline_label || (entry.fm.session_number ? `Session ${entry.fm.session_number}` : entry.fm.type || "Campaign record")
-  const summary = entry.fm.timeline_summary || ""
-  const readLabel = entry.fm.timeline_link_label || (entry.fm.session_number ? `Read Session ${entry.fm.session_number}` : "Read source")
-  const link = relativeWikiLink(entry.timelineFile, entry.file, readLabel)
+  const title = entry.fm.timeline_title || entry.fm.title || cleanTitle(entry.basename, entry.fm.session_number)
+  const label = entry.fm.timeline_label || entry.fm.label || (entry.fm.session_number ? `Session ${entry.fm.session_number}` : entry.fm.type || "Campaign record")
+  const summary = entry.fm.timeline_summary || entry.fm.summary || ""
   const lines = [
     `> [!timeline-${kind}-${side}] ${title}`,
     `> *${label}*`,
     `>`,
     `> ${formatRange(entry.start, entry.end)}`,
   ]
-  if (summary) {
-    lines.push(`>`, `> ${summary}`)
+  if (summary) lines.push(`>`, `> ${summary}`)
+
+  if (entry.manual) {
+    const links = entry.fm.timeline_links || entry.fm.links || entry.fm.link || ""
+    if (links) lines.push(`>`, `> ${links}`)
+  } else {
+    const readLabel = entry.fm.timeline_link_label || (entry.fm.session_number ? `Read Session ${entry.fm.session_number}` : "Read source")
+    lines.push(`>`, `> ${relativeWikiLink(entry.timelineFile, entry.file, readLabel)}`)
   }
-  lines.push(`>`, `> ${link}`)
   return lines.join("\n")
 }
 
@@ -197,6 +211,24 @@ for (const timeline of timelineFiles) {
       fm,
       start,
       end,
+      manual: false,
+    })
+  }
+
+  for (const fm of parseManualEvents(timeline.text)) {
+    const startRaw = fm.start || fm.date || fm.event_start || fm.campaign_date_start || fm.campaign_date
+    const endRaw = fm.end || fm.event_end || fm.campaign_date_end || startRaw
+    const start = parseGolarionDate(startRaw)
+    const end = parseGolarionDate(endRaw)
+    if (!start || !end) continue
+    entries.push({
+      file: timeline.file,
+      timelineFile: timeline.file,
+      basename: fm.title,
+      fm,
+      start,
+      end,
+      manual: true,
     })
   }
 
