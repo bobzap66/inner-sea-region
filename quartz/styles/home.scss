@@ -1,4 +1,5 @@
 @use "./campaign.scss";
+@use "./campaign-directory.scss";
 
 /* The archive entrance uses the same Markdown in Obsidian and on the site. */
 body[data-slug="index"] {
