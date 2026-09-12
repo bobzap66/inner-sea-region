@@ -120,6 +120,26 @@ article .campaign-directory__card:focus-visible {
   line-height: 1.4;
 }
 
+.campaign-directory__card--kingmaker {
+  --campaign-directory-accent: #d2a34f;
+  --campaign-directory-art: url("/lantern-and-ledger/assets/images/kingmaker/kingmaker-banner.png");
+}
+
+.campaign-directory__card--claws-of-the-tyrant {
+  --campaign-directory-accent: #c7655f;
+  --campaign-directory-art: url("/lantern-and-ledger/assets/images/claws-of-the-tyrant/claws-of-the-tyrant-banner.png");
+}
+
+.campaign-directory__card--season-of-ghosts {
+  --campaign-directory-accent: #dfaa55;
+  --campaign-directory-art: url("/lantern-and-ledger/assets/images/season-of-ghosts/season-of-ghosts-banner.png");
+}
+
+.campaign-directory__card--abomination-vaults {
+  --campaign-directory-accent: #78c7ad;
+  --campaign-directory-art: url("/lantern-and-ledger/assets/images/abomination-vaults/abomination-vaults-banner.png");
+}
+
 .campaign-directory__grid--archived {
   grid-template-columns: 1fr;
 }
