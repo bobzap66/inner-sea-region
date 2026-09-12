@@ -133,26 +133,61 @@ article .campaign-directory__card:focus-visible {
 }
 
 .campaign-directory__grid--archived {
-  grid-template-columns: repeat(2, minmax(0, 1fr));
+  grid-template-columns: 1fr;
 }
 
+/* Archived campaigns use normal-flow content so compact cards can never overlap nearby sections. */
 article .campaign-directory__card--archived {
-  min-height: 11rem;
+  display: grid;
+  min-height: 0;
+  grid-template-columns: minmax(10rem, 32%) minmax(0, 1fr);
+  overflow: hidden;
+  background: color-mix(in srgb, var(--light) 94%, var(--lightgray) 6%);
   box-shadow: 0 5px 14px rgba(35, 28, 20, 0.08);
+  color: var(--dark);
+}
+
+article .campaign-directory__card--archived:hover {
+  color: var(--dark);
 }
 
 .campaign-directory__card--archived::after {
-  background:
-    linear-gradient(0deg, rgba(8, 9, 10, 0.92) 0%, rgba(8, 9, 10, 0.72) 46%, rgba(8, 9, 10, 0.28) 100%);
+  display: none;
 }
 
 .campaign-directory__card--archived .campaign-directory__image {
+  position: relative;
+  inset: auto;
+  width: 100%;
+  height: 100%;
+  min-height: 9.25rem;
   filter: saturate(0.55) contrast(0.92);
-  opacity: 0.82;
+  opacity: 0.88;
+}
+
+.campaign-directory__card--archived .campaign-directory__copy {
+  position: static;
+  align-self: center;
+  padding: 1rem 1.1rem;
+  text-shadow: none;
+}
+
+.campaign-directory__card--archived .campaign-directory__status {
+  color: var(--darkgray);
+}
+
+.campaign-directory__card--archived .campaign-directory__eyebrow {
+  color: var(--campaign-directory-accent);
 }
 
 .campaign-directory__card--archived .campaign-directory__title {
+  color: var(--dark);
   font-size: clamp(1.35rem, 2.4vw, 1.8rem);
+  line-height: 1.08;
+}
+
+.campaign-directory__card--archived .campaign-directory__subtitle {
+  color: var(--darkgray);
 }
 
 .campaign-directory__card--kingmaker { --campaign-directory-accent: #d2a34f; }
@@ -172,13 +207,22 @@ article .campaign-directory__card--archived {
   }
 
   article .campaign-directory__card--archived {
-    min-height: 9rem;
+    min-height: 0;
+    grid-template-columns: 8rem minmax(0, 1fr);
   }
 
   .campaign-directory__copy {
     right: 0.95rem;
     bottom: 0.95rem;
     left: 0.95rem;
+  }
+
+  .campaign-directory__card--archived .campaign-directory__copy {
+    padding: 0.85rem 0.95rem;
+  }
+
+  .campaign-directory__card--archived .campaign-directory__image {
+    min-height: 8rem;
   }
 
   .campaign-directory__title {
@@ -206,7 +250,16 @@ article .campaign-directory__card--archived {
   }
 
   article .campaign-directory__card--archived {
-    min-height: 7.75rem;
+    min-height: 0;
+    grid-template-columns: 6.5rem minmax(0, 1fr);
+  }
+
+  .campaign-directory__card--archived .campaign-directory__image {
+    min-height: 7rem;
+  }
+
+  .campaign-directory__card--archived .campaign-directory__copy {
+    padding: 0.72rem 0.8rem;
   }
 
   .campaign-directory__subtitle {
