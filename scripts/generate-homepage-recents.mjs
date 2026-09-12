@@ -1,3 +1,4 @@
+import "./generate-campaign-directory.mjs"
 import { promises as fs } from "node:fs"
 import path from "node:path"
 import { execFileSync } from "node:child_process"
