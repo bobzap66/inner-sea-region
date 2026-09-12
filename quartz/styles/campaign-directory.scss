@@ -1,0 +1,170 @@
+/* Campaign directory — visual entry point for the four campaign archives. */
+
+.center:has(.campaign-directory) {
+  .content-meta {
+    display: none;
+  }
+
+  article > p:first-of-type::first-letter {
+    float: none;
+    margin: 0;
+    color: inherit;
+    font: inherit;
+  }
+}
+
+.campaign-directory {
+  margin-top: 1.25rem;
+}
+
+.campaign-directory__intro {
+  max-width: 48rem;
+  margin: 0 0 1.75rem;
+  color: var(--darkgray);
+  font-size: 1.02rem;
+  line-height: 1.65;
+}
+
+.campaign-directory__grid {
+  display: grid;
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+  gap: 1rem;
+}
+
+article .campaign-directory__card {
+  --campaign-directory-accent: var(--tertiary);
+  position: relative;
+  display: block;
+  min-height: 18rem;
+  overflow: hidden;
+  border: 1px solid var(--isr-rule);
+  border-radius: 0.55rem;
+  background: #111;
+  box-shadow: 0 8px 22px rgba(35, 28, 20, 0.12);
+  color: #fff8e8;
+  text-decoration: none;
+  isolation: isolate;
+  transition: transform 160ms ease, box-shadow 160ms ease, border-color 160ms ease;
+}
+
+article .campaign-directory__card:hover {
+  border-color: color-mix(in srgb, var(--campaign-directory-accent) 65%, var(--isr-rule) 35%);
+  box-shadow: 0 12px 28px rgba(35, 28, 20, 0.18);
+  color: #fff8e8;
+  transform: translateY(-2px);
+}
+
+article .campaign-directory__card:focus-visible {
+  outline: 3px solid var(--campaign-directory-accent);
+  outline-offset: 3px;
+}
+
+.campaign-directory__card::after {
+  content: "";
+  position: absolute;
+  inset: 0;
+  z-index: 1;
+  background:
+    linear-gradient(0deg, rgba(5, 7, 8, 0.9) 0%, rgba(5, 7, 8, 0.64) 38%, rgba(5, 7, 8, 0.16) 74%, rgba(5, 7, 8, 0.04) 100%),
+    linear-gradient(90deg, rgba(5, 7, 8, 0.2), transparent 60%);
+  pointer-events: none;
+}
+
+.campaign-directory__image {
+  position: absolute;
+  inset: 0;
+  display: block;
+  width: 100%;
+  height: 100%;
+  margin: 0;
+  border: 0;
+  border-radius: 0;
+  box-shadow: none;
+  object-fit: cover;
+}
+
+.campaign-directory__copy {
+  position: absolute;
+  right: 1.15rem;
+  bottom: 1.15rem;
+  left: 1.15rem;
+  z-index: 2;
+  text-shadow: 0 2px 12px rgba(0, 0, 0, 0.72);
+}
+
+.campaign-directory__eyebrow {
+  margin-bottom: 0.3rem;
+  color: color-mix(in srgb, var(--campaign-directory-accent) 78%, #fff 22%);
+  font-size: 0.62rem;
+  font-weight: 700;
+  letter-spacing: 0.15em;
+  text-transform: uppercase;
+}
+
+.campaign-directory__title {
+  margin: 0;
+  color: #fff8e8;
+  font-family: var(--headerFont);
+  font-size: clamp(1.75rem, 3vw, 2.45rem);
+  font-weight: 600;
+  line-height: 1;
+}
+
+.campaign-directory__subtitle {
+  margin-top: 0.45rem;
+  color: rgba(255, 248, 232, 0.86);
+  font-size: 0.86rem;
+  line-height: 1.4;
+}
+
+.campaign-directory__card--kingmaker { --campaign-directory-accent: #d2a34f; }
+.campaign-directory__card--abomination-vaults { --campaign-directory-accent: #78c7ad; }
+.campaign-directory__card--claws-of-the-tyrant { --campaign-directory-accent: #c7655f; }
+.campaign-directory__card--season-of-ghosts { --campaign-directory-accent: #dfaa55; }
+
+@media (max-width: 800px) {
+  .campaign-directory__grid {
+    grid-template-columns: 1fr;
+    gap: 0.75rem;
+  }
+
+  article .campaign-directory__card {
+    min-height: 12rem;
+  }
+
+  .campaign-directory__copy {
+    right: 0.95rem;
+    bottom: 0.95rem;
+    left: 0.95rem;
+  }
+
+  .campaign-directory__title {
+    font-size: clamp(1.55rem, 7vw, 2rem);
+  }
+}
+
+@media (max-width: 520px) {
+  .campaign-directory {
+    margin-top: 1rem;
+  }
+
+  .campaign-directory__intro {
+    margin-bottom: 1.15rem;
+    font-size: 0.94rem;
+  }
+
+  article .campaign-directory__card {
+    min-height: 9.75rem;
+    border-radius: 0.42rem;
+  }
+
+  .campaign-directory__subtitle {
+    display: none;
+  }
+}
+
+@media (prefers-reduced-motion: reduce) {
+  article .campaign-directory__card {
+    transition: none;
+  }
+}
