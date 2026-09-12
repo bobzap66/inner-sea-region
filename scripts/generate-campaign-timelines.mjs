@@ -214,10 +214,15 @@ for (const timeline of timelineFiles) {
   const campaignDir = path.dirname(timeline.file)
   const sourceFiles = (await walk(campaignDir)).filter((file) => file !== timeline.file)
   const entries = []
+  const manualSources = [timeline.text]
 
   for (const file of sourceFiles) {
     const text = await fs.readFile(file, "utf8")
     const fm = parseFrontmatter(text)
+    if (String(fm.type || "").toLowerCase() === "timeline-metadata") {
+      manualSources.push(text)
+      continue
+    }
     if (String(fm.timeline_exclude || "").toLowerCase() === "true") continue
     if (String(fm.draft || "").toLowerCase() === "true") continue
     if (String(fm.publish || "").toLowerCase() === "false") continue
@@ -235,13 +240,15 @@ for (const timeline of timelineFiles) {
     entries.push({ file, timelineFile: timeline.file, basename: path.basename(file, ".md"), fm, start, end, manual: false })
   }
 
-  for (const fm of parseManualEvents(timeline.text)) {
-    const startRaw = fm.start || fm.date || fm.event_start || fm.campaign_date_start || fm.campaign_date
-    const endRaw = fm.end || fm.event_end || fm.campaign_date_end || startRaw
-    const start = parseGolarionDate(startRaw)
-    const end = parseGolarionDate(endRaw)
-    if (!start || !end) continue
-    entries.push({ file: timeline.file, timelineFile: timeline.file, basename: fm.title, fm, start, end, manual: true })
+  for (const sourceText of manualSources) {
+    for (const fm of parseManualEvents(sourceText)) {
+      const startRaw = fm.start || fm.date || fm.event_start || fm.campaign_date_start || fm.campaign_date
+      const endRaw = fm.end || fm.event_end || fm.campaign_date_end || startRaw
+      const start = parseGolarionDate(startRaw)
+      const end = parseGolarionDate(endRaw)
+      if (!start || !end) continue
+      entries.push({ file: timeline.file, timelineFile: timeline.file, basename: fm.title, fm, start, end, manual: true })
+    }
   }
 
   entries.sort((a, b) => sortKey(a.start) - sortKey(b.start) || sortKey(a.end) - sortKey(b.end) || String(a.fm.title || a.basename).localeCompare(String(b.fm.title || b.basename)))
