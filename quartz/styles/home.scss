@@ -23,7 +23,15 @@ body[data-slug="index"] {
     color: var(--darkgray);
   }
 
-  .content-meta,
+  .content-meta {
+    display: block;
+    min-height: 0;
+  }
+
+  .content-meta > :not(.archive-consultations) {
+    display: none;
+  }
+
   .page > #quartz-body .sidebar.right {
     display: none;
   }
