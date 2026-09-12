@@ -11,7 +11,7 @@ const HOME_END = "<!-- HOMEPAGE_RECENTS_END -->"
 const CAMPAIGN_START = "<!-- CAMPAIGN_RECENTS_START -->"
 const CAMPAIGN_END = "<!-- CAMPAIGN_RECENTS_END -->"
 
-const IGNORED_DIRS = new Set([".git", ".obsidian", "private", "templates"])
+const IGNORED_DIRS = new Set([".git", ".obsidian", "private", "templates", "image metadata"])
 const MAINTENANCE_COMMIT = /(autolink|wikilink|link conversion|resolver|homepage navigation|one-shot|migration|maintenance|script|quartz|workflow)/i
 
 async function walk(dir) {
