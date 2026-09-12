@@ -109,10 +109,19 @@ function seasonYearLabel(date) {
 
 function cleanTitle(title, sessionNumber) {
   if (!title) return "Untitled event"
-  if (sessionNumber) {
-    return title.replace(new RegExp(`^Session\\s+${sessionNumber}\\s*[:—-]\\s*`, "i"), "")
-  }
+  if (sessionNumber) return title.replace(new RegExp(`^Session\\s+${sessionNumber}\\s*[:—-]\\s*`, "i"), "")
   return title
+}
+
+function plainText(value) {
+  return String(value ?? "")
+    .replace(/\[\[([^\]|]+)\|([^\]]+)\]\]/g, "$2")
+    .replace(/\[\[([^\]]+)\]\]/g, "$1")
+    .replace(/[*_`]/g, "")
+}
+
+function escapeAttr(value) {
+  return plainText(value).replace(/&/g, "&amp;").replace(/"/g, "&quot;").replace(/</g, "&lt;").replace(/>/g, "&gt;")
 }
 
 function relativeWikiLink(timelineFile, sourceFile, label) {
@@ -137,6 +146,19 @@ function renderEntry(entry, index, isFirstInGroup) {
     `>`,
     `> ${dateLabel || formatRange(entry.start, entry.end)}`,
   ]
+
+  const calendarEnabled = String(entry.fm.timeline_calendar || entry.fm.calendar || "").toLowerCase() === "true"
+  if (calendarEnabled && entry.start.day) {
+    const attrs = [
+      'data-calendar="Calendar of Golarion"',
+      `data-date="${entry.start.year}-${entry.start.monthName}-${entry.start.day}"`,
+      `data-name="${escapeAttr(entry.fm.calendar_event_name || title)}"`,
+      `data-category="${escapeAttr(entry.fm.calendar_category || "Miscellaneous Events")}"`,
+    ]
+    if (entry.end?.day && entry.end.raw !== entry.start.raw) attrs.push(`data-end-date="${entry.end.year}-${entry.end.monthName}-${entry.end.day}"`)
+    lines.push(`>`, `> <span ${attrs.join(" ")}></span>`)
+  }
+
   if (summary) lines.push(`>`, `> ${summary}`)
 
   if (entry.manual) {
@@ -182,9 +204,7 @@ const timelineFiles = []
 for (const file of await walk(campaignsRoot)) {
   const text = await fs.readFile(file, "utf8")
   const fm = parseFrontmatter(text)
-  if (String(fm.type || "").toLowerCase() === "timeline" && String(fm.generated_timeline || "").toLowerCase() === "true") {
-    timelineFiles.push({ file, text, fm })
-  }
+  if (String(fm.type || "").toLowerCase() === "timeline" && String(fm.generated_timeline || "").toLowerCase() === "true") timelineFiles.push({ file, text, fm })
 }
 
 for (const timeline of timelineFiles) {
@@ -209,15 +229,7 @@ for (const timeline of timelineFiles) {
     const end = parseGolarionDate(endRaw)
     if (!start || !end) continue
 
-    entries.push({
-      file,
-      timelineFile: timeline.file,
-      basename: path.basename(file, ".md"),
-      fm,
-      start,
-      end,
-      manual: false,
-    })
+    entries.push({ file, timelineFile: timeline.file, basename: path.basename(file, ".md"), fm, start, end, manual: false })
   }
 
   for (const fm of parseManualEvents(timeline.text)) {
@@ -226,15 +238,7 @@ for (const timeline of timelineFiles) {
     const start = parseGolarionDate(startRaw)
     const end = parseGolarionDate(endRaw)
     if (!start || !end) continue
-    entries.push({
-      file: timeline.file,
-      timelineFile: timeline.file,
-      basename: fm.title,
-      fm,
-      start,
-      end,
-      manual: true,
-    })
+    entries.push({ file: timeline.file, timelineFile: timeline.file, basename: fm.title, fm, start, end, manual: true })
   }
 
   entries.sort((a, b) => sortKey(a.start) - sortKey(b.start) || sortKey(a.end) - sortKey(b.end) || String(a.fm.title || a.basename).localeCompare(String(b.fm.title || b.basename)))
@@ -243,9 +247,7 @@ for (const timeline of timelineFiles) {
   const rendered = renderGroups(entries, grouping)
   const block = `${START}\n${rendered}\n${END}`
   const pattern = new RegExp(`${START}[\\s\\S]*?${END}`, "m")
-  if (!pattern.test(timeline.text)) {
-    throw new Error(`Generated timeline is missing markers: ${path.relative(contentRoot, timeline.file)}`)
-  }
+  if (!pattern.test(timeline.text)) throw new Error(`Generated timeline is missing markers: ${path.relative(contentRoot, timeline.file)}`)
   const updated = timeline.text.replace(pattern, block)
   await fs.writeFile(timeline.file, updated, "utf8")
   console.log(`Generated timeline: ${path.relative(contentRoot, timeline.file)} (${entries.length} entries)`)
