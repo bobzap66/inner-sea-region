@@ -1,0 +1,187 @@
+/* Shared presentation for campaign landing pages. */
+
+.center:has(.campaign-hero) {
+  .article-title,
+  .content-meta {
+    display: none;
+  }
+
+  article > p:first-of-type::first-letter {
+    float: none;
+    margin: 0;
+    color: inherit;
+    font: inherit;
+  }
+}
+
+.campaign-hero {
+  --campaign-accent: var(--tertiary);
+  position: relative;
+  min-height: clamp(19rem, 37vw, 30rem);
+  margin: 0 0 1.5rem;
+  overflow: hidden;
+  border: 1px solid var(--isr-rule);
+  border-radius: 0.6rem;
+  background: #101315;
+  box-shadow: 0 14px 34px rgba(35, 28, 20, 0.18);
+  isolation: isolate;
+}
+
+.campaign-hero::after {
+  content: "";
+  position: absolute;
+  inset: 0;
+  z-index: 1;
+  background:
+    linear-gradient(90deg, rgba(6, 8, 9, 0.88) 0%, rgba(6, 8, 9, 0.7) 28%, rgba(6, 8, 9, 0.25) 57%, rgba(6, 8, 9, 0.05) 100%),
+    linear-gradient(0deg, rgba(6, 8, 9, 0.62) 0%, transparent 52%);
+  pointer-events: none;
+}
+
+.campaign-hero__image {
+  position: absolute;
+  inset: 0;
+  display: block;
+  width: 100%;
+  height: 100%;
+  margin: 0;
+  border: 0;
+  border-radius: 0;
+  box-shadow: none;
+  object-fit: cover;
+  object-position: center;
+}
+
+.campaign-hero__copy {
+  position: absolute;
+  left: clamp(1.25rem, 4vw, 3.25rem);
+  bottom: clamp(1.5rem, 4vw, 3rem);
+  z-index: 2;
+  width: min(36rem, 70%);
+  color: #f8f0de;
+  text-shadow: 0 2px 14px rgba(0, 0, 0, 0.65);
+}
+
+.campaign-hero__kicker {
+  margin-bottom: 0.55rem;
+  color: color-mix(in srgb, var(--campaign-accent) 78%, #fff 22%);
+  font-family: var(--bodyFont);
+  font-size: 0.7rem;
+  font-weight: 700;
+  letter-spacing: 0.2em;
+  text-transform: uppercase;
+}
+
+.campaign-hero__title {
+  margin: 0;
+  color: #fff8e8;
+  font-family: var(--headerFont);
+  font-size: clamp(2.7rem, 7vw, 5.5rem);
+  font-weight: 600;
+  letter-spacing: -0.035em;
+  line-height: 0.9;
+  text-wrap: balance;
+}
+
+.campaign-hero__title::after {
+  content: "";
+  display: block;
+  width: min(10rem, 38%);
+  height: 2px;
+  margin: 0.8rem 0 0.85rem;
+  background: linear-gradient(90deg, var(--campaign-accent), transparent);
+}
+
+.campaign-hero__subtitle {
+  color: #fff3d7;
+  font-family: var(--headerFont);
+  font-size: clamp(1.15rem, 2.2vw, 1.6rem);
+  line-height: 1.15;
+}
+
+.campaign-hero__tagline {
+  margin-top: 0.45rem;
+  color: rgba(255, 248, 232, 0.84);
+  font-size: clamp(0.78rem, 1.4vw, 0.96rem);
+  font-style: italic;
+  letter-spacing: 0.025em;
+}
+
+.campaign-hero--kingmaker {
+  --campaign-accent: #d2a34f;
+}
+
+.campaign-hero--abomination-vaults {
+  --campaign-accent: #78c7ad;
+}
+
+.campaign-hero--season-of-ghosts {
+  --campaign-accent: #dfaa55;
+}
+
+.campaign-hero--claws-of-the-tyrant {
+  --campaign-accent: #c7655f;
+}
+
+.campaign-hero--abomination-vaults .campaign-hero__image {
+  object-position: center;
+}
+
+.campaign-hero--season-of-ghosts .campaign-hero__image {
+  object-position: center;
+}
+
+.campaign-hero--claws-of-the-tyrant .campaign-hero__image {
+  object-position: center;
+}
+
+/* Keep the spoiler notice visible without letting it compete with the hero. */
+.campaign-hero + .callout[data-callout="warning"] {
+  margin-top: 1rem;
+}
+
+@media (max-width: 800px) {
+  .campaign-hero {
+    min-height: clamp(20rem, 74vw, 28rem);
+  }
+
+  .campaign-hero::after {
+    background:
+      linear-gradient(90deg, rgba(6, 8, 9, 0.8) 0%, rgba(6, 8, 9, 0.48) 55%, rgba(6, 8, 9, 0.12) 100%),
+      linear-gradient(0deg, rgba(6, 8, 9, 0.78) 0%, rgba(6, 8, 9, 0.2) 66%, transparent 100%);
+  }
+
+  .campaign-hero__copy {
+    width: min(90%, 34rem);
+  }
+
+  .campaign-hero__title {
+    font-size: clamp(2.6rem, 12vw, 4.4rem);
+  }
+}
+
+@media (max-width: 520px) {
+  .campaign-hero {
+    min-height: 25rem;
+    border-radius: 0.45rem;
+  }
+
+  .campaign-hero__copy {
+    left: 1.1rem;
+    right: 1.1rem;
+    bottom: 1.25rem;
+    width: auto;
+  }
+
+  .campaign-hero__kicker {
+    font-size: 0.62rem;
+  }
+
+  .campaign-hero__subtitle {
+    font-size: 1.08rem;
+  }
+
+  .campaign-hero__tagline {
+    font-size: 0.78rem;
+  }
+}
