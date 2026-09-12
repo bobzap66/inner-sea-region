@@ -90,7 +90,9 @@ article .campaign-directory__card:focus-visible {
   border: 0;
   border-radius: 0;
   box-shadow: none;
-  object-fit: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
 }
 
 .campaign-directory__copy {
