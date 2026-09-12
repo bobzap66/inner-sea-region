@@ -57,34 +57,37 @@ function parseManualEvents(text) {
   const pattern = /<!--\s*timeline-event\s*\n([\s\S]*?)\n\s*-->/gi
   for (const match of text.matchAll(pattern)) {
     const event = parseKeyValueLines(match[1])
-    if (event.title && (event.date || event.start || event.event_start || event.campaign_date_start || event.campaign_date)) {
-      events.push(event)
-    }
+    if (event.title && (event.date || event.start || event.event_start || event.campaign_date_start || event.campaign_date)) events.push(event)
   }
   return events
 }
 
 function parseGolarionDate(value) {
   if (!value) return null
-  const match = /^(\d{4})-([A-Za-z]+)(?:-(\d{1,2}))?$/.exec(String(value).trim())
+  const match = /^(\d{4})(?:-([A-Za-z]+)(?:-(\d{1,2}))?)?$/.exec(String(value).trim())
   if (!match) return null
   const year = Number(match[1])
-  const monthName = match[2]
-  const month = MONTH_INDEX.get(monthName.toLowerCase())
+  if (!match[2]) return { raw: value, year, month: null, monthName: null, day: null }
+  const month = MONTH_INDEX.get(match[2].toLowerCase())
   if (!month) return null
   const day = match[3] ? Number(match[3]) : null
   return { raw: value, year, month, monthName: MONTHS[month - 1], day }
 }
 
 function sortKey(date) {
-  return date.year * 10000 + date.month * 100 + (date.day ?? 0)
+  return date.year * 10000 + (date.month ?? 0) * 100 + (date.day ?? 0)
 }
 
 function formatPoint(date) {
+  if (!date.monthName) return ""
   return date.day ? `${date.day} ${date.monthName}` : date.monthName
 }
 
 function formatRange(start, end) {
+  if (!start.month) {
+    if (end && end.year !== start.year && !end.month) return `**${start.year}–${end.year} AR**`
+    return `**${start.year} AR**`
+  }
   if (!end || start.raw === end.raw) return `**${start.year} AR · ${formatPoint(start)}**`
   if (start.year === end.year && start.month === end.month) {
     if (start.day && end.day) return `**${start.year} AR · ${start.day}–${end.day} ${start.monthName}**`
