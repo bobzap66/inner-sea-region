@@ -25,6 +25,12 @@
   line-height: 1.65;
 }
 
+.campaign-directory__section {
+  display: block;
+  width: 100%;
+  clear: both;
+}
+
 .campaign-directory__section + .campaign-directory__section {
   margin-top: 2.4rem;
 }
@@ -37,26 +43,34 @@
 
 .campaign-directory__grid {
   display: grid;
+  width: 100%;
   grid-template-columns: repeat(2, minmax(0, 1fr));
   gap: 1rem;
+  align-items: stretch;
 }
 
 article .campaign-directory__card {
   --campaign-directory-accent: var(--tertiary);
-  position: relative;
+  --campaign-directory-art: none;
   display: flex;
+  min-width: 0;
   min-height: 18rem;
   flex-direction: column;
   justify-content: flex-end;
   overflow: hidden;
   border: 1px solid var(--isr-rule);
   border-radius: 0.55rem;
-  background: #111;
+  background-image:
+    linear-gradient(0deg, rgba(5, 7, 8, 0.9) 0%, rgba(5, 7, 8, 0.64) 38%, rgba(5, 7, 8, 0.16) 74%, rgba(5, 7, 8, 0.04) 100%),
+    linear-gradient(90deg, rgba(5, 7, 8, 0.2), transparent 60%),
+    var(--campaign-directory-art);
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
   box-shadow: 0 8px 22px rgba(35, 28, 20, 0.12);
   color: #fff8e8;
   text-decoration: none;
-  isolation: isolate;
-  transition: transform 160ms ease, box-shadow 160ms ease, border-color 160ms ease;
+  transition: transform 160ms ease, border-color 160ms ease, box-shadow 160ms ease;
 }
 
 article .campaign-directory__card:hover {
@@ -71,33 +85,7 @@ article .campaign-directory__card:focus-visible {
   outline-offset: 3px;
 }
 
-.campaign-directory__card::after {
-  content: "";
-  position: absolute;
-  inset: 0;
-  z-index: 1;
-  background:
-    linear-gradient(0deg, rgba(5, 7, 8, 0.9) 0%, rgba(5, 7, 8, 0.64) 38%, rgba(5, 7, 8, 0.16) 74%, rgba(5, 7, 8, 0.04) 100%),
-    linear-gradient(90deg, rgba(5, 7, 8, 0.2), transparent 60%);
-  pointer-events: none;
-}
-
-.campaign-directory__image {
-  position: absolute;
-  inset: 0;
-  z-index: 0;
-  display: block;
-  width: 100%;
-  height: 100%;
-  background-position: center;
-  background-size: cover;
-  background-repeat: no-repeat;
-  pointer-events: none;
-}
-
 .campaign-directory__copy {
-  position: relative;
-  z-index: 2;
   padding: 1.15rem;
   text-shadow: 0 2px 12px rgba(0, 0, 0, 0.72);
 }
@@ -136,64 +124,23 @@ article .campaign-directory__card:focus-visible {
   grid-template-columns: 1fr;
 }
 
-/* Archived campaigns use normal-flow content so compact cards can never overlap nearby sections. */
 article .campaign-directory__card--archived {
-  display: grid;
-  min-height: 0;
-  grid-template-columns: minmax(10rem, 32%) minmax(0, 1fr);
-  overflow: hidden;
-  background: color-mix(in srgb, var(--light) 94%, var(--lightgray) 6%);
+  min-height: 10rem;
+  background-image:
+    linear-gradient(90deg, rgba(7, 9, 10, 0.93) 0%, rgba(7, 9, 10, 0.78) 42%, rgba(7, 9, 10, 0.5) 72%, rgba(7, 9, 10, 0.34) 100%),
+    var(--campaign-directory-art);
+  background-position: center;
   box-shadow: 0 5px 14px rgba(35, 28, 20, 0.08);
-  color: var(--dark);
-}
-
-article .campaign-directory__card--archived:hover {
-  color: var(--dark);
-}
-
-.campaign-directory__card--archived::after {
-  display: none;
-}
-
-.campaign-directory__card--archived .campaign-directory__image {
-  position: relative;
-  inset: auto;
-  width: 100%;
-  height: 100%;
-  min-height: 9.25rem;
-  filter: saturate(0.55) contrast(0.92);
-  opacity: 0.88;
 }
 
 .campaign-directory__card--archived .campaign-directory__copy {
-  position: static;
-  align-self: center;
-  padding: 1rem 1.1rem;
-  text-shadow: none;
-}
-
-.campaign-directory__card--archived .campaign-directory__status {
-  color: var(--darkgray);
-}
-
-.campaign-directory__card--archived .campaign-directory__eyebrow {
-  color: var(--campaign-directory-accent);
+  max-width: 44rem;
 }
 
 .campaign-directory__card--archived .campaign-directory__title {
-  color: var(--dark);
   font-size: clamp(1.35rem, 2.4vw, 1.8rem);
   line-height: 1.08;
 }
-
-.campaign-directory__card--archived .campaign-directory__subtitle {
-  color: var(--darkgray);
-}
-
-.campaign-directory__card--kingmaker { --campaign-directory-accent: #d2a34f; }
-.campaign-directory__card--abomination-vaults { --campaign-directory-accent: #78c7ad; }
-.campaign-directory__card--claws-of-the-tyrant { --campaign-directory-accent: #c7655f; }
-.campaign-directory__card--season-of-ghosts { --campaign-directory-accent: #dfaa55; }
 
 @media (max-width: 800px) {
   .campaign-directory__grid,
@@ -207,20 +154,11 @@ article .campaign-directory__card--archived:hover {
   }
 
   article .campaign-directory__card--archived {
-    min-height: 0;
-    grid-template-columns: 8rem minmax(0, 1fr);
+    min-height: 8.5rem;
   }
 
   .campaign-directory__copy {
     padding: 0.95rem;
-  }
-
-  .campaign-directory__card--archived .campaign-directory__copy {
-    padding: 0.85rem 0.95rem;
-  }
-
-  .campaign-directory__card--archived .campaign-directory__image {
-    min-height: 8rem;
   }
 
   .campaign-directory__title {
@@ -248,16 +186,7 @@ article .campaign-directory__card--archived:hover {
   }
 
   article .campaign-directory__card--archived {
-    min-height: 0;
-    grid-template-columns: 6.5rem minmax(0, 1fr);
-  }
-
-  .campaign-directory__card--archived .campaign-directory__image {
-    min-height: 7rem;
-  }
-
-  .campaign-directory__card--archived .campaign-directory__copy {
-    padding: 0.72rem 0.8rem;
+    min-height: 7.75rem;
   }
 
   .campaign-directory__subtitle {
