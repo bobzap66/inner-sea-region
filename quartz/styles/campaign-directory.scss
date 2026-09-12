@@ -1,4 +1,4 @@
-/* Campaign directory — visual entry point for the four campaign archives. */
+/* Campaign directory — visual entry point for active and archived campaign records. */
 
 .center:has(.campaign-directory) {
   .content-meta {
@@ -23,6 +23,16 @@
   color: var(--darkgray);
   font-size: 1.02rem;
   line-height: 1.65;
+}
+
+.campaign-directory__section + .campaign-directory__section {
+  margin-top: 2.4rem;
+}
+
+.campaign-directory__section-title {
+  margin: 0 0 0.85rem;
+  color: var(--dark);
+  font-size: clamp(1.25rem, 2.2vw, 1.6rem);
 }
 
 .campaign-directory__grid {
@@ -92,13 +102,18 @@ article .campaign-directory__card:focus-visible {
   text-shadow: 0 2px 12px rgba(0, 0, 0, 0.72);
 }
 
-.campaign-directory__eyebrow {
+.campaign-directory__eyebrow,
+.campaign-directory__status {
   margin-bottom: 0.3rem;
   color: color-mix(in srgb, var(--campaign-directory-accent) 78%, #fff 22%);
   font-size: 0.62rem;
   font-weight: 700;
   letter-spacing: 0.15em;
   text-transform: uppercase;
+}
+
+.campaign-directory__status {
+  color: rgba(255, 248, 232, 0.72);
 }
 
 .campaign-directory__title {
@@ -117,19 +132,47 @@ article .campaign-directory__card:focus-visible {
   line-height: 1.4;
 }
 
+.campaign-directory__grid--archived {
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+}
+
+article .campaign-directory__card--archived {
+  min-height: 11rem;
+  box-shadow: 0 5px 14px rgba(35, 28, 20, 0.08);
+}
+
+.campaign-directory__card--archived::after {
+  background:
+    linear-gradient(0deg, rgba(8, 9, 10, 0.92) 0%, rgba(8, 9, 10, 0.72) 46%, rgba(8, 9, 10, 0.28) 100%);
+}
+
+.campaign-directory__card--archived .campaign-directory__image {
+  filter: saturate(0.55) contrast(0.92);
+  opacity: 0.82;
+}
+
+.campaign-directory__card--archived .campaign-directory__title {
+  font-size: clamp(1.35rem, 2.4vw, 1.8rem);
+}
+
 .campaign-directory__card--kingmaker { --campaign-directory-accent: #d2a34f; }
 .campaign-directory__card--abomination-vaults { --campaign-directory-accent: #78c7ad; }
 .campaign-directory__card--claws-of-the-tyrant { --campaign-directory-accent: #c7655f; }
 .campaign-directory__card--season-of-ghosts { --campaign-directory-accent: #dfaa55; }
 
 @media (max-width: 800px) {
-  .campaign-directory__grid {
+  .campaign-directory__grid,
+  .campaign-directory__grid--archived {
     grid-template-columns: 1fr;
     gap: 0.75rem;
   }
 
   article .campaign-directory__card {
     min-height: 12rem;
+  }
+
+  article .campaign-directory__card--archived {
+    min-height: 9rem;
   }
 
   .campaign-directory__copy {
@@ -153,9 +196,17 @@ article .campaign-directory__card:focus-visible {
     font-size: 0.94rem;
   }
 
+  .campaign-directory__section + .campaign-directory__section {
+    margin-top: 1.8rem;
+  }
+
   article .campaign-directory__card {
     min-height: 9.75rem;
     border-radius: 0.42rem;
+  }
+
+  article .campaign-directory__card--archived {
+    min-height: 7.75rem;
   }
 
   .campaign-directory__subtitle {
