@@ -44,8 +44,10 @@
 article .campaign-directory__card {
   --campaign-directory-accent: var(--tertiary);
   position: relative;
-  display: block;
+  display: flex;
   min-height: 18rem;
+  flex-direction: column;
+  justify-content: flex-end;
   overflow: hidden;
   border: 1px solid var(--isr-rule);
   border-radius: 0.55rem;
@@ -83,24 +85,20 @@ article .campaign-directory__card:focus-visible {
 .campaign-directory__image {
   position: absolute;
   inset: 0;
+  z-index: 0;
   display: block;
   width: 100%;
   height: 100%;
-  margin: 0;
-  border: 0;
-  border-radius: 0;
-  box-shadow: none;
   background-position: center;
-  background-repeat: no-repeat;
   background-size: cover;
+  background-repeat: no-repeat;
+  pointer-events: none;
 }
 
 .campaign-directory__copy {
-  position: absolute;
-  right: 1.15rem;
-  bottom: 1.15rem;
-  left: 1.15rem;
+  position: relative;
   z-index: 2;
+  padding: 1.15rem;
   text-shadow: 0 2px 12px rgba(0, 0, 0, 0.72);
 }
 
@@ -214,9 +212,7 @@ article .campaign-directory__card--archived:hover {
   }
 
   .campaign-directory__copy {
-    right: 0.95rem;
-    bottom: 0.95rem;
-    left: 0.95rem;
+    padding: 0.95rem;
   }
 
   .campaign-directory__card--archived .campaign-directory__copy {
