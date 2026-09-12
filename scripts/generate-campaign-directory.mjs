@@ -24,7 +24,8 @@ function esc(value = "") {
 }
 
 function renderCard(c, compact = false) {
-  return `<a class="campaign-directory__card${compact ? " campaign-directory__card--archived" : ""}" href="./${encodeURIComponent(c.folder)}/" style="--campaign-directory-accent:${esc(c.accent)}"><img class="campaign-directory__image" src="../${esc(c.image)}" alt="${esc(c.alt)}"><div class="campaign-directory__copy">${compact ? '<div class="campaign-directory__status">Archived</div>' : ""}<div class="campaign-directory__eyebrow">${esc(c.eyebrow)}</div><h2 class="campaign-directory__title">${esc(c.title)}</h2><div class="campaign-directory__subtitle">${esc(c.summary)}</div></div></a>`
+  const image = `../${esc(c.image)}`
+  return `<a class="campaign-directory__card${compact ? " campaign-directory__card--archived" : ""}" href="./${encodeURIComponent(c.folder)}/" style="--campaign-directory-accent:${esc(c.accent)}"><span class="campaign-directory__image" role="img" aria-label="${esc(c.alt)}" style="background-image:url('${image}')"></span><div class="campaign-directory__copy">${compact ? '<div class="campaign-directory__status">Archived</div>' : ""}<div class="campaign-directory__eyebrow">${esc(c.eyebrow)}</div><h2 class="campaign-directory__title">${esc(c.title)}</h2><div class="campaign-directory__subtitle">${esc(c.summary)}</div></div></a>`
 }
 
 function renderSection(title, items, compact = false) {
