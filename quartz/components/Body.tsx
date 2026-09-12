@@ -92,16 +92,28 @@ const golarionMonths = [
   "Kuthona",
 ]
 
-function parseCampaignDate(value: unknown) {
+type CampaignDateParts = { year: number; month: number; day: number }
+
+function validCampaignDate(year: number, month: number, day: number): CampaignDateParts | undefined {
+  if (!Number.isInteger(year) || !Number.isInteger(month) || !Number.isInteger(day)) return undefined
+  if (month < 1 || month > 12 || day < 1 || day > 30) return undefined
+  return { year, month, day }
+}
+
+function parseCampaignDate(value: unknown): CampaignDateParts | undefined {
+  if (value && typeof value === "object") {
+    const record = value as Record<string, unknown>
+    const year = Number(record.year)
+    const month = Number(record.month)
+    const day = Number(record.day)
+    const parsedObject = validCampaignDate(year, month, day)
+    if (parsedObject) return parsedObject
+  }
+
   const match = /^(\d{4})-(\d{2})-(\d{2})$/.exec(String(value ?? "").trim())
   if (!match) return undefined
 
-  const year = Number(match[1])
-  const month = Number(match[2])
-  const day = Number(match[3])
-  if (month < 1 || month > 12 || day < 1 || day > 30) return undefined
-
-  return { year, month, day }
+  return validCampaignDate(Number(match[1]), Number(match[2]), Number(match[3]))
 }
 
 function formatCampaignDate(value: unknown) {
@@ -116,6 +128,9 @@ function formatCampaignRange(startValue: unknown, endValue: unknown) {
   if (!start || !end) return undefined
 
   if (start.year === end.year && start.month === end.month) {
+    if (start.day === end.day) {
+      return `${start.day} ${golarionMonths[start.month - 1]} ${start.year} AR`
+    }
     return `${start.day}–${end.day} ${golarionMonths[start.month - 1]} ${start.year} AR`
   }
 
