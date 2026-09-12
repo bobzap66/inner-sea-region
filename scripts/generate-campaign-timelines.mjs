@@ -130,11 +130,12 @@ function renderEntry(entry, index, isFirstInGroup) {
   const title = entry.fm.timeline_title || entry.fm.title || cleanTitle(entry.basename, entry.fm.session_number)
   const label = entry.fm.timeline_label || entry.fm.label || (entry.fm.session_number ? `Session ${entry.fm.session_number}` : entry.fm.type || "Campaign record")
   const summary = entry.fm.timeline_summary || entry.fm.summary || ""
+  const dateLabel = entry.fm.timeline_date_label || entry.fm.date_label || ""
   const lines = [
     `> [!timeline-${kind}-${side}] ${title}`,
     `> *${label}*`,
     `>`,
-    `> ${formatRange(entry.start, entry.end)}`,
+    `> ${dateLabel || formatRange(entry.start, entry.end)}`,
   ]
   if (summary) lines.push(`>`, `> ${summary}`)
 
@@ -198,8 +199,12 @@ for (const timeline of timelineFiles) {
     if (String(fm.draft || "").toLowerCase() === "true") continue
     if (String(fm.publish || "").toLowerCase() === "false") continue
 
-    const startRaw = fm.campaign_date_start || fm.campaign_date || fm.event_start
-    const endRaw = fm.campaign_date_end || fm.campaign_date || fm.event_end || startRaw
+    const hasCampaignDate = Boolean(fm.campaign_date_start || fm.campaign_date)
+    const explicitlyIncluded = String(fm.timeline_include || "").toLowerCase() === "true"
+    if (!hasCampaignDate && !explicitlyIncluded) continue
+
+    const startRaw = fm.campaign_date_start || fm.campaign_date || fm.event_start || fm.event_date
+    const endRaw = fm.campaign_date_end || fm.campaign_date || fm.event_end || fm.event_date || startRaw
     const start = parseGolarionDate(startRaw)
     const end = parseGolarionDate(endRaw)
     if (!start || !end) continue
