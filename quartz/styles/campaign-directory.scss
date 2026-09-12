@@ -1,10 +1,7 @@
 /* Campaign directory — visual entry point for active and archived campaign records. */
 
 .center:has(.campaign-directory) {
-  .content-meta {
-    display: none;
-  }
-
+  .content-meta { display: none; }
   article > p:first-of-type::first-letter {
     float: none;
     margin: 0;
@@ -13,9 +10,7 @@
   }
 }
 
-.campaign-directory {
-  margin-top: 1.25rem;
-}
+.campaign-directory { margin-top: 1.25rem; }
 
 .campaign-directory__intro {
   max-width: 48rem;
@@ -28,12 +23,9 @@
 .campaign-directory__section {
   display: block;
   width: 100%;
-  clear: both;
 }
 
-.campaign-directory__section + .campaign-directory__section {
-  margin-top: 2.4rem;
-}
+.campaign-directory__section + .campaign-directory__section { margin-top: 2.4rem; }
 
 .campaign-directory__section-title {
   margin: 0 0 0.85rem;
@@ -43,15 +35,14 @@
 
 .campaign-directory__grid {
   display: grid;
-  width: 100%;
   grid-template-columns: repeat(2, minmax(0, 1fr));
   gap: 1rem;
-  align-items: stretch;
 }
 
 article .campaign-directory__card {
   --campaign-directory-accent: var(--tertiary);
   --campaign-directory-art: none;
+  position: relative;
   display: flex;
   min-width: 0;
   min-height: 18rem;
@@ -60,6 +51,7 @@ article .campaign-directory__card {
   overflow: hidden;
   border: 1px solid var(--isr-rule);
   border-radius: 0.55rem;
+  background-color: #111;
   background-image:
     linear-gradient(0deg, rgba(5, 7, 8, 0.9) 0%, rgba(5, 7, 8, 0.64) 38%, rgba(5, 7, 8, 0.16) 74%, rgba(5, 7, 8, 0.04) 100%),
     linear-gradient(90deg, rgba(5, 7, 8, 0.2), transparent 60%),
@@ -69,23 +61,18 @@ article .campaign-directory__card {
   background-repeat: no-repeat;
   box-shadow: 0 8px 22px rgba(35, 28, 20, 0.12);
   color: #fff8e8;
-  text-decoration: none;
   transition: transform 160ms ease, border-color 160ms ease, box-shadow 160ms ease;
 }
 
 article .campaign-directory__card:hover {
   border-color: color-mix(in srgb, var(--campaign-directory-accent) 65%, var(--isr-rule) 35%);
   box-shadow: 0 12px 28px rgba(35, 28, 20, 0.18);
-  color: #fff8e8;
   transform: translateY(-2px);
 }
 
-article .campaign-directory__card:focus-visible {
-  outline: 3px solid var(--campaign-directory-accent);
-  outline-offset: 3px;
-}
-
 .campaign-directory__copy {
+  position: relative;
+  z-index: 1;
   padding: 1.15rem;
   text-shadow: 0 2px 12px rgba(0, 0, 0, 0.72);
 }
@@ -100,21 +87,35 @@ article .campaign-directory__card:focus-visible {
   text-transform: uppercase;
 }
 
-.campaign-directory__status {
-  color: rgba(255, 248, 232, 0.72);
-}
+.campaign-directory__status { color: rgba(255, 248, 232, 0.72); }
 
 .campaign-directory__title {
   margin: 0;
-  color: #fff8e8;
   font-family: var(--headerFont);
   font-size: clamp(1.75rem, 3vw, 2.45rem);
   font-weight: 600;
   line-height: 1;
 }
 
+.campaign-directory__title a {
+  color: #fff8e8;
+  text-decoration: none;
+}
+
+.campaign-directory__title a::after {
+  content: "";
+  position: absolute;
+  inset: 0;
+  z-index: 3;
+}
+
+.campaign-directory__title a:focus-visible::after {
+  outline: 3px solid var(--campaign-directory-accent);
+  outline-offset: -4px;
+}
+
 .campaign-directory__subtitle {
-  margin-top: 0.45rem;
+  margin: 0.45rem 0 0;
   color: rgba(255, 248, 232, 0.86);
   font-size: 0.86rem;
   line-height: 1.4;
@@ -140,23 +141,16 @@ article .campaign-directory__card:focus-visible {
   --campaign-directory-art: url("/lantern-and-ledger/assets/images/abomination-vaults/abomination-vaults-banner.png");
 }
 
-.campaign-directory__grid--archived {
-  grid-template-columns: 1fr;
-}
+.campaign-directory__grid--archived { grid-template-columns: 1fr; }
 
 article .campaign-directory__card--archived {
   min-height: 10rem;
   background-image:
     linear-gradient(90deg, rgba(7, 9, 10, 0.93) 0%, rgba(7, 9, 10, 0.78) 42%, rgba(7, 9, 10, 0.5) 72%, rgba(7, 9, 10, 0.34) 100%),
     var(--campaign-directory-art);
-  background-position: center;
-  box-shadow: 0 5px 14px rgba(35, 28, 20, 0.08);
 }
 
-.campaign-directory__card--archived .campaign-directory__copy {
-  max-width: 44rem;
-}
-
+.campaign-directory__card--archived .campaign-directory__copy { max-width: 44rem; }
 .campaign-directory__card--archived .campaign-directory__title {
   font-size: clamp(1.35rem, 2.4vw, 1.8rem);
   line-height: 1.08;
@@ -169,53 +163,27 @@ article .campaign-directory__card--archived {
     gap: 0.75rem;
   }
 
-  article .campaign-directory__card {
-    min-height: 12rem;
-  }
-
-  article .campaign-directory__card--archived {
-    min-height: 8.5rem;
-  }
-
-  .campaign-directory__copy {
-    padding: 0.95rem;
-  }
-
-  .campaign-directory__title {
-    font-size: clamp(1.55rem, 7vw, 2rem);
-  }
+  article .campaign-directory__card { min-height: 12rem; }
+  article .campaign-directory__card--archived { min-height: 8.5rem; }
+  .campaign-directory__copy { padding: 0.95rem; }
+  .campaign-directory__title { font-size: clamp(1.55rem, 7vw, 2rem); }
 }
 
 @media (max-width: 520px) {
-  .campaign-directory {
-    margin-top: 1rem;
-  }
-
+  .campaign-directory { margin-top: 1rem; }
   .campaign-directory__intro {
     margin-bottom: 1.15rem;
     font-size: 0.94rem;
   }
-
-  .campaign-directory__section + .campaign-directory__section {
-    margin-top: 1.8rem;
-  }
-
+  .campaign-directory__section + .campaign-directory__section { margin-top: 1.8rem; }
   article .campaign-directory__card {
     min-height: 9.75rem;
     border-radius: 0.42rem;
   }
-
-  article .campaign-directory__card--archived {
-    min-height: 7.75rem;
-  }
-
-  .campaign-directory__subtitle {
-    display: none;
-  }
+  article .campaign-directory__card--archived { min-height: 7.75rem; }
+  .campaign-directory__subtitle { display: none; }
 }
 
 @media (prefers-reduced-motion: reduce) {
-  article .campaign-directory__card {
-    transition: none;
-  }
+  article .campaign-directory__card { transition: none; }
 }
