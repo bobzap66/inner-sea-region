@@ -64,12 +64,17 @@ function parseManualEvents(text) {
 
 function parseGolarionDate(value) {
   if (!value) return null
-  const match = /^(\d{4})(?:-([A-Za-z]+)(?:-(\d{1,2}))?)?$/.exec(String(value).trim())
+  const match = /^(\d{4})(?:-([A-Za-z]+|\d{1,2})(?:-(\d{1,2}))?)?$/.exec(String(value).trim())
   if (!match) return null
   const year = Number(match[1])
   if (!match[2]) return { raw: value, year, month: null, monthName: null, day: null }
-  const month = MONTH_INDEX.get(match[2].toLowerCase())
-  if (!month) return null
+
+  const monthToken = match[2]
+  const month = /^\d+$/.test(monthToken)
+    ? Number(monthToken)
+    : MONTH_INDEX.get(monthToken.toLowerCase())
+  if (!month || month < 1 || month > 12) return null
+
   const day = match[3] ? Number(match[3]) : null
   return { raw: value, year, month, monthName: MONTHS[month - 1], day }
 }
@@ -230,6 +235,7 @@ for (const timeline of timelineFiles) {
     const hasCampaignDate = Boolean(fm.campaign_date_start || fm.campaign_date)
     const explicitlyIncluded = String(fm.timeline_include || "").toLowerCase() === "true"
     if (!hasCampaignDate && !explicitlyIncluded) continue
+    if (String(fm.source_layer || "").toLowerCase() === "reconstructed-retrospective" && !explicitlyIncluded) continue
 
     const startRaw = fm.campaign_date_start || fm.campaign_date || fm.event_start || fm.event_date
     const endRaw = fm.campaign_date_end || fm.campaign_date || fm.event_end || fm.event_date || startRaw
